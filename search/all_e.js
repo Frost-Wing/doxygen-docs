@@ -6,5 +6,9 @@ var searchData=
   ['pci_5fread_5fword_3',['pci_read_word',['../pci_8h.html#a835fb39b0f563203af892e2bffbef04d',1,'pci.h']]],
   ['physical_5fbase_4',['physical_base',['../structlimine__kernel__address__response.html#a29f73b12cf0a427cec60e21a7663b86e',1,'limine_kernel_address_response']]],
   ['pitch_5',['pitch',['../structflanterm__fb__context.html#a2032e34451ef8f69e09a5ca1837625af',1,'flanterm_fb_context::pitch()'],['../structlimine__video__mode.html#a5b1d4b9e9edbcab07e054da87a5bafd3',1,'limine_video_mode::pitch()'],['../structlimine__framebuffer.html#aeb59aad798c9422e1ff1eac95f5b1af4',1,'limine_framebuffer::pitch()']]],
-  ['probe_5fpci_6',['probe_pci',['../pci_8h.html#ac78377dc4a7021491c3f3da150e3e4a9',1,'pci.h']]]
+  ['printdec_6',['printdec',['../graphics_8h.html#ac6f46a60de5cd77231f7c63078f02ed5',1,'graphics.h']]],
+  ['printf_7',['printf',['../graphics_8h.html#a133c04c35a1c14c6f8d8078831705661',1,'graphics.h']]],
+  ['printhex_8',['printhex',['../graphics_8h.html#a3d7a0addd4d156ac66ba9927ade4c80a',1,'graphics.h']]],
+  ['probe_5fpci_9',['probe_pci',['../pci_8h.html#ac78377dc4a7021491c3f3da150e3e4a9',1,'pci.h']]],
+  ['putc_10',['putc',['../graphics_8h.html#acc0ee6e9643f83a5ab11722197fc25ec',1,'graphics.h']]]
 ];

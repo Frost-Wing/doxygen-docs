@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['hcf_0',['hcf',['../kernel_8h.html#a65043fd9f185ead3cb6991a681f042d2',1,'kernel.h']]],
-  ['high_5flevel_5fhalt_1',['high_level_halt',['../kernel_8h.html#a2e595f2e85354f0c91c0619ef77520f1',1,'kernel.h']]]
+  ['flanterm_5ffb_5finit_0',['flanterm_fb_init',['../fb_8h.html#a528a054c99a89ca88e860bc5242616f4',1,'fb.h']]]
 ];

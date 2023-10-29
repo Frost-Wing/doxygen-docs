@@ -1,5 +1,18 @@
 var NAVTREEINDEX1 =
 {
+"structlimine__boot__time__request.html":[1,0,5],
+"structlimine__boot__time__request.html#a2bb33bdedf13293c833b3387fd0f9996":[1,0,5,2],
+"structlimine__boot__time__request.html#ac741e449a971c01e79bc129586bb07ea":[1,0,5,1],
+"structlimine__boot__time__request.html#aed4a3ea21df499fdcfc270dbdf2c2a1d":[1,0,5,0],
+"structlimine__boot__time__response.html":[1,0,6],
+"structlimine__boot__time__response.html#af63a28446e9ff6e8b7274bd4f6439756":[1,0,6,1],
+"structlimine__boot__time__response.html#afd90e4d04eb15b0bdaecc48017e2096b":[1,0,6,0],
+"structlimine__bootloader__info__request.html":[1,0,7],
+"structlimine__bootloader__info__request.html#a1643c1df7b2de6bc939499867cdaa575":[1,0,7,2],
+"structlimine__bootloader__info__request.html#a30c667dee4dbf7241303b9f304f804bd":[1,0,7,0],
+"structlimine__bootloader__info__request.html#aa60953d2833aeb6f8527220ff432a3b1":[1,0,7,1],
+"structlimine__bootloader__info__response.html":[1,0,8],
+"structlimine__bootloader__info__response.html#a1ed2c37a8453f5d71e80af10592f90b7":[1,0,8,0],
 "structlimine__bootloader__info__response.html#a50de512e53b9aa12f1496d1a6004a897":[1,0,8,2],
 "structlimine__bootloader__info__response.html#a5e419e1bc61acda11951695e445cf2ad":[1,0,8,1],
 "structlimine__dtb__request.html":[1,0,9],
@@ -190,8 +203,11 @@ var NAVTREEINDEX1 =
 "structsdt.html#a898ea5785d4c2accb6218aaee3aedf8f":[1,0,45,3],
 "structsdt.html#abc86cd351f3f55f89154db59a7116160":[1,0,45,2],
 "structsdt.html#af558f1cd198796f424cf6cbb5a04ff87":[1,0,45,4],
-"unifont_8h.html":[2,0,0,0,11],
-"unifont_8h.html#a163c4af537fbbd21198f9b9967ea1f69":[2,0,0,0,11,0],
-"unifont_8h.html#a30f8d1b95145af31514901e324c657f7":[2,0,0,0,11,1],
-"unifont_8h_source.html":[2,0,0,0,11]
+"typescript-loader_8h.html":[2,0,0,0,11],
+"typescript-loader_8h.html#a7584c86895bc1ebfec70ecb4e337dcc0":[2,0,0,0,11,0],
+"typescript-loader_8h_source.html":[2,0,0,0,11],
+"unifont_8h.html":[2,0,0,0,12],
+"unifont_8h.html#a163c4af537fbbd21198f9b9967ea1f69":[2,0,0,0,12,0],
+"unifont_8h.html#a30f8d1b95145af31514901e324c657f7":[2,0,0,0,12,1],
+"unifont_8h_source.html":[2,0,0,0,12]
 };

@@ -1,4 +1,5 @@
 <map id="source/includes/unifont.h" name="source/includes/unifont.h">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,191,32"/>
-<area shape="rect" id="node2" href="$kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="9,80,187,107"/>
+<area shape="rect" id="node1" title="The font used in framebuffer." alt="" coords="5,5,191,32"/>
+<area shape="rect" id="node2" href="$fb_8h.html" title=" " alt="" coords="22,80,174,107"/>
+<area shape="rect" id="node3" href="$kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="9,155,187,181"/>
 </map>

@@ -9,5 +9,6 @@ var searchData=
   ['tftp_5fip_6',['tftp_ip',['../structlimine__file.html#a9d4093867da52e1f27d08be784212a67',1,'limine_file']]],
   ['tftp_5fport_7',['tftp_port',['../structlimine__file.html#a949f13c2f063dee81d733bbf380c16fb',1,'limine_file']]],
   ['thin_5ffont_8',['thin_font',['../fb_8h.html#a5db0781dd89f736c7f6b5851e3505f02',1,'fb.h']]],
-  ['type_9',['type',['../structlimine__memmap__entry.html#ac553330b3a732a61e4639940dbb085f1',1,'limine_memmap_entry']]]
+  ['type_9',['type',['../structlimine__memmap__entry.html#ac553330b3a732a61e4639940dbb085f1',1,'limine_memmap_entry']]],
+  ['typescript_2dloader_2eh_10',['typescript-loader.h',['../typescript-loader_8h.html',1,'']]]
 ];
