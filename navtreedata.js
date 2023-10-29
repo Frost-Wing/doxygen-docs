@@ -25,6 +25,12 @@
 var NAVTREE =
 [
   [ "FrostWing", "index.html", [
+    [ "FrostWing Documentations", "index.html", [
+      [ "Welcome to FrostWing 📚 documentation page!", "index.html#autotoc_md1", [
+        [ "Prerequisites", "index.html#autotoc_md2", null ],
+        [ "Information contained in this page", "index.html#autotoc_md3", null ]
+      ] ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -50,7 +56,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "acpi-shutdown_8h.html",
-"structlimine__dtb__request.html#ad533cb8eb25eca696370c13934324ff4"
+"structlimine__bootloader__info__response.html#a50de512e53b9aa12f1496d1a6004a897"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

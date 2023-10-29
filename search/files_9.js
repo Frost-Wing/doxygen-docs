@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['unifont_2eh_0',['unifont.h',['../unifont_8h.html',1,'']]]
+  ['sse_2eh_0',['sse.h',['../sse_8h.html',1,'']]],
+  ['strings_2eh_1',['strings.h',['../strings_8h.html',1,'']]]
 ];

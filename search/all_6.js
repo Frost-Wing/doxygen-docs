@@ -18,5 +18,6 @@ var searchData=
   ['font_5fwidth_15',['font_width',['../structflanterm__fb__context.html#a89d1b1e0c49362fa5f98c54dc53b4007',1,'flanterm_fb_context']]],
   ['framebuffer_16',['framebuffer',['../structflanterm__fb__context.html#a70f82a712eb98b535d678376e1047700',1,'flanterm_fb_context']]],
   ['framebuffer_5fcount_17',['framebuffer_count',['../structlimine__framebuffer__response.html#a13bb5cf3dc1eebe8500f1ebfee5694e9',1,'limine_framebuffer_response']]],
-  ['front_5fbuffer_18',['front_buffer',['../kernel_8h.html#ae7b9723068c4f63efc114d985716df3d',1,'kernel.h']]]
+  ['front_5fbuffer_18',['front_buffer',['../kernel_8h.html#ae7b9723068c4f63efc114d985716df3d',1,'kernel.h']]],
+  ['frostwing_20documentations_19',['FrostWing Documentations',['../index.html',1,'']]]
 ];
