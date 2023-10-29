@@ -12,5 +12,6 @@ var searchData=
   ['ansi_5fcolor_5fred_9',['ANSI_COLOR_RED',['../graphics_8h.html#a34995b955465f6bbb37c359173d50477',1,'graphics.h']]],
   ['ansi_5fcolor_5freset_10',['ANSI_COLOR_RESET',['../graphics_8h.html#a92a364c2b863dde1a024a77eac2a5b3b',1,'graphics.h']]],
   ['ansi_5fcolor_5fyellow_11',['ANSI_COLOR_YELLOW',['../graphics_8h.html#a5a123b382640b3aa65dd5db386002fbc',1,'graphics.h']]],
-  ['ansi_5fcolours_12',['ansi_colours',['../structflanterm__fb__context.html#a9794d1fec0260c611d46987493342d86',1,'flanterm_fb_context']]]
+  ['ansi_5fcolours_12',['ansi_colours',['../structflanterm__fb__context.html#a9794d1fec0260c611d46987493342d86',1,'flanterm_fb_context']]],
+  ['autoflush_13',['autoflush',['../structflanterm__context.html#a9488263ce45254f48b3f9d6e6634798a',1,'flanterm_context']]]
 ];

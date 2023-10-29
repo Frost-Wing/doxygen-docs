@@ -1,8 +1,13 @@
 var annotated_dup =
 [
+    [ "flanterm_context", "structflanterm__context.html", "structflanterm__context" ],
     [ "flanterm_fb_char", "structflanterm__fb__char.html", "structflanterm__fb__char" ],
     [ "flanterm_fb_context", "structflanterm__fb__context.html", "structflanterm__fb__context" ],
     [ "flanterm_fb_queue_item", "structflanterm__fb__queue__item.html", "structflanterm__fb__queue__item" ],
+    [ "GLContext", "structGLContext.html", "structGLContext" ],
+    [ "ivec2", "structivec2.html", "structivec2" ],
+    [ "ivec3", "structivec3.html", "structivec3" ],
+    [ "ivec4", "structivec4.html", "structivec4" ],
     [ "limine_5_level_paging_request", "structlimine__5__level__paging__request.html", "structlimine__5__level__paging__request" ],
     [ "limine_5_level_paging_response", "structlimine__5__level__paging__response.html", "structlimine__5__level__paging__response" ],
     [ "limine_boot_time_request", "structlimine__boot__time__request.html", "structlimine__boot__time__request" ],
@@ -45,5 +50,13 @@ var annotated_dup =
     [ "limine_terminal_response", "structlimine__terminal__response.html", "structlimine__terminal__response" ],
     [ "limine_uuid", "structlimine__uuid.html", "structlimine__uuid" ],
     [ "limine_video_mode", "structlimine__video__mode.html", "structlimine__video__mode" ],
-    [ "sdt", "structsdt.html", "structsdt" ]
+    [ "mat3x3", "structmat3x3.html", "structmat3x3" ],
+    [ "mat4x4", "structmat4x4.html", "structmat4x4" ],
+    [ "sdt", "structsdt.html", "structsdt" ],
+    [ "uvec2", "structuvec2.html", "structuvec2" ],
+    [ "uvec3", "structuvec3.html", "structuvec3" ],
+    [ "uvec4", "structuvec4.html", "structuvec4" ],
+    [ "vec2", "structvec2.html", "structvec2" ],
+    [ "vec3", "structvec3.html", "structvec3" ],
+    [ "vec4", "structvec4.html", "structvec4" ]
 ];

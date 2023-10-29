@@ -3,5 +3,19 @@ var searchData=
   ['getclassid_0',['getClassId',['../pci_8h.html#a2ca7d5d211d2a81afb6a1b2da54a8a3e',1,'pci.h']]],
   ['getdeviceid_1',['getDeviceID',['../pci_8h.html#a16b0b8a25209ea16a5b9640db79c3984',1,'pci.h']]],
   ['getsubclassid_2',['getSubClassId',['../pci_8h.html#a574f8d8b1fe1743f9a393cd446df0b76',1,'pci.h']]],
-  ['getvendorid_3',['getVendorID',['../pci_8h.html#a12a1a1ed0a8e0f888dc839e1457924ef',1,'pci.h']]]
+  ['getvendorid_3',['getVendorID',['../pci_8h.html#a12a1a1ed0a8e0f888dc839e1457924ef',1,'pci.h']]],
+  ['glclear_4',['glClear',['../glbackend_8h.html#ac55af64e4e0ae8d1a8d801dcfb3885dc',1,'glbackend.h']]],
+  ['glclearcolor_5',['glClearColor',['../glbackend_8h.html#ab4a48f413cab43b879b1edcc5f814b1d',1,'glbackend.h']]],
+  ['glcontextinitialized_6',['glContextInitialized',['../glcontext_8h.html#ad15de6557973fb6df86e59c41bbe9f0c',1,'glcontext.h']]],
+  ['glcreatecontext_7',['glCreateContext',['../glcontext_8h.html#af28b9b195bfc73751f0463e8ba5e6ece',1,'glcontext.h']]],
+  ['glcreatecontextcustom_8',['glCreateContextCustom',['../glcontext_8h.html#ac7521362c251f02e027981ec1e3ca7dd',1,'glcontext.h']]],
+  ['gldestroycontext_9',['glDestroyContext',['../glcontext_8h.html#ac8eb10e34ad828ecfbed4c20c1f97121',1,'glcontext.h']]],
+  ['gldrawline_10',['glDrawLine',['../glbackend_8h.html#a7ec4196be26a5886ece14f7cb22ce791',1,'glbackend.h']]],
+  ['gldrawtriangle_11',['glDrawTriangle',['../glbackend_8h.html#a425d7cebf5a93619cb6dbc7ee5f1e219',1,'glbackend.h']]],
+  ['glgetcurrentcontext_12',['glGetCurrentContext',['../glcontext_8h.html#a29a2208aa65f5adea4067be2bb8f6cb9',1,'glcontext.h']]],
+  ['glmatrixidentity3x3_13',['glMatrixIdentity3x3',['../glmat_8h.html#a53315a98dd652974c56481297e1127be',1,'glmat.h']]],
+  ['glmatrixidentity4x4_14',['glMatrixIdentity4x4',['../glmat_8h.html#a6572e3298744dadb4cccbd3b5110d218',1,'glmat.h']]],
+  ['glmatrixortho_15',['glMatrixOrtho',['../glmat_8h.html#ac98cb377149a8398756623a5b4875890',1,'glmat.h']]],
+  ['glmatrixperspective_16',['glMatrixPerspective',['../glmat_8h.html#a27471a3eb64e874973f3266e9255147c',1,'glmat.h']]],
+  ['glwritepixel_17',['glWritePixel',['../glbackend_8h.html#a19b3d58ad50a7dc82e37ed9bd6ba500c',1,'glbackend.h']]]
 ];
