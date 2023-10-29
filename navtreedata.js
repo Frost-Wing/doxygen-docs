@@ -50,7 +50,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "acpi-shutdown_8h.html",
-"structlimine__efi__system__table__request.html#a00ae581d9ab3988f3cebc2d5df60511f"
+"structlimine__dtb__request.html#ad533cb8eb25eca696370c13934324ff4"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

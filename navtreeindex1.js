@@ -1,5 +1,11 @@
 var NAVTREEINDEX1 =
 {
+"structlimine__dtb__request.html#ad533cb8eb25eca696370c13934324ff4":[0,0,9,1],
+"structlimine__dtb__request.html#ad7a49dcd6ecbfb39a7414f96378b53f9":[0,0,9,0],
+"structlimine__dtb__response.html":[0,0,10],
+"structlimine__dtb__response.html#a4468c0e68fc704bf5875a52317025b04":[0,0,10,0],
+"structlimine__dtb__response.html#aed32af46b70e6ffd089edf82241365c0":[0,0,10,1],
+"structlimine__efi__system__table__request.html":[0,0,11],
 "structlimine__efi__system__table__request.html#a00ae581d9ab3988f3cebc2d5df60511f":[0,0,11,1],
 "structlimine__efi__system__table__request.html#ad905bca90fab9eaab2abff2673d465b6":[0,0,11,2],
 "structlimine__efi__system__table__request.html#afd4b8c2980df9d86e845b4aa78aeed56":[0,0,11,0],
