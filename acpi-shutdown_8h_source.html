@@ -87,21 +87,22 @@ $(document).ready(function(){initNavTree('acpi-shutdown_8h_source.html',''); ini
   <div class="headertitle"><div class="title">acpi-shutdown.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="acpi-shutdown_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef _ACPI_SHUTDOWN_HACK_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define _ACPI_SHUTDOWN_HACK_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="acpi-shutdown_8h.html#aaa95bec6a56db5243a716eee6daa9610">    7</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="acpi-shutdown_8h.html#aaa95bec6a56db5243a716eee6daa9610">acpi_shutdown_hack</a>(</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>        uintptr_t direct_map_base,</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>        <span class="keywordtype">void</span>   *(*find_sdt)(<span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_variable" href="acpi_8h.html#a7df4f23794127d1af7b8361d982c6ee4">signature</a>, <span class="keywordtype">size_t</span> index),</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>        uint8_t (*<a class="code hl_function" href="hal_8h.html#a2e1e8e2c5724c1e8fd2dff2eada06479">inb</a>)(uint16_t port),</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        uint16_t (*<a class="code hl_function" href="hal_8h.html#a7e530bb2b8a1aa77bc54b25e98838982">inw</a>)(uint16_t port),</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        <span class="keywordtype">void</span>    (*<a class="code hl_function" href="hal_8h.html#a300af536e3541854f2c4ca2e4a080a8c">outb</a>)(uint16_t port, uint8_t value),</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        <span class="keywordtype">void</span>    (*<a class="code hl_function" href="hal_8h.html#a8ee7b871e137bbf130dcb5a682f0db85">outw</a>)(uint16_t port, uint16_t value)</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    );</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#endif</span></div>
+<a href="acpi-shutdown_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#ifndef _ACPI_SHUTDOWN_HACK_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#define _ACPI_SHUTDOWN_HACK_H</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="acpi-shutdown_8h.html#aaa95bec6a56db5243a716eee6daa9610">   17</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="acpi-shutdown_8h.html#aaa95bec6a56db5243a716eee6daa9610">acpi_shutdown_hack</a>(</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        uintptr_t direct_map_base,</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <span class="keywordtype">void</span>   *(*find_sdt)(<span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_variable" href="acpi_8h.html#a7df4f23794127d1af7b8361d982c6ee4">signature</a>, <span class="keywordtype">size_t</span> index),</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        uint8_t (*<a class="code hl_function" href="hal_8h.html#a2e1e8e2c5724c1e8fd2dff2eada06479">inb</a>)(uint16_t port),</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        uint16_t (*<a class="code hl_function" href="hal_8h.html#a7e530bb2b8a1aa77bc54b25e98838982">inw</a>)(uint16_t port),</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <span class="keywordtype">void</span>    (*<a class="code hl_function" href="hal_8h.html#a300af536e3541854f2c4ca2e4a080a8c">outb</a>)(uint16_t port, uint8_t value),</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <span class="keywordtype">void</span>    (*<a class="code hl_function" href="hal_8h.html#a8ee7b871e137bbf130dcb5a682f0db85">outw</a>)(uint16_t port, uint16_t value)</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    );</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aacpi-shutdown_8h_html_aaa95bec6a56db5243a716eee6daa9610"><div class="ttname"><a href="acpi-shutdown_8h.html#aaa95bec6a56db5243a716eee6daa9610">acpi_shutdown_hack</a></div><div class="ttdeci">int acpi_shutdown_hack(uintptr_t direct_map_base, void *(*find_sdt)(const char *signature, size_t index), uint8_t(*inb)(uint16_t port), uint16_t(*inw)(uint16_t port), void(*outb)(uint16_t port, uint8_t value), void(*outw)(uint16_t port, uint16_t value))</div></div>
 <div class="ttc" id="aacpi_8h_html_a7df4f23794127d1af7b8361d982c6ee4"><div class="ttname"><a href="acpi_8h.html#a7df4f23794127d1af7b8361d982c6ee4">signature</a></div><div class="ttdeci">char signature[4]</div><div class="ttdef"><b>Definition:</b> acpi.h:0</div></div>
 <div class="ttc" id="ahal_8h_html_a2e1e8e2c5724c1e8fd2dff2eada06479"><div class="ttname"><a href="hal_8h.html#a2e1e8e2c5724c1e8fd2dff2eada06479">inb</a></div><div class="ttdeci">uint8_t inb(uint16_t port)</div></div>
