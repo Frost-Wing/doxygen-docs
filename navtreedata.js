@@ -31,6 +31,21 @@ var NAVTREE =
         [ "Information contained in this page", "index.html#autotoc_md3", null ]
       ] ]
     ] ],
+    [ "FrostWing Operating System", "md_readme.html", [
+      [ "Table of Contents", "md_readme.html#autotoc_md5", null ],
+      [ "Images", "md_readme.html#autotoc_md6", null ],
+      [ "Getting Started", "md_readme.html#autotoc_md7", [
+        [ "Directory Hierarchy", "md_readme.html#autotoc_md8", null ],
+        [ "Prerequisites", "md_readme.html#autotoc_md9", null ],
+        [ "Building FrostWing", "md_readme.html#autotoc_md10", null ],
+        [ "Building the FrostWing Doxygen documentation", "md_readme.html#autotoc_md11", null ],
+        [ "Running FrostWing", "md_readme.html#autotoc_md12", null ],
+        [ "Booting to real machine", "md_readme.html#autotoc_md13", null ]
+      ] ],
+      [ "Contributing", "md_readme.html#autotoc_md14", null ],
+      [ "License", "md_readme.html#autotoc_md15", null ],
+      [ "FrostWing Team", "md_readme.html#autotoc_md16", null ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -56,7 +71,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "acpi-shutdown_8h.html",
-"structlimine__boot__time__request.html"
+"structflanterm__fb__context.html#af3fa1cbfd3ac0e8cf7f9b1f5fe9ef4eb"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

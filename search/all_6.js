@@ -19,5 +19,6 @@ var searchData=
   ['framebuffer_16',['framebuffer',['../structflanterm__fb__context.html#a70f82a712eb98b535d678376e1047700',1,'flanterm_fb_context']]],
   ['framebuffer_5fcount_17',['framebuffer_count',['../structlimine__framebuffer__response.html#a13bb5cf3dc1eebe8500f1ebfee5694e9',1,'limine_framebuffer_response']]],
   ['front_5fbuffer_18',['front_buffer',['../kernel_8h.html#ae7b9723068c4f63efc114d985716df3d',1,'kernel.h']]],
-  ['frostwing_20documentations_19',['FrostWing Documentations',['../index.html',1,'']]]
+  ['frostwing_20documentations_19',['FrostWing Documentations',['../index.html',1,'']]],
+  ['frostwing_20operating_20system_20',['FrostWing Operating System',['../md_readme.html',1,'']]]
 ];
