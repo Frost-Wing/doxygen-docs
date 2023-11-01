@@ -1,10 +1,12 @@
 var dir_c9f89f587e7e777be723ee48a3df5844 =
 [
+    [ "drivers", "dir_e8258040928548e6d9572742cb28f0cc.html", "dir_e8258040928548e6d9572742cb28f0cc" ],
     [ "flanterm", "dir_14b811a959f2d72bb09a7e4051d1e5e1.html", "dir_14b811a959f2d72bb09a7e4051d1e5e1" ],
     [ "math", "dir_854e1a20a5c6356ccbf09e31b24de07d.html", "dir_854e1a20a5c6356ccbf09e31b24de07d" ],
     [ "opengl", "dir_ce01ad49ddb7ffec30b04cf8469eb21a.html", "dir_ce01ad49ddb7ffec30b04cf8469eb21a" ],
     [ "acpi-shutdown.h", "acpi-shutdown_8h.html", "acpi-shutdown_8h" ],
     [ "acpi.h", "acpi_8h.html", "acpi_8h" ],
+    [ "debugger.h", "debugger_8h.html", "debugger_8h" ],
     [ "fb.h", "fb_8h.html", "fb_8h" ],
     [ "graphics.h", "graphics_8h.html", "graphics_8h" ],
     [ "hal.h", "hal_8h.html", "hal_8h" ],
