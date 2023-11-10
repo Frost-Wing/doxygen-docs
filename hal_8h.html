@@ -94,13 +94,16 @@ $(document).ready(function(){initNavTree('hal_8h.html',''); initResizable(); });
 <p>Header file for Hardware Abstraction Layer -&gt; Source from GoGX OS.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="basics_8h_source.html">basics.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for hal.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="hal_8h__incl.png" border="0" usemap="#asource_2includes_2hal_8h" alt=""/></div>
 <map name="asource_2includes_2hal_8h" id="asource_2includes_2hal_8h">
 <area shape="rect" title="Header file for Hardware Abstraction Layer &#45;&gt; Source from GoGX OS." alt="" coords="5,5,164,32"/>
-<area shape="rect" title=" " alt="" coords="49,80,120,107"/>
+<area shape="rect" title=" " alt="" coords="12,155,83,181"/>
+<area shape="rect" href="basics_8h.html" title=" " alt="" coords="85,80,159,107"/>
+<area shape="rect" title=" " alt="" coords="107,155,182,181"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -120,24 +123,24 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a300af536e3541854f2c4ca2e4a080a8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#a300af536e3541854f2c4ca2e4a080a8c">outb</a> (uint16_t port, uint8_t value)</td></tr>
-<tr class="memdesc:a300af536e3541854f2c4ca2e4a080a8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output a byte to the specified I/O port.  <a href="hal_8h.html#a300af536e3541854f2c4ca2e4a080a8c">More...</a><br /></td></tr>
-<tr class="separator:a300af536e3541854f2c4ca2e4a080a8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e1e8e2c5724c1e8fd2dff2eada06479"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#a2e1e8e2c5724c1e8fd2dff2eada06479">inb</a> (uint16_t port)</td></tr>
-<tr class="memdesc:a2e1e8e2c5724c1e8fd2dff2eada06479"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a byte from the specified I/O port.  <a href="hal_8h.html#a2e1e8e2c5724c1e8fd2dff2eada06479">More...</a><br /></td></tr>
-<tr class="separator:a2e1e8e2c5724c1e8fd2dff2eada06479"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ee7b871e137bbf130dcb5a682f0db85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#a8ee7b871e137bbf130dcb5a682f0db85">outw</a> (uint16_t portNumber, uint16_t data)</td></tr>
-<tr class="memdesc:a8ee7b871e137bbf130dcb5a682f0db85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output a 16-bit value to the specified I/O port.  <a href="hal_8h.html#a8ee7b871e137bbf130dcb5a682f0db85">More...</a><br /></td></tr>
-<tr class="separator:a8ee7b871e137bbf130dcb5a682f0db85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e530bb2b8a1aa77bc54b25e98838982"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#a7e530bb2b8a1aa77bc54b25e98838982">inw</a> (uint16_t portNumber)</td></tr>
-<tr class="memdesc:a7e530bb2b8a1aa77bc54b25e98838982"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a 16-bit value from the specified I/O port.  <a href="hal_8h.html#a7e530bb2b8a1aa77bc54b25e98838982">More...</a><br /></td></tr>
-<tr class="separator:a7e530bb2b8a1aa77bc54b25e98838982"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fdca64b8b377318c942800c56272ee1"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#a2fdca64b8b377318c942800c56272ee1">inl</a> (uint16_t portNumber)</td></tr>
-<tr class="memdesc:a2fdca64b8b377318c942800c56272ee1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a 32-bit value from the specified I/O port.  <a href="hal_8h.html#a2fdca64b8b377318c942800c56272ee1">More...</a><br /></td></tr>
-<tr class="separator:a2fdca64b8b377318c942800c56272ee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b573e1d0fe0b2487eae23ab897bad77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#a8b573e1d0fe0b2487eae23ab897bad77">outl</a> (uint16_t portNumber, uint32_t data)</td></tr>
-<tr class="memdesc:a8b573e1d0fe0b2487eae23ab897bad77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output a 32-bit value to the specified I/O port.  <a href="hal_8h.html#a8b573e1d0fe0b2487eae23ab897bad77">More...</a><br /></td></tr>
-<tr class="separator:a8b573e1d0fe0b2487eae23ab897bad77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01b3ad1397905fa9db2c57bbbbf9b22c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#a01b3ad1397905fa9db2c57bbbbf9b22c">outb</a> (<a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> port, <a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a> value)</td></tr>
+<tr class="memdesc:a01b3ad1397905fa9db2c57bbbbf9b22c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output a byte to the specified I/O port.  <a href="hal_8h.html#a01b3ad1397905fa9db2c57bbbbf9b22c">More...</a><br /></td></tr>
+<tr class="separator:a01b3ad1397905fa9db2c57bbbbf9b22c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d8990ac46c4710dd92be3fa6880d473"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#a9d8990ac46c4710dd92be3fa6880d473">inb</a> (<a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> port)</td></tr>
+<tr class="memdesc:a9d8990ac46c4710dd92be3fa6880d473"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a byte from the specified I/O port.  <a href="hal_8h.html#a9d8990ac46c4710dd92be3fa6880d473">More...</a><br /></td></tr>
+<tr class="separator:a9d8990ac46c4710dd92be3fa6880d473"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accde7e618c58efdc5b465c083341846f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#accde7e618c58efdc5b465c083341846f">outw</a> (<a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> portNumber, <a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> data)</td></tr>
+<tr class="memdesc:accde7e618c58efdc5b465c083341846f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output a 16-bit value to the specified I/O port.  <a href="hal_8h.html#accde7e618c58efdc5b465c083341846f">More...</a><br /></td></tr>
+<tr class="separator:accde7e618c58efdc5b465c083341846f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07569ac66ae49608eccd092f058e6208"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#a07569ac66ae49608eccd092f058e6208">inw</a> (<a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> portNumber)</td></tr>
+<tr class="memdesc:a07569ac66ae49608eccd092f058e6208"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a 16-bit value from the specified I/O port.  <a href="hal_8h.html#a07569ac66ae49608eccd092f058e6208">More...</a><br /></td></tr>
+<tr class="separator:a07569ac66ae49608eccd092f058e6208"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a686133783ecfa8ffceada078c5b80e32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basics_8h.html#abbff394a3e4c2f6a39824ed1e32acaf8">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#a686133783ecfa8ffceada078c5b80e32">inl</a> (<a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> portNumber)</td></tr>
+<tr class="memdesc:a686133783ecfa8ffceada078c5b80e32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a 32-bit value from the specified I/O port.  <a href="hal_8h.html#a686133783ecfa8ffceada078c5b80e32">More...</a><br /></td></tr>
+<tr class="separator:a686133783ecfa8ffceada078c5b80e32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab49f40a6955511c64483feb0f806edf3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#ab49f40a6955511c64483feb0f806edf3">outl</a> (<a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> portNumber, <a class="el" href="basics_8h.html#abbff394a3e4c2f6a39824ed1e32acaf8">int32</a> data)</td></tr>
+<tr class="memdesc:ab49f40a6955511c64483feb0f806edf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output a 32-bit value to the specified I/O port.  <a href="hal_8h.html#ab49f40a6955511c64483feb0f806edf3">More...</a><br /></td></tr>
+<tr class="separator:ab49f40a6955511c64483feb0f806edf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6024a6afd45d551f30762531766a185a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#a6024a6afd45d551f30762531766a185a">io_wait</a> ()</td></tr>
 <tr class="memdesc:a6024a6afd45d551f30762531766a185a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform an I/O wait operation.  <a href="hal_8h.html#a6024a6afd45d551f30762531766a185a">More...</a><br /></td></tr>
 <tr class="separator:a6024a6afd45d551f30762531766a185a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,16 +152,16 @@ Functions</h2></td></tr>
 <dl class="section date"><dt>Date</dt><dd>2022-08-03</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright Pradosh (c) 2022 </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a2e1e8e2c5724c1e8fd2dff2eada06479" name="a2e1e8e2c5724c1e8fd2dff2eada06479"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e1e8e2c5724c1e8fd2dff2eada06479">&#9670;&nbsp;</a></span>inb()</h2>
+<a id="a9d8990ac46c4710dd92be3fa6880d473" name="a9d8990ac46c4710dd92be3fa6880d473"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d8990ac46c4710dd92be3fa6880d473">&#9670;&nbsp;</a></span>inb()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t inb </td>
+          <td class="memname"><a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a> inb </td>
           <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a>&#160;</td>
           <td class="paramname"><em>port</em></td><td>)</td>
           <td></td>
         </tr>
@@ -177,16 +180,16 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2fdca64b8b377318c942800c56272ee1" name="a2fdca64b8b377318c942800c56272ee1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fdca64b8b377318c942800c56272ee1">&#9670;&nbsp;</a></span>inl()</h2>
+<a id="a686133783ecfa8ffceada078c5b80e32" name="a686133783ecfa8ffceada078c5b80e32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a686133783ecfa8ffceada078c5b80e32">&#9670;&nbsp;</a></span>inl()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t inl </td>
+          <td class="memname"><a class="el" href="basics_8h.html#abbff394a3e4c2f6a39824ed1e32acaf8">int32</a> inl </td>
           <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a>&#160;</td>
           <td class="paramname"><em>portNumber</em></td><td>)</td>
           <td></td>
         </tr>
@@ -205,16 +208,16 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7e530bb2b8a1aa77bc54b25e98838982" name="a7e530bb2b8a1aa77bc54b25e98838982"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e530bb2b8a1aa77bc54b25e98838982">&#9670;&nbsp;</a></span>inw()</h2>
+<a id="a07569ac66ae49608eccd092f058e6208" name="a07569ac66ae49608eccd092f058e6208"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07569ac66ae49608eccd092f058e6208">&#9670;&nbsp;</a></span>inw()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t inw </td>
+          <td class="memname"><a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> inw </td>
           <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a>&#160;</td>
           <td class="paramname"><em>portNumber</em></td><td>)</td>
           <td></td>
         </tr>
@@ -253,8 +256,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a300af536e3541854f2c4ca2e4a080a8c" name="a300af536e3541854f2c4ca2e4a080a8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a300af536e3541854f2c4ca2e4a080a8c">&#9670;&nbsp;</a></span>outb()</h2>
+<a id="a01b3ad1397905fa9db2c57bbbbf9b22c" name="a01b3ad1397905fa9db2c57bbbbf9b22c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01b3ad1397905fa9db2c57bbbbf9b22c">&#9670;&nbsp;</a></span>outb()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -262,13 +265,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void outb </td>
           <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a>&#160;</td>
           <td class="paramname"><em>port</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a>&#160;</td>
           <td class="paramname"><em>value</em>&#160;</td>
         </tr>
         <tr>
@@ -291,8 +294,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8b573e1d0fe0b2487eae23ab897bad77" name="a8b573e1d0fe0b2487eae23ab897bad77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b573e1d0fe0b2487eae23ab897bad77">&#9670;&nbsp;</a></span>outl()</h2>
+<a id="ab49f40a6955511c64483feb0f806edf3" name="ab49f40a6955511c64483feb0f806edf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab49f40a6955511c64483feb0f806edf3">&#9670;&nbsp;</a></span>outl()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -300,13 +303,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void outl </td>
           <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a>&#160;</td>
           <td class="paramname"><em>portNumber</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#abbff394a3e4c2f6a39824ed1e32acaf8">int32</a>&#160;</td>
           <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
@@ -329,8 +332,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8ee7b871e137bbf130dcb5a682f0db85" name="a8ee7b871e137bbf130dcb5a682f0db85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ee7b871e137bbf130dcb5a682f0db85">&#9670;&nbsp;</a></span>outw()</h2>
+<a id="accde7e618c58efdc5b465c083341846f" name="accde7e618c58efdc5b465c083341846f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accde7e618c58efdc5b465c083341846f">&#9670;&nbsp;</a></span>outw()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -338,13 +341,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void outw </td>
           <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a>&#160;</td>
           <td class="paramname"><em>portNumber</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a>&#160;</td>
           <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>

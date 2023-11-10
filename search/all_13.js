@@ -1,11 +1,16 @@
 var searchData=
 [
-  ['unicode_5fremaining_0',['unicode_remaining',['../structflanterm__context.html#aaf108ad73fb2edba0dfebb90d83d1976',1,'flanterm_context']]],
-  ['unifont_2eh_1',['unifont.h',['../unifont_8h.html',1,'']]],
-  ['unifont_5fheight_2',['UNIFONT_HEIGHT',['../unifont_8h.html#a163c4af537fbbd21198f9b9967ea1f69',1,'unifont.h']]],
-  ['unifont_5fwidth_3',['UNIFONT_WIDTH',['../unifont_8h.html#a30f8d1b95145af31514901e324c657f7',1,'unifont.h']]],
-  ['unused_4',['unused',['../structlimine__file.html#ab12af7e4d780036c111ba07311ee8cf5',1,'limine_file::unused()'],['../structlimine__framebuffer.html#a58a024c31ecddb2a783336b3d83921b6',1,'limine_framebuffer::unused()']]],
-  ['uvec2_5',['uvec2',['../structuvec2.html',1,'']]],
-  ['uvec3_6',['uvec3',['../structuvec3.html',1,'']]],
-  ['uvec4_7',['uvec4',['../structuvec4.html',1,'']]]
+  ['tab_5fsize_0',['tab_size',['../structflanterm__context.html#ae1bcb12d8e37f75730ddbacf095f2030',1,'flanterm_context']]],
+  ['term_1',['term',['../structflanterm__fb__context.html#ab41b8a9c4f346b1e79a68697594a0657',1,'flanterm_fb_context']]],
+  ['terminal_5fcolumns_2',['terminal_columns',['../kernel_8h.html#a9255c961157d6be5e225e3b55ed234b0',1,'kernel.h']]],
+  ['terminal_5fcount_3',['terminal_count',['../structlimine__terminal__response.html#abd8d4bef9b80b265aacbac2ec4bee2c8',1,'limine_terminal_response']]],
+  ['terminal_5frows_4',['terminal_rows',['../kernel_8h.html#a8969d23cf51c65e739ad4a2e00d09edb',1,'kernel.h']]],
+  ['text_5fbg_5',['text_bg',['../structflanterm__fb__context.html#a46cfa70c0fdc1d141367fa9eb142bee0',1,'flanterm_fb_context']]],
+  ['text_5ffg_6',['text_fg',['../structflanterm__fb__context.html#ae51bba6d06be5e50a7fdd319e0b79f43',1,'flanterm_fb_context']]],
+  ['tftp_5fip_7',['tftp_ip',['../structlimine__file.html#a9d4093867da52e1f27d08be784212a67',1,'limine_file']]],
+  ['tftp_5fport_8',['tftp_port',['../structlimine__file.html#a949f13c2f063dee81d733bbf380c16fb',1,'limine_file']]],
+  ['thin_5ffont_9',['thin_font',['../fb_8h.html#a5db0781dd89f736c7f6b5851e3505f02',1,'fb.h']]],
+  ['transmit_5fstatus_10',['transmit_status',['../serial_8h.html#a69e0f055bfd4f2b7a5f52b52b3179c35',1,'serial.h']]],
+  ['type_11',['type',['../structlimine__memmap__entry.html#ac553330b3a732a61e4639940dbb085f1',1,'limine_memmap_entry']]],
+  ['typescript_2dloader_2eh_12',['typescript-loader.h',['../typescript-loader_8h.html',1,'']]]
 ];

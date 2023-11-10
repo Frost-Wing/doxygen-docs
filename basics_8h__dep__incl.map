@@ -1,0 +1,13 @@
+<map id="source/includes/basics.h" name="source/includes/basics.h">
+<area shape="rect" id="node1" title=" " alt="" coords="418,5,598,32"/>
+<area shape="rect" id="node2" href="$acpi-shutdown_8h.html" title="The ACPI Shutdown Header for Wing kernel, this is not the full ACPI." alt="" coords="41,155,196,196"/>
+<area shape="rect" id="node3" href="$kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="464,244,642,271"/>
+<area shape="rect" id="node4" href="$debugger_8h.html" title="The headers files for E9 hack." alt="" coords="454,162,652,189"/>
+<area shape="rect" id="node5" href="$graphics_8h.html" title="Contains all the print functions." alt="" coords="253,80,448,107"/>
+<area shape="rect" id="node7" href="$hal_8h.html" title="Header file for Hardware Abstraction Layer &#45;&gt; Source from GoGX OS." alt="" coords="546,80,704,107"/>
+<area shape="rect" id="node9" href="$strings_8h.html" title="The header file for strings.c." alt="" coords="739,80,922,107"/>
+<area shape="rect" id="node10" href="$unifont_8h.html" title="The font used in framebuffer." alt="" coords="951,80,1136,107"/>
+<area shape="rect" id="node6" href="$pci_8h.html" title="The Header files for actual PCI source." alt="" coords="271,162,430,189"/>
+<area shape="rect" id="node8" href="$serial_8h.html" title="Header files for serial drivers." alt="" coords="676,155,848,196"/>
+<area shape="rect" id="node11" href="$fb_8h.html" title=" " alt="" coords="974,162,1126,189"/>
+</map>

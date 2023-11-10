@@ -9,8 +9,10 @@ var acpi_8h =
     [ "creator_rev", "acpi_8h.html#a60cdbc2c30c234643cd8e0545b193b12", null ],
     [ "length", "acpi_8h.html#aebb70c2aab3407a9f05334c47131a43b", null ],
     [ "oem_id", "acpi_8h.html#a9c7427f90ccdfac50405ffc1206560ad", null ],
+    [ "oem_name", "acpi_8h.html#a4d7cbc07e85553a9158affcad4eb9640", null ],
     [ "oem_rev", "acpi_8h.html#a41fb81848b8f0db06c4ef9e3ffd87b26", null ],
     [ "oem_table_id", "acpi_8h.html#ab237de4008b155a88f752ee9ea55f542", null ],
     [ "rev", "acpi_8h.html#a9f37c9969577b6fce01f72cb91b56b3f", null ],
-    [ "signature", "acpi_8h.html#a7df4f23794127d1af7b8361d982c6ee4", null ]
+    [ "signature", "acpi_8h.html#a7df4f23794127d1af7b8361d982c6ee4", null ],
+    [ "virtualized", "acpi_8h.html#af74f5d397d98cc7769f2630458744fb9", null ]
 ];

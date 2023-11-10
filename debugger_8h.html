@@ -96,16 +96,18 @@ $(document).ready(function(){initNavTree('debugger_8h.html',''); initResizable()
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="basics_8h_source.html">basics.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="hal_8h_source.html">hal.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for debugger.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="debugger_8h__incl.png" border="0" usemap="#asource_2includes_2debugger_8h" alt=""/></div>
 <map name="asource_2includes_2debugger_8h" id="asource_2includes_2debugger_8h">
-<area shape="rect" title="The headers files for E9 hack." alt="" coords="5,5,204,32"/>
-<area shape="rect" title=" " alt="" coords="76,155,147,181"/>
-<area shape="rect" title=" " alt="" coords="67,80,142,107"/>
-<area shape="rect" href="hal_8h.html" title="Header file for Hardware Abstraction Layer &#45;&gt; Source from GoGX OS." alt="" coords="167,80,221,107"/>
+<area shape="rect" title="The headers files for E9 hack." alt="" coords="18,5,217,32"/>
+<area shape="rect" title=" " alt="" coords="130,229,201,256"/>
+<area shape="rect" title=" " alt="" coords="5,229,80,256"/>
+<area shape="rect" href="basics_8h.html" title=" " alt="" coords="53,155,128,181"/>
+<area shape="rect" href="hal_8h.html" title="Header file for Hardware Abstraction Layer &#45;&gt; Source from GoGX OS." alt="" coords="123,80,178,107"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -131,9 +133,9 @@ Functions</h2></td></tr>
 <tr class="memitem:afe02d1f040867e6fbf9fae10fdee40ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debugger_8h.html#afe02d1f040867e6fbf9fae10fdee40ff">debug_putc</a> (char c)</td></tr>
 <tr class="memdesc:afe02d1f040867e6fbf9fae10fdee40ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts a character to the address 0xE9 using x86_64 outb.  <a href="debugger_8h.html#afe02d1f040867e6fbf9fae10fdee40ff">More...</a><br /></td></tr>
 <tr class="separator:afe02d1f040867e6fbf9fae10fdee40ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae28d2967716205ade63f5f7979017137"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debugger_8h.html#ae28d2967716205ade63f5f7979017137">debug_print</a> (const char *msg)</td></tr>
-<tr class="memdesc:ae28d2967716205ade63f5f7979017137"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts a string to the address 0xE9 using <a class="el" href="debugger_8h.html#afe02d1f040867e6fbf9fae10fdee40ff" title="Puts a character to the address 0xE9 using x86_64 outb.">debug_putc()</a>  <a href="debugger_8h.html#ae28d2967716205ade63f5f7979017137">More...</a><br /></td></tr>
-<tr class="separator:ae28d2967716205ade63f5f7979017137"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc7b9edf084a848ad1dccc104f0ad965"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debugger_8h.html#abc7b9edf084a848ad1dccc104f0ad965">debug_print</a> (<a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> msg)</td></tr>
+<tr class="memdesc:abc7b9edf084a848ad1dccc104f0ad965"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts a string to the address 0xE9 using <a class="el" href="debugger_8h.html#afe02d1f040867e6fbf9fae10fdee40ff" title="Puts a character to the address 0xE9 using x86_64 outb.">debug_putc()</a>  <a href="debugger_8h.html#abc7b9edf084a848ad1dccc104f0ad965">More...</a><br /></td></tr>
+<tr class="separator:abc7b9edf084a848ad1dccc104f0ad965"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The headers files for E9 hack. </p>
@@ -159,8 +161,8 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ae28d2967716205ade63f5f7979017137" name="ae28d2967716205ade63f5f7979017137"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae28d2967716205ade63f5f7979017137">&#9670;&nbsp;</a></span>debug_print()</h2>
+<a id="abc7b9edf084a848ad1dccc104f0ad965" name="abc7b9edf084a848ad1dccc104f0ad965"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc7b9edf084a848ad1dccc104f0ad965">&#9670;&nbsp;</a></span>debug_print()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -168,7 +170,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void debug_print </td>
           <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a>&#160;</td>
           <td class="paramname"><em>msg</em></td><td>)</td>
           <td></td>
         </tr>

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['b_0',['b',['../structlimine__uuid.html#a3e2198ef1488deb36a087a866a45280b',1,'limine_uuid']]],
-  ['back_5fbuffer_1',['back_buffer',['../kernel_8h.html#a1d6ea9917d69fa991cfe0dc46874546b',1,'kernel.h']]],
+  ['back_5fbuffer_1',['back_buffer',['../kernel_8h.html#a6371cb25337579cabb08af804d55c7ad',1,'kernel.h']]],
   ['base_2',['base',['../structlimine__memmap__entry.html#a27ffe8338bdc73b6ae4f491914117af7',1,'limine_memmap_entry']]],
   ['bg_3',['bg',['../structflanterm__fb__char.html#a0c4e566e42384241170ac5579efeeec7',1,'flanterm_fb_char']]],
   ['bg_5fbold_4',['bg_bold',['../structflanterm__context.html#a1da0234fc28ed128ce85f2bc66ae1440',1,'flanterm_context']]],

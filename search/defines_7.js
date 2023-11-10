@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['unifont_5fheight_0',['UNIFONT_HEIGHT',['../unifont_8h.html#a163c4af537fbbd21198f9b9967ea1f69',1,'unifont.h']]],
-  ['unifont_5fwidth_1',['UNIFONT_WIDTH',['../unifont_8h.html#a30f8d1b95145af31514901e324c657f7',1,'unifont.h']]]
+  ['red_5fcolor_0',['red_color',['../graphics_8h.html#ad94055bf9318a48c6a304070f04a6c7c',1,'graphics.h']]],
+  ['reset_5fcolor_1',['reset_color',['../graphics_8h.html#a7928c478a94a8406183be360b2f9606d',1,'graphics.h']]]
 ];

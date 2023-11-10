@@ -86,7 +86,6 @@ $(document).ready(function(){initNavTree('strings_8h.html',''); initResizable();
 
 <div class="header">
   <div class="summary">
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">strings.h File Reference</div></div>
 </div><!--header-->
@@ -96,14 +95,18 @@ $(document).ready(function(){initNavTree('strings_8h.html',''); initResizable();
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="basics_8h_source.html">basics.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for strings.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="strings_8h__incl.png" border="0" usemap="#asource_2includes_2strings_8h" alt=""/></div>
 <map name="asource_2includes_2strings_8h" id="asource_2includes_2strings_8h">
-<area shape="rect" title="The header file for strings.c." alt="" coords="5,5,188,32"/>
-<area shape="rect" title=" " alt="" coords="13,80,84,107"/>
-<area shape="rect" title=" " alt="" coords="109,80,183,107"/>
+<area shape="rect" title="The header file for strings.c." alt="" coords="37,5,220,32"/>
+<area shape="rect" title=" " alt="" coords="5,155,76,181"/>
+<area shape="rect" title=" " alt="" coords="161,155,235,181"/>
+<area shape="rect" title=" " alt="" coords="139,80,222,107"/>
+<area shape="rect" href="basics_8h.html" title=" " alt="" coords="41,80,115,107"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -118,28 +121,26 @@ This graph shows which files directly or indirectly include this file:</div>
 </div>
 <p><a href="strings_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ae0a5b4ef3eafaef3ae453e45e407066a"><td class="memItemLeft" align="right" valign="top">typedef char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="strings_8h.html#ae0a5b4ef3eafaef3ae453e45e407066a">symbol</a>[]</td></tr>
-<tr class="separator:ae0a5b4ef3eafaef3ae453e45e407066a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a1affedae77241cfb7dd108b772200919"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="strings_8h.html#a1affedae77241cfb7dd108b772200919">strlen_</a> (char s[])</td></tr>
 <tr class="memdesc:a1affedae77241cfb7dd108b772200919"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the length of a null-terminated string.  <a href="strings_8h.html#a1affedae77241cfb7dd108b772200919">More...</a><br /></td></tr>
 <tr class="separator:a1affedae77241cfb7dd108b772200919"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5082c8ce4f0cddd88bf4d0d2e738308"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="strings_8h.html#ac5082c8ce4f0cddd88bf4d0d2e738308">strcpy</a> (char *dest, const char *src)</td></tr>
-<tr class="memdesc:ac5082c8ce4f0cddd88bf4d0d2e738308"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a string from <code>src</code> to <code>dest</code>  <a href="strings_8h.html#ac5082c8ce4f0cddd88bf4d0d2e738308">More...</a><br /></td></tr>
-<tr class="separator:ac5082c8ce4f0cddd88bf4d0d2e738308"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9380f4a95b2c4e3d979b1634d3a8bcc9"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="strings_8h.html#a9380f4a95b2c4e3d979b1634d3a8bcc9">strncpy</a> (char *dest, const char *src, size_t n)</td></tr>
-<tr class="memdesc:a9380f4a95b2c4e3d979b1634d3a8bcc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies <code>n</code> characters from <code>src</code> to <code>dest</code>  <a href="strings_8h.html#a9380f4a95b2c4e3d979b1634d3a8bcc9">More...</a><br /></td></tr>
-<tr class="separator:a9380f4a95b2c4e3d979b1634d3a8bcc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11bd144d7d44914099a3aeddf1c8567d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="strings_8h.html#a11bd144d7d44914099a3aeddf1c8567d">strcmp</a> (const char *s1, const char *s2)</td></tr>
-<tr class="memdesc:a11bd144d7d44914099a3aeddf1c8567d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two strings lexicographically.  <a href="strings_8h.html#a11bd144d7d44914099a3aeddf1c8567d">More...</a><br /></td></tr>
-<tr class="separator:a11bd144d7d44914099a3aeddf1c8567d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07f4a84c11c106e95c32b6ab509346ef"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="strings_8h.html#a07f4a84c11c106e95c32b6ab509346ef">strncmp</a> (const char *s1, const char *s2, size_t n)</td></tr>
-<tr class="memdesc:a07f4a84c11c106e95c32b6ab509346ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two strings, up to a specified number of characters.  <a href="strings_8h.html#a07f4a84c11c106e95c32b6ab509346ef">More...</a><br /></td></tr>
-<tr class="separator:a07f4a84c11c106e95c32b6ab509346ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b38094492e1c21bba621794841a075a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basics_8h.html#a4505c08c065b48840a30eedd9845cce2">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="strings_8h.html#a2b38094492e1c21bba621794841a075a">strcpy</a> (<a class="el" href="basics_8h.html#a4505c08c065b48840a30eedd9845cce2">string</a> dest, <a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> src)</td></tr>
+<tr class="memdesc:a2b38094492e1c21bba621794841a075a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a string from <code>src</code> to <code>dest</code>  <a href="strings_8h.html#a2b38094492e1c21bba621794841a075a">More...</a><br /></td></tr>
+<tr class="separator:a2b38094492e1c21bba621794841a075a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65fdc17be44d37786f4e3f831dc9f958"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basics_8h.html#a4505c08c065b48840a30eedd9845cce2">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="strings_8h.html#a65fdc17be44d37786f4e3f831dc9f958">strncpy</a> (<a class="el" href="basics_8h.html#a4505c08c065b48840a30eedd9845cce2">string</a> dest, <a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> src, size_t n)</td></tr>
+<tr class="memdesc:a65fdc17be44d37786f4e3f831dc9f958"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies <code>n</code> characters from <code>src</code> to <code>dest</code>  <a href="strings_8h.html#a65fdc17be44d37786f4e3f831dc9f958">More...</a><br /></td></tr>
+<tr class="separator:a65fdc17be44d37786f4e3f831dc9f958"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e3960988d8e58199dd7b8dc3d34d215"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="strings_8h.html#a3e3960988d8e58199dd7b8dc3d34d215">strcmp</a> (<a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> s1, <a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> s2)</td></tr>
+<tr class="memdesc:a3e3960988d8e58199dd7b8dc3d34d215"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two strings lexicographically.  <a href="strings_8h.html#a3e3960988d8e58199dd7b8dc3d34d215">More...</a><br /></td></tr>
+<tr class="separator:a3e3960988d8e58199dd7b8dc3d34d215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f9b56a8efca3a8594a17eb5def6d657"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="strings_8h.html#a3f9b56a8efca3a8594a17eb5def6d657">strncmp</a> (<a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> s1, <a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> s2, size_t n)</td></tr>
+<tr class="memdesc:a3f9b56a8efca3a8594a17eb5def6d657"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two strings, up to a specified number of characters.  <a href="strings_8h.html#a3f9b56a8efca3a8594a17eb5def6d657">More...</a><br /></td></tr>
+<tr class="separator:a3f9b56a8efca3a8594a17eb5def6d657"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4bf9c94d6812f96f997ff82d9a8ae79"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="strings_8h.html#ad4bf9c94d6812f96f997ff82d9a8ae79">contains</a> (<a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> str, <a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> substr)</td></tr>
+<tr class="memdesc:ad4bf9c94d6812f96f997ff82d9a8ae79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a substring is found within a string.  <a href="strings_8h.html#ad4bf9c94d6812f96f997ff82d9a8ae79">More...</a><br /></td></tr>
+<tr class="separator:ad4bf9c94d6812f96f997ff82d9a8ae79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The header file for strings.c. </p>
@@ -147,24 +148,48 @@ Functions</h2></td></tr>
 <dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2023-10-21</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) Pradosh 2023 </dd></dl>
-</div><h2 class="groupheader">Typedef Documentation</h2>
-<a id="ae0a5b4ef3eafaef3ae453e45e407066a" name="ae0a5b4ef3eafaef3ae453e45e407066a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0a5b4ef3eafaef3ae453e45e407066a">&#9670;&nbsp;</a></span>symbol</h2>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="ad4bf9c94d6812f96f997ff82d9a8ae79" name="ad4bf9c94d6812f96f997ff82d9a8ae79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4bf9c94d6812f96f997ff82d9a8ae79">&#9670;&nbsp;</a></span>contains()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef char symbol[]</td>
+          <td class="memname">bool contains </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a>&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a>&#160;</td>
+          <td class="paramname"><em>substr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Check if a substring is found within a string. </p>
+<p >This function searches for the presence of a substring within a given string.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>The string to search within. </td></tr>
+    <tr><td class="paramname">substr</td><td>The substring to search for. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the substring is found in the string, false otherwise. </dd></dl>
+
 </div>
 </div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a11bd144d7d44914099a3aeddf1c8567d" name="a11bd144d7d44914099a3aeddf1c8567d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11bd144d7d44914099a3aeddf1c8567d">&#9670;&nbsp;</a></span>strcmp()</h2>
+<a id="a3e3960988d8e58199dd7b8dc3d34d215" name="a3e3960988d8e58199dd7b8dc3d34d215"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e3960988d8e58199dd7b8dc3d34d215">&#9670;&nbsp;</a></span>strcmp()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -172,13 +197,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int strcmp </td>
           <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a>&#160;</td>
           <td class="paramname"><em>s1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *&#160;</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a>&#160;</td>
           <td class="paramname"><em>s2</em>&#160;</td>
         </tr>
         <tr>
@@ -202,22 +227,22 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac5082c8ce4f0cddd88bf4d0d2e738308" name="ac5082c8ce4f0cddd88bf4d0d2e738308"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5082c8ce4f0cddd88bf4d0d2e738308">&#9670;&nbsp;</a></span>strcpy()</h2>
+<a id="a2b38094492e1c21bba621794841a075a" name="a2b38094492e1c21bba621794841a075a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b38094492e1c21bba621794841a075a">&#9670;&nbsp;</a></span>strcpy()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">char * strcpy </td>
+          <td class="memname"><a class="el" href="basics_8h.html#a4505c08c065b48840a30eedd9845cce2">string</a> strcpy </td>
           <td>(</td>
-          <td class="paramtype">char *&#160;</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a4505c08c065b48840a30eedd9845cce2">string</a>&#160;</td>
           <td class="paramname"><em>dest</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *&#160;</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a>&#160;</td>
           <td class="paramname"><em>src</em>&#160;</td>
         </tr>
         <tr>
@@ -268,8 +293,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a07f4a84c11c106e95c32b6ab509346ef" name="a07f4a84c11c106e95c32b6ab509346ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07f4a84c11c106e95c32b6ab509346ef">&#9670;&nbsp;</a></span>strncmp()</h2>
+<a id="a3f9b56a8efca3a8594a17eb5def6d657" name="a3f9b56a8efca3a8594a17eb5def6d657"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f9b56a8efca3a8594a17eb5def6d657">&#9670;&nbsp;</a></span>strncmp()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -277,13 +302,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int strncmp </td>
           <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a>&#160;</td>
           <td class="paramname"><em>s1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *&#160;</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a>&#160;</td>
           <td class="paramname"><em>s2</em>, </td>
         </tr>
         <tr>
@@ -314,22 +339,22 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9380f4a95b2c4e3d979b1634d3a8bcc9" name="a9380f4a95b2c4e3d979b1634d3a8bcc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9380f4a95b2c4e3d979b1634d3a8bcc9">&#9670;&nbsp;</a></span>strncpy()</h2>
+<a id="a65fdc17be44d37786f4e3f831dc9f958" name="a65fdc17be44d37786f4e3f831dc9f958"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65fdc17be44d37786f4e3f831dc9f958">&#9670;&nbsp;</a></span>strncpy()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">char * strncpy </td>
+          <td class="memname"><a class="el" href="basics_8h.html#a4505c08c065b48840a30eedd9845cce2">string</a> strncpy </td>
           <td>(</td>
-          <td class="paramtype">char *&#160;</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a4505c08c065b48840a30eedd9845cce2">string</a>&#160;</td>
           <td class="paramname"><em>dest</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *&#160;</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a>&#160;</td>
           <td class="paramname"><em>src</em>, </td>
         </tr>
         <tr>

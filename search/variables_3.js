@@ -9,6 +9,6 @@ var searchData=
   ['default_5ffg_5fbright_6',['default_fg_bright',['../structflanterm__fb__context.html#a87d5ed818f95c4e44c91ecf5f569d292',1,'flanterm_fb_context']]],
   ['deinit_7',['deinit',['../structflanterm__context.html#ad9a720c492f5ea0a8e05d44e0f85af6a',1,'flanterm_context']]],
   ['discard_5fnext_8',['discard_next',['../structflanterm__context.html#a790ce9482923c5be1e825106daa1eee4',1,'flanterm_context']]],
-  ['display_5fadapter_5fname_9',['display_adapter_name',['../pci_8h.html#a8323dd55c9aa6287057ba5d7e259994e',1,'pci.h']]],
+  ['display_5fadapter_5fname_9',['display_adapter_name',['../pci_8h.html#a7ac96d21de684cab2b6cdc36eb9ee27f',1,'pci.h']]],
   ['double_5fbuffer_5fflush_10',['double_buffer_flush',['../structflanterm__context.html#a5b3493acd02dc749a4aaed21d385c01c',1,'flanterm_context']]]
 ];

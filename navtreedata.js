@@ -35,16 +35,15 @@ var NAVTREE =
       [ "Table of Contents", "md_readme.html#autotoc_md5", null ],
       [ "Images", "md_readme.html#autotoc_md6", null ],
       [ "Getting Started", "md_readme.html#autotoc_md7", [
-        [ "Directory Hierarchy", "md_readme.html#autotoc_md8", null ],
-        [ "Prerequisites", "md_readme.html#autotoc_md9", null ],
-        [ "Building FrostWing", "md_readme.html#autotoc_md10", null ],
-        [ "Building the FrostWing Doxygen documentation", "md_readme.html#autotoc_md11", null ],
-        [ "Running FrostWing", "md_readme.html#autotoc_md12", null ],
-        [ "Booting to real machine", "md_readme.html#autotoc_md13", null ]
+        [ "Prerequisites", "md_readme.html#autotoc_md8", null ],
+        [ "Building FrostWing", "md_readme.html#autotoc_md9", null ],
+        [ "Building the FrostWing Doxygen documentation", "md_readme.html#autotoc_md10", null ],
+        [ "Running FrostWing", "md_readme.html#autotoc_md11", null ],
+        [ "Booting to real machine", "md_readme.html#autotoc_md12", null ]
       ] ],
-      [ "Contributing", "md_readme.html#autotoc_md14", null ],
-      [ "License", "md_readme.html#autotoc_md15", null ],
-      [ "FrostWing Team", "md_readme.html#autotoc_md16", null ]
+      [ "Contributing", "md_readme.html#autotoc_md13", null ],
+      [ "License", "md_readme.html#autotoc_md14", null ],
+      [ "FrostWing Team", "md_readme.html#autotoc_md15", null ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -71,8 +70,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "acpi-shutdown_8h.html",
-"md_readme.html",
-"structlimine__framebuffer.html#a03ef8b92b0f4ccc5d9f6e5b7fc9086ea"
+"limine_8h.html#adebde0ad391eec16f6ddcfbf68293412",
+"structlimine__file.html#a949f13c2f063dee81d733bbf380c16fb"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

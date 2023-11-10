@@ -95,14 +95,16 @@ $(document).ready(function(){initNavTree('acpi-shutdown_8h.html',''); initResiza
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stddef.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="basics_8h_source.html">basics.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for acpi-shutdown.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="acpi-shutdown_8h__incl.png" border="0" usemap="#asource_2includes_2acpi-shutdown_8h" alt=""/></div>
 <map name="asource_2includes_2acpi-shutdown_8h" id="asource_2includes_2acpi-shutdown_8h">
-<area shape="rect" title="The ACPI Shutdown Header for Wing kernel, this is not the full ACPI." alt="" coords="13,5,168,47"/>
-<area shape="rect" title=" " alt="" coords="5,95,80,121"/>
-<area shape="rect" title=" " alt="" coords="105,95,175,121"/>
+<area shape="rect" title="The ACPI Shutdown Header for Wing kernel, this is not the full ACPI." alt="" coords="15,5,169,47"/>
+<area shape="rect" title=" " alt="" coords="5,169,80,196"/>
+<area shape="rect" title=" " alt="" coords="118,169,189,196"/>
+<area shape="rect" href="basics_8h.html" title=" " alt="" coords="55,95,129,121"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -119,8 +121,8 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aaa95bec6a56db5243a716eee6daa9610"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="acpi-shutdown_8h.html#aaa95bec6a56db5243a716eee6daa9610">acpi_shutdown_hack</a> (uintptr_t direct_map_base, void *(*find_sdt)(const char *<a class="el" href="acpi_8h.html#a7df4f23794127d1af7b8361d982c6ee4">signature</a>, size_t index), uint8_t(*<a class="el" href="hal_8h.html#a2e1e8e2c5724c1e8fd2dff2eada06479">inb</a>)(uint16_t port), uint16_t(*<a class="el" href="hal_8h.html#a7e530bb2b8a1aa77bc54b25e98838982">inw</a>)(uint16_t port), void(*<a class="el" href="hal_8h.html#a300af536e3541854f2c4ca2e4a080a8c">outb</a>)(uint16_t port, uint8_t value), void(*<a class="el" href="hal_8h.html#a8ee7b871e137bbf130dcb5a682f0db85">outw</a>)(uint16_t port, uint16_t value))</td></tr>
-<tr class="separator:aaa95bec6a56db5243a716eee6daa9610"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d2db64ac29a1ed3377050096943a3ab"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="acpi-shutdown_8h.html#a4d2db64ac29a1ed3377050096943a3ab">acpi_shutdown_hack</a> (uintptr_t direct_map_base, void *(*find_sdt)(<a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> <a class="el" href="acpi_8h.html#a7df4f23794127d1af7b8361d982c6ee4">signature</a>, size_t index), <a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a>(*<a class="el" href="hal_8h.html#a9d8990ac46c4710dd92be3fa6880d473">inb</a>)(<a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> port), <a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a>(*<a class="el" href="hal_8h.html#a07569ac66ae49608eccd092f058e6208">inw</a>)(<a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> port), void(*<a class="el" href="hal_8h.html#a01b3ad1397905fa9db2c57bbbbf9b22c">outb</a>)(<a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> port, <a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a> value), void(*<a class="el" href="hal_8h.html#accde7e618c58efdc5b465c083341846f">outw</a>)(<a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> port, <a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> value))</td></tr>
+<tr class="separator:a4d2db64ac29a1ed3377050096943a3ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The ACPI Shutdown Header for Wing kernel, this is not the full ACPI. </p>
@@ -129,8 +131,8 @@ Functions</h2></td></tr>
 <dl class="section date"><dt>Date</dt><dd>2023-10-29</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (C) 2019-2023 mintsuki and contributors. </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="aaa95bec6a56db5243a716eee6daa9610" name="aaa95bec6a56db5243a716eee6daa9610"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa95bec6a56db5243a716eee6daa9610">&#9670;&nbsp;</a></span>acpi_shutdown_hack()</h2>
+<a id="a4d2db64ac29a1ed3377050096943a3ab" name="a4d2db64ac29a1ed3377050096943a3ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d2db64ac29a1ed3377050096943a3ab">&#9670;&nbsp;</a></span>acpi_shutdown_hack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144,31 +146,31 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">void *(*)(const char *<a class="el" href="acpi_8h.html#a7df4f23794127d1af7b8361d982c6ee4">signature</a>, size_t index)&#160;</td>
+          <td class="paramtype">void *(*)(<a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> <a class="el" href="acpi_8h.html#a7df4f23794127d1af7b8361d982c6ee4">signature</a>, size_t index)&#160;</td>
           <td class="paramname"><em>find_sdt</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint8_t(*)(uint16_t port)&#160;</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a>(*)(<a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> port)&#160;</td>
           <td class="paramname"><em>inb</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint16_t(*)(uint16_t port)&#160;</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a>(*)(<a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> port)&#160;</td>
           <td class="paramname"><em>inw</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">void(*)(uint16_t port, uint8_t value)&#160;</td>
+          <td class="paramtype">void(*)(<a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> port, <a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a> value)&#160;</td>
           <td class="paramname"><em>outb</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">void(*)(uint16_t port, uint16_t value)&#160;</td>
+          <td class="paramtype">void(*)(<a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> port, <a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> value)&#160;</td>
           <td class="paramname"><em>outw</em>&#160;</td>
         </tr>
         <tr>

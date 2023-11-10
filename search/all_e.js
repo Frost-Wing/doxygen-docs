@@ -1,15 +1,18 @@
 var searchData=
 [
-  ['part_5fuuid_0',['part_uuid',['../structlimine__file.html#a76f0d8f40ecbfb3fad45d035baf4cdc6',1,'limine_file']]],
-  ['partition_5findex_1',['partition_index',['../structlimine__file.html#a88f3e551b32e49b182f9e47b215fe20b',1,'limine_file']]],
-  ['pci_2eh_2',['pci.h',['../pci_8h.html',1,'']]],
-  ['pci_5fread_5fword_3',['pci_read_word',['../pci_8h.html#a835fb39b0f563203af892e2bffbef04d',1,'pci.h']]],
-  ['physical_5fbase_4',['physical_base',['../structlimine__kernel__address__response.html#a29f73b12cf0a427cec60e21a7663b86e',1,'limine_kernel_address_response']]],
-  ['pitch_5',['pitch',['../structflanterm__fb__context.html#a2032e34451ef8f69e09a5ca1837625af',1,'flanterm_fb_context::pitch()'],['../structlimine__video__mode.html#a5b1d4b9e9edbcab07e054da87a5bafd3',1,'limine_video_mode::pitch()'],['../structlimine__framebuffer.html#aeb59aad798c9422e1ff1eac95f5b1af4',1,'limine_framebuffer::pitch()']]],
-  ['printdec_6',['printdec',['../graphics_8h.html#ac6f46a60de5cd77231f7c63078f02ed5',1,'graphics.h']]],
-  ['printf_7',['printf',['../graphics_8h.html#a133c04c35a1c14c6f8d8078831705661',1,'graphics.h']]],
-  ['printhex_8',['printhex',['../graphics_8h.html#a3d7a0addd4d156ac66ba9927ade4c80a',1,'graphics.h']]],
-  ['probe_5fpci_9',['probe_pci',['../pci_8h.html#ac78377dc4a7021491c3f3da150e3e4a9',1,'pci.h']]],
-  ['probe_5fserial_10',['probe_serial',['../serial_8h.html#a740862a501e0435f9ba13ae4fadca8cb',1,'serial.h']]],
-  ['putc_11',['putc',['../graphics_8h.html#acc0ee6e9643f83a5ab11722197fc25ec',1,'graphics.h']]]
+  ['oem_5fid_0',['oem_id',['../structsdt.html#af558f1cd198796f424cf6cbb5a04ff87',1,'sdt::oem_id()'],['../acpi_8h.html#a9c7427f90ccdfac50405ffc1206560ad',1,'oem_id():&#160;acpi.h']]],
+  ['oem_5fname_1',['oem_name',['../acpi_8h.html#a4d7cbc07e85553a9158affcad4eb9640',1,'acpi.h']]],
+  ['oem_5frev_2',['oem_rev',['../structsdt.html#a443d516a21812a9edc6d9ea5e392541b',1,'sdt::oem_rev()'],['../acpi_8h.html#a41fb81848b8f0db06c4ef9e3ffd87b26',1,'oem_rev():&#160;acpi.h']]],
+  ['oem_5ftable_5fid_3',['oem_table_id',['../structsdt.html#a2fa856d4fbe7a63f2e3437d288c8b2be',1,'sdt::oem_table_id()'],['../acpi_8h.html#ab237de4008b155a88f752ee9ea55f542',1,'oem_table_id():&#160;acpi.h']]],
+  ['offset_4',['offset',['../structlimine__hhdm__response.html#a9689f75278eabb364187affbf923a79e',1,'limine_hhdm_response']]],
+  ['offset_5fx_5',['offset_x',['../structflanterm__fb__context.html#afb48b4831f283e7d007adbe2485078b5',1,'flanterm_fb_context']]],
+  ['offset_5fy_6',['offset_y',['../structflanterm__fb__context.html#ad9e83e4ced9bdb238e9e66ca25e5b861',1,'flanterm_fb_context']]],
+  ['old_5fcursor_5fx_7',['old_cursor_x',['../structflanterm__fb__context.html#a7eba46bbc0e59945d3d8fd4dc42d6278',1,'flanterm_fb_context']]],
+  ['old_5fcursor_5fy_8',['old_cursor_y',['../structflanterm__fb__context.html#a8eafdfeed1656e8df36721e79166dd31',1,'flanterm_fb_context']]],
+  ['oob_5foutput_9',['oob_output',['../structflanterm__context.html#ae8b1fe64d471f12a733bcb1891f0829c',1,'flanterm_context']]],
+  ['osc_10',['osc',['../structflanterm__context.html#a6ebc4ebe688a08718da640eb81db5a55',1,'flanterm_context']]],
+  ['osc_5fescape_11',['osc_escape',['../structflanterm__context.html#a945bdb30ecbc97cb4639842fc092926f',1,'flanterm_context']]],
+  ['outb_12',['outb',['../hal_8h.html#a01b3ad1397905fa9db2c57bbbbf9b22c',1,'hal.h']]],
+  ['outl_13',['outl',['../hal_8h.html#ab49f40a6955511c64483feb0f806edf3',1,'hal.h']]],
+  ['outw_14',['outw',['../hal_8h.html#accde7e618c58efdc5b465c083341846f',1,'hal.h']]]
 ];

@@ -1,9 +1,10 @@
 <map id="source/includes/pci.h" name="source/includes/pci.h">
 <area shape="rect" id="node1" title="The Header files for actual PCI source." alt="" coords="5,5,164,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="16,155,87,181"/>
+<area shape="rect" id="node2" title=" " alt="" coords="53,229,124,256"/>
 <area shape="rect" id="node3" href="$hal_8h.html" title="Header file for Hardware Abstraction Layer &#45;&gt; Source from GoGX OS." alt="" coords="57,80,112,107"/>
-<area shape="rect" id="node4" href="$graphics_8h.html" title="Contains all the print functions." alt="" coords="136,80,225,107"/>
-<area shape="rect" id="node5" title=" " alt="" coords="111,155,186,181"/>
-<area shape="rect" id="node6" title=" " alt="" coords="210,155,285,181"/>
-<area shape="rect" id="node7" title=" " alt="" coords="309,155,391,181"/>
+<area shape="rect" id="node6" href="$graphics_8h.html" title="Contains all the print functions." alt="" coords="181,80,271,107"/>
+<area shape="rect" id="node4" href="$basics_8h.html" title=" " alt="" coords="89,155,163,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="181,229,255,256"/>
+<area shape="rect" id="node7" title=" " alt="" coords="289,155,363,181"/>
+<area shape="rect" id="node8" title=" " alt="" coords="387,155,470,181"/>
 </map>

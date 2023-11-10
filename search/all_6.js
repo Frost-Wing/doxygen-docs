@@ -40,7 +40,7 @@ var searchData=
   ['fpu_2eh_37',['fpu.h',['../fpu_8h.html',1,'']]],
   ['framebuffer_38',['framebuffer',['../structflanterm__fb__context.html#a70f82a712eb98b535d678376e1047700',1,'flanterm_fb_context']]],
   ['framebuffer_5fcount_39',['framebuffer_count',['../structlimine__framebuffer__response.html#a13bb5cf3dc1eebe8500f1ebfee5694e9',1,'limine_framebuffer_response']]],
-  ['front_5fbuffer_40',['front_buffer',['../kernel_8h.html#ae7b9723068c4f63efc114d985716df3d',1,'kernel.h']]],
+  ['front_5fbuffer_40',['front_buffer',['../kernel_8h.html#af389114d64e50bf6ea15a300a10323e4',1,'kernel.h']]],
   ['frostwing_20documentations_41',['FrostWing Documentations',['../index.html',1,'']]],
   ['frostwing_20operating_20system_42',['FrostWing Operating System',['../md_readme.html',1,'']]],
   ['full_5frefresh_43',['full_refresh',['../structflanterm__context.html#a34fa1affd00bd547089b4788440b694a',1,'flanterm_context']]]

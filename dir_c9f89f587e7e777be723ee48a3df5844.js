@@ -6,6 +6,7 @@ var dir_c9f89f587e7e777be723ee48a3df5844 =
     [ "opengl", "dir_ce01ad49ddb7ffec30b04cf8469eb21a.html", "dir_ce01ad49ddb7ffec30b04cf8469eb21a" ],
     [ "acpi-shutdown.h", "acpi-shutdown_8h.html", "acpi-shutdown_8h" ],
     [ "acpi.h", "acpi_8h.html", "acpi_8h" ],
+    [ "basics.h", "basics_8h.html", "basics_8h" ],
     [ "debugger.h", "debugger_8h.html", "debugger_8h" ],
     [ "fb.h", "fb_8h.html", "fb_8h" ],
     [ "graphics.h", "graphics_8h.html", "graphics_8h" ],

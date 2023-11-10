@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['outb_0',['outb',['../hal_8h.html#a300af536e3541854f2c4ca2e4a080a8c',1,'hal.h']]],
-  ['outl_1',['outl',['../hal_8h.html#a8b573e1d0fe0b2487eae23ab897bad77',1,'hal.h']]],
-  ['outw_2',['outw',['../hal_8h.html#a8ee7b871e137bbf130dcb5a682f0db85',1,'hal.h']]]
+  ['outb_0',['outb',['../hal_8h.html#a01b3ad1397905fa9db2c57bbbbf9b22c',1,'hal.h']]],
+  ['outl_1',['outl',['../hal_8h.html#ab49f40a6955511c64483feb0f806edf3',1,'hal.h']]],
+  ['outw_2',['outw',['../hal_8h.html#accde7e618c58efdc5b465c083341846f',1,'hal.h']]]
 ];

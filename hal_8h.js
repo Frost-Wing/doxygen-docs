@@ -1,10 +1,10 @@
 var hal_8h =
 [
-    [ "inb", "hal_8h.html#a2e1e8e2c5724c1e8fd2dff2eada06479", null ],
-    [ "inl", "hal_8h.html#a2fdca64b8b377318c942800c56272ee1", null ],
-    [ "inw", "hal_8h.html#a7e530bb2b8a1aa77bc54b25e98838982", null ],
+    [ "inb", "hal_8h.html#a9d8990ac46c4710dd92be3fa6880d473", null ],
+    [ "inl", "hal_8h.html#a686133783ecfa8ffceada078c5b80e32", null ],
+    [ "inw", "hal_8h.html#a07569ac66ae49608eccd092f058e6208", null ],
     [ "io_wait", "hal_8h.html#a6024a6afd45d551f30762531766a185a", null ],
-    [ "outb", "hal_8h.html#a300af536e3541854f2c4ca2e4a080a8c", null ],
-    [ "outl", "hal_8h.html#a8b573e1d0fe0b2487eae23ab897bad77", null ],
-    [ "outw", "hal_8h.html#a8ee7b871e137bbf130dcb5a682f0db85", null ]
+    [ "outb", "hal_8h.html#a01b3ad1397905fa9db2c57bbbbf9b22c", null ],
+    [ "outl", "hal_8h.html#ab49f40a6955511c64483feb0f806edf3", null ],
+    [ "outw", "hal_8h.html#accde7e618c58efdc5b465c083341846f", null ]
 ];

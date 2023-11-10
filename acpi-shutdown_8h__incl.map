@@ -1,5 +1,6 @@
 <map id="source/includes/acpi&#45;shutdown.h" name="source/includes/acpi&#45;shutdown.h">
-<area shape="rect" id="node1" title="The ACPI Shutdown Header for Wing kernel, this is not the full ACPI." alt="" coords="13,5,168,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,80,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="105,95,175,121"/>
+<area shape="rect" id="node1" title="The ACPI Shutdown Header for Wing kernel, this is not the full ACPI." alt="" coords="15,5,169,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,169,80,196"/>
+<area shape="rect" id="node3" title=" " alt="" coords="118,169,189,196"/>
+<area shape="rect" id="node4" href="$basics_8h.html" title=" " alt="" coords="55,95,129,121"/>
 </map>
