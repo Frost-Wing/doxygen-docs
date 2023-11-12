@@ -1,6 +1,6 @@
 <map id="flanterm_fb_context" name="flanterm_fb_context">
-<area shape="rect" id="node1" title=" " alt="" coords="110,199,263,225"/>
+<area shape="rect" id="node1" title="Represents the context for framebuffer&#45;based terminal rendering." alt="" coords="110,199,263,225"/>
 <area shape="rect" id="node2" href="$structflanterm__context.html" title=" " alt="" coords="5,95,139,121"/>
-<area shape="rect" id="node3" href="$structflanterm__fb__char.html" title=" " alt="" coords="167,5,299,32"/>
-<area shape="rect" id="node4" href="$structflanterm__fb__queue__item.html" title=" " alt="" coords="240,95,421,121"/>
+<area shape="rect" id="node3" href="$structflanterm__fb__char.html" title="Represents a character with its foreground and background colors." alt="" coords="167,5,299,32"/>
+<area shape="rect" id="node4" href="$structflanterm__fb__queue__item.html" title="Represents an item in the rendering queue." alt="" coords="240,95,421,121"/>
 </map>

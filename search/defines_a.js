@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['yellow_5fcolor_0',['yellow_color',['../graphics_8h.html#af07390ab9ad63091477de1a73b9197d4',1,'graphics.h']]]
+  ['unifont_5fheight_0',['UNIFONT_HEIGHT',['../unifont_8h.html#a163c4af537fbbd21198f9b9967ea1f69',1,'unifont.h']]],
+  ['unifont_5fwidth_1',['UNIFONT_WIDTH',['../unifont_8h.html#a30f8d1b95145af31514901e324c657f7',1,'unifont.h']]]
 ];

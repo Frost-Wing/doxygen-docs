@@ -38,12 +38,13 @@ var NAVTREE =
         [ "Prerequisites", "md_readme.html#autotoc_md8", null ],
         [ "Building FrostWing", "md_readme.html#autotoc_md9", null ],
         [ "Building the FrostWing Doxygen documentation", "md_readme.html#autotoc_md10", null ],
-        [ "Running FrostWing", "md_readme.html#autotoc_md11", null ],
-        [ "Booting to real machine", "md_readme.html#autotoc_md12", null ]
+        [ "Hardware/Software (Emulator) Requirements", "md_readme.html#autotoc_md11", null ],
+        [ "Running FrostWing", "md_readme.html#autotoc_md12", null ],
+        [ "Booting to real machine", "md_readme.html#autotoc_md13", null ]
       ] ],
-      [ "Contributing", "md_readme.html#autotoc_md13", null ],
-      [ "License", "md_readme.html#autotoc_md14", null ],
-      [ "FrostWing Team", "md_readme.html#autotoc_md15", null ]
+      [ "Contributing", "md_readme.html#autotoc_md14", null ],
+      [ "License", "md_readme.html#autotoc_md15", null ],
+      [ "FrostWing Team", "md_readme.html#autotoc_md16", null ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -57,7 +58,7 @@ var NAVTREE =
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
+        [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
         [ "Typedefs", "globals_type.html", null ],
@@ -70,8 +71,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "acpi-shutdown_8h.html",
-"limine_8h.html#adebde0ad391eec16f6ddcfbf68293412",
-"structlimine__file.html#a949f13c2f063dee81d733bbf380c16fb"
+"limine_8h.html#a32559a72539157a6838216959954c3cb",
+"structivec4.html#a709ef95dee2238a788ba9139650c80e4"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

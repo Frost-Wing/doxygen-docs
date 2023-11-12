@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['red_5fcolor_0',['red_color',['../graphics_8h.html#ad94055bf9318a48c6a304070f04a6c7c',1,'graphics.h']]],
-  ['reset_5fcolor_1',['reset_color',['../graphics_8h.html#a7928c478a94a8406183be360b2f9606d',1,'graphics.h']]]
+  ['no_0',['no',['../basics_8h.html#a2f3b7fca220397a5c9ca7a2e4e336eaa',1,'basics.h']]],
+  ['null_1',['null',['../basics_8h.html#ac97b8ee753e4405397a42ad5799b0f9e',1,'basics.h']]]
 ];

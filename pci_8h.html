@@ -117,8 +117,9 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="pci_8h__dep__incl.png" border="0" usemap="#asource_2includes_2pci_8hdep" alt=""/></div>
 <map name="asource_2includes_2pci_8hdep" id="asource_2includes_2pci_8hdep">
-<area shape="rect" title="The Header files for actual PCI source." alt="" coords="15,5,174,32"/>
-<area shape="rect" href="kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="5,80,184,107"/>
+<area shape="rect" title="The Header files for actual PCI source." alt="" coords="28,5,187,32"/>
+<area shape="rect" href="kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="18,80,197,107"/>
+<area shape="rect" href="meltdown_8h.html" title="The headers for meltdown.c." alt="" coords="5,155,209,181"/>
 </map>
 </div>
 </div>
@@ -127,6 +128,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:af2126c3e5d896f9aa9d2bc0f46af11fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pci_8h.html#af2126c3e5d896f9aa9d2bc0f46af11fa">pci_read_word</a> (<a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> bus, <a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> slot, <a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> func, <a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> offset)</td></tr>
+<tr class="memdesc:af2126c3e5d896f9aa9d2bc0f46af11fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a 16-bit value from a PCI configuration register.  <a href="pci_8h.html#af2126c3e5d896f9aa9d2bc0f46af11fa">More...</a><br /></td></tr>
 <tr class="separator:af2126c3e5d896f9aa9d2bc0f46af11fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7401385d1ee1ca12c01090e98d11c1b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pci_8h.html#a7401385d1ee1ca12c01090e98d11c1b1">getVendorID</a> (<a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> bus, <a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> device, <a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> function)</td></tr>
 <tr class="memdesc:a7401385d1ee1ca12c01090e98d11c1b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Vendor ID from PCI.  <a href="pci_8h.html#a7401385d1ee1ca12c01090e98d11c1b1">More...</a><br /></td></tr>
@@ -375,6 +377,19 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Read a 16-bit value from a PCI configuration register. </p>
+<p >This function reads a 16-bit value from a specified PCI configuration register using the provided bus, slot, function, and offset parameters.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bus</td><td>The PCI bus number. </td></tr>
+    <tr><td class="paramname">slot</td><td>The PCI slot number. </td></tr>
+    <tr><td class="paramname">func</td><td>The PCI function number. </td></tr>
+    <tr><td class="paramname">offset</td><td>The offset within the PCI configuration register to read. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The 16-bit value read from the specified PCI configuration register. </dd></dl>
 
 </div>
 </div>

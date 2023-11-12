@@ -1,21 +1,8 @@
 var searchData=
 [
-  ['getclassid_0',['getClassId',['../pci_8h.html#af3efb05e59ecc4324b8e492ba2c30b47',1,'pci.h']]],
-  ['getdeviceid_1',['getDeviceID',['../pci_8h.html#a3bc23ba659b224a220a605b4214330d0',1,'pci.h']]],
-  ['getsubclassid_2',['getSubClassId',['../pci_8h.html#ad6e6cb3e944425ff46d2a267da3aa9d2',1,'pci.h']]],
-  ['getvendorid_3',['getVendorID',['../pci_8h.html#a7401385d1ee1ca12c01090e98d11c1b1',1,'pci.h']]],
-  ['glclear_4',['glClear',['../glbackend_8h.html#ac55af64e4e0ae8d1a8d801dcfb3885dc',1,'glbackend.h']]],
-  ['glclearcolor_5',['glClearColor',['../glbackend_8h.html#ab4a48f413cab43b879b1edcc5f814b1d',1,'glbackend.h']]],
-  ['glcontextinitialized_6',['glContextInitialized',['../glcontext_8h.html#ad15de6557973fb6df86e59c41bbe9f0c',1,'glcontext.h']]],
-  ['glcreatecontext_7',['glCreateContext',['../glcontext_8h.html#af28b9b195bfc73751f0463e8ba5e6ece',1,'glcontext.h']]],
-  ['glcreatecontextcustom_8',['glCreateContextCustom',['../glcontext_8h.html#ac7521362c251f02e027981ec1e3ca7dd',1,'glcontext.h']]],
-  ['gldestroycontext_9',['glDestroyContext',['../glcontext_8h.html#ac8eb10e34ad828ecfbed4c20c1f97121',1,'glcontext.h']]],
-  ['gldrawline_10',['glDrawLine',['../glbackend_8h.html#a7ec4196be26a5886ece14f7cb22ce791',1,'glbackend.h']]],
-  ['gldrawtriangle_11',['glDrawTriangle',['../glbackend_8h.html#a425d7cebf5a93619cb6dbc7ee5f1e219',1,'glbackend.h']]],
-  ['glgetcurrentcontext_12',['glGetCurrentContext',['../glcontext_8h.html#a29a2208aa65f5adea4067be2bb8f6cb9',1,'glcontext.h']]],
-  ['glmatrixidentity3x3_13',['glMatrixIdentity3x3',['../glmat_8h.html#a53315a98dd652974c56481297e1127be',1,'glmat.h']]],
-  ['glmatrixidentity4x4_14',['glMatrixIdentity4x4',['../glmat_8h.html#a6572e3298744dadb4cccbd3b5110d218',1,'glmat.h']]],
-  ['glmatrixortho_15',['glMatrixOrtho',['../glmat_8h.html#ac98cb377149a8398756623a5b4875890',1,'glmat.h']]],
-  ['glmatrixperspective_16',['glMatrixPerspective',['../glmat_8h.html#a27471a3eb64e874973f3266e9255147c',1,'glmat.h']]],
-  ['glwritepixel_17',['glWritePixel',['../glbackend_8h.html#a19b3d58ad50a7dc82e37ed9bd6ba500c',1,'glbackend.h']]]
+  ['flanterm_5fcontext_5freinit_0',['flanterm_context_reinit',['../flanterm_8h.html#a3eaeaf06304cc0a1736fdc36da5dde70',1,'flanterm.h']]],
+  ['flanterm_5ffb_5finit_1',['flanterm_fb_init',['../fb_8h.html#a528a054c99a89ca88e860bc5242616f4',1,'fb.h']]],
+  ['flanterm_5fwrite_2',['flanterm_write',['../flanterm_8h.html#ab49be1436a7e1562f12d6bb8347a90f2',1,'flanterm.h']]],
+  ['flush_5fheap_3',['flush_heap',['../heap_8h.html#ae51b49a11fe9648e5d1d09830675fcdf',1,'heap.h']]],
+  ['free_4',['free',['../heap_8h.html#afbedc913aa4651b3c3b4b3aecd9b4711',1,'heap.h']]]
 ];
