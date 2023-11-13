@@ -10,7 +10,7 @@ var graphics_8h =
     [ "info", "graphics_8h.html#aee2e1461792f971c8adaa6bede6e2bdd", null ],
     [ "printdec", "graphics_8h.html#ac6f46a60de5cd77231f7c63078f02ed5", null ],
     [ "printf", "graphics_8h.html#a0904e7c8481b729bce5993268e9c9e4c", null ],
-    [ "printhex", "graphics_8h.html#a3d7a0addd4d156ac66ba9927ade4c80a", null ],
+    [ "printhex", "graphics_8h.html#a1aa96cd21b7c79c08db9749e17ac61d3", null ],
     [ "putc", "graphics_8h.html#acc0ee6e9643f83a5ab11722197fc25ec", null ],
     [ "warn", "graphics_8h.html#ad77420c435b84b1d7ff086a9a1046d81", null ]
 ];

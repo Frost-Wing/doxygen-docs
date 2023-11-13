@@ -71,8 +71,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "acpi-shutdown_8h.html",
-"limine_8h.html#a32559a72539157a6838216959954c3cb",
-"structivec4.html#a709ef95dee2238a788ba9139650c80e4"
+"limine_8h.html#a2a2a595a6d1c05cf148b7fd26584ffd7",
+"structflanterm__fb__context.html#ae77c50ad3670f02d9ad9744a3cdc4e34",
+"structvec2.html#a002d3519d48fe3cd79729b5b0ded74bf"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

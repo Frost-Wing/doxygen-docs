@@ -7,6 +7,7 @@ var dir_c9f89f587e7e777be723ee48a3df5844 =
     [ "acpi-shutdown.h", "acpi-shutdown_8h.html", "acpi-shutdown_8h" ],
     [ "acpi.h", "acpi_8h.html", "acpi_8h" ],
     [ "basics.h", "basics_8h.html", "basics_8h" ],
+    [ "boot-logo.h", "boot-logo_8h.html", "boot-logo_8h" ],
     [ "cpuid2.h", "cpuid2_8h.html", "cpuid2_8h" ],
     [ "debugger.h", "debugger_8h.html", "debugger_8h" ],
     [ "fb.h", "fb_8h.html", "fb_8h" ],

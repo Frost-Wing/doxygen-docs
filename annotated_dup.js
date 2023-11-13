@@ -52,6 +52,7 @@ var annotated_dup =
     [ "limine_video_mode", "structlimine__video__mode.html", "structlimine__video__mode" ],
     [ "mat3x3", "structmat3x3.html", "structmat3x3" ],
     [ "mat4x4", "structmat4x4.html", "structmat4x4" ],
+    [ "rtl8139", "structrtl8139.html", "structrtl8139" ],
     [ "sdt", "structsdt.html", "structsdt" ],
     [ "uvec2", "structuvec2.html", "structuvec2" ],
     [ "uvec3", "structuvec3.html", "structuvec3" ],

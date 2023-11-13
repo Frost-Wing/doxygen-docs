@@ -142,6 +142,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ad4bf9c94d6812f96f997ff82d9a8ae79"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="strings_8h.html#ad4bf9c94d6812f96f997ff82d9a8ae79">contains</a> (<a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> str, <a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> substr)</td></tr>
 <tr class="memdesc:ad4bf9c94d6812f96f997ff82d9a8ae79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a substring is found within a string.  <a href="strings_8h.html#ad4bf9c94d6812f96f997ff82d9a8ae79">More...</a><br /></td></tr>
 <tr class="separator:ad4bf9c94d6812f96f997ff82d9a8ae79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc517566d6d8d5e0a28d5a2058f1fa0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="strings_8h.html#afc517566d6d8d5e0a28d5a2058f1fa0f">string_transport_front</a> (char *str, int x)</td></tr>
+<tr class="memdesc:afc517566d6d8d5e0a28d5a2058f1fa0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move the last x characters of a string to the front and delete the rest.  <a href="strings_8h.html#afc517566d6d8d5e0a28d5a2058f1fa0f">More...</a><br /></td></tr>
+<tr class="separator:afc517566d6d8d5e0a28d5a2058f1fa0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The header file for strings.c. </p>
@@ -263,6 +266,45 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The resulting copy of the string <code>src</code> </dd></dl>
+
+</div>
+</div>
+<a id="afc517566d6d8d5e0a28d5a2058f1fa0f" name="afc517566d6d8d5e0a28d5a2058f1fa0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc517566d6d8d5e0a28d5a2058f1fa0f">&#9670;&nbsp;</a></span>string_transport_front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void string_transport_front </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Move the last x characters of a string to the front and delete the rest. </p>
+<p >This function takes a null-terminated C string and moves the last x characters to the beginning of the string while deleting the remaining characters. If x is greater than or equal to the length of the string, the function does nothing.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>The input string. </td></tr>
+    <tr><td class="paramname">x</td><td>The number of characters to move to the front.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>This function modifies the input string in place. </dd></dl>
 
 </div>
 </div>

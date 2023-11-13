@@ -1,6 +1,7 @@
 <map id="source/includes/graphics.h" name="source/includes/graphics.h">
-<area shape="rect" id="node1" title="Contains all the print functions." alt="" coords="10,5,205,32"/>
-<area shape="rect" id="node2" href="$kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="18,155,197,181"/>
-<area shape="rect" id="node4" href="$pci_8h.html" title="The Header files for actual PCI source." alt="" coords="87,80,245,107"/>
-<area shape="rect" id="node3" href="$meltdown_8h.html" title="The headers for meltdown.c." alt="" coords="5,229,209,256"/>
+<area shape="rect" id="node1" title="Contains all the print functions." alt="" coords="102,5,297,32"/>
+<area shape="rect" id="node2" href="$boot-logo_8h.html" title=" " alt="" coords="5,80,161,121"/>
+<area shape="rect" id="node3" href="$kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="110,169,289,196"/>
+<area shape="rect" id="node5" href="$pci_8h.html" title="The Header files for actual PCI source." alt="" coords="237,87,396,114"/>
+<area shape="rect" id="node4" href="$meltdown_8h.html" title="The headers for meltdown.c." alt="" coords="97,244,301,271"/>
 </map>
