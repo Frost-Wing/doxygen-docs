@@ -105,31 +105,34 @@ $(document).ready(function(){initNavTree('kernel_8h_source.html',''); initResiza
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#include &lt;<a class="code" href="strings_8h.html">strings.h</a>&gt;</span></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#include &lt;<a class="code" href="fpu_8h.html">math/fpu.h</a>&gt;</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#include &lt;<a class="code" href="sse_8h.html">sse.h</a>&gt;</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &lt;<a class="code" href="typescript-loader_8h.html">typescript-loader.h</a>&gt;</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#include &lt;<a class="code" href="debugger_8h.html">debugger.h</a>&gt;</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &lt;<a class="code" href="serial_8h.html">drivers/serial.h</a>&gt;</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#include &lt;<a class="code" href="cpuid2_8h.html">cpuid2.h</a>&gt;</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#include &lt;<a class="code" href="heap_8h.html">heap.h</a>&gt;</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#include &lt;<a class="code" href="pc-speaker_8h.html">drivers/pc-speaker.h</a>&gt;</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#include &lt;<a class="code" href="rtl8139_8h.html">drivers/rtl8139.h</a>&gt;</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#include &lt;<a class="code" href="boot-logo_8h.html">boot-logo.h</a>&gt;</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">extern</span> <a class="code hl_typedef" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a>* <a class="code hl_variable" href="kernel_8h.html#a68ba391bbff5da9d0c799340ec7fe0aa">kend</a>;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="kernel_8h.html#a65043fd9f185ead3cb6991a681f042d2">   47</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="kernel_8h.html#a65043fd9f185ead3cb6991a681f042d2">hcf</a>();</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="kernel_8h.html#a54c4198218bc443bd74bddb2764e5ae5">   53</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="kernel_8h.html#a54c4198218bc443bd74bddb2764e5ae5">clear_interrupts</a>();</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="kernel_8h.html#a2e595f2e85354f0c91c0619ef77520f1">   60</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="kernel_8h.html#a2e595f2e85354f0c91c0619ef77520f1">high_level_halt</a>();</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="kernel_8h.html#a8969d23cf51c65e739ad4a2e00d09edb">terminal_rows</a>;</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="kernel_8h.html#a9255c961157d6be5e225e3b55ed234b0">terminal_columns</a>;</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="keyword">extern</span> <a class="code hl_typedef" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a>* <a class="code hl_variable" href="kernel_8h.html#a6371cb25337579cabb08af804d55c7ad">back_buffer</a>;</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="keyword">extern</span> <a class="code hl_typedef" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a>* <a class="code hl_variable" href="kernel_8h.html#af389114d64e50bf6ea15a300a10323e4">front_buffer</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &lt;<a class="code" href="debugger_8h.html">debugger.h</a>&gt;</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#include &lt;<a class="code" href="serial_8h.html">drivers/serial.h</a>&gt;</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#include &lt;<a class="code" href="cpuid2_8h.html">cpuid2.h</a>&gt;</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#include &lt;<a class="code" href="heap_8h.html">heap.h</a>&gt;</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#include &lt;<a class="code" href="pc-speaker_8h.html">drivers/pc-speaker.h</a>&gt;</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#include &lt;<a class="code" href="rtl8139_8h.html">drivers/rtl8139.h</a>&gt;</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#include &lt;<a class="code" href="boot-logo_8h.html">boot-logo.h</a>&gt;</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">extern</span> <a class="code hl_typedef" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a>* <a class="code hl_variable" href="kernel_8h.html#a68ba391bbff5da9d0c799340ec7fe0aa">kend</a>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="kernel_8h.html#a65043fd9f185ead3cb6991a681f042d2">   46</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="kernel_8h.html#a65043fd9f185ead3cb6991a681f042d2">hcf</a>();</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="kernel_8h.html#a54c4198218bc443bd74bddb2764e5ae5">   52</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="kernel_8h.html#a54c4198218bc443bd74bddb2764e5ae5">clear_interrupts</a>();</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="kernel_8h.html#a2e595f2e85354f0c91c0619ef77520f1">   59</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="kernel_8h.html#a2e595f2e85354f0c91c0619ef77520f1">high_level_halt</a>();</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="kernel_8h.html#a078849075b75c5dccbd4e00738e3633d">   65</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="kernel_8h.html#a078849075b75c5dccbd4e00738e3633d">hcf2</a>();</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="kernel_8h.html#a8969d23cf51c65e739ad4a2e00d09edb">terminal_rows</a>;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="kernel_8h.html#a9255c961157d6be5e225e3b55ed234b0">terminal_columns</a>;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="keyword">extern</span> <a class="code hl_typedef" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a>* <a class="code hl_variable" href="kernel_8h.html#a6371cb25337579cabb08af804d55c7ad">back_buffer</a>;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="keyword">extern</span> <a class="code hl_typedef" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a>* <a class="code hl_variable" href="kernel_8h.html#af389114d64e50bf6ea15a300a10323e4">front_buffer</a>;</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="kernel_8h.html#a6288eba0f8e8ad3ab1544ad731eb7667">   95</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="kernel_8h.html#a6288eba0f8e8ad3ab1544ad731eb7667">main</a>(<span class="keywordtype">void</span>);</div>
 <div class="ttc" id="aacpi-shutdown_8h_html"><div class="ttname"><a href="acpi-shutdown_8h.html">acpi-shutdown.h</a></div><div class="ttdoc">The ACPI Shutdown Header for Wing kernel, this is not the full ACPI.</div></div>
 <div class="ttc" id="aacpi_8h_html"><div class="ttname"><a href="acpi_8h.html">acpi.h</a></div><div class="ttdoc">The ACPI Header.</div></div>
 <div class="ttc" id="abasics_8h_html"><div class="ttname"><a href="basics_8h.html">basics.h</a></div></div>
@@ -145,8 +148,10 @@ $(document).ready(function(){initNavTree('kernel_8h_source.html',''); initResiza
 <div class="ttc" id="agraphics_8h_html"><div class="ttname"><a href="graphics_8h.html">graphics.h</a></div><div class="ttdoc">Contains all the print functions.</div></div>
 <div class="ttc" id="ahal_8h_html"><div class="ttname"><a href="hal_8h.html">hal.h</a></div><div class="ttdoc">Header file for Hardware Abstraction Layer -&gt; Source from GoGX OS.</div></div>
 <div class="ttc" id="aheap_8h_html"><div class="ttname"><a href="heap_8h.html">heap.h</a></div><div class="ttdoc">Header files for heap.</div></div>
+<div class="ttc" id="akernel_8h_html_a078849075b75c5dccbd4e00738e3633d"><div class="ttname"><a href="kernel_8h.html#a078849075b75c5dccbd4e00738e3633d">hcf2</a></div><div class="ttdeci">void hcf2()</div><div class="ttdoc">Halt and catch fire function but doesn't print any text.</div></div>
 <div class="ttc" id="akernel_8h_html_a2e595f2e85354f0c91c0619ef77520f1"><div class="ttname"><a href="kernel_8h.html#a2e595f2e85354f0c91c0619ef77520f1">high_level_halt</a></div><div class="ttdeci">void high_level_halt()</div><div class="ttdoc">It uses while loops instead of assembly's halt, Good for Userland.</div></div>
 <div class="ttc" id="akernel_8h_html_a54c4198218bc443bd74bddb2764e5ae5"><div class="ttname"><a href="kernel_8h.html#a54c4198218bc443bd74bddb2764e5ae5">clear_interrupts</a></div><div class="ttdeci">void clear_interrupts()</div><div class="ttdoc">The clear interrupts command for all architectures.</div></div>
+<div class="ttc" id="akernel_8h_html_a6288eba0f8e8ad3ab1544ad731eb7667"><div class="ttname"><a href="kernel_8h.html#a6288eba0f8e8ad3ab1544ad731eb7667">main</a></div><div class="ttdeci">void main(void)</div><div class="ttdoc">The main kernel function.</div></div>
 <div class="ttc" id="akernel_8h_html_a6371cb25337579cabb08af804d55c7ad"><div class="ttname"><a href="kernel_8h.html#a6371cb25337579cabb08af804d55c7ad">back_buffer</a></div><div class="ttdeci">int64 * back_buffer</div><div class="ttdoc">The fake or pseudo frame buffer in the memory which will be queued for next frame update.</div></div>
 <div class="ttc" id="akernel_8h_html_a65043fd9f185ead3cb6991a681f042d2"><div class="ttname"><a href="kernel_8h.html#a65043fd9f185ead3cb6991a681f042d2">hcf</a></div><div class="ttdeci">void hcf()</div><div class="ttdoc">Halt and catch fire function.</div></div>
 <div class="ttc" id="akernel_8h_html_a68ba391bbff5da9d0c799340ec7fe0aa"><div class="ttname"><a href="kernel_8h.html#a68ba391bbff5da9d0c799340ec7fe0aa">kend</a></div><div class="ttdeci">int64 * kend</div><div class="ttdoc">The memory address pointer where the kernel ends.</div></div>
@@ -161,7 +166,6 @@ $(document).ready(function(){initNavTree('kernel_8h_source.html',''); initResiza
 <div class="ttc" id="aserial_8h_html"><div class="ttname"><a href="serial_8h.html">serial.h</a></div><div class="ttdoc">Header files for serial drivers.</div></div>
 <div class="ttc" id="asse_8h_html"><div class="ttname"><a href="sse_8h.html">sse.h</a></div><div class="ttdoc">SSE Header file.</div></div>
 <div class="ttc" id="astrings_8h_html"><div class="ttname"><a href="strings_8h.html">strings.h</a></div><div class="ttdoc">The header file for strings.c.</div></div>
-<div class="ttc" id="atypescript-loader_8h_html"><div class="ttname"><a href="typescript-loader_8h.html">typescript-loader.h</a></div><div class="ttdoc">Headers for pre-defines functions and variables for typescript.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

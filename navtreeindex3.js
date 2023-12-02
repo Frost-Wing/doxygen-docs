@@ -1,5 +1,13 @@
 var NAVTREEINDEX3 =
 {
+"structuvec3.html#a9bbb1f4134f38f5a490b7fd4ce683aac":[2,0,55,2],
+"structuvec3.html#aa4202b677715ac45f115d5b70d8c5160":[2,0,55,1],
+"structuvec4.html":[2,0,56],
+"structuvec4.html#a1cfe7082ae78fd3e62b549c702920e88":[2,0,56,2],
+"structuvec4.html#a412c585f95e1c702253ab2b1d1646019":[2,0,56,1],
+"structuvec4.html#a81a91f7ceabb66afe844c670924e5e14":[2,0,56,3],
+"structuvec4.html#acc923a7ebe0c0ef7751571046253cfb1":[2,0,56,0],
+"structvec2.html":[2,0,57],
 "structvec2.html#a002d3519d48fe3cd79729b5b0ded74bf":[2,0,57,0],
 "structvec2.html#a6d28b12b511da692550fc9d37b4e9b1d":[2,0,57,1],
 "structvec3.html":[2,0,58],
@@ -11,11 +19,8 @@ var NAVTREEINDEX3 =
 "structvec4.html#a12b318751110db034dddc450cdec455d":[2,0,59,3],
 "structvec4.html#a36c650782a67137380c83b01545c94d6":[2,0,59,1],
 "structvec4.html#a7328fe0e502fce92fa32016193052e92":[2,0,59,2],
-"typescript-loader_8h.html":[3,0,0,0,21],
-"typescript-loader_8h.html#a7584c86895bc1ebfec70ecb4e337dcc0":[3,0,0,0,21,0],
-"typescript-loader_8h_source.html":[3,0,0,0,21],
-"unifont_8h.html":[3,0,0,0,22],
-"unifont_8h.html#a163c4af537fbbd21198f9b9967ea1f69":[3,0,0,0,22,0],
-"unifont_8h.html#a30f8d1b95145af31514901e324c657f7":[3,0,0,0,22,1],
-"unifont_8h_source.html":[3,0,0,0,22]
+"unifont_8h.html":[3,0,0,0,21],
+"unifont_8h.html#a163c4af537fbbd21198f9b9967ea1f69":[3,0,0,0,21,0],
+"unifont_8h.html#a30f8d1b95145af31514901e324c657f7":[3,0,0,0,21,1],
+"unifont_8h_source.html":[3,0,0,0,21]
 };

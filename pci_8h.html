@@ -86,6 +86,7 @@ $(document).ready(function(){initNavTree('pci_8h.html',''); initResizable(); });
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">pci.h File Reference</div></div>
@@ -128,6 +129,13 @@ This graph shows which files directly or indirectly include this file:</div>
 </div>
 <p><a href="pci_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:aaa58db8af2d00af66c78624104e1016b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pci_8h.html#aaa58db8af2d00af66c78624104e1016b">PCI_CONFIG_ADDRESS</a>&#160;&#160;&#160;0xCF8</td></tr>
+<tr class="separator:aaa58db8af2d00af66c78624104e1016b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1fedcf5fe37518ccc1ddfcb880d1b01"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pci_8h.html#ad1fedcf5fe37518ccc1ddfcb880d1b01">PCI_CONFIG_DATA</a>&#160;&#160;&#160;0xCFC</td></tr>
+<tr class="separator:ad1fedcf5fe37518ccc1ddfcb880d1b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:af2126c3e5d896f9aa9d2bc0f46af11fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pci_8h.html#af2126c3e5d896f9aa9d2bc0f46af11fa">pci_read_word</a> (<a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> bus, <a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> slot, <a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> func, <a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> offset)</td></tr>
@@ -148,6 +156,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ac78377dc4a7021491c3f3da150e3e4a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pci_8h.html#ac78377dc4a7021491c3f3da150e3e4a9">probe_pci</a> ()</td></tr>
 <tr class="memdesc:ac78377dc4a7021491c3f3da150e3e4a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scans (Probes) PCI Devices.  <a href="pci_8h.html#ac78377dc4a7021491c3f3da150e3e4a9">More...</a><br /></td></tr>
 <tr class="separator:ac78377dc4a7021491c3f3da150e3e4a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f24886e291839089cb53fa4b31f146a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pci_8h.html#a3f24886e291839089cb53fa4b31f146a">load_graphics_card</a> (<a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> bus, <a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> slot, <a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> function)</td></tr>
+<tr class="memdesc:a3f24886e291839089cb53fa4b31f146a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a int64* to a Graphics Card's base address.  <a href="pci_8h.html#a3f24886e291839089cb53fa4b31f146a">More...</a><br /></td></tr>
+<tr class="separator:a3f24886e291839089cb53fa4b31f146a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd04ab072f8cfd454a3b935e3067121e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pci_8h.html#acd04ab072f8cfd454a3b935e3067121e">getGraphicsCardBAR</a> (<a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a> bus, <a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a> slot, <a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a> func, <a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a> desiredBAR)</td></tr>
+<tr class="memdesc:acd04ab072f8cfd454a3b935e3067121e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to get the base address register (BAR) of the graphics card.  <a href="pci_8h.html#acd04ab072f8cfd454a3b935e3067121e">More...</a><br /></td></tr>
+<tr class="separator:acd04ab072f8cfd454a3b935e3067121e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66ba18e39a8d7e1df9c60e373c44b849"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basics_8h.html#abbff394a3e4c2f6a39824ed1e32acaf8">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pci_8h.html#a66ba18e39a8d7e1df9c60e373c44b849">pci_config_read_dword</a> (<a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a> bus, <a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a> slot, <a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a> func, <a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a> offset)</td></tr>
+<tr class="memdesc:a66ba18e39a8d7e1df9c60e373c44b849"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to read a 32-bit value from the PCI configuration space.  <a href="pci_8h.html#a66ba18e39a8d7e1df9c60e373c44b849">More...</a><br /></td></tr>
+<tr class="separator:a66ba18e39a8d7e1df9c60e373c44b849"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -155,6 +172,8 @@ Variables</h2></td></tr>
 <tr class="separator:a7ac96d21de684cab2b6cdc36eb9ee27f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af56c6fc943cbca50e339c84119edd390"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pci_8h.html#af56c6fc943cbca50e339c84119edd390">GPUName</a> [1]</td></tr>
 <tr class="separator:af56c6fc943cbca50e339c84119edd390"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17bc8d02cdd6c90108753afe48331936"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pci_8h.html#a17bc8d02cdd6c90108753afe48331936">graphics_base_Address</a></td></tr>
+<tr class="separator:a17bc8d02cdd6c90108753afe48331936"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The Header files for actual PCI source. </p>
@@ -162,7 +181,36 @@ Variables</h2></td></tr>
 <dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2023-10-29</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) Pradosh 2023 </dd></dl>
-</div><h2 class="groupheader">Function Documentation</h2>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="aaa58db8af2d00af66c78624104e1016b" name="aaa58db8af2d00af66c78624104e1016b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa58db8af2d00af66c78624104e1016b">&#9670;&nbsp;</a></span>PCI_CONFIG_ADDRESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PCI_CONFIG_ADDRESS&#160;&#160;&#160;0xCF8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad1fedcf5fe37518ccc1ddfcb880d1b01" name="ad1fedcf5fe37518ccc1ddfcb880d1b01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1fedcf5fe37518ccc1ddfcb880d1b01">&#9670;&nbsp;</a></span>PCI_CONFIG_DATA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PCI_CONFIG_DATA&#160;&#160;&#160;0xCFC</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
 <a id="af3efb05e59ecc4324b8e492ba2c30b47" name="af3efb05e59ecc4324b8e492ba2c30b47"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af3efb05e59ecc4324b8e492ba2c30b47">&#9670;&nbsp;</a></span>getClassId()</h2>
 
@@ -253,6 +301,58 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="acd04ab072f8cfd454a3b935e3067121e" name="acd04ab072f8cfd454a3b935e3067121e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd04ab072f8cfd454a3b935e3067121e">&#9670;&nbsp;</a></span>getGraphicsCardBAR()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a> getGraphicsCardBAR </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a>&#160;</td>
+          <td class="paramname"><em>bus</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a>&#160;</td>
+          <td class="paramname"><em>slot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a>&#160;</td>
+          <td class="paramname"><em>func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a>&#160;</td>
+          <td class="paramname"><em>desiredBAR</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function to get the base address register (BAR) of the graphics card. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bus</td><td></td></tr>
+    <tr><td class="paramname">slot</td><td></td></tr>
+    <tr><td class="paramname">func</td><td></td></tr>
+    <tr><td class="paramname">desiredBAR</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int64 </dd></dl>
+
+</div>
+</div>
 <a id="ad6e6cb3e944425ff46d2a267da3aa9d2" name="ad6e6cb3e944425ff46d2a267da3aa9d2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad6e6cb3e944425ff46d2a267da3aa9d2">&#9670;&nbsp;</a></span>getSubClassId()</h2>
 
@@ -340,6 +440,102 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int16 Vendor ID </dd></dl>
+
+</div>
+</div>
+<a id="a3f24886e291839089cb53fa4b31f146a" name="a3f24886e291839089cb53fa4b31f146a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f24886e291839089cb53fa4b31f146a">&#9670;&nbsp;</a></span>load_graphics_card()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void load_graphics_card </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a>&#160;</td>
+          <td class="paramname"><em>bus</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a>&#160;</td>
+          <td class="paramname"><em>slot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a>&#160;</td>
+          <td class="paramname"><em>function</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads a int64* to a Graphics Card's base address. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bus</td><td></td></tr>
+    <tr><td class="paramname">slot</td><td></td></tr>
+    <tr><td class="paramname">function</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a66ba18e39a8d7e1df9c60e373c44b849" name="a66ba18e39a8d7e1df9c60e373c44b849"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66ba18e39a8d7e1df9c60e373c44b849">&#9670;&nbsp;</a></span>pci_config_read_dword()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basics_8h.html#abbff394a3e4c2f6a39824ed1e32acaf8">int32</a> pci_config_read_dword </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a>&#160;</td>
+          <td class="paramname"><em>bus</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a>&#160;</td>
+          <td class="paramname"><em>slot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a>&#160;</td>
+          <td class="paramname"><em>func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a>&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function to read a 32-bit value from the PCI configuration space. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bus</td><td></td></tr>
+    <tr><td class="paramname">slot</td><td></td></tr>
+    <tr><td class="paramname">func</td><td></td></tr>
+    <tr><td class="paramname">offset</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int32 </dd></dl>
 
 </div>
 </div>
@@ -449,6 +645,28 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> GPUName[1]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17bc8d02cdd6c90108753afe48331936" name="a17bc8d02cdd6c90108753afe48331936"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17bc8d02cdd6c90108753afe48331936">&#9670;&nbsp;</a></span>graphics_base_Address</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a>* graphics_base_Address</td>
         </tr>
       </table>
   </td>
