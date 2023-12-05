@@ -1,5 +1,5 @@
 <map id="source/includes/drivers/rtl8139.h" name="source/includes/drivers/rtl8139.h">
-<area shape="rect" id="node1" title=" " alt="" coords="21,5,193,47"/>
+<area shape="rect" id="node1" title="The Header files for RTL8139 Networking Card." alt="" coords="21,5,193,47"/>
 <area shape="rect" id="node2" href="$kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="18,169,197,196"/>
 <area shape="rect" id="node4" href="$pci_8h.html" title="The Header files for actual PCI source." alt="" coords="87,95,245,121"/>
 <area shape="rect" id="node3" href="$meltdown_8h.html" title="The headers for meltdown.c." alt="" coords="5,244,209,271"/>

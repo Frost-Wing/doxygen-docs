@@ -38,13 +38,16 @@ var NAVTREE =
         [ "Prerequisites", "md_readme.html#autotoc_md8", null ],
         [ "Building FrostWing", "md_readme.html#autotoc_md9", null ],
         [ "Building the FrostWing Doxygen documentation", "md_readme.html#autotoc_md10", null ],
-        [ "Hardware/Software (Emulator) Requirements", "md_readme.html#autotoc_md11", null ],
-        [ "Running FrostWing", "md_readme.html#autotoc_md12", null ],
-        [ "Booting to real machine", "md_readme.html#autotoc_md13", null ]
+        [ "Hardware/Software (Emulator) Requirements", "md_readme.html#autotoc_md11", [
+          [ "Minimum Requirements", "md_readme.html#autotoc_md12", null ],
+          [ "Recommended Requirements", "md_readme.html#autotoc_md13", null ]
+        ] ],
+        [ "Running FrostWing", "md_readme.html#autotoc_md14", null ],
+        [ "Booting to real machine", "md_readme.html#autotoc_md15", null ]
       ] ],
-      [ "Contributing", "md_readme.html#autotoc_md14", null ],
-      [ "License", "md_readme.html#autotoc_md15", null ],
-      [ "FrostWing Team", "md_readme.html#autotoc_md16", null ]
+      [ "Contributing", "md_readme.html#autotoc_md16", null ],
+      [ "License", "md_readme.html#autotoc_md17", null ],
+      [ "FrostWing Team", "md_readme.html#autotoc_md18", null ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -72,8 +75,8 @@ var NAVTREEINDEX =
 [
 "acpi-shutdown_8h.html",
 "limine_8h.html#a27ed1ad9c13e80946a2b292b95eb458b",
-"structflanterm__fb__context.html#ab9b2a5f163f175f73c6915e0a0ce9ad6",
-"structuvec3.html#a9bbb1f4134f38f5a490b7fd4ce683aac"
+"structflanterm__fb__context.html#a8eafdfeed1656e8df36721e79166dd31",
+"structsdt.html#af558f1cd198796f424cf6cbb5a04ff87"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,5 +1,11 @@
 var NAVTREEINDEX3 =
 {
+"structsdt.html#af558f1cd198796f424cf6cbb5a04ff87":[2,0,53,4],
+"structuvec2.html":[2,0,54],
+"structuvec2.html#ac251d4ddc17abd607bda7d6efc4834cc":[2,0,54,0],
+"structuvec2.html#af9805d8c05a45e4cf001e85bac29d10c":[2,0,54,1],
+"structuvec3.html":[2,0,55],
+"structuvec3.html#a54751cbe35fe284e3b43d6da4b093c65":[2,0,55,0],
 "structuvec3.html#a9bbb1f4134f38f5a490b7fd4ce683aac":[2,0,55,2],
 "structuvec3.html#aa4202b677715ac45f115d5b70d8c5160":[2,0,55,1],
 "structuvec4.html":[2,0,56],

@@ -12,5 +12,9 @@ var rtl8139_8h =
     [ "RTL8139_REG_RX_BUFFER", "rtl8139_8h.html#adfa1a926418b4e5cc29fef5a2d8d7c24", null ],
     [ "RTL8139_REG_TX_ADDR", "rtl8139_8h.html#a6d8c92636c27525cd1540997c8d1180b", null ],
     [ "RTL8139_REG_TX_STATUS", "rtl8139_8h.html#aea159a41eb34a111b7e2360196167a9b", null ],
+    [ "read_mac_address", "rtl8139_8h.html#acde81fa38c0a82d57b53fd419757d968", null ],
+    [ "rtl8139_init", "rtl8139_8h.html#af8b8915ce04489c857a28cb6e207e8d5", null ],
+    [ "rtl8139_receive_packet", "rtl8139_8h.html#a295d06116cbab32088da864b5dd940bc", null ],
+    [ "rtl8139_send_packet", "rtl8139_8h.html#a202a94617162beff6e72e9ec3cab1797", null ],
     [ "RTL8139", "rtl8139_8h.html#af96f963890d39768c2ead573b339df1f", null ]
 ];
