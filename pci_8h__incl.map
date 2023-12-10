@@ -1,12 +1,13 @@
 <map id="source/includes/pci.h" name="source/includes/pci.h">
-<area shape="rect" id="node1" title="The Header files for actual PCI source." alt="" coords="20,5,179,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="61,304,132,331"/>
-<area shape="rect" id="node3" href="$hal_8h.html" title="Header file for Hardware Abstraction Layer &#45;&gt; Source from GoGX OS." alt="" coords="21,155,76,181"/>
-<area shape="rect" id="node6" href="$graphics_8h.html" title="Contains all the print functions." alt="" coords="332,155,421,181"/>
-<area shape="rect" id="node10" href="$rtl8139_8h.html" title="The Header files for RTL8139 Networking Card." alt="" coords="87,80,216,107"/>
-<area shape="rect" id="node4" href="$basics_8h.html" title=" " alt="" coords="134,229,209,256"/>
-<area shape="rect" id="node5" title=" " alt="" coords="358,304,433,331"/>
-<area shape="rect" id="node7" title=" " alt="" coords="339,229,414,256"/>
-<area shape="rect" id="node8" title=" " alt="" coords="233,229,315,256"/>
-<area shape="rect" id="node9" title=" " alt="" coords="439,229,509,256"/>
+<area shape="rect" id="node1" title="The Header files for actual PCI source." alt="" coords="303,5,461,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="363,304,433,331"/>
+<area shape="rect" id="node3" href="$hal_8h.html" title="Header file for Hardware Abstraction Layer &#45;&gt; Source from GoGX OS." alt="" coords="457,155,512,181"/>
+<area shape="rect" id="node6" href="$graphics_8h.html" title="Contains all the print functions." alt="" coords="255,155,344,181"/>
+<area shape="rect" id="node10" href="$rtl8139_8h.html" title="The Header files for RTL8139 Networking Card." alt="" coords="317,80,447,107"/>
+<area shape="rect" id="node11" href="$debugger_8h.html" title="The headers files for E9 hack." alt="" coords="523,80,617,107"/>
+<area shape="rect" id="node4" href="$basics_8h.html" title=" " alt="" coords="511,229,586,256"/>
+<area shape="rect" id="node5" title=" " alt="" coords="511,304,586,331"/>
+<area shape="rect" id="node7" title=" " alt="" coords="165,229,239,256"/>
+<area shape="rect" id="node8" title=" " alt="" coords="58,229,141,256"/>
+<area shape="rect" id="node9" title=" " alt="" coords="264,229,335,256"/>
 </map>

@@ -21,5 +21,6 @@ var dir_c9f89f587e7e777be723ee48a3df5844 =
     [ "pci.h", "pci_8h.html", "pci_8h" ],
     [ "sse.h", "sse_8h.html", "sse_8h" ],
     [ "strings.h", "strings_8h.html", "strings_8h" ],
-    [ "unifont.h", "unifont_8h.html", "unifont_8h" ]
+    [ "unifont.h", "unifont_8h.html", "unifont_8h" ],
+    [ "versions.h", "versions_8h.html", "versions_8h" ]
 ];

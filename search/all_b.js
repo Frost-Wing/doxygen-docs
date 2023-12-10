@@ -107,5 +107,5 @@ var searchData=
   ['limine_5fuuid_104',['limine_uuid',['../structlimine__uuid.html',1,'']]],
   ['limine_5fvideo_5fmode_105',['limine_video_mode',['../structlimine__video__mode.html',1,'']]],
   ['load_5fcomplete_5fsse_106',['load_complete_sse',['../sse_8h.html#a2e7ce2344348ad2a5b3239b1bae8d2b3',1,'sse.h']]],
-  ['load_5fgraphics_5fcard_107',['load_graphics_card',['../pci_8h.html#a3f24886e291839089cb53fa4b31f146a',1,'pci.h']]]
+  ['load_5fgraphics_5fcard_107',['load_graphics_card',['../pci_8h.html#a2ad85870e9dfba546da12684c8495a9d',1,'pci.h']]]
 ];

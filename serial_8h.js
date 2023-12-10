@@ -13,5 +13,6 @@ var serial_8h =
     [ "probe_serial", "serial_8h.html#a740862a501e0435f9ba13ae4fadca8cb", null ],
     [ "serial_print", "serial_8h.html#a302122eb11dc3538353438ac015c71fe", null ],
     [ "serial_putc", "serial_8h.html#ad47b023bd984b9f8c60daab1b51de36b", null ],
-    [ "transmit_status", "serial_8h.html#a69e0f055bfd4f2b7a5f52b52b3179c35", null ]
+    [ "transmit_status", "serial_8h.html#a69e0f055bfd4f2b7a5f52b52b3179c35", null ],
+    [ "select", "serial_8h.html#ac4ee50d2352f3ec2ea1ddf1bf59f5e5c", null ]
 ];
