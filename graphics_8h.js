@@ -2,6 +2,7 @@ var graphics_8h =
 [
     [ "blue_color", "graphics_8h.html#a05dd35863ccc281035a3411733ea6178", null ],
     [ "green_color", "graphics_8h.html#a654afd3b020ce4a21dac8f9df936a89a", null ],
+    [ "orange_color", "graphics_8h.html#a5060b1bf44bd7845708eae4d7e29de42", null ],
     [ "red_color", "graphics_8h.html#ad94055bf9318a48c6a304070f04a6c7c", null ],
     [ "reset_color", "graphics_8h.html#a7928c478a94a8406183be360b2f9606d", null ],
     [ "yellow_color", "graphics_8h.html#af07390ab9ad63091477de1a73b9197d4", null ],

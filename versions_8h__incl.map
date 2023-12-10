@@ -1,6 +1,10 @@
 <map id="source/includes/versions.h" name="source/includes/versions.h">
-<area shape="rect" id="node1" title="This is the header file which contains all the tools used&#39;s versions." alt="" coords="5,5,200,32"/>
-<area shape="rect" id="node2" href="$basics_8h.html" title=" " alt="" coords="65,80,140,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="19,155,90,181"/>
-<area shape="rect" id="node4" title=" " alt="" coords="115,155,189,181"/>
+<area shape="rect" id="node1" title="This is the header file which contains all the tools used&#39;s versions." alt="" coords="264,5,459,32"/>
+<area shape="rect" id="node2" href="$basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="408,155,483,181"/>
+<area shape="rect" id="node5" href="$graphics_8h.html" title="Contains all the print functions." alt="" coords="275,80,365,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="402,229,473,256"/>
+<area shape="rect" id="node4" title=" " alt="" coords="296,229,371,256"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,155,80,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="104,155,187,181"/>
+<area shape="rect" id="node8" title=" " alt="" coords="211,155,282,181"/>
 </map>

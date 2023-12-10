@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['yellow_5fcolor_0',['yellow_color',['../graphics_8h.html#af07390ab9ad63091477de1a73b9197d4',1,'graphics.h']]],
-  ['yes_1',['yes',['../basics_8h.html#ade1c73328c7fd9bbb990a2811a5182e5',1,'basics.h']]]
+  ['serial_5fmode_0',['serial_mode',['../serial_8h.html#a4d76d0d8deb09d46f398a95062a0a4e6',1,'serial.h']]]
 ];

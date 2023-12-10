@@ -94,15 +94,20 @@ $(document).ready(function(){initNavTree('versions_8h.html',''); initResizable()
 <p>This is the header file which contains all the tools used's versions.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="basics_8h_source.html">basics.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="graphics_8h_source.html">graphics.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for versions.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="versions_8h__incl.png" border="0" usemap="#asource_2includes_2versions_8h" alt=""/></div>
 <map name="asource_2includes_2versions_8h" id="asource_2includes_2versions_8h">
-<area shape="rect" title="This is the header file which contains all the tools used&#39;s versions." alt="" coords="5,5,200,32"/>
-<area shape="rect" href="basics_8h.html" title=" " alt="" coords="65,80,140,107"/>
-<area shape="rect" title=" " alt="" coords="19,155,90,181"/>
-<area shape="rect" title=" " alt="" coords="115,155,189,181"/>
+<area shape="rect" title="This is the header file which contains all the tools used&#39;s versions." alt="" coords="264,5,459,32"/>
+<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="408,155,483,181"/>
+<area shape="rect" href="graphics_8h.html" title="Contains all the print functions." alt="" coords="275,80,365,107"/>
+<area shape="rect" title=" " alt="" coords="402,229,473,256"/>
+<area shape="rect" title=" " alt="" coords="296,229,371,256"/>
+<area shape="rect" title=" " alt="" coords="5,155,80,181"/>
+<area shape="rect" title=" " alt="" coords="104,155,187,181"/>
+<area shape="rect" title=" " alt="" coords="211,155,282,181"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -121,7 +126,11 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a21d6b411d4a0c82ae4b33e7bad1f1533"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="versions_8h.html#a21d6b411d4a0c82ae4b33e7bad1f1533">versions</a></td></tr>
+<tr class="memdesc:a21d6b411d4a0c82ae4b33e7bad1f1533"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains GCC, CC, LD, MAKE, xorriso, tar versions.  <a href="versions_8h.html#a21d6b411d4a0c82ae4b33e7bad1f1533">More...</a><br /></td></tr>
 <tr class="separator:a21d6b411d4a0c82ae4b33e7bad1f1533"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4949920e86a698e15d876f58334ec04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="versions_8h.html#af4949920e86a698e15d876f58334ec04">date</a></td></tr>
+<tr class="memdesc:af4949920e86a698e15d876f58334ec04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains the exact time when the compilation started.  <a href="versions_8h.html#af4949920e86a698e15d876f58334ec04">More...</a><br /></td></tr>
+<tr class="separator:af4949920e86a698e15d876f58334ec04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >This is the header file which contains all the tools used's versions. </p>
@@ -130,6 +139,30 @@ Variables</h2></td></tr>
 <dl class="section date"><dt>Date</dt><dd>2023-12-10</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) Pradosh 2023 </dd></dl>
 </div><h2 class="groupheader">Variable Documentation</h2>
+<a id="af4949920e86a698e15d876f58334ec04" name="af4949920e86a698e15d876f58334ec04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4949920e86a698e15d876f58334ec04">&#9670;&nbsp;</a></span>date</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> date</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Contains the exact time when the compilation started. </p>
+
+</div>
+</div>
 <a id="a21d6b411d4a0c82ae4b33e7bad1f1533" name="a21d6b411d4a0c82ae4b33e7bad1f1533"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a21d6b411d4a0c82ae4b33e7bad1f1533">&#9670;&nbsp;</a></span>versions</h2>
 
@@ -149,6 +182,8 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Contains GCC, CC, LD, MAKE, xorriso, tar versions. </p>
 
 </div>
 </div>

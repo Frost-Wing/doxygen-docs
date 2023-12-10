@@ -1,21 +1,5 @@
 var searchData=
 [
-  ['flanterm_5fcb_5fbell_0',['FLANTERM_CB_BELL',['../flanterm_8h.html#a0430a1a962b37d076bb3e4a2fab93261',1,'flanterm.h']]],
-  ['flanterm_5fcb_5fdec_1',['FLANTERM_CB_DEC',['../flanterm_8h.html#a484273b28fc9d20ef86962f1718b5f98',1,'flanterm.h']]],
-  ['flanterm_5fcb_5fkbd_5fleds_2',['FLANTERM_CB_KBD_LEDS',['../flanterm_8h.html#a276509a2174ecd9e41dce205a4edda29',1,'flanterm.h']]],
-  ['flanterm_5fcb_5flinux_3',['FLANTERM_CB_LINUX',['../flanterm_8h.html#af850384590f23aca69e1c8a1226d2a07',1,'flanterm.h']]],
-  ['flanterm_5fcb_5fmode_4',['FLANTERM_CB_MODE',['../flanterm_8h.html#a1b0f065cb5e34cc30cf51f491b89c80c',1,'flanterm.h']]],
-  ['flanterm_5fcb_5fpos_5freport_5',['FLANTERM_CB_POS_REPORT',['../flanterm_8h.html#a5159cd5636249a82d976730044932558',1,'flanterm.h']]],
-  ['flanterm_5fcb_5fprivate_5fid_6',['FLANTERM_CB_PRIVATE_ID',['../flanterm_8h.html#a03bdd6802d81e5fed291234c6c106b49',1,'flanterm.h']]],
-  ['flanterm_5fcb_5fstatus_5freport_7',['FLANTERM_CB_STATUS_REPORT',['../flanterm_8h.html#ab5bf8014e6366a84d3bff8e9c3787848',1,'flanterm.h']]],
-  ['flanterm_5ffb_5ffont_5fglyphs_8',['FLANTERM_FB_FONT_GLYPHS',['../fb_8h.html#aac4d6c5ae9cc64eaa45efa63768ab171',1,'fb.h']]],
-  ['flanterm_5fmax_5fesc_5fvalues_9',['FLANTERM_MAX_ESC_VALUES',['../flanterm_8h.html#a2fa7cc6b280b94f444a11d79de3d62f9',1,'flanterm.h']]],
-  ['flanterm_5foob_5foutput_5focrnl_10',['FLANTERM_OOB_OUTPUT_OCRNL',['../flanterm_8h.html#a307aaa55ba9699d292d09bbb418866e9',1,'flanterm.h']]],
-  ['flanterm_5foob_5foutput_5fofdel_11',['FLANTERM_OOB_OUTPUT_OFDEL',['../flanterm_8h.html#a85283ab8621567233734a37de5ed6720',1,'flanterm.h']]],
-  ['flanterm_5foob_5foutput_5fofill_12',['FLANTERM_OOB_OUTPUT_OFILL',['../flanterm_8h.html#a06b76c9dfa77ce4e915ef531fb7fbb82',1,'flanterm.h']]],
-  ['flanterm_5foob_5foutput_5folcuc_13',['FLANTERM_OOB_OUTPUT_OLCUC',['../flanterm_8h.html#a39b964f24644c9ae19f919de6fc47eb9',1,'flanterm.h']]],
-  ['flanterm_5foob_5foutput_5fonlcr_14',['FLANTERM_OOB_OUTPUT_ONLCR',['../flanterm_8h.html#a89463cadc78a175221b1d0e33f5139d6',1,'flanterm.h']]],
-  ['flanterm_5foob_5foutput_5fonlret_15',['FLANTERM_OOB_OUTPUT_ONLRET',['../flanterm_8h.html#ae060e7ed931b7d58a8983e6348152759',1,'flanterm.h']]],
-  ['flanterm_5foob_5foutput_5fonocr_16',['FLANTERM_OOB_OUTPUT_ONOCR',['../flanterm_8h.html#a241805776e240f059eac39833cc1aed4',1,'flanterm.h']]],
-  ['flanterm_5foob_5foutput_5fopost_17',['FLANTERM_OOB_OUTPUT_OPOST',['../flanterm_8h.html#ab6ce9f471b68fc60273bacca67540221',1,'flanterm.h']]]
+  ['debugger_5fmode_0',['debugger_mode',['../debugger_8h.html#a993cb9aa3e0dea07b5fa11f32bc700b2',1,'debugger.h']]],
+  ['deprecated_5fmessage_1',['deprecated_message',['../basics_8h.html#a7eed91d7110a1b69942e6ea559fde78f',1,'basics.h']]]
 ];
