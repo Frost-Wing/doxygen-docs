@@ -115,22 +115,23 @@ $(document).ready(function(){initNavTree('kernel_8h_source.html',''); initResiza
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#include &lt;<a class="code" href="boot-logo_8h.html">boot-logo.h</a>&gt;</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#include &lt;<a class="code" href="versions_8h.html">versions.h</a>&gt;</span></div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#include &lt;<a class="code" href="cc-asm_8h.html">cc-asm.h</a>&gt;</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">extern</span> <a class="code hl_typedef" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a>* <a class="code hl_variable" href="kernel_8h.html#a68ba391bbff5da9d0c799340ec7fe0aa">kend</a>;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="kernel_8h.html#a8969d23cf51c65e739ad4a2e00d09edb">terminal_rows</a>;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="kernel_8h.html#a9255c961157d6be5e225e3b55ed234b0">terminal_columns</a>;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="kernel_8h.html#a958a8b9e073763677be12388540230fa">fb_width</a>;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="kernel_8h.html#ad6fa088170c6d336335f916ec2d7ea75">fb_height</a>;</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="kernel_8h.html#a6288eba0f8e8ad3ab1544ad731eb7667">   72</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="kernel_8h.html#a6288eba0f8e8ad3ab1544ad731eb7667">main</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#include &lt;<a class="code" href="secure-boot_8h.html">secure-boot.h</a>&gt;</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">extern</span> <a class="code hl_typedef" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a>* <a class="code hl_variable" href="kernel_8h.html#a68ba391bbff5da9d0c799340ec7fe0aa">kend</a>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="kernel_8h.html#a8969d23cf51c65e739ad4a2e00d09edb">terminal_rows</a>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="kernel_8h.html#a9255c961157d6be5e225e3b55ed234b0">terminal_columns</a>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="kernel_8h.html#a958a8b9e073763677be12388540230fa">fb_width</a>;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="kernel_8h.html#ad6fa088170c6d336335f916ec2d7ea75">fb_height</a>;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="kernel_8h.html#a6288eba0f8e8ad3ab1544ad731eb7667">   73</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="kernel_8h.html#a6288eba0f8e8ad3ab1544ad731eb7667">main</a>(<span class="keywordtype">void</span>);</div>
 <div class="ttc" id="aacpi-shutdown_8h_html"><div class="ttname"><a href="acpi-shutdown_8h.html">acpi-shutdown.h</a></div><div class="ttdoc">The ACPI Shutdown Header for Wing kernel, this is not the full ACPI.</div></div>
 <div class="ttc" id="aacpi_8h_html"><div class="ttname"><a href="acpi_8h.html">acpi.h</a></div><div class="ttdoc">The ACPI Header.</div></div>
 <div class="ttc" id="abasics_8h_html"><div class="ttname"><a href="basics_8h.html">basics.h</a></div><div class="ttdoc">This is a basic header files with FrostWing specific short forms and basically a good for life header...</div></div>
-<div class="ttc" id="abasics_8h_html_a5f6850033cab5e36ba4aa2879c265b02"><div class="ttname"><a href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a></div><div class="ttdeci">uint64_t int64</div><div class="ttdef"><b>Definition:</b> basics.h:14</div></div>
+<div class="ttc" id="abasics_8h_html_a5f6850033cab5e36ba4aa2879c265b02"><div class="ttname"><a href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a></div><div class="ttdeci">uint64_t int64</div><div class="ttdef"><b>Definition:</b> basics.h:15</div></div>
 <div class="ttc" id="aboot-logo_8h_html"><div class="ttname"><a href="boot-logo_8h.html">boot-logo.h</a></div></div>
 <div class="ttc" id="acc-asm_8h_html"><div class="ttname"><a href="cc-asm_8h.html">cc-asm.h</a></div><div class="ttdoc">Cross-compatible ASM header.</div></div>
 <div class="ttc" id="acpuid2_8h_html"><div class="ttname"><a href="cpuid2_8h.html">cpuid2.h</a></div><div class="ttdoc">The CPUID instructions.</div></div>
@@ -154,6 +155,7 @@ $(document).ready(function(){initNavTree('kernel_8h_source.html',''); initResiza
 <div class="ttc" id="apc-speaker_8h_html"><div class="ttname"><a href="pc-speaker_8h.html">pc-speaker.h</a></div><div class="ttdoc">Headers for PC Speaker drivers.</div></div>
 <div class="ttc" id="apci_8h_html"><div class="ttname"><a href="pci_8h.html">pci.h</a></div><div class="ttdoc">The Header files for actual PCI source.</div></div>
 <div class="ttc" id="artl8139_8h_html"><div class="ttname"><a href="rtl8139_8h.html">rtl8139.h</a></div><div class="ttdoc">The Header files for RTL8139 Networking Card.</div></div>
+<div class="ttc" id="asecure-boot_8h_html"><div class="ttname"><a href="secure-boot_8h.html">secure-boot.h</a></div><div class="ttdoc">Header for secure-boot.c.</div></div>
 <div class="ttc" id="aserial_8h_html"><div class="ttname"><a href="serial_8h.html">serial.h</a></div><div class="ttdoc">Header files for serial drivers.</div></div>
 <div class="ttc" id="asse_8h_html"><div class="ttname"><a href="sse_8h.html">sse.h</a></div><div class="ttdoc">SSE Header file.</div></div>
 <div class="ttc" id="astrings_8h_html"><div class="ttname"><a href="strings_8h.html">strings.h</a></div><div class="ttdoc">The header file for strings.c.</div></div>

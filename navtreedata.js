@@ -33,21 +33,26 @@ var NAVTREE =
     ] ],
     [ "FrostWing Operating System", "md_readme.html", [
       [ "Table of Contents", "md_readme.html#autotoc_md5", null ],
-      [ "Images", "md_readme.html#autotoc_md6", null ],
-      [ "Getting Started", "md_readme.html#autotoc_md7", [
-        [ "Prerequisites", "md_readme.html#autotoc_md8", null ],
-        [ "Building FrostWing", "md_readme.html#autotoc_md9", null ],
-        [ "Building the FrostWing Doxygen documentation", "md_readme.html#autotoc_md10", null ],
-        [ "Hardware/Software (Emulator) Requirements", "md_readme.html#autotoc_md11", [
-          [ "Minimum Requirements", "md_readme.html#autotoc_md12", null ],
-          [ "Recommended Requirements", "md_readme.html#autotoc_md13", null ]
-        ] ],
-        [ "Running FrostWing", "md_readme.html#autotoc_md14", null ],
-        [ "Booting to real machine", "md_readme.html#autotoc_md15", null ]
+      [ "Images", "md_readme.html#autotoc_md6", [
+        [ "Running (Early Booting)", "md_readme.html#autotoc_md7", null ],
+        [ "Running (Graphics Screen)", "md_readme.html#autotoc_md8", null ],
+        [ "Meltdown (Panic) Screen", "md_readme.html#autotoc_md9", null ]
       ] ],
-      [ "Contributing", "md_readme.html#autotoc_md16", null ],
-      [ "License", "md_readme.html#autotoc_md17", null ],
-      [ "FrostWing Team", "md_readme.html#autotoc_md18", null ]
+      [ "Currently working Features", "md_readme.html#autotoc_md10", null ],
+      [ "Getting Started", "md_readme.html#autotoc_md11", [
+        [ "Prerequisites", "md_readme.html#autotoc_md12", null ],
+        [ "Building FrostWing", "md_readme.html#autotoc_md13", null ],
+        [ "Building the FrostWing Doxygen documentation", "md_readme.html#autotoc_md14", null ],
+        [ "Hardware/Software (Emulator) Requirements", "md_readme.html#autotoc_md15", [
+          [ "Minimum Requirements", "md_readme.html#autotoc_md16", null ],
+          [ "Recommended Requirements", "md_readme.html#autotoc_md17", null ]
+        ] ],
+        [ "Running FrostWing", "md_readme.html#autotoc_md18", null ],
+        [ "Booting to real machine", "md_readme.html#autotoc_md19", null ]
+      ] ],
+      [ "Contributing", "md_readme.html#autotoc_md20", null ],
+      [ "License", "md_readme.html#autotoc_md21", null ],
+      [ "FrostWing Team", "md_readme.html#autotoc_md22", null ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -74,9 +79,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "acpi-shutdown_8h.html",
-"kernel_8h.html#a68ba391bbff5da9d0c799340ec7fe0aa",
-"structflanterm__fb__context.html#a401ecbeac43f6e57a1c7225213aa5e5d",
-"structmat3x3.html#acfc2818af86bc8db8bae3c63efae4baa"
+"hal_8h_source.html",
+"structflanterm__context.html#a4073b3fe1dc1fb4e72539be721819e61",
+"structlimine__module__response.html#af2cf2ea18a8c4b5a4e0186308d7e1701"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

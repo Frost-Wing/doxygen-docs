@@ -2,9 +2,10 @@ var pci_8h =
 [
     [ "PCI_CONFIG_ADDRESS", "pci_8h.html#aaa58db8af2d00af66c78624104e1016b", null ],
     [ "PCI_CONFIG_DATA", "pci_8h.html#ad1fedcf5fe37518ccc1ddfcb880d1b01", null ],
+    [ "get_ahci_bar_address", "pci_8h.html#af1381379cd97f60b8973b3b2d6aeab02", null ],
+    [ "get_graphics_card_bar_address", "pci_8h.html#ac63c818fcfb09f7f6bd72fa0885dad5e", null ],
     [ "getClassId", "pci_8h.html#af3efb05e59ecc4324b8e492ba2c30b47", null ],
     [ "getDeviceID", "pci_8h.html#a3bc23ba659b224a220a605b4214330d0", null ],
-    [ "getGraphicsCardBAR", "pci_8h.html#acd04ab072f8cfd454a3b935e3067121e", null ],
     [ "getSubClassId", "pci_8h.html#ad6e6cb3e944425ff46d2a267da3aa9d2", null ],
     [ "getVendorID", "pci_8h.html#a7401385d1ee1ca12c01090e98d11c1b1", null ],
     [ "load_graphics_card", "pci_8h.html#a2ad85870e9dfba546da12684c8495a9d", null ],

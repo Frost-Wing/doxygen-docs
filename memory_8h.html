@@ -132,6 +132,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a9e6df54ee04e18a3772335580e2ed872"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memory_8h.html#a9e6df54ee04e18a3772335580e2ed872">memcmp</a> (const void *s1, const void *s2, size_t n)</td></tr>
 <tr class="memdesc:a9e6df54ee04e18a3772335580e2ed872"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two blocks of memory.  <a href="memory_8h.html#a9e6df54ee04e18a3772335580e2ed872">More...</a><br /></td></tr>
 <tr class="separator:a9e6df54ee04e18a3772335580e2ed872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf9368946b7a5fe5775ed94ca97bb6cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memory_8h.html#abf9368946b7a5fe5775ed94ca97bb6cf">memory_dump</a> (const void *start, const void *end)</td></tr>
+<tr class="memdesc:abf9368946b7a5fe5775ed94ca97bb6cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump memory content from start to end.  <a href="memory_8h.html#abf9368946b7a5fe5775ed94ca97bb6cf">More...</a><br /></td></tr>
+<tr class="separator:abf9368946b7a5fe5775ed94ca97bb6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Custom memory manipulation functions. </p>
@@ -272,6 +275,44 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the destination memory location 'dest'. </dd></dl>
+
+</div>
+</div>
+<a id="abf9368946b7a5fe5775ed94ca97bb6cf" name="abf9368946b7a5fe5775ed94ca97bb6cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf9368946b7a5fe5775ed94ca97bb6cf">&#9670;&nbsp;</a></span>memory_dump()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void memory_dump </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Dump memory content from start to end. </p>
+<p >This function iterates through the memory addresses from start to end and prints the address and corresponding value in hexadecimal format.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>Pointer to the start address of the memory to be dumped. </td></tr>
+    <tr><td class="paramname">end</td><td>Pointer to the end address of the memory to be dumped. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

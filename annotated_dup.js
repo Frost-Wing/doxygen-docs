@@ -1,5 +1,7 @@
 var annotated_dup =
 [
+    [ "ahci_controller", "structahci__controller.html", "structahci__controller" ],
+    [ "ahci_port", "structahci__port.html", "structahci__port" ],
     [ "flanterm_context", "structflanterm__context.html", "structflanterm__context" ],
     [ "flanterm_fb_char", "structflanterm__fb__char.html", "structflanterm__fb__char" ],
     [ "flanterm_fb_context", "structflanterm__fb__context.html", "structflanterm__fb__context" ],
@@ -16,6 +18,8 @@ var annotated_dup =
     [ "limine_bootloader_info_response", "structlimine__bootloader__info__response.html", "structlimine__bootloader__info__response" ],
     [ "limine_dtb_request", "structlimine__dtb__request.html", "structlimine__dtb__request" ],
     [ "limine_dtb_response", "structlimine__dtb__response.html", "structlimine__dtb__response" ],
+    [ "limine_efi_memmap_request", "structlimine__efi__memmap__request.html", "structlimine__efi__memmap__request" ],
+    [ "limine_efi_memmap_response", "structlimine__efi__memmap__response.html", "structlimine__efi__memmap__response" ],
     [ "limine_efi_system_table_request", "structlimine__efi__system__table__request.html", "structlimine__efi__system__table__request" ],
     [ "limine_efi_system_table_response", "structlimine__efi__system__table__response.html", "structlimine__efi__system__table__response" ],
     [ "limine_entry_point_request", "structlimine__entry__point__request.html", "structlimine__entry__point__request" ],

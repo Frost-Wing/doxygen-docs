@@ -191,6 +191,10 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlimine__efi__system__table__request.html">limine_efi_system_table_request</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlimine__efi__memmap__response.html">limine_efi_memmap_response</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlimine__efi__memmap__request.html">limine_efi_memmap_request</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlimine__boot__time__response.html">limine_boot_time_response</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlimine__boot__time__request.html">limine_boot_time_request</a></td></tr>
@@ -214,6 +218,10 @@ Macros</h2></td></tr>
 <tr class="separator:a4bb5843269206b3152c28470fc015d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17319df24b1fa085ef4b35e46e59db59"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="limine_8h.html#a17319df24b1fa085ef4b35e46e59db59">LIMINE_DEPRECATED_IGNORE_END</a></td></tr>
 <tr class="separator:a17319df24b1fa085ef4b35e46e59db59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bf8f85f610af76a70bc0d5a39342333"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="limine_8h.html#a9bf8f85f610af76a70bc0d5a39342333">LIMINE_BASE_REVISION</a>(N)&#160;&#160;&#160;    uint64_t limine_base_revision[3] = { 0xf9562b2d5c95a6c8, 0x6a7b384944536bdc, (N) };</td></tr>
+<tr class="separator:a9bf8f85f610af76a70bc0d5a39342333"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a269b761a139127fb2644f165931bd76b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="limine_8h.html#a269b761a139127fb2644f165931bd76b">LIMINE_BASE_REVISION_SUPPORTED</a>&#160;&#160;&#160;(limine_base_revision[2] == 0)</td></tr>
+<tr class="separator:a269b761a139127fb2644f165931bd76b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87a9619f1cb8e674a32e7392d4391976"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="limine_8h.html#a87a9619f1cb8e674a32e7392d4391976">LIMINE_COMMON_MAGIC</a>&#160;&#160;&#160;0xc7b1dd30df4c8b88, 0x0a82e883a194f07b</td></tr>
 <tr class="separator:a87a9619f1cb8e674a32e7392d4391976"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a413df26f24a15a002fa00781f6853a71"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="limine_8h.html#a413df26f24a15a002fa00781f6853a71">LIMINE_MEDIA_TYPE_GENERIC</a>&#160;&#160;&#160;0</td></tr>
@@ -316,6 +324,8 @@ Macros</h2></td></tr>
 <tr class="separator:a51797e1398c279496630d28854bd688d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27ed1ad9c13e80946a2b292b95eb458b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="limine_8h.html#a27ed1ad9c13e80946a2b292b95eb458b">LIMINE_EFI_SYSTEM_TABLE_REQUEST</a>&#160;&#160;&#160;{ <a class="el" href="limine_8h.html#a87a9619f1cb8e674a32e7392d4391976">LIMINE_COMMON_MAGIC</a>, 0x5ceba5163eaaf6d6, 0x0a6981610cf65fcc }</td></tr>
 <tr class="separator:a27ed1ad9c13e80946a2b292b95eb458b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5590799508c56c8fa6575aac1cc85b9e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="limine_8h.html#a5590799508c56c8fa6575aac1cc85b9e">LIMINE_EFI_MEMMAP_REQUEST</a>&#160;&#160;&#160;{ <a class="el" href="limine_8h.html#a87a9619f1cb8e674a32e7392d4391976">LIMINE_COMMON_MAGIC</a>, 0x7df62a431d6872d5, 0xa4fcdfb3e57306c8 }</td></tr>
+<tr class="separator:a5590799508c56c8fa6575aac1cc85b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56576e64da699ee469e4ff3366ff2357"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="limine_8h.html#a56576e64da699ee469e4ff3366ff2357">LIMINE_BOOT_TIME_REQUEST</a>&#160;&#160;&#160;{ <a class="el" href="limine_8h.html#a87a9619f1cb8e674a32e7392d4391976">LIMINE_COMMON_MAGIC</a>, 0x502746e184c088aa, 0xfbc5ec83e6327893 }</td></tr>
 <tr class="separator:a56576e64da699ee469e4ff3366ff2357"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c64ec9d52c5247e52dd294fc294875c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="limine_8h.html#a1c64ec9d52c5247e52dd294fc294875c">LIMINE_KERNEL_ADDRESS_REQUEST</a>&#160;&#160;&#160;{ <a class="el" href="limine_8h.html#a87a9619f1cb8e674a32e7392d4391976">LIMINE_COMMON_MAGIC</a>, 0x71ba76863cc55f63, 0xb2644a48c516a487 }</td></tr>
@@ -348,6 +358,38 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define LIMINE_5_LEVEL_PAGING_REQUEST&#160;&#160;&#160;{ <a class="el" href="limine_8h.html#a87a9619f1cb8e674a32e7392d4391976">LIMINE_COMMON_MAGIC</a>, 0x94469551da9b3192, 0xebe5e86db7382888 }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9bf8f85f610af76a70bc0d5a39342333" name="a9bf8f85f610af76a70bc0d5a39342333"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bf8f85f610af76a70bc0d5a39342333">&#9670;&nbsp;</a></span>LIMINE_BASE_REVISION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LIMINE_BASE_REVISION</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">N</td><td>)</td>
+          <td>&#160;&#160;&#160;    uint64_t limine_base_revision[3] = { 0xf9562b2d5c95a6c8, 0x6a7b384944536bdc, (N) };</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a269b761a139127fb2644f165931bd76b" name="a269b761a139127fb2644f165931bd76b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a269b761a139127fb2644f165931bd76b">&#9670;&nbsp;</a></span>LIMINE_BASE_REVISION_SUPPORTED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LIMINE_BASE_REVISION_SUPPORTED&#160;&#160;&#160;(limine_base_revision[2] == 0)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -446,6 +488,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define LIMINE_DTB_REQUEST&#160;&#160;&#160;{ <a class="el" href="limine_8h.html#a87a9619f1cb8e674a32e7392d4391976">LIMINE_COMMON_MAGIC</a>, 0xb40ddb48fb54bac7, 0x545081493f81ffb7 }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5590799508c56c8fa6575aac1cc85b9e" name="a5590799508c56c8fa6575aac1cc85b9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5590799508c56c8fa6575aac1cc85b9e">&#9670;&nbsp;</a></span>LIMINE_EFI_MEMMAP_REQUEST</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LIMINE_EFI_MEMMAP_REQUEST&#160;&#160;&#160;{ <a class="el" href="limine_8h.html#a87a9619f1cb8e674a32e7392d4391976">LIMINE_COMMON_MAGIC</a>, 0x7df62a431d6872d5, 0xa4fcdfb3e57306c8 }</td>
         </tr>
       </table>
 </div><div class="memdoc">

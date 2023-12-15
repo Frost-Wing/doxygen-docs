@@ -6,8 +6,15 @@ var searchData=
   ['acpi_5ffind_5fsdt_3',['acpi_find_sdt',['../acpi_8h.html#a6c27f4adcd1588a94ba2dced1ed49fc3',1,'acpi.h']]],
   ['acpi_5finit_4',['acpi_init',['../acpi_8h.html#ac89f7fd8333fcd61dea9163a99c0fd6c',1,'acpi.h']]],
   ['acpi_5fshutdown_5fhack_5',['acpi_shutdown_hack',['../acpi-shutdown_8h.html#a4d2db64ac29a1ed3377050096943a3ab',1,'acpi-shutdown.h']]],
-  ['ansi_5fbright_5fcolours_6',['ansi_bright_colours',['../structflanterm__fb__context.html#a1036d27376c3e1e78c1a2183f26640a1',1,'flanterm_fb_context']]],
-  ['ansi_5fcolours_7',['ansi_colours',['../structflanterm__fb__context.html#a9794d1fec0260c611d46987493342d86',1,'flanterm_fb_context']]],
-  ['attribute_8',['attribute',['../basics_8h.html#aef93f1f36b5922e43607816a326a3d9f',1,'basics.h']]],
-  ['autoflush_9',['autoflush',['../structflanterm__context.html#a9488263ce45254f48b3f9d6e6634798a',1,'flanterm_context']]]
+  ['ahci_2eh_6',['ahci.h',['../ahci_8h.html',1,'']]],
+  ['ahci_5fcontroller_7',['ahci_controller',['../structahci__controller.html',1,'']]],
+  ['ahci_5fport_8',['ahci_port',['../structahci__port.html',1,'']]],
+  ['ahci_5fport_5fbase_9',['AHCI_PORT_BASE',['../ahci_8h.html#aeee180172cc475a280744d3993478ed2',1,'ahci.h']]],
+  ['ahci_5fport_5fcmd_5ffr_10',['AHCI_PORT_CMD_FR',['../ahci_8h.html#a724c2592ad60e82338de51d64b1ee23f',1,'ahci.h']]],
+  ['ahci_5fport_5fcmd_5ffre_11',['AHCI_PORT_CMD_FRE',['../ahci_8h.html#aaa6759227ea7b7623f85fca7fe970e25',1,'ahci.h']]],
+  ['ahci_5fport_5fcmd_5fst_12',['AHCI_PORT_CMD_ST',['../ahci_8h.html#a239f024bf765c50ca454a5b542ef5e41',1,'ahci.h']]],
+  ['ansi_5fbright_5fcolours_13',['ansi_bright_colours',['../structflanterm__fb__context.html#a1036d27376c3e1e78c1a2183f26640a1',1,'flanterm_fb_context']]],
+  ['ansi_5fcolours_14',['ansi_colours',['../structflanterm__fb__context.html#a9794d1fec0260c611d46987493342d86',1,'flanterm_fb_context']]],
+  ['attribute_15',['attribute',['../basics_8h.html#aef93f1f36b5922e43607816a326a3d9f',1,'basics.h']]],
+  ['autoflush_16',['autoflush',['../structflanterm__context.html#a9488263ce45254f48b3f9d6e6634798a',1,'flanterm_context']]]
 ];
