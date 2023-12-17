@@ -11,5 +11,6 @@ var searchData=
   ['tftp_5fip_8',['tftp_ip',['../structlimine__file.html#a9d4093867da52e1f27d08be784212a67',1,'limine_file']]],
   ['tftp_5fport_9',['tftp_port',['../structlimine__file.html#a949f13c2f063dee81d733bbf380c16fb',1,'limine_file']]],
   ['thin_5ffont_10',['thin_font',['../fb_8h.html#a5db0781dd89f736c7f6b5851e3505f02',1,'fb.h']]],
-  ['type_11',['type',['../structlimine__memmap__entry.html#ac553330b3a732a61e4639940dbb085f1',1,'limine_memmap_entry']]]
+  ['type_11',['type',['../structlimine__memmap__entry.html#ac553330b3a732a61e4639940dbb085f1',1,'limine_memmap_entry']]],
+  ['type_5fattributes_12',['type_attributes',['../structIDTEntry.html#a4ee358b9f17111f43cb1459f100a22e1',1,'IDTEntry::type_attributes()'],['../idt_8h.html#a771f46b9319de86ef361459e347db04f',1,'type_attributes():&#160;idt.h']]]
 ];

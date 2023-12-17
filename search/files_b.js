@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['readme_2emd_0',['readme.md',['../readme_8md.html',1,'']]],
-  ['rtl8139_2eh_1',['rtl8139.h',['../rtl8139_8h.html',1,'']]]
+  ['paging_2eh_0',['paging.h',['../paging_8h.html',1,'']]],
+  ['pc_2dspeaker_2eh_1',['pc-speaker.h',['../pc-speaker_8h.html',1,'']]],
+  ['pci_2eh_2',['pci.h',['../pci_8h.html',1,'']]]
 ];
