@@ -227,7 +227,7 @@ Building the FrostWing Doxygen documentation</h2>
 <h2><a class="anchor" id="autotoc_md15"></a>
 Hardware/Software (Emulator) Requirements</h2>
 <h3><a class="anchor" id="autotoc_md16"></a>
-Minimum Requirements</h3>
+Minimum Requirements (BIOS)</h3>
 <ul>
 <li><b>CPU</b> Currently any x86_64 proccessor</li>
 <li><b>RAM</b> 75 MB</li>
@@ -235,17 +235,33 @@ Minimum Requirements</h3>
 <li><b>Graphics</b> Only Framebuffer.</li>
 </ul>
 <h3><a class="anchor" id="autotoc_md17"></a>
-Recommended Requirements</h3>
+Minimum Requirements (UEFI)</h3>
+<ul>
+<li><b>CPU</b> Currently any x86_64 proccessor</li>
+<li><b>RAM</b> 170 MB</li>
+<li><b>Storage</b> Nothing required yet.</li>
+<li><b>Graphics</b> Only Framebuffer.</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md18"></a>
+Recommended Requirements (BIOS)</h3>
 <ul>
 <li><b>CPU</b> Currently any x86_64 proccessor</li>
 <li><b>RAM</b> 128 MB</li>
 <li><b>Storage</b> Nothing required yet.</li>
 <li><b>Graphics</b> Integrated Graphics</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md18"></a>
+<h3><a class="anchor" id="autotoc_md19"></a>
+Recommended Requirements (UEFI)</h3>
+<ul>
+<li><b>CPU</b> Currently any x86_64 proccessor</li>
+<li><b>RAM</b> 256 MB</li>
+<li><b>Storage</b> Nothing required yet.</li>
+<li><b>Graphics</b> Integrated Graphics</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md20"></a>
 Running FrostWing</h2>
 <p >After building FrostWing, you can run it using a virtual machine or on real hardware. The specific steps for running it will depend on your chosen target architecture. Read the main Markdown to run FrostWing.</p>
-<h2><a class="anchor" id="autotoc_md19"></a>
+<h2><a class="anchor" id="autotoc_md21"></a>
 Booting to real machine</h2>
 <p >This operating system is real machine <b>bootable</b> and tested under the following circumstances:</p>
 <p >Boot Disk information:</p><ul>
@@ -264,14 +280,14 @@ Booting to real machine</h2>
 <li>Support for multiple target architectures: x86_64, ARM64 (aarch64), and RISC-V (riscv64).</li>
 <li>Simple and clean codebase with documentation.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md20"></a>
+<h1><a class="anchor" id="autotoc_md22"></a>
 Contributing</h1>
 <p >We welcome contributions to FrostWing! If you'd like to contribute code, report bugs, or suggest enhancements, please check our <a href="https://github.com/Frost-Wing/osdev/blob/main/CONTRIBUTING.md">contribution guidelines</a>.</p>
-<h1><a class="anchor" id="autotoc_md21"></a>
+<h1><a class="anchor" id="autotoc_md23"></a>
 License</h1>
 <p >FrostWing is open-source software released under the <a href="https://github.com/Frost-Wing/osdev/blob/main/LICENSE">CC0-1.0 License</a>. Feel free to use, modify, and distribute it as per the terms of this license.</p>
 <p >Happy coding, and let's make FrostWing even more awesome together! 😎🚀</p>
-<h1><a class="anchor" id="autotoc_md22"></a>
+<h1><a class="anchor" id="autotoc_md24"></a>
 FrostWing Team</h1>
 <ul>
 <li>Owner and founder - Pradosh (<a href="https://twitter.com/@PradoshGame">@PradoshGame</a>)</li>
@@ -279,7 +295,8 @@ FrostWing Team</h1>
 <li>Sources<ul>
 <li><a href="https://github.com/mintsuki/flanterm/tree/trunk">Flanterm</a> from Mintsuki</li>
 <li><a href="https://github.com/mintsuki/acpi-shutdown-hack">ACPI and Shutdown</a> from Mintsuki</li>
-<li><a href="https://github.com/stevej/osdev/blob/master/kernel/devices/fpu.c">Floating Point Arithmetic</a> from Kevin Lange </li>
+<li><a href="https://github.com/stevej/osdev/blob/master/kernel/devices/fpu.c">Floating Point Arithmetic</a> from Kevin Lange</li>
+<li><a href="https://github.com/BlankOn/ovmf-blobs/tree/master">UEFI Binary</a> from BlankOn </li>
 </ul>
 </li>
 </ul>

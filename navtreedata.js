@@ -44,15 +44,17 @@ var NAVTREE =
         [ "Building FrostWing", "md_readme.html#autotoc_md13", null ],
         [ "Building the FrostWing Doxygen documentation", "md_readme.html#autotoc_md14", null ],
         [ "Hardware/Software (Emulator) Requirements", "md_readme.html#autotoc_md15", [
-          [ "Minimum Requirements", "md_readme.html#autotoc_md16", null ],
-          [ "Recommended Requirements", "md_readme.html#autotoc_md17", null ]
+          [ "Minimum Requirements (BIOS)", "md_readme.html#autotoc_md16", null ],
+          [ "Minimum Requirements (UEFI)", "md_readme.html#autotoc_md17", null ],
+          [ "Recommended Requirements (BIOS)", "md_readme.html#autotoc_md18", null ],
+          [ "Recommended Requirements (UEFI)", "md_readme.html#autotoc_md19", null ]
         ] ],
-        [ "Running FrostWing", "md_readme.html#autotoc_md18", null ],
-        [ "Booting to real machine", "md_readme.html#autotoc_md19", null ]
+        [ "Running FrostWing", "md_readme.html#autotoc_md20", null ],
+        [ "Booting to real machine", "md_readme.html#autotoc_md21", null ]
       ] ],
-      [ "Contributing", "md_readme.html#autotoc_md20", null ],
-      [ "License", "md_readme.html#autotoc_md21", null ],
-      [ "FrostWing Team", "md_readme.html#autotoc_md22", null ]
+      [ "Contributing", "md_readme.html#autotoc_md22", null ],
+      [ "License", "md_readme.html#autotoc_md23", null ],
+      [ "FrostWing Team", "md_readme.html#autotoc_md24", null ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -79,9 +81,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "acpi-shutdown_8h.html",
-"hal_8h_source.html",
-"structflanterm__context.html#a4073b3fe1dc1fb4e72539be721819e61",
-"structlimine__module__response.html#af2cf2ea18a8c4b5a4e0186308d7e1701"
+"heap_8h.html#a9c36d0fe3ec4675cbffdc9b52f5fb399",
+"structflanterm__context.html#a4770049c73f875939bd5c0b199a3b186",
+"structlimine__module__response.html#afa2734dc4c7cf4e2b5a491551a7f5a43"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
