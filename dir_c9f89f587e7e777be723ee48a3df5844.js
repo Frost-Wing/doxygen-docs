@@ -19,6 +19,7 @@ var dir_c9f89f587e7e777be723ee48a3df5844 =
     [ "limine.h", "limine_8h.html", "limine_8h" ],
     [ "meltdown.h", "meltdown_8h.html", "meltdown_8h" ],
     [ "memory.h", "memory_8h.html", "memory_8h" ],
+    [ "paging.h", "paging_8h.html", "paging_8h" ],
     [ "pci.h", "pci_8h.html", "pci_8h" ],
     [ "secure-boot.h", "secure-boot_8h.html", "secure-boot_8h" ],
     [ "sse.h", "sse_8h.html", "sse_8h" ],

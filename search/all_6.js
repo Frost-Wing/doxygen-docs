@@ -47,7 +47,8 @@ var searchData=
   ['framebuffer_44',['framebuffer',['../structflanterm__fb__context.html#a70f82a712eb98b535d678376e1047700',1,'flanterm_fb_context']]],
   ['framebuffer_5fcount_45',['framebuffer_count',['../structlimine__framebuffer__response.html#a13bb5cf3dc1eebe8500f1ebfee5694e9',1,'limine_framebuffer_response']]],
   ['free_46',['free',['../heap_8h.html#afbedc913aa4651b3c3b4b3aecd9b4711',1,'heap.h']]],
-  ['frostwing_20documentations_47',['FrostWing Documentations',['../index.html',1,'']]],
-  ['frostwing_20operating_20system_48',['FrostWing Operating System',['../md_readme.html',1,'']]],
-  ['full_5frefresh_49',['full_refresh',['../structflanterm__context.html#a34fa1affd00bd547089b4788440b694a',1,'flanterm_context']]]
+  ['free_5fpage_47',['free_page',['../paging_8h.html#a2a75f892189d89622127c3004ed56bd2',1,'paging.h']]],
+  ['frostwing_20documentations_48',['FrostWing Documentations',['../index.html',1,'']]],
+  ['frostwing_20operating_20system_49',['FrostWing Operating System',['../md_readme.html',1,'']]],
+  ['full_5frefresh_50',['full_refresh',['../structflanterm__context.html#a34fa1affd00bd547089b4788440b694a',1,'flanterm_context']]]
 ];
