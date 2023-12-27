@@ -1,9 +1,11 @@
 <map id="source/includes/hal.h" name="source/includes/hal.h">
-<area shape="rect" id="node1" title="Header file for Hardware Abstraction Layer &#45;&gt; Source from GoGX OS." alt="" coords="285,5,444,32"/>
+<area shape="rect" id="node1" title="Header file for Hardware Abstraction Layer &#45;&gt; Source from GoGX OS." alt="" coords="409,5,568,32"/>
 <area shape="rect" id="node2" href="$debugger_8h.html" title="The headers files for E9 hack." alt="" coords="5,87,204,114"/>
-<area shape="rect" id="node3" href="$kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="275,259,454,285"/>
+<area shape="rect" id="node3" href="$kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="301,259,479,285"/>
 <area shape="rect" id="node5" href="$pci_8h.html" title="The Header files for actual PCI source." alt="" coords="165,177,324,203"/>
 <area shape="rect" id="node6" href="$rtl8139_8h.html" title="The Header files for RTL8139 Networking Card." alt="" coords="279,80,451,121"/>
-<area shape="rect" id="node7" href="$serial_8h.html" title="Header files for serial drivers." alt="" coords="527,169,699,211"/>
-<area shape="rect" id="node4" href="$meltdown_8h.html" title="The headers for meltdown.c." alt="" coords="263,333,467,360"/>
+<area shape="rect" id="node7" href="$serial_8h.html" title="Header files for serial drivers." alt="" coords="453,169,625,211"/>
+<area shape="rect" id="node8" href="$keyboard_8h.html" title=" " alt="" coords="649,177,848,203"/>
+<area shape="rect" id="node9" href="$ps2-mouse_8h.html" title=" " alt="" coords="628,80,779,121"/>
+<area shape="rect" id="node4" href="$meltdown_8h.html" title="The headers for meltdown.c." alt="" coords="288,333,492,360"/>
 </map>

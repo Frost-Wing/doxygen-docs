@@ -87,6 +87,7 @@ $(document).ready(function(){initNavTree('isr_8h.html',''); initResizable(); });
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">isr.h File Reference</div></div>
@@ -110,6 +111,18 @@ Include dependency graph for isr.h:</div>
 <area shape="rect" title=" " alt="" coords="383,155,453,181"/>
 </map>
 </div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="isr_8h__dep__incl.png" border="0" usemap="#asource_2includes_2isr_8hdep" alt=""/></div>
+<map name="asource_2includes_2isr_8hdep" id="asource_2includes_2isr_8hdep">
+<area shape="rect" title=" " alt="" coords="129,5,283,32"/>
+<area shape="rect" href="keyboard_8h.html" title=" " alt="" coords="8,87,207,114"/>
+<area shape="rect" href="ps2-mouse_8h.html" title=" " alt="" coords="231,80,381,121"/>
+<area shape="rect" href="kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="18,169,197,196"/>
+<area shape="rect" href="meltdown_8h.html" title="The headers for meltdown.c." alt="" coords="5,244,209,271"/>
+</map>
+</div>
 </div>
 <p><a href="isr_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -117,6 +130,12 @@ Include dependency graph for isr.h:</div>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structInterruptFrame.html">InterruptFrame</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a0591505897fcb2a92027df555ec691fd"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="isr_8h.html#a0591505897fcb2a92027df555ec691fd">irq_handler</a>) (<a class="el" href="structInterruptFrame.html">InterruptFrame</a> *)</td></tr>
+<tr class="memdesc:a0591505897fcb2a92027df555ec691fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function pointer for interrupt handlers.  <a href="isr_8h.html#a0591505897fcb2a92027df555ec691fd">More...</a><br /></td></tr>
+<tr class="separator:a0591505897fcb2a92027df555ec691fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -126,8 +145,9 @@ Functions</h2></td></tr>
 <tr class="separator:aa83d8336d3849b275399c43b5e094f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e015c71f5abebf208bbebbac46be40d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="isr_8h.html#a6e015c71f5abebf208bbebbac46be40d">irqHandler</a> (<a class="el" href="structInterruptFrame.html">InterruptFrame</a> *frame)</td></tr>
 <tr class="separator:a6e015c71f5abebf208bbebbac46be40d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50ee4082cc74c3e1a385d398f74f8c7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="isr_8h.html#a50ee4082cc74c3e1a385d398f74f8c7d">registerInterruptHandler</a> (uint8_t irq, void(*handler)(<a class="el" href="structInterruptFrame.html">InterruptFrame</a> *))</td></tr>
-<tr class="separator:a50ee4082cc74c3e1a385d398f74f8c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbf1d7887d81019d655219c3087fac19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="isr_8h.html#abbf1d7887d81019d655219c3087fac19">registerInterruptHandler</a> (uint8_t irq, <a class="el" href="isr_8h.html#a0591505897fcb2a92027df555ec691fd">irq_handler</a> handler)</td></tr>
+<tr class="memdesc:abbf1d7887d81019d655219c3087fac19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a handler for an interrupt.  <a href="isr_8h.html#abbf1d7887d81019d655219c3087fac19">More...</a><br /></td></tr>
+<tr class="separator:abbf1d7887d81019d655219c3087fac19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -162,6 +182,23 @@ Variables</h2></td></tr>
 <tr class="memitem:a90e28f434559f0582a69699dc4dbc286"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="isr_8h.html#a90e28f434559f0582a69699dc4dbc286">rip</a></td></tr>
 <tr class="separator:a90e28f434559f0582a69699dc4dbc286"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a0591505897fcb2a92027df555ec691fd" name="a0591505897fcb2a92027df555ec691fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0591505897fcb2a92027df555ec691fd">&#9670;&nbsp;</a></span>irq_handler</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* irq_handler) (<a class="el" href="structInterruptFrame.html">InterruptFrame</a> *)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A function pointer for interrupt handlers. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ac1684e749dbd150e5e2d42f3b27a1769" name="ac1684e749dbd150e5e2d42f3b27a1769"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac1684e749dbd150e5e2d42f3b27a1769">&#9670;&nbsp;</a></span>__attribute__()</h2>
@@ -217,8 +254,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a50ee4082cc74c3e1a385d398f74f8c7d" name="a50ee4082cc74c3e1a385d398f74f8c7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50ee4082cc74c3e1a385d398f74f8c7d">&#9670;&nbsp;</a></span>registerInterruptHandler()</h2>
+<a id="abbf1d7887d81019d655219c3087fac19" name="abbf1d7887d81019d655219c3087fac19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbf1d7887d81019d655219c3087fac19">&#9670;&nbsp;</a></span>registerInterruptHandler()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -232,7 +269,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">void(*)(<a class="el" href="structInterruptFrame.html">InterruptFrame</a> *)&#160;</td>
+          <td class="paramtype"><a class="el" href="isr_8h.html#a0591505897fcb2a92027df555ec691fd">irq_handler</a>&#160;</td>
           <td class="paramname"><em>handler</em>&#160;</td>
         </tr>
         <tr>
@@ -242,6 +279,15 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Registers a handler for an interrupt. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">irq</td><td>The interrupt number of the handler </td></tr>
+    <tr><td class="paramname">handler</td><td>Pointer to the handler function </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

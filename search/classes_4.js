@@ -43,5 +43,7 @@ var searchData=
   ['limine_5fterminal_5frequest_40',['limine_terminal_request',['../structlimine__terminal__request.html',1,'']]],
   ['limine_5fterminal_5fresponse_41',['limine_terminal_response',['../structlimine__terminal__response.html',1,'']]],
   ['limine_5fuuid_42',['limine_uuid',['../structlimine__uuid.html',1,'']]],
-  ['limine_5fvideo_5fmode_43',['limine_video_mode',['../structlimine__video__mode.html',1,'']]]
+  ['limine_5fvideo_5fmode_43',['limine_video_mode',['../structlimine__video__mode.html',1,'']]],
+  ['list_44',['list',['../structlist.html',1,'']]],
+  ['list_5fnode_45',['list_node',['../structlist__node.html',1,'']]]
 ];

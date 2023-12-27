@@ -32,7 +32,7 @@ var searchData=
   ['com6_29',['COM6',['../serial_8h.html#ae782b164b3e3d502de8d978e06c8bb07',1,'serial.h']]],
   ['com7_30',['COM7',['../serial_8h.html#a48197e6ca83ef6f692884b879be491ad',1,'serial.h']]],
   ['com8_31',['COM8',['../serial_8h.html#ab1a3c0500e9eec88c7fbfa594fc2b16a',1,'serial.h']]],
-  ['contains_32',['contains',['../strings_8h.html#ad4bf9c94d6812f96f997ff82d9a8ae79',1,'strings.h']]],
+  ['contains_32',['contains',['../strings2_8h.html#ad4bf9c94d6812f96f997ff82d9a8ae79',1,'strings2.h']]],
   ['control_5fsequence_33',['control_sequence',['../structflanterm__context.html#a65fb55c5e04729b93d3127f3a0bc3d81',1,'flanterm_context']]],
   ['cpu_5fstring_34',['cpu_string',['../cpuid2_8h.html#aef2c86bf61880c1c228b14c4702cc340',1,'cpuid2.h']]],
   ['cpuid_35',['cpuid',['../cpuid2_8h.html#aa0519119d33c774ff4c10abba6cdcecf',1,'cpuid2.h']]],

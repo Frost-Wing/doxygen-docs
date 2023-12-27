@@ -81,9 +81,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "acpi-shutdown_8h.html",
-"hal_8h_source.html",
-"structIDTEntry.html#a4ee358b9f17111f43cb1459f100a22e1",
-"structlimine__file.html#a76f0d8f40ecbfb3fad45d035baf4cdc6"
+"hal_8h.html#ab49f40a6955511c64483feb0f806edf3",
+"serial_8h.html#a740862a501e0435f9ba13ae4fadca8cb",
+"structlimine__bootloader__info__response.html#a5e419e1bc61acda11951695e445cf2ad"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -59,6 +59,8 @@ var annotated_dup =
     [ "limine_terminal_response", "structlimine__terminal__response.html", "structlimine__terminal__response" ],
     [ "limine_uuid", "structlimine__uuid.html", "structlimine__uuid" ],
     [ "limine_video_mode", "structlimine__video__mode.html", "structlimine__video__mode" ],
+    [ "list", "structlist.html", "structlist" ],
+    [ "list_node", "structlist__node.html", "structlist__node" ],
     [ "mat3x3", "structmat3x3.html", "structmat3x3" ],
     [ "mat4x4", "structmat4x4.html", "structmat4x4" ],
     [ "rtl8139", "structrtl8139.html", "structrtl8139" ],

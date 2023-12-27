@@ -1,8 +1,10 @@
 <map id="source/includes/graphics.h" name="source/includes/graphics.h">
-<area shape="rect" id="node1" title="Contains all the print functions." alt="" coords="159,5,353,32"/>
-<area shape="rect" id="node2" href="$isr_8h.html" title=" " alt="" coords="5,80,160,107"/>
-<area shape="rect" id="node3" href="$kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="225,155,404,181"/>
-<area shape="rect" id="node5" href="$pci_8h.html" title="The Header files for actual PCI source." alt="" coords="235,80,394,107"/>
-<area shape="rect" id="node6" href="$versions_8h.html" title="This is the header file which contains all the tools used&#39;s versions." alt="" coords="419,80,613,107"/>
-<area shape="rect" id="node4" href="$meltdown_8h.html" title="The headers for meltdown.c." alt="" coords="213,229,417,256"/>
+<area shape="rect" id="node1" title="Contains all the print functions." alt="" coords="345,5,539,32"/>
+<area shape="rect" id="node2" href="$isr_8h.html" title=" " alt="" coords="225,80,379,107"/>
+<area shape="rect" id="node4" href="$kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="386,244,565,271"/>
+<area shape="rect" id="node7" href="$pci_8h.html" title="The Header files for actual PCI source." alt="" coords="455,162,613,189"/>
+<area shape="rect" id="node8" href="$versions_8h.html" title="This is the header file which contains all the tools used&#39;s versions." alt="" coords="541,80,735,107"/>
+<area shape="rect" id="node3" href="$keyboard_8h.html" title=" " alt="" coords="5,162,204,189"/>
+<area shape="rect" id="node6" href="$ps2-mouse_8h.html" title=" " alt="" coords="228,155,379,196"/>
+<area shape="rect" id="node5" href="$meltdown_8h.html" title="The headers for meltdown.c." alt="" coords="373,319,577,345"/>
 </map>

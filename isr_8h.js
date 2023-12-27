@@ -1,10 +1,11 @@
 var isr_8h =
 [
     [ "InterruptFrame", "structInterruptFrame.html", "structInterruptFrame" ],
+    [ "irq_handler", "isr_8h.html#a0591505897fcb2a92027df555ec691fd", null ],
     [ "__attribute__", "isr_8h.html#ac1684e749dbd150e5e2d42f3b27a1769", null ],
     [ "exceptionHandler", "isr_8h.html#aa83d8336d3849b275399c43b5e094f4a", null ],
     [ "irqHandler", "isr_8h.html#a6e015c71f5abebf208bbebbac46be40d", null ],
-    [ "registerInterruptHandler", "isr_8h.html#a50ee4082cc74c3e1a385d398f74f8c7d", null ],
+    [ "registerInterruptHandler", "isr_8h.html#abbf1d7887d81019d655219c3087fac19", null ],
     [ "cs", "isr_8h.html#aea3e8b50ef91f54dad11c01a77675324", null ],
     [ "err_code", "isr_8h.html#a0f9a68a13dccfe1c1d52bac3c988f7c9", null ],
     [ "int_no", "isr_8h.html#a1ad5b66cfac3d431cefbde4bb2ce085c", null ],
