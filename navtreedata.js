@@ -56,6 +56,13 @@ var NAVTREE =
       [ "License", "md_readme.html#autotoc_md23", null ],
       [ "FrostWing Team", "md_readme.html#autotoc_md24", null ]
     ] ],
+    [ "Contributing to FrostWing", "md_CONTRIBUTING.html", [
+      [ "How to Contribute", "md_CONTRIBUTING.html#autotoc_md26", null ],
+      [ "Code Guidelines", "md_CONTRIBUTING.html#autotoc_md27", null ],
+      [ "Issues and Bug Reports", "md_CONTRIBUTING.html#autotoc_md28", [
+        [ "Code of Conduct", "md_CONTRIBUTING.html#autotoc_md29", null ]
+      ] ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -82,8 +89,9 @@ var NAVTREEINDEX =
 [
 "acpi-shutdown_8h.html",
 "hal_8h.html#ab49f40a6955511c64483feb0f806edf3",
-"serial_8h.html#a740862a501e0435f9ba13ae4fadca8cb",
-"structlimine__bootloader__info__response.html#a5e419e1bc61acda11951695e445cf2ad"
+"serial_8h.html#a48197e6ca83ef6f692884b879be491ad",
+"structlimine__bootloader__info__request.html#a30c667dee4dbf7241303b9f304f804bd",
+"versions_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

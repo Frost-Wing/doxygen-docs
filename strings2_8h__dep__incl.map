@@ -1,0 +1,11 @@
+<map id="source/includes/strings2.h" name="source/includes/strings2.h">
+<area shape="rect" id="node1" title="The header file for strings.c." alt="" coords="507,5,697,32"/>
+<area shape="rect" id="node2" href="$graphics_8h.html" title="Contains all the print functions." alt="" coords="370,80,565,107"/>
+<area shape="rect" id="node5" href="$kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="445,319,623,345"/>
+<area shape="rect" id="node3" href="$isr_8h.html" title=" " alt="" coords="225,155,379,181"/>
+<area shape="rect" id="node8" href="$pci_8h.html" title="The Header files for actual PCI source." alt="" coords="455,237,613,263"/>
+<area shape="rect" id="node9" href="$versions_8h.html" title="This is the header file which contains all the tools used&#39;s versions." alt="" coords="505,155,699,181"/>
+<area shape="rect" id="node4" href="$keyboard_8h.html" title=" " alt="" coords="5,237,204,263"/>
+<area shape="rect" id="node7" href="$ps2-mouse_8h.html" title=" " alt="" coords="228,229,379,271"/>
+<area shape="rect" id="node6" href="$meltdown_8h.html" title="The headers for meltdown.c." alt="" coords="432,393,636,420"/>
+</map>

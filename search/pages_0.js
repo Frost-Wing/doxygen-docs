@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['frostwing_20documentations_0',['FrostWing Documentations',['../index.html',1,'']]],
-  ['frostwing_20operating_20system_1',['FrostWing Operating System',['../md_readme.html',1,'']]]
+  ['contributing_20to_20frostwing_0',['Contributing to FrostWing',['../md_CONTRIBUTING.html',1,'']]]
 ];

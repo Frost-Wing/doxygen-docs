@@ -11,7 +11,7 @@ var graphics_8h =
     [ "info", "graphics_8h.html#aee2e1461792f971c8adaa6bede6e2bdd", null ],
     [ "printdec", "graphics_8h.html#a3c5021e193e4ff6e8700eb8073953183", null ],
     [ "printf", "graphics_8h.html#a0904e7c8481b729bce5993268e9c9e4c", null ],
-    [ "printhex", "graphics_8h.html#afd10803cea3dbfff0ba99b9b36eb0de8", null ],
+    [ "printhex", "graphics_8h.html#a2a8e919ce857e3c748992196574bf570", null ],
     [ "putc", "graphics_8h.html#acc0ee6e9643f83a5ab11722197fc25ec", null ],
     [ "warn", "graphics_8h.html#ad77420c435b84b1d7ff086a9a1046d81", null ]
 ];

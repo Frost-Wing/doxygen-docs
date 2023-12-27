@@ -28,7 +28,7 @@ var searchData=
   ['print_5fl3_5fcache_5finfo_25',['print_L3_cache_info',['../cpuid2_8h.html#a40a19e00db405010fed0c5b81be20363',1,'cpuid2.h']]],
   ['printdec_26',['printdec',['../graphics_8h.html#a3c5021e193e4ff6e8700eb8073953183',1,'graphics.h']]],
   ['printf_27',['printf',['../graphics_8h.html#a0904e7c8481b729bce5993268e9c9e4c',1,'graphics.h']]],
-  ['printhex_28',['printhex',['../graphics_8h.html#afd10803cea3dbfff0ba99b9b36eb0de8',1,'graphics.h']]],
+  ['printhex_28',['printhex',['../graphics_8h.html#a2a8e919ce857e3c748992196574bf570',1,'graphics.h']]],
   ['probe_5fpci_29',['probe_pci',['../pci_8h.html#ac78377dc4a7021491c3f3da150e3e4a9',1,'pci.h']]],
   ['probe_5fserial_30',['probe_serial',['../serial_8h.html#a740862a501e0435f9ba13ae4fadca8cb',1,'serial.h']]],
   ['process_5fkeyboard_31',['process_keyboard',['../keyboard_8h.html#a7e361042b1f078db45f230a7eacc0e6c',1,'keyboard.h']]],
