@@ -114,15 +114,17 @@ $(document).ready(function(){initNavTree('basics_8h_source.html',''); initResiza
 <div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="basics_8h.html#a23e4cf4c4bc859769b39f011870ca4e9">   33</a></span>&#160;<span class="preprocessor">#define Ghz *1000000000ULL</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="basics_8h.html#a747356f0646f9fb28353d881868ebf76">   34</a></span>&#160;<span class="preprocessor">#define Mhz *1000000ULL</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#ifdef __GNUC__</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#define deprecated_message(msg) attribute((deprecated(msg)))</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#elif defined(_MSC_VER)</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#define deprecated_message(msg) __declspec(deprecated(msg))</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="basics_8h.html#a7eed91d7110a1b69942e6ea559fde78f">   41</a></span>&#160;<span class="preprocessor">#define deprecated_message(msg)</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#define assert(expression, file, line) if(!(expression)){printf(&quot;\x1b[31mAssert Failed! at \x1b[36m%s:%d\x1b[0m =&gt; \x1b[32m%s\x1b[0m&quot;</span>, file, line, #expression);}</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="basics_8h.html#a59adc4c82490d23754cd39c2fb99b0da">   36</a></span>&#160;<span class="preprocessor">#define EOF (-1)</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#ifdef __GNUC__</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#define deprecated_message(msg) attribute((deprecated(msg)))</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#elif defined(_MSC_VER)</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#define deprecated_message(msg) __declspec(deprecated(msg))</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="basics_8h.html#a7eed91d7110a1b69942e6ea559fde78f">   43</a></span>&#160;<span class="preprocessor">#define deprecated_message(msg)</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#define assert(expression, file, line) if(!(expression)){printf(&quot;\x1b[31mAssert Failed! at \x1b[36m%s:%d\x1b[0m =&gt; \x1b[32m%s\x1b[0m&quot;</span>, file, line, #expression);}</div>
 <div class="ttc" id="abasics_8h_html_a003b1a4845d87235d5d006d025f4105f"><div class="ttname"><a href="basics_8h.html#a003b1a4845d87235d5d006d025f4105f">int_pointer</a></div><div class="ttdeci">uintptr_t int_pointer</div><div class="ttdef"><b>Definition:</b> basics.h:14</div></div>
 <div class="ttc" id="abasics_8h_html_a4505c08c065b48840a30eedd9845cce2"><div class="ttname"><a href="basics_8h.html#a4505c08c065b48840a30eedd9845cce2">string</a></div><div class="ttdeci">char * string</div><div class="ttdef"><b>Definition:</b> basics.h:23</div></div>
 <div class="ttc" id="abasics_8h_html_a5a6534f59959c993a087b6bd6baa5e27"><div class="ttname"><a href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a></div><div class="ttdeci">const char * cstring</div><div class="ttdef"><b>Definition:</b> basics.h:22</div></div>

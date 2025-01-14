@@ -14,5 +14,6 @@ var searchData=
   ['bold_36',['bold',['../structflanterm__context.html#ae30f962c738df29a0de6ccd429dd51f8',1,'flanterm_context']]],
   ['boot_5ftime_37',['boot_time',['../structlimine__boot__time__response.html#afd90e4d04eb15b0bdaecc48017e2096b',1,'limine_boot_time_response']]],
   ['bpp_38',['bpp',['../structlimine__video__mode.html#aacc8a3b0ec70b824036cb796d9c0709d',1,'limine_video_mode::bpp()'],['../structlimine__framebuffer.html#aa32c271905e117417a6ab1107190d4ae',1,'limine_framebuffer::bpp()'],['../structtarga__header.html#a4d978460cf80bdd35cb59425c33519e5',1,'targa_header::bpp()'],['../structflanterm__fb__context.html#a70be52d0df0e1a0609434cb85be8881b',1,'flanterm_fb_context::bpp()']]],
-  ['builtin_5ffont_39',['builtin_font',['../fb_8h.html#a8ea440f33b82bd931cdadedf1c7ff21a',1,'fb.h']]]
+  ['buffer_5fsize_39',['BUFFER_SIZE',['../sh__util_8h.html#a6b20d41d6252e9871430c242cb1a56e7',1,'sh_util.h']]],
+  ['builtin_5ffont_40',['builtin_font',['../fb_8h.html#a8ea440f33b82bd931cdadedf1c7ff21a',1,'fb.h']]]
 ];

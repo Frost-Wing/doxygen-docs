@@ -88,10 +88,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "acpi-shutdown_8h.html",
-"graphics_8h.html#acc0ee6e9643f83a5ab11722197fc25ec",
-"ps2-mouse_8h.html#a93ddab9752203829a14f0da28aac6974",
-"structflanterm__fb__context.html#a7eba46bbc0e59945d3d8fd4dc42d6278",
-"structlimine__video__mode.html#a1b252ef08f00b0029f11526f3589d405"
+"graphics_8h.html#a9dc6ca1560e21c7a19adcd7d4ea17a87",
+"ps2-mouse_8h.html#a6e7e559384f5c75589212f452f811cdb",
+"structflanterm__fb__context.html#a5dd29cd8cfde503e1d5203c6978ea737",
+"structlimine__uuid.html#a3e2198ef1488deb36a087a866a45280b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -32,6 +32,7 @@ var dir_c9f89f587e7e777be723ee48a3df5844 =
     [ "pit.h", "pit_8h.html", "pit_8h" ],
     [ "ps2-mouse.h", "ps2-mouse_8h.html", "ps2-mouse_8h" ],
     [ "secure-boot.h", "secure-boot_8h.html", "secure-boot_8h" ],
+    [ "sh_util.h", "sh__util_8h.html", "sh__util_8h" ],
     [ "sse.h", "sse_8h.html", "sse_8h" ],
     [ "strings2.h", "strings2_8h.html", "strings2_8h" ],
     [ "syscalls.h", "syscalls_8h.html", "syscalls_8h" ],

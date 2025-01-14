@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"graphics_8h.html#a9dc6ca1560e21c7a19adcd7d4ea17a87":[4,0,0,0,16,11],
 "graphics_8h.html#acc0ee6e9643f83a5ab11722197fc25ec":[4,0,0,0,16,15],
 "graphics_8h.html#ad07884a6ba7d8115780561b2ca989852":[4,0,0,0,16,6],
 "graphics_8h.html#ad77420c435b84b1d7ff086a9a1046d81":[4,0,0,0,16,16],
@@ -22,8 +23,8 @@ var NAVTREEINDEX1 =
 "hal_8h.html#aec4081c92155d81d7e8f83b6f5fc02d2":[4,0,0,0,17,1],
 "hal_8h_source.html":[4,0,0,0,17],
 "hashing_8h.html":[4,0,0,0,0,0],
+"hashing_8h.html#a70205c71c43195d6d81ae15608cba011":[4,0,0,0,0,0,0],
 "hashing_8h.html#acb69114450aa6e1ed2088c8383718f51":[4,0,0,0,0,0,1],
-"hashing_8h.html#adab1b00687012b2224871a5f8a2ba587":[4,0,0,0,0,0,0],
 "hashing_8h_source.html":[4,0,0,0,0,0],
 "heap_8h.html":[4,0,0,0,18],
 "heap_8h.html#a0704ea50195bdbeebe60b36bc07b9074":[4,0,0,0,18,2],
@@ -82,9 +83,10 @@ var NAVTREEINDEX1 =
 "kernel_8h.html#ad21bc479a62f49bd2095109c52d725e4":[4,0,0,0,21,1],
 "kernel_8h_source.html":[4,0,0,0,21],
 "keyboard_8h.html":[4,0,0,0,22],
-"keyboard_8h.html#a36348c9fc7519ba10dae9ca4c04d81c3":[4,0,0,0,22,2],
-"keyboard_8h.html#a7e361042b1f078db45f230a7eacc0e6c":[4,0,0,0,22,0],
-"keyboard_8h.html#af2e85d5c7960471f28586019533f8571":[4,0,0,0,22,1],
+"keyboard_8h.html#a12fe8585ae3714e7d4a71cae12fbb110":[4,0,0,0,22,0],
+"keyboard_8h.html#a36348c9fc7519ba10dae9ca4c04d81c3":[4,0,0,0,22,3],
+"keyboard_8h.html#a7e361042b1f078db45f230a7eacc0e6c":[4,0,0,0,22,1],
+"keyboard_8h.html#af2e85d5c7960471f28586019533f8571":[4,0,0,0,22,2],
 "keyboard_8h_source.html":[4,0,0,0,22],
 "limine_8h.html":[4,0,0,0,23],
 "limine_8h.html#a17319df24b1fa085ef4b35e46e59db59":[4,0,0,0,23,51],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "ps2-mouse_8h.html#a490a04ada554d6c3555d21b37e834f49":[4,0,0,0,30,10],
 "ps2-mouse_8h.html#a49d0e249afdd84493abc1674701ac517":[4,0,0,0,30,14],
 "ps2-mouse_8h.html#a4cd4a0a8201872ea3f325060c813bf6a":[4,0,0,0,30,13],
-"ps2-mouse_8h.html#a67d41b5dcdb6d241343bf97e15304079":[4,0,0,0,30,0],
-"ps2-mouse_8h.html#a6e7e559384f5c75589212f452f811cdb":[4,0,0,0,30,5],
-"ps2-mouse_8h.html#a7bbbe29199acd1e018bdf8a227fb3bc6":[4,0,0,0,30,12]
+"ps2-mouse_8h.html#a67d41b5dcdb6d241343bf97e15304079":[4,0,0,0,30,0]
 };

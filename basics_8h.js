@@ -2,6 +2,7 @@ var basics_8h =
 [
     [ "attribute", "basics_8h.html#aef93f1f36b5922e43607816a326a3d9f", null ],
     [ "deprecated_message", "basics_8h.html#a7eed91d7110a1b69942e6ea559fde78f", null ],
+    [ "EOF", "basics_8h.html#a59adc4c82490d23754cd39c2fb99b0da", null ],
     [ "Ghz", "basics_8h.html#a23e4cf4c4bc859769b39f011870ca4e9", null ],
     [ "KiB", "basics_8h.html#ab31885b38f74d67aeb15713693437591", null ],
     [ "Mhz", "basics_8h.html#a747356f0646f9fb28353d881868ebf76", null ],
