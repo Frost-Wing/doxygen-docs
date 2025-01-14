@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['limine_5fentry_5fpoint_0',['limine_entry_point',['../limine_8h.html#a4b9a7070926c40c446ca6252c769fdd7',1,'limine.h']]],
-  ['limine_5fgoto_5faddress_1',['limine_goto_address',['../limine_8h.html#adebde0ad391eec16f6ddcfbf68293412',1,'limine.h']]],
-  ['limine_5fterminal_5fcallback_2',['limine_terminal_callback',['../limine_8h.html#a5c93b9d8f76415e192f0058d9db3e8a0',1,'limine.h']]],
-  ['limine_5fterminal_5fwrite_3',['limine_terminal_write',['../limine_8h.html#ab6fa49376e88c66aa2fee0b90902036d',1,'limine.h']]]
+  ['int16_1294',['int16',['../basics_8h.html#ae9794ced33376f900e9e70cfb39a419c',1,'basics.h']]],
+  ['int32_1295',['int32',['../basics_8h.html#abbff394a3e4c2f6a39824ed1e32acaf8',1,'basics.h']]],
+  ['int64_1296',['int64',['../basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02',1,'basics.h']]],
+  ['int8_1297',['int8',['../basics_8h.html#a9d29437bbd2066ff470a22533d110a42',1,'basics.h']]],
+  ['int_5fpointer_1298',['int_pointer',['../basics_8h.html#a003b1a4845d87235d5d006d025f4105f',1,'basics.h']]],
+  ['irq_5fhandler_1299',['irq_handler',['../isr_8h.html#a0591505897fcb2a92027df555ec691fd',1,'isr.h']]]
 ];

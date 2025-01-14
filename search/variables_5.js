@@ -1,21 +1,15 @@
 var searchData=
 [
-  ['fb_0',['fb',['../structahci__port.html#aca220523507b8ff5a957e05b7df7bc16',1,'ahci_port']]],
-  ['fb_5fheight_1',['fb_height',['../kernel_8h.html#ad6fa088170c6d336335f916ec2d7ea75',1,'kernel.h']]],
-  ['fb_5fwidth_2',['fb_width',['../kernel_8h.html#a958a8b9e073763677be12388540230fa',1,'kernel.h']]],
-  ['fbs_3',['fbs',['../structahci__port.html#a449d21baab1900b0c9a13b09d83acfc3',1,'ahci_port']]],
-  ['fbu_4',['fbu',['../structahci__port.html#aa515656c4d396b728bf0cd8d390f4e6e',1,'ahci_port']]],
-  ['fg_5',['fg',['../structflanterm__fb__char.html#a9eb6db06243ad2634d3d0f399d29bf2f',1,'flanterm_fb_char']]],
-  ['flags_6',['flags',['../structlimine__paging__mode__request.html#a9fc925830f2f86c6360939ab36e92d92',1,'limine_paging_mode_request::flags()'],['../structlimine__internal__module.html#a6c46ee94297d0f14cdcd512cd84d3252',1,'limine_internal_module::flags()'],['../structlimine__smp__request.html#a9d5a22f14cc4bf6458ef07150cb8e86b',1,'limine_smp_request::flags()'],['../structlimine__paging__mode__response.html#a9a6b88e9fadb318950b6a47d91d38fc9',1,'limine_paging_mode_response::flags()']]],
-  ['font_5fbits_7',['font_bits',['../structflanterm__fb__context.html#a401ecbeac43f6e57a1c7225213aa5e5d',1,'flanterm_fb_context']]],
-  ['font_5fbits_5fsize_8',['font_bits_size',['../structflanterm__fb__context.html#affc5c228207318fe6376274107cf43bc',1,'flanterm_fb_context']]],
-  ['font_5fbool_9',['font_bool',['../structflanterm__fb__context.html#ac749e34807630e3060304246128661a6',1,'flanterm_fb_context']]],
-  ['font_5fbool_5fsize_10',['font_bool_size',['../structflanterm__fb__context.html#a3426f9f2994352d2f50fd1587e37174c',1,'flanterm_fb_context']]],
-  ['font_5fheight_11',['font_height',['../structflanterm__fb__context.html#a0b22b94a70070e6db74e38d69490c631',1,'flanterm_fb_context']]],
-  ['font_5fscale_5fx_12',['font_scale_x',['../structflanterm__fb__context.html#ac9b9a1b6311404f19145b8af301e0bb9',1,'flanterm_fb_context']]],
-  ['font_5fscale_5fy_13',['font_scale_y',['../structflanterm__fb__context.html#ab9b2a5f163f175f73c6915e0a0ce9ad6',1,'flanterm_fb_context']]],
-  ['font_5fwidth_14',['font_width',['../structflanterm__fb__context.html#a89d1b1e0c49362fa5f98c54dc53b4007',1,'flanterm_fb_context']]],
-  ['framebuffer_15',['framebuffer',['../structflanterm__fb__context.html#a70f82a712eb98b535d678376e1047700',1,'flanterm_fb_context']]],
-  ['framebuffer_5fcount_16',['framebuffer_count',['../structlimine__framebuffer__response.html#a13bb5cf3dc1eebe8500f1ebfee5694e9',1,'limine_framebuffer_response']]],
-  ['full_5frefresh_17',['full_refresh',['../structflanterm__context.html#a34fa1affd00bd547089b4788440b694a',1,'flanterm_context']]]
+  ['edid_5fsize_1066',['edid_size',['../structlimine__framebuffer.html#a4537b7ec9e3c3c837b327f49b9ceaf04',1,'limine_framebuffer']]],
+  ['em_5fctl_1067',['em_ctl',['../structahci__controller.html#adf594be7bddb3b740b7fabfe2d55c451',1,'ahci_controller']]],
+  ['em_5floc_1068',['em_loc',['../structahci__controller.html#a6266ec1b8cb064858ffd5e5838ba8f2a',1,'ahci_controller']]],
+  ['end_1069',['end',['../structlist.html#a744e76fa8136abf23f7c8581d6ee87aa',1,'list']]],
+  ['endian_1070',['endian',['../structfwde__header.html#acc99462ae17a994c548fb6c825f79af6',1,'fwde_header']]],
+  ['entry_1071',['entry',['../structelf__x64__header.html#a16dbce266c974f483396b4d68c5eb8ac',1,'elf_x64_header']]],
+  ['entry_5fcount_1072',['entry_count',['../structlimine__memmap__response.html#a4b7e339a67682337dcc5bbcdd47a1d0e',1,'limine_memmap_response']]],
+  ['err_5fcode_1073',['err_code',['../structInterruptFrame.html#a63104f976fb6adc565a41376a877f5a2',1,'InterruptFrame::err_code()'],['../isr_8h.html#a0f9a68a13dccfe1c1d52bac3c988f7c9',1,'err_code():&#160;isr.h']]],
+  ['esc_5fvalues_1074',['esc_values',['../structflanterm__context.html#a89beb7693540e0602696e3c717cc4ec0',1,'flanterm_context']]],
+  ['esc_5fvalues_5fi_1075',['esc_values_i',['../structflanterm__context.html#a3f56b86a9e6c7467ac7105e548879029',1,'flanterm_context']]],
+  ['escape_1076',['escape',['../structflanterm__context.html#ac44e7fdf818ba7f27ba8499fc86d5be3',1,'flanterm_context']]],
+  ['escape_5foffset_1077',['escape_offset',['../structflanterm__context.html#ad2a7c636fc0466b91a9e7b76368e0d67',1,'flanterm_context']]]
 ];

@@ -9,5 +9,6 @@ var strings2_8h =
     [ "strlen_", "strings2_8h.html#a1affedae77241cfb7dd108b772200919", null ],
     [ "strncmp", "strings2_8h.html#a3f9b56a8efca3a8594a17eb5def6d657", null ],
     [ "strncpy", "strings2_8h.html#a65fdc17be44d37786f4e3f831dc9f958", null ],
+    [ "strtol", "strings2_8h.html#aeafd194f4f11d5efd00480ac4b3fe497", null ],
     [ "trim", "strings2_8h.html#a64f40039e0978f40677db6f6eab5f261", null ]
 ];

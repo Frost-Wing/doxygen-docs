@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['acpi_5ffind_5fsdt_0',['acpi_find_sdt',['../acpi_8h.html#a6c27f4adcd1588a94ba2dced1ed49fc3',1,'acpi.h']]],
-  ['acpi_5finit_1',['acpi_init',['../acpi_8h.html#ac89f7fd8333fcd61dea9163a99c0fd6c',1,'acpi.h']]],
-  ['acpi_5fshutdown_5fhack_2',['acpi_shutdown_hack',['../acpi-shutdown_8h.html#a4d2db64ac29a1ed3377050096943a3ab',1,'acpi-shutdown.h']]],
-  ['allocate_5fpage_3',['allocate_page',['../paging_8h.html#ac31c451fb38669f7aa4415d7dedb915c',1,'paging.h']]]
+  ['acpi_5ffind_5fsdt_854',['acpi_find_sdt',['../acpi_8h.html#a434fe4c98c94137b8d609ff21d3d9413',1,'acpi.h']]],
+  ['acpi_5finit_855',['acpi_init',['../acpi_8h.html#ac89f7fd8333fcd61dea9163a99c0fd6c',1,'acpi.h']]],
+  ['acpi_5fshutdown_5fhack_856',['acpi_shutdown_hack',['../acpi-shutdown_8h.html#a4d2db64ac29a1ed3377050096943a3ab',1,'acpi-shutdown.h']]],
+  ['allocate_5fmemory_5fat_5faddress_857',['allocate_memory_at_address',['../memory2_8h.html#a57679f71b0330d515bd4541120e87cb1',1,'memory2.h']]],
+  ['allocate_5fpage_858',['allocate_page',['../paging_8h.html#a9dadf0ba1be0f3add753fd43c4dfa7cf',1,'paging.h']]]
 ];

@@ -1,7 +1,7 @@
 var structuvec4 =
 [
-    [ "w", "structuvec4.html#acc923a7ebe0c0ef7751571046253cfb1", null ],
-    [ "x", "structuvec4.html#a412c585f95e1c702253ab2b1d1646019", null ],
-    [ "y", "structuvec4.html#a1cfe7082ae78fd3e62b549c702920e88", null ],
-    [ "z", "structuvec4.html#a81a91f7ceabb66afe844c670924e5e14", null ]
+    [ "w", "structuvec4.html#aea1aab03f5ff7c4f31112842775f0d99", null ],
+    [ "x", "structuvec4.html#acb9c98888f771f4bdfab3b0b6f40b006", null ],
+    [ "y", "structuvec4.html#a133bc5db198a29ee2ab58b7ddde35f3a", null ],
+    [ "z", "structuvec4.html#ad3a999f9f53e256347156de5966acab9", null ]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['kernel_2eh_0',['kernel.h',['../kernel_8h.html',1,'']]],
-  ['keyboard_2eh_1',['keyboard.h',['../keyboard_8h.html',1,'']]]
+  ['idt_2eh_829',['idt.h',['../idt_8h.html',1,'']]],
+  ['isr_2eh_830',['isr.h',['../isr_8h.html',1,'']]]
 ];

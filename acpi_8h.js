@@ -2,7 +2,7 @@ var acpi_8h =
 [
     [ "sdt", "structsdt.html", "structsdt" ],
     [ "__attribute__", "acpi_8h.html#a4f6b2c6e85caf9d00522475a13e622b2", null ],
-    [ "acpi_find_sdt", "acpi_8h.html#a6c27f4adcd1588a94ba2dced1ed49fc3", null ],
+    [ "acpi_find_sdt", "acpi_8h.html#a434fe4c98c94137b8d609ff21d3d9413", null ],
     [ "acpi_init", "acpi_8h.html#ac89f7fd8333fcd61dea9163a99c0fd6c", null ],
     [ "checksum", "acpi_8h.html#a59eac9627282a484fbaf0aa7aa3b8a9a", null ],
     [ "creator_id", "acpi_8h.html#ab38918ce2820bbdf42112e514c767817", null ],
