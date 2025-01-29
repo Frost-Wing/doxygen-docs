@@ -9,7 +9,6 @@ var structflanterm__context =
     [ "code_point", "structflanterm__context.html#a616abafd531a9094d3260197d375df3f", null ],
     [ "cols", "structflanterm__context.html#a0f7bc11da5ad84d869151f6e25ade6d3", null ],
     [ "control_sequence", "structflanterm__context.html#a65fb55c5e04729b93d3127f3a0bc3d81", null ],
-    [ "csi", "structflanterm__context.html#a8aaea678b2c8f78b04745c4ac3a39e7c", null ],
     [ "current_bg", "structflanterm__context.html#a88cdb1ea744ea03f3041cf82fb3e157b", null ],
     [ "current_charset", "structflanterm__context.html#a2c84cbaa0a4c54a12fa2a0d7f87f60c8", null ],
     [ "current_primary", "structflanterm__context.html#a0437468c50ffffdf02fae6b5ccc4456b", null ],

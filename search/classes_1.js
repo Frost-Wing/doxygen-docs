@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['elf_5fx64_5fheader_737',['elf_x64_header',['../structelf__x64__header.html',1,'']]],
-  ['elf_5fx64_5fprogram_5fheader_738',['elf_x64_program_header',['../structelf__x64__program__header.html',1,'']]]
+  ['ahci_5fcontroller_971',['ahci_controller',['../structahci__controller.html',1,'']]],
+  ['ahci_5fport_972',['ahci_port',['../structahci__port.html',1,'']]]
 ];

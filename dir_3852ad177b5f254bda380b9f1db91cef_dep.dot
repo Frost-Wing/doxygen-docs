@@ -1,0 +1,9 @@
+digraph "source/includes/filesystems" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c9f89f587e7e777be723ee48a3df5844 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="includes" fontname="Helvetica", fontsize="10", URL="dir_c9f89f587e7e777be723ee48a3df5844.html"]
+  dir_3852ad177b5f254bda380b9f1db91cef [shape=box, label="filesystems", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_3852ad177b5f254bda380b9f1db91cef.html"];
+  }
+}

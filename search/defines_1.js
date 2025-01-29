@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['block_5fsize_1319',['block_size',['../tarball_8h.html#a9766f5ceca5e25981858ec7384456072',1,'tarball.h']]],
-  ['blue_5fcolor_1320',['blue_color',['../graphics_8h.html#a05dd35863ccc281035a3411733ea6178',1,'graphics.h']]],
-  ['buffer_5fsize_1321',['BUFFER_SIZE',['../sh__util_8h.html#a6b20d41d6252e9871430c242cb1a56e7',1,'sh_util.h']]]
+  ['ahci_5fport_5fbase_1699',['AHCI_PORT_BASE',['../ahci_8h.html#aeee180172cc475a280744d3993478ed2',1,'ahci.h']]],
+  ['ahci_5fport_5fcmd_5ffr_1700',['AHCI_PORT_CMD_FR',['../ahci_8h.html#a724c2592ad60e82338de51d64b1ee23f',1,'ahci.h']]],
+  ['ahci_5fport_5fcmd_5ffre_1701',['AHCI_PORT_CMD_FRE',['../ahci_8h.html#aaa6759227ea7b7623f85fca7fe970e25',1,'ahci.h']]],
+  ['ahci_5fport_5fcmd_5fst_1702',['AHCI_PORT_CMD_ST',['../ahci_8h.html#a239f024bf765c50ca454a5b542ef5e41',1,'ahci.h']]],
+  ['amount_5fof_5fpages_1703',['amount_of_pages',['../paging_8h.html#a9a0cb35c23f4deb30dd4d72e80d24873',1,'paging.h']]],
+  ['attribute_1704',['attribute',['../basics_8h.html#aef93f1f36b5922e43607816a326a3d9f',1,'basics.h']]]
 ];

@@ -1,0 +1,28 @@
+var structssfn__t =
+[
+    [ "ap", "structssfn__t.html#a3d585c37571ae8158b8ce64480fc55f9", null ],
+    [ "ax", "structssfn__t.html#aa7ba73c479a35c23e1c0716f03ba4d3d", null ],
+    [ "bufs", "structssfn__t.html#a0d9876d8b6b15be7e388826f794ff6a2", null ],
+    [ "c", "structssfn__t.html#a3f923657f8cbd1c1ff95e37d6094022f", null ],
+    [ "f", "structssfn__t.html#a22ad37057c39dee83811bdfe00cabc80", null ],
+    [ "family", "structssfn__t.html#a8f525a1b4c758406787d41fc7421fb89", null ],
+    [ "fnt", "structssfn__t.html#ac79e8fc1e3b042b5eaebb689a69cd5a5", null ],
+    [ "g", "structssfn__t.html#a02ca0a947178e200feeb37331471cccd", null ],
+    [ "ga", "structssfn__t.html#adb67f82b2fee5dd045cd694e53a8cdc3", null ],
+    [ "len", "structssfn__t.html#a3da191c5abe19104136f9b2b64984b8a", null ],
+    [ "lenbuf", "structssfn__t.html#ab3668f0a6a7663c17a3d3bd0d1ae93a9", null ],
+    [ "line", "structssfn__t.html#a8b189d6b71b258fc9ee2fce7db081fdc", null ],
+    [ "lx", "structssfn__t.html#a9ea7a87677186ef9d99c401fd11b86c4", null ],
+    [ "ly", "structssfn__t.html#aa69be2b0214d65ba59c33ead9a48401f", null ],
+    [ "mx", "structssfn__t.html#a1bdfb30633cfc3874a1a5db36a500374", null ],
+    [ "my", "structssfn__t.html#a1131dd1122011a66726f998934610a58", null ],
+    [ "np", "structssfn__t.html#ae2fa367417a0b8b9ee616e6c46804ab6", null ],
+    [ "numbuf", "structssfn__t.html#abf73b2cf00b6ca7e60c0295ce42ff0db", null ],
+    [ "ox", "structssfn__t.html#a09540423230f2f157edff679d02c65ab", null ],
+    [ "oy", "structssfn__t.html#a8c7f77268998e2a92529dacd3dd70573", null ],
+    [ "p", "structssfn__t.html#aed7a16457db19c762d1ff95815f960f2", null ],
+    [ "rc", "structssfn__t.html#ac4402bcd808821731e49da807f5bb47a", null ],
+    [ "s", "structssfn__t.html#afa677bf4f21234d809b5e4ed86eeb6a0", null ],
+    [ "size", "structssfn__t.html#a15c8985001a67016b8a8572b8c992950", null ],
+    [ "style", "structssfn__t.html#a7b47d3327ebab0e47194815b8c41ce5a", null ]
+];

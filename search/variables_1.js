@@ -1,10 +1,17 @@
 var searchData=
 [
-  ['a_1002',['a',['../structlimine__uuid.html#a55b285bb785129f70c546d0919320141',1,'limine_uuid']]],
-  ['abiversion_1003',['abiversion',['../structelf__x64__header.html#ae48d884dde859d671a919a2a5bd41d1d',1,'elf_x64_header']]],
-  ['align_1004',['align',['../structelf__x64__program__header.html#a6b3cb35fd87f183f4b0eab340d17f7e4',1,'elf_x64_program_header']]],
-  ['ansi_5fbright_5fcolours_1005',['ansi_bright_colours',['../structflanterm__fb__context.html#a1036d27376c3e1e78c1a2183f26640a1',1,'flanterm_fb_context']]],
-  ['ansi_5fcolours_1006',['ansi_colours',['../structflanterm__fb__context.html#a9794d1fec0260c611d46987493342d86',1,'flanterm_fb_context']]],
-  ['architecture_1007',['architecture',['../structfwde__header.html#a8d8d8d962b0737850baa4756614968b9',1,'fwde_header']]],
-  ['autoflush_1008',['autoflush',['../structflanterm__context.html#a9488263ce45254f48b3f9d6e6634798a',1,'flanterm_context']]]
+  ['b_1292',['b',['../structlimine__uuid.html#a3e2198ef1488deb36a087a866a45280b',1,'limine_uuid']]],
+  ['base_1293',['base',['../structlimine__memmap__entry.html#a27ffe8338bdc73b6ae4f491914117af7',1,'limine_memmap_entry']]],
+  ['baseline_1294',['baseline',['../struct__pack.html#a1d823e005f952ccc115516bc08bb3857',1,'_pack']]],
+  ['bg_1295',['bg',['../structflanterm__fb__char.html#a0c4e566e42384241170ac5579efeeec7',1,'flanterm_fb_char::bg()'],['../structssfn__buf__t.html#ac41d5e0529d34a99ea24f740ece081dd',1,'ssfn_buf_t::bg()']]],
+  ['bg_5fbold_1296',['bg_bold',['../structflanterm__context.html#a1da0234fc28ed128ce85f2bc66ae1440',1,'flanterm_context']]],
+  ['blue_5fmask_5fshift_1297',['blue_mask_shift',['../structlimine__video__mode.html#a1b252ef08f00b0029f11526f3589d405',1,'limine_video_mode::blue_mask_shift()'],['../structlimine__framebuffer.html#aa1fb35dd595815689bac0ea43ef15998',1,'limine_framebuffer::blue_mask_shift()']]],
+  ['blue_5fmask_5fsize_1298',['blue_mask_size',['../structlimine__video__mode.html#a1f535c15dd6dfd6eaf57c863c54770bc',1,'limine_video_mode::blue_mask_size()'],['../structlimine__framebuffer.html#a64962e7919b48842f912724327309fc1',1,'limine_framebuffer::blue_mask_size()']]],
+  ['bohc_1299',['bohc',['../structahci__controller.html#a1029ff71b308a99d5f67148bdbcf344d',1,'ahci_controller']]],
+  ['bold_1300',['bold',['../structflanterm__context.html#ae30f962c738df29a0de6ccd429dd51f8',1,'flanterm_context']]],
+  ['boot_5ftime_1301',['boot_time',['../structlimine__boot__time__response.html#afd90e4d04eb15b0bdaecc48017e2096b',1,'limine_boot_time_response']]],
+  ['bootloader_1302',['Bootloader',['../structMBR.html#a022be4f12735de260e470cfc1955f9fb',1,'MBR::Bootloader()'],['../mbr_8h.html#ad4c1a500766a1d1a4db4ab38e1e7f213',1,'Bootloader():&#160;mbr.h']]],
+  ['bpp_1303',['bpp',['../structflanterm__fb__context.html#a70be52d0df0e1a0609434cb85be8881b',1,'flanterm_fb_context::bpp()'],['../structtarga__header.html#a4d978460cf80bdd35cb59425c33519e5',1,'targa_header::bpp()'],['../structlimine__video__mode.html#aacc8a3b0ec70b824036cb796d9c0709d',1,'limine_video_mode::bpp()'],['../structlimine__framebuffer.html#aa32c271905e117417a6ab1107190d4ae',1,'limine_framebuffer::bpp()']]],
+  ['bufs_1304',['bufs',['../structssfn__t.html#a0d9876d8b6b15be7e388826f794ff6a2',1,'ssfn_t']]],
+  ['builtin_5ffont_1305',['builtin_font',['../fb_8h.html#a8ea440f33b82bd931cdadedf1c7ff21a',1,'fb.h']]]
 ];

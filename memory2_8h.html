@@ -122,6 +122,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:abf9368946b7a5fe5775ed94ca97bb6cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump memory content from start to end.  <a href="memory2_8h.html#abf9368946b7a5fe5775ed94ca97bb6cf">More...</a><br /></td></tr>
 <tr class="separator:abf9368946b7a5fe5775ed94ca97bb6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57679f71b0330d515bd4541120e87cb1"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memory2_8h.html#a57679f71b0330d515bd4541120e87cb1">allocate_memory_at_address</a> (<a class="el" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a> phys_addr, size_t <a class="el" href="idt_8h.html#aaba88b24a21a6c70c895c0d55f4a69a0">size</a>)</td></tr>
+<tr class="memdesc:a57679f71b0330d515bd4541120e87cb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates memory at an specific address.  <a href="memory2_8h.html#a57679f71b0330d515bd4541120e87cb1">More...</a><br /></td></tr>
 <tr class="separator:a57679f71b0330d515bd4541120e87cb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -150,6 +151,16 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Allocates memory at an specific address. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">phys_addr</td><td>Physical address to allocate memory. </td></tr>
+    <tr><td class="paramname">size</td><td>Size of the memory to allocate. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to the allocated memory, or NULL if allocation fails. </dd></dl>
 
 </div>
 </div>

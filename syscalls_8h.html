@@ -104,13 +104,16 @@ Include dependency graph for syscalls.h:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:ae5487cff1dd29559a555f8a6126e1e76"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="syscalls_8h.html#ae5487cff1dd29559a555f8a6126e1e76">syscalls_prefix</a>&#160;&#160;&#160;&quot;Syscall Invoked: &quot;</td></tr>
+<tr class="memdesc:ae5487cff1dd29559a555f8a6126e1e76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prefix for the syscalls.  <a href="syscalls_8h.html#ae5487cff1dd29559a555f8a6126e1e76">More...</a><br /></td></tr>
 <tr class="separator:ae5487cff1dd29559a555f8a6126e1e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a436b9053e9052bc3e9135e9af2f13931"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="syscalls_8h.html#a436b9053e9052bc3e9135e9af2f13931">invoke_syscall</a> (<a class="el" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a> num)</td></tr>
+<tr class="memdesc:a436b9053e9052bc3e9135e9af2f13931"><td class="mdescLeft">&#160;</td><td class="mdescRight">Syscall number for the read syscall.  <a href="syscalls_8h.html#a436b9053e9052bc3e9135e9af2f13931">More...</a><br /></td></tr>
 <tr class="separator:a436b9053e9052bc3e9135e9af2f13931"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e30bc9523a7d650e86854583e9016f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="syscalls_8h.html#a4e30bc9523a7d650e86854583e9016f9">syscalls_handler</a> (<a class="el" href="structInterruptFrame.html">InterruptFrame</a> *frame)</td></tr>
+<tr class="memdesc:a4e30bc9523a7d650e86854583e9016f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to handle syscalls.  <a href="syscalls_8h.html#a4e30bc9523a7d650e86854583e9016f9">More...</a><br /></td></tr>
 <tr class="separator:a4e30bc9523a7d650e86854583e9016f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -131,6 +134,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Prefix for the syscalls. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
@@ -150,6 +155,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Syscall number for the read syscall. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">num</td><td>Syscall number. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a4e30bc9523a7d650e86854583e9016f9"></a>
@@ -167,6 +180,14 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Function to handle syscalls. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">frame</td><td>The interrupt frame. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

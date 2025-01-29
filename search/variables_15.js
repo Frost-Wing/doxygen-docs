@@ -1,11 +1,6 @@
 var searchData=
 [
-  ['vaddr_1281',['vaddr',['../structelf__x64__program__header.html#ab91a09a3a3d0af661384bea974349705',1,'elf_x64_program_header']]],
-  ['vendor_1282',['vendor',['../structahci__port.html#abe61f4c51d99b9be1df0993c2e99654e',1,'ahci_port::vendor()'],['../structahci__controller.html#a3fb110a900d90fe0cb5ce61258367b5a',1,'ahci_controller::vendor()']]],
-  ['version_1283',['version',['../structtarball__header.html#a62d28cbe77e27382cf33fb4f1441d0b0',1,'tarball_header::version()'],['../structelf__x64__header.html#a45e98367a9e4b5a8bd37a58bec53dbfe',1,'elf_x64_header::version()']]],
-  ['version_5felf_1284',['version_elf',['../structelf__x64__header.html#a97d0b5ac4d14f15522ef651894fb2a61',1,'elf_x64_header']]],
-  ['versions_1285',['versions',['../versions_8h.html#a21d6b411d4a0c82ae4b33e7bad1f1533',1,'versions.h']]],
-  ['virtual_5fbase_1286',['virtual_base',['../structlimine__kernel__address__response.html#ade872c60ef827862eb6771acd0a65ce5',1,'limine_kernel_address_response']]],
-  ['virtualized_1287',['virtualized',['../acpi_8h.html#af74f5d397d98cc7769f2630458744fb9',1,'acpi.h']]],
-  ['vs_1288',['vs',['../structahci__controller.html#ae26d3a4d94e99557251ef6b70edfadbe',1,'ahci_controller']]]
+  ['w_1665',['w',['../structivec4.html#a879f80e8ec1a3156f38ed284effb38a2',1,'ivec4::w()'],['../structuvec4.html#aea1aab03f5ff7c4f31112842775f0d99',1,'uvec4::w()'],['../structvec4.html#a0c92fe67e490d9768217a00c2e8abd49',1,'vec4::w()'],['../structssfn__buf__t.html#a637980e63f77a48be60f0ece8c7d6870',1,'ssfn_buf_t::w()'],['../structssfn__chr__t.html#a7d36df5bd9ac69ca050c021f0edb777c',1,'ssfn_chr_t::w()']]],
+  ['width_1666',['width',['../structkernel__data.html#a502855040db2264fc69ec473aae5e468',1,'kernel_data::width()'],['../structflanterm__fb__context.html#af3fa1cbfd3ac0e8cf7f9b1f5fe9ef4eb',1,'flanterm_fb_context::width()'],['../structtarga__header.html#a4e122c9df9ff08340507332dae90891b',1,'targa_header::width()'],['../structlimine__video__mode.html#a03f512edc6d8bad161f40e6d7f69d3a1',1,'limine_video_mode::width()'],['../structlimine__framebuffer.html#ad7e3e9a8a701f5bf814053d4d3628351',1,'limine_framebuffer::width()'],['../struct__pack.html#a9c9d31471dd6944b6c5606f58570ff2f',1,'_pack::width()']]],
+  ['wm_5faddr_1667',['wm_addr',['../kernel_8h.html#a001020a54805617e7d3b6eb91083a5ff',1,'kernel.h']]]
 ];

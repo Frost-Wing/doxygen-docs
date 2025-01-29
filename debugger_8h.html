@@ -141,6 +141,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ace56cfa04b802028a9828bc6e4033d15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debugger_8h.html#ace56cfa04b802028a9828bc6e4033d15">debug_println</a> (<a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> msg)</td></tr>
 <tr class="memdesc:ace56cfa04b802028a9828bc6e4033d15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts a string to the address 0xE9 using <a class="el" href="debugger_8h.html#afe02d1f040867e6fbf9fae10fdee40ff" title="Puts a character to the address 0xE9 using x86_64 outb.">debug_putc()</a> and prints a new line.  <a href="debugger_8h.html#ace56cfa04b802028a9828bc6e4033d15">More...</a><br /></td></tr>
 <tr class="separator:ace56cfa04b802028a9828bc6e4033d15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad82927d0bb9e0336eed9f06ef10150c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debugger_8h.html#ad82927d0bb9e0336eed9f06ef10150c8">debug_printf</a> (<a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> format,...)</td></tr>
+<tr class="memdesc:ad82927d0bb9e0336eed9f06ef10150c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">printf implemented to debug.  <a href="debugger_8h.html#ad82927d0bb9e0336eed9f06ef10150c8">More...</a><br /></td></tr>
+<tr class="separator:ad82927d0bb9e0336eed9f06ef10150c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The headers files for E9 hack. </p>
@@ -186,6 +189,43 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">msg</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad82927d0bb9e0336eed9f06ef10150c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad82927d0bb9e0336eed9f06ef10150c8">&#9670;&nbsp;</a></span>debug_printf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void debug_printf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a>&#160;</td>
+          <td class="paramname"><em>format</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>printf implemented to debug. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">format</td><td></td></tr>
+    <tr><td class="paramname">...</td><td></td></tr>
   </table>
   </dd>
 </dl>

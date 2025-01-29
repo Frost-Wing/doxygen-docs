@@ -87,7 +87,8 @@ $(document).ready(function(){initNavTree('ahci_8h.html',''); initResizable(); })
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">ahci.h File Reference</div>  </div>
 </div><!--header-->
@@ -112,6 +113,8 @@ Include dependency graph for ahci.h:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct____attribute____.html">__attribute__</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structahci__port.html">ahci_port</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structahci__controller.html">ahci_controller</a></td></tr>
@@ -135,12 +138,19 @@ Macros</h2></td></tr>
 <tr class="separator:a68709d58091b41ead20dd2d4637dc56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7a2a7c4497c8287112ecd687860657b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ahci_8h.html#ac7a2a7c4497c8287112ecd687860657b">port_multiplier</a>&#160;&#160;&#160;0x96690101</td></tr>
 <tr class="separator:ac7a2a7c4497c8287112ecd687860657b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa35bad1e92008da628f27b2f6bb270aa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ahci_8h.html#aa35bad1e92008da628f27b2f6bb270aa">SECTOR_SIZE</a>&#160;&#160;&#160;512</td></tr>
+<tr class="separator:aa35bad1e92008da628f27b2f6bb270aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:af99b65bdaf2d5a7b7716ff8e3e3c98fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ahci_8h.html#af99b65bdaf2d5a7b7716ff8e3e3c98fb">detect_ahci_devices</a> (<a class="el" href="structahci__controller.html">ahci_controller</a> *ahci_ctrl)</td></tr>
 <tr class="memdesc:af99b65bdaf2d5a7b7716ff8e3e3c98fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Probes and detects all the AHCI Devices.  <a href="ahci_8h.html#af99b65bdaf2d5a7b7716ff8e3e3c98fb">More...</a><br /></td></tr>
 <tr class="separator:af99b65bdaf2d5a7b7716ff8e3e3c98fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ab7a2a5df88d7c40af430536b886694c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structahci__controller.html">ahci_controller</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ahci_8h.html#ab7a2a5df88d7c40af430536b886694c9">global_ahci_ctrl</a></td></tr>
+<tr class="separator:ab7a2a5df88d7c40af430536b886694c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The headers for AHCI Driver. </p>
@@ -247,6 +257,20 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aa35bad1e92008da628f27b2f6bb270aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa35bad1e92008da628f27b2f6bb270aa">&#9670;&nbsp;</a></span>SECTOR_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SECTOR_SIZE&#160;&#160;&#160;512</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a68709d58091b41ead20dd2d4637dc56f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a68709d58091b41ead20dd2d4637dc56f">&#9670;&nbsp;</a></span>semb_disk</h2>
 
@@ -285,6 +309,29 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ab7a2a5df88d7c40af430536b886694c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7a2a5df88d7c40af430536b886694c9">&#9670;&nbsp;</a></span>global_ahci_ctrl</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structahci__controller.html">ahci_controller</a>* global_ahci_ctrl</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

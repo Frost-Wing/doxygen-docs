@@ -9,6 +9,7 @@ var basics_8h =
     [ "MiB", "basics_8h.html#a6e6c290ea1f73a50e4e84adb8c26ccc3", null ],
     [ "no", "basics_8h.html#a2f3b7fca220397a5c9ca7a2e4e336eaa", null ],
     [ "null", "basics_8h.html#ac97b8ee753e4405397a42ad5799b0f9e", null ],
+    [ "OS_NAME", "basics_8h.html#a28102cfb12a549d1139ad1430fc21b73", null ],
     [ "yes", "basics_8h.html#ade1c73328c7fd9bbb990a2811a5182e5", null ],
     [ "cstring", "basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27", null ],
     [ "int16", "basics_8h.html#ae9794ced33376f900e9e70cfb39a419c", null ],

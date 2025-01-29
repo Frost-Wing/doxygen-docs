@@ -85,8 +85,6 @@ $(document).ready(function(){initNavTree('elf_8h.html',''); initResizable(); });
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">elf.h File Reference</div>  </div>
@@ -98,59 +96,36 @@ Include dependency graph for elf.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="elf_8h__incl.png" border="0" usemap="#asource_2includes_2executables_2elf_8h" alt=""/></div>
 </div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="elf_8h__dep__incl.png" border="0" usemap="#asource_2includes_2executables_2elf_8hdep" alt=""/></div>
+</div>
 </div>
 <p><a href="elf_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structelf__x64__header.html">elf_x64_header</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structelf__x64__program__header.html">elf_x64_program_header</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unused yet!  <a href="structelf__x64__program__header.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ac8d7250376a4cbcbc287c62a690eec9b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="elf_8h.html#ac8d7250376a4cbcbc287c62a690eec9b">elf_magic</a>&#160;&#160;&#160;0x464C457F</td></tr>
-<tr class="separator:ac8d7250376a4cbcbc287c62a690eec9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a60c219eb4c19f089d77173ccaa14db64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="elf_8h.html#a60c219eb4c19f089d77173ccaa14db64">execute_elf</a> (<a class="el" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a> *address)</td></tr>
-<tr class="separator:a60c219eb4c19f089d77173ccaa14db64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb47babb6bb4c68ab599b335f37856ad"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="elf_8h.html#afb47babb6bb4c68ab599b335f37856ad">elf_load_from_memory</a> (void *file_base_address)</td></tr>
+<tr class="separator:afb47babb6bb4c68ab599b335f37856ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Pradosh (<a href="#" onclick="location.href='mai'+'lto:'+'pra'+'do'+'shg'+'am'+'e@g'+'ma'+'il.'+'co'+'m'; return false;">prado<span style="display: none;">.nosp@m.</span>shga<span style="display: none;">.nosp@m.</span>me@gm<span style="display: none;">.nosp@m.</span>ail.<span style="display: none;">.nosp@m.</span>com</a>) </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2024-01-02</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) Pradosh 2024 </dd></dl>
-</div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ac8d7250376a4cbcbc287c62a690eec9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8d7250376a4cbcbc287c62a690eec9b">&#9670;&nbsp;</a></span>elf_magic</h2>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="afb47babb6bb4c68ab599b335f37856ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb47babb6bb4c68ab599b335f37856ad">&#9670;&nbsp;</a></span>elf_load_from_memory()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define elf_magic&#160;&#160;&#160;0x464C457F</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a60c219eb4c19f089d77173ccaa14db64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60c219eb4c19f089d77173ccaa14db64">&#9670;&nbsp;</a></span>execute_elf()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void execute_elf </td>
+          <td class="memname">void* elf_load_from_memory </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a> *&#160;</td>
-          <td class="paramname"><em>address</em></td><td>)</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>file_base_address</em></td><td>)</td>
           <td></td>
         </tr>
       </table>

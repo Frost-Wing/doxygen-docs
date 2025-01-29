@@ -93,10 +93,10 @@ $(document).ready(function(){initNavTree('basics_8h_source.html',''); initResiza
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="basics_8h.html#a003b1a4845d87235d5d006d025f4105f">   14</a></span>&#160;<span class="keyword">typedef</span> uintptr_t <a class="code" href="basics_8h.html#a003b1a4845d87235d5d006d025f4105f">int_pointer</a>;</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">   15</a></span>&#160;<span class="keyword">typedef</span> uint64_t <a class="code" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a>;</div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="basics_8h.html#abbff394a3e4c2f6a39824ed1e32acaf8">   16</a></span>&#160;<span class="keyword">typedef</span> uint32_t <a class="code" href="basics_8h.html#abbff394a3e4c2f6a39824ed1e32acaf8">int32</a>;</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">   17</a></span>&#160;<span class="keyword">typedef</span> uint16_t <a class="code" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a>;</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">   18</a></span>&#160;<span class="keyword">typedef</span> uint8_t <a class="code" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">   15</a></span>&#160;<span class="keyword">typedef</span> <a class="code" href="ssfn_8h.html#a76708dd160ca0401c821b7b0124be563">uint64_t</a> <a class="code" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="basics_8h.html#abbff394a3e4c2f6a39824ed1e32acaf8">   16</a></span>&#160;<span class="keyword">typedef</span> <a class="code" href="ssfn_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> <a class="code" href="basics_8h.html#abbff394a3e4c2f6a39824ed1e32acaf8">int32</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">   17</a></span>&#160;<span class="keyword">typedef</span> <a class="code" href="ssfn_8h.html#adf4d876453337156dde61095e1f20223">uint16_t</a> <a class="code" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">   18</a></span>&#160;<span class="keyword">typedef</span> <a class="code" href="ssfn_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> <a class="code" href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a>;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
 <div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="basics_8h.html#ac97b8ee753e4405397a42ad5799b0f9e">   20</a></span>&#160;<span class="preprocessor">#define null NULL</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
@@ -114,17 +114,19 @@ $(document).ready(function(){initNavTree('basics_8h_source.html',''); initResiza
 <div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="basics_8h.html#a23e4cf4c4bc859769b39f011870ca4e9">   33</a></span>&#160;<span class="preprocessor">#define Ghz *1000000000ULL</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="basics_8h.html#a747356f0646f9fb28353d881868ebf76">   34</a></span>&#160;<span class="preprocessor">#define Mhz *1000000ULL</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="basics_8h.html#a59adc4c82490d23754cd39c2fb99b0da">   36</a></span>&#160;<span class="preprocessor">#define EOF (-1)</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="basics_8h.html#a28102cfb12a549d1139ad1430fc21b73">   36</a></span>&#160;<span class="preprocessor">#define OS_NAME &quot;FrostWing OS&quot;</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#ifdef __GNUC__</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#define deprecated_message(msg) attribute((deprecated(msg)))</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#elif defined(_MSC_VER)</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#define deprecated_message(msg) __declspec(deprecated(msg))</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="basics_8h.html#a7eed91d7110a1b69942e6ea559fde78f">   43</a></span>&#160;<span class="preprocessor">#define deprecated_message(msg)</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#define assert(expression, file, line) if(!(expression)){printf(&quot;\x1b[31mAssert Failed! at \x1b[36m%s:%d\x1b[0m =&gt; \x1b[32m%s\x1b[0m&quot;</span>, file, line, #expression);}</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="basics_8h.html#a59adc4c82490d23754cd39c2fb99b0da">   38</a></span>&#160;<span class="preprocessor">#define EOF (-1)</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#ifdef __GNUC__</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#define deprecated_message(msg) attribute((deprecated(msg)))</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#elif defined(_MSC_VER)</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#define deprecated_message(msg) __declspec(deprecated(msg))</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="basics_8h.html#a7eed91d7110a1b69942e6ea559fde78f">   45</a></span>&#160;<span class="preprocessor">#define deprecated_message(msg)</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#define assert(expression, file, line) if(!(expression)){printf(&quot;\x1b[31mAssert Failed! at \x1b[36m%s:%d\x1b[0m =&gt; \x1b[32m%s\x1b[0m&quot;</span>, file, line, #expression);}</div>
 <div class="ttc" id="abasics_8h_html_a003b1a4845d87235d5d006d025f4105f"><div class="ttname"><a href="basics_8h.html#a003b1a4845d87235d5d006d025f4105f">int_pointer</a></div><div class="ttdeci">uintptr_t int_pointer</div><div class="ttdef"><b>Definition:</b> basics.h:14</div></div>
 <div class="ttc" id="abasics_8h_html_a4505c08c065b48840a30eedd9845cce2"><div class="ttname"><a href="basics_8h.html#a4505c08c065b48840a30eedd9845cce2">string</a></div><div class="ttdeci">char * string</div><div class="ttdef"><b>Definition:</b> basics.h:23</div></div>
 <div class="ttc" id="abasics_8h_html_a5a6534f59959c993a087b6bd6baa5e27"><div class="ttname"><a href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a></div><div class="ttdeci">const char * cstring</div><div class="ttdef"><b>Definition:</b> basics.h:22</div></div>
@@ -132,6 +134,10 @@ $(document).ready(function(){initNavTree('basics_8h_source.html',''); initResiza
 <div class="ttc" id="abasics_8h_html_a9d29437bbd2066ff470a22533d110a42"><div class="ttname"><a href="basics_8h.html#a9d29437bbd2066ff470a22533d110a42">int8</a></div><div class="ttdeci">uint8_t int8</div><div class="ttdef"><b>Definition:</b> basics.h:18</div></div>
 <div class="ttc" id="abasics_8h_html_abbff394a3e4c2f6a39824ed1e32acaf8"><div class="ttname"><a href="basics_8h.html#abbff394a3e4c2f6a39824ed1e32acaf8">int32</a></div><div class="ttdeci">uint32_t int32</div><div class="ttdef"><b>Definition:</b> basics.h:16</div></div>
 <div class="ttc" id="abasics_8h_html_ae9794ced33376f900e9e70cfb39a419c"><div class="ttname"><a href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a></div><div class="ttdeci">uint16_t int16</div><div class="ttdef"><b>Definition:</b> basics.h:17</div></div>
+<div class="ttc" id="assfn_8h_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="ssfn_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> ssfn.h:50</div></div>
+<div class="ttc" id="assfn_8h_html_a76708dd160ca0401c821b7b0124be563"><div class="ttname"><a href="ssfn_8h.html#a76708dd160ca0401c821b7b0124be563">uint64_t</a></div><div class="ttdeci">unsigned long int uint64_t</div><div class="ttdef"><b>Definition:</b> ssfn.h:52</div></div>
+<div class="ttc" id="assfn_8h_html_aba7bc1797add20fe3efdf37ced1182c5"><div class="ttname"><a href="ssfn_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a></div><div class="ttdeci">unsigned char uint8_t</div><div class="ttdef"><b>Definition:</b> ssfn.h:47</div></div>
+<div class="ttc" id="assfn_8h_html_adf4d876453337156dde61095e1f20223"><div class="ttname"><a href="ssfn_8h.html#adf4d876453337156dde61095e1f20223">uint16_t</a></div><div class="ttdeci">unsigned short int uint16_t</div><div class="ttdef"><b>Definition:</b> ssfn.h:48</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

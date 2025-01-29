@@ -122,18 +122,21 @@ $(document).ready(function(){initNavTree('kernel_8h_source.html',''); initResiza
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="ps2-mouse_8h.html">ps2-mouse.h</a>&gt;</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="targa_8h.html">image/targa.h</a>&gt;</span></div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="fwde_8h.html">executables/fwde.h</a>&gt;</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">extern</span> <a class="code" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a>* <a class="code" href="kernel_8h.html#a68ba391bbff5da9d0c799340ec7fe0aa">kend</a>;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="kernel_8h.html#a8969d23cf51c65e739ad4a2e00d09edb">terminal_rows</a>;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="kernel_8h.html#a9255c961157d6be5e225e3b55ed234b0">terminal_columns</a>;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keyword">extern</span> <a class="code" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a> <a class="code" href="kernel_8h.html#a571fa6dfd4542147e49b522157272e88">fb_width</a>;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keyword">extern</span> <a class="code" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a> <a class="code" href="kernel_8h.html#ad21bc479a62f49bd2095109c52d725e4">fb_height</a>;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
-<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="kernel_8h.html#a6288eba0f8e8ad3ab1544ad731eb7667">   79</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="kernel_8h.html#a6288eba0f8e8ad3ab1544ad731eb7667">main</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="fdlfcn_8h.html">fdlfcn.h</a>&gt;</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">extern</span> <a class="code" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a>* <a class="code" href="kernel_8h.html#a68ba391bbff5da9d0c799340ec7fe0aa">kend</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="kernel_8h.html#a8969d23cf51c65e739ad4a2e00d09edb">terminal_rows</a>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="kernel_8h.html#a9255c961157d6be5e225e3b55ed234b0">terminal_columns</a>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keyword">extern</span> <a class="code" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a> <a class="code" href="kernel_8h.html#a571fa6dfd4542147e49b522157272e88">fb_width</a>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="keyword">extern</span> <a class="code" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a> <a class="code" href="kernel_8h.html#ad21bc479a62f49bd2095109c52d725e4">fb_height</a>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="keyword">extern</span> <a class="code" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a>* <a class="code" href="kernel_8h.html#a001020a54805617e7d3b6eb91083a5ff">wm_addr</a>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="kernel_8h.html#a6288eba0f8e8ad3ab1544ad731eb7667">   82</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="kernel_8h.html#a6288eba0f8e8ad3ab1544ad731eb7667">main</a>(<span class="keywordtype">void</span>);</div>
 <div class="ttc" id="aacpi-shutdown_8h_html"><div class="ttname"><a href="acpi-shutdown_8h.html">acpi-shutdown.h</a></div><div class="ttdoc">The ACPI Shutdown Header for Wing kernel, this is not the full ACPI.</div></div>
 <div class="ttc" id="aacpi_8h_html"><div class="ttname"><a href="acpi_8h.html">acpi.h</a></div><div class="ttdoc">The ACPI Header.</div></div>
 <div class="ttc" id="abasics_8h_html"><div class="ttname"><a href="basics_8h.html">basics.h</a></div><div class="ttdoc">This is a basic header files with FrostWing specific short forms and basically a good for life header...</div></div>
@@ -142,6 +145,7 @@ $(document).ready(function(){initNavTree('kernel_8h_source.html',''); initResiza
 <div class="ttc" id="acpuid2_8h_html"><div class="ttname"><a href="cpuid2_8h.html">cpuid2.h</a></div><div class="ttdoc">The CPUID instructions.</div></div>
 <div class="ttc" id="adebugger_8h_html"><div class="ttname"><a href="debugger_8h.html">debugger.h</a></div><div class="ttdoc">The headers files for E9 hack.</div></div>
 <div class="ttc" id="afb_8h_html"><div class="ttname"><a href="fb_8h.html">fb.h</a></div></div>
+<div class="ttc" id="afdlfcn_8h_html"><div class="ttname"><a href="fdlfcn_8h.html">fdlfcn.h</a></div></div>
 <div class="ttc" id="aflanterm_8h_html"><div class="ttname"><a href="flanterm_8h.html">flanterm.h</a></div></div>
 <div class="ttc" id="afpu_8h_html"><div class="ttname"><a href="fpu_8h.html">fpu.h</a></div><div class="ttdoc">Header for FPU.</div></div>
 <div class="ttc" id="afwde_8h_html"><div class="ttname"><a href="fwde_8h.html">fwde.h</a></div><div class="ttdoc">The executor header for FrostWing Deployed Executable - 64 bits.</div></div>
@@ -151,6 +155,7 @@ $(document).ready(function(){initNavTree('kernel_8h_source.html',''); initResiza
 <div class="ttc" id="ahal_8h_html"><div class="ttname"><a href="hal_8h.html">hal.h</a></div><div class="ttdoc">Header file for Hardware Abstraction Layer -&gt; Source from GoGX OS.</div></div>
 <div class="ttc" id="ahashing_8h_html"><div class="ttname"><a href="hashing_8h.html">hashing.h</a></div><div class="ttdoc">Contains header for hashing and encrypting.</div></div>
 <div class="ttc" id="aheap_8h_html"><div class="ttname"><a href="heap_8h.html">heap.h</a></div><div class="ttdoc">Header files for heap.</div></div>
+<div class="ttc" id="akernel_8h_html_a001020a54805617e7d3b6eb91083a5ff"><div class="ttname"><a href="kernel_8h.html#a001020a54805617e7d3b6eb91083a5ff">wm_addr</a></div><div class="ttdeci">int64 * wm_addr</div></div>
 <div class="ttc" id="akernel_8h_html_a571fa6dfd4542147e49b522157272e88"><div class="ttname"><a href="kernel_8h.html#a571fa6dfd4542147e49b522157272e88">fb_width</a></div><div class="ttdeci">int64 fb_width</div><div class="ttdoc">An integer value which stores the framebuffer's (display) width.</div></div>
 <div class="ttc" id="akernel_8h_html_a6288eba0f8e8ad3ab1544ad731eb7667"><div class="ttname"><a href="kernel_8h.html#a6288eba0f8e8ad3ab1544ad731eb7667">main</a></div><div class="ttdeci">void main(void)</div><div class="ttdoc">The main kernel function.</div></div>
 <div class="ttc" id="akernel_8h_html_a68ba391bbff5da9d0c799340ec7fe0aa"><div class="ttname"><a href="kernel_8h.html#a68ba391bbff5da9d0c799340ec7fe0aa">kend</a></div><div class="ttdeci">int64 * kend</div><div class="ttdoc">The memory address pointer where the kernel ends.</div></div>

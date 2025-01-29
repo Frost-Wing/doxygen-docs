@@ -5,5 +5,6 @@ var kernel_8h =
     [ "fb_width", "kernel_8h.html#a571fa6dfd4542147e49b522157272e88", null ],
     [ "kend", "kernel_8h.html#a68ba391bbff5da9d0c799340ec7fe0aa", null ],
     [ "terminal_columns", "kernel_8h.html#a9255c961157d6be5e225e3b55ed234b0", null ],
-    [ "terminal_rows", "kernel_8h.html#a8969d23cf51c65e739ad4a2e00d09edb", null ]
+    [ "terminal_rows", "kernel_8h.html#a8969d23cf51c65e739ad4a2e00d09edb", null ],
+    [ "wm_addr", "kernel_8h.html#a001020a54805617e7d3b6eb91083a5ff", null ]
 ];

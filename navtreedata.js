@@ -36,31 +36,30 @@ var NAVTREE =
       [ "Images", "md_readme.html#autotoc_md6", [
         [ "Running (Early Booting)", "md_readme.html#autotoc_md7", null ],
         [ "Running (Graphics Screen)", "md_readme.html#autotoc_md8", null ],
-        [ "Meltdown (Panic) Screen", "md_readme.html#autotoc_md9", null ]
+        [ "Running (Initial Login Screen)", "md_readme.html#autotoc_md9", null ],
+        [ "Running (Frosted Shell - fsh)", "md_readme.html#autotoc_md10", null ],
+        [ "Running (Exit and logging in)", "md_readme.html#autotoc_md11", null ],
+        [ "Meltdown (Panic) Screen", "md_readme.html#autotoc_md12", null ]
       ] ],
-      [ "Currently working Features", "md_readme.html#autotoc_md10", null ],
-      [ "Getting Started", "md_readme.html#autotoc_md11", [
-        [ "Prerequisites", "md_readme.html#autotoc_md12", null ],
-        [ "Building FrostWing", "md_readme.html#autotoc_md13", null ],
-        [ "Building the FrostWing Doxygen documentation", "md_readme.html#autotoc_md14", null ],
+      [ "Currently working Features", "md_readme.html#autotoc_md13", [
+        [ "Getting started", "md_readme.html#autotoc_md14", null ],
         [ "Hardware/Software (Emulator) Requirements", "md_readme.html#autotoc_md15", [
           [ "Minimum Requirements (BIOS)", "md_readme.html#autotoc_md16", null ],
           [ "Minimum Requirements (UEFI)", "md_readme.html#autotoc_md17", null ],
           [ "Recommended Requirements (BIOS)", "md_readme.html#autotoc_md18", null ],
           [ "Recommended Requirements (UEFI)", "md_readme.html#autotoc_md19", null ]
         ] ],
-        [ "Running FrostWing", "md_readme.html#autotoc_md20", null ],
-        [ "Booting to real machine", "md_readme.html#autotoc_md21", null ]
+        [ "Booting to real machine", "md_readme.html#autotoc_md20", null ]
       ] ],
-      [ "Contributing", "md_readme.html#autotoc_md22", null ],
-      [ "License", "md_readme.html#autotoc_md23", null ],
-      [ "FrostWing Team", "md_readme.html#autotoc_md24", null ]
+      [ "Contributing", "md_readme.html#autotoc_md21", null ],
+      [ "License", "md_readme.html#autotoc_md22", null ],
+      [ "FrostWing Team", "md_readme.html#autotoc_md23", null ]
     ] ],
     [ "Contributing to FrostWing", "md_CONTRIBUTING.html", [
-      [ "How to Contribute", "md_CONTRIBUTING.html#autotoc_md26", null ],
-      [ "Code Guidelines", "md_CONTRIBUTING.html#autotoc_md27", null ],
-      [ "Issues and Bug Reports", "md_CONTRIBUTING.html#autotoc_md28", [
-        [ "Code of Conduct", "md_CONTRIBUTING.html#autotoc_md29", null ]
+      [ "How to Contribute", "md_CONTRIBUTING.html#autotoc_md25", null ],
+      [ "Code Guidelines", "md_CONTRIBUTING.html#autotoc_md26", null ],
+      [ "Issues and Bug Reports", "md_CONTRIBUTING.html#autotoc_md27", [
+        [ "Code of Conduct", "md_CONTRIBUTING.html#autotoc_md28", null ]
       ] ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -79,7 +78,7 @@ var NAVTREE =
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
         [ "Typedefs", "globals_type.html", null ],
-        [ "Macros", "globals_defs.html", null ]
+        [ "Macros", "globals_defs.html", "globals_defs" ]
       ] ]
     ] ]
   ] ]
@@ -88,10 +87,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "acpi-shutdown_8h.html",
-"graphics_8h.html#a9dc6ca1560e21c7a19adcd7d4ea17a87",
-"ps2-mouse_8h.html#a6e7e559384f5c75589212f452f811cdb",
-"structflanterm__fb__context.html#a5dd29cd8cfde503e1d5203c6978ea737",
-"structlimine__uuid.html#a3e2198ef1488deb36a087a866a45280b"
+"globals_defs_u.html",
+"linkedlist_8h.html#ae8c76e7a5d6fee9f2f149e2ed05aaa5b",
+"strings2_8h.html",
+"structflanterm__context.html#ae328e9ee4de62f92de7102263dbe8624",
+"structlimine__rsdp__response.html#a870dc4b2a49fede004964795f0e655a9"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
