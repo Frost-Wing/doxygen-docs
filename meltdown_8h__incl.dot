@@ -123,8 +123,6 @@ digraph "source/includes/meltdown.h"
   Node28 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node5 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node29 [label="heap.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$heap_8h.html",tooltip="Header files for heap."];
-  Node29 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node29 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node5 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node30 [label="drivers/pc-speaker.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pc-speaker_8h.html",tooltip="Headers for PC Speaker drivers."];
   Node30 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];

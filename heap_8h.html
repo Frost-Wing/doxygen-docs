@@ -84,8 +84,6 @@ $(document).ready(function(){initNavTree('heap_8h.html',''); initResizable(); })
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">heap.h File Reference</div>  </div>
 </div><!--header-->
@@ -93,20 +91,7 @@ $(document).ready(function(){initNavTree('heap_8h.html',''); initResizable(); })
 
 <p>Header files for heap.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="basics_8h_source.html">basics.h</a>&gt;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for heap.h:</div>
-<div class="dyncontent">
-<div class="center"><img src="heap_8h__incl.png" border="0" usemap="#asource_2includes_2heap_8h" alt=""/></div>
-<map name="asource_2includes_2heap_8h" id="asource_2includes_2heap_8h">
-<area shape="rect" title="Header files for heap." alt="" coords="5,5,176,32"/>
-<area shape="rect" title=" " alt="" coords="16,155,91,181"/>
-<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="91,80,165,107"/>
-<area shape="rect" title=" " alt="" coords="115,155,186,181"/>
-</map>
-</div>
-</div><div class="textblock"><div class="dynheader">
+<div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="heap_8h__dep__incl.png" border="0" usemap="#asource_2includes_2heap_8hdep" alt=""/></div>
@@ -118,163 +103,13 @@ This graph shows which files directly or indirectly include this file:</div>
 </div>
 </div>
 <p><a href="heap_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a0704ea50195bdbeebe60b36bc07b9074"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="heap_8h.html#a0704ea50195bdbeebe60b36bc07b9074">init_heap</a> (int <a class="el" href="idt_8h.html#aaba88b24a21a6c70c895c0d55f4a69a0">size</a>)</td></tr>
-<tr class="memdesc:a0704ea50195bdbeebe60b36bc07b9074"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the memory allocator.  <a href="heap_8h.html#a0704ea50195bdbeebe60b36bc07b9074">More...</a><br /></td></tr>
-<tr class="separator:a0704ea50195bdbeebe60b36bc07b9074"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ac38fce3243a7dcf448301ee9ffd392"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="heap_8h.html#a7ac38fce3243a7dcf448301ee9ffd392">malloc</a> (size_t <a class="el" href="idt_8h.html#aaba88b24a21a6c70c895c0d55f4a69a0">size</a>)</td></tr>
-<tr class="memdesc:a7ac38fce3243a7dcf448301ee9ffd392"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate memory of the specified size.  <a href="heap_8h.html#a7ac38fce3243a7dcf448301ee9ffd392">More...</a><br /></td></tr>
-<tr class="separator:a7ac38fce3243a7dcf448301ee9ffd392"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a6b5e8d2f1c37e5b43e4345586075be"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="heap_8h.html#a1a6b5e8d2f1c37e5b43e4345586075be">realloc</a> (void *ptr, size_t <a class="el" href="idt_8h.html#aaba88b24a21a6c70c895c0d55f4a69a0">size</a>)</td></tr>
-<tr class="memdesc:a1a6b5e8d2f1c37e5b43e4345586075be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reallocate memory for the given pointer with the specified size.  <a href="heap_8h.html#a1a6b5e8d2f1c37e5b43e4345586075be">More...</a><br /></td></tr>
-<tr class="separator:a1a6b5e8d2f1c37e5b43e4345586075be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbedc913aa4651b3c3b4b3aecd9b4711"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="heap_8h.html#afbedc913aa4651b3c3b4b3aecd9b4711">free</a> (void *ptr)</td></tr>
-<tr class="memdesc:afbedc913aa4651b3c3b4b3aecd9b4711"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free a previously allocated memory block.  <a href="heap_8h.html#afbedc913aa4651b3c3b4b3aecd9b4711">More...</a><br /></td></tr>
-<tr class="separator:afbedc913aa4651b3c3b4b3aecd9b4711"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6721edf7acfcf57c62c1fde4019a19f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="heap_8h.html#aa6721edf7acfcf57c62c1fde4019a19f">cleanup_heap</a> ()</td></tr>
-<tr class="memdesc:aa6721edf7acfcf57c62c1fde4019a19f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clean up resources and release allocated memory.  <a href="heap_8h.html#aa6721edf7acfcf57c62c1fde4019a19f">More...</a><br /></td></tr>
-<tr class="separator:aa6721edf7acfcf57c62c1fde4019a19f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Header files for heap. </p>
 <dl class="section author"><dt>Author</dt><dd>Pradosh (<a href="#" onclick="location.href='mai'+'lto:'+'pra'+'do'+'shg'+'am'+'e@g'+'ma'+'il.'+'co'+'m'; return false;">prado<span style="display: none;">.nosp@m.</span>shga<span style="display: none;">.nosp@m.</span>me@gm<span style="display: none;">.nosp@m.</span>ail.<span style="display: none;">.nosp@m.</span>com</a>) </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2023-11-10</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) Pradosh 2023 </dd></dl>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a id="aa6721edf7acfcf57c62c1fde4019a19f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6721edf7acfcf57c62c1fde4019a19f">&#9670;&nbsp;</a></span>cleanup_heap()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void cleanup_heap </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Clean up resources and release allocated memory. </p>
-
-</div>
-</div>
-<a id="afbedc913aa4651b3c3b4b3aecd9b4711"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbedc913aa4651b3c3b4b3aecd9b4711">&#9670;&nbsp;</a></span>free()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void free </td>
-          <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>ptr</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Free a previously allocated memory block. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ptr</td><td>A pointer to the memory block to be freed. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a0704ea50195bdbeebe60b36bc07b9074"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0704ea50195bdbeebe60b36bc07b9074">&#9670;&nbsp;</a></span>init_heap()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void init_heap </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>size</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Initialize the memory allocator. </p>
-
-</div>
-</div>
-<a id="a7ac38fce3243a7dcf448301ee9ffd392"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ac38fce3243a7dcf448301ee9ffd392">&#9670;&nbsp;</a></span>malloc()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void* malloc </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>size</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Allocate memory of the specified size. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">size</td><td>The size of memory to allocate. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>A pointer to the allocated memory, or null if allocation fails. </dd></dl>
-
-</div>
-</div>
-<a id="a1a6b5e8d2f1c37e5b43e4345586075be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a6b5e8d2f1c37e5b43e4345586075be">&#9670;&nbsp;</a></span>realloc()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void* realloc </td>
-          <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>ptr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reallocate memory for the given pointer with the specified size. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ptr</td><td>A pointer to the memory block to be reallocated. </td></tr>
-    <tr><td class="paramname">size</td><td>The new size of the memory block. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>A pointer to the reallocated memory block, or null if reallocation fails. </dd></dl>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

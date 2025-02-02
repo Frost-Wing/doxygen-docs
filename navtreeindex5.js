@@ -1,10 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"structlimine__rsdp__response.html#a870dc4b2a49fede004964795f0e655a9":[3,0,60,0],
-"structlimine__smbios__request.html":[3,0,61],
-"structlimine__smbios__request.html#a1496e79a097c94028481ffd0d85181a1":[3,0,61,2],
-"structlimine__smbios__request.html#aa7c13457c2b7c343763d07d8718af0e6":[3,0,61,0],
-"structlimine__smbios__request.html#ab641e7902e52742d38784a72c39d6fd0":[3,0,61,1],
 "structlimine__smbios__response.html":[3,0,62],
 "structlimine__smbios__response.html#a2c62515169451f2bfaec56a4bc658d9e":[3,0,62,2],
 "structlimine__smbios__response.html#a9d235dbecaad4be81342b75b682cf77c":[3,0,62,0],

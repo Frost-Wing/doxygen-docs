@@ -22,7 +22,7 @@ var dir_c9f89f587e7e777be723ee48a3df5844 =
     [ "fdlfcn.h", "fdlfcn_8h.html", "fdlfcn_8h" ],
     [ "graphics.h", "graphics_8h.html", "graphics_8h" ],
     [ "hal.h", "hal_8h.html", "hal_8h" ],
-    [ "heap.h", "heap_8h.html", "heap_8h" ],
+    [ "heap.h", "heap_8h.html", null ],
     [ "idt.h", "idt_8h.html", "idt_8h" ],
     [ "isr.h", "isr_8h.html", "isr_8h" ],
     [ "kernel.h", "kernel_8h.html", "kernel_8h" ],
