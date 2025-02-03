@@ -85,7 +85,9 @@ $(document).ready(function(){initNavTree('memory2_8h.html',''); initResizable();
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">memory2.h File Reference</div>  </div>
 </div><!--header-->
@@ -104,6 +106,11 @@ This graph shows which files directly or indirectly include this file:</div>
 </div>
 <p><a href="memory2_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmemory__context.html">memory_context</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a14938524dcbeb59d7117ba5e151ad1b1"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memory2_8h.html#a14938524dcbeb59d7117ba5e151ad1b1">memcpy</a> (void *dest, const void *src, size_t n)</td></tr>
@@ -124,6 +131,17 @@ Functions</h2></td></tr>
 <tr class="memitem:a57679f71b0330d515bd4541120e87cb1"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memory2_8h.html#a57679f71b0330d515bd4541120e87cb1">allocate_memory_at_address</a> (<a class="el" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a> phys_addr, size_t <a class="el" href="idt_8h.html#aaba88b24a21a6c70c895c0d55f4a69a0">size</a>)</td></tr>
 <tr class="memdesc:a57679f71b0330d515bd4541120e87cb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates memory at an specific address.  <a href="memory2_8h.html#a57679f71b0330d515bd4541120e87cb1">More...</a><br /></td></tr>
 <tr class="separator:a57679f71b0330d515bd4541120e87cb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad97b6820bcfbb3484fdc96ca1957fc66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memory2_8h.html#ad97b6820bcfbb3484fdc96ca1957fc66">display_memory_formatted</a> (struct <a class="el" href="structmemory__context.html">memory_context</a> <a class="el" href="memory2_8h.html#ae34d2b093f47031dc6e5589fdd39fbe0">memory</a>)</td></tr>
+<tr class="memdesc:ad97b6820bcfbb3484fdc96ca1957fc66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display the formatted memory context.  <a href="memory2_8h.html#ad97b6820bcfbb3484fdc96ca1957fc66">More...</a><br /></td></tr>
+<tr class="separator:ad97b6820bcfbb3484fdc96ca1957fc66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14125e75ad73447f0cc202a182a5657d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ssfn_8h.html#a76708dd160ca0401c821b7b0124be563">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memory2_8h.html#a14125e75ad73447f0cc202a182a5657d">getCR2</a> ()</td></tr>
+<tr class="memdesc:a14125e75ad73447f0cc202a182a5657d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the CR2 register.  <a href="memory2_8h.html#a14125e75ad73447f0cc202a182a5657d">More...</a><br /></td></tr>
+<tr class="separator:a14125e75ad73447f0cc202a182a5657d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ae34d2b093f47031dc6e5589fdd39fbe0"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structmemory__context.html">memory_context</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memory2_8h.html#ae34d2b093f47031dc6e5589fdd39fbe0">memory</a></td></tr>
+<tr class="separator:ae34d2b093f47031dc6e5589fdd39fbe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a57679f71b0330d515bd4541120e87cb1"></a>
@@ -161,6 +179,52 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Pointer to the allocated memory, or NULL if allocation fails. </dd></dl>
+
+</div>
+</div>
+<a id="ad97b6820bcfbb3484fdc96ca1957fc66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad97b6820bcfbb3484fdc96ca1957fc66">&#9670;&nbsp;</a></span>display_memory_formatted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void display_memory_formatted </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structmemory__context.html">memory_context</a>&#160;</td>
+          <td class="paramname"><em>memory</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Display the formatted memory context. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">memory</td><td>The memory context to display. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a14125e75ad73447f0cc202a182a5657d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14125e75ad73447f0cc202a182a5657d">&#9670;&nbsp;</a></span>getCR2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="ssfn_8h.html#a76708dd160ca0401c821b7b0124be563">uint64_t</a> getCR2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the CR2 register. </p>
+<dl class="section return"><dt>Returns</dt><dd>uint64_t value of CR2. </dd></dl>
 
 </div>
 </div>
@@ -383,6 +447,29 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the memory location 's'. </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ae34d2b093f47031dc6e5589fdd39fbe0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae34d2b093f47031dc6e5589fdd39fbe0">&#9670;&nbsp;</a></span>memory</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structmemory__context.html">memory_context</a> memory</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

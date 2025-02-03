@@ -77,6 +77,7 @@ var annotated_dup =
     [ "mat4x4", "structmat4x4.html", "structmat4x4" ],
     [ "MBR", "structMBR.html", "structMBR" ],
     [ "MBR_Partition", "structMBR__Partition.html", "structMBR__Partition" ],
+    [ "memory_context", "structmemory__context.html", "structmemory__context" ],
     [ "rtl8139", "structrtl8139.html", "structrtl8139" ],
     [ "sdt", "structsdt.html", "structsdt" ],
     [ "ssfn_buf_t", "structssfn__buf__t.html", "structssfn__buf__t" ],

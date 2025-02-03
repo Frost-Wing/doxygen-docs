@@ -89,9 +89,9 @@ var NAVTREEINDEX =
 "acpi-shutdown_8h.html",
 "globals_defs_u.html",
 "login_8h.html#a7f264fafe78080f8ea68715854b9bc24",
-"strings2_8h.html#a3f9b56a8efca3a8594a17eb5def6d657",
-"structflanterm__fb__char.html",
-"structlimine__smbios__response.html"
+"strings2_8h.html#a2b38094492e1c21bba621794841a075a",
+"structflanterm__context.html#ae8b1fe64d471f12a733bcb1891f0829c",
+"structlimine__smbios__request.html#a1496e79a097c94028481ffd0d85181a1"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

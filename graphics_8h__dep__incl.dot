@@ -13,7 +13,7 @@ digraph "source/includes/graphics.h"
   Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node5 [label="source/includes/filesystems\l/fwrfs.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fwrfs_8h.html",tooltip="FrostWing RAM FileSystem."];
   Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node6 [label="source/includes/isr.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$isr_8h.html",tooltip=" "];
+  Node6 [label="source/includes/isr.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$isr_8h.html",tooltip="Interrupts handler header."];
   Node6 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node7 [label="source/includes/keyboard.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$keyboard_8h.html",tooltip=" "];

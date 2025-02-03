@@ -27,7 +27,7 @@ digraph "source/includes/executables/fwde.h"
   Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node8 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node9 [label="isr.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$isr_8h.html",tooltip=" "];
+  Node9 [label="isr.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$isr_8h.html",tooltip="Interrupts handler header."];
   Node9 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node9 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node9 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
