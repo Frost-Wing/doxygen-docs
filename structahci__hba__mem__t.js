@@ -1,0 +1,17 @@
+var structahci__hba__mem__t =
+[
+    [ "bohc", "structahci__hba__mem__t.html#a92316fc5da386759aad77e13d6d95ff1", null ],
+    [ "cap", "structahci__hba__mem__t.html#a134246ca01a8e970a57f4df6c25ffe7d", null ],
+    [ "cap2", "structahci__hba__mem__t.html#ad123e740e2e0c205a755307997413471", null ],
+    [ "ccc_ctl", "structahci__hba__mem__t.html#acf4d9682c526b36230d3d729bd40498d", null ],
+    [ "ccc_pts", "structahci__hba__mem__t.html#afe6503131119c1cf8b8418b87d088209", null ],
+    [ "em_ctl", "structahci__hba__mem__t.html#a9355c2e872e4cf93a0e2d29e9cae7f99", null ],
+    [ "em_loc", "structahci__hba__mem__t.html#a04b75318cbb35eaa6d159dcbb84fd74d", null ],
+    [ "ghc", "structahci__hba__mem__t.html#a1d935ecd9e3b038c81e26e4e28b77be9", null ],
+    [ "is", "structahci__hba__mem__t.html#a5f0818745d8fc0da85cc17a85815cff9", null ],
+    [ "pi", "structahci__hba__mem__t.html#a1d1c1772ac7e3009aaaa3198a95aef3f", null ],
+    [ "ports", "structahci__hba__mem__t.html#aa775130ce483aa2844723a8d234aea78", null ],
+    [ "rsv", "structahci__hba__mem__t.html#a5d54e214f4f2ec18d2932508e2e34b14", null ],
+    [ "vendor", "structahci__hba__mem__t.html#af50ed995c92da3550fee68d92a85f633", null ],
+    [ "vs", "structahci__hba__mem__t.html#a74c55d339a8104bea69039718203e6c7", null ]
+];

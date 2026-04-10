@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['command_5flist_980',['command_list',['../structcommand__list.html',1,'']]],
-  ['command_5flist_5fentry_981',['command_list_entry',['../structcommand__list__entry.html',1,'']]]
+  ['block_5fdevice_5finfo_5ft_0',['block_device_info_t',['../structblock__device__info__t.html',1,'']]]
 ];

@@ -1,15 +1,12 @@
 var searchData=
 [
-  ['a_1287',['a',['../structssfn__glyph__t.html#a240189d298249a1fc7da09a97a837f5a',1,'ssfn_glyph_t::a()'],['../structlimine__uuid.html#a55b285bb785129f70c546d0919320141',1,'limine_uuid::a()']]],
-  ['acpi_5fnvs_1288',['acpi_nvs',['../structmemory__context.html#a2c6065c5113542f1a7269e94b5db1143',1,'memory_context']]],
-  ['acpi_5freclaimable_1289',['acpi_reclaimable',['../structmemory__context.html#a3e5350c5ed1684251e6f4d5e09126dce',1,'memory_context']]],
-  ['address_1290',['address',['../structfdlfcn__handle.html#afce337580f629665a50fbca05142869d',1,'fdlfcn_handle']]],
-  ['alternatehdrlba_1291',['AlternateHdrLBA',['../structGPT__PartTableHeader.html#a33547d0e837be43b1c4e073cc95a1668',1,'GPT_PartTableHeader::AlternateHdrLBA()'],['../gpt_8h.html#a2fdcaa84d67bbbb1e5b3492e981ceb8c',1,'AlternateHdrLBA():&#160;gpt.h']]],
-  ['ansi_5fbright_5fcolours_1292',['ansi_bright_colours',['../structflanterm__fb__context.html#a1036d27376c3e1e78c1a2183f26640a1',1,'flanterm_fb_context']]],
-  ['ansi_5fcolours_1293',['ansi_colours',['../structflanterm__fb__context.html#a9794d1fec0260c611d46987493342d86',1,'flanterm_fb_context']]],
-  ['ap_1294',['ap',['../structssfn__t.html#a3d585c37571ae8158b8ce64480fc55f9',1,'ssfn_t']]],
-  ['architecture_1295',['architecture',['../structfwde__header.html#a8d8d8d962b0737850baa4756614968b9',1,'fwde_header']]],
-  ['attributes_1296',['Attributes',['../structGPT__PartitionEntry.html#a16d0de132d6b4ee003e9c9c0a500d0ad',1,'GPT_PartitionEntry::Attributes()'],['../structMBR__Partition.html#a0e79e8d000833b8ce81ed6e8e8ef84c1',1,'MBR_Partition::Attributes()'],['../gpt_8h.html#a5df9d1ad9cf258178d293d24e7a7ad80',1,'Attributes():&#160;gpt.h'],['../mbr_8h.html#a5df9d1ad9cf258178d293d24e7a7ad80',1,'Attributes():&#160;mbr.h']]],
-  ['autoflush_1297',['autoflush',['../structflanterm__context.html#a9488263ce45254f48b3f9d6e6634798a',1,'flanterm_context']]],
-  ['ax_1298',['ax',['../structssfn__t.html#aa7ba73c479a35c23e1c0716f03ba4d3d',1,'ssfn_t']]]
+  ['_5f_5fattribute_5f_5f_0',['__attribute__',['../gpt_8h.html#a720173e80c53ae6b5fa163fd6e81ad27',1,'__attribute__:&#160;ahci.h'],['../acpi_8h.html#a167d047c211be767512e15c9a684e31c',1,'__attribute__:&#160;acpi.h']]],
+  ['_5f_5fglibc_5funused1_1',['__glibc_unused1',['../structglibc__tcb__head__t.html#a424c27811511bc6260842e22347e6788',1,'glibc_tcb_head_t']]],
+  ['_5f_5fpad0_2',['__pad0',['../structlinux__stat__t.html#acd7a16cbb24c29d1bbcdfe83188493f5',1,'linux_stat_t']]],
+  ['_5f_5fpadding_3',['__padding',['../structglibc__tcb__head__t.html#a3a386fa938a33c7f56b3487be3e566ca',1,'glibc_tcb_head_t']]],
+  ['_5f_5fprivate_5fss_4',['__private_ss',['../structglibc__tcb__head__t.html#a50268a401dc0f093839833dbd14267cf',1,'glibc_tcb_head_t']]],
+  ['_5f_5fprivate_5ftm_5',['__private_tm',['../structglibc__tcb__head__t.html#a047520269fbc3632ebe41294ee41db9e',1,'glibc_tcb_head_t']]],
+  ['_5f_5fspare0_6',['__spare0',['../structlinux__statx__t.html#a9b0a781d0e61727ee0c675cfd147b238',1,'linux_statx_t']]],
+  ['_5f_5fspare2_7',['__spare2',['../structlinux__statx__t.html#a589df6e40e4f9e62d1db3e6857d3698a',1,'linux_statx_t']]],
+  ['_5f_5funused_8',['__unused',['../structlinux__stat__t.html#a526326fa4ccddeee15e4dc835dd81ec6',1,'linux_stat_t']]]
 ];

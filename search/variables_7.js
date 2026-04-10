@@ -1,6 +1,30 @@
 var searchData=
 [
-  ['h_1445',['h',['../structssfn__buf__t.html#a3b3c7bbf42de696d0a7ff1d1710d6b88',1,'ssfn_buf_t::h()'],['../structssfn__glyph__t.html#a56765e0ed906525706465447734e1d00',1,'ssfn_glyph_t::h()'],['../structssfn__chr__t.html#a34688c82059cb8302741aa29a8729a86',1,'ssfn_chr_t::h()']]],
-  ['headersize_1446',['HeaderSize',['../structGPT__PartTableHeader.html#a3a94eb2378ab779b4a06a4a2f5e8085d',1,'GPT_PartTableHeader::HeaderSize()'],['../gpt_8h.html#a7b0d8f64d138a97c7cc88dceb3a3334a',1,'HeaderSize():&#160;gpt.h']]],
-  ['height_1447',['height',['../structkernel__data.html#a29dacf650a6bfcd19fea8fed9a26ead5',1,'kernel_data::height()'],['../structflanterm__fb__context.html#a4c0f0ff2e316879458020ce732601e54',1,'flanterm_fb_context::height()'],['../structtarga__header.html#a32cd078b46e0727feb175a24d80b235a',1,'targa_header::height()'],['../structlimine__video__mode.html#a5e89abcc4b7a1dc2283578ab9ec95797',1,'limine_video_mode::height()'],['../structlimine__framebuffer.html#ab5467ac66f12a6072f1268ade1cef4fe',1,'limine_framebuffer::height()'],['../struct__pack.html#a2673b8ea34733d777c6290e5510a02f1',1,'_pack::height()']]]
+  ['g_5fselect_0',['g_select',['../structflanterm__context.html#ae328e9ee4de62f92de7102263dbe8624',1,'flanterm_context']]],
+  ['gdt_1',['gdt',['../gdt_8h.html#a7f8e1046cf1a78559f4b64da888baf49',1,'gdt.h']]],
+  ['gdtp_2',['gdtp',['../gdt_8h.html#a2926b243f7a09617e42d9f167fb98dd6',1,'gdt.h']]],
+  ['general_5fpartition_5fcount_3',['general_partition_count',['../ahci_8h.html#a298582f293376e470391e7024b3efea7',1,'ahci.h']]],
+  ['get_5fcursor_5fpos_4',['get_cursor_pos',['../structflanterm__context.html#adc07dc026e4e817f62c92513ecc54abc',1,'flanterm_context']]],
+  ['ghc_5',['ghc',['../structahci__hba__mem__t.html#a1d935ecd9e3b038c81e26e4e28b77be9',1,'ahci_hba_mem_t']]],
+  ['global_5fahci_5fctrl_6',['global_ahci_ctrl',['../ahci_8h.html#ac68dc67c7ced3462ecc86f608de6ad97',1,'ahci.h']]],
+  ['global_5ffs_7',['global_fs',['../commands_8h.html#a959ab7b4abc2c90d18fb37ff9570ba41',1,'commands.h']]],
+  ['glyph_5fheight_8',['glyph_height',['../structflanterm__fb__context.html#a8ea190013e57533158019ff261ef6a42',1,'flanterm_fb_context']]],
+  ['glyph_5fwidth_9',['glyph_width',['../structflanterm__fb__context.html#a02ffa43fbbeb61a782b22eeeff815ca3',1,'flanterm_fb_context']]],
+  ['gpt_5fdisk_5fuuid_10',['gpt_disk_uuid',['../structlimine__file.html#a9a712fe0344396f6d48113ad15b5dd0d',1,'limine_file']]],
+  ['gpt_5fdisks_11',['gpt_disks',['../gpt_8h.html#ab5eb5401df3d64639396fd738d574751',1,'gpt.h']]],
+  ['gpt_5fdisks_5fcount_12',['gpt_disks_count',['../gpt_8h.html#a7b923ca2830c2d63d3962b5da1b4c4df',1,'gpt.h']]],
+  ['gpt_5fefi_5fsignature_13',['GPT_EFI_SIGNATURE',['../gpt_8h.html#af5b2bd4b2433c52afebf2198c915ca81',1,'gpt.h']]],
+  ['gpt_5fpart_5fuuid_14',['gpt_part_uuid',['../structlimine__file.html#ab067ccacc13594ccbbb0d2284223b35c',1,'limine_file']]],
+  ['gpt_5ftype_5fguid_15',['gpt_type_guid',['../structgeneral__partition__t.html#a66e088fd968c3e1445bc0ce115a54861',1,'general_partition_t']]],
+  ['gpuname_16',['GPUName',['../pci_8h.html#af56c6fc943cbca50e339c84119edd390',1,'pci.h']]],
+  ['granularity_17',['granularity',['../structgdt__entry.html#accb2a2ef318b0e4fbe2016eb8097947d',1,'gdt_entry::granularity'],['../gdt_8h.html#acfea365f69e71368a2db03333d4afd6f',1,'granularity:&#160;gdt.h']]],
+  ['graphics_5fbase_5faddress_18',['graphics_base_Address',['../pci_8h.html#a17bc8d02cdd6c90108753afe48331936',1,'pci.h']]],
+  ['green_5fmask_5fshift_19',['green_mask_shift',['../structlimine__video__mode.html#a66657c92b2db37ecc6fca5d6e9473c73',1,'limine_video_mode::green_mask_shift'],['../structlimine__framebuffer.html#a3acea0b874c92b46cb2de5b8c8fa9cf1',1,'limine_framebuffer::green_mask_shift']]],
+  ['green_5fmask_5fsize_20',['green_mask_size',['../structlimine__video__mode.html#a990e483dcb9201cceba89df19a611962',1,'limine_video_mode::green_mask_size'],['../structlimine__framebuffer.html#ad2844bcfc736a1a8ea33892d273048e7',1,'limine_framebuffer::green_mask_size']]],
+  ['grid_21',['grid',['../structflanterm__fb__context.html#a0b14cfc83799bba1e5b37ec7c37f7f0b',1,'flanterm_fb_context']]],
+  ['grid_5fsize_22',['grid_size',['../structflanterm__fb__context.html#a522174795c66ca0b3dfc1bfe2a403471',1,'flanterm_fb_context']]],
+  ['group_23',['group',['../structtarball__header.html#ae57a9acc07847b39a2b9c1f14f37eeba',1,'tarball_header']]],
+  ['group_5fname_24',['group_name',['../structtarball__header.html#aca422f0ff77e03b308f136fe172c9f6d',1,'tarball_header']]],
+  ['gscope_5fflag_25',['gscope_flag',['../structglibc__tcb__head__t.html#a512defb50ea53a6ed6cfa15c338c2c99',1,'glibc_tcb_head_t']]],
+  ['guid_26',['GUID',['../structGPT__PartTableHeader.html#ab9fbff659f54b12e26cf756ea0c24bfd',1,'GPT_PartTableHeader::GUID'],['../gpt_8h.html#a40019f43a2f9bad3101953de5cbf7aa6',1,'GUID:&#160;gpt.h']]]
 ];

@@ -1,0 +1,25 @@
+var commands_8h =
+[
+    [ "cmd_cat", "commands_8h.html#a50a78755e537516884757530ace7cf32", null ],
+    [ "cmd_cd", "commands_8h.html#a923a585e9e107d742c0dd7e79e6a88f7", null ],
+    [ "cmd_clear", "commands_8h.html#aec7027aab4da81a44f2bd25dddc3f92b", null ],
+    [ "cmd_echo", "commands_8h.html#ae586570bee3373a1028327643a75d831", null ],
+    [ "cmd_exec", "commands_8h.html#a48d7e31c68110aa1596866c54e56bb4b", null ],
+    [ "cmd_fwfetch", "commands_8h.html#aca2ff410ba40fb233bba1b75487940e9", null ],
+    [ "cmd_help", "commands_8h.html#a73b8b67a27eee63c5aefb4c2e1dea581", null ],
+    [ "cmd_ls", "commands_8h.html#a8bc9bade8eab9b7b40c4256e2b0a4938", null ],
+    [ "cmd_lsblk", "commands_8h.html#a9a5f1df762a1c597a3f67e1bdaf9b93e", null ],
+    [ "cmd_lspci", "commands_8h.html#a455c17f83470718478801f152571ecc3", null ],
+    [ "cmd_mkdir", "commands_8h.html#ac58212c784e9a80502b30267a2a5aff7", null ],
+    [ "cmd_mount", "commands_8h.html#afc2efdbfb2b1da9f143237d635cf5133", null ],
+    [ "cmd_mv", "commands_8h.html#a68bc6531e7b72dd3b92ba34ce23ba242", null ],
+    [ "cmd_pwd", "commands_8h.html#a2af13e170b4519e0e18200532ada6791", null ],
+    [ "cmd_reboot", "commands_8h.html#ae5d4637acd3ecc9092f08f2034cb656a", null ],
+    [ "cmd_rm", "commands_8h.html#a929062d5562cea1c426ef0ca3a84bc85", null ],
+    [ "cmd_shutdown", "commands_8h.html#add521898a6e82e77c2844a670e5ba889", null ],
+    [ "cmd_tasks", "commands_8h.html#aa0f4455b385217e474a15794792ba0e0", null ],
+    [ "cmd_touch", "commands_8h.html#a9a2c15ec126660522b060a8f14fb1526", null ],
+    [ "cmd_umount", "commands_8h.html#a0dff5babe189592499f4d0c2098c81ac", null ],
+    [ "cmd_whoami", "commands_8h.html#aa86c1c53dc6b60ca3b13b449f84561f6", null ],
+    [ "global_fs", "commands_8h.html#a959ab7b4abc2c90d18fb37ff9570ba41", null ]
+];

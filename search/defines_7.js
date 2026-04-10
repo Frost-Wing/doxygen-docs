@@ -1,16 +1,13 @@
 var searchData=
 [
-  ['get_5fcurrent_5fgl_5fcontext_1760',['GET_CURRENT_GL_CONTEXT',['../glcontext_8h.html#a1fc5d00da535182885464b61fa4b0867',1,'glcontext.h']]],
-  ['ghz_1761',['Ghz',['../basics_8h.html#a23e4cf4c4bc859769b39f011870ca4e9',1,'basics.h']]],
-  ['gl_5fcolor_5fbuffer_5fbit_1762',['GL_COLOR_BUFFER_BIT',['../gl_8h.html#a947db9ff944c4b78e652144c3dd1060c',1,'gl.h']]],
-  ['gl_5fdepth_5fbuffer_5fbit_1763',['GL_DEPTH_BUFFER_BIT',['../gl_8h.html#aef2a9e9a4b130bc4de57514327847b4f',1,'gl.h']]],
-  ['gl_5fstencil_5fbuffer_5fbit_1764',['GL_STENCIL_BUFFER_BIT',['../gl_8h.html#abe3e281237b175db178879e0988f5a78',1,'gl.h']]],
-  ['glapi_1765',['GLAPI',['../gl_8h.html#abad5ea874b73fa802c9ac0f5488bf9b5',1,'gl.h']]],
-  ['gpt_5fefi_5fpart_5fheader_5fsector_1766',['GPT_EFI_PART_HEADER_SECTOR',['../gpt_8h.html#ab50134528779a11c05db8b8600afbbc2',1,'gpt.h']]],
-  ['gpt_5fefi_5fpmbr_5fsector_1767',['GPT_EFI_PMBR_SECTOR',['../gpt_8h.html#a1662ebc3b2619a6dfa86e343fb5d0f2f',1,'gpt.h']]],
-  ['gpt_5fentries_5fsize_1768',['GPT_ENTRIES_SIZE',['../gpt_8h.html#a68798a046968d79eb8672748cda9dddf',1,'gpt.h']]],
-  ['gpt_5fpart_5fattrib_5ffirmware_1769',['GPT_PART_ATTRIB_FIRMWARE',['../gpt_8h.html#a9338b08a356e3ecd3a63d7704fcc2686',1,'gpt.h']]],
-  ['gpt_5fpart_5fattrib_5fused_5fby_5fos_1770',['GPT_PART_ATTRIB_USED_BY_OS',['../gpt_8h.html#a40eb707fe09b910f5c2b893ad163e9e9',1,'gpt.h']]],
-  ['gpt_5fpartition_5fentries_5fsector_1771',['GPT_PARTITION_ENTRIES_SECTOR',['../gpt_8h.html#a15505931e6aeb8dd57556912a24afd5c',1,'gpt.h']]],
-  ['green_5fcolor_1772',['green_color',['../graphics_8h.html#a654afd3b020ce4a21dac8f9df936a89a',1,'graphics.h']]]
+  ['ia32_5fefer_0',['IA32_EFER',['../idt_8h.html#a781940174888ffe44a60eac2cef0c9ff',1,'idt.h']]],
+  ['ia32_5ffmask_1',['IA32_FMASK',['../idt_8h.html#a3a69543dc8732e4059fe779ed07d9655',1,'idt.h']]],
+  ['ia32_5ffs_5fbase_5fmsr_2',['IA32_FS_BASE_MSR',['../syscalls_8h.html#a49870bbd2884458b6f51dbc372080882',1,'IA32_FS_BASE_MSR:&#160;syscalls.h'],['../userland_8h.html#a49870bbd2884458b6f51dbc372080882',1,'IA32_FS_BASE_MSR:&#160;userland.h']]],
+  ['ia32_5flstar_3',['IA32_LSTAR',['../idt_8h.html#a591479e9e26bb3a18a1dd959ab4e5e82',1,'idt.h']]],
+  ['ia32_5fstar_4',['IA32_STAR',['../idt_8h.html#ac177c522e3e9cf4ff3143d9e9b4057e3',1,'idt.h']]],
+  ['icw1_5ficw4_5',['ICW1_ICW4',['../idt_8h.html#a964d12193d2b36e8a7ec7fa57438e313',1,'idt.h']]],
+  ['icw1_5finit_6',['ICW1_INIT',['../idt_8h.html#a286dc251f3d73c08e08a53a4696f31ef',1,'idt.h']]],
+  ['icw4_5f8086_7',['ICW4_8086',['../idt_8h.html#a42803c5ddcec9e120a6dbf7bc5c1b7af',1,'idt.h']]],
+  ['iso9660_5fflag_5fdir_8',['ISO9660_FLAG_DIR',['../iso9660_8h.html#ae4cf8e005feabfba0f99715d4fce19db',1,'iso9660.h']]],
+  ['iso9660_5fsector_5fsize_9',['ISO9660_SECTOR_SIZE',['../iso9660_8h.html#a00bbe26a634a966bc30429348a713ede',1,'iso9660.h']]]
 ];

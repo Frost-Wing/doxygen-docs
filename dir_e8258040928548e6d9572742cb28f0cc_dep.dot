@@ -1,9 +1,12 @@
-digraph "source/includes/drivers" {
+digraph "source/includes/drivers"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   compound=true
-  node [ fontsize="10", fontname="Helvetica"];
-  edge [ labelfontsize="10", labelfontname="Helvetica"];
   subgraph clusterdir_c9f89f587e7e777be723ee48a3df5844 {
-    graph [ bgcolor="#ddddee", pencolor="black", label="includes" fontname="Helvetica", fontsize="10", URL="dir_c9f89f587e7e777be723ee48a3df5844.html"]
-  dir_e8258040928548e6d9572742cb28f0cc [shape=box, label="drivers", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e8258040928548e6d9572742cb28f0cc.html"];
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="includes", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_c9f89f587e7e777be723ee48a3df5844.html",tooltip=""]
+  dir_e8258040928548e6d9572742cb28f0cc [label="drivers", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_e8258040928548e6d9572742cb28f0cc.html",tooltip=""];
   }
 }

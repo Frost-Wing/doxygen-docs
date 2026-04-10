@@ -1,0 +1,25 @@
+var vfs_8h =
+[
+    [ "vfs_file", "structvfs__file.html", "structvfs__file" ],
+    [ "vfs_mount_res_t", "structvfs__mount__res__t.html", "structvfs__mount__res__t" ],
+    [ "VFS_APPEND", "vfs_8h.html#ae2100f639ed4379808ecc541e5b5a54d", null ],
+    [ "VFS_CREATE", "vfs_8h.html#a7616b1977a551bb0942738af4f72e96f", null ],
+    [ "VFS_RDONLY", "vfs_8h.html#a9820782b2baa9ed1f7c023a599e92a1d", null ],
+    [ "VFS_RDWR", "vfs_8h.html#a3a8afad9d2d6e30e7a4422de76b996aa", null ],
+    [ "VFS_TRUNC", "vfs_8h.html#a8ebcf76d6aaf792e0525e4a108742a33", null ],
+    [ "VFS_WRONLY", "vfs_8h.html#a3648d315efe344135927aeb0a29f282d", null ],
+    [ "vfs_file_t", "vfs_8h.html#ad5d1a11d1fecf48d44b96b70225e1b8f", null ],
+    [ "vfs_basename", "vfs_8h.html#ac681aec157cb9689327125621c381154", null ],
+    [ "vfs_cd", "vfs_8h.html#aca85a8e90c3f8fcc9b69c94b8edf67de", null ],
+    [ "vfs_close", "vfs_8h.html#ab196891da75e076d74258867bb229ab0", null ],
+    [ "vfs_getcwd", "vfs_8h.html#af40fa42cdc1d3444656071208bc862ff", null ],
+    [ "vfs_ls", "vfs_8h.html#ab65078d5fcf28beca0904217312f01ae", null ],
+    [ "vfs_mkdir", "vfs_8h.html#a8e9df865707f5b3de7bfea837e49bf5f", null ],
+    [ "vfs_normalize_path", "vfs_8h.html#a6be2d852d31a170547f58a61470937f5", null ],
+    [ "vfs_open", "vfs_8h.html#ab3e579335e23495c094cb2b2e2fb07d8", null ],
+    [ "vfs_read", "vfs_8h.html#ad5ab92e67ba97647cbf91535ea558c1b", null ],
+    [ "vfs_rmdir", "vfs_8h.html#a785e5625447c9e28a077f2a9ad9dfaf7", null ],
+    [ "vfs_unlink", "vfs_8h.html#a7101805f3efc3366b40acfe30a079982", null ],
+    [ "vfs_write", "vfs_8h.html#a64db7aa49a69e4042ec86c51d74be0f4", null ],
+    [ "vfs_cwd", "vfs_8h.html#a9512736b9ccb2a30b292b9487c66c062", null ]
+];

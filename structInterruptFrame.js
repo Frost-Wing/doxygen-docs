@@ -14,5 +14,6 @@ var structInterruptFrame =
     [ "rflags", "structInterruptFrame.html#a57b4354106affd96671a202b3a43080b", null ],
     [ "rip", "structInterruptFrame.html#a365f76f37ffc860a1afc2bdc2240da7f", null ],
     [ "rsi", "structInterruptFrame.html#a0b7555afec76605b1d372a894861e2e9", null ],
-    [ "rsp", "structInterruptFrame.html#a465b8ccdc5b7dc8b01fe441d8d6ea5b3", null ]
+    [ "rsp", "structInterruptFrame.html#a465b8ccdc5b7dc8b01fe441d8d6ea5b3", null ],
+    [ "ss", "structInterruptFrame.html#a3d5c43962252a0604c31c0c835f782ec", null ]
 ];

@@ -1,9 +1,12 @@
 var acpi_8h =
 [
     [ "sdt", "structsdt.html", "structsdt" ],
-    [ "__attribute__", "acpi_8h.html#a4f6b2c6e85caf9d00522475a13e622b2", null ],
-    [ "acpi_find_sdt", "acpi_8h.html#a434fe4c98c94137b8d609ff21d3d9413", null ],
+    [ "acpi_gas", "structacpi__gas.html", "structacpi__gas" ],
+    [ "__attribute__", "acpi_8h.html#a2a38711f4cd632ae82e780d890a5f751", null ],
+    [ "acpi_find_sdt", "acpi_8h.html#a6c27f4adcd1588a94ba2dced1ed49fc3", null ],
     [ "acpi_init", "acpi_8h.html#ac89f7fd8333fcd61dea9163a99c0fd6c", null ],
+    [ "acpi_reboot", "acpi_8h.html#a5d8628ae703c03173031e1a57c629d9c", null ],
+    [ "__attribute__", "acpi_8h.html#a167d047c211be767512e15c9a684e31c", null ],
     [ "checksum", "acpi_8h.html#a59eac9627282a484fbaf0aa7aa3b8a9a", null ],
     [ "creator_id", "acpi_8h.html#ab38918ce2820bbdf42112e514c767817", null ],
     [ "creator_rev", "acpi_8h.html#a60cdbc2c30c234643cd8e0545b193b12", null ],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['contributing_20to_20frostwing_1956',['Contributing to FrostWing',['../md_CONTRIBUTING.html',1,'']]]
+  ['and_20bug_20reports_0',['Issues and Bug Reports',['../md_CONTRIBUTING.html#autotoc_md21',1,'']]]
 ];

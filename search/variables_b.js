@@ -1,20 +1,9 @@
 var searchData=
 [
-  ['mac_5faddress_1476',['mac_address',['../structrtl8139.html#ab9418ec7d6bb43d5d71bb33fa0ea58f2',1,'rtl8139']]],
-  ['magic_1477',['magic',['../structtarball__header.html#a5b82f0d8664c242ccf18cb8e3527b180',1,'tarball_header::magic()'],['../struct__pack.html#a854837b205f8cfa03d55d4f9285f7999',1,'_pack::magic()']]],
-  ['map_1478',['map',['../structflanterm__fb__context.html#aa29aeaaa41b5b2843b014ecf947b6736',1,'flanterm_fb_context']]],
-  ['map_5fsize_1479',['map_size',['../structflanterm__fb__context.html#aa47b6546953d28c758c22f94ddd1db35',1,'flanterm_fb_context']]],
-  ['mbr_5fdisk_5fid_1480',['mbr_disk_id',['../structlimine__file.html#a557ab86b3cac99a59c9f5fc4de645df3',1,'limine_file']]],
-  ['media_5ftype_1481',['media_type',['../structlimine__file.html#a16af2eb2688d5dbc3cf273fdb071bd29',1,'limine_file']]],
-  ['memmap_5fsize_1482',['memmap_size',['../structlimine__efi__memmap__response.html#ab6bf35fda295f0fd55d5d0d01a91f2f7',1,'limine_efi_memmap_response']]],
-  ['memory_1483',['memory',['../memory2_8h.html#ae34d2b093f47031dc6e5589fdd39fbe0',1,'memory2.h']]],
-  ['memory_5fmodel_1484',['memory_model',['../structlimine__video__mode.html#a36083cb34d7c96078a69789c1bffe3bb',1,'limine_video_mode::memory_model()'],['../structlimine__framebuffer.html#aaf898b5e5c86c8fb28e79f569112048f',1,'limine_framebuffer::memory_model()']]],
-  ['mode_1485',['mode',['../structtarball__header.html#a99639d7112ec90f08742c517cccdc8c2',1,'tarball_header::mode()'],['../structlimine__paging__mode__request.html#acdcc0aa3b1ccccbf300ed430bf8154bd',1,'limine_paging_mode_request::mode()'],['../structlimine__paging__mode__response.html#af94828d4efa82286795bd2d236012ae5',1,'limine_paging_mode_response::mode()']]],
-  ['mode_5fcount_1486',['mode_count',['../structlimine__framebuffer.html#aceb56953cedde71de7e06da40af8c6f8',1,'limine_framebuffer']]],
-  ['module_5fcount_1487',['module_count',['../structlimine__module__response.html#a115826eb71620af287fb0376f75d6895',1,'limine_module_response']]],
-  ['mouse_5fcursor_1488',['mouse_cursor',['../ps2-mouse_8h.html#abc5ee9c9044c80a996040bc69caa6bdf',1,'ps2-mouse.h']]],
-  ['move_5fcharacter_1489',['move_character',['../structflanterm__context.html#aeb5cfd70375a58bdfd2c6c34bfcc1f99',1,'flanterm_context']]],
-  ['mtime_1490',['mtime',['../structtarball__header.html#afe1a18fd998965840c821cff1f25b225',1,'tarball_header']]],
-  ['mx_1491',['mx',['../structssfn__t.html#a1bdfb30633cfc3874a1a5db36a500374',1,'ssfn_t']]],
-  ['my_1492',['my',['../structssfn__t.html#a1131dd1122011a66726f998934610a58',1,'ssfn_t']]]
+  ['kend_0',['kend',['../kernel_8h.html#ab30054572a8c6c369047fd7c7e7dde46',1,'kernel.h']]],
+  ['kernel_5fmodules_1',['kernel_modules',['../structmemory__context.html#a3d1859441358fafc5b1f4418feb0b9ad',1,'memory_context']]],
+  ['kernel_5fstack_2',['kernel_stack',['../tss_8h.html#aa0a278e6fb4bf82c10f516afcf8f4bc8',1,'tss.h']]],
+  ['kernel_5fstack_5ftop_3',['kernel_stack_top',['../tss_8h.html#a8019039a21c5448c3a9c1cc5eadddd35',1,'tss.h']]],
+  ['key_4',['key',['../structauxv__pair__t.html#aa63194d0a1db81fcaf2dd1020635fd56',1,'auxv_pair_t']]],
+  ['kstart_5',['kstart',['../kernel_8h.html#a55eeb78421932f1fed63e6cf11cacec8',1,'kernel.h']]]
 ];

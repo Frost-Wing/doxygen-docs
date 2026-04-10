@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['uint16_5ft_1707',['uint16_t',['../ssfn_8h.html#adf4d876453337156dde61095e1f20223',1,'ssfn.h']]],
-  ['uint32_5ft_1708',['uint32_t',['../ssfn_8h.html#a435d1572bf3f880d55459d9805097f62',1,'ssfn.h']]],
-  ['uint64_5ft_1709',['uint64_t',['../ssfn_8h.html#a76708dd160ca0401c821b7b0124be563',1,'ssfn.h']]],
-  ['uint8_5ft_1710',['uint8_t',['../ssfn_8h.html#aba7bc1797add20fe3efdf37ced1182c5',1,'ssfn.h']]]
+  ['pci_5fprobe_5ffn_0',['pci_probe_fn',['../pci_8h.html#a16eb6c05e8977ca8baa215a96ece4020',1,'pci_probe_fn:&#160;pci.h'],['../pci__id_8h.html#a16eb6c05e8977ca8baa215a96ece4020',1,'pci_probe_fn:&#160;pci_id.h']]],
+  ['procfs_5fentry_5ft_1',['procfs_entry_t',['../proc_8h.html#a482b5072a1ba40035abeb04df9f691cb',1,'proc.h']]],
+  ['procfs_5fread_5fcb_2',['procfs_read_cb',['../proc_8h.html#ac9b29695274f21aa81653e35461c1029',1,'proc.h']]],
+  ['procfs_5fwrite_5fcb_3',['procfs_write_cb',['../proc_8h.html#a6bf4663aa8e4ed63ebcdf41e189e70b7',1,'proc.h']]]
 ];

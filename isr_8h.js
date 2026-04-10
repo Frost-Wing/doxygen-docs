@@ -6,6 +6,7 @@ var isr_8h =
     [ "exceptionHandler", "isr_8h.html#aa83d8336d3849b275399c43b5e094f4a", null ],
     [ "irqHandler", "isr_8h.html#a6e015c71f5abebf208bbebbac46be40d", null ],
     [ "registerInterruptHandler", "isr_8h.html#abbf1d7887d81019d655219c3087fac19", null ],
+    [ "rtl8139_handler", "isr_8h.html#a079624b37f30b79570546b553f794e39", null ],
     [ "cs", "isr_8h.html#aea3e8b50ef91f54dad11c01a77675324", null ],
     [ "err_code", "isr_8h.html#a0f9a68a13dccfe1c1d52bac3c988f7c9", null ],
     [ "int_no", "isr_8h.html#a1ad5b66cfac3d431cefbde4bb2ce085c", null ],
@@ -20,5 +21,6 @@ var isr_8h =
     [ "rflags", "isr_8h.html#ac67e007ae346a1499c5a276869bfd1bb", null ],
     [ "rip", "isr_8h.html#a90e28f434559f0582a69699dc4dbc286", null ],
     [ "rsi", "isr_8h.html#ac778707d44587840c5bd1269e8644eb9", null ],
-    [ "rsp", "isr_8h.html#a8e218c31298bb17b5041cfc61646d6b9", null ]
+    [ "rsp", "isr_8h.html#a8e218c31298bb17b5041cfc61646d6b9", null ],
+    [ "ss", "isr_8h.html#a515ae478df5d026d97c16d466d1d2611", null ]
 ];

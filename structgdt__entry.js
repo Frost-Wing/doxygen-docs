@@ -1,9 +1,9 @@
 var structgdt__entry =
 [
-    [ "access", "structgdt__entry.html#a4c54b3d0b28145b2868cad5e6d7f01a4", null ],
-    [ "base_high", "structgdt__entry.html#ab5bd953fb55db1ce50d19e3a4bf0855c", null ],
-    [ "base_low", "structgdt__entry.html#a7ac98a73ab4458c98b61777a2555ce96", null ],
-    [ "base_middle", "structgdt__entry.html#aec1a1118b50c2cbd71a03dded67699fa", null ],
-    [ "granularity", "structgdt__entry.html#a7361b32f7390c0caf94410d930f77616", null ],
+    [ "access", "structgdt__entry.html#af8f88469b3301c3e777e97b470a97413", null ],
+    [ "base_high", "structgdt__entry.html#a96abeddea82dd23ff9e84d09230e31a2", null ],
+    [ "base_low", "structgdt__entry.html#ade3b4a3948e6e475221de4e226f8579c", null ],
+    [ "base_middle", "structgdt__entry.html#ab5c8ccda9d0651184c31089ce7bbdbae", null ],
+    [ "granularity", "structgdt__entry.html#accb2a2ef318b0e4fbe2016eb8097947d", null ],
     [ "limit_low", "structgdt__entry.html#a98881a815db5cf328c17878ab6905097", null ]
 ];

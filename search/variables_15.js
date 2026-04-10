@@ -1,6 +1,10 @@
 var searchData=
 [
-  ['w_1679',['w',['../structivec4.html#a879f80e8ec1a3156f38ed284effb38a2',1,'ivec4::w()'],['../structuvec4.html#aea1aab03f5ff7c4f31112842775f0d99',1,'uvec4::w()'],['../structvec4.html#a0c92fe67e490d9768217a00c2e8abd49',1,'vec4::w()'],['../structssfn__buf__t.html#a637980e63f77a48be60f0ece8c7d6870',1,'ssfn_buf_t::w()'],['../structssfn__chr__t.html#a7d36df5bd9ac69ca050c021f0edb777c',1,'ssfn_chr_t::w()']]],
-  ['width_1680',['width',['../structkernel__data.html#a502855040db2264fc69ec473aae5e468',1,'kernel_data::width()'],['../structflanterm__fb__context.html#af3fa1cbfd3ac0e8cf7f9b1f5fe9ef4eb',1,'flanterm_fb_context::width()'],['../structtarga__header.html#a4e122c9df9ff08340507332dae90891b',1,'targa_header::width()'],['../structlimine__video__mode.html#a03f512edc6d8bad161f40e6d7f69d3a1',1,'limine_video_mode::width()'],['../structlimine__framebuffer.html#ad7e3e9a8a701f5bf814053d4d3628351',1,'limine_framebuffer::width()'],['../struct__pack.html#a9c9d31471dd6944b6c5606f58570ff2f',1,'_pack::width()']]],
-  ['wm_5faddr_1681',['wm_addr',['../kernel_8h.html#a001020a54805617e7d3b6eb91083a5ff',1,'kernel.h']]]
+  ['unicode_5fremaining_0',['unicode_remaining',['../structflanterm__context.html#aaf108ad73fb2edba0dfebb90d83d1976',1,'flanterm_context']]],
+  ['uniqueguid_1',['UniqueGUID',['../structGPT__PartitionEntry.html#a0424d3734af236aa0bac2927aaf15896',1,'GPT_PartitionEntry::UniqueGUID'],['../gpt_8h.html#a0322dd873fa3cdb13c075bfc89bfdde7',1,'UniqueGUID:&#160;gpt.h']]],
+  ['unknown_2',['unknown',['../structmemory__context.html#a77871a830d92b3e7c8b33d5f1da9877e',1,'memory_context']]],
+  ['unused_3',['unused',['../structlimine__file.html#ab12af7e4d780036c111ba07311ee8cf5',1,'limine_file::unused'],['../structlimine__framebuffer.html#a58a024c31ecddb2a783336b3d83921b6',1,'limine_framebuffer::unused']]],
+  ['unused_5fvgetcpu_5fcache_4',['unused_vgetcpu_cache',['../structglibc__tcb__head__t.html#ae16a8a6053a396df5962c8cdfb713b3b',1,'glibc_tcb_head_t']]],
+  ['usable_5',['usable',['../structmemory__context.html#a3e43fde59b6ad0a29ad64b37a64c740d',1,'memory_context']]],
+  ['using_5fgraphics_5fcard_6',['using_graphics_card',['../pci_8h.html#ad93ae9a50ae17612691dd6a3032cdfe9',1,'pci.h']]]
 ];
