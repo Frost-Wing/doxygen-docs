@@ -4,16 +4,9 @@ var searchData=
   ['debug_5fprintf_1',['debug_printf',['../debugger_8h.html#ad82927d0bb9e0336eed9f06ef10150c8',1,'debugger.h']]],
   ['debug_5fprintln_2',['debug_println',['../debugger_8h.html#ace56cfa04b802028a9828bc6e4033d15',1,'debugger.h']]],
   ['debug_5fputc_3',['debug_putc',['../debugger_8h.html#afe02d1f040867e6fbf9fae10fdee40ff',1,'debugger.h']]],
-  ['decode_5ftarga_5fimage_4',['decode_targa_image',['../targa_8h.html#aeda2b8068b724034221c702b21f81910',1,'targa.h']]],
-  ['detect_5fahci_5fdevices_5',['detect_ahci_devices',['../ahci_8h.html#a3d8edb722bb4541ba1e22481323d64c7',1,'ahci.h']]],
-  ['devfs_5fclose_6',['devfs_close',['../dev_8h.html#a1766279cf6a8da88db3d703793a14448',1,'dev.h']]],
-  ['devfs_5finit_7',['devfs_init',['../dev_8h.html#a7e965ed852477a87cb2af6bfbb32117b',1,'dev.h']]],
-  ['devfs_5fls_8',['devfs_ls',['../dev_8h.html#a0d40605486575be067616f15c3b453b1',1,'dev.h']]],
-  ['devfs_5fopen_9',['devfs_open',['../dev_8h.html#a421c02482576592b9cda4e03a2221ee1',1,'dev.h']]],
-  ['devfs_5fread_10',['devfs_read',['../dev_8h.html#a909e15846d7421e48626982632489ddd',1,'dev.h']]],
-  ['devfs_5fwrite_11',['devfs_write',['../dev_8h.html#a54b82b88a9e57d8fd865a60d7c104ffb',1,'dev.h']]],
-  ['display_5fmemory_5fformatted_12',['display_memory_formatted',['../memory_8h.html#ad08cbc6d3077c7f3751a2eb60c9b517a',1,'memory.h']]],
-  ['display_5ftime_13',['display_time',['../rtc_8h.html#a4eb8933c334d8d88e9ff0b0d1152951c',1,'rtc.h']]],
-  ['dispose_5fcommand_5flist_14',['dispose_command_list',['../sh__util_8h.html#a375da250af24b82497481e57fa917c60',1,'sh_util.h']]],
-  ['done_15',['done',['../graphics_8h.html#ad07884a6ba7d8115780561b2ca989852',1,'graphics.h']]]
+  ['detect_5fahci_5fdevices_4',['detect_ahci_devices',['../ahci_8h.html#a3d8edb722bb4541ba1e22481323d64c7',1,'ahci.h']]],
+  ['display_5fmemory_5fformatted_5',['display_memory_formatted',['../memory_8h.html#ad08cbc6d3077c7f3751a2eb60c9b517a',1,'memory.h']]],
+  ['display_5ftime_6',['display_time',['../rtc_8h.html#a4eb8933c334d8d88e9ff0b0d1152951c',1,'rtc.h']]],
+  ['dispose_5fcommand_5flist_7',['dispose_command_list',['../sh__util_8h.html#a375da250af24b82497481e57fa917c60',1,'sh_util.h']]],
+  ['done_8',['done',['../graphics_8h.html#ad07884a6ba7d8115780561b2ca989852',1,'graphics.h']]]
 ];

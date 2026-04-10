@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: source/includes/gdt.h Source File</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -93,57 +94,46 @@ $(function(){initNavTree('gdt_8h_source.html','',''); });
   <div class="headertitle"><div class="title">gdt.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="gdt_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno"><a class="line" href="gdt_8h.html#aeca790c0426654358d031f8180e84aca">    1</a></span></div>
+<a href="gdt_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#ifndef GDT_H</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#define GDT_H</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span></div>
 <div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="structgdt__entry.html">   19</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structgdt__entry.html">gdt_entry</a> {</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="structgdt__entry.html#a98881a815db5cf328c17878ab6905097">   20</a></span>    <a class="code hl_typedef" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> <a class="code hl_variable" href="structgdt__entry.html#a98881a815db5cf328c17878ab6905097">limit_low</a>;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="structgdt__entry.html#ade3b4a3948e6e475221de4e226f8579c">   21</a></span>    uint16_t <a class="code hl_variable" href="structgdt__entry.html#ade3b4a3948e6e475221de4e226f8579c">base_low</a>;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="structgdt__entry.html#ab5c8ccda9d0651184c31089ce7bbdbae">   22</a></span>    uint8_t  <a class="code hl_variable" href="structgdt__entry.html#ab5c8ccda9d0651184c31089ce7bbdbae">base_middle</a>;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="structgdt__entry.html#af8f88469b3301c3e777e97b470a97413">   23</a></span>    uint8_t  <a class="code hl_variable" href="structgdt__entry.html#af8f88469b3301c3e777e97b470a97413">access</a>;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="structgdt__entry.html#accb2a2ef318b0e4fbe2016eb8097947d">   24</a></span>    uint8_t  <a class="code hl_variable" href="structgdt__entry.html#accb2a2ef318b0e4fbe2016eb8097947d">granularity</a>;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="structgdt__entry.html#a96abeddea82dd23ff9e84d09230e31a2">   25</a></span>    uint8_t  <a class="code hl_variable" href="structgdt__entry.html#a96abeddea82dd23ff9e84d09230e31a2">base_high</a>;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>} <a class="code hl_variable" href="gpt_8h.html#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a>((packed));</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    int16 limit_low;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    uint16_t base_low;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    uint8_t  base_middle;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    uint8_t  access;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    uint8_t  granularity;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    uint8_t  base_high;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>} <a class="code hl_variable" href="acpi_8h.html#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a>((packed));</div>
 </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span></div>
 <div class="foldopen" id="foldopen00032" data-start="{" data-end="};">
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="structgdt__ptr.html">   32</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structgdt__ptr.html">gdt_ptr</a> {</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="structgdt__ptr.html#aafee15dc0249bc83b9a672e745c082d3">   33</a></span>    uint16_t <a class="code hl_variable" href="structgdt__ptr.html#aafee15dc0249bc83b9a672e745c082d3">limit</a>;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="structgdt__ptr.html#a56c045109526eca78bfa4238266ec5f5">   34</a></span>    uint64_t <a class="code hl_variable" href="structgdt__ptr.html#a56c045109526eca78bfa4238266ec5f5">base</a>;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>} <a class="code hl_variable" href="gpt_8h.html#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a>((packed));</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    uint16_t limit;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    uint64_t base;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>} <a class="code hl_variable" href="acpi_8h.html#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a>((packed));</div>
 </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">extern</span> <span class="keyword">struct </span><a class="code hl_struct" href="structgdt__entry.html">gdt_entry</a> <a class="code hl_variable" href="gdt_8h.html#a7f8e1046cf1a78559f4b64da888baf49">gdt</a>[7];</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">extern</span> <span class="keyword">struct </span><a class="code hl_struct" href="structgdt__ptr.html">gdt_ptr</a> <a class="code hl_variable" href="gdt_8h.html#a2926b243f7a09617e42d9f167fb98dd6">gdtp</a>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">extern</span> <span class="keyword">struct </span><a class="code hl_struct" href="structgdt__entry.html">gdt_entry</a> gdt[7];</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">extern</span> <span class="keyword">struct </span><a class="code hl_struct" href="structgdt__ptr.html">gdt_ptr</a> gdtp;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="gdt_8h.html#a78d5e0c58ba2af554fe2582240b41186">   44</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="gdt_8h.html#a78d5e0c58ba2af554fe2582240b41186">setup_gdt</a>();</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aacpi_8h_html_a720173e80c53ae6b5fa163fd6e81ad27"><div class="ttname"><a href="acpi_8h.html#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a></div><div class="ttdeci">struct acpi_gas __attribute__</div><div class="ttdoc">Physical Region Descriptor Table (PRDT) entry.</div><div class="ttdef"><b>Definition</b> ahci.h:71</div></div>
 <div class="ttc" id="abasics_8h_html"><div class="ttname"><a href="basics_8h.html">basics.h</a></div><div class="ttdoc">This is a basic header files with FrostWing specific short forms and basically a good for life header...</div></div>
-<div class="ttc" id="abasics_8h_html_ae9794ced33376f900e9e70cfb39a419c"><div class="ttname"><a href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a></div><div class="ttdeci">uint16_t int16</div><div class="ttdef"><b>Definition</b> basics.h:17</div></div>
-<div class="ttc" id="agdt_8h_html_a2926b243f7a09617e42d9f167fb98dd6"><div class="ttname"><a href="gdt_8h.html#a2926b243f7a09617e42d9f167fb98dd6">gdtp</a></div><div class="ttdeci">struct gdt_ptr gdtp</div></div>
 <div class="ttc" id="agdt_8h_html_a78d5e0c58ba2af554fe2582240b41186"><div class="ttname"><a href="gdt_8h.html#a78d5e0c58ba2af554fe2582240b41186">setup_gdt</a></div><div class="ttdeci">void setup_gdt()</div><div class="ttdoc">Set the up GDT for the entire OS.</div></div>
-<div class="ttc" id="agdt_8h_html_a7f8e1046cf1a78559f4b64da888baf49"><div class="ttname"><a href="gdt_8h.html#a7f8e1046cf1a78559f4b64da888baf49">gdt</a></div><div class="ttdeci">struct gdt_entry gdt[7]</div></div>
-<div class="ttc" id="agpt_8h_html_a720173e80c53ae6b5fa163fd6e81ad27"><div class="ttname"><a href="gpt_8h.html#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a></div><div class="ttdeci">typedef __attribute__</div><div class="ttdoc">Physical Region Descriptor Table (PRDT) entry.</div><div class="ttdef"><b>Definition</b> ahci.h:71</div></div>
 <div class="ttc" id="astructgdt__entry_html"><div class="ttname"><a href="structgdt__entry.html">gdt_entry</a></div><div class="ttdoc">The GDT Table.</div><div class="ttdef"><b>Definition</b> gdt.h:19</div></div>
-<div class="ttc" id="astructgdt__entry_html_a96abeddea82dd23ff9e84d09230e31a2"><div class="ttname"><a href="structgdt__entry.html#a96abeddea82dd23ff9e84d09230e31a2">gdt_entry::base_high</a></div><div class="ttdeci">uint8_t base_high</div><div class="ttdef"><b>Definition</b> gdt.h:25</div></div>
-<div class="ttc" id="astructgdt__entry_html_a98881a815db5cf328c17878ab6905097"><div class="ttname"><a href="structgdt__entry.html#a98881a815db5cf328c17878ab6905097">gdt_entry::limit_low</a></div><div class="ttdeci">int16 limit_low</div><div class="ttdef"><b>Definition</b> gdt.h:20</div></div>
-<div class="ttc" id="astructgdt__entry_html_ab5c8ccda9d0651184c31089ce7bbdbae"><div class="ttname"><a href="structgdt__entry.html#ab5c8ccda9d0651184c31089ce7bbdbae">gdt_entry::base_middle</a></div><div class="ttdeci">uint8_t base_middle</div><div class="ttdef"><b>Definition</b> gdt.h:22</div></div>
-<div class="ttc" id="astructgdt__entry_html_accb2a2ef318b0e4fbe2016eb8097947d"><div class="ttname"><a href="structgdt__entry.html#accb2a2ef318b0e4fbe2016eb8097947d">gdt_entry::granularity</a></div><div class="ttdeci">uint8_t granularity</div><div class="ttdef"><b>Definition</b> gdt.h:24</div></div>
-<div class="ttc" id="astructgdt__entry_html_ade3b4a3948e6e475221de4e226f8579c"><div class="ttname"><a href="structgdt__entry.html#ade3b4a3948e6e475221de4e226f8579c">gdt_entry::base_low</a></div><div class="ttdeci">uint16_t base_low</div><div class="ttdef"><b>Definition</b> gdt.h:21</div></div>
-<div class="ttc" id="astructgdt__entry_html_af8f88469b3301c3e777e97b470a97413"><div class="ttname"><a href="structgdt__entry.html#af8f88469b3301c3e777e97b470a97413">gdt_entry::access</a></div><div class="ttdeci">uint8_t access</div><div class="ttdef"><b>Definition</b> gdt.h:23</div></div>
 <div class="ttc" id="astructgdt__ptr_html"><div class="ttname"><a href="structgdt__ptr.html">gdt_ptr</a></div><div class="ttdoc">GDT Pointer.</div><div class="ttdef"><b>Definition</b> gdt.h:32</div></div>
-<div class="ttc" id="astructgdt__ptr_html_a56c045109526eca78bfa4238266ec5f5"><div class="ttname"><a href="structgdt__ptr.html#a56c045109526eca78bfa4238266ec5f5">gdt_ptr::base</a></div><div class="ttdeci">uint64_t base</div><div class="ttdef"><b>Definition</b> gdt.h:34</div></div>
-<div class="ttc" id="astructgdt__ptr_html_aafee15dc0249bc83b9a672e745c082d3"><div class="ttname"><a href="structgdt__ptr.html#aafee15dc0249bc83b9a672e745c082d3">gdt_ptr::limit</a></div><div class="ttdeci">uint16_t limit</div><div class="ttdef"><b>Definition</b> gdt.h:33</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_c9f89f587e7e777be723ee48a3df5844.html">includes</a></li><li class="navelem"><a href="gdt_8h.html">gdt.h</a></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="gdt_8h.html">gdt.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

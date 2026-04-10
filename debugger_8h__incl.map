@@ -1,7 +1,15 @@
 <map id="source/includes/debugger.h" name="source/includes/debugger.h">
-<area shape="rect" id="node1" title="The headers files for E9 hack." alt="" coords="18,5,217,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="130,229,201,256"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,229,80,256"/>
-<area shape="rect" id="node4" href="$basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="53,155,128,181"/>
-<area shape="rect" id="node5" href="$hal_8h.html" title="Header file for Hardware Abstraction Layer &#45;&gt; Source from GoGX OS." alt="" coords="123,80,178,107"/>
+<area shape="rect" id="Node000001" title="The headers files for E9 hack." alt="" coords="20,5,213,35"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="126,238,194,268"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,33,168,54,188,82,197,120,195,158,187,195,175,226,171,222,182,193,190,158,192,120,183,84,164,57,141,38"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,238,78,268"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="104,38,74,90,57,125,44,161,40,193,41,224,35,223,35,193,39,160,52,122,69,87,107,33"/>
+<area shape="rect" id="Node000004" href="$basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="54,161,123,190"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="115,34,96,146,91,145,112,37"/>
+<area shape="rect" id="Node000005" href="$hal_8h.html" title="Header file for Hardware Abstraction Layer &#45;&gt; Source from GoGX OS." alt="" coords="122,83,174,113"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="123,33,139,68,133,68,122,38"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="103,188,139,227,134,227,101,193"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="82,189,60,226,56,223,77,193"/>
+<area shape="poly" id="edge7_Node000005_Node000002" title=" " alt="" coords="151,112,160,223,155,222,147,115"/>
+<area shape="poly" id="edge8_Node000005_Node000004" title=" " alt="" coords="139,111,111,150,107,147,135,115"/>
 </map>

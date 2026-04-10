@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: source/includes/paging.h Source File</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -99,44 +100,35 @@ $(function(){initNavTree('paging_8h_source.html','',''); });
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;<a class="code" href="userland_8h.html">userland.h</a>&gt;</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;<a class="code" href="limine_8h.html">limine.h</a>&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;limine.h&gt;</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="paging_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">   18</a></span><span class="preprocessor">#define PAGE_SIZE      4096ULL</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#define PAGE_SIZE      4096ULL</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="paging_8h.html#a122dfc414a40e260fd35dbe9743db26f">   20</a></span><span class="preprocessor">#define PAGE_PRESENT  0x1</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="paging_8h.html#aea946c6528415a6093af96b3af0c72ba">   21</a></span><span class="preprocessor">#define PAGE_RW       0x2</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="paging_8h.html#a2d0253527ea5080d6befe0ee3bde473f">   22</a></span><span class="preprocessor">#define PAGE_USER     0x4</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="paging_8h.html#a8e9aa6e178480cd0e01c9be291a45a0a">   23</a></span><span class="preprocessor">#define PAGE_NX       (1ULL &lt;&lt; 63)</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#define PAGE_PRESENT  0x1</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#define PAGE_RW       0x2</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#define PAGE_USER     0x4</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#define PAGE_NX       (1ULL &lt;&lt; 63)</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="paging_8h.html#ac69e4daf7372abfe2341c8277ef615e3">   25</a></span><span class="preprocessor">#define USER_CODE_FLAGS (PAGE_PRESENT | PAGE_USER | PAGE_RW )</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="paging_8h.html#a76216b39cf067c9dfe386e0b5dde6340">   26</a></span><span class="preprocessor">#define USER_DATA_FLAGS (PAGE_PRESENT | PAGE_USER | PAGE_RW | PAGE_NX)</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#define USER_CODE_FLAGS (PAGE_PRESENT | PAGE_USER | PAGE_RW )</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#define USER_DATA_FLAGS (PAGE_PRESENT | PAGE_USER | PAGE_RW | PAGE_NX)</span></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">extern</span> <span class="keyword">struct </span><a class="code hl_struct" href="structlimine__memmap__response.html">limine_memmap_response</a> *<a class="code hl_variable" href="paging_8h.html#ac529d2f01b384fc001016fa093aef4f6">memmap</a>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">extern</span> <span class="keyword">struct </span><a class="code hl_struct" href="structlimine__memmap__response.html">limine_memmap_response</a> *memmap;</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span></div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="paging_8h.html#ad12b8e2beb6f3f8ec8c8fc80be327167">   37</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="paging_8h.html#ad12b8e2beb6f3f8ec8c8fc80be327167">map_user_page</a>(uint64_t virt, uint64_t phys, uint64_t flags);</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="paging_8h.html#a87409fd2291e3b2e5b8952c02c32db7b">   38</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="paging_8h.html#a87409fd2291e3b2e5b8952c02c32db7b">unmap_user_page</a>(uint64_t virt);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keywordtype">void</span> unmap_user_page(uint64_t virt);</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="paging_8h.html#add90fb72876f7f27b975ec547604eeba">   45</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="paging_8h.html#add90fb72876f7f27b975ec547604eeba">paging_set_hhdm_offset</a>(uint64_t <a class="code hl_variable" href="idt_8h.html#a612bb2807d848cca89ea1437cceea886">offset</a>);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="paging_8h.html#add90fb72876f7f27b975ec547604eeba">   45</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="paging_8h.html#add90fb72876f7f27b975ec547604eeba">paging_set_hhdm_offset</a>(uint64_t offset);</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="paging_8h.html#a2f64885386b5ef6fcbd65afe778eaf7b">   47</a></span>uintptr_t <a class="code hl_function" href="paging_8h.html#a2f64885386b5ef6fcbd65afe778eaf7b">allocate_page</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="paging_8h.html#a604da78ae02f783061fdd5ac610be1c1">   48</a></span>uintptr_t <a class="code hl_function" href="paging_8h.html#a604da78ae02f783061fdd5ac610be1c1">allocate_pages</a>(<span class="keywordtype">size_t</span> count);</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="paging_8h.html#a2d3b954f9022e10828bdee766a0528c8">   49</a></span>uint64_t <a class="code hl_function" href="paging_8h.html#a2d3b954f9022e10828bdee766a0528c8">virtual_to_physical</a>(uint64_t virt);</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="paging_8h.html#a0c2de07d9cf1cd239a220f5e7f19eb56">   50</a></span>uint64_t <a class="code hl_function" href="paging_8h.html#a0c2de07d9cf1cd239a220f5e7f19eb56">fast_virt_to_phys</a>(<span class="keywordtype">void</span>* v);</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="paging_8h.html#af753d5e110c9c2a038b5f12ba361014a">   51</a></span>uint64_t <a class="code hl_function" href="paging_8h.html#af753d5e110c9c2a038b5f12ba361014a">virt_to_phys</a>(<span class="keywordtype">void</span>* v);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>uintptr_t allocate_page(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>uintptr_t allocate_pages(<span class="keywordtype">size_t</span> count);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>uint64_t virtual_to_physical(uint64_t virt);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>uint64_t fast_virt_to_phys(<span class="keywordtype">void</span>* v);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>uint64_t virt_to_phys(<span class="keywordtype">void</span>* v);</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="abasics_8h_html"><div class="ttname"><a href="basics_8h.html">basics.h</a></div><div class="ttdoc">This is a basic header files with FrostWing specific short forms and basically a good for life header...</div></div>
-<div class="ttc" id="aidt_8h_html_a612bb2807d848cca89ea1437cceea886"><div class="ttname"><a href="idt_8h.html#a612bb2807d848cca89ea1437cceea886">offset</a></div><div class="ttdeci">uint64_t offset</div><div class="ttdef"><b>Definition</b> idt.h:1</div></div>
-<div class="ttc" id="alimine_8h_html"><div class="ttname"><a href="limine_8h.html">limine.h</a></div></div>
-<div class="ttc" id="apaging_8h_html_a0c2de07d9cf1cd239a220f5e7f19eb56"><div class="ttname"><a href="paging_8h.html#a0c2de07d9cf1cd239a220f5e7f19eb56">fast_virt_to_phys</a></div><div class="ttdeci">uint64_t fast_virt_to_phys(void *v)</div></div>
-<div class="ttc" id="apaging_8h_html_a2d3b954f9022e10828bdee766a0528c8"><div class="ttname"><a href="paging_8h.html#a2d3b954f9022e10828bdee766a0528c8">virtual_to_physical</a></div><div class="ttdeci">uint64_t virtual_to_physical(uint64_t virt)</div></div>
-<div class="ttc" id="apaging_8h_html_a2f64885386b5ef6fcbd65afe778eaf7b"><div class="ttname"><a href="paging_8h.html#a2f64885386b5ef6fcbd65afe778eaf7b">allocate_page</a></div><div class="ttdeci">uintptr_t allocate_page(void)</div></div>
-<div class="ttc" id="apaging_8h_html_a604da78ae02f783061fdd5ac610be1c1"><div class="ttname"><a href="paging_8h.html#a604da78ae02f783061fdd5ac610be1c1">allocate_pages</a></div><div class="ttdeci">uintptr_t allocate_pages(size_t count)</div></div>
-<div class="ttc" id="apaging_8h_html_a87409fd2291e3b2e5b8952c02c32db7b"><div class="ttname"><a href="paging_8h.html#a87409fd2291e3b2e5b8952c02c32db7b">unmap_user_page</a></div><div class="ttdeci">void unmap_user_page(uint64_t virt)</div></div>
-<div class="ttc" id="apaging_8h_html_ac529d2f01b384fc001016fa093aef4f6"><div class="ttname"><a href="paging_8h.html#ac529d2f01b384fc001016fa093aef4f6">memmap</a></div><div class="ttdeci">struct limine_memmap_response * memmap</div></div>
 <div class="ttc" id="apaging_8h_html_ad12b8e2beb6f3f8ec8c8fc80be327167"><div class="ttname"><a href="paging_8h.html#ad12b8e2beb6f3f8ec8c8fc80be327167">map_user_page</a></div><div class="ttdeci">void map_user_page(uint64_t virt, uint64_t phys, uint64_t flags)</div><div class="ttdoc">Function to map userland pages.</div></div>
 <div class="ttc" id="apaging_8h_html_add90fb72876f7f27b975ec547604eeba"><div class="ttname"><a href="paging_8h.html#add90fb72876f7f27b975ec547604eeba">paging_set_hhdm_offset</a></div><div class="ttdeci">void paging_set_hhdm_offset(uint64_t offset)</div><div class="ttdoc">Sets the HHDM offset used to access physical memory virtually.</div></div>
-<div class="ttc" id="apaging_8h_html_af753d5e110c9c2a038b5f12ba361014a"><div class="ttname"><a href="paging_8h.html#af753d5e110c9c2a038b5f12ba361014a">virt_to_phys</a></div><div class="ttdeci">uint64_t virt_to_phys(void *v)</div></div>
 <div class="ttc" id="astructlimine__memmap__response_html"><div class="ttname"><a href="structlimine__memmap__response.html">limine_memmap_response</a></div><div class="ttdef"><b>Definition</b> limine.h:392</div></div>
 <div class="ttc" id="auserland_8h_html"><div class="ttname"><a href="userland_8h.html">userland.h</a></div><div class="ttdoc">The Header file for userland/userspace.</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -145,7 +137,7 @@ $(function(){initNavTree('paging_8h_source.html','',''); });
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_c9f89f587e7e777be723ee48a3df5844.html">includes</a></li><li class="navelem"><a href="paging_8h.html">paging.h</a></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="paging_8h.html">paging.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

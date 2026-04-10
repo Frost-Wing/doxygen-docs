@@ -1,8 +1,5 @@
 var strings_8h =
 [
-    [ "CONCAT", "strings_8h.html#a770b921e59b3151931ee939a1ecf450e", null ],
-    [ "MAX_WORD_LEN", "strings_8h.html#acd24df7121adef94ef8ff697ad56fb4f", null ],
-    [ "MAX_WORDS", "strings_8h.html#acc74efdd29e34bab649ad665326edfe6", null ],
     [ "contains", "strings_8h.html#ad4bf9c94d6812f96f997ff82d9a8ae79", null ],
     [ "hex_to_string", "strings_8h.html#aa28fe3da6d48d4f08bb650fd87a1defc", null ],
     [ "isspace", "strings_8h.html#a84b34b0058324ae5c0eae4956cf00cc5", null ],
@@ -16,9 +13,7 @@ var strings_8h =
     [ "strlen", "strings_8h.html#ac6d183e349bdef49d19172cdc8944604", null ],
     [ "strncmp", "strings_8h.html#a3f9b56a8efca3a8594a17eb5def6d657", null ],
     [ "strncpy", "strings_8h.html#a65fdc17be44d37786f4e3f831dc9f958", null ],
-    [ "strrchr", "strings_8h.html#af87bb1cdc3d71abcd9aa0bd6d36e50a8", null ],
     [ "strtol", "strings_8h.html#aeafd194f4f11d5efd00480ac4b3fe497", null ],
     [ "trim", "strings_8h.html#a64f40039e0978f40677db6f6eab5f261", null ],
-    [ "trim_inplace", "strings_8h.html#a1872401228be29673766b3e8cb9c8685", null ],
     [ "uint_to_string", "strings_8h.html#a708690034ca5d9acf94992d4b1f1b707", null ]
 ];

@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: nvme_controller_t Struct Reference</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -93,138 +94,38 @@ $(function(){initNavTree('structnvme__controller__t.html','','structnvme__contro
   <div class="headertitle"><div class="title">nvme_controller_t Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="nvme_8h_source.html">nvme.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for nvme_controller_t:</div>
 <div class="dyncontent">
 <div class="center"><img src="structnvme__controller__t__coll__graph.png" border="0" usemap="#anvme__controller__t_coll__map" loading="lazy" alt="Collaboration graph"/></div>
+<map name="anvme__controller__t_coll__map" id="anvme__controller__t_coll__map">
+<area shape="rect" title=" " alt="" coords="54,134,188,164"/>
+<area shape="rect" href="structnvme__regs__t.html" title=" " alt="" coords="5,5,106,35"/>
+<area shape="poly" title=" " alt="" coords="71,47,116,133,111,134,68,51"/>
+<area shape="rect" href="structnvme__queue__t.html" title=" " alt="" coords="130,5,243,35"/>
+<area shape="poly" title=" " alt="" coords="175,48,130,135,126,132,169,50"/>
+</map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a6edfefc3f4c500cf72c58e6d8a82ab11" id="r_a6edfefc3f4c500cf72c58e6d8a82ab11"><td class="memItemLeft"><a class="el" href="structnvme__regs__t.html">nvme_regs_t</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a6edfefc3f4c500cf72c58e6d8a82ab11">regs</a></td></tr>
-<tr class="memitem:a6867065589301b25f5ca0c5eec10f109" id="r_a6867065589301b25f5ca0c5eec10f109"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a6867065589301b25f5ca0c5eec10f109">doorbell_stride</a></td></tr>
-<tr class="memitem:aa41faf0c87b36baecd8de280675345ac" id="r_aa41faf0c87b36baecd8de280675345ac"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#aa41faf0c87b36baecd8de280675345ac">controller_id</a></td></tr>
-<tr class="memitem:a987ccb21cae70ef8161a33c3a111eeef" id="r_a987ccb21cae70ef8161a33c3a111eeef"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a987ccb21cae70ef8161a33c3a111eeef">nn</a></td></tr>
-<tr class="memitem:a426dcf8928e79625f3e006eaba7ca39c" id="r_a426dcf8928e79625f3e006eaba7ca39c"><td class="memItemLeft"><a class="el" href="structnvme__queue__t.html">nvme_queue_t</a>&#160;</td><td class="memItemRight"><a class="el" href="#a426dcf8928e79625f3e006eaba7ca39c">adminq</a></td></tr>
-<tr class="memitem:ab9a34c52e4f7f396702d532714eda9be" id="r_ab9a34c52e4f7f396702d532714eda9be"><td class="memItemLeft"><a class="el" href="structnvme__queue__t.html">nvme_queue_t</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab9a34c52e4f7f396702d532714eda9be">ioq</a></td></tr>
-<tr class="memitem:a1a2b5e5887338cd13755dd4117a2fe28" id="r_a1a2b5e5887338cd13755dd4117a2fe28"><td class="memItemLeft">void *&#160;</td><td class="memItemRight"><a class="el" href="#a1a2b5e5887338cd13755dd4117a2fe28">bounce_buffer</a></td></tr>
-<tr class="memitem:abd27fe53a4a9855540e284ffb7869130" id="r_abd27fe53a4a9855540e284ffb7869130"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#abd27fe53a4a9855540e284ffb7869130">present</a></td></tr>
+<tr class="memitem:a6edfefc3f4c500cf72c58e6d8a82ab11" id="r_a6edfefc3f4c500cf72c58e6d8a82ab11"><td class="memItemLeft"><a id="a6edfefc3f4c500cf72c58e6d8a82ab11" name="a6edfefc3f4c500cf72c58e6d8a82ab11"></a>
+<a class="el" href="structnvme__regs__t.html">nvme_regs_t</a> *&#160;</td><td class="memItemRight"><b>regs</b></td></tr>
+<tr class="memitem:a6867065589301b25f5ca0c5eec10f109" id="r_a6867065589301b25f5ca0c5eec10f109"><td class="memItemLeft"><a id="a6867065589301b25f5ca0c5eec10f109" name="a6867065589301b25f5ca0c5eec10f109"></a>
+uint32_t&#160;</td><td class="memItemRight"><b>doorbell_stride</b></td></tr>
+<tr class="memitem:aa41faf0c87b36baecd8de280675345ac" id="r_aa41faf0c87b36baecd8de280675345ac"><td class="memItemLeft"><a id="aa41faf0c87b36baecd8de280675345ac" name="aa41faf0c87b36baecd8de280675345ac"></a>
+uint32_t&#160;</td><td class="memItemRight"><b>controller_id</b></td></tr>
+<tr class="memitem:a987ccb21cae70ef8161a33c3a111eeef" id="r_a987ccb21cae70ef8161a33c3a111eeef"><td class="memItemLeft"><a id="a987ccb21cae70ef8161a33c3a111eeef" name="a987ccb21cae70ef8161a33c3a111eeef"></a>
+uint32_t&#160;</td><td class="memItemRight"><b>nn</b></td></tr>
+<tr class="memitem:a426dcf8928e79625f3e006eaba7ca39c" id="r_a426dcf8928e79625f3e006eaba7ca39c"><td class="memItemLeft"><a id="a426dcf8928e79625f3e006eaba7ca39c" name="a426dcf8928e79625f3e006eaba7ca39c"></a>
+<a class="el" href="structnvme__queue__t.html">nvme_queue_t</a>&#160;</td><td class="memItemRight"><b>adminq</b></td></tr>
+<tr class="memitem:ab9a34c52e4f7f396702d532714eda9be" id="r_ab9a34c52e4f7f396702d532714eda9be"><td class="memItemLeft"><a id="ab9a34c52e4f7f396702d532714eda9be" name="ab9a34c52e4f7f396702d532714eda9be"></a>
+<a class="el" href="structnvme__queue__t.html">nvme_queue_t</a>&#160;</td><td class="memItemRight"><b>ioq</b></td></tr>
+<tr class="memitem:a1a2b5e5887338cd13755dd4117a2fe28" id="r_a1a2b5e5887338cd13755dd4117a2fe28"><td class="memItemLeft"><a id="a1a2b5e5887338cd13755dd4117a2fe28" name="a1a2b5e5887338cd13755dd4117a2fe28"></a>
+void *&#160;</td><td class="memItemRight"><b>bounce_buffer</b></td></tr>
+<tr class="memitem:abd27fe53a4a9855540e284ffb7869130" id="r_abd27fe53a4a9855540e284ffb7869130"><td class="memItemLeft"><a id="abd27fe53a4a9855540e284ffb7869130" name="abd27fe53a4a9855540e284ffb7869130"></a>
+int&#160;</td><td class="memItemRight"><b>present</b></td></tr>
 </table>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a426dcf8928e79625f3e006eaba7ca39c" name="a426dcf8928e79625f3e006eaba7ca39c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a426dcf8928e79625f3e006eaba7ca39c">&#9670;&#160;</a></span>adminq</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structnvme__queue__t.html">nvme_queue_t</a> nvme_controller_t::adminq</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1a2b5e5887338cd13755dd4117a2fe28" name="a1a2b5e5887338cd13755dd4117a2fe28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a2b5e5887338cd13755dd4117a2fe28">&#9670;&#160;</a></span>bounce_buffer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void* nvme_controller_t::bounce_buffer</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa41faf0c87b36baecd8de280675345ac" name="aa41faf0c87b36baecd8de280675345ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa41faf0c87b36baecd8de280675345ac">&#9670;&#160;</a></span>controller_id</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t nvme_controller_t::controller_id</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6867065589301b25f5ca0c5eec10f109" name="a6867065589301b25f5ca0c5eec10f109"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6867065589301b25f5ca0c5eec10f109">&#9670;&#160;</a></span>doorbell_stride</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t nvme_controller_t::doorbell_stride</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab9a34c52e4f7f396702d532714eda9be" name="ab9a34c52e4f7f396702d532714eda9be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9a34c52e4f7f396702d532714eda9be">&#9670;&#160;</a></span>ioq</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structnvme__queue__t.html">nvme_queue_t</a> nvme_controller_t::ioq</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a987ccb21cae70ef8161a33c3a111eeef" name="a987ccb21cae70ef8161a33c3a111eeef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a987ccb21cae70ef8161a33c3a111eeef">&#9670;&#160;</a></span>nn</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t nvme_controller_t::nn</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abd27fe53a4a9855540e284ffb7869130" name="abd27fe53a4a9855540e284ffb7869130"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd27fe53a4a9855540e284ffb7869130">&#9670;&#160;</a></span>present</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int nvme_controller_t::present</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6edfefc3f4c500cf72c58e6d8a82ab11" name="a6edfefc3f4c500cf72c58e6d8a82ab11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6edfefc3f4c500cf72c58e6d8a82ab11">&#9670;&#160;</a></span>regs</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structnvme__regs__t.html">nvme_regs_t</a>* nvme_controller_t::regs</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>source/includes/<a class="el" href="nvme_8h_source.html">nvme.h</a></li>
 </ul>

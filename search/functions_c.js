@@ -1,28 +1,6 @@
 var searchData=
 [
-  ['main_0',['main',['../kernel_8h.html#a6288eba0f8e8ad3ab1544ad731eb7667',1,'kernel.h']]],
-  ['map_5fuser_5fpage_1',['map_user_page',['../paging_8h.html#ad12b8e2beb6f3f8ec8c8fc80be327167',1,'paging.h']]],
-  ['meltdown_5fscreen_2',['meltdown_screen',['../meltdown_8h.html#a2f2bde7aca834fbb31b5faa2e99f6eca',1,'meltdown.h']]],
-  ['memcmp_3',['memcmp',['../memory_8h.html#a9e6df54ee04e18a3772335580e2ed872',1,'memory.h']]],
-  ['memcpy_4',['memcpy',['../memory_8h.html#aba088e716bccbc96d42da97e96316df1',1,'memory.h']]],
-  ['memmove_5',['memmove',['../memory_8h.html#a340d11725e5c81a874f508fbcdf1c5ef',1,'memory.h']]],
-  ['memory_5fdump_6',['memory_dump',['../memory_8h.html#abf9368946b7a5fe5775ed94ca97bb6cf',1,'memory.h']]],
-  ['memset_7',['memset',['../memory_8h.html#a313175102214d45434bf045db18dddf0',1,'memory.h']]],
-  ['mm_5fconstrict_8',['mm_constrict',['../heap_8h.html#a0475e3c1149b04e16b34120cf601d817',1,'heap.h']]],
-  ['mm_5fextend_9',['mm_extend',['../heap_8h.html#a89e426eee07ea2c83d15eed4cccd5ae2',1,'heap.h']]],
-  ['mm_5finit_10',['mm_init',['../heap_8h.html#afe329a1445522ad4d2b7f1ee45db828f',1,'heap.h']]],
-  ['mm_5fprint_5fout_11',['mm_print_out',['../heap_8h.html#a83aeab638a344db4dab5365af80ca8d5',1,'heap.h']]],
-  ['multitasking_5fcount_5frunning_12',['multitasking_count_running',['../multitasking_8h.html#a62d1a97c6e7a5a1be6d1c28b7d1edfae',1,'multitasking.h']]],
-  ['multitasking_5fcount_5ftasks_13',['multitasking_count_tasks',['../multitasking_8h.html#a64877e482b467254886b42d932d029f4',1,'multitasking.h']]],
-  ['multitasking_5fcurrent_5fpid_14',['multitasking_current_pid',['../multitasking_8h.html#a4ba06055990b4243bc5c06850521d437',1,'multitasking.h']]],
-  ['multitasking_5fexit_5ftask_15',['multitasking_exit_task',['../multitasking_8h.html#ab3eb963347c69f69d2f1948dc888c42d',1,'multitasking.h']]],
-  ['multitasking_5ffor_5feach_5ftask_16',['multitasking_for_each_task',['../multitasking_8h.html#a604d2ab04147cdfc750a5d41bf9ef0ba',1,'multitasking.h']]],
-  ['multitasking_5fget_5ftask_17',['multitasking_get_task',['../multitasking_8h.html#ada0e27d88780307e6115e64f97e61b8c',1,'multitasking.h']]],
-  ['multitasking_5finit_18',['multitasking_init',['../multitasking_8h.html#a698860af0b4c5137370fbf6837a29c21',1,'multitasking.h']]],
-  ['multitasking_5fon_5fpit_5ftick_19',['multitasking_on_pit_tick',['../multitasking_8h.html#a29e142c2d288ed2d6b0b99479013cdfa',1,'multitasking.h']]],
-  ['multitasking_5fpump_20',['multitasking_pump',['../multitasking_8h.html#a938ae865c7f5f5deb467d43bc69eb04f',1,'multitasking.h']]],
-  ['multitasking_5fspawn_5fkernel_21',['multitasking_spawn_kernel',['../multitasking_8h.html#a71a0350e588941391c985f1c8b528ffe',1,'multitasking.h']]],
-  ['multitasking_5fspawn_5fuserland_22',['multitasking_spawn_userland',['../multitasking_8h.html#a548b21189f914db8f4dfa1b5b193340e',1,'multitasking.h']]],
-  ['multitasking_5fstart_5fcursor_5fblink_5ftask_23',['multitasking_start_cursor_blink_task',['../multitasking_8h.html#a99005afcd9dcc6beb74540ebbd7d03da',1,'multitasking.h']]],
-  ['mute_24',['mute',['../pc-speaker_8h.html#a4641ac073645140bf1f9577c2587fe3b',1,'pc-speaker.h']]]
+  ['outb_0',['outb',['../hal_8h.html#a01b3ad1397905fa9db2c57bbbbf9b22c',1,'hal.h']]],
+  ['outl_1',['outl',['../hal_8h.html#ab49f40a6955511c64483feb0f806edf3',1,'hal.h']]],
+  ['outw_2',['outw',['../hal_8h.html#accde7e618c58efdc5b465c083341846f',1,'hal.h']]]
 ];

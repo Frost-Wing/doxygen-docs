@@ -1,5 +1,7 @@
 <map id="source/includes/linkedlist.h" name="source/includes/linkedlist.h">
-<area shape="rect" id="node1" title="Contains a really basic implementation of a linked list." alt="" coords="5,5,204,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="19,80,89,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="114,80,197,107"/>
+<area shape="rect" id="Node000001" title="Contains a really basic implementation of a linked list." alt="" coords="5,5,194,35"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="17,83,86,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,34,71,72,66,68,88,37"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="109,83,188,113"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="110,33,134,70,129,70,108,38"/>
 </map>

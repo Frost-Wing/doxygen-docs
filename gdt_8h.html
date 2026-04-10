@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: source/includes/gdt.h File Reference</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -102,16 +103,24 @@ Include dependency graph for gdt.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="gdt_8h__incl.png" border="0" usemap="#asource_2includes_2gdt_8h" loading="lazy" alt=""/></div>
 <map name="asource_2includes_2gdt_8h" id="asource_2includes_2gdt_8h">
-<area shape="rect" title="Headers for GDT." alt="" coords="9,5,169,32"/>
-<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="51,80,126,107"/>
-<area shape="rect" title=" " alt="" coords="5,155,76,181"/>
-<area shape="rect" title=" " alt="" coords="101,155,175,181"/>
+<area shape="rect" title="The Header file for Global Descriptor Table." alt="" coords="8,5,164,35"/>
+<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="52,83,121,113"/>
+<area shape="poly" title=" " alt="" coords="87,33,89,68,84,67,85,38"/>
+<area shape="rect" title=" " alt="" coords="5,161,74,190"/>
+<area shape="poly" title=" " alt="" coords="79,112,58,149,54,146,75,115"/>
+<area shape="rect" title=" " alt="" coords="98,161,170,190"/>
+<area shape="poly" title=" " alt="" coords="96,111,120,148,114,148,94,116"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="gdt_8h__dep__incl.png" border="0" usemap="#asource_2includes_2gdt_8hdep" loading="lazy" alt=""/></div>
+<map name="asource_2includes_2gdt_8hdep" id="asource_2includes_2gdt_8hdep">
+<area shape="rect" title="The Header file for Global Descriptor Table." alt="" coords="5,5,161,35"/>
+<area shape="rect" href="tss_8h.html" title="Header file for TSS." alt="" coords="7,83,159,113"/>
+<area shape="poly" title=" " alt="" coords="85,49,86,83,80,82,81,53"/>
+</map>
 </div>
 </div>
 <p><a href="gdt_8h_source.html">Go to the source code of this file.</a></p>
@@ -127,21 +136,32 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ae21df847b32e33e64ba0912dd628e610" id="r_ae21df847b32e33e64ba0912dd628e610"><td class="memItemLeft">struct <a class="el" href="structgdt__entry.html">gdt_entry</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae21df847b32e33e64ba0912dd628e610">__attribute__</a> ((packed))</td></tr>
 <tr class="memdesc:ae21df847b32e33e64ba0912dd628e610"><td class="mdescLeft">&#160;</td><td class="mdescRight">AHCI command header structure.  <br /></td></tr>
-<tr class="memitem:a78d5e0c58ba2af554fe2582240b41186" id="r_a78d5e0c58ba2af554fe2582240b41186"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a78d5e0c58ba2af554fe2582240b41186">setup_gdt</a> ()</td></tr>
-<tr class="memdesc:a78d5e0c58ba2af554fe2582240b41186"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the up GDT for the entire OS.  <br /></td></tr>
+<tr class="memitem:a78d5e0c58ba2af554fe2582240b41186" id="r_a78d5e0c58ba2af554fe2582240b41186"><td class="memItemLeft"><a id="a78d5e0c58ba2af554fe2582240b41186" name="a78d5e0c58ba2af554fe2582240b41186"></a>
+void&#160;</td><td class="memItemRight"><b>setup_gdt</b> ()</td></tr>
+<tr class="memdesc:a78d5e0c58ba2af554fe2582240b41186"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the up GDT for the entire OS. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ae3ddd3a17c54770b0da9d086ba99e5ed" id="r_ae3ddd3a17c54770b0da9d086ba99e5ed"><td class="memItemLeft"><a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae3ddd3a17c54770b0da9d086ba99e5ed">limit_low</a></td></tr>
-<tr class="memitem:a71e21ea67de59991e9a27666a1752a8f" id="r_a71e21ea67de59991e9a27666a1752a8f"><td class="memItemLeft">uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a71e21ea67de59991e9a27666a1752a8f">base_low</a></td></tr>
-<tr class="memitem:a6b67e86f6de9204d76adab79069aec29" id="r_a6b67e86f6de9204d76adab79069aec29"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#a6b67e86f6de9204d76adab79069aec29">base_middle</a></td></tr>
-<tr class="memitem:a8b0d6200bc639dd37ff68847a0adde5f" id="r_a8b0d6200bc639dd37ff68847a0adde5f"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#a8b0d6200bc639dd37ff68847a0adde5f">access</a></td></tr>
-<tr class="memitem:acfea365f69e71368a2db03333d4afd6f" id="r_acfea365f69e71368a2db03333d4afd6f"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#acfea365f69e71368a2db03333d4afd6f">granularity</a></td></tr>
-<tr class="memitem:a1a173457c7aa39c59c008fcc3332d2b3" id="r_a1a173457c7aa39c59c008fcc3332d2b3"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#a1a173457c7aa39c59c008fcc3332d2b3">base_high</a></td></tr>
-<tr class="memitem:ab28e82ae69032cb4ad3ec3a0be3d7129" id="r_ab28e82ae69032cb4ad3ec3a0be3d7129"><td class="memItemLeft">uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#ab28e82ae69032cb4ad3ec3a0be3d7129">limit</a></td></tr>
-<tr class="memitem:aeca790c0426654358d031f8180e84aca" id="r_aeca790c0426654358d031f8180e84aca"><td class="memItemLeft">uint64_t&#160;</td><td class="memItemRight"><a class="el" href="#aeca790c0426654358d031f8180e84aca">base</a></td></tr>
-<tr class="memitem:a7f8e1046cf1a78559f4b64da888baf49" id="r_a7f8e1046cf1a78559f4b64da888baf49"><td class="memItemLeft">struct <a class="el" href="structgdt__entry.html">gdt_entry</a>&#160;</td><td class="memItemRight"><a class="el" href="#a7f8e1046cf1a78559f4b64da888baf49">gdt</a> [7]</td></tr>
-<tr class="memitem:a2926b243f7a09617e42d9f167fb98dd6" id="r_a2926b243f7a09617e42d9f167fb98dd6"><td class="memItemLeft">struct <a class="el" href="structgdt__ptr.html">gdt_ptr</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2926b243f7a09617e42d9f167fb98dd6">gdtp</a></td></tr>
+<tr class="memitem:ae3ddd3a17c54770b0da9d086ba99e5ed" id="r_ae3ddd3a17c54770b0da9d086ba99e5ed"><td class="memItemLeft"><a id="ae3ddd3a17c54770b0da9d086ba99e5ed" name="ae3ddd3a17c54770b0da9d086ba99e5ed"></a>
+int16&#160;</td><td class="memItemRight"><b>limit_low</b></td></tr>
+<tr class="memitem:a71e21ea67de59991e9a27666a1752a8f" id="r_a71e21ea67de59991e9a27666a1752a8f"><td class="memItemLeft"><a id="a71e21ea67de59991e9a27666a1752a8f" name="a71e21ea67de59991e9a27666a1752a8f"></a>
+uint16_t&#160;</td><td class="memItemRight"><b>base_low</b></td></tr>
+<tr class="memitem:a6b67e86f6de9204d76adab79069aec29" id="r_a6b67e86f6de9204d76adab79069aec29"><td class="memItemLeft"><a id="a6b67e86f6de9204d76adab79069aec29" name="a6b67e86f6de9204d76adab79069aec29"></a>
+uint8_t&#160;</td><td class="memItemRight"><b>base_middle</b></td></tr>
+<tr class="memitem:a8b0d6200bc639dd37ff68847a0adde5f" id="r_a8b0d6200bc639dd37ff68847a0adde5f"><td class="memItemLeft"><a id="a8b0d6200bc639dd37ff68847a0adde5f" name="a8b0d6200bc639dd37ff68847a0adde5f"></a>
+uint8_t&#160;</td><td class="memItemRight"><b>access</b></td></tr>
+<tr class="memitem:acfea365f69e71368a2db03333d4afd6f" id="r_acfea365f69e71368a2db03333d4afd6f"><td class="memItemLeft"><a id="acfea365f69e71368a2db03333d4afd6f" name="acfea365f69e71368a2db03333d4afd6f"></a>
+uint8_t&#160;</td><td class="memItemRight"><b>granularity</b></td></tr>
+<tr class="memitem:a1a173457c7aa39c59c008fcc3332d2b3" id="r_a1a173457c7aa39c59c008fcc3332d2b3"><td class="memItemLeft"><a id="a1a173457c7aa39c59c008fcc3332d2b3" name="a1a173457c7aa39c59c008fcc3332d2b3"></a>
+uint8_t&#160;</td><td class="memItemRight"><b>base_high</b></td></tr>
+<tr class="memitem:ab28e82ae69032cb4ad3ec3a0be3d7129" id="r_ab28e82ae69032cb4ad3ec3a0be3d7129"><td class="memItemLeft"><a id="ab28e82ae69032cb4ad3ec3a0be3d7129" name="ab28e82ae69032cb4ad3ec3a0be3d7129"></a>
+uint16_t&#160;</td><td class="memItemRight"><b>limit</b></td></tr>
+<tr class="memitem:aeca790c0426654358d031f8180e84aca" id="r_aeca790c0426654358d031f8180e84aca"><td class="memItemLeft"><a id="aeca790c0426654358d031f8180e84aca" name="aeca790c0426654358d031f8180e84aca"></a>
+uint64_t&#160;</td><td class="memItemRight"><b>base</b></td></tr>
+<tr class="memitem:a7f8e1046cf1a78559f4b64da888baf49" id="r_a7f8e1046cf1a78559f4b64da888baf49"><td class="memItemLeft"><a id="a7f8e1046cf1a78559f4b64da888baf49" name="a7f8e1046cf1a78559f4b64da888baf49"></a>
+struct <a class="el" href="structgdt__entry.html">gdt_entry</a>&#160;</td><td class="memItemRight"><b>gdt</b> [7]</td></tr>
+<tr class="memitem:a2926b243f7a09617e42d9f167fb98dd6" id="r_a2926b243f7a09617e42d9f167fb98dd6"><td class="memItemLeft"><a id="a2926b243f7a09617e42d9f167fb98dd6" name="a2926b243f7a09617e42d9f167fb98dd6"></a>
+struct <a class="el" href="structgdt__ptr.html">gdt_ptr</a>&#160;</td><td class="memItemRight"><b>gdtp</b></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The Header file for Global Descriptor Table. </p>
@@ -173,182 +193,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a78d5e0c58ba2af554fe2582240b41186" name="a78d5e0c58ba2af554fe2582240b41186"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78d5e0c58ba2af554fe2582240b41186">&#9670;&#160;</a></span>setup_gdt()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void setup_gdt </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the up GDT for the entire OS. </p>
-
-</div>
-</div>
-<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
-<a id="a8b0d6200bc639dd37ff68847a0adde5f" name="a8b0d6200bc639dd37ff68847a0adde5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b0d6200bc639dd37ff68847a0adde5f">&#9670;&#160;</a></span>access</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t access</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aeca790c0426654358d031f8180e84aca" name="aeca790c0426654358d031f8180e84aca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeca790c0426654358d031f8180e84aca">&#9670;&#160;</a></span>base</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint64_t base</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1a173457c7aa39c59c008fcc3332d2b3" name="a1a173457c7aa39c59c008fcc3332d2b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a173457c7aa39c59c008fcc3332d2b3">&#9670;&#160;</a></span>base_high</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t base_high</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a71e21ea67de59991e9a27666a1752a8f" name="a71e21ea67de59991e9a27666a1752a8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71e21ea67de59991e9a27666a1752a8f">&#9670;&#160;</a></span>base_low</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t base_low</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6b67e86f6de9204d76adab79069aec29" name="a6b67e86f6de9204d76adab79069aec29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b67e86f6de9204d76adab79069aec29">&#9670;&#160;</a></span>base_middle</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t base_middle</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7f8e1046cf1a78559f4b64da888baf49" name="a7f8e1046cf1a78559f4b64da888baf49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f8e1046cf1a78559f4b64da888baf49">&#9670;&#160;</a></span>gdt</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct <a class="el" href="structgdt__entry.html">gdt_entry</a> gdt[7]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2926b243f7a09617e42d9f167fb98dd6" name="a2926b243f7a09617e42d9f167fb98dd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2926b243f7a09617e42d9f167fb98dd6">&#9670;&#160;</a></span>gdtp</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct <a class="el" href="structgdt__ptr.html">gdt_ptr</a> gdtp</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acfea365f69e71368a2db03333d4afd6f" name="acfea365f69e71368a2db03333d4afd6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfea365f69e71368a2db03333d4afd6f">&#9670;&#160;</a></span>granularity</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t granularity</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab28e82ae69032cb4ad3ec3a0be3d7129" name="ab28e82ae69032cb4ad3ec3a0be3d7129"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab28e82ae69032cb4ad3ec3a0be3d7129">&#9670;&#160;</a></span>limit</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t limit</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae3ddd3a17c54770b0da9d086ba99e5ed" name="ae3ddd3a17c54770b0da9d086ba99e5ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3ddd3a17c54770b0da9d086ba99e5ed">&#9670;&#160;</a></span>limit_low</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> limit_low</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
@@ -362,7 +206,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_c9f89f587e7e777be723ee48a3df5844.html">includes</a></li><li class="navelem"><a href="gdt_8h.html">gdt.h</a></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="gdt_8h.html">gdt.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

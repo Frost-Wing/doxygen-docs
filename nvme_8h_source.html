@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: source/includes/nvme.h Source File</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -93,34 +94,33 @@ $(function(){initNavTree('nvme_8h_source.html','',''); });
   <div class="headertitle"><div class="title">nvme.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="nvme_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="foldopen" id="foldopen00001" data-start="{" data-end="}">
-<div class="line"><a id="l00001" name="l00001"></a><span class="lineno"><a class="line" href="nvme_8h.html#ab898071398b359603a35c202e9c65f3b">    1</a></span><span class="preprocessor">#ifndef NVME_H</span></div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef NVME_H</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define NVME_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="nvme_8h.html#a5afd4c9f9d92aa6bf93eda37e46aa497">    6</a></span><span class="preprocessor">#define NVME_MAX_CONTROLLERS 8</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="nvme_8h.html#af102bf301a0a2eb292299846385d0c8b">    7</a></span><span class="preprocessor">#define NVME_MAX_NAMESPACES 16</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="nvme_8h.html#abd6de94b11bc8eb1cc32ad19af0a86e4">    8</a></span><span class="preprocessor">#define NVME_ADMIN_QUEUE_DEPTH 16</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="nvme_8h.html#a9af5ed7f1c7bb086e0fe20dbe8ec459f">    9</a></span><span class="preprocessor">#define NVME_IO_QUEUE_DEPTH 64</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#define NVME_MAX_CONTROLLERS 8</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#define NVME_MAX_NAMESPACES 16</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define NVME_ADMIN_QUEUE_DEPTH 16</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#define NVME_IO_QUEUE_DEPTH 64</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="structnvme__regs__t.html">   11</a></span><span class="keyword">typedef</span> <span class="keyword">volatile</span> <span class="keyword">struct </span>{</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="structnvme__regs__t.html#a5d25cf091103e80d74130ae09f77ccf0">   12</a></span>    uint64_t <a class="code hl_variable" href="structnvme__regs__t.html#a5d25cf091103e80d74130ae09f77ccf0">cap</a>;</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="structnvme__regs__t.html#a94b3deb3ec11c89a59fbbdb3ee7a9503">   13</a></span>    uint32_t <a class="code hl_variable" href="structnvme__regs__t.html#a94b3deb3ec11c89a59fbbdb3ee7a9503">vs</a>;</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="structnvme__regs__t.html#a2738c40e327c3ef8b5f21455bbe2c682">   14</a></span>    uint32_t <a class="code hl_variable" href="structnvme__regs__t.html#a2738c40e327c3ef8b5f21455bbe2c682">intms</a>;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="structnvme__regs__t.html#a87916081fc9182e03801ea8f13ab33c6">   15</a></span>    uint32_t <a class="code hl_variable" href="structnvme__regs__t.html#a87916081fc9182e03801ea8f13ab33c6">intmc</a>;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structnvme__regs__t.html#aba06d39536f230b214c097e81c5b89bb">   16</a></span>    uint32_t <a class="code hl_variable" href="structnvme__regs__t.html#aba06d39536f230b214c097e81c5b89bb">cc</a>;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="structnvme__regs__t.html#ac5583f5f013e658b57f6b93d565199a2">   17</a></span>    uint32_t <a class="code hl_variable" href="structnvme__regs__t.html#ac5583f5f013e658b57f6b93d565199a2">rsv0</a>;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="structnvme__regs__t.html#a90a7b445e1eff4842c6390c92f094fa7">   18</a></span>    uint32_t <a class="code hl_variable" href="structnvme__regs__t.html#a90a7b445e1eff4842c6390c92f094fa7">csts</a>;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="structnvme__regs__t.html#af877d7b310b5282fd9930a15e95eee23">   19</a></span>    uint32_t <a class="code hl_variable" href="structnvme__regs__t.html#af877d7b310b5282fd9930a15e95eee23">nssr</a>;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="structnvme__regs__t.html#a00a74e46c48664a18701808616301831">   20</a></span>    uint32_t <a class="code hl_variable" href="structnvme__regs__t.html#a00a74e46c48664a18701808616301831">aqa</a>;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="structnvme__regs__t.html#aa8734db93205027d6926689d48d3439f">   21</a></span>    uint64_t <a class="code hl_variable" href="structnvme__regs__t.html#aa8734db93205027d6926689d48d3439f">asq</a>;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="structnvme__regs__t.html#ab50adae46fcf9429daa5dd32cd0d43ad">   22</a></span>    uint64_t <a class="code hl_variable" href="structnvme__regs__t.html#ab50adae46fcf9429daa5dd32cd0d43ad">acq</a>;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    uint64_t cap;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    uint32_t vs;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    uint32_t intms;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    uint32_t intmc;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    uint32_t cc;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    uint32_t rsv0;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    uint32_t csts;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    uint32_t nssr;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    uint32_t aqa;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    uint64_t asq;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    uint64_t acq;</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>} <a class="code hl_struct" href="structnvme__regs__t.html">nvme_regs_t</a>;</div>
 </div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="struct____attribute____.html">__attribute__</a>((packed)) {</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_variable" href="acpi_8h.html#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a>((packed)) {</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    uint8_t opcode;</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    uint8_t flags;</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    uint16_t cid;</div>
@@ -135,120 +135,76 @@ $(function(){initNavTree('nvme_8h_source.html','',''); });
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    uint32_t cdw13;</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    uint32_t cdw14;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    uint32_t cdw15;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="nvme_8h.html#a8dd115ff24c2c9fe65ab0c8575a1099f">   40</a></span>} <a class="code hl_variable" href="nvme_8h.html#a8dd115ff24c2c9fe65ab0c8575a1099f">nvme_command_t</a>;</div>
-</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>} nvme_command_t;</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="struct____attribute____.html">__attribute__</a>((packed)) {</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_variable" href="acpi_8h.html#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a>((packed)) {</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    uint32_t dw0;</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    uint32_t rsv0;</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    uint16_t sq_head;</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    uint16_t sq_id;</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    uint16_t cid;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    uint16_t status;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="nvme_8h.html#aee2b20a4da96d343f1b01299052ad4aa">   49</a></span>} <a class="code hl_variable" href="nvme_8h.html#aee2b20a4da96d343f1b01299052ad4aa">nvme_completion_t</a>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>} nvme_completion_t;</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
 <div class="foldopen" id="foldopen00051" data-start="{" data-end="};">
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="structnvme__queue__t.html">   51</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="structnvme__queue__t.html#ad920306a54d5807476b4856bce2c0d60">   52</a></span>    <a class="code hl_variable" href="nvme_8h.html#a8dd115ff24c2c9fe65ab0c8575a1099f">nvme_command_t</a>* <a class="code hl_variable" href="structnvme__queue__t.html#ad920306a54d5807476b4856bce2c0d60">sq</a>;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="structnvme__queue__t.html#a1933a8dad11769611020443d967fabc2">   53</a></span>    <a class="code hl_variable" href="nvme_8h.html#aee2b20a4da96d343f1b01299052ad4aa">nvme_completion_t</a>* <a class="code hl_variable" href="structnvme__queue__t.html#a1933a8dad11769611020443d967fabc2">cq</a>;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="structnvme__queue__t.html#a208d91c4e897563a2d01c363a55885ad">   54</a></span>    uint16_t <a class="code hl_variable" href="structnvme__queue__t.html#a208d91c4e897563a2d01c363a55885ad">qid</a>;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="structnvme__queue__t.html#aed77fccf91765f943c5c0b6702b14997">   55</a></span>    uint16_t <a class="code hl_variable" href="structnvme__queue__t.html#aed77fccf91765f943c5c0b6702b14997">depth</a>;</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="structnvme__queue__t.html#a011d712421bdc17e198be59a08999dc9">   56</a></span>    uint16_t <a class="code hl_variable" href="structnvme__queue__t.html#a011d712421bdc17e198be59a08999dc9">sq_tail</a>;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="structnvme__queue__t.html#a44d938b1a58844ca998082dab8c28c9e">   57</a></span>    uint16_t <a class="code hl_variable" href="structnvme__queue__t.html#a44d938b1a58844ca998082dab8c28c9e">cq_head</a>;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="structnvme__queue__t.html#a580119ca418b35f86c9dfaaf41a57caf">   58</a></span>    uint8_t <a class="code hl_variable" href="structnvme__queue__t.html#a580119ca418b35f86c9dfaaf41a57caf">phase</a>;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    nvme_command_t* sq;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    nvme_completion_t* cq;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    uint16_t qid;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    uint16_t depth;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    uint16_t sq_tail;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    uint16_t cq_head;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    uint8_t phase;</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>} <a class="code hl_struct" href="structnvme__queue__t.html">nvme_queue_t</a>;</div>
 </div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
 <div class="foldopen" id="foldopen00061" data-start="{" data-end="};">
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="structnvme__controller__t.html">   61</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="structnvme__controller__t.html#a6edfefc3f4c500cf72c58e6d8a82ab11">   62</a></span>    <a class="code hl_struct" href="structnvme__regs__t.html">nvme_regs_t</a>* <a class="code hl_variable" href="structnvme__controller__t.html#a6edfefc3f4c500cf72c58e6d8a82ab11">regs</a>;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="structnvme__controller__t.html#a6867065589301b25f5ca0c5eec10f109">   63</a></span>    uint32_t <a class="code hl_variable" href="structnvme__controller__t.html#a6867065589301b25f5ca0c5eec10f109">doorbell_stride</a>;</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="structnvme__controller__t.html#aa41faf0c87b36baecd8de280675345ac">   64</a></span>    uint32_t <a class="code hl_variable" href="structnvme__controller__t.html#aa41faf0c87b36baecd8de280675345ac">controller_id</a>;</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="structnvme__controller__t.html#a987ccb21cae70ef8161a33c3a111eeef">   65</a></span>    uint32_t <a class="code hl_variable" href="structnvme__controller__t.html#a987ccb21cae70ef8161a33c3a111eeef">nn</a>;</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="structnvme__controller__t.html#a426dcf8928e79625f3e006eaba7ca39c">   66</a></span>    <a class="code hl_struct" href="structnvme__queue__t.html">nvme_queue_t</a> <a class="code hl_variable" href="structnvme__controller__t.html#a426dcf8928e79625f3e006eaba7ca39c">adminq</a>;</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="structnvme__controller__t.html#ab9a34c52e4f7f396702d532714eda9be">   67</a></span>    <a class="code hl_struct" href="structnvme__queue__t.html">nvme_queue_t</a> <a class="code hl_variable" href="structnvme__controller__t.html#ab9a34c52e4f7f396702d532714eda9be">ioq</a>;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="structnvme__controller__t.html#a1a2b5e5887338cd13755dd4117a2fe28">   68</a></span>    <span class="keywordtype">void</span>* <a class="code hl_variable" href="structnvme__controller__t.html#a1a2b5e5887338cd13755dd4117a2fe28">bounce_buffer</a>;</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="structnvme__controller__t.html#abd27fe53a4a9855540e284ffb7869130">   69</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structnvme__controller__t.html#abd27fe53a4a9855540e284ffb7869130">present</a>;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <a class="code hl_struct" href="structnvme__regs__t.html">nvme_regs_t</a>* regs;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    uint32_t doorbell_stride;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    uint32_t controller_id;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    uint32_t nn;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <a class="code hl_struct" href="structnvme__queue__t.html">nvme_queue_t</a> adminq;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <a class="code hl_struct" href="structnvme__queue__t.html">nvme_queue_t</a> ioq;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordtype">void</span>* bounce_buffer;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keywordtype">int</span> present;</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>} <a class="code hl_struct" href="structnvme__controller__t.html">nvme_controller_t</a>;</div>
 </div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
 <div class="foldopen" id="foldopen00072" data-start="{" data-end="};">
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="structnvme__namespace__t.html">   72</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="structnvme__namespace__t.html#a5a067c521b382ee1e095a3f96a9fdb72">   73</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structnvme__namespace__t.html#a5a067c521b382ee1e095a3f96a9fdb72">present</a>;</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="structnvme__namespace__t.html#ab9b7a4d012e18e4f37353d8d8e3dcd25">   74</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structnvme__namespace__t.html#ab9b7a4d012e18e4f37353d8d8e3dcd25">controller_index</a>;</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="structnvme__namespace__t.html#a999a88deaaca38a9453b82627aa05fa8">   75</a></span>    uint32_t <a class="code hl_variable" href="structnvme__namespace__t.html#a999a88deaaca38a9453b82627aa05fa8">nsid</a>;</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="structnvme__namespace__t.html#a822edca98e3e734313d51f6e5c46ac32">   76</a></span>    uint64_t <a class="code hl_variable" href="structnvme__namespace__t.html#a822edca98e3e734313d51f6e5c46ac32">total_sectors</a>;</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="structnvme__namespace__t.html#acefc91ce63af30acb96b9e7665ddfb1e">   77</a></span>    uint32_t <a class="code hl_variable" href="structnvme__namespace__t.html#acefc91ce63af30acb96b9e7665ddfb1e">lba_size</a>;</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="structnvme__namespace__t.html#a0ca174bd5c698d3d0594bb3e1392539b">   78</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structnvme__namespace__t.html#a0ca174bd5c698d3d0594bb3e1392539b">logical_device</a>;</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="structnvme__namespace__t.html#a1e753d20e8c6b673daf36ea5a1662bc6">   79</a></span>    <span class="keywordtype">char</span> <a class="code hl_variable" href="structnvme__namespace__t.html#a1e753d20e8c6b673daf36ea5a1662bc6">name</a>[32];</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">int</span> present;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordtype">int</span> controller_index;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    uint32_t nsid;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    uint64_t total_sectors;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    uint32_t lba_size;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordtype">int</span> logical_device;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keywordtype">char</span> name[32];</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>} <a class="code hl_struct" href="structnvme__namespace__t.html">nvme_namespace_t</a>;</div>
 </div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="keyword">extern</span> <a class="code hl_struct" href="structnvme__controller__t.html">nvme_controller_t</a> <a class="code hl_variable" href="nvme_8h.html#a2c949d19462e762b0e5f9459e3d02fac">nvme_controllers</a>[<a class="code hl_define" href="nvme_8h.html#a5afd4c9f9d92aa6bf93eda37e46aa497">NVME_MAX_CONTROLLERS</a>];</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="keyword">extern</span> <a class="code hl_struct" href="structnvme__namespace__t.html">nvme_namespace_t</a> <a class="code hl_variable" href="nvme_8h.html#a68a419c35dde119d761830fbc7b70c80">nvme_namespaces</a>[<a class="code hl_define" href="nvme_8h.html#af102bf301a0a2eb292299846385d0c8b">NVME_MAX_NAMESPACES</a>];</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="nvme_8h.html#af87cc928f780ef65473ea74deef75c90">nvme_namespace_count</a>;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="keyword">extern</span> <a class="code hl_struct" href="structnvme__controller__t.html">nvme_controller_t</a> nvme_controllers[NVME_MAX_CONTROLLERS];</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="keyword">extern</span> <a class="code hl_struct" href="structnvme__namespace__t.html">nvme_namespace_t</a> nvme_namespaces[NVME_MAX_NAMESPACES];</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="keyword">extern</span> <span class="keywordtype">int</span> nvme_namespace_count;</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="nvme_8h.html#a6eb2dee0d06004f114515e5716297340">   86</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="nvme_8h.html#a6eb2dee0d06004f114515e5716297340">probe_nvme</a>(uint8_t bus, uint8_t slot, uint8_t function);</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="nvme_8h.html#a3794884dff5335d78fd91f7f535e50b8">   87</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="nvme_8h.html#a3794884dff5335d78fd91f7f535e50b8">nvme_read_sector</a>(<span class="keywordtype">int</span> namespace_index, uint64_t lba, <span class="keywordtype">void</span>* buffer, uint32_t count);</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="nvme_8h.html#af19b48dd8d657d39171ec1675e38f224">   88</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="nvme_8h.html#af19b48dd8d657d39171ec1675e38f224">nvme_write_sector</a>(<span class="keywordtype">int</span> namespace_index, uint64_t lba, <span class="keywordtype">void</span>* buffer, uint32_t count);</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="keywordtype">void</span> probe_nvme(uint8_t bus, uint8_t slot, uint8_t function);</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="keywordtype">int</span> nvme_read_sector(<span class="keywordtype">int</span> namespace_index, uint64_t lba, <span class="keywordtype">void</span>* buffer, uint32_t count);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="keywordtype">int</span> nvme_write_sector(<span class="keywordtype">int</span> namespace_index, uint64_t lba, <span class="keywordtype">void</span>* buffer, uint32_t count);</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aacpi_8h_html_a720173e80c53ae6b5fa163fd6e81ad27"><div class="ttname"><a href="acpi_8h.html#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a></div><div class="ttdeci">struct acpi_gas __attribute__</div><div class="ttdoc">Physical Region Descriptor Table (PRDT) entry.</div><div class="ttdef"><b>Definition</b> ahci.h:71</div></div>
 <div class="ttc" id="abasics_8h_html"><div class="ttname"><a href="basics_8h.html">basics.h</a></div><div class="ttdoc">This is a basic header files with FrostWing specific short forms and basically a good for life header...</div></div>
-<div class="ttc" id="anvme_8h_html_a2c949d19462e762b0e5f9459e3d02fac"><div class="ttname"><a href="nvme_8h.html#a2c949d19462e762b0e5f9459e3d02fac">nvme_controllers</a></div><div class="ttdeci">nvme_controller_t nvme_controllers[NVME_MAX_CONTROLLERS]</div></div>
-<div class="ttc" id="anvme_8h_html_a3794884dff5335d78fd91f7f535e50b8"><div class="ttname"><a href="nvme_8h.html#a3794884dff5335d78fd91f7f535e50b8">nvme_read_sector</a></div><div class="ttdeci">int nvme_read_sector(int namespace_index, uint64_t lba, void *buffer, uint32_t count)</div></div>
-<div class="ttc" id="anvme_8h_html_a5afd4c9f9d92aa6bf93eda37e46aa497"><div class="ttname"><a href="nvme_8h.html#a5afd4c9f9d92aa6bf93eda37e46aa497">NVME_MAX_CONTROLLERS</a></div><div class="ttdeci">#define NVME_MAX_CONTROLLERS</div><div class="ttdef"><b>Definition</b> nvme.h:6</div></div>
-<div class="ttc" id="anvme_8h_html_a68a419c35dde119d761830fbc7b70c80"><div class="ttname"><a href="nvme_8h.html#a68a419c35dde119d761830fbc7b70c80">nvme_namespaces</a></div><div class="ttdeci">nvme_namespace_t nvme_namespaces[NVME_MAX_NAMESPACES]</div></div>
-<div class="ttc" id="anvme_8h_html_a6eb2dee0d06004f114515e5716297340"><div class="ttname"><a href="nvme_8h.html#a6eb2dee0d06004f114515e5716297340">probe_nvme</a></div><div class="ttdeci">void probe_nvme(uint8_t bus, uint8_t slot, uint8_t function)</div></div>
-<div class="ttc" id="anvme_8h_html_a8dd115ff24c2c9fe65ab0c8575a1099f"><div class="ttname"><a href="nvme_8h.html#a8dd115ff24c2c9fe65ab0c8575a1099f">nvme_command_t</a></div><div class="ttdeci">nvme_command_t</div><div class="ttdef"><b>Definition</b> nvme.h:40</div></div>
-<div class="ttc" id="anvme_8h_html_aee2b20a4da96d343f1b01299052ad4aa"><div class="ttname"><a href="nvme_8h.html#aee2b20a4da96d343f1b01299052ad4aa">nvme_completion_t</a></div><div class="ttdeci">nvme_completion_t</div><div class="ttdef"><b>Definition</b> nvme.h:49</div></div>
-<div class="ttc" id="anvme_8h_html_af102bf301a0a2eb292299846385d0c8b"><div class="ttname"><a href="nvme_8h.html#af102bf301a0a2eb292299846385d0c8b">NVME_MAX_NAMESPACES</a></div><div class="ttdeci">#define NVME_MAX_NAMESPACES</div><div class="ttdef"><b>Definition</b> nvme.h:7</div></div>
-<div class="ttc" id="anvme_8h_html_af19b48dd8d657d39171ec1675e38f224"><div class="ttname"><a href="nvme_8h.html#af19b48dd8d657d39171ec1675e38f224">nvme_write_sector</a></div><div class="ttdeci">int nvme_write_sector(int namespace_index, uint64_t lba, void *buffer, uint32_t count)</div></div>
-<div class="ttc" id="anvme_8h_html_af87cc928f780ef65473ea74deef75c90"><div class="ttname"><a href="nvme_8h.html#af87cc928f780ef65473ea74deef75c90">nvme_namespace_count</a></div><div class="ttdeci">int nvme_namespace_count</div></div>
-<div class="ttc" id="astruct____attribute_____html"><div class="ttname"><a href="struct____attribute____.html">__attribute__</a></div><div class="ttdef"><b>Definition</b> mbr.h:17</div></div>
 <div class="ttc" id="astructnvme__controller__t_html"><div class="ttname"><a href="structnvme__controller__t.html">nvme_controller_t</a></div><div class="ttdef"><b>Definition</b> nvme.h:61</div></div>
-<div class="ttc" id="astructnvme__controller__t_html_a1a2b5e5887338cd13755dd4117a2fe28"><div class="ttname"><a href="structnvme__controller__t.html#a1a2b5e5887338cd13755dd4117a2fe28">nvme_controller_t::bounce_buffer</a></div><div class="ttdeci">void * bounce_buffer</div><div class="ttdef"><b>Definition</b> nvme.h:68</div></div>
-<div class="ttc" id="astructnvme__controller__t_html_a426dcf8928e79625f3e006eaba7ca39c"><div class="ttname"><a href="structnvme__controller__t.html#a426dcf8928e79625f3e006eaba7ca39c">nvme_controller_t::adminq</a></div><div class="ttdeci">nvme_queue_t adminq</div><div class="ttdef"><b>Definition</b> nvme.h:66</div></div>
-<div class="ttc" id="astructnvme__controller__t_html_a6867065589301b25f5ca0c5eec10f109"><div class="ttname"><a href="structnvme__controller__t.html#a6867065589301b25f5ca0c5eec10f109">nvme_controller_t::doorbell_stride</a></div><div class="ttdeci">uint32_t doorbell_stride</div><div class="ttdef"><b>Definition</b> nvme.h:63</div></div>
-<div class="ttc" id="astructnvme__controller__t_html_a6edfefc3f4c500cf72c58e6d8a82ab11"><div class="ttname"><a href="structnvme__controller__t.html#a6edfefc3f4c500cf72c58e6d8a82ab11">nvme_controller_t::regs</a></div><div class="ttdeci">nvme_regs_t * regs</div><div class="ttdef"><b>Definition</b> nvme.h:62</div></div>
-<div class="ttc" id="astructnvme__controller__t_html_a987ccb21cae70ef8161a33c3a111eeef"><div class="ttname"><a href="structnvme__controller__t.html#a987ccb21cae70ef8161a33c3a111eeef">nvme_controller_t::nn</a></div><div class="ttdeci">uint32_t nn</div><div class="ttdef"><b>Definition</b> nvme.h:65</div></div>
-<div class="ttc" id="astructnvme__controller__t_html_aa41faf0c87b36baecd8de280675345ac"><div class="ttname"><a href="structnvme__controller__t.html#aa41faf0c87b36baecd8de280675345ac">nvme_controller_t::controller_id</a></div><div class="ttdeci">uint32_t controller_id</div><div class="ttdef"><b>Definition</b> nvme.h:64</div></div>
-<div class="ttc" id="astructnvme__controller__t_html_ab9a34c52e4f7f396702d532714eda9be"><div class="ttname"><a href="structnvme__controller__t.html#ab9a34c52e4f7f396702d532714eda9be">nvme_controller_t::ioq</a></div><div class="ttdeci">nvme_queue_t ioq</div><div class="ttdef"><b>Definition</b> nvme.h:67</div></div>
-<div class="ttc" id="astructnvme__controller__t_html_abd27fe53a4a9855540e284ffb7869130"><div class="ttname"><a href="structnvme__controller__t.html#abd27fe53a4a9855540e284ffb7869130">nvme_controller_t::present</a></div><div class="ttdeci">int present</div><div class="ttdef"><b>Definition</b> nvme.h:69</div></div>
 <div class="ttc" id="astructnvme__namespace__t_html"><div class="ttname"><a href="structnvme__namespace__t.html">nvme_namespace_t</a></div><div class="ttdef"><b>Definition</b> nvme.h:72</div></div>
-<div class="ttc" id="astructnvme__namespace__t_html_a0ca174bd5c698d3d0594bb3e1392539b"><div class="ttname"><a href="structnvme__namespace__t.html#a0ca174bd5c698d3d0594bb3e1392539b">nvme_namespace_t::logical_device</a></div><div class="ttdeci">int logical_device</div><div class="ttdef"><b>Definition</b> nvme.h:78</div></div>
-<div class="ttc" id="astructnvme__namespace__t_html_a1e753d20e8c6b673daf36ea5a1662bc6"><div class="ttname"><a href="structnvme__namespace__t.html#a1e753d20e8c6b673daf36ea5a1662bc6">nvme_namespace_t::name</a></div><div class="ttdeci">char name[32]</div><div class="ttdef"><b>Definition</b> nvme.h:79</div></div>
-<div class="ttc" id="astructnvme__namespace__t_html_a5a067c521b382ee1e095a3f96a9fdb72"><div class="ttname"><a href="structnvme__namespace__t.html#a5a067c521b382ee1e095a3f96a9fdb72">nvme_namespace_t::present</a></div><div class="ttdeci">int present</div><div class="ttdef"><b>Definition</b> nvme.h:73</div></div>
-<div class="ttc" id="astructnvme__namespace__t_html_a822edca98e3e734313d51f6e5c46ac32"><div class="ttname"><a href="structnvme__namespace__t.html#a822edca98e3e734313d51f6e5c46ac32">nvme_namespace_t::total_sectors</a></div><div class="ttdeci">uint64_t total_sectors</div><div class="ttdef"><b>Definition</b> nvme.h:76</div></div>
-<div class="ttc" id="astructnvme__namespace__t_html_a999a88deaaca38a9453b82627aa05fa8"><div class="ttname"><a href="structnvme__namespace__t.html#a999a88deaaca38a9453b82627aa05fa8">nvme_namespace_t::nsid</a></div><div class="ttdeci">uint32_t nsid</div><div class="ttdef"><b>Definition</b> nvme.h:75</div></div>
-<div class="ttc" id="astructnvme__namespace__t_html_ab9b7a4d012e18e4f37353d8d8e3dcd25"><div class="ttname"><a href="structnvme__namespace__t.html#ab9b7a4d012e18e4f37353d8d8e3dcd25">nvme_namespace_t::controller_index</a></div><div class="ttdeci">int controller_index</div><div class="ttdef"><b>Definition</b> nvme.h:74</div></div>
-<div class="ttc" id="astructnvme__namespace__t_html_acefc91ce63af30acb96b9e7665ddfb1e"><div class="ttname"><a href="structnvme__namespace__t.html#acefc91ce63af30acb96b9e7665ddfb1e">nvme_namespace_t::lba_size</a></div><div class="ttdeci">uint32_t lba_size</div><div class="ttdef"><b>Definition</b> nvme.h:77</div></div>
 <div class="ttc" id="astructnvme__queue__t_html"><div class="ttname"><a href="structnvme__queue__t.html">nvme_queue_t</a></div><div class="ttdef"><b>Definition</b> nvme.h:51</div></div>
-<div class="ttc" id="astructnvme__queue__t_html_a011d712421bdc17e198be59a08999dc9"><div class="ttname"><a href="structnvme__queue__t.html#a011d712421bdc17e198be59a08999dc9">nvme_queue_t::sq_tail</a></div><div class="ttdeci">uint16_t sq_tail</div><div class="ttdef"><b>Definition</b> nvme.h:56</div></div>
-<div class="ttc" id="astructnvme__queue__t_html_a1933a8dad11769611020443d967fabc2"><div class="ttname"><a href="structnvme__queue__t.html#a1933a8dad11769611020443d967fabc2">nvme_queue_t::cq</a></div><div class="ttdeci">nvme_completion_t * cq</div><div class="ttdef"><b>Definition</b> nvme.h:53</div></div>
-<div class="ttc" id="astructnvme__queue__t_html_a208d91c4e897563a2d01c363a55885ad"><div class="ttname"><a href="structnvme__queue__t.html#a208d91c4e897563a2d01c363a55885ad">nvme_queue_t::qid</a></div><div class="ttdeci">uint16_t qid</div><div class="ttdef"><b>Definition</b> nvme.h:54</div></div>
-<div class="ttc" id="astructnvme__queue__t_html_a44d938b1a58844ca998082dab8c28c9e"><div class="ttname"><a href="structnvme__queue__t.html#a44d938b1a58844ca998082dab8c28c9e">nvme_queue_t::cq_head</a></div><div class="ttdeci">uint16_t cq_head</div><div class="ttdef"><b>Definition</b> nvme.h:57</div></div>
-<div class="ttc" id="astructnvme__queue__t_html_a580119ca418b35f86c9dfaaf41a57caf"><div class="ttname"><a href="structnvme__queue__t.html#a580119ca418b35f86c9dfaaf41a57caf">nvme_queue_t::phase</a></div><div class="ttdeci">uint8_t phase</div><div class="ttdef"><b>Definition</b> nvme.h:58</div></div>
-<div class="ttc" id="astructnvme__queue__t_html_ad920306a54d5807476b4856bce2c0d60"><div class="ttname"><a href="structnvme__queue__t.html#ad920306a54d5807476b4856bce2c0d60">nvme_queue_t::sq</a></div><div class="ttdeci">nvme_command_t * sq</div><div class="ttdef"><b>Definition</b> nvme.h:52</div></div>
-<div class="ttc" id="astructnvme__queue__t_html_aed77fccf91765f943c5c0b6702b14997"><div class="ttname"><a href="structnvme__queue__t.html#aed77fccf91765f943c5c0b6702b14997">nvme_queue_t::depth</a></div><div class="ttdeci">uint16_t depth</div><div class="ttdef"><b>Definition</b> nvme.h:55</div></div>
 <div class="ttc" id="astructnvme__regs__t_html"><div class="ttname"><a href="structnvme__regs__t.html">nvme_regs_t</a></div><div class="ttdef"><b>Definition</b> nvme.h:11</div></div>
-<div class="ttc" id="astructnvme__regs__t_html_a00a74e46c48664a18701808616301831"><div class="ttname"><a href="structnvme__regs__t.html#a00a74e46c48664a18701808616301831">nvme_regs_t::aqa</a></div><div class="ttdeci">uint32_t aqa</div><div class="ttdef"><b>Definition</b> nvme.h:20</div></div>
-<div class="ttc" id="astructnvme__regs__t_html_a2738c40e327c3ef8b5f21455bbe2c682"><div class="ttname"><a href="structnvme__regs__t.html#a2738c40e327c3ef8b5f21455bbe2c682">nvme_regs_t::intms</a></div><div class="ttdeci">uint32_t intms</div><div class="ttdef"><b>Definition</b> nvme.h:14</div></div>
-<div class="ttc" id="astructnvme__regs__t_html_a5d25cf091103e80d74130ae09f77ccf0"><div class="ttname"><a href="structnvme__regs__t.html#a5d25cf091103e80d74130ae09f77ccf0">nvme_regs_t::cap</a></div><div class="ttdeci">uint64_t cap</div><div class="ttdef"><b>Definition</b> nvme.h:12</div></div>
-<div class="ttc" id="astructnvme__regs__t_html_a87916081fc9182e03801ea8f13ab33c6"><div class="ttname"><a href="structnvme__regs__t.html#a87916081fc9182e03801ea8f13ab33c6">nvme_regs_t::intmc</a></div><div class="ttdeci">uint32_t intmc</div><div class="ttdef"><b>Definition</b> nvme.h:15</div></div>
-<div class="ttc" id="astructnvme__regs__t_html_a90a7b445e1eff4842c6390c92f094fa7"><div class="ttname"><a href="structnvme__regs__t.html#a90a7b445e1eff4842c6390c92f094fa7">nvme_regs_t::csts</a></div><div class="ttdeci">uint32_t csts</div><div class="ttdef"><b>Definition</b> nvme.h:18</div></div>
-<div class="ttc" id="astructnvme__regs__t_html_a94b3deb3ec11c89a59fbbdb3ee7a9503"><div class="ttname"><a href="structnvme__regs__t.html#a94b3deb3ec11c89a59fbbdb3ee7a9503">nvme_regs_t::vs</a></div><div class="ttdeci">uint32_t vs</div><div class="ttdef"><b>Definition</b> nvme.h:13</div></div>
-<div class="ttc" id="astructnvme__regs__t_html_aa8734db93205027d6926689d48d3439f"><div class="ttname"><a href="structnvme__regs__t.html#aa8734db93205027d6926689d48d3439f">nvme_regs_t::asq</a></div><div class="ttdeci">uint64_t asq</div><div class="ttdef"><b>Definition</b> nvme.h:21</div></div>
-<div class="ttc" id="astructnvme__regs__t_html_ab50adae46fcf9429daa5dd32cd0d43ad"><div class="ttname"><a href="structnvme__regs__t.html#ab50adae46fcf9429daa5dd32cd0d43ad">nvme_regs_t::acq</a></div><div class="ttdeci">uint64_t acq</div><div class="ttdef"><b>Definition</b> nvme.h:22</div></div>
-<div class="ttc" id="astructnvme__regs__t_html_aba06d39536f230b214c097e81c5b89bb"><div class="ttname"><a href="structnvme__regs__t.html#aba06d39536f230b214c097e81c5b89bb">nvme_regs_t::cc</a></div><div class="ttdeci">uint32_t cc</div><div class="ttdef"><b>Definition</b> nvme.h:16</div></div>
-<div class="ttc" id="astructnvme__regs__t_html_ac5583f5f013e658b57f6b93d565199a2"><div class="ttname"><a href="structnvme__regs__t.html#ac5583f5f013e658b57f6b93d565199a2">nvme_regs_t::rsv0</a></div><div class="ttdeci">uint32_t rsv0</div><div class="ttdef"><b>Definition</b> nvme.h:17</div></div>
-<div class="ttc" id="astructnvme__regs__t_html_af877d7b310b5282fd9930a15e95eee23"><div class="ttname"><a href="structnvme__regs__t.html#af877d7b310b5282fd9930a15e95eee23">nvme_regs_t::nssr</a></div><div class="ttdeci">uint32_t nssr</div><div class="ttdef"><b>Definition</b> nvme.h:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_c9f89f587e7e777be723ee48a3df5844.html">includes</a></li><li class="navelem"><a href="nvme_8h.html">nvme.h</a></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><b>nvme.h</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

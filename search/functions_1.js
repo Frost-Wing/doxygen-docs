@@ -3,18 +3,7 @@ var searchData=
   ['acpi_5ffind_5fsdt_0',['acpi_find_sdt',['../acpi_8h.html#a6c27f4adcd1588a94ba2dced1ed49fc3',1,'acpi.h']]],
   ['acpi_5finit_1',['acpi_init',['../acpi_8h.html#ac89f7fd8333fcd61dea9163a99c0fd6c',1,'acpi.h']]],
   ['acpi_5freboot_2',['acpi_reboot',['../acpi_8h.html#a5d8628ae703c03173031e1a57c629d9c',1,'acpi.h']]],
-  ['acpi_5fshutdown_5fhack_3',['acpi_shutdown_hack',['../acpi-shutdown_8h.html#a05e23a122756e737b1018ec548d40961',1,'acpi-shutdown.h']]],
-  ['add_5fgeneral_5fpartition_4',['add_general_partition',['../ahci_8h.html#a2c0ad0f6b48bf344d52b907ca8af1c76',1,'ahci.h']]],
-  ['add_5fmount_5',['add_mount',['../ahci_8h.html#a66138793f5d812f00949de54e334aeaa',1,'ahci.h']]],
-  ['ahci_5fidentify_6',['ahci_identify',['../ahci_8h.html#aef7e233943024cd5caba4ff1591aaa3b',1,'ahci.h']]],
-  ['ahci_5finit_5fport_7',['ahci_init_port',['../ahci_8h.html#ab78fb99f4e105b8e13f78108f1af68cf',1,'ahci.h']]],
-  ['ahci_5fread_5fsector_8',['ahci_read_sector',['../ahci_8h.html#aa338ac9dc86869879a59e349ac9e864c',1,'ahci.h']]],
-  ['ahci_5fwrite_5fsector_9',['ahci_write_sector',['../ahci_8h.html#acc6c4e7bd2fc117d0f318bbf6c4993cb',1,'ahci.h']]],
-  ['allocate_5fmemory_5fat_5faddress_10',['allocate_memory_at_address',['../memory_8h.html#afbdab8b948980164767641683eb44b1c',1,'memory.h']]],
-  ['allocate_5fpage_11',['allocate_page',['../paging_8h.html#a2f64885386b5ef6fcbd65afe778eaf7b',1,'paging.h']]],
-  ['allocate_5fpages_12',['allocate_pages',['../paging_8h.html#a604da78ae02f783061fdd5ac610be1c1',1,'paging.h']]],
-  ['analyze_5fmemory_5fmap_13',['analyze_memory_map',['../memory_8h.html#ab9beb90213a5e726482307e347f2c7fb',1,'memory.h']]],
-  ['asciifilename_14',['asciifilename',['../fwrfs_8h.html#a44bac26443c67ef199987216ee5772a6',1,'fwrfs.h']]],
-  ['ask_5fpassword_15',['ask_password',['../login_8h.html#a989b4059e8c12627f7a2dfb4117aa8a5',1,'login.h']]],
-  ['auto_5fname_5fgpu_16',['auto_name_gpu',['../pci__id_8h.html#a368ee9d0d2c8499bab89a43edf83ff8c',1,'pci_id.h']]]
+  ['allocate_5fmemory_5fat_5faddress_3',['allocate_memory_at_address',['../memory_8h.html#afbdab8b948980164767641683eb44b1c',1,'memory.h']]],
+  ['analyze_5fmemory_5fmap_4',['analyze_memory_map',['../memory_8h.html#ab9beb90213a5e726482307e347f2c7fb',1,'memory.h']]],
+  ['auto_5fname_5fgpu_5',['auto_name_gpu',['../pci__id_8h.html#a368ee9d0d2c8499bab89a43edf83ff8c',1,'pci_id.h']]]
 ];

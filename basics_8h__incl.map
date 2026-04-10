@@ -1,5 +1,7 @@
 <map id="source/includes/basics.h" name="source/includes/basics.h">
-<area shape="rect" id="node1" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="5,5,185,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="12,80,83,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="107,80,182,107"/>
+<area shape="rect" id="Node000001" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="5,5,176,35"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="10,83,78,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,34,63,71,58,68,80,37"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="102,83,175,113"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="101,33,124,70,119,70,98,38"/>
 </map>

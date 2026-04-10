@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['redir_5ft_0',['redir_t',['../structredir__t.html',1,'']]],
-  ['ring_5fbuffer_5ft_1',['ring_buffer_t',['../structring__buffer__t.html',1,'']]],
-  ['rtl8139_2',['rtl8139',['../structrtl8139.html',1,'']]]
+  ['user_5ftask_5fspec_0',['user_task_spec',['../structuser__task__spec.html',1,'']]]
 ];

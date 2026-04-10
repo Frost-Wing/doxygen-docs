@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: source/includes/linkedlist.h Source File</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -103,18 +104,18 @@ $(function(){initNavTree('linkedlist_8h_source.html','',''); });
 <div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structlist__node.html">   16</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structlist__node.html">list_node</a></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="structlist__node.html#a30baba3b27442cbca9694076003ed65e">   18</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="structlist__node.html">list_node</a> *<a class="code hl_variable" href="structlist__node.html#a30baba3b27442cbca9694076003ed65e">prev</a>;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="structlist__node.html#aaa55c3480c90432991e01545b6ff34b5">   19</a></span>    <span class="keywordtype">void</span>* <a class="code hl_variable" href="structlist__node.html#aaa55c3480c90432991e01545b6ff34b5">data</a>;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="structlist__node.html#a0b99ca890dbfe832a8475f4bbd72338c">   20</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="structlist__node.html">list_node</a> *<a class="code hl_variable" href="structlist__node.html#a0b99ca890dbfe832a8475f4bbd72338c">next</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keyword">struct </span><a class="code hl_struct" href="structlist__node.html">list_node</a> *prev;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordtype">void</span>* data;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keyword">struct </span><a class="code hl_struct" href="structlist__node.html">list_node</a> *next;</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>};</div>
 </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
 <div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="structlist.html">   23</a></span><span class="keyword">typedef</span> <span class="keyword">struct</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="structlist.html#ac6e34b4b92aa1f1d0eeb8952d3698c4b">   25</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="structlist__node.html">list_node</a> *<a class="code hl_variable" href="structlist.html#ac6e34b4b92aa1f1d0eeb8952d3698c4b">start</a>;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="structlist.html#a744e76fa8136abf23f7c8581d6ee87aa">   26</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="structlist__node.html">list_node</a> *<a class="code hl_variable" href="structlist.html#a744e76fa8136abf23f7c8581d6ee87aa">end</a>;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="structlist.html#a7c62fa97c4777e6a3e15af9bedbb8b5f">   27</a></span>    uint64_t <a class="code hl_variable" href="structlist.html#a7c62fa97c4777e6a3e15af9bedbb8b5f">size</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">struct </span><a class="code hl_struct" href="structlist__node.html">list_node</a> *start;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keyword">struct </span><a class="code hl_struct" href="structlist__node.html">list_node</a> *end;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    uint64_t size;</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>} <a class="code hl_struct" href="structlist.html">list</a>;</div>
 </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span></div>
@@ -124,7 +125,7 @@ $(function(){initNavTree('linkedlist_8h_source.html','',''); });
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span></div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="linkedlist_8h.html#ae8c76e7a5d6fee9f2f149e2ed05aaa5b">   51</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="linkedlist_8h.html#ae8c76e7a5d6fee9f2f149e2ed05aaa5b">list_empty</a>(<a class="code hl_struct" href="structlist.html">list</a> *obj);</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="linkedlist_8h.html#af7aa32172b96679260cbab5b2a22ec40">   59</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="linkedlist_8h.html#af7aa32172b96679260cbab5b2a22ec40">list_push_back</a>(<a class="code hl_struct" href="structlist.html">list</a> *obj, <span class="keywordtype">void</span>* <a class="code hl_variable" href="structlist__node.html#aaa55c3480c90432991e01545b6ff34b5">data</a>);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="linkedlist_8h.html#af7aa32172b96679260cbab5b2a22ec40">   59</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="linkedlist_8h.html#af7aa32172b96679260cbab5b2a22ec40">list_push_back</a>(<a class="code hl_struct" href="structlist.html">list</a> *obj, <span class="keywordtype">void</span>* data);</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span></div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="linkedlist_8h.html#a7e804208ac280009c0178779bea5719a">   68</a></span><span class="keywordtype">void</span>* <a class="code hl_function" href="linkedlist_8h.html#a7e804208ac280009c0178779bea5719a">list_pop_back</a>(<a class="code hl_struct" href="structlist.html">list</a> *obj);</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span></div>
@@ -141,20 +142,14 @@ $(function(){initNavTree('linkedlist_8h_source.html','',''); });
 <div class="ttc" id="alinkedlist_8h_html_ae8c76e7a5d6fee9f2f149e2ed05aaa5b"><div class="ttname"><a href="linkedlist_8h.html#ae8c76e7a5d6fee9f2f149e2ed05aaa5b">list_empty</a></div><div class="ttdeci">bool list_empty(list *obj)</div><div class="ttdoc">Checks if the list is empty.</div></div>
 <div class="ttc" id="alinkedlist_8h_html_af7aa32172b96679260cbab5b2a22ec40"><div class="ttname"><a href="linkedlist_8h.html#af7aa32172b96679260cbab5b2a22ec40">list_push_back</a></div><div class="ttdeci">void list_push_back(list *obj, void *data)</div><div class="ttdoc">Adds an object to the list.</div></div>
 <div class="ttc" id="astructlist__node_html"><div class="ttname"><a href="structlist__node.html">list_node</a></div><div class="ttdef"><b>Definition</b> linkedlist.h:17</div></div>
-<div class="ttc" id="astructlist__node_html_a0b99ca890dbfe832a8475f4bbd72338c"><div class="ttname"><a href="structlist__node.html#a0b99ca890dbfe832a8475f4bbd72338c">list_node::next</a></div><div class="ttdeci">struct list_node * next</div><div class="ttdef"><b>Definition</b> linkedlist.h:20</div></div>
-<div class="ttc" id="astructlist__node_html_a30baba3b27442cbca9694076003ed65e"><div class="ttname"><a href="structlist__node.html#a30baba3b27442cbca9694076003ed65e">list_node::prev</a></div><div class="ttdeci">struct list_node * prev</div><div class="ttdef"><b>Definition</b> linkedlist.h:18</div></div>
-<div class="ttc" id="astructlist__node_html_aaa55c3480c90432991e01545b6ff34b5"><div class="ttname"><a href="structlist__node.html#aaa55c3480c90432991e01545b6ff34b5">list_node::data</a></div><div class="ttdeci">void * data</div><div class="ttdef"><b>Definition</b> linkedlist.h:19</div></div>
 <div class="ttc" id="astructlist_html"><div class="ttname"><a href="structlist.html">list</a></div><div class="ttdef"><b>Definition</b> linkedlist.h:24</div></div>
-<div class="ttc" id="astructlist_html_a744e76fa8136abf23f7c8581d6ee87aa"><div class="ttname"><a href="structlist.html#a744e76fa8136abf23f7c8581d6ee87aa">list::end</a></div><div class="ttdeci">struct list_node * end</div><div class="ttdef"><b>Definition</b> linkedlist.h:26</div></div>
-<div class="ttc" id="astructlist_html_a7c62fa97c4777e6a3e15af9bedbb8b5f"><div class="ttname"><a href="structlist.html#a7c62fa97c4777e6a3e15af9bedbb8b5f">list::size</a></div><div class="ttdeci">uint64_t size</div><div class="ttdef"><b>Definition</b> linkedlist.h:27</div></div>
-<div class="ttc" id="astructlist_html_ac6e34b4b92aa1f1d0eeb8952d3698c4b"><div class="ttname"><a href="structlist.html#ac6e34b4b92aa1f1d0eeb8952d3698c4b">list::start</a></div><div class="ttdeci">struct list_node * start</div><div class="ttdef"><b>Definition</b> linkedlist.h:25</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_c9f89f587e7e777be723ee48a3df5844.html">includes</a></li><li class="navelem"><a href="linkedlist_8h.html">linkedlist.h</a></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="linkedlist_8h.html">linkedlist.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

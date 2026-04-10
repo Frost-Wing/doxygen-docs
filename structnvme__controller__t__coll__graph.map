@@ -1,0 +1,7 @@
+<map id="nvme_controller_t" name="nvme_controller_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="54,134,188,164"/>
+<area shape="rect" id="Node000002" href="$structnvme__regs__t.html" title=" " alt="" coords="5,5,106,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,47,116,133,111,134,68,51"/>
+<area shape="rect" id="Node000003" href="$structnvme__queue__t.html" title=" " alt="" coords="130,5,243,35"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,48,130,135,126,132,169,50"/>
+</map>

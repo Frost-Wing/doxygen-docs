@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: source/includes/strings.h Source File</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -99,37 +100,35 @@ $(function(){initNavTree('strings_8h_source.html','',''); });
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="strings_8h.html#acc74efdd29e34bab649ad665326edfe6">   16</a></span><span class="preprocessor">#define MAX_WORDS 30</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="strings_8h.html#acd24df7121adef94ef8ff697ad56fb4f">   17</a></span><span class="preprocessor">#define MAX_WORD_LEN 40</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#define MAX_WORDS 30</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#define MAX_WORD_LEN 40</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="foldopen" id="foldopen00019" data-start="" data-end="">
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="strings_8h.html#a770b921e59b3151931ee939a1ecf450e">   19</a></span><span class="preprocessor">#define CONCAT(...) \</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#define CONCAT(...) \</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">    str_concat_impl(sizeof((const char*[]){__VA_ARGS__}) / sizeof(const char*), __VA_ARGS__)</span></div>
-</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="comment">// typedef char symbol[];</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span></div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="strings_8h.html#ac6d183e349bdef49d19172cdc8944604">   33</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="strings_8h.html#ac6d183e349bdef49d19172cdc8944604">strlen</a>(<span class="keywordtype">char</span> s[]);</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="strings_8h.html#a2b38094492e1c21bba621794841a075a">   42</a></span><span class="keywordtype">string</span> <a class="code hl_function" href="strings_8h.html#a2b38094492e1c21bba621794841a075a">strcpy</a>(<span class="keywordtype">string</span> dest, <a class="code hl_typedef" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> src);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="strings_8h.html#a2b38094492e1c21bba621794841a075a">   42</a></span><span class="keywordtype">string</span> <a class="code hl_function" href="strings_8h.html#a2b38094492e1c21bba621794841a075a">strcpy</a>(<span class="keywordtype">string</span> dest, cstring src);</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="strings_8h.html#a65fdc17be44d37786f4e3f831dc9f958">   52</a></span><span class="keywordtype">string</span> <a class="code hl_function" href="strings_8h.html#a65fdc17be44d37786f4e3f831dc9f958">strncpy</a>(<span class="keywordtype">string</span> dest, <a class="code hl_typedef" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> src, <span class="keywordtype">size_t</span> n);</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="strings_8h.html#a65fdc17be44d37786f4e3f831dc9f958">   52</a></span><span class="keywordtype">string</span> <a class="code hl_function" href="strings_8h.html#a65fdc17be44d37786f4e3f831dc9f958">strncpy</a>(<span class="keywordtype">string</span> dest, cstring src, <span class="keywordtype">size_t</span> n);</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span></div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="strings_8h.html#a3e3960988d8e58199dd7b8dc3d34d215">   66</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="strings_8h.html#a3e3960988d8e58199dd7b8dc3d34d215">strcmp</a>(<a class="code hl_typedef" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> s1, <a class="code hl_typedef" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> s2);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="strings_8h.html#a3e3960988d8e58199dd7b8dc3d34d215">   66</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="strings_8h.html#a3e3960988d8e58199dd7b8dc3d34d215">strcmp</a>(cstring s1, cstring s2);</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span></div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="strings_8h.html#a3f9b56a8efca3a8594a17eb5def6d657">   81</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="strings_8h.html#a3f9b56a8efca3a8594a17eb5def6d657">strncmp</a>(<a class="code hl_typedef" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> s1, <a class="code hl_typedef" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> s2, <span class="keywordtype">size_t</span> n);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="strings_8h.html#a3f9b56a8efca3a8594a17eb5def6d657">   81</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="strings_8h.html#a3f9b56a8efca3a8594a17eb5def6d657">strncmp</a>(cstring s1, cstring s2, <span class="keywordtype">size_t</span> n);</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span></div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="strings_8h.html#ad4bf9c94d6812f96f997ff82d9a8ae79">   92</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="strings_8h.html#ad4bf9c94d6812f96f997ff82d9a8ae79">contains</a>(<a class="code hl_typedef" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> str, <a class="code hl_typedef" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> substr);</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="strings_8h.html#ad4bf9c94d6812f96f997ff82d9a8ae79">   92</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="strings_8h.html#ad4bf9c94d6812f96f997ff82d9a8ae79">contains</a>(cstring str, cstring substr);</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span></div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="strings_8h.html#afc517566d6d8d5e0a28d5a2058f1fa0f">  106</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="strings_8h.html#afc517566d6d8d5e0a28d5a2058f1fa0f">string_transport_front</a>(<span class="keywordtype">char</span> *str, <span class="keywordtype">int</span> x);</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span></div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="strings_8h.html#a64f40039e0978f40677db6f6eab5f261">  118</a></span><span class="keywordtype">string</span> <a class="code hl_function" href="strings_8h.html#a64f40039e0978f40677db6f6eab5f261">trim</a>(<a class="code hl_typedef" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> str);</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="strings_8h.html#a64f40039e0978f40677db6f6eab5f261">  118</a></span><span class="keywordtype">string</span> <a class="code hl_function" href="strings_8h.html#a64f40039e0978f40677db6f6eab5f261">trim</a>(cstring str);</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span></div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno"><a class="line" href="strings_8h.html#ae3ce299bf4493c84c39e8fc552ee86c8">  131</a></span><span class="keywordtype">string</span> <a class="code hl_function" href="strings_8h.html#ae3ce299bf4493c84c39e8fc552ee86c8">strcat</a>(<span class="keywordtype">string</span> dest, <a class="code hl_typedef" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> src);</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno"><a class="line" href="strings_8h.html#ae3ce299bf4493c84c39e8fc552ee86c8">  131</a></span><span class="keywordtype">string</span> <a class="code hl_function" href="strings_8h.html#ae3ce299bf4493c84c39e8fc552ee86c8">strcat</a>(<span class="keywordtype">string</span> dest, cstring src);</div>
 <div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span></div>
 <div class="line"><a id="l00138" name="l00138"></a><span class="lineno"><a class="line" href="strings_8h.html#ab8742b3fde0c51ed53cf7ac80dd42f9a">  138</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="strings_8h.html#ab8742b3fde0c51ed53cf7ac80dd42f9a">remove_last_char</a>(<span class="keywordtype">string</span> str);</div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span></div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno"><a class="line" href="strings_8h.html#aeafd194f4f11d5efd00480ac4b3fe497">  149</a></span><span class="keywordtype">long</span> <a class="code hl_function" href="strings_8h.html#aeafd194f4f11d5efd00480ac4b3fe497">strtol</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *str, <span class="keywordtype">char</span> **endptr, <span class="keywordtype">int</span> <a class="code hl_variable" href="gdt_8h.html#aeca790c0426654358d031f8180e84aca">base</a>);</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno"><a class="line" href="strings_8h.html#aeafd194f4f11d5efd00480ac4b3fe497">  149</a></span><span class="keywordtype">long</span> <a class="code hl_function" href="strings_8h.html#aeafd194f4f11d5efd00480ac4b3fe497">strtol</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *str, <span class="keywordtype">char</span> **endptr, <span class="keywordtype">int</span> base);</div>
 <div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span></div>
 <div class="line"><a id="l00157" name="l00157"></a><span class="lineno"><a class="line" href="strings_8h.html#a708690034ca5d9acf94992d4b1f1b707">  157</a></span><span class="keywordtype">char</span>* <a class="code hl_function" href="strings_8h.html#a708690034ca5d9acf94992d4b1f1b707">uint_to_string</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> num);</div>
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span></div>
@@ -141,14 +140,11 @@ $(function(){initNavTree('strings_8h_source.html','',''); });
 <div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span></div>
 <div class="line"><a id="l00190" name="l00190"></a><span class="lineno"><a class="line" href="strings_8h.html#a84b34b0058324ae5c0eae4956cf00cc5">  190</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="strings_8h.html#a84b34b0058324ae5c0eae4956cf00cc5">isspace</a>(<span class="keywordtype">char</span> c);</div>
 <div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span> </div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno"><a class="line" href="strings_8h.html#a1872401228be29673766b3e8cb9c8685">  192</a></span><span class="keywordtype">char</span>* <a class="code hl_function" href="strings_8h.html#a1872401228be29673766b3e8cb9c8685">trim_inplace</a>(<span class="keywordtype">char</span>* s);</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span><span class="keywordtype">char</span>* trim_inplace(<span class="keywordtype">char</span>* s);</div>
 <div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span> </div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno"><a class="line" href="strings_8h.html#af87bb1cdc3d71abcd9aa0bd6d36e50a8">  194</a></span><span class="keywordtype">char</span>* <a class="code hl_function" href="strings_8h.html#af87bb1cdc3d71abcd9aa0bd6d36e50a8">strrchr</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* s, <span class="keywordtype">int</span> c);</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span><span class="keywordtype">char</span>* strrchr(<span class="keyword">const</span> <span class="keywordtype">char</span>* s, <span class="keywordtype">int</span> c);</div>
 <div class="ttc" id="abasics_8h_html"><div class="ttname"><a href="basics_8h.html">basics.h</a></div><div class="ttdoc">This is a basic header files with FrostWing specific short forms and basically a good for life header...</div></div>
-<div class="ttc" id="abasics_8h_html_a5a6534f59959c993a087b6bd6baa5e27"><div class="ttname"><a href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a></div><div class="ttdeci">const char * cstring</div><div class="ttdef"><b>Definition</b> basics.h:22</div></div>
-<div class="ttc" id="agdt_8h_html_aeca790c0426654358d031f8180e84aca"><div class="ttname"><a href="gdt_8h.html#aeca790c0426654358d031f8180e84aca">base</a></div><div class="ttdeci">uint64_t base</div><div class="ttdef"><b>Definition</b> gdt.h:1</div></div>
 <div class="ttc" id="astrings_8h_html_a0b1902f4461f2028ae371589a1e24f10"><div class="ttname"><a href="strings_8h.html#a0b1902f4461f2028ae371589a1e24f10">leading_trailing_trim</a></div><div class="ttdeci">char * leading_trailing_trim(const char *str)</div><div class="ttdoc">Removes the leading and trailing spaces.</div></div>
-<div class="ttc" id="astrings_8h_html_a1872401228be29673766b3e8cb9c8685"><div class="ttname"><a href="strings_8h.html#a1872401228be29673766b3e8cb9c8685">trim_inplace</a></div><div class="ttdeci">char * trim_inplace(char *s)</div></div>
 <div class="ttc" id="astrings_8h_html_a2b38094492e1c21bba621794841a075a"><div class="ttname"><a href="strings_8h.html#a2b38094492e1c21bba621794841a075a">strcpy</a></div><div class="ttdeci">string strcpy(string dest, cstring src)</div><div class="ttdoc">Copies a string from src to dest.</div></div>
 <div class="ttc" id="astrings_8h_html_a33d7dc03dbad9e30742aab13f9185730"><div class="ttname"><a href="strings_8h.html#a33d7dc03dbad9e30742aab13f9185730">splitf</a></div><div class="ttdeci">char ** splitf(const char *str, char delim, int *num_tokens)</div><div class="ttdoc">Splits a string into tokens based on a delimiter.</div></div>
 <div class="ttc" id="astrings_8h_html_a3e3960988d8e58199dd7b8dc3d34d215"><div class="ttname"><a href="strings_8h.html#a3e3960988d8e58199dd7b8dc3d34d215">strcmp</a></div><div class="ttdeci">int strcmp(cstring s1, cstring s2)</div><div class="ttdoc">Compares two strings lexicographically.</div></div>
@@ -163,7 +159,6 @@ $(function(){initNavTree('strings_8h_source.html','',''); });
 <div class="ttc" id="astrings_8h_html_ad4bf9c94d6812f96f997ff82d9a8ae79"><div class="ttname"><a href="strings_8h.html#ad4bf9c94d6812f96f997ff82d9a8ae79">contains</a></div><div class="ttdeci">bool contains(cstring str, cstring substr)</div><div class="ttdoc">Check if a substring is found within a string.</div></div>
 <div class="ttc" id="astrings_8h_html_ae3ce299bf4493c84c39e8fc552ee86c8"><div class="ttname"><a href="strings_8h.html#ae3ce299bf4493c84c39e8fc552ee86c8">strcat</a></div><div class="ttdeci">string strcat(string dest, cstring src)</div><div class="ttdoc">Concatenate two strings.</div></div>
 <div class="ttc" id="astrings_8h_html_aeafd194f4f11d5efd00480ac4b3fe497"><div class="ttname"><a href="strings_8h.html#aeafd194f4f11d5efd00480ac4b3fe497">strtol</a></div><div class="ttdeci">long strtol(const char *str, char **endptr, int base)</div><div class="ttdoc">Converts a string to a long integer.</div></div>
-<div class="ttc" id="astrings_8h_html_af87bb1cdc3d71abcd9aa0bd6d36e50a8"><div class="ttname"><a href="strings_8h.html#af87bb1cdc3d71abcd9aa0bd6d36e50a8">strrchr</a></div><div class="ttdeci">char * strrchr(const char *s, int c)</div></div>
 <div class="ttc" id="astrings_8h_html_afc517566d6d8d5e0a28d5a2058f1fa0f"><div class="ttname"><a href="strings_8h.html#afc517566d6d8d5e0a28d5a2058f1fa0f">string_transport_front</a></div><div class="ttdeci">void string_transport_front(char *str, int x)</div><div class="ttdoc">Move the last x characters of a string to the front and delete the rest.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -171,7 +166,7 @@ $(function(){initNavTree('strings_8h_source.html','',''); });
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_c9f89f587e7e777be723ee48a3df5844.html">includes</a></li><li class="navelem"><a href="strings_8h.html">strings.h</a></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="strings_8h.html">strings.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

@@ -1,5 +1,26 @@
 var searchData=
 [
-  ['nvme_5fread_5fsector_0',['nvme_read_sector',['../nvme_8h.html#a3794884dff5335d78fd91f7f535e50b8',1,'nvme.h']]],
-  ['nvme_5fwrite_5fsector_1',['nvme_write_sector',['../nvme_8h.html#af19b48dd8d657d39171ec1675e38f224',1,'nvme.h']]]
+  ['paging_5fset_5fhhdm_5foffset_0',['paging_set_hhdm_offset',['../paging_8h.html#add90fb72876f7f27b975ec547604eeba',1,'paging.h']]],
+  ['parse_5fclass_1',['parse_class',['../pci__id_8h.html#a2ef1035dfed9b3bebb7bcff54e9c8855',1,'pci_id.h']]],
+  ['parse_5fvendor_2',['parse_vendor',['../pci__id_8h.html#acf9a06b2baa47d7a8e7427f114a3c605',1,'pci_id.h']]],
+  ['pci_5fconfig_5fread_5fdword_3',['pci_config_read_dword',['../pci_8h.html#a66ba18e39a8d7e1df9c60e373c44b849',1,'pci.h']]],
+  ['pci_5flookup_4',['pci_lookup',['../pci__id_8h.html#a7c86733747710a1a05bd66838a0ddc7b',1,'pci_id.h']]],
+  ['pci_5fread_5fword_5',['pci_read_word',['../pci_8h.html#af2126c3e5d896f9aa9d2bc0f46af11fa',1,'pci.h']]],
+  ['print_6',['print',['../graphics_8h.html#a7f6608ce1fa3da4eac760e349e5b4e00',1,'graphics.h']]],
+  ['print_5fbitmap_7',['print_bitmap',['../graphics_8h.html#a620ac0c6bf086853a94373682064c6e6',1,'graphics.h']]],
+  ['print_5fcpu_5finfo_8',['print_cpu_info',['../cpuid2_8h.html#a823bff2120fee3abcbe0f103b8162d45',1,'cpuid2.h']]],
+  ['print_5fl1_5fcache_5finfo_9',['print_L1_cache_info',['../cpuid2_8h.html#a5928988067dbfed760bba7d32f1e406c',1,'cpuid2.h']]],
+  ['print_5fl2_5fcache_5finfo_10',['print_L2_cache_info',['../cpuid2_8h.html#a6e19b2c23ab3e776a7f5ba25e9d3b478',1,'cpuid2.h']]],
+  ['print_5fl3_5fcache_5finfo_11',['print_L3_cache_info',['../cpuid2_8h.html#a40a19e00db405010fed0c5b81be20363',1,'cpuid2.h']]],
+  ['printbin_12',['printbin',['../graphics_8h.html#a9dc6ca1560e21c7a19adcd7d4ea17a87',1,'graphics.h']]],
+  ['printf_5finternal_13',['printf_internal',['../graphics_8h.html#a2cd91d94631eafb08cdc0dfadd6e6937',1,'graphics.h']]],
+  ['printfnoln_5finternal_14',['printfnoln_internal',['../graphics_8h.html#a8e78369ba07d03b04678417b9143bb7c',1,'graphics.h']]],
+  ['probe_5fahci_15',['probe_ahci',['../pci__id_8h.html#a87f568896ae4ab372320d11e29980698',1,'pci_id.h']]],
+  ['probe_5fpci_16',['probe_pci',['../pci_8h.html#ac78377dc4a7021491c3f3da150e3e4a9',1,'pci.h']]],
+  ['probe_5frtl8139_17',['probe_rtl8139',['../pci__id_8h.html#a2e7f09e595a2800bb574d09950b23649',1,'pci_id.h']]],
+  ['process_5fkeyboard_18',['process_keyboard',['../keyboard_8h.html#a7e361042b1f078db45f230a7eacc0e6c',1,'keyboard.h']]],
+  ['process_5fmouse_19',['process_mouse',['../ps2-mouse_8h.html#a2d7435fd33eb778258e210a6fa0b43c2',1,'ps2-mouse.h']]],
+  ['process_5fpit_20',['process_pit',['../pit_8h.html#ab1b42c4ee6168ab7d22e46fc518d1b5a',1,'pit.h']]],
+  ['push_5fcommand_5fto_5flist_21',['push_command_to_list',['../sh__util_8h.html#ad6790e4b0022f4649e0e50d2f4ec41ba',1,'sh_util.h']]],
+  ['putc_22',['putc',['../graphics_8h.html#acc0ee6e9643f83a5ab11722197fc25ec',1,'graphics.h']]]
 ];

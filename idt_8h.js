@@ -1,27 +1,8 @@
 var idt_8h =
 [
-    [ "IDTEntry", "structIDTEntry.html", "structIDTEntry" ],
-    [ "IDTPointer", "structIDTPointer.html", "structIDTPointer" ],
-    [ "EFER_SCE", "idt_8h.html#a90351b9670dc923361ae15e7f8d4f8ec", null ],
-    [ "IA32_EFER", "idt_8h.html#a781940174888ffe44a60eac2cef0c9ff", null ],
-    [ "IA32_FMASK", "idt_8h.html#a3a69543dc8732e4059fe779ed07d9655", null ],
-    [ "IA32_LSTAR", "idt_8h.html#a591479e9e26bb3a18a1dd959ab4e5e82", null ],
-    [ "IA32_STAR", "idt_8h.html#ac177c522e3e9cf4ff3143d9e9b4057e3", null ],
-    [ "ICW1_ICW4", "idt_8h.html#a964d12193d2b36e8a7ec7fa57438e313", null ],
-    [ "ICW1_INIT", "idt_8h.html#a286dc251f3d73c08e08a53a4696f31ef", null ],
-    [ "ICW4_8086", "idt_8h.html#a42803c5ddcec9e120a6dbf7bc5c1b7af", null ],
+    [ "IDTEntry", "structIDTEntry.html", null ],
+    [ "IDTPointer", "structIDTPointer.html", null ],
     [ "__attribute__", "idt_8h.html#a0445d748a86d3043a09a99c5c64d4d0a", null ],
     [ "init_syscall", "idt_8h.html#a3e64f9d87cb92e4dc7d748a495e232f1", null ],
-    [ "initIdt", "idt_8h.html#a71b5dec0198d1225e9b552af529235ab", null ],
-    [ "setIdtEntry", "idt_8h.html#a07f528ded89a2c9d4e9406a31a93244e", null ],
-    [ "syscall_entry", "idt_8h.html#acb026f235ea1f3cf01f77bdcfa31fd12", null ],
-    [ "ist", "idt_8h.html#a254d5bd1552992f9c17e038f363987ec", null ],
-    [ "offset", "idt_8h.html#a612bb2807d848cca89ea1437cceea886", null ],
-    [ "offset_1", "idt_8h.html#a76ea706dc2651399cf5716cb5a43d784", null ],
-    [ "offset_2", "idt_8h.html#aa18dd24379a45a52460ba2a95194cdb2", null ],
-    [ "offset_3", "idt_8h.html#a4be04fdeed2e2f7a688472f0f38390fc", null ],
-    [ "selector", "idt_8h.html#a1c44289c163c1460544d6ee0900d02ba", null ],
-    [ "size", "idt_8h.html#aaba88b24a21a6c70c895c0d55f4a69a0", null ],
-    [ "type_attributes", "idt_8h.html#a771f46b9319de86ef361459e347db04f", null ],
-    [ "zero", "idt_8h.html#a85a38ad3adb021b224bf4d87a0465119", null ]
+    [ "syscall_entry", "idt_8h.html#acb026f235ea1f3cf01f77bdcfa31fd12", null ]
 ];

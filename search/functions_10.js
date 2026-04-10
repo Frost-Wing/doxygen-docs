@@ -1,21 +1,5 @@
 var searchData=
 [
-  ['rb_5fclear_0',['rb_clear',['../ringbuffer_8h.html#abe420aadad742a5ab16dc0d2ca2d7282',1,'ringbuffer.h']]],
-  ['rb_5fempty_1',['rb_empty',['../ringbuffer_8h.html#a37da2796cb4a8922a2bdae6d867262f7',1,'ringbuffer.h']]],
-  ['rb_5ffree_2',['rb_free',['../ringbuffer_8h.html#a4604360c7c9ef889e4e09f395460edcd',1,'ringbuffer.h']]],
-  ['rb_5ffull_3',['rb_full',['../ringbuffer_8h.html#a5cc866409cbb8840f1c94d2852976410',1,'ringbuffer.h']]],
-  ['rb_5finit_4',['rb_init',['../ringbuffer_8h.html#aae7bb7d07bf301753c8ad1af137c900a',1,'ringbuffer.h']]],
-  ['rb_5fpeek_5',['rb_peek',['../ringbuffer_8h.html#a281aefbd3e27f48d02715707aae1e6ed',1,'ringbuffer.h']]],
-  ['rb_5fpop_6',['rb_pop',['../ringbuffer_8h.html#a4d28de42ecf23d7e40b3d56e2076f23b',1,'ringbuffer.h']]],
-  ['rb_5fpush_7',['rb_push',['../ringbuffer_8h.html#a4bd4ec4bfe4f65572556105c80eef269',1,'ringbuffer.h']]],
-  ['rb_5fsize_8',['rb_size',['../ringbuffer_8h.html#a69bd00d201517061bb71880e91295c98',1,'ringbuffer.h']]],
-  ['read_5fmac_5faddress_9',['read_mac_address',['../rtl8139_8h.html#a596c10239b46518b9d0f992105ae0a13',1,'rtl8139.h']]],
-  ['read_5frtc_5fregister_10',['read_rtc_register',['../rtc_8h.html#afdc1788b05cad808e61cc90e03f0a912',1,'rtc.h']]],
-  ['registerinterrupthandler_11',['registerInterruptHandler',['../isr_8h.html#abbf1d7887d81019d655219c3087fac19',1,'isr.h']]],
-  ['remove_5flast_5fchar_12',['remove_last_char',['../strings_8h.html#ab8742b3fde0c51ed53cf7ac80dd42f9a',1,'strings.h']]],
-  ['rtc_5fread_5fstable_13',['rtc_read_stable',['../rtc_8h.html#a3cda9dd45f9b67f39fd4f6e5fb83727a',1,'rtc.h']]],
-  ['rtl8139_5fhandler_14',['rtl8139_handler',['../isr_8h.html#a079624b37f30b79570546b553f794e39',1,'isr.h']]],
-  ['rtl8139_5finit_15',['rtl8139_init',['../rtl8139_8h.html#af8b8915ce04489c857a28cb6e207e8d5',1,'rtl8139.h']]],
-  ['rtl8139_5freceive_5fpacket_16',['rtl8139_receive_packet',['../rtl8139_8h.html#a97f114cebb89234707daa7bfc11e0f7c',1,'rtl8139.h']]],
-  ['rtl8139_5fsend_5fpacket_17',['rtl8139_send_packet',['../rtl8139_8h.html#ac6184cc4bdd797f9c528b4964bf4b025',1,'rtl8139.h']]]
+  ['trim_0',['trim',['../strings_8h.html#a64f40039e0978f40677db6f6eab5f261',1,'strings.h']]],
+  ['tss_5fload_1',['tss_load',['../tss_8h.html#ad9b3641b0061ece3b95fca4c3347b635',1,'tss.h']]]
 ];

@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: source/includes/sse.h Source File</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -101,15 +102,15 @@ $(function(){initNavTree('sse_8h_source.html','',''); });
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;<a class="code" href="graphics_8h.html">graphics.h</a>&gt;</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="sse_8h.html#a09a73e30e87ac8ef21eb72eac5d2b798">   18</a></span><span class="keyword">extern</span> <span class="keywordtype">char</span> fxsave_region[512] <a class="code hl_variable" href="gpt_8h.html#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a>((aligned(16)));</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">extern</span> <span class="keywordtype">char</span> fxsave_region[512] <a class="code hl_variable" href="acpi_8h.html#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a>((aligned(16)));</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="sse_8h.html#a2e7ce2344348ad2a5b3239b1bae8d2b3">   24</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="sse_8h.html#a2e7ce2344348ad2a5b3239b1bae8d2b3">load_complete_sse</a>();</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span></div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="sse_8h.html#a58eb7595cb4e0374128cfdd00ae34d72">   30</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="sse_8h.html#a58eb7595cb4e0374128cfdd00ae34d72">check_sse</a>();</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aacpi_8h_html_a720173e80c53ae6b5fa163fd6e81ad27"><div class="ttname"><a href="acpi_8h.html#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a></div><div class="ttdeci">struct acpi_gas __attribute__</div><div class="ttdoc">Physical Region Descriptor Table (PRDT) entry.</div><div class="ttdef"><b>Definition</b> ahci.h:71</div></div>
 <div class="ttc" id="abasics_8h_html"><div class="ttname"><a href="basics_8h.html">basics.h</a></div><div class="ttdoc">This is a basic header files with FrostWing specific short forms and basically a good for life header...</div></div>
-<div class="ttc" id="agpt_8h_html_a720173e80c53ae6b5fa163fd6e81ad27"><div class="ttname"><a href="gpt_8h.html#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a></div><div class="ttdeci">typedef __attribute__</div><div class="ttdoc">Physical Region Descriptor Table (PRDT) entry.</div><div class="ttdef"><b>Definition</b> ahci.h:71</div></div>
 <div class="ttc" id="agraphics_8h_html"><div class="ttname"><a href="graphics_8h.html">graphics.h</a></div><div class="ttdoc">Contains all the print functions.</div></div>
 <div class="ttc" id="asse_8h_html_a2e7ce2344348ad2a5b3239b1bae8d2b3"><div class="ttname"><a href="sse_8h.html#a2e7ce2344348ad2a5b3239b1bae8d2b3">load_complete_sse</a></div><div class="ttdeci">void load_complete_sse()</div><div class="ttdoc">Loads the SEE fully with fxsave.</div></div>
 <div class="ttc" id="asse_8h_html_a58eb7595cb4e0374128cfdd00ae34d72"><div class="ttname"><a href="sse_8h.html#a58eb7595cb4e0374128cfdd00ae34d72">check_sse</a></div><div class="ttdeci">void check_sse()</div><div class="ttdoc">Checks if CPU is compatible with SSE.</div></div>
@@ -119,7 +120,7 @@ $(function(){initNavTree('sse_8h_source.html','',''); });
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_c9f89f587e7e777be723ee48a3df5844.html">includes</a></li><li class="navelem"><a href="sse_8h.html">sse.h</a></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="sse_8h.html">sse.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

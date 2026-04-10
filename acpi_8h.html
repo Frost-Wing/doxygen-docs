@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: source/includes/acpi.h File Reference</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -103,9 +104,11 @@ Include dependency graph for acpi.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="acpi_8h__incl.png" border="0" usemap="#asource_2includes_2acpi_8h" loading="lazy" alt=""/></div>
 <map name="asource_2includes_2acpi_8h" id="asource_2includes_2acpi_8h">
-<area shape="rect" title="The ACPI Header." alt="" coords="5,5,172,32"/>
-<area shape="rect" title=" " alt="" coords="5,80,76,107"/>
-<area shape="rect" title=" " alt="" coords="101,80,175,107"/>
+<area shape="rect" title="The ACPI Header." alt="" coords="7,5,165,35"/>
+<area shape="rect" title=" " alt="" coords="5,83,74,113"/>
+<area shape="poly" title=" " alt="" coords="79,34,58,71,54,68,75,37"/>
+<area shape="rect" title=" " alt="" coords="98,83,170,113"/>
+<area shape="poly" title=" " alt="" coords="96,33,120,70,114,70,94,38"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -113,9 +116,9 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="acpi_8h__dep__incl.png" border="0" usemap="#asource_2includes_2acpi_8hdep" loading="lazy" alt=""/></div>
 <map name="asource_2includes_2acpi_8hdep" id="asource_2includes_2acpi_8hdep">
-<area shape="rect" title="The ACPI Header." alt="" coords="24,5,191,32"/>
-<area shape="rect" href="kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="18,80,197,107"/>
-<area shape="rect" href="meltdown_8h.html" title="The headers for meltdown.c." alt="" coords="5,155,209,181"/>
+<area shape="rect" title="The ACPI Header." alt="" coords="13,5,172,35"/>
+<area shape="rect" href="kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="5,83,180,113"/>
+<area shape="poly" title=" " alt="" coords="94,49,95,83,90,81,91,53"/>
 </map>
 </div>
 </div>
@@ -130,27 +133,40 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a2a38711f4cd632ae82e780d890a5f751" id="r_a2a38711f4cd632ae82e780d890a5f751"><td class="memItemLeft">struct <a class="el" href="structsdt.html">sdt</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2a38711f4cd632ae82e780d890a5f751">__attribute__</a> ((packed))</td></tr>
 <tr class="memdesc:a2a38711f4cd632ae82e780d890a5f751"><td class="mdescLeft">&#160;</td><td class="mdescRight">AHCI command header structure.  <br /></td></tr>
-<tr class="memitem:ac89f7fd8333fcd61dea9163a99c0fd6c" id="r_ac89f7fd8333fcd61dea9163a99c0fd6c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac89f7fd8333fcd61dea9163a99c0fd6c">acpi_init</a> ()</td></tr>
-<tr class="memdesc:ac89f7fd8333fcd61dea9163a99c0fd6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes and iterates through all ACPI tables.  <br /></td></tr>
-<tr class="memitem:a6c27f4adcd1588a94ba2dced1ed49fc3" id="r_a6c27f4adcd1588a94ba2dced1ed49fc3"><td class="memItemLeft">void *&#160;</td><td class="memItemRight"><a class="el" href="#a6c27f4adcd1588a94ba2dced1ed49fc3">acpi_find_sdt</a> (const char *<a class="el" href="#a7df4f23794127d1af7b8361d982c6ee4">signature</a>, size_t index)</td></tr>
+<tr class="memitem:ac89f7fd8333fcd61dea9163a99c0fd6c" id="r_ac89f7fd8333fcd61dea9163a99c0fd6c"><td class="memItemLeft"><a id="ac89f7fd8333fcd61dea9163a99c0fd6c" name="ac89f7fd8333fcd61dea9163a99c0fd6c"></a>
+void&#160;</td><td class="memItemRight"><b>acpi_init</b> ()</td></tr>
+<tr class="memdesc:ac89f7fd8333fcd61dea9163a99c0fd6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes and iterates through all ACPI tables. <br /></td></tr>
+<tr class="memitem:a6c27f4adcd1588a94ba2dced1ed49fc3" id="r_a6c27f4adcd1588a94ba2dced1ed49fc3"><td class="memItemLeft">void *&#160;</td><td class="memItemRight"><a class="el" href="#a6c27f4adcd1588a94ba2dced1ed49fc3">acpi_find_sdt</a> (const char *signature, size_t index)</td></tr>
 <tr class="memdesc:a6c27f4adcd1588a94ba2dced1ed49fc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for an STD Header in the ACPI Tables.  <br /></td></tr>
 <tr class="memitem:a5d8628ae703c03173031e1a57c629d9c" id="r_a5d8628ae703c03173031e1a57c629d9c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5d8628ae703c03173031e1a57c629d9c">acpi_reboot</a> (uintptr_t hhdm_offset)</td></tr>
 <tr class="memdesc:a5d8628ae703c03173031e1a57c629d9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reboots using ACPI, if ACPI is unresponsive it tires hard reset and then triple fault.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a4d7cbc07e85553a9158affcad4eb9640" id="r_a4d7cbc07e85553a9158affcad4eb9640"><td class="memItemLeft">char *&#160;</td><td class="memItemRight"><a class="el" href="#a4d7cbc07e85553a9158affcad4eb9640">oem_name</a></td></tr>
-<tr class="memitem:af74f5d397d98cc7769f2630458744fb9" id="r_af74f5d397d98cc7769f2630458744fb9"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#af74f5d397d98cc7769f2630458744fb9">virtualized</a></td></tr>
-<tr class="memitem:a7df4f23794127d1af7b8361d982c6ee4" id="r_a7df4f23794127d1af7b8361d982c6ee4"><td class="memItemLeft">char&#160;</td><td class="memItemRight"><a class="el" href="#a7df4f23794127d1af7b8361d982c6ee4">signature</a> [4]</td></tr>
-<tr class="memitem:aebb70c2aab3407a9f05334c47131a43b" id="r_aebb70c2aab3407a9f05334c47131a43b"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#aebb70c2aab3407a9f05334c47131a43b">length</a></td></tr>
-<tr class="memitem:a9f37c9969577b6fce01f72cb91b56b3f" id="r_a9f37c9969577b6fce01f72cb91b56b3f"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#a9f37c9969577b6fce01f72cb91b56b3f">rev</a></td></tr>
-<tr class="memitem:a59eac9627282a484fbaf0aa7aa3b8a9a" id="r_a59eac9627282a484fbaf0aa7aa3b8a9a"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#a59eac9627282a484fbaf0aa7aa3b8a9a">checksum</a></td></tr>
-<tr class="memitem:a9c7427f90ccdfac50405ffc1206560ad" id="r_a9c7427f90ccdfac50405ffc1206560ad"><td class="memItemLeft">char&#160;</td><td class="memItemRight"><a class="el" href="#a9c7427f90ccdfac50405ffc1206560ad">oem_id</a> [6]</td></tr>
-<tr class="memitem:ab237de4008b155a88f752ee9ea55f542" id="r_ab237de4008b155a88f752ee9ea55f542"><td class="memItemLeft">char&#160;</td><td class="memItemRight"><a class="el" href="#ab237de4008b155a88f752ee9ea55f542">oem_table_id</a> [8]</td></tr>
-<tr class="memitem:a41fb81848b8f0db06c4ef9e3ffd87b26" id="r_a41fb81848b8f0db06c4ef9e3ffd87b26"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a41fb81848b8f0db06c4ef9e3ffd87b26">oem_rev</a></td></tr>
-<tr class="memitem:ab38918ce2820bbdf42112e514c767817" id="r_ab38918ce2820bbdf42112e514c767817"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#ab38918ce2820bbdf42112e514c767817">creator_id</a></td></tr>
-<tr class="memitem:a60cdbc2c30c234643cd8e0545b193b12" id="r_a60cdbc2c30c234643cd8e0545b193b12"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a60cdbc2c30c234643cd8e0545b193b12">creator_rev</a></td></tr>
-<tr class="memitem:a167d047c211be767512e15c9a684e31c" id="r_a167d047c211be767512e15c9a684e31c"><td class="memItemLeft">struct <a class="el" href="structacpi__gas.html">acpi_gas</a>&#160;</td><td class="memItemRight"><a class="el" href="#a167d047c211be767512e15c9a684e31c">__attribute__</a></td></tr>
+<tr class="memitem:a4d7cbc07e85553a9158affcad4eb9640" id="r_a4d7cbc07e85553a9158affcad4eb9640"><td class="memItemLeft"><a id="a4d7cbc07e85553a9158affcad4eb9640" name="a4d7cbc07e85553a9158affcad4eb9640"></a>
+char *&#160;</td><td class="memItemRight"><b>oem_name</b></td></tr>
+<tr class="memitem:af74f5d397d98cc7769f2630458744fb9" id="r_af74f5d397d98cc7769f2630458744fb9"><td class="memItemLeft"><a id="af74f5d397d98cc7769f2630458744fb9" name="af74f5d397d98cc7769f2630458744fb9"></a>
+bool&#160;</td><td class="memItemRight"><b>virtualized</b></td></tr>
+<tr class="memitem:a7df4f23794127d1af7b8361d982c6ee4" id="r_a7df4f23794127d1af7b8361d982c6ee4"><td class="memItemLeft"><a id="a7df4f23794127d1af7b8361d982c6ee4" name="a7df4f23794127d1af7b8361d982c6ee4"></a>
+char&#160;</td><td class="memItemRight"><b>signature</b> [4]</td></tr>
+<tr class="memitem:aebb70c2aab3407a9f05334c47131a43b" id="r_aebb70c2aab3407a9f05334c47131a43b"><td class="memItemLeft"><a id="aebb70c2aab3407a9f05334c47131a43b" name="aebb70c2aab3407a9f05334c47131a43b"></a>
+uint32_t&#160;</td><td class="memItemRight"><b>length</b></td></tr>
+<tr class="memitem:a9f37c9969577b6fce01f72cb91b56b3f" id="r_a9f37c9969577b6fce01f72cb91b56b3f"><td class="memItemLeft"><a id="a9f37c9969577b6fce01f72cb91b56b3f" name="a9f37c9969577b6fce01f72cb91b56b3f"></a>
+uint8_t&#160;</td><td class="memItemRight"><b>rev</b></td></tr>
+<tr class="memitem:a59eac9627282a484fbaf0aa7aa3b8a9a" id="r_a59eac9627282a484fbaf0aa7aa3b8a9a"><td class="memItemLeft"><a id="a59eac9627282a484fbaf0aa7aa3b8a9a" name="a59eac9627282a484fbaf0aa7aa3b8a9a"></a>
+uint8_t&#160;</td><td class="memItemRight"><b>checksum</b></td></tr>
+<tr class="memitem:a9c7427f90ccdfac50405ffc1206560ad" id="r_a9c7427f90ccdfac50405ffc1206560ad"><td class="memItemLeft"><a id="a9c7427f90ccdfac50405ffc1206560ad" name="a9c7427f90ccdfac50405ffc1206560ad"></a>
+char&#160;</td><td class="memItemRight"><b>oem_id</b> [6]</td></tr>
+<tr class="memitem:ab237de4008b155a88f752ee9ea55f542" id="r_ab237de4008b155a88f752ee9ea55f542"><td class="memItemLeft"><a id="ab237de4008b155a88f752ee9ea55f542" name="ab237de4008b155a88f752ee9ea55f542"></a>
+char&#160;</td><td class="memItemRight"><b>oem_table_id</b> [8]</td></tr>
+<tr class="memitem:a41fb81848b8f0db06c4ef9e3ffd87b26" id="r_a41fb81848b8f0db06c4ef9e3ffd87b26"><td class="memItemLeft"><a id="a41fb81848b8f0db06c4ef9e3ffd87b26" name="a41fb81848b8f0db06c4ef9e3ffd87b26"></a>
+uint32_t&#160;</td><td class="memItemRight"><b>oem_rev</b></td></tr>
+<tr class="memitem:ab38918ce2820bbdf42112e514c767817" id="r_ab38918ce2820bbdf42112e514c767817"><td class="memItemLeft"><a id="ab38918ce2820bbdf42112e514c767817" name="ab38918ce2820bbdf42112e514c767817"></a>
+uint32_t&#160;</td><td class="memItemRight"><b>creator_id</b></td></tr>
+<tr class="memitem:a60cdbc2c30c234643cd8e0545b193b12" id="r_a60cdbc2c30c234643cd8e0545b193b12"><td class="memItemLeft"><a id="a60cdbc2c30c234643cd8e0545b193b12" name="a60cdbc2c30c234643cd8e0545b193b12"></a>
+uint32_t&#160;</td><td class="memItemRight"><b>creator_rev</b></td></tr>
+<tr class="memitem:a720173e80c53ae6b5fa163fd6e81ad27" id="r_a720173e80c53ae6b5fa163fd6e81ad27"><td class="memItemLeft">struct <a class="el" href="structacpi__gas.html">acpi_gas</a>&#160;</td><td class="memItemRight"><a class="el" href="#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a></td></tr>
+<tr class="memdesc:a720173e80c53ae6b5fa163fd6e81ad27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Physical Region Descriptor Table (PRDT) entry.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The ACPI Header. </p>
@@ -204,31 +220,12 @@ Variables</h2></td></tr>
 <p>Searches for an STD Header in the ACPI Tables. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname"><a class="el" href="#a7df4f23794127d1af7b8361d982c6ee4">signature</a></td><td>Signature of the requested STD Header </td></tr>
+    <tr><td class="paramname">signature</td><td>Signature of the requested STD Header </td></tr>
     <tr><td class="paramname">index</td><td>The index of the requested SDT Header </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Address of the ACPI Table </dd></dl>
-
-</div>
-</div>
-<a id="ac89f7fd8333fcd61dea9163a99c0fd6c" name="ac89f7fd8333fcd61dea9163a99c0fd6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac89f7fd8333fcd61dea9163a99c0fd6c">&#9670;&#160;</a></span>acpi_init()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void acpi_init </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Initializes and iterates through all ACPI tables. </p>
 
 </div>
 </div>
@@ -258,187 +255,20 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
-<a id="a167d047c211be767512e15c9a684e31c" name="a167d047c211be767512e15c9a684e31c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a167d047c211be767512e15c9a684e31c">&#9670;&#160;</a></span>__attribute__</h2>
+<a id="a720173e80c53ae6b5fa163fd6e81ad27" name="a720173e80c53ae6b5fa163fd6e81ad27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a720173e80c53ae6b5fa163fd6e81ad27">&#9670;&#160;</a></span>__attribute__</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="structacpi__gas.html">acpi_gas</a> __attribute__</td>
+          <td class="memname">struct __attribute__</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a59eac9627282a484fbaf0aa7aa3b8a9a" name="a59eac9627282a484fbaf0aa7aa3b8a9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59eac9627282a484fbaf0aa7aa3b8a9a">&#9670;&#160;</a></span>checksum</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t checksum</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab38918ce2820bbdf42112e514c767817" name="ab38918ce2820bbdf42112e514c767817"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab38918ce2820bbdf42112e514c767817">&#9670;&#160;</a></span>creator_id</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t creator_id</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a60cdbc2c30c234643cd8e0545b193b12" name="a60cdbc2c30c234643cd8e0545b193b12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60cdbc2c30c234643cd8e0545b193b12">&#9670;&#160;</a></span>creator_rev</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t creator_rev</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aebb70c2aab3407a9f05334c47131a43b" name="aebb70c2aab3407a9f05334c47131a43b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebb70c2aab3407a9f05334c47131a43b">&#9670;&#160;</a></span>length</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t length</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9c7427f90ccdfac50405ffc1206560ad" name="a9c7427f90ccdfac50405ffc1206560ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c7427f90ccdfac50405ffc1206560ad">&#9670;&#160;</a></span>oem_id</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">char oem_id[6]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4d7cbc07e85553a9158affcad4eb9640" name="a4d7cbc07e85553a9158affcad4eb9640"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d7cbc07e85553a9158affcad4eb9640">&#9670;&#160;</a></span>oem_name</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">char* oem_name</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a41fb81848b8f0db06c4ef9e3ffd87b26" name="a41fb81848b8f0db06c4ef9e3ffd87b26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41fb81848b8f0db06c4ef9e3ffd87b26">&#9670;&#160;</a></span>oem_rev</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t oem_rev</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab237de4008b155a88f752ee9ea55f542" name="ab237de4008b155a88f752ee9ea55f542"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab237de4008b155a88f752ee9ea55f542">&#9670;&#160;</a></span>oem_table_id</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">char oem_table_id[8]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9f37c9969577b6fce01f72cb91b56b3f" name="a9f37c9969577b6fce01f72cb91b56b3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f37c9969577b6fce01f72cb91b56b3f">&#9670;&#160;</a></span>rev</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t rev</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7df4f23794127d1af7b8361d982c6ee4" name="a7df4f23794127d1af7b8361d982c6ee4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7df4f23794127d1af7b8361d982c6ee4">&#9670;&#160;</a></span>signature</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">char signature[4]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af74f5d397d98cc7769f2630458744fb9" name="af74f5d397d98cc7769f2630458744fb9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af74f5d397d98cc7769f2630458744fb9">&#9670;&#160;</a></span>virtualized</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool virtualized</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Physical Region Descriptor Table (PRDT) entry. </p>
+<p>AHCI command table structure. </p>
 
 </div>
 </div>
@@ -455,7 +285,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_c9f89f587e7e777be723ee48a3df5844.html">includes</a></li><li class="navelem"><a href="acpi_8h.html">acpi.h</a></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="acpi_8h.html">acpi.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

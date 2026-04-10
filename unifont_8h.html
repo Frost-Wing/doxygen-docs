@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: source/includes/unifont.h File Reference</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -103,10 +104,14 @@ Include dependency graph for unifont.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="unifont_8h__incl.png" border="0" usemap="#asource_2includes_2unifont_8h" loading="lazy" alt=""/></div>
 <map name="asource_2includes_2unifont_8h" id="asource_2includes_2unifont_8h">
-<area shape="rect" title="The font used in framebuffer." alt="" coords="5,5,191,32"/>
-<area shape="rect" title=" " alt="" coords="25,155,96,181"/>
-<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="98,80,173,107"/>
-<area shape="rect" title=" " alt="" coords="121,155,195,181"/>
+<area shape="rect" title="The font used in framebuffer." alt="" coords="5,5,185,35"/>
+<area shape="rect" title=" " alt="" coords="25,161,93,190"/>
+<area shape="poly" title=" " alt="" coords="94,35,68,146,63,145,89,36"/>
+<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="96,83,166,113"/>
+<area shape="poly" title=" " alt="" coords="102,33,120,69,115,69,101,38"/>
+<area shape="poly" title=" " alt="" coords="120,112,85,151,81,147,115,114"/>
+<area shape="rect" title=" " alt="" coords="118,161,190,190"/>
+<area shape="poly" title=" " alt="" coords="137,111,148,146,142,145,134,115"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -114,10 +119,11 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="unifont_8h__dep__incl.png" border="0" usemap="#asource_2includes_2unifont_8hdep" loading="lazy" alt=""/></div>
 <map name="asource_2includes_2unifont_8hdep" id="asource_2includes_2unifont_8hdep">
-<area shape="rect" title="The font used in framebuffer." alt="" coords="15,5,200,32"/>
-<area shape="rect" href="fb_8h.html" title=" " alt="" coords="31,80,183,107"/>
-<area shape="rect" href="kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="18,155,197,181"/>
-<area shape="rect" href="meltdown_8h.html" title="The headers for meltdown.c." alt="" coords="5,229,209,256"/>
+<area shape="rect" title="The font used in framebuffer." alt="" coords="5,5,185,35"/>
+<area shape="rect" href="fb_8h_source.html" title=" " alt="" coords="21,83,169,113"/>
+<area shape="poly" title=" " alt="" coords="96,48,98,83,92,82,94,53"/>
+<area shape="rect" href="kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="8,161,182,190"/>
+<area shape="poly" title=" " alt="" coords="97,127,97,161,93,159,93,130"/>
 </map>
 </div>
 </div>
@@ -125,8 +131,10 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a30f8d1b95145af31514901e324c657f7" id="r_a30f8d1b95145af31514901e324c657f7"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a30f8d1b95145af31514901e324c657f7">UNIFONT_WIDTH</a>&#160;&#160;&#160;8</td></tr>
-<tr class="memitem:a163c4af537fbbd21198f9b9967ea1f69" id="r_a163c4af537fbbd21198f9b9967ea1f69"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a163c4af537fbbd21198f9b9967ea1f69">UNIFONT_HEIGHT</a>&#160;&#160;&#160;16</td></tr>
+<tr class="memitem:a30f8d1b95145af31514901e324c657f7" id="r_a30f8d1b95145af31514901e324c657f7"><td class="memItemLeft"><a id="a30f8d1b95145af31514901e324c657f7" name="a30f8d1b95145af31514901e324c657f7"></a>
+#define&#160;</td><td class="memItemRight"><b>UNIFONT_WIDTH</b>&#160;&#160;&#160;8</td></tr>
+<tr class="memitem:a163c4af537fbbd21198f9b9967ea1f69" id="r_a163c4af537fbbd21198f9b9967ea1f69"><td class="memItemLeft"><a id="a163c4af537fbbd21198f9b9967ea1f69" name="a163c4af537fbbd21198f9b9967ea1f69"></a>
+#define&#160;</td><td class="memItemRight"><b>UNIFONT_HEIGHT</b>&#160;&#160;&#160;16</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The font used in framebuffer. </p>
@@ -134,36 +142,7 @@ Macros</h2></td></tr>
 <dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2023-10-29</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) Pradosh 2023 </dd></dl>
-</div><a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
-<a id="a163c4af537fbbd21198f9b9967ea1f69" name="a163c4af537fbbd21198f9b9967ea1f69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a163c4af537fbbd21198f9b9967ea1f69">&#9670;&#160;</a></span>UNIFONT_HEIGHT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define UNIFONT_HEIGHT&#160;&#160;&#160;16</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a30f8d1b95145af31514901e324c657f7" name="a30f8d1b95145af31514901e324c657f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30f8d1b95145af31514901e324c657f7">&#9670;&#160;</a></span>UNIFONT_WIDTH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define UNIFONT_WIDTH&#160;&#160;&#160;8</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>
@@ -176,7 +155,7 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_c9f89f587e7e777be723ee48a3df5844.html">includes</a></li><li class="navelem"><a href="unifont_8h.html">unifont.h</a></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="unifont_8h.html">unifont.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

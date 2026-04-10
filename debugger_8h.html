@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: source/includes/debugger.h File Reference</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -105,11 +106,19 @@ Include dependency graph for debugger.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="debugger_8h__incl.png" border="0" usemap="#asource_2includes_2debugger_8h" loading="lazy" alt=""/></div>
 <map name="asource_2includes_2debugger_8h" id="asource_2includes_2debugger_8h">
-<area shape="rect" title="The headers files for E9 hack." alt="" coords="18,5,217,32"/>
-<area shape="rect" title=" " alt="" coords="130,229,201,256"/>
-<area shape="rect" title=" " alt="" coords="5,229,80,256"/>
-<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="53,155,128,181"/>
-<area shape="rect" href="hal_8h.html" title="Header file for Hardware Abstraction Layer &#45;&gt; Source from GoGX OS." alt="" coords="123,80,178,107"/>
+<area shape="rect" title="The headers files for E9 hack." alt="" coords="20,5,213,35"/>
+<area shape="rect" title=" " alt="" coords="126,238,194,268"/>
+<area shape="poly" title=" " alt="" coords="140,33,168,54,188,82,197,120,195,158,187,195,175,226,171,222,182,193,190,158,192,120,183,84,164,57,141,38"/>
+<area shape="rect" title=" " alt="" coords="5,238,78,268"/>
+<area shape="poly" title=" " alt="" coords="104,38,74,90,57,125,44,161,40,193,41,224,35,223,35,193,39,160,52,122,69,87,107,33"/>
+<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="54,161,123,190"/>
+<area shape="poly" title=" " alt="" coords="115,34,96,146,91,145,112,37"/>
+<area shape="rect" href="hal_8h.html" title="Header file for Hardware Abstraction Layer &#45;&gt; Source from GoGX OS." alt="" coords="122,83,174,113"/>
+<area shape="poly" title=" " alt="" coords="123,33,139,68,133,68,122,38"/>
+<area shape="poly" title=" " alt="" coords="103,188,139,227,134,227,101,193"/>
+<area shape="poly" title=" " alt="" coords="82,189,60,226,56,223,77,193"/>
+<area shape="poly" title=" " alt="" coords="151,112,160,223,155,222,147,115"/>
+<area shape="poly" title=" " alt="" coords="139,111,111,150,107,147,135,115"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -117,10 +126,15 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="debugger_8h__dep__incl.png" border="0" usemap="#asource_2includes_2debugger_8hdep" loading="lazy" alt=""/></div>
 <map name="asource_2includes_2debugger_8hdep" id="asource_2includes_2debugger_8hdep">
-<area shape="rect" title="The headers files for E9 hack." alt="" coords="8,5,207,32"/>
-<area shape="rect" href="kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="18,155,197,181"/>
-<area shape="rect" href="pci_8h.html" title="The Header files for actual PCI source." alt="" coords="87,80,245,107"/>
-<area shape="rect" href="meltdown_8h.html" title="The headers for meltdown.c." alt="" coords="5,229,209,256"/>
+<area shape="rect" title="The headers files for E9 hack." alt="" coords="5,5,199,35"/>
+<area shape="rect" href="kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="15,180,189,209"/>
+<area shape="poly" title=" " alt="" coords="54,45,34,62,16,84,9,107,16,131,27,145,40,158,70,178,66,180,36,162,22,149,12,133,4,107,12,82,30,58,56,40"/>
+<area shape="rect" href="pci_8h.html" title="The Header files for actual PCI source." alt="" coords="26,92,178,122"/>
+<area shape="poly" title=" " alt="" coords="103,48,105,93,99,92,101,53"/>
+<area shape="rect" href="ps2-mouse_8h.html" title=" " alt="" coords="202,83,346,132"/>
+<area shape="poly" title=" " alt="" coords="145,40,228,81,223,83,144,45"/>
+<area shape="poly" title=" " alt="" coords="104,136,105,180,99,179,100,140"/>
+<area shape="poly" title=" " alt="" coords="215,139,132,181,130,177,210,139"/>
 </map>
 </div>
 </div>
@@ -128,18 +142,19 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a993cb9aa3e0dea07b5fa11f32bc700b2" id="r_a993cb9aa3e0dea07b5fa11f32bc700b2"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a993cb9aa3e0dea07b5fa11f32bc700b2">debugger_mode</a>&#160;&#160;&#160;1</td></tr>
-<tr class="memdesc:a993cb9aa3e0dea07b5fa11f32bc700b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables or disables the debugger. [1 - Enable] [0 - Disable].  <br /></td></tr>
+<tr class="memitem:a993cb9aa3e0dea07b5fa11f32bc700b2" id="r_a993cb9aa3e0dea07b5fa11f32bc700b2"><td class="memItemLeft"><a id="a993cb9aa3e0dea07b5fa11f32bc700b2" name="a993cb9aa3e0dea07b5fa11f32bc700b2"></a>
+#define&#160;</td><td class="memItemRight"><b>debugger_mode</b>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:a993cb9aa3e0dea07b5fa11f32bc700b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables or disables the debugger. [1 - Enable] [0 - Disable]. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:afe02d1f040867e6fbf9fae10fdee40ff" id="r_afe02d1f040867e6fbf9fae10fdee40ff"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afe02d1f040867e6fbf9fae10fdee40ff">debug_putc</a> (char c)</td></tr>
 <tr class="memdesc:afe02d1f040867e6fbf9fae10fdee40ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts a character to the address 0xE9 using x86_64 outb.  <br /></td></tr>
-<tr class="memitem:abc7b9edf084a848ad1dccc104f0ad965" id="r_abc7b9edf084a848ad1dccc104f0ad965"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abc7b9edf084a848ad1dccc104f0ad965">debug_print</a> (<a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> msg)</td></tr>
+<tr class="memitem:abc7b9edf084a848ad1dccc104f0ad965" id="r_abc7b9edf084a848ad1dccc104f0ad965"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abc7b9edf084a848ad1dccc104f0ad965">debug_print</a> (cstring msg)</td></tr>
 <tr class="memdesc:abc7b9edf084a848ad1dccc104f0ad965"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts a string to the address 0xE9 using <a class="el" href="#afe02d1f040867e6fbf9fae10fdee40ff" title="Puts a character to the address 0xE9 using x86_64 outb.">debug_putc()</a>.  <br /></td></tr>
-<tr class="memitem:ace56cfa04b802028a9828bc6e4033d15" id="r_ace56cfa04b802028a9828bc6e4033d15"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ace56cfa04b802028a9828bc6e4033d15">debug_println</a> (<a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> msg)</td></tr>
+<tr class="memitem:ace56cfa04b802028a9828bc6e4033d15" id="r_ace56cfa04b802028a9828bc6e4033d15"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ace56cfa04b802028a9828bc6e4033d15">debug_println</a> (cstring msg)</td></tr>
 <tr class="memdesc:ace56cfa04b802028a9828bc6e4033d15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts a string to the address 0xE9 using <a class="el" href="#afe02d1f040867e6fbf9fae10fdee40ff" title="Puts a character to the address 0xE9 using x86_64 outb.">debug_putc()</a> and prints a new line.  <br /></td></tr>
-<tr class="memitem:ad82927d0bb9e0336eed9f06ef10150c8" id="r_ad82927d0bb9e0336eed9f06ef10150c8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad82927d0bb9e0336eed9f06ef10150c8">debug_printf</a> (<a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> format,...)</td></tr>
+<tr class="memitem:ad82927d0bb9e0336eed9f06ef10150c8" id="r_ad82927d0bb9e0336eed9f06ef10150c8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad82927d0bb9e0336eed9f06ef10150c8">debug_printf</a> (cstring format,...)</td></tr>
 <tr class="memdesc:ad82927d0bb9e0336eed9f06ef10150c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">printf implemented to debug.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
@@ -148,24 +163,7 @@ Functions</h2></td></tr>
 <dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2023-10-31</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) Pradosh 2023 </dd></dl>
-</div><a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
-<a id="a993cb9aa3e0dea07b5fa11f32bc700b2" name="a993cb9aa3e0dea07b5fa11f32bc700b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a993cb9aa3e0dea07b5fa11f32bc700b2">&#9670;&#160;</a></span>debugger_mode</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define debugger_mode&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Enables or disables the debugger. [1 - Enable] [0 - Disable]. </p>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="abc7b9edf084a848ad1dccc104f0ad965" name="abc7b9edf084a848ad1dccc104f0ad965"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abc7b9edf084a848ad1dccc104f0ad965">&#9670;&#160;</a></span>debug_print()</h2>
 
@@ -175,7 +173,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void debug_print </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a></td>          <td class="paramname"><span class="paramname"><em>msg</em></span></td><td>)</td>
+          <td class="paramtype">cstring</td>          <td class="paramname"><span class="paramname"><em>msg</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -200,7 +198,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void debug_printf </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a></td>          <td class="paramname"><span class="paramname"><em>format</em></span>, </td>
+          <td class="paramtype">cstring</td>          <td class="paramname"><span class="paramname"><em>format</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -230,7 +228,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void debug_println </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a></td>          <td class="paramname"><span class="paramname"><em>msg</em></span></td><td>)</td>
+          <td class="paramtype">cstring</td>          <td class="paramname"><span class="paramname"><em>msg</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -284,7 +282,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_c9f89f587e7e777be723ee48a3df5844.html">includes</a></li><li class="navelem"><a href="debugger_8h.html">debugger.h</a></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="debugger_8h.html">debugger.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

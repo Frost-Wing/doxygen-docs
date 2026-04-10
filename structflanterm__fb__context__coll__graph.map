@@ -1,6 +1,8 @@
 <map id="flanterm_fb_context" name="flanterm_fb_context">
-<area shape="rect" id="node1" title="Represents the context for framebuffer&#45;based terminal rendering." alt="" coords="110,199,263,225"/>
-<area shape="rect" id="node2" href="$structflanterm__context.html" title=" " alt="" coords="5,95,139,121"/>
-<area shape="rect" id="node3" href="$structflanterm__fb__char.html" title="Represents a character with its foreground and background colors." alt="" coords="167,5,299,32"/>
-<area shape="rect" id="node4" href="$structflanterm__fb__queue__item.html" title="Represents an item in the rendering queue." alt="" coords="240,95,421,121"/>
+<area shape="rect" id="Node000001" title="Represents the context for framebuffer&#45;based terminal rendering." alt="" coords="5,239,152,269"/>
+<area shape="rect" id="Node000002" href="$structflanterm__fb__char.html" title="Represents a character with its foreground and background colors." alt="" coords="15,5,142,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,47,72,110,74,182,79,239,74,238,68,182,67,110,74,53"/>
+<area shape="rect" id="Node000003" href="$structflanterm__fb__queue__item.html" title="Represents an item in the rendering queue." alt="" coords="114,110,288,140"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="107,42,187,109,182,111,106,48"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="179,152,94,240,90,236,174,150"/>
 </map>

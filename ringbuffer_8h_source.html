@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: source/includes/ringbuffer.h Source File</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -101,13 +102,13 @@ $(function(){initNavTree('ringbuffer_8h_source.html','',''); });
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span></div>
 <div class="foldopen" id="foldopen00020" data-start="{" data-end="};">
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="structring__buffer__t.html">   20</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="structring__buffer__t.html#a23c803e4402b48142bc2b59ab3b1f34d">   21</a></span>    uint8_t* <a class="code hl_variable" href="structring__buffer__t.html#a23c803e4402b48142bc2b59ab3b1f34d">buffer</a>;     <span class="comment">// Pointer to raw memory buffer</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="structring__buffer__t.html#a64656f06e898714e3e554497b6701cda">   22</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="structring__buffer__t.html#a64656f06e898714e3e554497b6701cda">capacity</a>;     <span class="comment">// Max number of elements</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="structring__buffer__t.html#ac50fd930f7edb63fa72836a642b55ac6">   23</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="structring__buffer__t.html#ac50fd930f7edb63fa72836a642b55ac6">elem_size</a>;    <span class="comment">// Size of each element in bytes </span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    uint8_t* buffer;     <span class="comment">// Pointer to raw memory buffer</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordtype">size_t</span> capacity;     <span class="comment">// Max number of elements</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">size_t</span> elem_size;    <span class="comment">// Size of each element in bytes </span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="structring__buffer__t.html#a8c54a71613fa633a9050050808ad21fb">   25</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="structring__buffer__t.html#a8c54a71613fa633a9050050808ad21fb">head</a>;         <span class="comment">// Write position</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="structring__buffer__t.html#aaacea6d1ef51d99539cf85abe883f813">   26</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="structring__buffer__t.html#aaacea6d1ef51d99539cf85abe883f813">tail</a>;         <span class="comment">// Read position </span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="structring__buffer__t.html#ae06095c0db13141e592931b9f7c995a4">   27</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="structring__buffer__t.html#ae06095c0db13141e592931b9f7c995a4">count</a>;        <span class="comment">// Number of elements stored </span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">size_t</span> head;         <span class="comment">// Write position</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">size_t</span> tail;         <span class="comment">// Read position </span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">size_t</span> count;        <span class="comment">// Number of elements stored </span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>} <a class="code hl_struct" href="structring__buffer__t.html">ring_buffer_t</a>;</div>
 </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span></div>
@@ -141,19 +142,13 @@ $(function(){initNavTree('ringbuffer_8h_source.html','',''); });
 <div class="ttc" id="aringbuffer_8h_html_aae7bb7d07bf301753c8ad1af137c900a"><div class="ttname"><a href="ringbuffer_8h.html#aae7bb7d07bf301753c8ad1af137c900a">rb_init</a></div><div class="ttdeci">void rb_init(ring_buffer_t *rb, void *buffer, size_t capacity, size_t elem_size)</div><div class="ttdoc">Initialize a ring buffer.</div></div>
 <div class="ttc" id="aringbuffer_8h_html_abe420aadad742a5ab16dc0d2ca2d7282"><div class="ttname"><a href="ringbuffer_8h.html#abe420aadad742a5ab16dc0d2ca2d7282">rb_clear</a></div><div class="ttdeci">void rb_clear(ring_buffer_t *rb)</div><div class="ttdoc">Clear the buffer.</div></div>
 <div class="ttc" id="astructring__buffer__t_html"><div class="ttname"><a href="structring__buffer__t.html">ring_buffer_t</a></div><div class="ttdoc">Structure representing a ring buffer.</div><div class="ttdef"><b>Definition</b> ringbuffer.h:20</div></div>
-<div class="ttc" id="astructring__buffer__t_html_a23c803e4402b48142bc2b59ab3b1f34d"><div class="ttname"><a href="structring__buffer__t.html#a23c803e4402b48142bc2b59ab3b1f34d">ring_buffer_t::buffer</a></div><div class="ttdeci">uint8_t * buffer</div><div class="ttdef"><b>Definition</b> ringbuffer.h:21</div></div>
-<div class="ttc" id="astructring__buffer__t_html_a64656f06e898714e3e554497b6701cda"><div class="ttname"><a href="structring__buffer__t.html#a64656f06e898714e3e554497b6701cda">ring_buffer_t::capacity</a></div><div class="ttdeci">size_t capacity</div><div class="ttdef"><b>Definition</b> ringbuffer.h:22</div></div>
-<div class="ttc" id="astructring__buffer__t_html_a8c54a71613fa633a9050050808ad21fb"><div class="ttname"><a href="structring__buffer__t.html#a8c54a71613fa633a9050050808ad21fb">ring_buffer_t::head</a></div><div class="ttdeci">size_t head</div><div class="ttdef"><b>Definition</b> ringbuffer.h:25</div></div>
-<div class="ttc" id="astructring__buffer__t_html_aaacea6d1ef51d99539cf85abe883f813"><div class="ttname"><a href="structring__buffer__t.html#aaacea6d1ef51d99539cf85abe883f813">ring_buffer_t::tail</a></div><div class="ttdeci">size_t tail</div><div class="ttdef"><b>Definition</b> ringbuffer.h:26</div></div>
-<div class="ttc" id="astructring__buffer__t_html_ac50fd930f7edb63fa72836a642b55ac6"><div class="ttname"><a href="structring__buffer__t.html#ac50fd930f7edb63fa72836a642b55ac6">ring_buffer_t::elem_size</a></div><div class="ttdeci">size_t elem_size</div><div class="ttdef"><b>Definition</b> ringbuffer.h:23</div></div>
-<div class="ttc" id="astructring__buffer__t_html_ae06095c0db13141e592931b9f7c995a4"><div class="ttname"><a href="structring__buffer__t.html#ae06095c0db13141e592931b9f7c995a4">ring_buffer_t::count</a></div><div class="ttdeci">size_t count</div><div class="ttdef"><b>Definition</b> ringbuffer.h:27</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_c9f89f587e7e777be723ee48a3df5844.html">includes</a></li><li class="navelem"><a href="ringbuffer_8h.html">ringbuffer.h</a></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="ringbuffer_8h.html">ringbuffer.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

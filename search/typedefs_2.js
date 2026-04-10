@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['fdlfcn_5fhandle_0',['fdlfcn_handle',['../fdlfcn_8h.html#a555056f401fc163f13dcf8741f292d8a',1,'fdlfcn.h']]]
+  ['mousebuttonhandler_0',['MouseButtonHandler',['../ps2-mouse_8h.html#a7bbbe29199acd1e018bdf8a227fb3bc6',1,'ps2-mouse.h']]],
+  ['mousemovementhandler_1',['MouseMovementHandler',['../ps2-mouse_8h.html#a4cd4a0a8201872ea3f325060c813bf6a',1,'ps2-mouse.h']]]
 ];

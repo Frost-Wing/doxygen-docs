@@ -1,6 +1,10 @@
 <map id="source/includes/unifont.h" name="source/includes/unifont.h">
-<area shape="rect" id="node1" title="The font used in framebuffer." alt="" coords="5,5,191,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="25,155,96,181"/>
-<area shape="rect" id="node3" href="$basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="98,80,173,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="121,155,195,181"/>
+<area shape="rect" id="Node000001" title="The font used in framebuffer." alt="" coords="5,5,185,35"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="25,161,93,190"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,35,68,146,63,145,89,36"/>
+<area shape="rect" id="Node000003" href="$basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="96,83,166,113"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="102,33,120,69,115,69,101,38"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="120,112,85,151,81,147,115,114"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="118,161,190,190"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="137,111,148,146,142,145,134,115"/>
 </map>

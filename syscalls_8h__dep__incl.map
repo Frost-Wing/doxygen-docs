@@ -1,0 +1,9 @@
+<map id="source/includes/syscalls.h" name="source/includes/syscalls.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="10,5,189,35"/>
+<area shape="rect" id="Node000002" href="$userland_8h.html" title="The Header file for userland/userspace." alt="" coords="5,83,194,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,48,102,83,97,82,99,53"/>
+<area shape="rect" id="Node000003" href="$paging_8h.html" title="Contains code and definitons for Paging." alt="" coords="11,161,188,190"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,126,102,161,97,159,98,131"/>
+<area shape="rect" id="Node000004" href="$kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="12,238,187,268"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="101,204,102,239,97,237,98,208"/>
+</map>

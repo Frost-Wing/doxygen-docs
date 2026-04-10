@@ -1,17 +1,7 @@
 var graphics_8h =
 [
-    [ "blue_color", "graphics_8h.html#a05dd35863ccc281035a3411733ea6178", null ],
-    [ "eprintf", "graphics_8h.html#ab5c189f7531a688e84518dd76f402ccb", null ],
-    [ "green_color", "graphics_8h.html#a654afd3b020ce4a21dac8f9df936a89a", null ],
-    [ "orange_color", "graphics_8h.html#a5060b1bf44bd7845708eae4d7e29de42", null ],
-    [ "printf", "graphics_8h.html#aac50a2f7a0cf5ab861c9cb6289d48440", null ],
-    [ "printfnoln", "graphics_8h.html#a2e2b78a3a3e3ca611ae32b3188a530af", null ],
-    [ "red_color", "graphics_8h.html#ad94055bf9318a48c6a304070f04a6c7c", null ],
-    [ "reset_color", "graphics_8h.html#a7928c478a94a8406183be360b2f9606d", null ],
-    [ "yellow_color", "graphics_8h.html#af07390ab9ad63091477de1a73b9197d4", null ],
     [ "done", "graphics_8h.html#ad07884a6ba7d8115780561b2ca989852", null ],
     [ "error", "graphics_8h.html#a5d21e25ff167fc33ac87e88c13669e09", null ],
-    [ "format_number", "graphics_8h.html#afc5fdc5bba56c9a664edaeccd909f337", null ],
     [ "info", "graphics_8h.html#aee2e1461792f971c8adaa6bede6e2bdd", null ],
     [ "kprint", "graphics_8h.html#a7b658f7a0a6aa530cba64bf3e04e6a08", null ],
     [ "print", "graphics_8h.html#a7f6608ce1fa3da4eac760e349e5b4e00", null ],
@@ -24,10 +14,5 @@ var graphics_8h =
     [ "vprintf_internal", "graphics_8h.html#a2c3014b7e1c3cc4fcf3d219158704a5c", null ],
     [ "vputc", "graphics_8h.html#ae303e1ea3761e0b60ec11a17c260bb54", null ],
     [ "vsnprintf", "graphics_8h.html#ac943fec1bf81aeccd3c834d2180cd518", null ],
-    [ "warn", "graphics_8h.html#ad77420c435b84b1d7ff086a9a1046d81", null ],
-    [ "enable_logging", "graphics_8h.html#a6245cba050ffe94199fafe5d3b991f1f", null ],
-    [ "last_filename", "graphics_8h.html#ab7e74e10deb085e99163f657051eb869", null ],
-    [ "last_print_file", "graphics_8h.html#a3c86b4450d7f472f30ec421f3f842961", null ],
-    [ "last_print_func", "graphics_8h.html#adb49229057417a64c516711f6d8edcef", null ],
-    [ "last_print_line", "graphics_8h.html#a22458b53ce57c3bcd1f13761d8287903", null ]
+    [ "warn", "graphics_8h.html#ad77420c435b84b1d7ff086a9a1046d81", null ]
 ];

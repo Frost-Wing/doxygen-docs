@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['block_5fsize_0',['block_size',['../tarball_8h.html#a9766f5ceca5e25981858ec7384456072',1,'tarball.h']]],
-  ['blue_5fcolor_1',['blue_color',['../graphics_8h.html#a05dd35863ccc281035a3411733ea6178',1,'graphics.h']]],
-  ['buffer_5fsize_2',['BUFFER_SIZE',['../sh__util_8h.html#a6b20d41d6252e9871430c242cb1a56e7',1,'sh_util.h']]],
-  ['bytes_5fper_5fdir_5fentry_3',['BYTES_PER_DIR_ENTRY',['../fat16_8h.html#a27ecb2f88e59eb0038c13c6d161434b6',1,'fat16.h']]]
+  ['debugger_5fmode_0',['debugger_mode',['../debugger_8h.html#a993cb9aa3e0dea07b5fa11f32bc700b2',1,'debugger.h']]]
 ];

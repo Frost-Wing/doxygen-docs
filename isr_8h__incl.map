@@ -1,10 +1,30 @@
 <map id="source/includes/isr.h" name="source/includes/isr.h">
-<area shape="rect" id="node1" title=" " alt="" coords="114,5,269,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,304,76,331"/>
-<area shape="rect" id="node3" title=" " alt="" coords="261,304,335,331"/>
-<area shape="rect" id="node4" href="$graphics_8h.html" title="Contains all the print functions." alt="" coords="147,80,236,107"/>
-<area shape="rect" id="node5" title=" " alt="" coords="102,155,177,181"/>
-<area shape="rect" id="node6" title=" " alt="" coords="257,229,339,256"/>
-<area shape="rect" id="node7" href="$basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="105,229,179,256"/>
-<area shape="rect" id="node8" href="$strings2_8h.html" title="The header file for strings.c." alt="" coords="201,155,288,181"/>
+<area shape="rect" id="Node000001" title="Interrupts handler header." alt="" coords="172,5,319,35"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="357,316,425,346"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="319,32,375,49,433,75,488,111,511,133,531,159,539,182,538,204,529,226,515,246,475,282,432,310,430,306,472,278,511,242,525,223,533,203,534,183,526,162,507,137,484,115,431,79,373,54,320,38"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,316,78,346"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,37,157,56,108,83,62,118,42,139,25,162,17,179,13,197,13,234,21,270,31,301,26,302,15,272,8,235,8,196,12,177,21,159,38,135,58,114,105,78,155,51,202,34"/>
+<area shape="rect" id="Node000004" href="$graphics_8h.html" title="Contains all the print functions." alt="" coords="203,83,288,113"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="247,33,248,68,243,66,244,38"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="271,110,303,131,338,160,370,195,395,237,401,270,399,303,395,299,396,270,390,239,366,199,334,164,300,136,270,116"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="201,100,163,105,120,114,78,133,60,146,45,162,30,195,25,232,28,269,35,301,30,301,23,270,20,232,24,194,41,159,57,142,75,128,118,109,162,99,205,97"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="444,161,516,190"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="288,110,432,157,427,159,288,115"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="130,238,209,268"/>
+<area shape="poly" id="edge7_Node000004_Node000006" title=" " alt="" coords="233,111,215,136,199,162,186,194,177,225,172,222,181,192,194,159,211,133,230,115"/>
+<area shape="rect" id="Node000007" href="$basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="284,238,354,268"/>
+<area shape="poly" id="edge8_Node000004_Node000007" title=" " alt="" coords="260,110,280,133,297,159,310,192,317,224,312,222,304,193,292,162,276,136,259,116"/>
+<area shape="rect" id="Node000008" href="$strings_8h.html" title="The header file for strings.c." alt="" coords="208,161,283,190"/>
+<area shape="poly" id="edge11_Node000004_Node000008" title=" " alt="" coords="247,111,248,146,243,144,244,116"/>
+<area shape="rect" id="Node000009" href="$stream_8h.html" title="Unix like standard streams." alt="" coords="55,161,132,190"/>
+<area shape="poly" id="edge16_Node000004_Node000009" title=" " alt="" coords="215,115,137,156,134,151,219,111"/>
+<area shape="poly" id="edge9_Node000007_Node000002" title=" " alt="" coords="333,266,370,305,364,304,331,271"/>
+<area shape="poly" id="edge10_Node000007_Node000003" title=" " alt="" coords="284,267,94,318,92,313,283,261"/>
+<area shape="poly" id="edge12_Node000008_Node000002" title=" " alt="" coords="284,185,328,204,349,219,368,237,384,268,391,302,387,300,379,270,363,240,346,223,325,209,284,190"/>
+<area shape="poly" id="edge13_Node000008_Node000003" title=" " alt="" coords="247,188,244,229,236,251,223,270,194,293,161,310,126,321,93,328,92,322,125,316,159,305,192,289,220,266,231,248,238,228,244,193"/>
+<area shape="poly" id="edge14_Node000008_Node000006" title=" " alt="" coords="233,189,196,229,193,225,229,193"/>
+<area shape="poly" id="edge15_Node000008_Node000007" title=" " alt="" coords="260,188,297,227,292,227,259,194"/>
+<area shape="poly" id="edge19_Node000009_Node000002" title=" " alt="" coords="94,188,100,229,107,249,119,266,135,277,157,286,216,302,344,324,339,325,215,307,155,291,132,281,116,270,102,251,95,230,92,193"/>
+<area shape="poly" id="edge17_Node000009_Node000003" title=" " alt="" coords="91,191,54,302,49,300,86,191"/>
+<area shape="poly" id="edge18_Node000009_Node000006" title=" " alt="" coords="108,188,147,226,142,228,107,194"/>
 </map>

@@ -1,0 +1,9 @@
+<map id="source/includes/ringbuffer.h" name="source/includes/ringbuffer.h">
+<area shape="rect" id="Node000001" title="The kernel&#45;wide ring buffer mainly for kernel get char." alt="" coords="5,5,201,35"/>
+<area shape="rect" id="Node000002" href="$basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="68,83,138,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,33,106,68,100,67,102,38"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="22,161,90,190"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,112,75,149,71,146,92,115"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="115,161,187,190"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="113,111,137,148,131,147,111,116"/>
+</map>

@@ -1,6 +1,11 @@
 <map id="source/includes/debugger.h" name="source/includes/debugger.h">
-<area shape="rect" id="node1" title="The headers files for E9 hack." alt="" coords="8,5,207,32"/>
-<area shape="rect" id="node2" href="$kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="18,155,197,181"/>
-<area shape="rect" id="node4" href="$pci_8h.html" title="The Header files for actual PCI source." alt="" coords="87,80,245,107"/>
-<area shape="rect" id="node3" href="$meltdown_8h.html" title="The headers for meltdown.c." alt="" coords="5,229,209,256"/>
+<area shape="rect" id="Node000001" title="The headers files for E9 hack." alt="" coords="5,5,199,35"/>
+<area shape="rect" id="Node000002" href="$kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="15,180,189,209"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,45,34,62,16,84,9,107,16,131,27,145,40,158,70,178,66,180,36,162,22,149,12,133,4,107,12,82,30,58,56,40"/>
+<area shape="rect" id="Node000003" href="$pci_8h.html" title="The Header files for actual PCI source." alt="" coords="26,92,178,122"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="103,48,105,93,99,92,101,53"/>
+<area shape="rect" id="Node000004" href="$ps2-mouse_8h.html" title=" " alt="" coords="202,83,346,132"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="145,40,228,81,223,83,144,45"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="104,136,105,180,99,179,100,140"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="215,139,132,181,130,177,210,139"/>
 </map>

@@ -1,6 +1,6 @@
 var ringbuffer_8h =
 [
-    [ "ring_buffer_t", "structring__buffer__t.html", "structring__buffer__t" ],
+    [ "ring_buffer_t", "structring__buffer__t.html", null ],
     [ "rb_clear", "ringbuffer_8h.html#abe420aadad742a5ab16dc0d2ca2d7282", null ],
     [ "rb_empty", "ringbuffer_8h.html#a37da2796cb4a8922a2bdae6d867262f7", null ],
     [ "rb_free", "ringbuffer_8h.html#a4604360c7c9ef889e4e09f395460edcd", null ],

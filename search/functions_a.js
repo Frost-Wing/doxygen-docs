@@ -1,11 +1,12 @@
 var searchData=
 [
-  ['kernel_5ftss_5finit_0',['kernel_tss_init',['../tss_8h.html#a6acc461a4280f7d1e04ef992a346912f',1,'tss.h']]],
-  ['keyboard_5fflush_5fbuffer_1',['keyboard_flush_buffer',['../keyboard_8h.html#ac4ca66f7908e020974c969423b7389df',1,'keyboard.h']]],
-  ['keyboard_5finit_2',['keyboard_init',['../keyboard_8h.html#aaeb4e4a3c4813ee1efc6b98bba9ec781',1,'keyboard.h']]],
-  ['kfree_3',['kfree',['../heap_8h.html#a069f85a5001d71bc44d8be6532a4e432',1,'heap.h']]],
-  ['kmalloc_4',['kmalloc',['../heap_8h.html#a87d8585002a620e687d68b38ab387a0e',1,'heap.h']]],
-  ['kmalloc_5faligned_5',['kmalloc_aligned',['../heap_8h.html#a2c72ec506b9bba0eb5c6fe507a2222bc',1,'heap.h']]],
-  ['kprint_6',['kprint',['../graphics_8h.html#a7b658f7a0a6aa530cba64bf3e04e6a08',1,'graphics.h']]],
-  ['krealloc_7',['krealloc',['../heap_8h.html#ad937a677645b4ed5b1e0411456d8285b',1,'heap.h']]]
+  ['leading_5ftrailing_5ftrim_0',['leading_trailing_trim',['../strings_8h.html#a0b1902f4461f2028ae371589a1e24f10',1,'strings.h']]],
+  ['list_5fat_1',['list_at',['../linkedlist_8h.html#a4c84839cea2d532bd8861a1ba288cf13',1,'linkedlist.h']]],
+  ['list_5fclear_2',['list_clear',['../linkedlist_8h.html#abfa75cac1686b8fa54227ff2da4a045f',1,'linkedlist.h']]],
+  ['list_5fempty_3',['list_empty',['../linkedlist_8h.html#ae8c76e7a5d6fee9f2f149e2ed05aaa5b',1,'linkedlist.h']]],
+  ['list_5fget_4',['list_get',['../linkedlist_8h.html#a02868ade0ad3d13bd7d28dbe92d0db1b',1,'linkedlist.h']]],
+  ['list_5finit_5',['list_init',['../linkedlist_8h.html#a7ba2522fe6778600ce0250709ffb1e58',1,'linkedlist.h']]],
+  ['list_5fpop_5fback_6',['list_pop_back',['../linkedlist_8h.html#a7e804208ac280009c0178779bea5719a',1,'linkedlist.h']]],
+  ['list_5fpush_5fback_7',['list_push_back',['../linkedlist_8h.html#af7aa32172b96679260cbab5b2a22ec40',1,'linkedlist.h']]],
+  ['load_5fcomplete_5fsse_8',['load_complete_sse',['../sse_8h.html#a2e7ce2344348ad2a5b3239b1bae8d2b3',1,'sse.h']]]
 ];

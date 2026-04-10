@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: source/includes/tty.h Source File</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -93,33 +94,29 @@ $(function(){initNavTree('tty_8h_source.html','',''); });
   <div class="headertitle"><div class="title">tty.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="tty_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef TTY_H</span></div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef TTY_H</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define TTY_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="tty_8h.html#ab4852b07c361ea02e27c448ece60e0f4">    7</a></span><span class="preprocessor">#define TTY_LINE_MAX     256</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="tty_8h.html#a9a426246ea103b3937f7f877c17e70d0">    8</a></span><span class="preprocessor">#define TTY_COOKED_MAX   1024</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#define TTY_LINE_MAX     256</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define TTY_COOKED_MAX   1024</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="tty_8h.html#a0d6679c5a4b8b74b22afc33d06d64eec">   10</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="tty_8h.html#a0d6679c5a4b8b74b22afc33d06d64eec">tty_init</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="tty_8h.html#a73e6a06a5accd06fdb4d9411b4fa794f">   11</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="tty_8h.html#a73e6a06a5accd06fdb4d9411b4fa794f">tty_input_char</a>(<span class="keywordtype">char</span> c);</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="tty_8h.html#a6d9480528a38da2d35e81c48d5c8cc4e">   12</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="tty_8h.html#a6d9480528a38da2d35e81c48d5c8cc4e">tty_read</a>(<span class="keywordtype">char</span>* buf, uint64_t count);</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="tty_8h.html#ab79bbedb9d743a373593846cad61278e">   13</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="tty_8h.html#ab79bbedb9d743a373593846cad61278e">tty_flush_input</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keywordtype">void</span> tty_init(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keywordtype">void</span> tty_input_char(<span class="keywordtype">char</span> c);</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keywordtype">int</span> tty_read(<span class="keywordtype">char</span>* buf, uint64_t count);</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keywordtype">void</span> tty_flush_input(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="abasics_8h_html"><div class="ttname"><a href="basics_8h.html">basics.h</a></div><div class="ttdoc">This is a basic header files with FrostWing specific short forms and basically a good for life header...</div></div>
-<div class="ttc" id="atty_8h_html_a0d6679c5a4b8b74b22afc33d06d64eec"><div class="ttname"><a href="tty_8h.html#a0d6679c5a4b8b74b22afc33d06d64eec">tty_init</a></div><div class="ttdeci">void tty_init(void)</div></div>
-<div class="ttc" id="atty_8h_html_a6d9480528a38da2d35e81c48d5c8cc4e"><div class="ttname"><a href="tty_8h.html#a6d9480528a38da2d35e81c48d5c8cc4e">tty_read</a></div><div class="ttdeci">int tty_read(char *buf, uint64_t count)</div></div>
-<div class="ttc" id="atty_8h_html_a73e6a06a5accd06fdb4d9411b4fa794f"><div class="ttname"><a href="tty_8h.html#a73e6a06a5accd06fdb4d9411b4fa794f">tty_input_char</a></div><div class="ttdeci">void tty_input_char(char c)</div></div>
-<div class="ttc" id="atty_8h_html_ab79bbedb9d743a373593846cad61278e"><div class="ttname"><a href="tty_8h.html#ab79bbedb9d743a373593846cad61278e">tty_flush_input</a></div><div class="ttdeci">void tty_flush_input(void)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_c9f89f587e7e777be723ee48a3df5844.html">includes</a></li><li class="navelem"><a href="tty_8h.html">tty.h</a></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><b>tty.h</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

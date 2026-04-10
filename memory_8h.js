@@ -1,6 +1,6 @@
 var memory_8h =
 [
-    [ "memory_context", "structmemory__context.html", "structmemory__context" ],
+    [ "memory_context", "structmemory__context.html", null ],
     [ "allocate_memory_at_address", "memory_8h.html#afbdab8b948980164767641683eb44b1c", null ],
     [ "analyze_memory_map", "memory_8h.html#ab9beb90213a5e726482307e347f2c7fb", null ],
     [ "display_memory_formatted", "memory_8h.html#ad08cbc6d3077c7f3751a2eb60c9b517a", null ],

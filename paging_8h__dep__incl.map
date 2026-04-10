@@ -1,5 +1,5 @@
 <map id="source/includes/paging.h" name="source/includes/paging.h">
-<area shape="rect" id="node1" title="Contains code and definitons for Paging." alt="" coords="16,5,199,32"/>
-<area shape="rect" id="node2" href="$kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="18,80,197,107"/>
-<area shape="rect" id="node3" href="$meltdown_8h.html" title="The headers for meltdown.c." alt="" coords="5,155,209,181"/>
+<area shape="rect" id="Node000001" title="Contains code and definitons for Paging." alt="" coords="5,5,182,35"/>
+<area shape="rect" id="Node000002" href="$kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="6,83,181,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,49,96,83,91,81,92,53"/>
 </map>

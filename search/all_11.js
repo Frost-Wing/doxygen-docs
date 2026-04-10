@@ -1,7 +1,27 @@
 var searchData=
 [
-  ['qid_0',['qid',['../structnvme__queue__t.html#a208d91c4e897563a2d01c363a55885ad',1,'nvme_queue_t']]],
-  ['queue_1',['queue',['../structflanterm__fb__context.html#a76feab2534a9f8393c1fe7cda7215705',1,'flanterm_fb_context']]],
-  ['queue_5fi_2',['queue_i',['../structflanterm__fb__context.html#a8e6965b8e4a3f94b985f1edc04ebd740',1,'flanterm_fb_context']]],
-  ['queue_5fsize_3',['queue_size',['../structflanterm__fb__context.html#ac4030b8764374c37e25110cd197280e2',1,'flanterm_fb_context']]]
+  ['rb_5fclear_0',['rb_clear',['../ringbuffer_8h.html#abe420aadad742a5ab16dc0d2ca2d7282',1,'ringbuffer.h']]],
+  ['rb_5fempty_1',['rb_empty',['../ringbuffer_8h.html#a37da2796cb4a8922a2bdae6d867262f7',1,'ringbuffer.h']]],
+  ['rb_5ffree_2',['rb_free',['../ringbuffer_8h.html#a4604360c7c9ef889e4e09f395460edcd',1,'ringbuffer.h']]],
+  ['rb_5ffull_3',['rb_full',['../ringbuffer_8h.html#a5cc866409cbb8840f1c94d2852976410',1,'ringbuffer.h']]],
+  ['rb_5finit_4',['rb_init',['../ringbuffer_8h.html#aae7bb7d07bf301753c8ad1af137c900a',1,'ringbuffer.h']]],
+  ['rb_5fpeek_5',['rb_peek',['../ringbuffer_8h.html#a281aefbd3e27f48d02715707aae1e6ed',1,'ringbuffer.h']]],
+  ['rb_5fpop_6',['rb_pop',['../ringbuffer_8h.html#a4d28de42ecf23d7e40b3d56e2076f23b',1,'ringbuffer.h']]],
+  ['rb_5fpush_7',['rb_push',['../ringbuffer_8h.html#a4bd4ec4bfe4f65572556105c80eef269',1,'ringbuffer.h']]],
+  ['rb_5fsize_8',['rb_size',['../ringbuffer_8h.html#a69bd00d201517061bb71880e91295c98',1,'ringbuffer.h']]],
+  ['read_5frtc_5fregister_9',['read_rtc_register',['../rtc_8h.html#afdc1788b05cad808e61cc90e03f0a912',1,'rtc.h']]],
+  ['real_20machine_10',['Booting to real machine',['../md_readme.html#autotoc_md14',1,'']]],
+  ['recommended_20requirements_20bios_11',['Recommended Requirements (BIOS)',['../md_readme.html#autotoc_md12',1,'']]],
+  ['recommended_20requirements_20uefi_12',['Recommended Requirements (UEFI)',['../md_readme.html#autotoc_md13',1,'']]],
+  ['redir_5ft_13',['redir_t',['../structredir__t.html',1,'']]],
+  ['registerinterrupthandler_14',['registerInterruptHandler',['../isr_8h.html#abbf1d7887d81019d655219c3087fac19',1,'isr.h']]],
+  ['remove_5flast_5fchar_15',['remove_last_char',['../strings_8h.html#ab8742b3fde0c51ed53cf7ac80dd42f9a',1,'strings.h']]],
+  ['reports_16',['Issues and Bug Reports',['../md_CONTRIBUTING.html#autotoc_md21',1,'']]],
+  ['requirements_17',['Hardware/Software (Emulator) Requirements',['../md_readme.html#autotoc_md9',1,'']]],
+  ['requirements_20bios_18',['Requirements BIOS',['../md_readme.html#autotoc_md10',1,'Minimum Requirements (BIOS)'],['../md_readme.html#autotoc_md12',1,'Recommended Requirements (BIOS)']]],
+  ['requirements_20uefi_19',['Requirements UEFI',['../md_readme.html#autotoc_md11',1,'Minimum Requirements (UEFI)'],['../md_readme.html#autotoc_md13',1,'Recommended Requirements (UEFI)']]],
+  ['ring_5fbuffer_5ft_20',['ring_buffer_t',['../structring__buffer__t.html',1,'']]],
+  ['ringbuffer_2eh_21',['ringbuffer.h',['../ringbuffer_8h.html',1,'']]],
+  ['rtc_2eh_22',['rtc.h',['../rtc_8h.html',1,'']]],
+  ['rtc_5fread_5fstable_23',['rtc_read_stable',['../rtc_8h.html#a3cda9dd45f9b67f39fd4f6e5fb83727a',1,'rtc.h']]]
 ];

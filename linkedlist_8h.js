@@ -1,7 +1,7 @@
 var linkedlist_8h =
 [
-    [ "list_node", "structlist__node.html", "structlist__node" ],
-    [ "list", "structlist.html", "structlist" ],
+    [ "list_node", "structlist__node.html", null ],
+    [ "list", "structlist.html", null ],
     [ "list_at", "linkedlist_8h.html#a4c84839cea2d532bd8861a1ba288cf13", null ],
     [ "list_clear", "linkedlist_8h.html#abfa75cac1686b8fa54227ff2da4a045f", null ],
     [ "list_empty", "linkedlist_8h.html#ae8c76e7a5d6fee9f2f149e2ed05aaa5b", null ],

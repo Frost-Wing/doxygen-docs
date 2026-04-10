@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: source/includes/heap.h File Reference</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -103,10 +104,14 @@ Include dependency graph for heap.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="heap_8h__incl.png" border="0" usemap="#asource_2includes_2heap_8h" loading="lazy" alt=""/></div>
 <map name="asource_2includes_2heap_8h" id="asource_2includes_2heap_8h">
-<area shape="rect" title="Header files for heap." alt="" coords="5,5,176,32"/>
-<area shape="rect" title=" " alt="" coords="16,155,91,181"/>
-<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="91,80,165,107"/>
-<area shape="rect" title=" " alt="" coords="115,155,186,181"/>
+<area shape="rect" title="Header files for heap." alt="" coords="5,5,171,35"/>
+<area shape="rect" title=" " alt="" coords="16,161,88,190"/>
+<area shape="poly" title=" " alt="" coords="87,35,61,146,56,145,82,36"/>
+<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="89,83,159,113"/>
+<area shape="poly" title=" " alt="" coords="95,33,113,69,108,69,94,38"/>
+<area shape="poly" title=" " alt="" coords="113,112,78,151,74,147,108,114"/>
+<area shape="rect" title=" " alt="" coords="112,161,181,190"/>
+<area shape="poly" title=" " alt="" coords="130,111,141,146,135,145,127,115"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -114,9 +119,15 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="heap_8h__dep__incl.png" border="0" usemap="#asource_2includes_2heap_8hdep" loading="lazy" alt=""/></div>
 <map name="asource_2includes_2heap_8hdep" id="asource_2includes_2heap_8hdep">
-<area shape="rect" title="Header files for heap." alt="" coords="22,5,193,32"/>
-<area shape="rect" href="kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="18,80,197,107"/>
-<area shape="rect" href="meltdown_8h.html" title="The headers for meltdown.c." alt="" coords="5,155,209,181"/>
+<area shape="rect" title="Header files for heap." alt="" coords="100,5,266,35"/>
+<area shape="rect" href="fdlfcn_8h_source.html" title=" " alt="" coords="98,83,268,113"/>
+<area shape="poly" title=" " alt="" coords="185,49,186,83,181,81,182,53"/>
+<area shape="rect" href="kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="5,170,180,200"/>
+<area shape="poly" title=" " alt="" coords="129,44,107,61,88,84,81,106,81,129,90,170,84,169,75,129,76,105,83,82,104,58,132,40"/>
+<area shape="rect" href="sh__util_8h.html" title="Utils for fw shell." alt="" coords="220,161,357,209"/>
+<area shape="poly" title=" " alt="" coords="235,40,262,58,283,82,291,101,295,122,294,162,290,159,290,123,286,103,278,84,258,62,234,45"/>
+<area shape="poly" title=" " alt="" coords="160,123,109,172,106,168,155,124"/>
+<area shape="poly" title=" " alt="" coords="213,120,262,160,256,160,212,125"/>
 </map>
 </div>
 </div>
@@ -124,29 +135,35 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:afe329a1445522ad4d2b7f1ee45db828f" id="r_afe329a1445522ad4d2b7f1ee45db828f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afe329a1445522ad4d2b7f1ee45db828f">mm_init</a> (uintptr_t kernel_end, <a class="el" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a> heap_size)</td></tr>
+<tr class="memitem:afe329a1445522ad4d2b7f1ee45db828f" id="r_afe329a1445522ad4d2b7f1ee45db828f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afe329a1445522ad4d2b7f1ee45db828f">mm_init</a> (uintptr_t kernel_end, int64 heap_size)</td></tr>
 <tr class="memdesc:afe329a1445522ad4d2b7f1ee45db828f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to initlialize heap.  <br /></td></tr>
 <tr class="memitem:a89e426eee07ea2c83d15eed4cccd5ae2" id="r_a89e426eee07ea2c83d15eed4cccd5ae2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a89e426eee07ea2c83d15eed4cccd5ae2">mm_extend</a> (uint64_t additional_size)</td></tr>
 <tr class="memdesc:a89e426eee07ea2c83d15eed4cccd5ae2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to extend available heap.  <br /></td></tr>
 <tr class="memitem:a0475e3c1149b04e16b34120cf601d817" id="r_a0475e3c1149b04e16b34120cf601d817"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0475e3c1149b04e16b34120cf601d817">mm_constrict</a> (uint64_t removal_size)</td></tr>
 <tr class="memdesc:a0475e3c1149b04e16b34120cf601d817"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to constrict available heap.  <br /></td></tr>
-<tr class="memitem:a83aeab638a344db4dab5365af80ca8d5" id="r_a83aeab638a344db4dab5365af80ca8d5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a83aeab638a344db4dab5365af80ca8d5">mm_print_out</a> ()</td></tr>
-<tr class="memdesc:a83aeab638a344db4dab5365af80ca8d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints out heap information.  <br /></td></tr>
-<tr class="memitem:a87d8585002a620e687d68b38ab387a0e" id="r_a87d8585002a620e687d68b38ab387a0e"><td class="memItemLeft">void *&#160;</td><td class="memItemRight"><a class="el" href="#a87d8585002a620e687d68b38ab387a0e">kmalloc</a> (size_t <a class="el" href="idt_8h.html#aaba88b24a21a6c70c895c0d55f4a69a0">size</a>)</td></tr>
+<tr class="memitem:a83aeab638a344db4dab5365af80ca8d5" id="r_a83aeab638a344db4dab5365af80ca8d5"><td class="memItemLeft"><a id="a83aeab638a344db4dab5365af80ca8d5" name="a83aeab638a344db4dab5365af80ca8d5"></a>
+void&#160;</td><td class="memItemRight"><b>mm_print_out</b> ()</td></tr>
+<tr class="memdesc:a83aeab638a344db4dab5365af80ca8d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints out heap information. <br /></td></tr>
+<tr class="memitem:a87d8585002a620e687d68b38ab387a0e" id="r_a87d8585002a620e687d68b38ab387a0e"><td class="memItemLeft">void *&#160;</td><td class="memItemRight"><a class="el" href="#a87d8585002a620e687d68b38ab387a0e">kmalloc</a> (size_t size)</td></tr>
 <tr class="memdesc:a87d8585002a620e687d68b38ab387a0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The main memory alloc function.  <br /></td></tr>
-<tr class="memitem:ad937a677645b4ed5b1e0411456d8285b" id="r_ad937a677645b4ed5b1e0411456d8285b"><td class="memItemLeft">void *&#160;</td><td class="memItemRight"><a class="el" href="#ad937a677645b4ed5b1e0411456d8285b">krealloc</a> (void *ptr, size_t <a class="el" href="idt_8h.html#aaba88b24a21a6c70c895c0d55f4a69a0">size</a>)</td></tr>
+<tr class="memitem:ad937a677645b4ed5b1e0411456d8285b" id="r_ad937a677645b4ed5b1e0411456d8285b"><td class="memItemLeft">void *&#160;</td><td class="memItemRight"><a class="el" href="#ad937a677645b4ed5b1e0411456d8285b">krealloc</a> (void *ptr, size_t size)</td></tr>
 <tr class="memdesc:ad937a677645b4ed5b1e0411456d8285b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The main memory realloc function.  <br /></td></tr>
-<tr class="memitem:a2c72ec506b9bba0eb5c6fe507a2222bc" id="r_a2c72ec506b9bba0eb5c6fe507a2222bc"><td class="memItemLeft">void *&#160;</td><td class="memItemRight"><a class="el" href="#a2c72ec506b9bba0eb5c6fe507a2222bc">kmalloc_aligned</a> (size_t <a class="el" href="idt_8h.html#aaba88b24a21a6c70c895c0d55f4a69a0">size</a>, size_t align)</td></tr>
+<tr class="memitem:a2c72ec506b9bba0eb5c6fe507a2222bc" id="r_a2c72ec506b9bba0eb5c6fe507a2222bc"><td class="memItemLeft">void *&#160;</td><td class="memItemRight"><a class="el" href="#a2c72ec506b9bba0eb5c6fe507a2222bc">kmalloc_aligned</a> (size_t size, size_t align)</td></tr>
 <tr class="memitem:a069f85a5001d71bc44d8be6532a4e432" id="r_a069f85a5001d71bc44d8be6532a4e432"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a069f85a5001d71bc44d8be6532a4e432">kfree</a> (void *ptr)</td></tr>
 <tr class="memdesc:a069f85a5001d71bc44d8be6532a4e432"><td class="mdescLeft">&#160;</td><td class="mdescRight">The main free function for memory allocation.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a0ad4b7b524251063440155981cdb1ea1" id="r_a0ad4b7b524251063440155981cdb1ea1"><td class="memItemLeft">uint64_t&#160;</td><td class="memItemRight"><a class="el" href="#a0ad4b7b524251063440155981cdb1ea1">heap_begin</a></td></tr>
-<tr class="memitem:a1ac864ad5f14c8c14a4f20d8ffe44b4f" id="r_a1ac864ad5f14c8c14a4f20d8ffe44b4f"><td class="memItemLeft">uint64_t&#160;</td><td class="memItemRight"><a class="el" href="#a1ac864ad5f14c8c14a4f20d8ffe44b4f">heap_end</a></td></tr>
-<tr class="memitem:a67a4c2d08dbe2211888d0354baab762c" id="r_a67a4c2d08dbe2211888d0354baab762c"><td class="memItemLeft">uint64_t&#160;</td><td class="memItemRight"><a class="el" href="#a67a4c2d08dbe2211888d0354baab762c">last_alloc</a></td></tr>
-<tr class="memitem:a773071601b4e4a5de2f22d66a732b455" id="r_a773071601b4e4a5de2f22d66a732b455"><td class="memItemLeft">uint64_t&#160;</td><td class="memItemRight"><a class="el" href="#a773071601b4e4a5de2f22d66a732b455">alloc_count</a></td></tr>
-<tr class="memitem:a5b5c4b80a46389b8396e5e8898b00f1c" id="r_a5b5c4b80a46389b8396e5e8898b00f1c"><td class="memItemLeft">uint64_t&#160;</td><td class="memItemRight"><a class="el" href="#a5b5c4b80a46389b8396e5e8898b00f1c">memory_used</a></td></tr>
+<tr class="memitem:a0ad4b7b524251063440155981cdb1ea1" id="r_a0ad4b7b524251063440155981cdb1ea1"><td class="memItemLeft"><a id="a0ad4b7b524251063440155981cdb1ea1" name="a0ad4b7b524251063440155981cdb1ea1"></a>
+uint64_t&#160;</td><td class="memItemRight"><b>heap_begin</b></td></tr>
+<tr class="memitem:a1ac864ad5f14c8c14a4f20d8ffe44b4f" id="r_a1ac864ad5f14c8c14a4f20d8ffe44b4f"><td class="memItemLeft"><a id="a1ac864ad5f14c8c14a4f20d8ffe44b4f" name="a1ac864ad5f14c8c14a4f20d8ffe44b4f"></a>
+uint64_t&#160;</td><td class="memItemRight"><b>heap_end</b></td></tr>
+<tr class="memitem:a67a4c2d08dbe2211888d0354baab762c" id="r_a67a4c2d08dbe2211888d0354baab762c"><td class="memItemLeft"><a id="a67a4c2d08dbe2211888d0354baab762c" name="a67a4c2d08dbe2211888d0354baab762c"></a>
+uint64_t&#160;</td><td class="memItemRight"><b>last_alloc</b></td></tr>
+<tr class="memitem:a773071601b4e4a5de2f22d66a732b455" id="r_a773071601b4e4a5de2f22d66a732b455"><td class="memItemLeft"><a id="a773071601b4e4a5de2f22d66a732b455" name="a773071601b4e4a5de2f22d66a732b455"></a>
+uint64_t&#160;</td><td class="memItemRight"><b>alloc_count</b></td></tr>
+<tr class="memitem:a5b5c4b80a46389b8396e5e8898b00f1c" id="r_a5b5c4b80a46389b8396e5e8898b00f1c"><td class="memItemLeft"><a id="a5b5c4b80a46389b8396e5e8898b00f1c" name="a5b5c4b80a46389b8396e5e8898b00f1c"></a>
+uint64_t&#160;</td><td class="memItemRight"><b>memory_used</b></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Header files for heap. </p>
@@ -214,7 +231,7 @@ Variables</h2></td></tr>
 <p>The main memory alloc function. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname"><a class="el" href="idt_8h.html#aaba88b24a21a6c70c895c0d55f4a69a0">size</a></td><td>Amount of size needed to be allocated. </td></tr>
+    <tr><td class="paramname">size</td><td>Amount of size needed to be allocated. </td></tr>
   </table>
   </dd>
 </dl>
@@ -242,7 +259,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname"><a class="el" href="idt_8h.html#aaba88b24a21a6c70c895c0d55f4a69a0">size</a></td><td></td></tr>
+    <tr><td class="paramname">size</td><td></td></tr>
     <tr><td class="paramname">align</td><td></td></tr>
   </table>
   </dd>
@@ -281,7 +298,7 @@ Variables</h2></td></tr>
 <p>The main memory realloc function. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname"><a class="el" href="idt_8h.html#aaba88b24a21a6c70c895c0d55f4a69a0">size</a></td><td>Amount of size needed to be extened. </td></tr>
+    <tr><td class="paramname">size</td><td>Amount of size needed to be extened. </td></tr>
   </table>
   </dd>
 </dl>
@@ -372,7 +389,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a></td>          <td class="paramname"><span class="paramname"><em>heap_size</em></span>&#160;)</td>
+          <td class="paramtype">int64</td>          <td class="paramname"><span class="paramname"><em>heap_size</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -393,144 +410,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a83aeab638a344db4dab5365af80ca8d5" name="a83aeab638a344db4dab5365af80ca8d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83aeab638a344db4dab5365af80ca8d5">&#9670;&#160;</a></span>mm_print_out()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mm_print_out </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Prints out heap information. </p>
-
-</div>
-</div>
-<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
-<a id="a773071601b4e4a5de2f22d66a732b455" name="a773071601b4e4a5de2f22d66a732b455"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a773071601b4e4a5de2f22d66a732b455">&#9670;&#160;</a></span>alloc_count</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint64_t alloc_count</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0ad4b7b524251063440155981cdb1ea1" name="a0ad4b7b524251063440155981cdb1ea1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ad4b7b524251063440155981cdb1ea1">&#9670;&#160;</a></span>heap_begin</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint64_t heap_begin</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1ac864ad5f14c8c14a4f20d8ffe44b4f" name="a1ac864ad5f14c8c14a4f20d8ffe44b4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ac864ad5f14c8c14a4f20d8ffe44b4f">&#9670;&#160;</a></span>heap_end</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint64_t heap_end</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a67a4c2d08dbe2211888d0354baab762c" name="a67a4c2d08dbe2211888d0354baab762c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67a4c2d08dbe2211888d0354baab762c">&#9670;&#160;</a></span>last_alloc</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint64_t last_alloc</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5b5c4b80a46389b8396e5e8898b00f1c" name="a5b5c4b80a46389b8396e5e8898b00f1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b5c4b80a46389b8396e5e8898b00f1c">&#9670;&#160;</a></span>memory_used</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint64_t memory_used</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
@@ -544,7 +423,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_c9f89f587e7e777be723ee48a3df5844.html">includes</a></li><li class="navelem"><a href="heap_8h.html">heap.h</a></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="heap_8h.html">heap.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

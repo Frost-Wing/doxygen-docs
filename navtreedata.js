@@ -25,7 +25,12 @@
 var NAVTREE =
 [
   [ "FrostWing", "index.html", [
-    [ "FrostWing Documentations", "index.html", "index" ],
+    [ "FrostWing Documentations", "md_doxygen-index.html", [
+      [ "Welcome to FrostWing 📚 documentation page!", "md_doxygen-index.html#autotoc_md1", [
+        [ "Prerequisites", "md_doxygen-index.html#autotoc_md2", null ],
+        [ "Information contained in this page", "md_doxygen-index.html#autotoc_md3", null ]
+      ] ]
+    ] ],
     [ "FrostWing Operating System", "md_readme.html", [
       [ "Table of Contents", "md_readme.html#autotoc_md5", null ],
       [ "Gallery", "md_readme.html#autotoc_md6", null ],
@@ -54,21 +59,19 @@ var NAVTREE =
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", "functions_vars" ]
+        [ "All", "functions.html", null ],
+        [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
-        [ "All", "globals.html", "globals_dup" ],
-        [ "Functions", "globals_func.html", "globals_func" ],
+        [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
         [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ],
-        [ "Macros", "globals_defs.html", "globals_defs" ]
+        [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -77,15 +80,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "acpi-shutdown_8h.html",
-"fat16_8h.html#a131e809a3176699a85fb5929434f2cb2",
-"globals_defs_g.html",
-"keyboard_8h.html#a79703f6e9ef4dd17f9d237bfd0a04850",
-"proc_8h.html#abce71091d11510d8ff78722bc15b5cb3",
-"structIDTEntry.html#a43c3956a48714f8c0997b25f8b9fd4e7",
-"structflanterm__context.html#adc07dc026e4e817f62c92513ecc54abc",
-"structlimine__framebuffer.html#aeb59aad798c9422e1ff1eac95f5b1af4",
-"structnvme__namespace__t.html#acefc91ce63af30acb96b9e7665ddfb1e",
-"syscalls_8h.html#ae45a30084593b2c9920fc352c540b1da"
+"sse_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

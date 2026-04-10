@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: source/includes/pci_id.h File Reference</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -101,11 +102,27 @@ $(function(){initNavTree('pci__id_8h.html','',''); });
 Include dependency graph for pci_id.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="pci__id_8h__incl.png" border="0" usemap="#asource_2includes_2pci__id_8h" loading="lazy" alt=""/></div>
+<map name="asource_2includes_2pci__id_8h" id="asource_2includes_2pci__id_8h">
+<area shape="rect" title="The list of all officially recognized devices." alt="" coords="5,5,174,35"/>
+<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="55,83,124,113"/>
+<area shape="poly" title=" " alt="" coords="90,33,92,68,87,67,89,38"/>
+<area shape="rect" title=" " alt="" coords="9,161,77,190"/>
+<area shape="poly" title=" " alt="" coords="83,112,62,149,57,146,79,115"/>
+<area shape="rect" title=" " alt="" coords="101,161,174,190"/>
+<area shape="poly" title=" " alt="" coords="100,111,123,148,118,148,97,116"/>
+</map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="pci__id_8h__dep__incl.png" border="0" usemap="#asource_2includes_2pci__id_8hdep" loading="lazy" alt=""/></div>
+<map name="asource_2includes_2pci__id_8hdep" id="asource_2includes_2pci__id_8hdep">
+<area shape="rect" title="The list of all officially recognized devices." alt="" coords="8,5,177,35"/>
+<area shape="rect" href="pci_8h.html" title="The Header files for actual PCI source." alt="" coords="17,83,168,113"/>
+<area shape="poly" title=" " alt="" coords="94,48,95,83,90,82,91,53"/>
+<area shape="rect" href="kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="5,161,180,190"/>
+<area shape="poly" title=" " alt="" coords="94,127,95,161,90,159,91,130"/>
+</map>
 </div>
 </div>
 <p><a href="pci__id_8h_source.html">Go to the source code of this file.</a></p>
@@ -116,17 +133,19 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:abed043652a5019b125206d40605f445c" id="r_abed043652a5019b125206d40605f445c"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#abed043652a5019b125206d40605f445c">MAX_PCI_DEVICES</a>&#160;&#160;&#160;512</td></tr>
+<tr class="memitem:abed043652a5019b125206d40605f445c" id="r_abed043652a5019b125206d40605f445c"><td class="memItemLeft"><a id="abed043652a5019b125206d40605f445c" name="abed043652a5019b125206d40605f445c"></a>
+#define&#160;</td><td class="memItemRight"><b>MAX_PCI_DEVICES</b>&#160;&#160;&#160;512</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a16eb6c05e8977ca8baa215a96ece4020" id="r_a16eb6c05e8977ca8baa215a96ece4020"><td class="memItemLeft">typedef void(*&#160;</td><td class="memItemRight"><a class="el" href="#a16eb6c05e8977ca8baa215a96ece4020">pci_probe_fn</a>) (uint8_t bus, uint8_t slot, uint8_t function)</td></tr>
+<tr class="memitem:a16eb6c05e8977ca8baa215a96ece4020" id="r_a16eb6c05e8977ca8baa215a96ece4020"><td class="memItemLeft"><a id="a16eb6c05e8977ca8baa215a96ece4020" name="a16eb6c05e8977ca8baa215a96ece4020"></a>
+typedef void(*&#160;</td><td class="memItemRight"><b>pci_probe_fn</b>) (uint8_t bus, uint8_t slot, uint8_t function)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:acf9a06b2baa47d7a8e7427f114a3c605" id="r_acf9a06b2baa47d7a8e7427f114a3c605"><td class="memItemLeft"><a class="el" href="basics_8h.html#a4505c08c065b48840a30eedd9845cce2">string</a>&#160;</td><td class="memItemRight"><a class="el" href="#acf9a06b2baa47d7a8e7427f114a3c605">parse_vendor</a> (<a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> vendor)</td></tr>
+<tr class="memitem:acf9a06b2baa47d7a8e7427f114a3c605" id="r_acf9a06b2baa47d7a8e7427f114a3c605"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#acf9a06b2baa47d7a8e7427f114a3c605">parse_vendor</a> (int16 vendor)</td></tr>
 <tr class="memdesc:acf9a06b2baa47d7a8e7427f114a3c605"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the vendor id and gives the appropriate name.  <br /></td></tr>
-<tr class="memitem:a2ef1035dfed9b3bebb7bcff54e9c8855" id="r_a2ef1035dfed9b3bebb7bcff54e9c8855"><td class="memItemLeft"><a class="el" href="basics_8h.html#a4505c08c065b48840a30eedd9845cce2">string</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2ef1035dfed9b3bebb7bcff54e9c8855">parse_class</a> (<a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a> classid)</td></tr>
+<tr class="memitem:a2ef1035dfed9b3bebb7bcff54e9c8855" id="r_a2ef1035dfed9b3bebb7bcff54e9c8855"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#a2ef1035dfed9b3bebb7bcff54e9c8855">parse_class</a> (int16 classid)</td></tr>
 <tr class="memdesc:a2ef1035dfed9b3bebb7bcff54e9c8855"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the class id and gives the appropriate class name.  <br /></td></tr>
 <tr class="memitem:a7c86733747710a1a05bd66838a0ddc7b" id="r_a7c86733747710a1a05bd66838a0ddc7b"><td class="memItemLeft">const <a class="el" href="structpci__id__entry__t.html">pci_id_entry_t</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a7c86733747710a1a05bd66838a0ddc7b">pci_lookup</a> (uint16_t vendor, uint16_t device, uint8_t classid)</td></tr>
 <tr class="memdesc:a7c86733747710a1a05bd66838a0ddc7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Simplified and clean PCI lookup function.  <br /></td></tr>
@@ -134,7 +153,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a87f568896ae4ab372320d11e29980698"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the AHCI BAR and handles it.  <br /></td></tr>
 <tr class="memitem:a2e7f09e595a2800bb574d09950b23649" id="r_a2e7f09e595a2800bb574d09950b23649"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2e7f09e595a2800bb574d09950b23649">probe_rtl8139</a> (uint8_t bus, uint8_t slot, uint8_t function)</td></tr>
 <tr class="memdesc:a2e7f09e595a2800bb574d09950b23649"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the RTL8139 card and handles it.  <br /></td></tr>
-<tr class="memitem:a368ee9d0d2c8499bab89a43edf83ff8c" id="r_a368ee9d0d2c8499bab89a43edf83ff8c"><td class="memItemLeft"><a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a>&#160;</td><td class="memItemRight"><a class="el" href="#a368ee9d0d2c8499bab89a43edf83ff8c">auto_name_gpu</a> (uint16_t vendor, uint16_t device)</td></tr>
+<tr class="memitem:a368ee9d0d2c8499bab89a43edf83ff8c" id="r_a368ee9d0d2c8499bab89a43edf83ff8c"><td class="memItemLeft">cstring&#160;</td><td class="memItemRight"><a class="el" href="#a368ee9d0d2c8499bab89a43edf83ff8c">auto_name_gpu</a> (uint16_t vendor, uint16_t device)</td></tr>
 <tr class="memdesc:a368ee9d0d2c8499bab89a43edf83ff8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Automatically names the unknown GPU with vendor name and its device id.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
@@ -143,37 +162,7 @@ Functions</h2></td></tr>
 <dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2025-12-27</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) Pradosh 2025 </dd></dl>
-</div><a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
-<a id="abed043652a5019b125206d40605f445c" name="abed043652a5019b125206d40605f445c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abed043652a5019b125206d40605f445c">&#9670;&#160;</a></span>MAX_PCI_DEVICES</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAX_PCI_DEVICES&#160;&#160;&#160;512</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
-<a id="a16eb6c05e8977ca8baa215a96ece4020" name="a16eb6c05e8977ca8baa215a96ece4020"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16eb6c05e8977ca8baa215a96ece4020">&#9670;&#160;</a></span>pci_probe_fn</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void(* pci_probe_fn) (uint8_t bus, uint8_t slot, uint8_t function)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a368ee9d0d2c8499bab89a43edf83ff8c" name="a368ee9d0d2c8499bab89a43edf83ff8c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a368ee9d0d2c8499bab89a43edf83ff8c">&#9670;&#160;</a></span>auto_name_gpu()</h2>
 
@@ -181,7 +170,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> auto_name_gpu </td>
+          <td class="memname">cstring auto_name_gpu </td>
           <td>(</td>
           <td class="paramtype">uint16_t</td>          <td class="paramname"><span class="paramname"><em>vendor</em></span>, </td>
         </tr>
@@ -212,9 +201,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="basics_8h.html#a4505c08c065b48840a30eedd9845cce2">string</a> parse_class </td>
+          <td class="memname">string parse_class </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a></td>          <td class="paramname"><span class="paramname"><em>classid</em></span></td><td>)</td>
+          <td class="paramtype">int16</td>          <td class="paramname"><span class="paramname"><em>classid</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -238,9 +227,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="basics_8h.html#a4505c08c065b48840a30eedd9845cce2">string</a> parse_vendor </td>
+          <td class="memname">string parse_vendor </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="basics_8h.html#ae9794ced33376f900e9e70cfb39a419c">int16</a></td>          <td class="paramname"><span class="paramname"><em>vendor</em></span></td><td>)</td>
+          <td class="paramtype">int16</td>          <td class="paramname"><span class="paramname"><em>vendor</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -379,7 +368,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_c9f89f587e7e777be723ee48a3df5844.html">includes</a></li><li class="navelem"><a href="pci__id_8h.html">pci_id.h</a></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="pci__id_8h.html">pci_id.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

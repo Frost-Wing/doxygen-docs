@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: source/includes/ps2-mouse.h File Reference</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -97,57 +98,107 @@ $(function(){initNavTree('ps2-mouse_8h.html','',''); });
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="hal_8h_source.html">hal.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="debugger_8h_source.html">debugger.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="glbackend_8h_source.html">opengl/glbackend.h</a>&gt;</code><br />
+<code>#include &lt;opengl/glbackend.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="isr_8h_source.html">isr.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for ps2-mouse.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="ps2-mouse_8h__incl.png" border="0" usemap="#asource_2includes_2ps2-mouse_8h" loading="lazy" alt=""/></div>
 <map name="asource_2includes_2ps2-mouse_8h" id="asource_2includes_2ps2-mouse_8h">
-<area shape="rect" title=" " alt="" coords="455,5,606,47"/>
-<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="731,319,805,345"/>
-<area shape="rect" title=" " alt="" coords="472,319,555,345"/>
-<area shape="rect" href="hal_8h.html" title="Header file for Hardware Abstraction Layer &#45;&gt; Source from GoGX OS." alt="" coords="833,244,887,271"/>
-<area shape="rect" href="glbackend_8h.html" title="Contains all backend hardware pixel drawing functions." alt="" coords="74,244,222,271"/>
-<area shape="rect" href="isr_8h.html" title=" " alt="" coords="433,95,482,121"/>
-<area shape="rect" title=" " alt="" coords="399,393,470,420"/>
-<area shape="rect" title=" " alt="" coords="656,393,731,420"/>
-<area shape="rect" href="gl_8h.html" title="Contains all opengl related functions." alt="" coords="150,319,197,345"/>
-<area shape="rect" href="glvec_8h.html" title="Vector types for use with OpenGL functions." alt="" coords="5,319,75,345"/>
-<area shape="rect" title=" " alt="" coords="323,319,397,345"/>
-<area shape="rect" href="graphics_8h.html" title="Contains all the print functions." alt="" coords="403,169,493,196"/>
-<area shape="rect" href="strings2_8h.html" title="The header file for strings.c." alt="" coords="569,244,655,271"/>
+<area shape="rect" title=" " alt="" coords="311,5,455,54"/>
+<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="291,335,360,365"/>
+<area shape="poly" title=" " alt="" coords="381,53,333,320,328,319,376,56"/>
+<area shape="rect" title=" " alt="" coords="705,335,784,365"/>
+<area shape="poly" title=" " alt="" coords="456,49,530,79,612,122,652,149,689,180,722,216,748,256,756,288,754,321,750,318,751,289,743,258,717,219,685,184,649,153,609,126,528,83,456,55"/>
+<area shape="rect" href="hal_8h.html" title="Header file for Hardware Abstraction Layer &#45;&gt; Source from GoGX OS." alt="" coords="5,257,57,287"/>
+<area shape="poly" title=" " alt="" coords="308,55,258,77,199,105,140,140,88,182,63,212,45,244,40,242,58,209,84,178,137,135,197,100,256,72,312,52"/>
+<area shape="rect" href="debugger_8h.html" title="The headers files for E9 hack." alt="" coords="98,180,190,209"/>
+<area shape="poly" title=" " alt="" coords="346,56,279,104,179,173,175,169,276,100,350,53"/>
+<area shape="rect" title=" " alt="" coords="832,102,976,132"/>
+<area shape="poly" title=" " alt="" coords="455,40,819,100,814,103,456,45"/>
+<area shape="rect" href="isr_8h.html" title="Interrupts handler header." alt="" coords="452,102,498,132"/>
+<area shape="poly" title=" " alt="" coords="409,52,451,91,446,91,408,57"/>
+<area shape="rect" title=" " alt="" coords="292,413,360,442"/>
+<area shape="poly" title=" " alt="" coords="328,363,328,398,323,395,324,367"/>
+<area shape="rect" title=" " alt="" coords="580,413,652,442"/>
+<area shape="poly" title=" " alt="" coords="361,358,568,412,562,414,360,363"/>
+<area shape="poly" title=" " alt="" coords="57,277,277,334,274,338,57,283"/>
+<area shape="poly" title=" " alt="" coords="34,285,49,325,61,345,77,363,124,391,177,409,230,419,279,426,273,426,229,425,176,415,122,396,73,367,57,349,45,327,33,290"/>
+<area shape="poly" title=" " alt="" coords="162,207,300,324,295,326,160,212"/>
+<area shape="poly" title=" " alt="" coords="138,207,127,246,125,266,128,286,138,311,149,329,186,363,231,390,279,412,274,412,229,395,183,367,145,333,133,314,123,288,120,266,122,245,136,212"/>
+<area shape="poly" title=" " alt="" coords="151,207,171,241,198,284,235,327,280,362,315,380,353,394,430,413,503,422,567,427,562,427,503,427,429,418,351,399,313,385,278,367,232,331,194,287,166,244,150,212"/>
+<area shape="poly" title=" " alt="" coords="122,212,66,251,63,247,124,208"/>
+<area shape="poly" title=" " alt="" coords="457,131,416,166,367,212,318,270,298,302,282,336,279,352,283,369,303,402,297,400,278,371,274,353,276,334,293,299,314,266,363,208,413,162,453,134"/>
+<area shape="poly" title=" " alt="" coords="498,120,554,135,629,161,710,201,748,226,782,255,799,274,809,291,820,334,824,351,820,366,805,382,788,396,749,414,707,425,668,429,668,424,706,419,747,409,785,391,802,378,815,363,819,351,815,336,804,293,794,277,778,259,745,230,707,206,627,166,553,140,498,126"/>
+<area shape="rect" href="graphics_8h.html" title="Contains all the print functions." alt="" coords="477,180,561,209"/>
+<area shape="poly" title=" " alt="" coords="484,130,506,167,501,166,482,135"/>
+<area shape="poly" title=" " alt="" coords="474,208,428,229,403,243,381,259,356,290,338,323,334,319,351,287,377,255,400,238,426,224,479,206"/>
+<area shape="poly" title=" " alt="" coords="490,209,456,232,425,259,407,286,397,310,389,335,375,366,349,402,346,398,370,363,384,333,392,308,402,283,421,256,453,228,486,211"/>
+<area shape="poly" title=" " alt="" coords="561,196,604,201,652,212,702,229,747,255,768,272,781,289,799,334,803,351,799,366,772,393,738,410,702,421,668,427,667,421,701,416,736,405,768,388,794,363,798,351,794,336,777,292,764,276,744,260,699,234,651,217,603,207,562,201"/>
+<area shape="poly" title=" " alt="" coords="562,195,600,200,643,210,685,228,721,255,732,270,739,286,746,321,741,318,734,288,727,273,717,259,682,233,641,215,599,205,562,200"/>
+<area shape="rect" title=" " alt="" coords="435,257,507,287"/>
+<area shape="poly" title=" " alt="" coords="512,208,490,246,486,242,508,212"/>
+<area shape="rect" href="strings_8h.html" title="The header file for strings.c." alt="" coords="531,257,606,287"/>
+<area shape="poly" title=" " alt="" coords="529,207,553,245,548,244,527,212"/>
+<area shape="rect" href="stream_8h.html" title="Unix like standard streams." alt="" coords="630,257,706,287"/>
+<area shape="poly" title=" " alt="" coords="547,207,630,250,624,250,547,213"/>
+<area shape="poly" title=" " alt="" coords="533,284,376,336,374,331,528,286"/>
+<area shape="poly" title=" " alt="" coords="549,287,362,407,359,402,543,288"/>
+<area shape="poly" title=" " alt="" coords="574,286,610,399,605,397,571,290"/>
+<area shape="poly" title=" " alt="" coords="602,285,700,328,695,328,601,290"/>
+<area shape="poly" title=" " alt="" coords="640,287,467,367,373,409,371,403,465,362,635,288"/>
+<area shape="poly" title=" " alt="" coords="666,286,628,400,624,396,661,289"/>
+<area shape="poly" title=" " alt="" coords="684,285,722,324,717,323,682,290"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="ps2-mouse_8h__dep__incl.png" border="0" usemap="#asource_2includes_2ps2-mouse_8hdep" loading="lazy" alt=""/></div>
+<map name="asource_2includes_2ps2-mouse_8hdep" id="asource_2includes_2ps2-mouse_8hdep">
+<area shape="rect" title=" " alt="" coords="20,5,165,54"/>
+<area shape="rect" href="kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="5,102,180,132"/>
+<area shape="poly" title=" " alt="" coords="94,68,95,102,90,100,91,72"/>
+</map>
 </div>
 </div>
 <p><a href="ps2-mouse_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a6e7e559384f5c75589212f452f811cdb" id="r_a6e7e559384f5c75589212f452f811cdb"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a6e7e559384f5c75589212f452f811cdb">PS2_left_button</a>&#160;&#160;&#160;0b00000001</td></tr>
-<tr class="memitem:ad90392c9ce77ca39da41225af97906f0" id="r_ad90392c9ce77ca39da41225af97906f0"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ad90392c9ce77ca39da41225af97906f0">PS2_middle_button</a>&#160;&#160;&#160;0b00000100</td></tr>
-<tr class="memitem:a3fff156a52ee8c6efa44ceadb4d37507" id="r_a3fff156a52ee8c6efa44ceadb4d37507"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a3fff156a52ee8c6efa44ceadb4d37507">PS2_right_button</a>&#160;&#160;&#160;0b00000010</td></tr>
-<tr class="memitem:aee4f5aa34c00ca3f26f88474bd0c2d96" id="r_aee4f5aa34c00ca3f26f88474bd0c2d96"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#aee4f5aa34c00ca3f26f88474bd0c2d96">PS2_x</a>&#160;&#160;&#160;0b00010000</td></tr>
-<tr class="memitem:a490a04ada554d6c3555d21b37e834f49" id="r_a490a04ada554d6c3555d21b37e834f49"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a490a04ada554d6c3555d21b37e834f49">PS2_y</a>&#160;&#160;&#160;0b00100000</td></tr>
-<tr class="memitem:a1ee26c0f8ef94851e00d5878ba1a9d8b" id="r_a1ee26c0f8ef94851e00d5878ba1a9d8b"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a1ee26c0f8ef94851e00d5878ba1a9d8b">PS2_x_overflow</a>&#160;&#160;&#160;0b01000000</td></tr>
-<tr class="memitem:a3fa24f12e5617f79edbad1f9f40fb3f8" id="r_a3fa24f12e5617f79edbad1f9f40fb3f8"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a3fa24f12e5617f79edbad1f9f40fb3f8">PS2_y_overflow</a>&#160;&#160;&#160;0b10000000</td></tr>
-<tr class="memitem:a67d41b5dcdb6d241343bf97e15304079" id="r_a67d41b5dcdb6d241343bf97e15304079"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a67d41b5dcdb6d241343bf97e15304079">MOUSE_BUTTON_LEFT</a>&#160;&#160;&#160;<a class="el" href="#a6e7e559384f5c75589212f452f811cdb">PS2_left_button</a></td></tr>
-<tr class="memitem:ae62804387f4df3c1b2ab28e4ad8a7fa3" id="r_ae62804387f4df3c1b2ab28e4ad8a7fa3"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ae62804387f4df3c1b2ab28e4ad8a7fa3">MOUSE_BUTTON_RIGHT</a>&#160;&#160;&#160;<a class="el" href="#a3fff156a52ee8c6efa44ceadb4d37507">PS2_right_button</a></td></tr>
-<tr class="memitem:ad3379a48b44213dfa6b756488082902a" id="r_ad3379a48b44213dfa6b756488082902a"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ad3379a48b44213dfa6b756488082902a">MOUSE_BUTTON_MIDDLE</a>&#160;&#160;&#160;<a class="el" href="#ad90392c9ce77ca39da41225af97906f0">PS2_middle_button</a></td></tr>
-<tr class="memitem:a04be7f9497c481fde4fbec649806a565" id="r_a04be7f9497c481fde4fbec649806a565"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a04be7f9497c481fde4fbec649806a565">MOUSE_BUTTON_PRESS</a>&#160;&#160;&#160;1</td></tr>
-<tr class="memitem:ac24c09c2f9ada4f319db4885a8b64a9f" id="r_ac24c09c2f9ada4f319db4885a8b64a9f"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ac24c09c2f9ada4f319db4885a8b64a9f">MOUSE_BUTTON_RELEASE</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memitem:a6e7e559384f5c75589212f452f811cdb" id="r_a6e7e559384f5c75589212f452f811cdb"><td class="memItemLeft"><a id="a6e7e559384f5c75589212f452f811cdb" name="a6e7e559384f5c75589212f452f811cdb"></a>
+#define&#160;</td><td class="memItemRight"><b>PS2_left_button</b>&#160;&#160;&#160;0b00000001</td></tr>
+<tr class="memitem:ad90392c9ce77ca39da41225af97906f0" id="r_ad90392c9ce77ca39da41225af97906f0"><td class="memItemLeft"><a id="ad90392c9ce77ca39da41225af97906f0" name="ad90392c9ce77ca39da41225af97906f0"></a>
+#define&#160;</td><td class="memItemRight"><b>PS2_middle_button</b>&#160;&#160;&#160;0b00000100</td></tr>
+<tr class="memitem:a3fff156a52ee8c6efa44ceadb4d37507" id="r_a3fff156a52ee8c6efa44ceadb4d37507"><td class="memItemLeft"><a id="a3fff156a52ee8c6efa44ceadb4d37507" name="a3fff156a52ee8c6efa44ceadb4d37507"></a>
+#define&#160;</td><td class="memItemRight"><b>PS2_right_button</b>&#160;&#160;&#160;0b00000010</td></tr>
+<tr class="memitem:aee4f5aa34c00ca3f26f88474bd0c2d96" id="r_aee4f5aa34c00ca3f26f88474bd0c2d96"><td class="memItemLeft"><a id="aee4f5aa34c00ca3f26f88474bd0c2d96" name="aee4f5aa34c00ca3f26f88474bd0c2d96"></a>
+#define&#160;</td><td class="memItemRight"><b>PS2_x</b>&#160;&#160;&#160;0b00010000</td></tr>
+<tr class="memitem:a490a04ada554d6c3555d21b37e834f49" id="r_a490a04ada554d6c3555d21b37e834f49"><td class="memItemLeft"><a id="a490a04ada554d6c3555d21b37e834f49" name="a490a04ada554d6c3555d21b37e834f49"></a>
+#define&#160;</td><td class="memItemRight"><b>PS2_y</b>&#160;&#160;&#160;0b00100000</td></tr>
+<tr class="memitem:a1ee26c0f8ef94851e00d5878ba1a9d8b" id="r_a1ee26c0f8ef94851e00d5878ba1a9d8b"><td class="memItemLeft"><a id="a1ee26c0f8ef94851e00d5878ba1a9d8b" name="a1ee26c0f8ef94851e00d5878ba1a9d8b"></a>
+#define&#160;</td><td class="memItemRight"><b>PS2_x_overflow</b>&#160;&#160;&#160;0b01000000</td></tr>
+<tr class="memitem:a3fa24f12e5617f79edbad1f9f40fb3f8" id="r_a3fa24f12e5617f79edbad1f9f40fb3f8"><td class="memItemLeft"><a id="a3fa24f12e5617f79edbad1f9f40fb3f8" name="a3fa24f12e5617f79edbad1f9f40fb3f8"></a>
+#define&#160;</td><td class="memItemRight"><b>PS2_y_overflow</b>&#160;&#160;&#160;0b10000000</td></tr>
+<tr class="memitem:a67d41b5dcdb6d241343bf97e15304079" id="r_a67d41b5dcdb6d241343bf97e15304079"><td class="memItemLeft"><a id="a67d41b5dcdb6d241343bf97e15304079" name="a67d41b5dcdb6d241343bf97e15304079"></a>
+#define&#160;</td><td class="memItemRight"><b>MOUSE_BUTTON_LEFT</b>&#160;&#160;&#160;PS2_left_button</td></tr>
+<tr class="memitem:ae62804387f4df3c1b2ab28e4ad8a7fa3" id="r_ae62804387f4df3c1b2ab28e4ad8a7fa3"><td class="memItemLeft"><a id="ae62804387f4df3c1b2ab28e4ad8a7fa3" name="ae62804387f4df3c1b2ab28e4ad8a7fa3"></a>
+#define&#160;</td><td class="memItemRight"><b>MOUSE_BUTTON_RIGHT</b>&#160;&#160;&#160;PS2_right_button</td></tr>
+<tr class="memitem:ad3379a48b44213dfa6b756488082902a" id="r_ad3379a48b44213dfa6b756488082902a"><td class="memItemLeft"><a id="ad3379a48b44213dfa6b756488082902a" name="ad3379a48b44213dfa6b756488082902a"></a>
+#define&#160;</td><td class="memItemRight"><b>MOUSE_BUTTON_MIDDLE</b>&#160;&#160;&#160;PS2_middle_button</td></tr>
+<tr class="memitem:a04be7f9497c481fde4fbec649806a565" id="r_a04be7f9497c481fde4fbec649806a565"><td class="memItemLeft"><a id="a04be7f9497c481fde4fbec649806a565" name="a04be7f9497c481fde4fbec649806a565"></a>
+#define&#160;</td><td class="memItemRight"><b>MOUSE_BUTTON_PRESS</b>&#160;&#160;&#160;1</td></tr>
+<tr class="memitem:ac24c09c2f9ada4f319db4885a8b64a9f" id="r_ac24c09c2f9ada4f319db4885a8b64a9f"><td class="memItemLeft"><a id="ac24c09c2f9ada4f319db4885a8b64a9f" name="ac24c09c2f9ada4f319db4885a8b64a9f"></a>
+#define&#160;</td><td class="memItemRight"><b>MOUSE_BUTTON_RELEASE</b>&#160;&#160;&#160;0</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a4cd4a0a8201872ea3f325060c813bf6a" id="r_a4cd4a0a8201872ea3f325060c813bf6a"><td class="memItemLeft">typedef void(*&#160;</td><td class="memItemRight"><a class="el" href="#a4cd4a0a8201872ea3f325060c813bf6a">MouseMovementHandler</a>) (int64_t xRel, int64_t yRel)</td></tr>
-<tr class="memdesc:a4cd4a0a8201872ea3f325060c813bf6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type definition for mouse movement handler functions.  <br /></td></tr>
-<tr class="memitem:a7bbbe29199acd1e018bdf8a227fb3bc6" id="r_a7bbbe29199acd1e018bdf8a227fb3bc6"><td class="memItemLeft">typedef void(*&#160;</td><td class="memItemRight"><a class="el" href="#a7bbbe29199acd1e018bdf8a227fb3bc6">MouseButtonHandler</a>) (uint8_t button, uint8_t action)</td></tr>
-<tr class="memdesc:a7bbbe29199acd1e018bdf8a227fb3bc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type definition for mouse button handler functions.  <br /></td></tr>
+<tr class="memitem:a4cd4a0a8201872ea3f325060c813bf6a" id="r_a4cd4a0a8201872ea3f325060c813bf6a"><td class="memItemLeft"><a id="a4cd4a0a8201872ea3f325060c813bf6a" name="a4cd4a0a8201872ea3f325060c813bf6a"></a>
+typedef void(*&#160;</td><td class="memItemRight"><b>MouseMovementHandler</b>) (int64_t xRel, int64_t yRel)</td></tr>
+<tr class="memdesc:a4cd4a0a8201872ea3f325060c813bf6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type definition for mouse movement handler functions. <br /></td></tr>
+<tr class="memitem:a7bbbe29199acd1e018bdf8a227fb3bc6" id="r_a7bbbe29199acd1e018bdf8a227fb3bc6"><td class="memItemLeft"><a id="a7bbbe29199acd1e018bdf8a227fb3bc6" name="a7bbbe29199acd1e018bdf8a227fb3bc6"></a>
+typedef void(*&#160;</td><td class="memItemRight"><b>MouseButtonHandler</b>) (uint8_t button, uint8_t action)</td></tr>
+<tr class="memdesc:a7bbbe29199acd1e018bdf8a227fb3bc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type definition for mouse button handler functions. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -155,225 +206,24 @@ Functions</h2></td></tr>
 <tr class="memdesc:a19858d1d7e556fadeda6374954794f30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the mouse movement handler function.  <br /></td></tr>
 <tr class="memitem:a93ddab9752203829a14f0da28aac6974" id="r_a93ddab9752203829a14f0da28aac6974"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a93ddab9752203829a14f0da28aac6974">SetMouseButtonHandler</a> (<a class="el" href="#a7bbbe29199acd1e018bdf8a227fb3bc6">MouseButtonHandler</a> handler)</td></tr>
 <tr class="memdesc:a93ddab9752203829a14f0da28aac6974"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the mouse button handler function.  <br /></td></tr>
-<tr class="memitem:ab045cfff6edf7a8dd8edf4d8334957b0" id="r_ab045cfff6edf7a8dd8edf4d8334957b0"><td class="memItemLeft"><a class="el" href="structivec2.html">ivec2</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab045cfff6edf7a8dd8edf4d8334957b0">GetMousePosition</a> ()</td></tr>
+<tr class="memitem:ab045cfff6edf7a8dd8edf4d8334957b0" id="r_ab045cfff6edf7a8dd8edf4d8334957b0"><td class="memItemLeft">ivec2&#160;</td><td class="memItemRight"><a class="el" href="#ab045cfff6edf7a8dd8edf4d8334957b0">GetMousePosition</a> ()</td></tr>
 <tr class="memdesc:ab045cfff6edf7a8dd8edf4d8334957b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the mouse position.  <br /></td></tr>
-<tr class="memitem:a49d0e249afdd84493abc1674701ac517" id="r_a49d0e249afdd84493abc1674701ac517"><td class="memItemLeft"><a class="el" href="structivec2.html">ivec2</a>&#160;</td><td class="memItemRight"><a class="el" href="#a49d0e249afdd84493abc1674701ac517">GetLastMousePosition</a> ()</td></tr>
+<tr class="memitem:a49d0e249afdd84493abc1674701ac517" id="r_a49d0e249afdd84493abc1674701ac517"><td class="memItemLeft">ivec2&#160;</td><td class="memItemRight"><a class="el" href="#a49d0e249afdd84493abc1674701ac517">GetLastMousePosition</a> ()</td></tr>
 <tr class="memdesc:a49d0e249afdd84493abc1674701ac517"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the last mouse position.  <br /></td></tr>
 <tr class="memitem:a2d7435fd33eb778258e210a6fa0b43c2" id="r_a2d7435fd33eb778258e210a6fa0b43c2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2d7435fd33eb778258e210a6fa0b43c2">process_mouse</a> (<a class="el" href="structInterruptFrame.html">InterruptFrame</a> *frame)</td></tr>
 <tr class="memdesc:a2d7435fd33eb778258e210a6fa0b43c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles the mouse's.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:abc5ee9c9044c80a996040bc69caa6bdf" id="r_abc5ee9c9044c80a996040bc69caa6bdf"><td class="memItemLeft">const bool&#160;</td><td class="memItemRight"><a class="el" href="#abc5ee9c9044c80a996040bc69caa6bdf">mouse_cursor</a> []</td></tr>
+<tr class="memitem:abc5ee9c9044c80a996040bc69caa6bdf" id="r_abc5ee9c9044c80a996040bc69caa6bdf"><td class="memItemLeft"><a id="abc5ee9c9044c80a996040bc69caa6bdf" name="abc5ee9c9044c80a996040bc69caa6bdf"></a>
+const bool&#160;</td><td class="memItemRight"><b>mouse_cursor</b> []</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Pradosh (<a href="#" onclick="location.href='mai'+'lto:'+'pra'+'do'+'shg'+'am'+'e@g'+'ma'+'il.'+'co'+'m'; return false;">prado<span class="obfuscator">.nosp@m.</span>shga<span class="obfuscator">.nosp@m.</span>me@gm<span class="obfuscator">.nosp@m.</span>ail.<span class="obfuscator">.nosp@m.</span>com</a>) </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2023-12-22</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) Pradosh 2023 </dd></dl>
-</div><a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
-<a id="a67d41b5dcdb6d241343bf97e15304079" name="a67d41b5dcdb6d241343bf97e15304079"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67d41b5dcdb6d241343bf97e15304079">&#9670;&#160;</a></span>MOUSE_BUTTON_LEFT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MOUSE_BUTTON_LEFT&#160;&#160;&#160;<a class="el" href="#a6e7e559384f5c75589212f452f811cdb">PS2_left_button</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad3379a48b44213dfa6b756488082902a" name="ad3379a48b44213dfa6b756488082902a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3379a48b44213dfa6b756488082902a">&#9670;&#160;</a></span>MOUSE_BUTTON_MIDDLE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MOUSE_BUTTON_MIDDLE&#160;&#160;&#160;<a class="el" href="#ad90392c9ce77ca39da41225af97906f0">PS2_middle_button</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a04be7f9497c481fde4fbec649806a565" name="a04be7f9497c481fde4fbec649806a565"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04be7f9497c481fde4fbec649806a565">&#9670;&#160;</a></span>MOUSE_BUTTON_PRESS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MOUSE_BUTTON_PRESS&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac24c09c2f9ada4f319db4885a8b64a9f" name="ac24c09c2f9ada4f319db4885a8b64a9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac24c09c2f9ada4f319db4885a8b64a9f">&#9670;&#160;</a></span>MOUSE_BUTTON_RELEASE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MOUSE_BUTTON_RELEASE&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae62804387f4df3c1b2ab28e4ad8a7fa3" name="ae62804387f4df3c1b2ab28e4ad8a7fa3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae62804387f4df3c1b2ab28e4ad8a7fa3">&#9670;&#160;</a></span>MOUSE_BUTTON_RIGHT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MOUSE_BUTTON_RIGHT&#160;&#160;&#160;<a class="el" href="#a3fff156a52ee8c6efa44ceadb4d37507">PS2_right_button</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6e7e559384f5c75589212f452f811cdb" name="a6e7e559384f5c75589212f452f811cdb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e7e559384f5c75589212f452f811cdb">&#9670;&#160;</a></span>PS2_left_button</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define PS2_left_button&#160;&#160;&#160;0b00000001</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad90392c9ce77ca39da41225af97906f0" name="ad90392c9ce77ca39da41225af97906f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad90392c9ce77ca39da41225af97906f0">&#9670;&#160;</a></span>PS2_middle_button</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define PS2_middle_button&#160;&#160;&#160;0b00000100</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3fff156a52ee8c6efa44ceadb4d37507" name="a3fff156a52ee8c6efa44ceadb4d37507"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fff156a52ee8c6efa44ceadb4d37507">&#9670;&#160;</a></span>PS2_right_button</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define PS2_right_button&#160;&#160;&#160;0b00000010</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aee4f5aa34c00ca3f26f88474bd0c2d96" name="aee4f5aa34c00ca3f26f88474bd0c2d96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee4f5aa34c00ca3f26f88474bd0c2d96">&#9670;&#160;</a></span>PS2_x</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define PS2_x&#160;&#160;&#160;0b00010000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1ee26c0f8ef94851e00d5878ba1a9d8b" name="a1ee26c0f8ef94851e00d5878ba1a9d8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ee26c0f8ef94851e00d5878ba1a9d8b">&#9670;&#160;</a></span>PS2_x_overflow</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define PS2_x_overflow&#160;&#160;&#160;0b01000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a490a04ada554d6c3555d21b37e834f49" name="a490a04ada554d6c3555d21b37e834f49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a490a04ada554d6c3555d21b37e834f49">&#9670;&#160;</a></span>PS2_y</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define PS2_y&#160;&#160;&#160;0b00100000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3fa24f12e5617f79edbad1f9f40fb3f8" name="a3fa24f12e5617f79edbad1f9f40fb3f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fa24f12e5617f79edbad1f9f40fb3f8">&#9670;&#160;</a></span>PS2_y_overflow</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define PS2_y_overflow&#160;&#160;&#160;0b10000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
-<a id="a7bbbe29199acd1e018bdf8a227fb3bc6" name="a7bbbe29199acd1e018bdf8a227fb3bc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7bbbe29199acd1e018bdf8a227fb3bc6">&#9670;&#160;</a></span>MouseButtonHandler</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void(* MouseButtonHandler) (uint8_t button, uint8_t action)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type definition for mouse button handler functions. </p>
-
-</div>
-</div>
-<a id="a4cd4a0a8201872ea3f325060c813bf6a" name="a4cd4a0a8201872ea3f325060c813bf6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4cd4a0a8201872ea3f325060c813bf6a">&#9670;&#160;</a></span>MouseMovementHandler</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void(* MouseMovementHandler) (int64_t xRel, int64_t yRel)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type definition for mouse movement handler functions. </p>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a49d0e249afdd84493abc1674701ac517" name="a49d0e249afdd84493abc1674701ac517"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a49d0e249afdd84493abc1674701ac517">&#9670;&#160;</a></span>GetLastMousePosition()</h2>
 
@@ -381,7 +231,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structivec2.html">ivec2</a> GetLastMousePosition </td>
+          <td class="memname">ivec2 GetLastMousePosition </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -402,7 +252,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structivec2.html">ivec2</a> GetMousePosition </td>
+          <td class="memname">ivec2 GetMousePosition </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -493,29 +343,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
-<a id="abc5ee9c9044c80a996040bc69caa6bdf" name="abc5ee9c9044c80a996040bc69caa6bdf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc5ee9c9044c80a996040bc69caa6bdf">&#9670;&#160;</a></span>mouse_cursor</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const bool mouse_cursor[]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
@@ -529,7 +356,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_c9f89f587e7e777be723ee48a3df5844.html">includes</a></li><li class="navelem"><a href="ps2-mouse_8h.html">ps2-mouse.h</a></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="ps2-mouse_8h.html">ps2-mouse.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

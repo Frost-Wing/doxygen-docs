@@ -1,30 +1,5 @@
 var searchData=
 [
-  ['a_0',['a',['../structlimine__uuid.html#a55b285bb785129f70c546d0919320141',1,'limine_uuid']]],
-  ['access_1',['access',['../structgdt__entry.html#af8f88469b3301c3e777e97b470a97413',1,'gdt_entry::access'],['../gdt_8h.html#a8b0d6200bc639dd37ff68847a0adde5f',1,'access:&#160;gdt.h']]],
-  ['access_5fsize_2',['access_size',['../structacpi__gas.html#a91ee49967172b1402fd8d7faa9c5207a',1,'acpi_gas']]],
-  ['acpi_5fnvs_3',['acpi_nvs',['../structmemory__context.html#a2c6065c5113542f1a7269e94b5db1143',1,'memory_context']]],
-  ['acpi_5freclaimable_4',['acpi_reclaimable',['../structmemory__context.html#a3e5350c5ed1684251e6f4d5e09126dce',1,'memory_context']]],
-  ['acq_5',['acq',['../structnvme__regs__t.html#ab50adae46fcf9429daa5dd32cd0d43ad',1,'nvme_regs_t']]],
-  ['address_6',['address',['../structacpi__gas.html#aa17775799b04616eb3d7ad66372e31e7',1,'acpi_gas::address'],['../structfdlfcn__handle.html#afce337580f629665a50fbca05142869d',1,'fdlfcn_handle::address']]],
-  ['address_5fspace_7',['address_space',['../structacpi__gas.html#a5ec927fed7ef462d9d20f1761a660b68',1,'acpi_gas']]],
-  ['adminq_8',['adminq',['../structnvme__controller__t.html#a426dcf8928e79625f3e006eaba7ca39c',1,'nvme_controller_t']]],
-  ['ahci_5fcmd_5fheader_5ft_9',['ahci_cmd_header_t',['../ahci_8h.html#af0c19f8a319b37279aabf1c05cf45d1a',1,'ahci.h']]],
-  ['ahci_5fcmd_5ftable_5ft_10',['ahci_cmd_table_t',['../ahci_8h.html#a11e2228b7ad177bea2dbbd4f0b3b717c',1,'ahci.h']]],
-  ['ahci_5fdisks_11',['ahci_disks',['../ahci_8h.html#a6471ec16bd2354e829508c635baba8cf',1,'ahci.h']]],
-  ['ahci_5fpartitions_12',['ahci_partitions',['../ahci_8h.html#a2af19d99d812611eec1580e34be992a4',1,'ahci.h']]],
-  ['ahci_5fport_13',['ahci_port',['../structgeneral__partition__t.html#a470b82ebfa1c6ee49e5fe20c992cd66a',1,'general_partition_t']]],
-  ['alloc_5fcount_14',['alloc_count',['../heap_8h.html#a773071601b4e4a5de2f22d66a732b455',1,'heap.h']]],
-  ['alternatehdrlba_15',['AlternateHdrLBA',['../structGPT__PartTableHeader.html#a33547d0e837be43b1c4e073cc95a1668',1,'GPT_PartTableHeader::AlternateHdrLBA'],['../gpt_8h.html#a2fdcaa84d67bbbb1e5b3492e981ceb8c',1,'AlternateHdrLBA:&#160;gpt.h']]],
-  ['ansi_5fbright_5fcolours_16',['ansi_bright_colours',['../structflanterm__fb__context.html#a1036d27376c3e1e78c1a2183f26640a1',1,'flanterm_fb_context']]],
-  ['ansi_5fcolours_17',['ansi_colours',['../structflanterm__fb__context.html#a9794d1fec0260c611d46987493342d86',1,'flanterm_fb_context']]],
-  ['append_18',['append',['../structredir__t.html#a614b5a5820d0d439d247cc804f5df6f1',1,'redir_t']]],
-  ['aqa_19',['aqa',['../structnvme__regs__t.html#a00a74e46c48664a18701808616301831',1,'nvme_regs_t']]],
-  ['architecture_20',['architecture',['../structfwde__header.html#a8d8d8d962b0737850baa4756614968b9',1,'fwde_header']]],
-  ['argc_21',['argc',['../structuser__task__spec.html#ae6084a98d34f397ff5e18e7ce0f73ce9',1,'user_task_spec']]],
-  ['argv_22',['argv',['../structuser__task__spec.html#a98bb4f23887c8ed5ae7df8b03ca26e5e',1,'user_task_spec']]],
-  ['asq_23',['asq',['../structnvme__regs__t.html#aa8734db93205027d6926689d48d3439f',1,'nvme_regs_t']]],
-  ['attr_24',['attr',['../struct____attribute____.html#a3ffd87806626cb99302ebfc810e9aed4',1,'__attribute__']]],
-  ['attributes_25',['Attributes',['../structGPT__PartitionEntry.html#ad49082858fef758d29d5ed7bee1c27b9',1,'GPT_PartitionEntry::Attributes'],['../gpt_8h.html#a44062af40e97abbcc6b0d0eaef496c3f',1,'Attributes:&#160;gpt.h']]],
-  ['autoflush_26',['autoflush',['../structflanterm__context.html#a9488263ce45254f48b3f9d6e6634798a',1,'flanterm_context']]]
+  ['ansi_5fbright_5fcolours_0',['ansi_bright_colours',['../structflanterm__fb__context.html#a1036d27376c3e1e78c1a2183f26640a1',1,'flanterm_fb_context']]],
+  ['ansi_5fcolours_1',['ansi_colours',['../structflanterm__fb__context.html#a9794d1fec0260c611d46987493342d86',1,'flanterm_fb_context']]]
 ];

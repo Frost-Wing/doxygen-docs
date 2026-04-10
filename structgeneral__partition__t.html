@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: general_partition_t Struct Reference</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -93,179 +94,33 @@ $(function(){initNavTree('structgeneral__partition__t.html','','structgeneral__p
   <div class="headertitle"><div class="title">general_partition_t Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="ahci_8h_source.html">ahci.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a3ad1c0b8e16087843f430730796cc286" id="r_a3ad1c0b8e16087843f430730796cc286"><td class="memItemLeft"><a class="el" href="ahci_8h.html#a0d47f1e53394f85ee1421dd0c38b7c4a">partition_table_type_t</a>&#160;</td><td class="memItemRight"><a class="el" href="#a3ad1c0b8e16087843f430730796cc286">table_type</a></td></tr>
-<tr class="memitem:ab65a77d0b41e4a2184a5ca7a282cfbeb" id="r_ab65a77d0b41e4a2184a5ca7a282cfbeb"><td class="memItemLeft"><a class="el" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab65a77d0b41e4a2184a5ca7a282cfbeb">lba_start</a></td></tr>
-<tr class="memitem:addbde0d774ef361c4caff795b060d7f6" id="r_addbde0d774ef361c4caff795b060d7f6"><td class="memItemLeft"><a class="el" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a>&#160;</td><td class="memItemRight"><a class="el" href="#addbde0d774ef361c4caff795b060d7f6">lba_end</a></td></tr>
-<tr class="memitem:a5c99a17134b94a0a376bc8f5b8f2d6ba" id="r_a5c99a17134b94a0a376bc8f5b8f2d6ba"><td class="memItemLeft"><a class="el" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a>&#160;</td><td class="memItemRight"><a class="el" href="#a5c99a17134b94a0a376bc8f5b8f2d6ba">sector_count</a></td></tr>
-<tr class="memitem:a470b82ebfa1c6ee49e5fe20c992cd66a" id="r_a470b82ebfa1c6ee49e5fe20c992cd66a"><td class="memItemLeft"><a class="el" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a>&#160;</td><td class="memItemRight"><a class="el" href="#a470b82ebfa1c6ee49e5fe20c992cd66a">ahci_port</a></td></tr>
-<tr class="memitem:a51189ea30e9dd6cdea554ef58d2c50f7" id="r_a51189ea30e9dd6cdea554ef58d2c50f7"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a51189ea30e9dd6cdea554ef58d2c50f7">bootable</a></td></tr>
-<tr class="memitem:ac611fc0bf056d4e31870fce807470b9b" id="r_ac611fc0bf056d4e31870fce807470b9b"><td class="memItemLeft"><a class="el" href="ahci_8h.html#a20238d8d8d21d3216676cbd1f813b8fd">partition_fs_type_t</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac611fc0bf056d4e31870fce807470b9b">fs_type</a></td></tr>
-<tr class="memitem:"><td class="memItemLeft anon">union {&#160;</td><td class="memItemRight"></td></tr>
-<tr class="memitem:a675a1fdee97bd8cecc422ad0d3c4186d" id="r_a675a1fdee97bd8cecc422ad0d3c4186d"><td class="memItemLeft anon">&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="#a03a66f67692f6bd0ceccccaa38f898b0">mbr_type</a>&#160;</td><td class="memItemRight"></td></tr>
-<tr class="memitem:ac21d47724ff8a44badcb7577da3c32be" id="r_ac21d47724ff8a44badcb7577da3c32be"><td class="memItemLeft anon">&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="#a66e088fd968c3e1445bc0ce115a54861">gpt_type_guid</a> [16]&#160;</td><td class="memItemRight"></td></tr>
+<tr class="memitem:a3ad1c0b8e16087843f430730796cc286" id="r_a3ad1c0b8e16087843f430730796cc286"><td class="memItemLeft"><a id="a3ad1c0b8e16087843f430730796cc286" name="a3ad1c0b8e16087843f430730796cc286"></a>
+partition_table_type_t&#160;</td><td class="memItemRight"><b>table_type</b></td></tr>
+<tr class="memitem:ab65a77d0b41e4a2184a5ca7a282cfbeb" id="r_ab65a77d0b41e4a2184a5ca7a282cfbeb"><td class="memItemLeft"><a id="ab65a77d0b41e4a2184a5ca7a282cfbeb" name="ab65a77d0b41e4a2184a5ca7a282cfbeb"></a>
+int64&#160;</td><td class="memItemRight"><b>lba_start</b></td></tr>
+<tr class="memitem:addbde0d774ef361c4caff795b060d7f6" id="r_addbde0d774ef361c4caff795b060d7f6"><td class="memItemLeft"><a id="addbde0d774ef361c4caff795b060d7f6" name="addbde0d774ef361c4caff795b060d7f6"></a>
+int64&#160;</td><td class="memItemRight"><b>lba_end</b></td></tr>
+<tr class="memitem:a5c99a17134b94a0a376bc8f5b8f2d6ba" id="r_a5c99a17134b94a0a376bc8f5b8f2d6ba"><td class="memItemLeft"><a id="a5c99a17134b94a0a376bc8f5b8f2d6ba" name="a5c99a17134b94a0a376bc8f5b8f2d6ba"></a>
+int64&#160;</td><td class="memItemRight"><b>sector_count</b></td></tr>
+<tr class="memitem:a470b82ebfa1c6ee49e5fe20c992cd66a" id="r_a470b82ebfa1c6ee49e5fe20c992cd66a"><td class="memItemLeft"><a id="a470b82ebfa1c6ee49e5fe20c992cd66a" name="a470b82ebfa1c6ee49e5fe20c992cd66a"></a>
+int64&#160;</td><td class="memItemRight"><b>ahci_port</b></td></tr>
+<tr class="memitem:a51189ea30e9dd6cdea554ef58d2c50f7" id="r_a51189ea30e9dd6cdea554ef58d2c50f7"><td class="memItemLeft"><a id="a51189ea30e9dd6cdea554ef58d2c50f7" name="a51189ea30e9dd6cdea554ef58d2c50f7"></a>
+bool&#160;</td><td class="memItemRight"><b>bootable</b></td></tr>
+<tr class="memitem:ac611fc0bf056d4e31870fce807470b9b" id="r_ac611fc0bf056d4e31870fce807470b9b"><td class="memItemLeft"><a id="ac611fc0bf056d4e31870fce807470b9b" name="ac611fc0bf056d4e31870fce807470b9b"></a>
+<a class="el" href="ahci_8h.html#a20238d8d8d21d3216676cbd1f813b8fd">partition_fs_type_t</a>&#160;</td><td class="memItemRight"><b>fs_type</b></td></tr>
+<tr class="memitem:"><td class="memItemLeft anon"><a id="a078396de9addf2290bdb9957f6f68025" name="a078396de9addf2290bdb9957f6f68025"></a>
+union {&#160;</td><td class="memItemRight"></td></tr>
+<tr class="memitem:a675a1fdee97bd8cecc422ad0d3c4186d" id="r_a675a1fdee97bd8cecc422ad0d3c4186d"><td class="memItemLeft anon">
+&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<b>mbr_type</b>&#160;</td><td class="memItemRight"></td></tr>
+<tr class="memitem:ac21d47724ff8a44badcb7577da3c32be" id="r_ac21d47724ff8a44badcb7577da3c32be"><td class="memItemLeft anon">
+&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<b>gpt_type_guid</b> [16]&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:a078396de9addf2290bdb9957f6f68025" id="r_a078396de9addf2290bdb9957f6f68025"><td class="memItemLeft anonEnd">};&#160;</td><td class="memItemRight"></td></tr>
-<tr class="memitem:a0a37517f114f40d059f1c7a626372b3b" id="r_a0a37517f114f40d059f1c7a626372b3b"><td class="memItemLeft">char&#160;</td><td class="memItemRight"><a class="el" href="#a0a37517f114f40d059f1c7a626372b3b">name</a> [64]</td></tr>
+<tr class="memitem:a0a37517f114f40d059f1c7a626372b3b" id="r_a0a37517f114f40d059f1c7a626372b3b"><td class="memItemLeft"><a id="a0a37517f114f40d059f1c7a626372b3b" name="a0a37517f114f40d059f1c7a626372b3b"></a>
+char&#160;</td><td class="memItemRight"><b>name</b> [64]</td></tr>
 </table>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a078396de9addf2290bdb9957f6f68025" name="a078396de9addf2290bdb9957f6f68025"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a078396de9addf2290bdb9957f6f68025">&#9670;&#160;</a></span>[union]</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">union  { ... }  <a class="el" href="structgeneral__partition__t.html">general_partition_t</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a470b82ebfa1c6ee49e5fe20c992cd66a" name="a470b82ebfa1c6ee49e5fe20c992cd66a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a470b82ebfa1c6ee49e5fe20c992cd66a">&#9670;&#160;</a></span>ahci_port</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a> general_partition_t::ahci_port</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a51189ea30e9dd6cdea554ef58d2c50f7" name="a51189ea30e9dd6cdea554ef58d2c50f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51189ea30e9dd6cdea554ef58d2c50f7">&#9670;&#160;</a></span>bootable</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool general_partition_t::bootable</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac611fc0bf056d4e31870fce807470b9b" name="ac611fc0bf056d4e31870fce807470b9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac611fc0bf056d4e31870fce807470b9b">&#9670;&#160;</a></span>fs_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="ahci_8h.html#a20238d8d8d21d3216676cbd1f813b8fd">partition_fs_type_t</a> general_partition_t::fs_type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a66e088fd968c3e1445bc0ce115a54861" name="a66e088fd968c3e1445bc0ce115a54861"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66e088fd968c3e1445bc0ce115a54861">&#9670;&#160;</a></span>gpt_type_guid</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t general_partition_t::gpt_type_guid[16]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="addbde0d774ef361c4caff795b060d7f6" name="addbde0d774ef361c4caff795b060d7f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addbde0d774ef361c4caff795b060d7f6">&#9670;&#160;</a></span>lba_end</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a> general_partition_t::lba_end</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab65a77d0b41e4a2184a5ca7a282cfbeb" name="ab65a77d0b41e4a2184a5ca7a282cfbeb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab65a77d0b41e4a2184a5ca7a282cfbeb">&#9670;&#160;</a></span>lba_start</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a> general_partition_t::lba_start</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a03a66f67692f6bd0ceccccaa38f898b0" name="a03a66f67692f6bd0ceccccaa38f898b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03a66f67692f6bd0ceccccaa38f898b0">&#9670;&#160;</a></span>mbr_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t general_partition_t::mbr_type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0a37517f114f40d059f1c7a626372b3b" name="a0a37517f114f40d059f1c7a626372b3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a37517f114f40d059f1c7a626372b3b">&#9670;&#160;</a></span>name</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">char general_partition_t::name[64]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5c99a17134b94a0a376bc8f5b8f2d6ba" name="a5c99a17134b94a0a376bc8f5b8f2d6ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c99a17134b94a0a376bc8f5b8f2d6ba">&#9670;&#160;</a></span>sector_count</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="basics_8h.html#a5f6850033cab5e36ba4aa2879c265b02">int64</a> general_partition_t::sector_count</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3ad1c0b8e16087843f430730796cc286" name="a3ad1c0b8e16087843f430730796cc286"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ad1c0b8e16087843f430730796cc286">&#9670;&#160;</a></span>table_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="ahci_8h.html#a0d47f1e53394f85ee1421dd0c38b7c4a">partition_table_type_t</a> general_partition_t::table_type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>source/includes/<a class="el" href="ahci_8h_source.html">ahci.h</a></li>
 </ul>

@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: source/includes/versions.h Source File</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -97,25 +98,20 @@ $(function(){initNavTree('versions_8h_source.html','',''); });
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;<a class="code" href="graphics_8h.html">graphics.h</a>&gt;</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">extern</span> <a class="code hl_typedef" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> <a class="code hl_variable" href="versions_8h.html#a21d6b411d4a0c82ae4b33e7bad1f1533">versions</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">extern</span> cstring <a class="code hl_variable" href="versions_8h.html#a21d6b411d4a0c82ae4b33e7bad1f1533">versions</a>;</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">extern</span> <a class="code hl_typedef" href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a> <a class="code hl_variable" href="versions_8h.html#af4949920e86a698e15d876f58334ec04">date</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">extern</span> cstring <a class="code hl_variable" href="versions_8h.html#af4949920e86a698e15d876f58334ec04">date</a>;</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">static</span> <span class="keywordtype">void</span> frost_compilation_information(){</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <a class="code hl_function" href="graphics_8h.html#a7f6608ce1fa3da4eac760e349e5b4e00">print</a>(<a class="code hl_define" href="graphics_8h.html#af07390ab9ad63091477de1a73b9197d4">yellow_color</a>);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <a class="code hl_function" href="graphics_8h.html#a7f6608ce1fa3da4eac760e349e5b4e00">print</a>(yellow_color);</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <a class="code hl_function" href="graphics_8h.html#a7f6608ce1fa3da4eac760e349e5b4e00">print</a>(<a class="code hl_variable" href="versions_8h.html#a21d6b411d4a0c82ae4b33e7bad1f1533">versions</a>);</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <a class="code hl_function" href="graphics_8h.html#a7f6608ce1fa3da4eac760e349e5b4e00">print</a>(<a class="code hl_define" href="graphics_8h.html#a5060b1bf44bd7845708eae4d7e29de42">orange_color</a>);</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <a class="code hl_define" href="graphics_8h.html#aac50a2f7a0cf5ab861c9cb6289d48440">printf</a>(<span class="stringliteral">&quot;Compiled Time (Started at): %s&quot;</span>, <a class="code hl_variable" href="versions_8h.html#af4949920e86a698e15d876f58334ec04">date</a>);</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <a class="code hl_function" href="graphics_8h.html#a7f6608ce1fa3da4eac760e349e5b4e00">print</a>(<a class="code hl_define" href="graphics_8h.html#a7928c478a94a8406183be360b2f9606d">reset_color</a>);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <a class="code hl_function" href="graphics_8h.html#a7f6608ce1fa3da4eac760e349e5b4e00">print</a>(orange_color);</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    printf(<span class="stringliteral">&quot;Compiled Time (Started at): %s&quot;</span>, <a class="code hl_variable" href="versions_8h.html#af4949920e86a698e15d876f58334ec04">date</a>);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <a class="code hl_function" href="graphics_8h.html#a7f6608ce1fa3da4eac760e349e5b4e00">print</a>(reset_color);</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>}</div>
 <div class="ttc" id="abasics_8h_html"><div class="ttname"><a href="basics_8h.html">basics.h</a></div><div class="ttdoc">This is a basic header files with FrostWing specific short forms and basically a good for life header...</div></div>
-<div class="ttc" id="abasics_8h_html_a5a6534f59959c993a087b6bd6baa5e27"><div class="ttname"><a href="basics_8h.html#a5a6534f59959c993a087b6bd6baa5e27">cstring</a></div><div class="ttdeci">const char * cstring</div><div class="ttdef"><b>Definition</b> basics.h:22</div></div>
 <div class="ttc" id="agraphics_8h_html"><div class="ttname"><a href="graphics_8h.html">graphics.h</a></div><div class="ttdoc">Contains all the print functions.</div></div>
-<div class="ttc" id="agraphics_8h_html_a5060b1bf44bd7845708eae4d7e29de42"><div class="ttname"><a href="graphics_8h.html#a5060b1bf44bd7845708eae4d7e29de42">orange_color</a></div><div class="ttdeci">#define orange_color</div><div class="ttdef"><b>Definition</b> graphics.h:28</div></div>
-<div class="ttc" id="agraphics_8h_html_a7928c478a94a8406183be360b2f9606d"><div class="ttname"><a href="graphics_8h.html#a7928c478a94a8406183be360b2f9606d">reset_color</a></div><div class="ttdeci">#define reset_color</div><div class="ttdef"><b>Definition</b> graphics.h:23</div></div>
 <div class="ttc" id="agraphics_8h_html_a7f6608ce1fa3da4eac760e349e5b4e00"><div class="ttname"><a href="graphics_8h.html#a7f6608ce1fa3da4eac760e349e5b4e00">print</a></div><div class="ttdeci">void print(cstring s)</div><div class="ttdoc">Plain print function, goes through the stream.</div></div>
-<div class="ttc" id="agraphics_8h_html_aac50a2f7a0cf5ab861c9cb6289d48440"><div class="ttname"><a href="graphics_8h.html#aac50a2f7a0cf5ab861c9cb6289d48440">printf</a></div><div class="ttdeci">#define printf(fmt,...)</div><div class="ttdef"><b>Definition</b> graphics.h:45</div></div>
-<div class="ttc" id="agraphics_8h_html_af07390ab9ad63091477de1a73b9197d4"><div class="ttname"><a href="graphics_8h.html#af07390ab9ad63091477de1a73b9197d4">yellow_color</a></div><div class="ttdeci">#define yellow_color</div><div class="ttdef"><b>Definition</b> graphics.h:25</div></div>
 <div class="ttc" id="aversions_8h_html_a21d6b411d4a0c82ae4b33e7bad1f1533"><div class="ttname"><a href="versions_8h.html#a21d6b411d4a0c82ae4b33e7bad1f1533">versions</a></div><div class="ttdeci">cstring versions</div><div class="ttdoc">Contains GCC, CC, LD, MAKE, xorriso, tar versions.</div></div>
 <div class="ttc" id="aversions_8h_html_af4949920e86a698e15d876f58334ec04"><div class="ttname"><a href="versions_8h.html#af4949920e86a698e15d876f58334ec04">date</a></div><div class="ttdeci">cstring date</div><div class="ttdoc">Contains the exact time when the compilation started.</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -124,7 +120,7 @@ $(function(){initNavTree('versions_8h_source.html','',''); });
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_c9f89f587e7e777be723ee48a3df5844.html">includes</a></li><li class="navelem"><a href="versions_8h.html">versions.h</a></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="versions_8h.html">versions.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: source/includes/cc-asm.h File Reference</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -102,10 +103,13 @@ Include dependency graph for cc-asm.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="cc-asm_8h__incl.png" border="0" usemap="#asource_2includes_2cc-asm_8h" loading="lazy" alt=""/></div>
 <map name="asource_2includes_2cc-asm_8h" id="asource_2includes_2cc-asm_8h">
-<area shape="rect" title="Cross&#45;compatible ASM header." alt="" coords="18,5,159,47"/>
-<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="51,95,126,121"/>
-<area shape="rect" title=" " alt="" coords="5,169,76,196"/>
-<area shape="rect" title=" " alt="" coords="101,169,175,196"/>
+<area shape="rect" title="Cross&#45;compatible ASM header." alt="" coords="19,5,153,54"/>
+<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="52,102,121,132"/>
+<area shape="poly" title=" " alt="" coords="87,52,89,87,84,85,85,57"/>
+<area shape="rect" title=" " alt="" coords="5,180,74,209"/>
+<area shape="poly" title=" " alt="" coords="79,131,58,168,54,165,75,134"/>
+<area shape="rect" title=" " alt="" coords="98,180,170,209"/>
+<area shape="poly" title=" " alt="" coords="96,130,120,167,114,167,94,135"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -113,9 +117,9 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="cc-asm_8h__dep__incl.png" border="0" usemap="#asource_2includes_2cc-asm_8hdep" loading="lazy" alt=""/></div>
 <map name="asource_2includes_2cc-asm_8hdep" id="asource_2includes_2cc-asm_8hdep">
-<area shape="rect" title="Cross&#45;compatible ASM header." alt="" coords="37,5,178,47"/>
-<area shape="rect" href="kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="18,95,197,121"/>
-<area shape="rect" href="meltdown_8h.html" title="The headers for meltdown.c." alt="" coords="5,169,209,196"/>
+<area shape="rect" title="Cross&#45;compatible ASM header." alt="" coords="25,5,160,54"/>
+<area shape="rect" href="kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="5,102,180,132"/>
+<area shape="poly" title=" " alt="" coords="94,68,95,102,90,100,91,72"/>
 </map>
 </div>
 </div>
@@ -123,16 +127,21 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a65043fd9f185ead3cb6991a681f042d2" id="r_a65043fd9f185ead3cb6991a681f042d2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a65043fd9f185ead3cb6991a681f042d2">hcf</a> ()</td></tr>
-<tr class="memdesc:a65043fd9f185ead3cb6991a681f042d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Halt and catch fire function.  <br /></td></tr>
-<tr class="memitem:a54c4198218bc443bd74bddb2764e5ae5" id="r_a54c4198218bc443bd74bddb2764e5ae5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a54c4198218bc443bd74bddb2764e5ae5">clear_interrupts</a> ()</td></tr>
-<tr class="memdesc:a54c4198218bc443bd74bddb2764e5ae5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The clear interrupts command for all architectures.  <br /></td></tr>
-<tr class="memitem:a620429917e018a510cd9f622efbaa866" id="r_a620429917e018a510cd9f622efbaa866"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a620429917e018a510cd9f622efbaa866">set_interrupts</a> ()</td></tr>
-<tr class="memdesc:a620429917e018a510cd9f622efbaa866"><td class="mdescLeft">&#160;</td><td class="mdescRight">The set interrupts command for various architectures.  <br /></td></tr>
-<tr class="memitem:a2e595f2e85354f0c91c0619ef77520f1" id="r_a2e595f2e85354f0c91c0619ef77520f1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2e595f2e85354f0c91c0619ef77520f1">high_level_halt</a> ()</td></tr>
-<tr class="memdesc:a2e595f2e85354f0c91c0619ef77520f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">It uses while loops instead of assembly's halt, Good for Userland.  <br /></td></tr>
-<tr class="memitem:a078849075b75c5dccbd4e00738e3633d" id="r_a078849075b75c5dccbd4e00738e3633d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a078849075b75c5dccbd4e00738e3633d">hcf2</a> ()</td></tr>
-<tr class="memdesc:a078849075b75c5dccbd4e00738e3633d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Halt and catch fire function but doesn't print any text.  <br /></td></tr>
+<tr class="memitem:a65043fd9f185ead3cb6991a681f042d2" id="r_a65043fd9f185ead3cb6991a681f042d2"><td class="memItemLeft"><a id="a65043fd9f185ead3cb6991a681f042d2" name="a65043fd9f185ead3cb6991a681f042d2"></a>
+void&#160;</td><td class="memItemRight"><b>hcf</b> ()</td></tr>
+<tr class="memdesc:a65043fd9f185ead3cb6991a681f042d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Halt and catch fire function. <br /></td></tr>
+<tr class="memitem:a54c4198218bc443bd74bddb2764e5ae5" id="r_a54c4198218bc443bd74bddb2764e5ae5"><td class="memItemLeft"><a id="a54c4198218bc443bd74bddb2764e5ae5" name="a54c4198218bc443bd74bddb2764e5ae5"></a>
+void&#160;</td><td class="memItemRight"><b>clear_interrupts</b> ()</td></tr>
+<tr class="memdesc:a54c4198218bc443bd74bddb2764e5ae5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The clear interrupts command for all architectures. <br /></td></tr>
+<tr class="memitem:a620429917e018a510cd9f622efbaa866" id="r_a620429917e018a510cd9f622efbaa866"><td class="memItemLeft"><a id="a620429917e018a510cd9f622efbaa866" name="a620429917e018a510cd9f622efbaa866"></a>
+void&#160;</td><td class="memItemRight"><b>set_interrupts</b> ()</td></tr>
+<tr class="memdesc:a620429917e018a510cd9f622efbaa866"><td class="mdescLeft">&#160;</td><td class="mdescRight">The set interrupts command for various architectures. <br /></td></tr>
+<tr class="memitem:a2e595f2e85354f0c91c0619ef77520f1" id="r_a2e595f2e85354f0c91c0619ef77520f1"><td class="memItemLeft"><a id="a2e595f2e85354f0c91c0619ef77520f1" name="a2e595f2e85354f0c91c0619ef77520f1"></a>
+void&#160;</td><td class="memItemRight"><b>high_level_halt</b> ()</td></tr>
+<tr class="memdesc:a2e595f2e85354f0c91c0619ef77520f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">It uses while loops instead of assembly's halt, Good for Userland. <br /></td></tr>
+<tr class="memitem:a078849075b75c5dccbd4e00738e3633d" id="r_a078849075b75c5dccbd4e00738e3633d"><td class="memItemLeft"><a id="a078849075b75c5dccbd4e00738e3633d" name="a078849075b75c5dccbd4e00738e3633d"></a>
+void&#160;</td><td class="memItemRight"><b>hcf2</b> ()</td></tr>
+<tr class="memdesc:a078849075b75c5dccbd4e00738e3633d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Halt and catch fire function but doesn't print any text. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Cross-compatible ASM header. </p>
@@ -140,103 +149,7 @@ Functions</h2></td></tr>
 <dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2023-12-10</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) Pradosh 2023 </dd></dl>
-</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a54c4198218bc443bd74bddb2764e5ae5" name="a54c4198218bc443bd74bddb2764e5ae5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54c4198218bc443bd74bddb2764e5ae5">&#9670;&#160;</a></span>clear_interrupts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void clear_interrupts </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The clear interrupts command for all architectures. </p>
-
-</div>
-</div>
-<a id="a65043fd9f185ead3cb6991a681f042d2" name="a65043fd9f185ead3cb6991a681f042d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65043fd9f185ead3cb6991a681f042d2">&#9670;&#160;</a></span>hcf()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void hcf </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Halt and catch fire function. </p>
-
-</div>
-</div>
-<a id="a078849075b75c5dccbd4e00738e3633d" name="a078849075b75c5dccbd4e00738e3633d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a078849075b75c5dccbd4e00738e3633d">&#9670;&#160;</a></span>hcf2()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void hcf2 </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Halt and catch fire function but doesn't print any text. </p>
-
-</div>
-</div>
-<a id="a2e595f2e85354f0c91c0619ef77520f1" name="a2e595f2e85354f0c91c0619ef77520f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e595f2e85354f0c91c0619ef77520f1">&#9670;&#160;</a></span>high_level_halt()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void high_level_halt </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>It uses while loops instead of assembly's halt, Good for Userland. </p>
-
-</div>
-</div>
-<a id="a620429917e018a510cd9f622efbaa866" name="a620429917e018a510cd9f622efbaa866"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a620429917e018a510cd9f622efbaa866">&#9670;&#160;</a></span>set_interrupts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void set_interrupts </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The set interrupts command for various architectures. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>
@@ -249,7 +162,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_c9f89f587e7e777be723ee48a3df5844.html">includes</a></li><li class="navelem"><a href="cc-asm_8h.html">cc-asm.h</a></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="cc-asm_8h.html">cc-asm.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>
