@@ -1,0 +1,5 @@
+<map id="limine_smbios_request" name="limine_smbios_request">
+<area shape="rect" id="Node000001" title=" " alt="" coords="10,207,160,310"/>
+<area shape="rect" id="Node000002" href="$structlimine__smbios__response.html" title=" " alt="" coords="5,5,165,132"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,130,88,191,83,190,84,134"/>
+</map>

@@ -38,7 +38,7 @@ var dir_c9f89f587e7e777be723ee48a3df5844 =
     [ "syscalls.h", "syscalls_8h.html", "syscalls_8h" ],
     [ "tss.h", "tss_8h.html", "tss_8h" ],
     [ "tty.h", "tty_8h_source.html", null ],
-    [ "unifont.h", "unifont_8h.html", null ],
+    [ "unifont.h", "unifont_8h.html", "unifont_8h" ],
     [ "userland.h", "userland_8h.html", "userland_8h" ],
     [ "versions.h", "versions_8h.html", "versions_8h" ]
 ];

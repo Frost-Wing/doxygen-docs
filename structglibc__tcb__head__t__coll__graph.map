@@ -1,5 +1,5 @@
 <map id="glibc_tcb_head_t" name="glibc_tcb_head_t">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,110,128,140"/>
-<area shape="rect" id="Node000002" href="$unionglibc__dtv__t.html" title=" " alt="" coords="23,5,110,35"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,49,69,110,64,109,64,51"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,232,172,626"/>
+<area shape="rect" id="Node000002" href="$unionglibc__dtv__t.html" title=" " alt="" coords="51,5,127,157"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,154,91,215,86,215,89,159"/>
 </map>

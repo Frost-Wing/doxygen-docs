@@ -13,7 +13,7 @@ var searchData=
   ['ahci_5fport_5ft_10',['ahci_port_t',['../structahci__port__t.html',1,'']]],
   ['allocate_5fmemory_5fat_5faddress_11',['allocate_memory_at_address',['../memory_8h.html#afbdab8b948980164767641683eb44b1c',1,'memory.h']]],
   ['analyze_5fmemory_5fmap_12',['analyze_memory_map',['../memory_8h.html#ab9beb90213a5e726482307e347f2c7fb',1,'memory.h']]],
-  ['and_20bug_20reports_13',['Issues and Bug Reports',['../md_CONTRIBUTING.html#autotoc_md21',1,'']]],
+  ['and_20bug_20reports_13',['Issues and Bug Reports',['../md_CONTRIBUTING.html#autotoc_md17',1,'']]],
   ['ansi_5fbright_5fcolours_14',['ansi_bright_colours',['../structflanterm__fb__context.html#a1036d27376c3e1e78c1a2183f26640a1',1,'flanterm_fb_context']]],
   ['ansi_5fcolours_15',['ansi_colours',['../structflanterm__fb__context.html#a9794d1fec0260c611d46987493342d86',1,'flanterm_fb_context']]],
   ['assert_16',['assert',['../basics_8h.html#a5e3385cbb6fb22fc25c07d7f6827f42a',1,'basics.h']]],

@@ -1,0 +1,7 @@
+<map id="limine_memmap_request" name="limine_memmap_request">
+<area shape="rect" id="Node000001" title=" " alt="" coords="10,385,176,488"/>
+<area shape="rect" id="Node000002" href="$structlimine__memmap__response.html" title=" " alt="" coords="5,207,181,310"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,307,96,368,91,367,92,312"/>
+<area shape="rect" id="Node000003" href="$structlimine__memmap__entry.html" title=" " alt="" coords="17,5,170,132"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,129,96,191,91,190,93,135"/>
+</map>

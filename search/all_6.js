@@ -3,7 +3,7 @@ var searchData=
   ['fb_5fheight_0',['fb_height',['../kernel_8h.html#ad21bc479a62f49bd2095109c52d725e4',1,'kernel.h']]],
   ['fb_5fwidth_1',['fb_width',['../kernel_8h.html#a571fa6dfd4542147e49b522157272e88',1,'kernel.h']]],
   ['fdlfcn_5fhandle_2',['fdlfcn_handle',['../structfdlfcn__handle.html',1,'']]],
-  ['features_3',['Currently working Features',['../md_readme.html#autotoc_md7',1,'']]],
+  ['features_3',['Currently working Features',['../md_readme.html#autotoc_md3',1,'']]],
   ['fg_4',['fg',['../structflanterm__fb__char.html#a9eb6db06243ad2634d3d0f399d29bf2f',1,'flanterm_fb_char']]],
   ['flanterm_5ffb_5fchar_5',['flanterm_fb_char',['../structflanterm__fb__char.html',1,'']]],
   ['flanterm_5ffb_5fcontext_6',['flanterm_fb_context',['../structflanterm__fb__context.html',1,'']]],
@@ -18,8 +18,6 @@ var searchData=
   ['font_5fwidth_15',['font_width',['../structflanterm__fb__context.html#a89d1b1e0c49362fa5f98c54dc53b4007',1,'flanterm_fb_context']]],
   ['framebuffer_16',['framebuffer',['../structflanterm__fb__context.html#a70f82a712eb98b535d678376e1047700',1,'flanterm_fb_context']]],
   ['frostwing_17',['Contributing to FrostWing',['../md_CONTRIBUTING.html',1,'']]],
-  ['frostwing_20📚_20documentation_20page_18',['Welcome to FrostWing 📚 documentation page!',['../md_doxygen-index.html#autotoc_md1',1,'']]],
-  ['frostwing_20documentations_19',['FrostWing Documentations',['../md_doxygen-index.html',1,'']]],
-  ['frostwing_20operating_20system_20',['FrostWing Operating System',['../md_readme.html',1,'']]],
-  ['frostwing_20team_21',['FrostWing Team',['../md_readme.html#autotoc_md17',1,'']]]
+  ['frostwing_20operating_20system_18',['FrostWing Operating System',['../md_readme.html',1,'']]],
+  ['frostwing_20team_19',['FrostWing Team',['../md_readme.html#autotoc_md13',1,'']]]
 ];

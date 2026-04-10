@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['machine_0',['Booting to real machine',['../md_readme.html#autotoc_md14',1,'']]],
+  ['machine_0',['Booting to real machine',['../md_readme.html#autotoc_md10',1,'']]],
   ['main_1',['main',['../kernel_8h.html#a6288eba0f8e8ad3ab1544ad731eb7667',1,'kernel.h']]],
   ['map_2',['map',['../structflanterm__fb__context.html#aa29aeaaa41b5b2843b014ecf947b6736',1,'flanterm_fb_context']]],
   ['map_5fsize_3',['map_size',['../structflanterm__fb__context.html#aa47b6546953d28c758c22f94ddd1db35',1,'flanterm_fb_context']]],
@@ -14,8 +14,8 @@ var searchData=
   ['memory_5fcontext_11',['memory_context',['../structmemory__context.html',1,'']]],
   ['memory_5fdump_12',['memory_dump',['../memory_8h.html#abf9368946b7a5fe5775ed94ca97bb6cf',1,'memory.h']]],
   ['memset_13',['memset',['../memory_8h.html#a313175102214d45434bf045db18dddf0',1,'memory.h']]],
-  ['minimum_20requirements_20bios_14',['Minimum Requirements (BIOS)',['../md_readme.html#autotoc_md10',1,'']]],
-  ['minimum_20requirements_20uefi_15',['Minimum Requirements (UEFI)',['../md_readme.html#autotoc_md11',1,'']]],
+  ['minimum_20requirements_20bios_14',['Minimum Requirements (BIOS)',['../md_readme.html#autotoc_md6',1,'']]],
+  ['minimum_20requirements_20uefi_15',['Minimum Requirements (UEFI)',['../md_readme.html#autotoc_md7',1,'']]],
   ['mm_5fconstrict_16',['mm_constrict',['../heap_8h.html#a0475e3c1149b04e16b34120cf601d817',1,'heap.h']]],
   ['mm_5fextend_17',['mm_extend',['../heap_8h.html#a89e426eee07ea2c83d15eed4cccd5ae2',1,'heap.h']]],
   ['mm_5finit_18',['mm_init',['../heap_8h.html#afe329a1445522ad4d2b7f1ee45db828f',1,'heap.h']]],

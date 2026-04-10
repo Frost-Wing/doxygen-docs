@@ -307,9 +307,8 @@ Include dependency graph for kernel.h:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a55d0c3475cc452ccbd6e0c8dd1c68bd7" id="r_a55d0c3475cc452ccbd6e0c8dd1c68bd7"><td class="memItemLeft"><a id="a55d0c3475cc452ccbd6e0c8dd1c68bd7" name="a55d0c3475cc452ccbd6e0c8dd1c68bd7"></a>
-#define&#160;</td><td class="memItemRight"><b>KERNEL_OFFSET</b>&#160;&#160;&#160;0xffffffff00000000</td></tr>
-<tr class="memdesc:a55d0c3475cc452ccbd6e0c8dd1c68bd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Long story short: linker is a mole-rat and gives virtual addresses. But we asked the linker to allocate at this address, so we are spoofing its "security" to get the real memory address of kernel start and end. <br /></td></tr>
+<tr class="memitem:a55d0c3475cc452ccbd6e0c8dd1c68bd7" id="r_a55d0c3475cc452ccbd6e0c8dd1c68bd7"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a55d0c3475cc452ccbd6e0c8dd1c68bd7">KERNEL_OFFSET</a>&#160;&#160;&#160;0xffffffff00000000</td></tr>
+<tr class="memdesc:a55d0c3475cc452ccbd6e0c8dd1c68bd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Long story short: linker is a mole-rat and gives virtual addresses. But we asked the linker to allocate at this address, so we are spoofing its "security" to get the real memory address of kernel start and end.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -345,7 +344,28 @@ int64 *&#160;</td><td class="memItemRight"><b>wm_addr</b></td></tr>
 <dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2023-10-23</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) Pradosh 2023 </dd></dl>
-</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+
+<p class="definition">Definition in file <a class="el" href="kernel_8h_source.html">kernel.h</a>.</p>
+</div><a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
+<a id="a55d0c3475cc452ccbd6e0c8dd1c68bd7" name="a55d0c3475cc452ccbd6e0c8dd1c68bd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55d0c3475cc452ccbd6e0c8dd1c68bd7">&#9670;&#160;</a></span>KERNEL_OFFSET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define KERNEL_OFFSET&#160;&#160;&#160;0xffffffff00000000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Long story short: linker is a mole-rat and gives virtual addresses. But we asked the linker to allocate at this address, so we are spoofing its "security" to get the real memory address of kernel start and end. </p>
+
+<p class="definition">Definition at line <a class="el" href="kernel_8h_source.html#l00051">51</a> of file <a class="el" href="kernel_8h_source.html">kernel.h</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a6288eba0f8e8ad3ab1544ad731eb7667" name="a6288eba0f8e8ad3ab1544ad731eb7667"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6288eba0f8e8ad3ab1544ad731eb7667">&#9670;&#160;</a></span>main()</h2>
 

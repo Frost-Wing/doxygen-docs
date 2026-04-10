@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['page_0',['page',['../md_doxygen-index.html#autotoc_md3',1,'Information contained in this page'],['../md_doxygen-index.html#autotoc_md1',1,'Welcome to FrostWing 📚 documentation page!']]],
-  ['prerequisites_1',['Prerequisites',['../md_doxygen-index.html#autotoc_md2',1,'']]]
+  ['software_20emulator_20requirements_0',['Hardware/Software (Emulator) Requirements',['../md_readme.html#autotoc_md5',1,'']]],
+  ['started_1',['Getting started',['../md_readme.html#autotoc_md4',1,'']]],
+  ['system_2',['FrostWing Operating System',['../md_readme.html',1,'']]]
 ];

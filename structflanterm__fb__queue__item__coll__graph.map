@@ -1,5 +1,5 @@
 <map id="flanterm_fb_queue_item" name="flanterm_fb_queue_item">
-<area shape="rect" id="Node000001" title="Represents an item in the rendering queue." alt="" coords="5,110,180,140"/>
-<area shape="rect" id="Node000002" href="$structflanterm__fb__char.html" title="Represents a character with its foreground and background colors." alt="" coords="29,5,156,35"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,49,95,111,90,109,90,52"/>
+<area shape="rect" id="Node000001" title="Represents an item in the rendering queue." alt="" coords="5,207,169,310"/>
+<area shape="rect" id="Node000002" href="$structflanterm__fb__char.html" title="Represents a character with its foreground and background colors." alt="" coords="29,5,146,132"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,130,90,191,85,190,86,134"/>
 </map>

@@ -1,0 +1,11 @@
+<map id="limine_module_request" name="limine_module_request">
+<area shape="rect" id="Node000001" title=" " alt="" coords="96,879,262,1006"/>
+<area shape="rect" id="Node000002" href="$structlimine__module__response.html" title=" " alt="" coords="5,689,169,792"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,789,146,863,141,864,109,794"/>
+<area shape="rect" id="Node000003" href="$structlimine__file.html" title=" " alt="" coords="29,280,145,602"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="88,599,90,673,85,672,87,604"/>
+<area shape="rect" id="Node000004" href="$structlimine__uuid.html" title=" " alt="" coords="47,5,128,157"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,154,90,263,85,263,87,159"/>
+<area shape="rect" id="Node000005" href="$structlimine__internal__module.html" title=" " alt="" coords="192,677,347,804"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="244,802,217,865,212,862,240,806"/>
+</map>

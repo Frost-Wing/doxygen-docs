@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['gallery_0',['Gallery',['../md_readme.html#autotoc_md6',1,'']]],
+  ['gallery_0',['Gallery',['../md_readme.html#autotoc_md2',1,'']]],
   ['gdt_2eh_1',['gdt.h',['../gdt_8h.html',1,'']]],
   ['gdt_5fentry_2',['gdt_entry',['../structgdt__entry.html',1,'']]],
   ['gdt_5fptr_3',['gdt_ptr',['../structgdt__ptr.html',1,'']]],
@@ -17,7 +17,7 @@ var searchData=
   ['getmodifiers_14',['getmodifiers',['../keyboard_8h.html#acdf1fbecd1c1f6c4d3eb40bcbbf5e8a6',1,'keyboard.h']]],
   ['getmouseposition_15',['GetMousePosition',['../ps2-mouse_8h.html#ab045cfff6edf7a8dd8edf4d8334957b0',1,'ps2-mouse.h']]],
   ['getsubclassid_16',['getSubClassId',['../pci_8h.html#ad6e6cb3e944425ff46d2a267da3aa9d2',1,'pci.h']]],
-  ['getting_20started_17',['Getting started',['../md_readme.html#autotoc_md8',1,'']]],
+  ['getting_20started_17',['Getting started',['../md_readme.html#autotoc_md4',1,'']]],
   ['getvendorid_18',['getVendorID',['../pci_8h.html#a7401385d1ee1ca12c01090e98d11c1b1',1,'pci.h']]],
   ['glibc_5f128bits_5ft_19',['glibc_128bits_t',['../structglibc__128bits__t.html',1,'']]],
   ['glibc_5fdtv_5ft_20',['glibc_dtv_t',['../unionglibc__dtv__t.html',1,'']]],
@@ -29,5 +29,5 @@ var searchData=
   ['graphics_2eh_26',['graphics.h',['../graphics_8h.html',1,'']]],
   ['grid_27',['grid',['../structflanterm__fb__context.html#a0b14cfc83799bba1e5b37ec7c37f7f0b',1,'flanterm_fb_context']]],
   ['grid_5fsize_28',['grid_size',['../structflanterm__fb__context.html#a522174795c66ca0b3dfc1bfe2a403471',1,'flanterm_fb_context']]],
-  ['guidelines_29',['Code Guidelines',['../md_CONTRIBUTING.html#autotoc_md20',1,'']]]
+  ['guidelines_29',['Code Guidelines',['../md_CONTRIBUTING.html#autotoc_md16',1,'']]]
 ];

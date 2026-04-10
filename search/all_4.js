@@ -13,7 +13,5 @@ var searchData=
   ['display_5fmemory_5fformatted_10',['display_memory_formatted',['../memory_8h.html#ad08cbc6d3077c7f3751a2eb60c9b517a',1,'memory.h']]],
   ['display_5ftime_11',['display_time',['../rtc_8h.html#a4eb8933c334d8d88e9ff0b0d1152951c',1,'rtc.h']]],
   ['dispose_5fcommand_5flist_12',['dispose_command_list',['../sh__util_8h.html#a375da250af24b82497481e57fa917c60',1,'sh_util.h']]],
-  ['documentation_20page_13',['Welcome to FrostWing 📚 documentation page!',['../md_doxygen-index.html#autotoc_md1',1,'']]],
-  ['documentations_14',['FrostWing Documentations',['../md_doxygen-index.html',1,'']]],
-  ['done_15',['done',['../graphics_8h.html#ad07884a6ba7d8115780561b2ca989852',1,'graphics.h']]]
+  ['done_13',['done',['../graphics_8h.html#ad07884a6ba7d8115780561b2ca989852',1,'graphics.h']]]
 ];

@@ -4,5 +4,6 @@ var searchData=
   ['clear_5finterrupts_1',['clear_interrupts',['../cc-asm_8h.html#a54c4198218bc443bd74bddb2764e5ae5',1,'cc-asm.h']]],
   ['contains_2',['contains',['../strings_8h.html#ad4bf9c94d6812f96f997ff82d9a8ae79',1,'strings.h']]],
   ['cpu_5fstring_3',['cpu_string',['../cpuid2_8h.html#aef2c86bf61880c1c228b14c4702cc340',1,'cpuid2.h']]],
-  ['cpuid_4',['cpuid',['../cpuid2_8h.html#aa0519119d33c774ff4c10abba6cdcecf',1,'cpuid2.h']]]
+  ['cpuid_4',['cpuid',['../cpuid2_8h.html#aa0519119d33c774ff4c10abba6cdcecf',1,'cpuid2.h']]],
+  ['cpuid_5fstring_5',['cpuid_string',['../cpuid2_8h.html#ab009ffb3020578bb96000663b00da2d6',1,'cpuid2.h']]]
 ];

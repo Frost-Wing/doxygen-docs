@@ -2,6 +2,7 @@ var cpuid2_8h =
 [
     [ "cpu_string", "cpuid2_8h.html#aef2c86bf61880c1c228b14c4702cc340", null ],
     [ "cpuid", "cpuid2_8h.html#aa0519119d33c774ff4c10abba6cdcecf", null ],
+    [ "cpuid_string", "cpuid2_8h.html#ab009ffb3020578bb96000663b00da2d6", null ],
     [ "get_cpu_name", "cpuid2_8h.html#a41c5fe3066d69475e8b714ec45bc08ac", null ],
     [ "get_cpu_vendor", "cpuid2_8h.html#aa68c75b575e0b59243263ba2665beff0", null ],
     [ "print_cpu_info", "cpuid2_8h.html#a823bff2120fee3abcbe0f103b8162d45", null ],

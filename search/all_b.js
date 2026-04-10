@@ -1,7 +1,7 @@
 var searchData=
 [
   ['leading_5ftrailing_5ftrim_0',['leading_trailing_trim',['../strings_8h.html#a0b1902f4461f2028ae371589a1e24f10',1,'strings.h']]],
-  ['license_1',['License',['../md_readme.html#autotoc_md16',1,'']]],
+  ['license_1',['License',['../md_readme.html#autotoc_md12',1,'']]],
   ['limine_5f5_5flevel_5fpaging_5frequest_2',['limine_5_level_paging_request',['../structlimine__5__level__paging__request.html',1,'']]],
   ['limine_5f5_5flevel_5fpaging_5fresponse_3',['limine_5_level_paging_response',['../structlimine__5__level__paging__response.html',1,'']]],
   ['limine_5fboot_5ftime_5frequest_4',['limine_boot_time_request',['../structlimine__boot__time__request.html',1,'']]],

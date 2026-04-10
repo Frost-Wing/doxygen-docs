@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['software_20emulator_20requirements_0',['Hardware/Software (Emulator) Requirements',['../md_readme.html#autotoc_md9',1,'']]],
-  ['started_1',['Getting started',['../md_readme.html#autotoc_md8',1,'']]],
-  ['system_2',['FrostWing Operating System',['../md_readme.html',1,'']]]
+  ['uefi_0',['UEFI',['../md_readme.html#autotoc_md7',1,'Minimum Requirements (UEFI)'],['../md_readme.html#autotoc_md9',1,'Recommended Requirements (UEFI)']]]
 ];
