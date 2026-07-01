@@ -148,28 +148,30 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab009ffb3020578bb96000663b00da2d6" id="r_ab009ffb3020578bb96000663b00da2d6"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#ab009ffb3020578bb96000663b00da2d6">cpuid_string</a> (int code, int where[4])</td></tr>
-<tr class="memdesc:ab009ffb3020578bb96000663b00da2d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes the CPUID instruction with the given code and stores the results.  <br /></td></tr>
-<tr class="memitem:aef2c86bf61880c1c228b14c4702cc340" id="r_aef2c86bf61880c1c228b14c4702cc340"><td class="memItemLeft">cstring&#160;</td><td class="memItemRight"><a class="el" href="#aef2c86bf61880c1c228b14c4702cc340">cpu_string</a> ()</td></tr>
-<tr class="memdesc:aef2c86bf61880c1c228b14c4702cc340"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the CPU type.  <br /></td></tr>
-<tr class="memitem:aa0519119d33c774ff4c10abba6cdcecf" id="r_aa0519119d33c774ff4c10abba6cdcecf"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa0519119d33c774ff4c10abba6cdcecf">cpuid</a> (int32 reg, int32 *eax, int32 *ebx, int32 *ecx, int32 *edx)</td></tr>
-<tr class="memdesc:aa0519119d33c774ff4c10abba6cdcecf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes the CPUID instruction and retrieves values of the specified registers.  <br /></td></tr>
-<tr class="memitem:aa68c75b575e0b59243263ba2665beff0" id="r_aa68c75b575e0b59243263ba2665beff0"><td class="memItemLeft">cstring&#160;</td><td class="memItemRight"><a class="el" href="#aa68c75b575e0b59243263ba2665beff0">get_cpu_vendor</a> ()</td></tr>
-<tr class="memdesc:aa68c75b575e0b59243263ba2665beff0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the CPU vendor string.  <br /></td></tr>
-<tr class="memitem:a41c5fe3066d69475e8b714ec45bc08ac" id="r_a41c5fe3066d69475e8b714ec45bc08ac"><td class="memItemLeft">cstring&#160;</td><td class="memItemRight"><a class="el" href="#a41c5fe3066d69475e8b714ec45bc08ac">get_cpu_name</a> ()</td></tr>
-<tr class="memdesc:a41c5fe3066d69475e8b714ec45bc08ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the CPU name.  <br /></td></tr>
-<tr class="memitem:a823bff2120fee3abcbe0f103b8162d45" id="r_a823bff2120fee3abcbe0f103b8162d45"><td class="memItemLeft"><a id="a823bff2120fee3abcbe0f103b8162d45" name="a823bff2120fee3abcbe0f103b8162d45"></a>
-void&#160;</td><td class="memItemRight"><b>print_cpu_info</b> ()</td></tr>
-<tr class="memdesc:a823bff2120fee3abcbe0f103b8162d45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print CPU information, including the vendor and CPU string. <br /></td></tr>
-<tr class="memitem:a5928988067dbfed760bba7d32f1e406c" id="r_a5928988067dbfed760bba7d32f1e406c"><td class="memItemLeft"><a id="a5928988067dbfed760bba7d32f1e406c" name="a5928988067dbfed760bba7d32f1e406c"></a>
-void&#160;</td><td class="memItemRight"><b>print_L1_cache_info</b> ()</td></tr>
-<tr class="memdesc:a5928988067dbfed760bba7d32f1e406c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve and print L1 cache information. <br /></td></tr>
-<tr class="memitem:a6e19b2c23ab3e776a7f5ba25e9d3b478" id="r_a6e19b2c23ab3e776a7f5ba25e9d3b478"><td class="memItemLeft"><a id="a6e19b2c23ab3e776a7f5ba25e9d3b478" name="a6e19b2c23ab3e776a7f5ba25e9d3b478"></a>
-void&#160;</td><td class="memItemRight"><b>print_L2_cache_info</b> ()</td></tr>
-<tr class="memdesc:a6e19b2c23ab3e776a7f5ba25e9d3b478"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve and print L2 cache information. <br /></td></tr>
-<tr class="memitem:a40a19e00db405010fed0c5b81be20363" id="r_a40a19e00db405010fed0c5b81be20363"><td class="memItemLeft"><a id="a40a19e00db405010fed0c5b81be20363" name="a40a19e00db405010fed0c5b81be20363"></a>
-void&#160;</td><td class="memItemRight"><b>print_L3_cache_info</b> ()</td></tr>
-<tr class="memdesc:a40a19e00db405010fed0c5b81be20363"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve and print L3 cache information. <br /></td></tr>
+<tr class="memitem:adcbb1a36845f7b30e7a046d112ff4237" id="r_adcbb1a36845f7b30e7a046d112ff4237"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#adcbb1a36845f7b30e7a046d112ff4237">cpuid_string</a> (int code, int where[4])</td></tr>
+<tr class="memdesc:adcbb1a36845f7b30e7a046d112ff4237"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes the CPUID instruction with the given code and stores the results.  <br /></td></tr>
+<tr class="memitem:a742935cbd6550cd39accc4ea0e18f373" id="r_a742935cbd6550cd39accc4ea0e18f373"><td class="memItemLeft">cstring&#160;</td><td class="memItemRight"><a class="el" href="#a742935cbd6550cd39accc4ea0e18f373">cpu_string</a> (void)</td></tr>
+<tr class="memdesc:a742935cbd6550cd39accc4ea0e18f373"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the CPU type.  <br /></td></tr>
+<tr class="memitem:a4711eaebe335499a84e8a42a62117779" id="r_a4711eaebe335499a84e8a42a62117779"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4711eaebe335499a84e8a42a62117779">cpuid</a> (uint32 reg, uint32 *eax, uint32 *ebx, uint32 *ecx, uint32 *edx)</td></tr>
+<tr class="memdesc:a4711eaebe335499a84e8a42a62117779"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes the CPUID instruction and retrieves values of the specified registers.  <br /></td></tr>
+<tr class="memitem:a58b2644cb0778a3cef264ebe7c24da28" id="r_a58b2644cb0778a3cef264ebe7c24da28"><td class="memItemLeft">cstring&#160;</td><td class="memItemRight"><a class="el" href="#a58b2644cb0778a3cef264ebe7c24da28">get_cpu_vendor</a> (void)</td></tr>
+<tr class="memdesc:a58b2644cb0778a3cef264ebe7c24da28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the CPU vendor string.  <br /></td></tr>
+<tr class="memitem:a08b489c80a7e23dd0bfd0c2372b14b38" id="r_a08b489c80a7e23dd0bfd0c2372b14b38"><td class="memItemLeft">cstring&#160;</td><td class="memItemRight"><a class="el" href="#a08b489c80a7e23dd0bfd0c2372b14b38">get_cpu_name</a> (void)</td></tr>
+<tr class="memdesc:a08b489c80a7e23dd0bfd0c2372b14b38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the CPU name.  <br /></td></tr>
+<tr class="memitem:a538a4414821926cda2c9e989764c00fd" id="r_a538a4414821926cda2c9e989764c00fd"><td class="memItemLeft"><a id="a538a4414821926cda2c9e989764c00fd" name="a538a4414821926cda2c9e989764c00fd"></a>
+void&#160;</td><td class="memItemRight"><b>print_cpu_info</b> (void)</td></tr>
+<tr class="memdesc:a538a4414821926cda2c9e989764c00fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print CPU information, including the vendor and CPU string. <br /></td></tr>
+<tr class="memitem:a88c4e1cd33f087fe00fc07254ab08723" id="r_a88c4e1cd33f087fe00fc07254ab08723"><td class="memItemLeft"><a id="a88c4e1cd33f087fe00fc07254ab08723" name="a88c4e1cd33f087fe00fc07254ab08723"></a>
+void&#160;</td><td class="memItemRight"><b>print_L1_cache_info</b> (void)</td></tr>
+<tr class="memdesc:a88c4e1cd33f087fe00fc07254ab08723"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve and print L1 cache information. <br /></td></tr>
+<tr class="memitem:a838a92f8c6f368f4f38f01495998e5dc" id="r_a838a92f8c6f368f4f38f01495998e5dc"><td class="memItemLeft"><a id="a838a92f8c6f368f4f38f01495998e5dc" name="a838a92f8c6f368f4f38f01495998e5dc"></a>
+void&#160;</td><td class="memItemRight"><b>print_L2_cache_info</b> (void)</td></tr>
+<tr class="memdesc:a838a92f8c6f368f4f38f01495998e5dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve and print L2 cache information. <br /></td></tr>
+<tr class="memitem:a6f9083d2e3f4b9095b1a485ef3f50bd5" id="r_a6f9083d2e3f4b9095b1a485ef3f50bd5"><td class="memItemLeft"><a id="a6f9083d2e3f4b9095b1a485ef3f50bd5" name="a6f9083d2e3f4b9095b1a485ef3f50bd5"></a>
+void&#160;</td><td class="memItemRight"><b>print_L3_cache_info</b> (void)</td></tr>
+<tr class="memdesc:a6f9083d2e3f4b9095b1a485ef3f50bd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve and print L3 cache information. <br /></td></tr>
+<tr class="memitem:a57e2be216a16fb4b82a01f2a4a8907f4" id="r_a57e2be216a16fb4b82a01f2a4a8907f4"><td class="memItemLeft"><a id="a57e2be216a16fb4b82a01f2a4a8907f4" name="a57e2be216a16fb4b82a01f2a4a8907f4"></a>
+bool&#160;</td><td class="memItemRight"><b>is_kvm_supported</b> (void)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The CPUID instructions. </p>
@@ -180,8 +182,8 @@ void&#160;</td><td class="memItemRight"><b>print_L3_cache_info</b> ()</td></tr>
 
 <p class="definition">Definition in file <a class="el" href="cpuid2_8h_source.html">cpuid2.h</a>.</p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="aef2c86bf61880c1c228b14c4702cc340" name="aef2c86bf61880c1c228b14c4702cc340"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef2c86bf61880c1c228b14c4702cc340">&#9670;&#160;</a></span>cpu_string()</h2>
+<a id="a742935cbd6550cd39accc4ea0e18f373" name="a742935cbd6550cd39accc4ea0e18f373"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a742935cbd6550cd39accc4ea0e18f373">&#9670;&#160;</a></span>cpu_string()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -189,7 +191,7 @@ void&#160;</td><td class="memItemRight"><b>print_L3_cache_info</b> ()</td></tr>
         <tr>
           <td class="memname">cstring cpu_string </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -201,46 +203,38 @@ void&#160;</td><td class="memItemRight"><b>print_L3_cache_info</b> ()</td></tr>
 
 </div>
 </div>
-<a id="aa0519119d33c774ff4c10abba6cdcecf" name="aa0519119d33c774ff4c10abba6cdcecf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0519119d33c774ff4c10abba6cdcecf">&#9670;&#160;</a></span>cpuid()</h2>
+<a id="a4711eaebe335499a84e8a42a62117779" name="a4711eaebe335499a84e8a42a62117779"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4711eaebe335499a84e8a42a62117779">&#9670;&#160;</a></span>cpuid()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void cpuid </td>
           <td>(</td>
-          <td class="paramtype">int32</td>          <td class="paramname"><span class="paramname"><em>reg</em></span>, </td>
+          <td class="paramtype">uint32</td>          <td class="paramname"><span class="paramname"><em>reg</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32 *</td>          <td class="paramname"><span class="paramname"><em>eax</em></span>, </td>
+          <td class="paramtype">uint32 *</td>          <td class="paramname"><span class="paramname"><em>eax</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32 *</td>          <td class="paramname"><span class="paramname"><em>ebx</em></span>, </td>
+          <td class="paramtype">uint32 *</td>          <td class="paramname"><span class="paramname"><em>ebx</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32 *</td>          <td class="paramname"><span class="paramname"><em>ecx</em></span>, </td>
+          <td class="paramtype">uint32 *</td>          <td class="paramname"><span class="paramname"><em>ecx</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32 *</td>          <td class="paramname"><span class="paramname"><em>edx</em></span>&#160;)</td>
+          <td class="paramtype">uint32 *</td>          <td class="paramname"><span class="paramname"><em>edx</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Executes the CPUID instruction and retrieves values of the specified registers. </p>
@@ -258,14 +252,11 @@ void&#160;</td><td class="memItemRight"><b>print_L3_cache_info</b> ()</td></tr>
 
 </div>
 </div>
-<a id="ab009ffb3020578bb96000663b00da2d6" name="ab009ffb3020578bb96000663b00da2d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab009ffb3020578bb96000663b00da2d6">&#9670;&#160;</a></span>cpuid_string()</h2>
+<a id="adcbb1a36845f7b30e7a046d112ff4237" name="adcbb1a36845f7b30e7a046d112ff4237"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcbb1a36845f7b30e7a046d112ff4237">&#9670;&#160;</a></span>cpuid_string()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int cpuid_string </td>
@@ -278,11 +269,6 @@ void&#160;</td><td class="memItemRight"><b>print_L3_cache_info</b> ()</td></tr>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>where</em></span>[4]&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Executes the CPUID instruction with the given code and stores the results. </p>
@@ -298,8 +284,8 @@ void&#160;</td><td class="memItemRight"><b>print_L3_cache_info</b> ()</td></tr>
 
 </div>
 </div>
-<a id="a41c5fe3066d69475e8b714ec45bc08ac" name="a41c5fe3066d69475e8b714ec45bc08ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41c5fe3066d69475e8b714ec45bc08ac">&#9670;&#160;</a></span>get_cpu_name()</h2>
+<a id="a08b489c80a7e23dd0bfd0c2372b14b38" name="a08b489c80a7e23dd0bfd0c2372b14b38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08b489c80a7e23dd0bfd0c2372b14b38">&#9670;&#160;</a></span>get_cpu_name()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -307,7 +293,7 @@ void&#160;</td><td class="memItemRight"><b>print_L3_cache_info</b> ()</td></tr>
         <tr>
           <td class="memname">cstring get_cpu_name </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -318,8 +304,8 @@ void&#160;</td><td class="memItemRight"><b>print_L3_cache_info</b> ()</td></tr>
 
 </div>
 </div>
-<a id="aa68c75b575e0b59243263ba2665beff0" name="aa68c75b575e0b59243263ba2665beff0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa68c75b575e0b59243263ba2665beff0">&#9670;&#160;</a></span>get_cpu_vendor()</h2>
+<a id="a58b2644cb0778a3cef264ebe7c24da28" name="a58b2644cb0778a3cef264ebe7c24da28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58b2644cb0778a3cef264ebe7c24da28">&#9670;&#160;</a></span>get_cpu_vendor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -327,7 +313,7 @@ void&#160;</td><td class="memItemRight"><b>print_L3_cache_info</b> ()</td></tr>
         <tr>
           <td class="memname">cstring get_cpu_vendor </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

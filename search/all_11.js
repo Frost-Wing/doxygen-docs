@@ -9,7 +9,7 @@ var searchData=
   ['rb_5fpop_6',['rb_pop',['../ringbuffer_8h.html#a4d28de42ecf23d7e40b3d56e2076f23b',1,'ringbuffer.h']]],
   ['rb_5fpush_7',['rb_push',['../ringbuffer_8h.html#a4bd4ec4bfe4f65572556105c80eef269',1,'ringbuffer.h']]],
   ['rb_5fsize_8',['rb_size',['../ringbuffer_8h.html#a69bd00d201517061bb71880e91295c98',1,'ringbuffer.h']]],
-  ['read_5frtc_5fregister_9',['read_rtc_register',['../rtc_8h.html#afdc1788b05cad808e61cc90e03f0a912',1,'rtc.h']]],
+  ['read_5frtc_5fregister_9',['read_rtc_register',['../rtc_8h.html#a26bfb07acc6c70c774cd1b574838867c',1,'rtc.h']]],
   ['real_20machine_10',['Booting to real machine',['../md_readme.html#autotoc_md10',1,'']]],
   ['recommended_20requirements_20bios_11',['Recommended Requirements (BIOS)',['../md_readme.html#autotoc_md8',1,'']]],
   ['recommended_20requirements_20uefi_12',['Recommended Requirements (UEFI)',['../md_readme.html#autotoc_md9',1,'']]],
@@ -23,5 +23,5 @@ var searchData=
   ['ring_5fbuffer_5ft_20',['ring_buffer_t',['../structring__buffer__t.html',1,'']]],
   ['ringbuffer_2eh_21',['ringbuffer.h',['../ringbuffer_8h.html',1,'']]],
   ['rtc_2eh_22',['rtc.h',['../rtc_8h.html',1,'']]],
-  ['rtc_5fread_5fstable_23',['rtc_read_stable',['../rtc_8h.html#a3cda9dd45f9b67f39fd4f6e5fb83727a',1,'rtc.h']]]
+  ['rtc_5fread_5fstable_23',['rtc_read_stable',['../rtc_8h.html#a795b8b839ef4cabf54b9f2179548301f',1,'rtc.h']]]
 ];

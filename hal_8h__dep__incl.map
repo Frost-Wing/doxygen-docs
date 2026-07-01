@@ -1,17 +1,19 @@
 <map id="source/includes/hal.h" name="source/includes/hal.h">
-<area shape="rect" id="Node000001" title="Header file for Hardware Abstraction Layer &#45;&gt; Source from GoGX OS." alt="" coords="310,5,462,35"/>
+<area shape="rect" id="Node000001" title="Header file for Hardware Abstraction Layer &#45;&gt; Source from GoGX OS." alt="" coords="337,5,489,35"/>
 <area shape="rect" id="Node000002" href="$debugger_8h.html" title="The headers files for E9 hack." alt="" coords="127,83,320,113"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="340,44,255,85,253,80,344,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="361,43,260,85,258,80,366,40"/>
 <area shape="rect" id="Node000003" href="$kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="216,257,391,287"/>
-<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="395,47,403,83,407,125,404,169,390,211,366,239,337,259,335,254,363,235,385,208,398,168,401,125,398,84,393,52"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="417,48,419,85,416,126,407,170,390,211,365,239,334,259,332,254,361,235,385,208,402,168,411,126,414,85,414,53"/>
 <area shape="rect" id="Node000004" href="$pci_8h.html" title="The Header files for actual PCI source." alt="" coords="5,170,157,200"/>
-<area shape="poly" id="edge11_Node000001_Node000004" title=" " alt="" coords="292,34,190,55,146,69,117,85,102,104,92,127,84,170,79,169,87,126,98,102,114,81,144,64,189,50,296,31"/>
+<area shape="poly" id="edge11_Node000001_Node000004" title=" " alt="" coords="319,32,202,53,151,67,117,85,102,104,92,127,84,170,79,169,87,126,98,102,114,81,149,62,201,48,323,29"/>
 <area shape="rect" id="Node000005" href="$ps2-mouse_8h.html" title=" " alt="" coords="232,161,376,209"/>
-<area shape="poly" id="edge13_Node000001_Node000005" title=" " alt="" coords="375,47,318,162,314,158,370,50"/>
+<area shape="poly" id="edge13_Node000001_Node000005" title=" " alt="" coords="398,46,322,162,318,158,393,49"/>
 <area shape="rect" id="Node000006" href="$keyboard_8h.html" title="The PS/2 Keyboard interface code." alt="" coords="451,83,642,113"/>
-<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="430,39,519,82,514,83,430,45"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="452,40,524,82,519,83,451,46"/>
 <area shape="rect" id="Node000008" href="$pit_8h.html" title="Headers for PIT." alt="" coords="666,83,816,113"/>
-<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="468,36,677,82,672,83,468,41"/>
+<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="489,36,682,82,677,83,489,42"/>
+<area shape="rect" id="Node000009" href="$rtc_8h.html" title="The Real Time Clock (RTC) code header." alt="" coords="840,83,991,113"/>
+<area shape="poly" id="edge14_Node000001_Node000009" title=" " alt="" coords="505,32,828,80,842,85,837,85,827,86,505,38"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="217,126,213,168,215,189,222,208,244,235,274,257,269,256,241,239,217,211,210,190,208,168,214,130"/>
 <area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="185,123,106,172,103,168,189,119"/>
 <area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="248,121,284,160,279,160,247,127"/>

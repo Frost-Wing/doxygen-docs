@@ -135,15 +135,15 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:afe329a1445522ad4d2b7f1ee45db828f" id="r_afe329a1445522ad4d2b7f1ee45db828f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afe329a1445522ad4d2b7f1ee45db828f">mm_init</a> (uintptr_t kernel_end, int64 heap_size)</td></tr>
-<tr class="memdesc:afe329a1445522ad4d2b7f1ee45db828f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to initlialize heap.  <br /></td></tr>
+<tr class="memitem:af2bb9246f82f3d83166eb6e4114850f1" id="r_af2bb9246f82f3d83166eb6e4114850f1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af2bb9246f82f3d83166eb6e4114850f1">mm_init</a> (uintptr_t kernel_end, uint64 heap_size)</td></tr>
+<tr class="memdesc:af2bb9246f82f3d83166eb6e4114850f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to initlialize heap.  <br /></td></tr>
 <tr class="memitem:a89e426eee07ea2c83d15eed4cccd5ae2" id="r_a89e426eee07ea2c83d15eed4cccd5ae2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a89e426eee07ea2c83d15eed4cccd5ae2">mm_extend</a> (uint64_t additional_size)</td></tr>
 <tr class="memdesc:a89e426eee07ea2c83d15eed4cccd5ae2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to extend available heap.  <br /></td></tr>
 <tr class="memitem:a0475e3c1149b04e16b34120cf601d817" id="r_a0475e3c1149b04e16b34120cf601d817"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0475e3c1149b04e16b34120cf601d817">mm_constrict</a> (uint64_t removal_size)</td></tr>
 <tr class="memdesc:a0475e3c1149b04e16b34120cf601d817"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to constrict available heap.  <br /></td></tr>
-<tr class="memitem:a83aeab638a344db4dab5365af80ca8d5" id="r_a83aeab638a344db4dab5365af80ca8d5"><td class="memItemLeft"><a id="a83aeab638a344db4dab5365af80ca8d5" name="a83aeab638a344db4dab5365af80ca8d5"></a>
-void&#160;</td><td class="memItemRight"><b>mm_print_out</b> ()</td></tr>
-<tr class="memdesc:a83aeab638a344db4dab5365af80ca8d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints out heap information. <br /></td></tr>
+<tr class="memitem:aef62d80d2880d93414c00181d22615ab" id="r_aef62d80d2880d93414c00181d22615ab"><td class="memItemLeft"><a id="aef62d80d2880d93414c00181d22615ab" name="aef62d80d2880d93414c00181d22615ab"></a>
+void&#160;</td><td class="memItemRight"><b>mm_print_out</b> (void)</td></tr>
+<tr class="memdesc:aef62d80d2880d93414c00181d22615ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints out heap information. <br /></td></tr>
 <tr class="memitem:a87d8585002a620e687d68b38ab387a0e" id="r_a87d8585002a620e687d68b38ab387a0e"><td class="memItemLeft">void *&#160;</td><td class="memItemRight"><a class="el" href="#a87d8585002a620e687d68b38ab387a0e">kmalloc</a> (size_t size)</td></tr>
 <tr class="memdesc:a87d8585002a620e687d68b38ab387a0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The main memory alloc function.  <br /></td></tr>
 <tr class="memitem:ad937a677645b4ed5b1e0411456d8285b" id="r_ad937a677645b4ed5b1e0411456d8285b"><td class="memItemLeft">void *&#160;</td><td class="memItemRight"><a class="el" href="#ad937a677645b4ed5b1e0411456d8285b">krealloc</a> (void *ptr, size_t size)</td></tr>
@@ -374,8 +374,8 @@ uint64_t&#160;</td><td class="memItemRight"><b>memory_used</b></td></tr>
 
 </div>
 </div>
-<a id="afe329a1445522ad4d2b7f1ee45db828f" name="afe329a1445522ad4d2b7f1ee45db828f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe329a1445522ad4d2b7f1ee45db828f">&#9670;&#160;</a></span>mm_init()</h2>
+<a id="af2bb9246f82f3d83166eb6e4114850f1" name="af2bb9246f82f3d83166eb6e4114850f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2bb9246f82f3d83166eb6e4114850f1">&#9670;&#160;</a></span>mm_init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -391,7 +391,7 @@ uint64_t&#160;</td><td class="memItemRight"><b>memory_used</b></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int64</td>          <td class="paramname"><span class="paramname"><em>heap_size</em></span>&#160;)</td>
+          <td class="paramtype">uint64</td>          <td class="paramname"><span class="paramname"><em>heap_size</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

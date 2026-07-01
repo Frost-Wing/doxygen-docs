@@ -141,10 +141,10 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:acf9a06b2baa47d7a8e7427f114a3c605" id="r_acf9a06b2baa47d7a8e7427f114a3c605"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#acf9a06b2baa47d7a8e7427f114a3c605">parse_vendor</a> (int16 vendor)</td></tr>
-<tr class="memdesc:acf9a06b2baa47d7a8e7427f114a3c605"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the vendor id and gives the appropriate name.  <br /></td></tr>
-<tr class="memitem:a2ef1035dfed9b3bebb7bcff54e9c8855" id="r_a2ef1035dfed9b3bebb7bcff54e9c8855"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#a2ef1035dfed9b3bebb7bcff54e9c8855">parse_class</a> (int16 classid)</td></tr>
-<tr class="memdesc:a2ef1035dfed9b3bebb7bcff54e9c8855"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the class id and gives the appropriate class name.  <br /></td></tr>
+<tr class="memitem:a05acdff8d41c26d6147ea2bfa06339bb" id="r_a05acdff8d41c26d6147ea2bfa06339bb"><td class="memItemLeft">cstring&#160;</td><td class="memItemRight"><a class="el" href="#a05acdff8d41c26d6147ea2bfa06339bb">parse_vendor</a> (uint16 vendor)</td></tr>
+<tr class="memdesc:a05acdff8d41c26d6147ea2bfa06339bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the vendor id and gives the appropriate name.  <br /></td></tr>
+<tr class="memitem:adc16c567e438934818b01867cae28d50" id="r_adc16c567e438934818b01867cae28d50"><td class="memItemLeft">cstring&#160;</td><td class="memItemRight"><a class="el" href="#adc16c567e438934818b01867cae28d50">parse_class</a> (uint16 classid)</td></tr>
+<tr class="memdesc:adc16c567e438934818b01867cae28d50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the class id and gives the appropriate class name.  <br /></td></tr>
 <tr class="memitem:a7c86733747710a1a05bd66838a0ddc7b" id="r_a7c86733747710a1a05bd66838a0ddc7b"><td class="memItemLeft">const <a class="el" href="structpci__id__entry__t.html">pci_id_entry_t</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a7c86733747710a1a05bd66838a0ddc7b">pci_lookup</a> (uint16_t vendor, uint16_t device, uint8_t classid)</td></tr>
 <tr class="memdesc:a7c86733747710a1a05bd66838a0ddc7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Simplified and clean PCI lookup function.  <br /></td></tr>
 <tr class="memitem:a87f568896ae4ab372320d11e29980698" id="r_a87f568896ae4ab372320d11e29980698"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a87f568896ae4ab372320d11e29980698">probe_ahci</a> (uint8_t bus, uint8_t slot, uint8_t function)</td></tr>
@@ -228,16 +228,16 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2ef1035dfed9b3bebb7bcff54e9c8855" name="a2ef1035dfed9b3bebb7bcff54e9c8855"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ef1035dfed9b3bebb7bcff54e9c8855">&#9670;&#160;</a></span>parse_class()</h2>
+<a id="adc16c567e438934818b01867cae28d50" name="adc16c567e438934818b01867cae28d50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc16c567e438934818b01867cae28d50">&#9670;&#160;</a></span>parse_class()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string parse_class </td>
+          <td class="memname">cstring parse_class </td>
           <td>(</td>
-          <td class="paramtype">int16</td>          <td class="paramname"><span class="paramname"><em>classid</em></span></td><td>)</td>
+          <td class="paramtype">uint16</td>          <td class="paramname"><span class="paramname"><em>classid</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -254,16 +254,16 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="acf9a06b2baa47d7a8e7427f114a3c605" name="acf9a06b2baa47d7a8e7427f114a3c605"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf9a06b2baa47d7a8e7427f114a3c605">&#9670;&#160;</a></span>parse_vendor()</h2>
+<a id="a05acdff8d41c26d6147ea2bfa06339bb" name="a05acdff8d41c26d6147ea2bfa06339bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05acdff8d41c26d6147ea2bfa06339bb">&#9670;&#160;</a></span>parse_vendor()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string parse_vendor </td>
+          <td class="memname">cstring parse_vendor </td>
           <td>(</td>
-          <td class="paramtype">int16</td>          <td class="paramname"><span class="paramname"><em>vendor</em></span></td><td>)</td>
+          <td class="paramtype">uint16</td>          <td class="paramname"><span class="paramname"><em>vendor</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

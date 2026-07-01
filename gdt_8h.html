@@ -136,13 +136,13 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ae21df847b32e33e64ba0912dd628e610" id="r_ae21df847b32e33e64ba0912dd628e610"><td class="memItemLeft">struct <a class="el" href="structgdt__entry.html">gdt_entry</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae21df847b32e33e64ba0912dd628e610">__attribute__</a> ((packed))</td></tr>
 <tr class="memdesc:ae21df847b32e33e64ba0912dd628e610"><td class="mdescLeft">&#160;</td><td class="mdescRight">AHCI command header structure.  <br /></td></tr>
-<tr class="memitem:a78d5e0c58ba2af554fe2582240b41186" id="r_a78d5e0c58ba2af554fe2582240b41186"><td class="memItemLeft"><a id="a78d5e0c58ba2af554fe2582240b41186" name="a78d5e0c58ba2af554fe2582240b41186"></a>
-void&#160;</td><td class="memItemRight"><b>setup_gdt</b> ()</td></tr>
-<tr class="memdesc:a78d5e0c58ba2af554fe2582240b41186"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the up GDT for the entire OS. <br /></td></tr>
+<tr class="memitem:a1dee95fcf5b686585b942ed28875b442" id="r_a1dee95fcf5b686585b942ed28875b442"><td class="memItemLeft"><a id="a1dee95fcf5b686585b942ed28875b442" name="a1dee95fcf5b686585b942ed28875b442"></a>
+void&#160;</td><td class="memItemRight"><b>setup_gdt</b> (void)</td></tr>
+<tr class="memdesc:a1dee95fcf5b686585b942ed28875b442"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the up GDT for the entire OS. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ae3ddd3a17c54770b0da9d086ba99e5ed" id="r_ae3ddd3a17c54770b0da9d086ba99e5ed"><td class="memItemLeft">int16&#160;</td><td class="memItemRight"><a class="el" href="#ae3ddd3a17c54770b0da9d086ba99e5ed">limit_low</a></td></tr>
+<tr class="memitem:a4d6e168a632228263bf875b4fd20062a" id="r_a4d6e168a632228263bf875b4fd20062a"><td class="memItemLeft">uint16&#160;</td><td class="memItemRight"><a class="el" href="#a4d6e168a632228263bf875b4fd20062a">limit_low</a></td></tr>
 <tr class="memitem:a71e21ea67de59991e9a27666a1752a8f" id="r_a71e21ea67de59991e9a27666a1752a8f"><td class="memItemLeft">uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a71e21ea67de59991e9a27666a1752a8f">base_low</a></td></tr>
 <tr class="memitem:a6b67e86f6de9204d76adab79069aec29" id="r_a6b67e86f6de9204d76adab79069aec29"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#a6b67e86f6de9204d76adab79069aec29">base_middle</a></td></tr>
 <tr class="memitem:a8b0d6200bc639dd37ff68847a0adde5f" id="r_a8b0d6200bc639dd37ff68847a0adde5f"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#a8b0d6200bc639dd37ff68847a0adde5f">access</a></td></tr>
@@ -302,14 +302,14 @@ struct <a class="el" href="structgdt__ptr.html">gdt_ptr</a>&#160;</td><td class=
 
 </div>
 </div>
-<a id="ae3ddd3a17c54770b0da9d086ba99e5ed" name="ae3ddd3a17c54770b0da9d086ba99e5ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3ddd3a17c54770b0da9d086ba99e5ed">&#9670;&#160;</a></span>limit_low</h2>
+<a id="a4d6e168a632228263bf875b4fd20062a" name="a4d6e168a632228263bf875b4fd20062a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d6e168a632228263bf875b4fd20062a">&#9670;&#160;</a></span>limit_low</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int16 limit_low</td>
+          <td class="memname">uint16 limit_low</td>
         </tr>
       </table>
 </div><div class="memdoc">

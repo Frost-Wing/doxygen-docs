@@ -7,7 +7,7 @@ var searchData=
   ['old_5fcursor_5fy_4',['old_cursor_y',['../structflanterm__fb__context.html#a8eafdfeed1656e8df36721e79166dd31',1,'flanterm_fb_context']]],
   ['op_5ft_5',['op_t',['../sh__util_8h.html#ac6fa1b34da8872e34c2936391332f44c',1,'sh_util.h']]],
   ['operating_20system_6',['FrostWing Operating System',['../md_readme.html',1,'']]],
-  ['outb_7',['outb',['../hal_8h.html#a01b3ad1397905fa9db2c57bbbbf9b22c',1,'hal.h']]],
-  ['outl_8',['outl',['../hal_8h.html#ab49f40a6955511c64483feb0f806edf3',1,'hal.h']]],
-  ['outw_9',['outw',['../hal_8h.html#accde7e618c58efdc5b465c083341846f',1,'hal.h']]]
+  ['outb_7',['outb',['../hal_8h.html#ab66218b0d63b41250d65dd4164f51eb5',1,'hal.h']]],
+  ['outl_8',['outl',['../hal_8h.html#a4642b2a76fd515432b7d88f5d147236c',1,'hal.h']]],
+  ['outw_9',['outw',['../hal_8h.html#a3d2dcba8d72a31e25affa8646652de78',1,'hal.h']]]
 ];

@@ -1,12 +1,12 @@
 var cpuid2_8h =
 [
-    [ "cpu_string", "cpuid2_8h.html#aef2c86bf61880c1c228b14c4702cc340", null ],
-    [ "cpuid", "cpuid2_8h.html#aa0519119d33c774ff4c10abba6cdcecf", null ],
-    [ "cpuid_string", "cpuid2_8h.html#ab009ffb3020578bb96000663b00da2d6", null ],
-    [ "get_cpu_name", "cpuid2_8h.html#a41c5fe3066d69475e8b714ec45bc08ac", null ],
-    [ "get_cpu_vendor", "cpuid2_8h.html#aa68c75b575e0b59243263ba2665beff0", null ],
-    [ "print_cpu_info", "cpuid2_8h.html#a823bff2120fee3abcbe0f103b8162d45", null ],
-    [ "print_L1_cache_info", "cpuid2_8h.html#a5928988067dbfed760bba7d32f1e406c", null ],
-    [ "print_L2_cache_info", "cpuid2_8h.html#a6e19b2c23ab3e776a7f5ba25e9d3b478", null ],
-    [ "print_L3_cache_info", "cpuid2_8h.html#a40a19e00db405010fed0c5b81be20363", null ]
+    [ "cpu_string", "cpuid2_8h.html#a742935cbd6550cd39accc4ea0e18f373", null ],
+    [ "cpuid", "cpuid2_8h.html#a4711eaebe335499a84e8a42a62117779", null ],
+    [ "cpuid_string", "cpuid2_8h.html#adcbb1a36845f7b30e7a046d112ff4237", null ],
+    [ "get_cpu_name", "cpuid2_8h.html#a08b489c80a7e23dd0bfd0c2372b14b38", null ],
+    [ "get_cpu_vendor", "cpuid2_8h.html#a58b2644cb0778a3cef264ebe7c24da28", null ],
+    [ "print_cpu_info", "cpuid2_8h.html#a538a4414821926cda2c9e989764c00fd", null ],
+    [ "print_L1_cache_info", "cpuid2_8h.html#a88c4e1cd33f087fe00fc07254ab08723", null ],
+    [ "print_L2_cache_info", "cpuid2_8h.html#a838a92f8c6f368f4f38f01495998e5dc", null ],
+    [ "print_L3_cache_info", "cpuid2_8h.html#a6f9083d2e3f4b9095b1a485ef3f50bd5", null ]
 ];

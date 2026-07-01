@@ -314,29 +314,33 @@ Macros</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a6288eba0f8e8ad3ab1544ad731eb7667" id="r_a6288eba0f8e8ad3ab1544ad731eb7667"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6288eba0f8e8ad3ab1544ad731eb7667">main</a> (void)</td></tr>
 <tr class="memdesc:a6288eba0f8e8ad3ab1544ad731eb7667"><td class="mdescLeft">&#160;</td><td class="mdescRight">The main kernel function.  <br /></td></tr>
+<tr class="memitem:a1c9d5e29ad8899afe0c34571ddee18f9" id="r_a1c9d5e29ad8899afe0c34571ddee18f9"><td class="memItemLeft"><a id="a1c9d5e29ad8899afe0c34571ddee18f9" name="a1c9d5e29ad8899afe0c34571ddee18f9"></a>
+void&#160;</td><td class="memItemRight"><b>shutdown</b> (void)</td></tr>
+<tr class="memitem:a903274fb3724f4532615fb8b4f5ddd96" id="r_a903274fb3724f4532615fb8b4f5ddd96"><td class="memItemLeft"><a id="a903274fb3724f4532615fb8b4f5ddd96" name="a903274fb3724f4532615fb8b4f5ddd96"></a>
+void&#160;</td><td class="memItemRight"><b>reboot</b> (void)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a55eeb78421932f1fed63e6cf11cacec8" id="r_a55eeb78421932f1fed63e6cf11cacec8"><td class="memItemLeft"><a id="a55eeb78421932f1fed63e6cf11cacec8" name="a55eeb78421932f1fed63e6cf11cacec8"></a>
-int8&#160;</td><td class="memItemRight"><b>kstart</b> []</td></tr>
-<tr class="memdesc:a55eeb78421932f1fed63e6cf11cacec8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The memory address where the kernel starts. <br /></td></tr>
-<tr class="memitem:ab30054572a8c6c369047fd7c7e7dde46" id="r_ab30054572a8c6c369047fd7c7e7dde46"><td class="memItemLeft"><a id="ab30054572a8c6c369047fd7c7e7dde46" name="ab30054572a8c6c369047fd7c7e7dde46"></a>
-int8&#160;</td><td class="memItemRight"><b>kend</b> []</td></tr>
-<tr class="memdesc:ab30054572a8c6c369047fd7c7e7dde46"><td class="mdescLeft">&#160;</td><td class="mdescRight">The memory address where the kernel ends. <br /></td></tr>
+<tr class="memitem:afd11c7d481b3efd00670117b90a0048c" id="r_afd11c7d481b3efd00670117b90a0048c"><td class="memItemLeft"><a id="afd11c7d481b3efd00670117b90a0048c" name="afd11c7d481b3efd00670117b90a0048c"></a>
+uint8&#160;</td><td class="memItemRight"><b>kstart</b> []</td></tr>
+<tr class="memdesc:afd11c7d481b3efd00670117b90a0048c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The memory address where the kernel starts. <br /></td></tr>
+<tr class="memitem:ac7afc515f80b9f8bf0921f718ba4c864" id="r_ac7afc515f80b9f8bf0921f718ba4c864"><td class="memItemLeft"><a id="ac7afc515f80b9f8bf0921f718ba4c864" name="ac7afc515f80b9f8bf0921f718ba4c864"></a>
+uint8&#160;</td><td class="memItemRight"><b>kend</b> []</td></tr>
+<tr class="memdesc:ac7afc515f80b9f8bf0921f718ba4c864"><td class="mdescLeft">&#160;</td><td class="mdescRight">The memory address where the kernel ends. <br /></td></tr>
 <tr class="memitem:a8969d23cf51c65e739ad4a2e00d09edb" id="r_a8969d23cf51c65e739ad4a2e00d09edb"><td class="memItemLeft"><a id="a8969d23cf51c65e739ad4a2e00d09edb" name="a8969d23cf51c65e739ad4a2e00d09edb"></a>
 int&#160;</td><td class="memItemRight"><b>terminal_rows</b></td></tr>
 <tr class="memdesc:a8969d23cf51c65e739ad4a2e00d09edb"><td class="mdescLeft">&#160;</td><td class="mdescRight">An integer value which stores terminal's rows. <br /></td></tr>
 <tr class="memitem:a9255c961157d6be5e225e3b55ed234b0" id="r_a9255c961157d6be5e225e3b55ed234b0"><td class="memItemLeft"><a id="a9255c961157d6be5e225e3b55ed234b0" name="a9255c961157d6be5e225e3b55ed234b0"></a>
 int&#160;</td><td class="memItemRight"><b>terminal_columns</b></td></tr>
 <tr class="memdesc:a9255c961157d6be5e225e3b55ed234b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">An integer value which stores terminal's columns. <br /></td></tr>
-<tr class="memitem:a571fa6dfd4542147e49b522157272e88" id="r_a571fa6dfd4542147e49b522157272e88"><td class="memItemLeft"><a id="a571fa6dfd4542147e49b522157272e88" name="a571fa6dfd4542147e49b522157272e88"></a>
-int64&#160;</td><td class="memItemRight"><b>fb_width</b></td></tr>
-<tr class="memdesc:a571fa6dfd4542147e49b522157272e88"><td class="mdescLeft">&#160;</td><td class="mdescRight">An integer value which stores the framebuffer's (display) width. <br /></td></tr>
-<tr class="memitem:ad21bc479a62f49bd2095109c52d725e4" id="r_ad21bc479a62f49bd2095109c52d725e4"><td class="memItemLeft"><a id="ad21bc479a62f49bd2095109c52d725e4" name="ad21bc479a62f49bd2095109c52d725e4"></a>
-int64&#160;</td><td class="memItemRight"><b>fb_height</b></td></tr>
-<tr class="memdesc:ad21bc479a62f49bd2095109c52d725e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">An integer value which stores the framebuffer's (display) height. <br /></td></tr>
-<tr class="memitem:a001020a54805617e7d3b6eb91083a5ff" id="r_a001020a54805617e7d3b6eb91083a5ff"><td class="memItemLeft"><a id="a001020a54805617e7d3b6eb91083a5ff" name="a001020a54805617e7d3b6eb91083a5ff"></a>
-int64 *&#160;</td><td class="memItemRight"><b>wm_addr</b></td></tr>
+<tr class="memitem:af4082d66d8ebcaa4c121270986d001bd" id="r_af4082d66d8ebcaa4c121270986d001bd"><td class="memItemLeft"><a id="af4082d66d8ebcaa4c121270986d001bd" name="af4082d66d8ebcaa4c121270986d001bd"></a>
+uint64&#160;</td><td class="memItemRight"><b>fb_width</b></td></tr>
+<tr class="memdesc:af4082d66d8ebcaa4c121270986d001bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">An integer value which stores the framebuffer's (display) width. <br /></td></tr>
+<tr class="memitem:a8c8a854a6a141ad8599fb3f70cfa8ad5" id="r_a8c8a854a6a141ad8599fb3f70cfa8ad5"><td class="memItemLeft"><a id="a8c8a854a6a141ad8599fb3f70cfa8ad5" name="a8c8a854a6a141ad8599fb3f70cfa8ad5"></a>
+uint64&#160;</td><td class="memItemRight"><b>fb_height</b></td></tr>
+<tr class="memdesc:a8c8a854a6a141ad8599fb3f70cfa8ad5"><td class="mdescLeft">&#160;</td><td class="mdescRight">An integer value which stores the framebuffer's (display) height. <br /></td></tr>
+<tr class="memitem:ad281d625bfbe2859d24a9637a5451c06" id="r_ad281d625bfbe2859d24a9637a5451c06"><td class="memItemLeft"><a id="ad281d625bfbe2859d24a9637a5451c06" name="ad281d625bfbe2859d24a9637a5451c06"></a>
+uint64 *&#160;</td><td class="memItemRight"><b>wm_addr</b></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The basic requirement from kernel to other parts of the code. </p>

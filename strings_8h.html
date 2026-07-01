@@ -186,8 +186,8 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac6d183e349bdef49d19172cdc8944604" id="r_ac6d183e349bdef49d19172cdc8944604"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ac6d183e349bdef49d19172cdc8944604">strlen</a> (char s[])</td></tr>
-<tr class="memdesc:ac6d183e349bdef49d19172cdc8944604"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the length of a null-terminated string.  <br /></td></tr>
+<tr class="memitem:aac566ab31a68561394a5c842d3e0d233" id="r_aac566ab31a68561394a5c842d3e0d233"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#aac566ab31a68561394a5c842d3e0d233">strlen</a> (cstring s)</td></tr>
+<tr class="memdesc:aac566ab31a68561394a5c842d3e0d233"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the length of a null-terminated string.  <br /></td></tr>
 <tr class="memitem:a2b38094492e1c21bba621794841a075a" id="r_a2b38094492e1c21bba621794841a075a"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#a2b38094492e1c21bba621794841a075a">strcpy</a> (string dest, cstring src)</td></tr>
 <tr class="memdesc:a2b38094492e1c21bba621794841a075a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a string from <span class="tt">src</span> to <span class="tt">dest</span>.  <br /></td></tr>
 <tr class="memitem:a65fdc17be44d37786f4e3f831dc9f958" id="r_a65fdc17be44d37786f4e3f831dc9f958"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#a65fdc17be44d37786f4e3f831dc9f958">strncpy</a> (string dest, cstring src, size_t n)</td></tr>
@@ -222,6 +222,10 @@ Functions</h2></td></tr>
 char *&#160;</td><td class="memItemRight"><b>trim_inplace</b> (char *s)</td></tr>
 <tr class="memitem:af87bb1cdc3d71abcd9aa0bd6d36e50a8" id="r_af87bb1cdc3d71abcd9aa0bd6d36e50a8"><td class="memItemLeft"><a id="af87bb1cdc3d71abcd9aa0bd6d36e50a8" name="af87bb1cdc3d71abcd9aa0bd6d36e50a8"></a>
 char *&#160;</td><td class="memItemRight"><b>strrchr</b> (const char *s, int c)</td></tr>
+<tr class="memitem:ad593a8fc0baab9427df9636001dccddd" id="r_ad593a8fc0baab9427df9636001dccddd"><td class="memItemLeft"><a id="ad593a8fc0baab9427df9636001dccddd" name="ad593a8fc0baab9427df9636001dccddd"></a>
+char *&#160;</td><td class="memItemRight"><b>strdup</b> (const char *str)</td></tr>
+<tr class="memitem:a881f898c5a2f8a6c8878103b739c73b6" id="r_a881f898c5a2f8a6c8878103b739c73b6"><td class="memItemLeft"><a id="a881f898c5a2f8a6c8878103b739c73b6" name="a881f898c5a2f8a6c8878103b739c73b6"></a>
+int&#160;</td><td class="memItemRight"><b>itoa</b> (int num, string str, int len, int base)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The header file for strings.c. </p>
@@ -587,8 +591,8 @@ char *&#160;</td><td class="memItemRight"><b>strrchr</b> (const char *s, int c)<
 
 </div>
 </div>
-<a id="ac6d183e349bdef49d19172cdc8944604" name="ac6d183e349bdef49d19172cdc8944604"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6d183e349bdef49d19172cdc8944604">&#9670;&#160;</a></span>strlen()</h2>
+<a id="aac566ab31a68561394a5c842d3e0d233" name="aac566ab31a68561394a5c842d3e0d233"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac566ab31a68561394a5c842d3e0d233">&#9670;&#160;</a></span>strlen()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -596,7 +600,7 @@ char *&#160;</td><td class="memItemRight"><b>strrchr</b> (const char *s, int c)<
         <tr>
           <td class="memname">int strlen </td>
           <td>(</td>
-          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>s</em></span>[]</td><td>)</td>
+          <td class="paramtype">cstring</td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -714,7 +718,6 @@ char *&#160;</td><td class="memItemRight"><b>strrchr</b> (const char *s, int c)<
 </div><div class="memdoc">
 
 <p>Converts a string to a long integer. </p>
-<p>/** </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">str</td><td>The input string to be converted. </td></tr>

@@ -106,10 +106,10 @@ Collaboration diagram for general_partition_t:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a3ad1c0b8e16087843f430730796cc286" id="r_a3ad1c0b8e16087843f430730796cc286"><td class="memItemLeft">partition_table_type_t&#160;</td><td class="memItemRight"><a class="el" href="#a3ad1c0b8e16087843f430730796cc286">table_type</a></td></tr>
-<tr class="memitem:ab65a77d0b41e4a2184a5ca7a282cfbeb" id="r_ab65a77d0b41e4a2184a5ca7a282cfbeb"><td class="memItemLeft">int64&#160;</td><td class="memItemRight"><a class="el" href="#ab65a77d0b41e4a2184a5ca7a282cfbeb">lba_start</a></td></tr>
-<tr class="memitem:addbde0d774ef361c4caff795b060d7f6" id="r_addbde0d774ef361c4caff795b060d7f6"><td class="memItemLeft">int64&#160;</td><td class="memItemRight"><a class="el" href="#addbde0d774ef361c4caff795b060d7f6">lba_end</a></td></tr>
-<tr class="memitem:a5c99a17134b94a0a376bc8f5b8f2d6ba" id="r_a5c99a17134b94a0a376bc8f5b8f2d6ba"><td class="memItemLeft">int64&#160;</td><td class="memItemRight"><a class="el" href="#a5c99a17134b94a0a376bc8f5b8f2d6ba">sector_count</a></td></tr>
-<tr class="memitem:a470b82ebfa1c6ee49e5fe20c992cd66a" id="r_a470b82ebfa1c6ee49e5fe20c992cd66a"><td class="memItemLeft">int64&#160;</td><td class="memItemRight"><a class="el" href="#a470b82ebfa1c6ee49e5fe20c992cd66a">ahci_port</a></td></tr>
+<tr class="memitem:a930ef82d0dcc213983ff6645be3908f0" id="r_a930ef82d0dcc213983ff6645be3908f0"><td class="memItemLeft">uint64&#160;</td><td class="memItemRight"><a class="el" href="#a930ef82d0dcc213983ff6645be3908f0">lba_start</a></td></tr>
+<tr class="memitem:a20d1603f3ddc0ee9a54ad625e6f7c841" id="r_a20d1603f3ddc0ee9a54ad625e6f7c841"><td class="memItemLeft">uint64&#160;</td><td class="memItemRight"><a class="el" href="#a20d1603f3ddc0ee9a54ad625e6f7c841">lba_end</a></td></tr>
+<tr class="memitem:a3d95c1079032d9931f3a702f724de2e5" id="r_a3d95c1079032d9931f3a702f724de2e5"><td class="memItemLeft">uint64&#160;</td><td class="memItemRight"><a class="el" href="#a3d95c1079032d9931f3a702f724de2e5">sector_count</a></td></tr>
+<tr class="memitem:ab24ece5177333acfacee52a09a2b219c" id="r_ab24ece5177333acfacee52a09a2b219c"><td class="memItemLeft">uint64&#160;</td><td class="memItemRight"><a class="el" href="#ab24ece5177333acfacee52a09a2b219c">ahci_port</a></td></tr>
 <tr class="memitem:a51189ea30e9dd6cdea554ef58d2c50f7" id="r_a51189ea30e9dd6cdea554ef58d2c50f7"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a51189ea30e9dd6cdea554ef58d2c50f7">bootable</a></td></tr>
 <tr class="memitem:ac611fc0bf056d4e31870fce807470b9b" id="r_ac611fc0bf056d4e31870fce807470b9b"><td class="memItemLeft"><a class="el" href="ahci_8h.html#a20238d8d8d21d3216676cbd1f813b8fd">partition_fs_type_t</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac611fc0bf056d4e31870fce807470b9b">fs_type</a></td></tr>
 <tr class="memitem:"><td class="memItemLeft anon"><a id="a078396de9addf2290bdb9957f6f68025" name="a078396de9addf2290bdb9957f6f68025"></a>
@@ -123,14 +123,14 @@ union {&#160;</td><td class="memItemRight"></td></tr>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="ahci_8h_source.html#l00195">195</a> of file <a class="el" href="ahci_8h_source.html">ahci.h</a>.</p>
 </div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a470b82ebfa1c6ee49e5fe20c992cd66a" name="a470b82ebfa1c6ee49e5fe20c992cd66a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a470b82ebfa1c6ee49e5fe20c992cd66a">&#9670;&#160;</a></span>ahci_port</h2>
+<a id="ab24ece5177333acfacee52a09a2b219c" name="ab24ece5177333acfacee52a09a2b219c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab24ece5177333acfacee52a09a2b219c">&#9670;&#160;</a></span>ahci_port</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int64 general_partition_t::ahci_port</td>
+          <td class="memname">uint64 general_partition_t::ahci_port</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -187,14 +187,14 @@ union {&#160;</td><td class="memItemRight"></td></tr>
 
 </div>
 </div>
-<a id="addbde0d774ef361c4caff795b060d7f6" name="addbde0d774ef361c4caff795b060d7f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addbde0d774ef361c4caff795b060d7f6">&#9670;&#160;</a></span>lba_end</h2>
+<a id="a20d1603f3ddc0ee9a54ad625e6f7c841" name="a20d1603f3ddc0ee9a54ad625e6f7c841"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20d1603f3ddc0ee9a54ad625e6f7c841">&#9670;&#160;</a></span>lba_end</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int64 general_partition_t::lba_end</td>
+          <td class="memname">uint64 general_partition_t::lba_end</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -203,14 +203,14 @@ union {&#160;</td><td class="memItemRight"></td></tr>
 
 </div>
 </div>
-<a id="ab65a77d0b41e4a2184a5ca7a282cfbeb" name="ab65a77d0b41e4a2184a5ca7a282cfbeb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab65a77d0b41e4a2184a5ca7a282cfbeb">&#9670;&#160;</a></span>lba_start</h2>
+<a id="a930ef82d0dcc213983ff6645be3908f0" name="a930ef82d0dcc213983ff6645be3908f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a930ef82d0dcc213983ff6645be3908f0">&#9670;&#160;</a></span>lba_start</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int64 general_partition_t::lba_start</td>
+          <td class="memname">uint64 general_partition_t::lba_start</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -251,14 +251,14 @@ union {&#160;</td><td class="memItemRight"></td></tr>
 
 </div>
 </div>
-<a id="a5c99a17134b94a0a376bc8f5b8f2d6ba" name="a5c99a17134b94a0a376bc8f5b8f2d6ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c99a17134b94a0a376bc8f5b8f2d6ba">&#9670;&#160;</a></span>sector_count</h2>
+<a id="a3d95c1079032d9931f3a702f724de2e5" name="a3d95c1079032d9931f3a702f724de2e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d95c1079032d9931f3a702f724de2e5">&#9670;&#160;</a></span>sector_count</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int64 general_partition_t::sector_count</td>
+          <td class="memname">uint64 general_partition_t::sector_count</td>
         </tr>
       </table>
 </div><div class="memdoc">

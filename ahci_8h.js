@@ -7,6 +7,7 @@ var ahci_8h =
     [ "block_device_info_t", "structblock__device__info__t.html", null ],
     [ "general_partition_t", "structgeneral__partition__t.html", null ],
     [ "mount_entry", "structmount__entry.html", null ],
+    [ "sata_disk", "ahci_8h.html#af92c8966b008b1e162a5065b85ae735a", null ],
     [ "partition_fs_type_t", "ahci_8h.html#a20238d8d8d21d3216676cbd1f813b8fd", null ],
     [ "__attribute__", "ahci_8h.html#ab898071398b359603a35c202e9c65f3b", null ],
     [ "detect_ahci_devices", "ahci_8h.html#a3d8edb722bb4541ba1e22481323d64c7", null ],

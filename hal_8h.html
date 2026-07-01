@@ -119,19 +119,21 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="hal_8h__dep__incl.png" border="0" usemap="#asource_2includes_2hal_8hdep" loading="lazy" alt=""/></div>
 <map name="asource_2includes_2hal_8hdep" id="asource_2includes_2hal_8hdep">
-<area shape="rect" title="Header file for Hardware Abstraction Layer &#45;&gt; Source from GoGX OS." alt="" coords="310,5,462,35"/>
+<area shape="rect" title="Header file for Hardware Abstraction Layer &#45;&gt; Source from GoGX OS." alt="" coords="337,5,489,35"/>
 <area shape="rect" href="debugger_8h.html" title="The headers files for E9 hack." alt="" coords="127,83,320,113"/>
-<area shape="poly" title=" " alt="" coords="340,44,255,85,253,80,344,40"/>
+<area shape="poly" title=" " alt="" coords="361,43,260,85,258,80,366,40"/>
 <area shape="rect" href="kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="216,257,391,287"/>
-<area shape="poly" title=" " alt="" coords="395,47,403,83,407,125,404,169,390,211,366,239,337,259,335,254,363,235,385,208,398,168,401,125,398,84,393,52"/>
+<area shape="poly" title=" " alt="" coords="417,48,419,85,416,126,407,170,390,211,365,239,334,259,332,254,361,235,385,208,402,168,411,126,414,85,414,53"/>
 <area shape="rect" href="pci_8h.html" title="The Header files for actual PCI source." alt="" coords="5,170,157,200"/>
-<area shape="poly" title=" " alt="" coords="292,34,190,55,146,69,117,85,102,104,92,127,84,170,79,169,87,126,98,102,114,81,144,64,189,50,296,31"/>
+<area shape="poly" title=" " alt="" coords="319,32,202,53,151,67,117,85,102,104,92,127,84,170,79,169,87,126,98,102,114,81,149,62,201,48,323,29"/>
 <area shape="rect" href="ps2-mouse_8h.html" title=" " alt="" coords="232,161,376,209"/>
-<area shape="poly" title=" " alt="" coords="375,47,318,162,314,158,370,50"/>
+<area shape="poly" title=" " alt="" coords="398,46,322,162,318,158,393,49"/>
 <area shape="rect" href="keyboard_8h.html" title="The PS/2 Keyboard interface code." alt="" coords="451,83,642,113"/>
-<area shape="poly" title=" " alt="" coords="430,39,519,82,514,83,430,45"/>
+<area shape="poly" title=" " alt="" coords="452,40,524,82,519,83,451,46"/>
 <area shape="rect" href="pit_8h.html" title="Headers for PIT." alt="" coords="666,83,816,113"/>
-<area shape="poly" title=" " alt="" coords="468,36,677,82,672,83,468,41"/>
+<area shape="poly" title=" " alt="" coords="489,36,682,82,677,83,489,42"/>
+<area shape="rect" href="rtc_8h.html" title="The Real Time Clock (RTC) code header." alt="" coords="840,83,991,113"/>
+<area shape="poly" title=" " alt="" coords="505,32,828,80,842,85,837,85,827,86,505,38"/>
 <area shape="poly" title=" " alt="" coords="217,126,213,168,215,189,222,208,244,235,274,257,269,256,241,239,217,211,210,190,208,168,214,130"/>
 <area shape="poly" title=" " alt="" coords="185,123,106,172,103,168,189,119"/>
 <area shape="poly" title=" " alt="" coords="248,121,284,160,279,160,247,127"/>
@@ -154,23 +156,27 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a47fca06b7879a535d73cfc60fde8a3df" id="r_a47fca06b7879a535d73cfc60fde8a3df"><td class="memItemLeft"><a id="a47fca06b7879a535d73cfc60fde8a3df" name="a47fca06b7879a535d73cfc60fde8a3df"></a>
-void&#160;</td><td class="memItemRight"><b>init_hardware_abstraction_layer</b> ()</td></tr>
-<tr class="memdesc:a47fca06b7879a535d73cfc60fde8a3df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes HAL by remapping the PIC interrupts to avoid conflicts. <br /></td></tr>
-<tr class="memitem:a01b3ad1397905fa9db2c57bbbbf9b22c" id="r_a01b3ad1397905fa9db2c57bbbbf9b22c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a01b3ad1397905fa9db2c57bbbbf9b22c">outb</a> (int16 port, int8 value)</td></tr>
-<tr class="memdesc:a01b3ad1397905fa9db2c57bbbbf9b22c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output a byte to the specified I/O port.  <br /></td></tr>
-<tr class="memitem:a9d8990ac46c4710dd92be3fa6880d473" id="r_a9d8990ac46c4710dd92be3fa6880d473"><td class="memItemLeft">int8&#160;</td><td class="memItemRight"><a class="el" href="#a9d8990ac46c4710dd92be3fa6880d473">inb</a> (int16 port)</td></tr>
-<tr class="memdesc:a9d8990ac46c4710dd92be3fa6880d473"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a byte from the specified I/O port.  <br /></td></tr>
-<tr class="memitem:accde7e618c58efdc5b465c083341846f" id="r_accde7e618c58efdc5b465c083341846f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#accde7e618c58efdc5b465c083341846f">outw</a> (int16 portNumber, int16 data)</td></tr>
-<tr class="memdesc:accde7e618c58efdc5b465c083341846f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output a 16-bit value to the specified I/O port.  <br /></td></tr>
-<tr class="memitem:a07569ac66ae49608eccd092f058e6208" id="r_a07569ac66ae49608eccd092f058e6208"><td class="memItemLeft">int16&#160;</td><td class="memItemRight"><a class="el" href="#a07569ac66ae49608eccd092f058e6208">inw</a> (int16 portNumber)</td></tr>
-<tr class="memdesc:a07569ac66ae49608eccd092f058e6208"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a 16-bit value from the specified I/O port.  <br /></td></tr>
-<tr class="memitem:a686133783ecfa8ffceada078c5b80e32" id="r_a686133783ecfa8ffceada078c5b80e32"><td class="memItemLeft">int32&#160;</td><td class="memItemRight"><a class="el" href="#a686133783ecfa8ffceada078c5b80e32">inl</a> (int16 portNumber)</td></tr>
-<tr class="memdesc:a686133783ecfa8ffceada078c5b80e32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a 32-bit value from the specified I/O port.  <br /></td></tr>
-<tr class="memitem:ab49f40a6955511c64483feb0f806edf3" id="r_ab49f40a6955511c64483feb0f806edf3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab49f40a6955511c64483feb0f806edf3">outl</a> (int16 portNumber, int32 data)</td></tr>
-<tr class="memdesc:ab49f40a6955511c64483feb0f806edf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output a 32-bit value to the specified I/O port.  <br /></td></tr>
-<tr class="memitem:a6024a6afd45d551f30762531766a185a" id="r_a6024a6afd45d551f30762531766a185a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6024a6afd45d551f30762531766a185a">io_wait</a> ()</td></tr>
-<tr class="memdesc:a6024a6afd45d551f30762531766a185a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform an I/O wait operation.  <br /></td></tr>
+<tr class="memitem:a45870ab56eb3ffc0f812210a9d54c894" id="r_a45870ab56eb3ffc0f812210a9d54c894"><td class="memItemLeft"><a id="a45870ab56eb3ffc0f812210a9d54c894" name="a45870ab56eb3ffc0f812210a9d54c894"></a>
+void&#160;</td><td class="memItemRight"><b>init_hardware_abstraction_layer</b> (void)</td></tr>
+<tr class="memdesc:a45870ab56eb3ffc0f812210a9d54c894"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes HAL by remapping the PIC interrupts to avoid conflicts. <br /></td></tr>
+<tr class="memitem:ab66218b0d63b41250d65dd4164f51eb5" id="r_ab66218b0d63b41250d65dd4164f51eb5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab66218b0d63b41250d65dd4164f51eb5">outb</a> (uint16 port, uint8 value)</td></tr>
+<tr class="memdesc:ab66218b0d63b41250d65dd4164f51eb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output a byte to the specified I/O port.  <br /></td></tr>
+<tr class="memitem:a34feca64a4f1e4dc09a64e8693f63bfa" id="r_a34feca64a4f1e4dc09a64e8693f63bfa"><td class="memItemLeft">uint8&#160;</td><td class="memItemRight"><a class="el" href="#a34feca64a4f1e4dc09a64e8693f63bfa">inb</a> (uint16 port)</td></tr>
+<tr class="memdesc:a34feca64a4f1e4dc09a64e8693f63bfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a byte from the specified I/O port.  <br /></td></tr>
+<tr class="memitem:a3d2dcba8d72a31e25affa8646652de78" id="r_a3d2dcba8d72a31e25affa8646652de78"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3d2dcba8d72a31e25affa8646652de78">outw</a> (uint16 portNumber, uint16 data)</td></tr>
+<tr class="memdesc:a3d2dcba8d72a31e25affa8646652de78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output a 16-bit value to the specified I/O port.  <br /></td></tr>
+<tr class="memitem:a5c7552f0ab5027451e757a4d3671316f" id="r_a5c7552f0ab5027451e757a4d3671316f"><td class="memItemLeft">uint16&#160;</td><td class="memItemRight"><a class="el" href="#a5c7552f0ab5027451e757a4d3671316f">inw</a> (uint16 portNumber)</td></tr>
+<tr class="memdesc:a5c7552f0ab5027451e757a4d3671316f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a 16-bit value from the specified I/O port.  <br /></td></tr>
+<tr class="memitem:a02d619ccaa5cc126094ba87ba4457adb" id="r_a02d619ccaa5cc126094ba87ba4457adb"><td class="memItemLeft">uint32&#160;</td><td class="memItemRight"><a class="el" href="#a02d619ccaa5cc126094ba87ba4457adb">inl</a> (uint16 portNumber)</td></tr>
+<tr class="memdesc:a02d619ccaa5cc126094ba87ba4457adb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a 32-bit value from the specified I/O port.  <br /></td></tr>
+<tr class="memitem:a4642b2a76fd515432b7d88f5d147236c" id="r_a4642b2a76fd515432b7d88f5d147236c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4642b2a76fd515432b7d88f5d147236c">outl</a> (uint16 portNumber, uint32 data)</td></tr>
+<tr class="memdesc:a4642b2a76fd515432b7d88f5d147236c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output a 32-bit value to the specified I/O port.  <br /></td></tr>
+<tr class="memitem:aaaf4b3f918fbda500ebf08c8b17dfb46" id="r_aaaf4b3f918fbda500ebf08c8b17dfb46"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aaaf4b3f918fbda500ebf08c8b17dfb46">io_wait</a> (void)</td></tr>
+<tr class="memdesc:aaaf4b3f918fbda500ebf08c8b17dfb46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform an I/O wait operation.  <br /></td></tr>
+<tr class="memitem:a65ca634aab98b7f7e0c1f0c7310ebb56" id="r_a65ca634aab98b7f7e0c1f0c7310ebb56"><td class="memItemLeft"><a id="a65ca634aab98b7f7e0c1f0c7310ebb56" name="a65ca634aab98b7f7e0c1f0c7310ebb56"></a>
+void&#160;</td><td class="memItemRight"><b>io_wait_us</b> (uint32_t usec)</td></tr>
+<tr class="memitem:a5c9bceee862c594153dd2afe3db1404b" id="r_a5c9bceee862c594153dd2afe3db1404b"><td class="memItemLeft"><a id="a5c9bceee862c594153dd2afe3db1404b" name="a5c9bceee862c594153dd2afe3db1404b"></a>
+void&#160;</td><td class="memItemRight"><b>io_wait_ms</b> (uint32_t msec)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Header file for Hardware Abstraction Layer -&gt; Source from GoGX OS. </p>
@@ -246,16 +252,16 @@ void&#160;</td><td class="memItemRight"><b>init_hardware_abstraction_layer</b> (
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a9d8990ac46c4710dd92be3fa6880d473" name="a9d8990ac46c4710dd92be3fa6880d473"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d8990ac46c4710dd92be3fa6880d473">&#9670;&#160;</a></span>inb()</h2>
+<a id="a34feca64a4f1e4dc09a64e8693f63bfa" name="a34feca64a4f1e4dc09a64e8693f63bfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34feca64a4f1e4dc09a64e8693f63bfa">&#9670;&#160;</a></span>inb()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int8 inb </td>
+          <td class="memname">uint8 inb </td>
           <td>(</td>
-          <td class="paramtype">int16</td>          <td class="paramname"><span class="paramname"><em>port</em></span></td><td>)</td>
+          <td class="paramtype">uint16</td>          <td class="paramname"><span class="paramname"><em>port</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -273,16 +279,16 @@ void&#160;</td><td class="memItemRight"><b>init_hardware_abstraction_layer</b> (
 
 </div>
 </div>
-<a id="a686133783ecfa8ffceada078c5b80e32" name="a686133783ecfa8ffceada078c5b80e32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a686133783ecfa8ffceada078c5b80e32">&#9670;&#160;</a></span>inl()</h2>
+<a id="a02d619ccaa5cc126094ba87ba4457adb" name="a02d619ccaa5cc126094ba87ba4457adb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02d619ccaa5cc126094ba87ba4457adb">&#9670;&#160;</a></span>inl()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int32 inl </td>
+          <td class="memname">uint32 inl </td>
           <td>(</td>
-          <td class="paramtype">int16</td>          <td class="paramname"><span class="paramname"><em>portNumber</em></span></td><td>)</td>
+          <td class="paramtype">uint16</td>          <td class="paramname"><span class="paramname"><em>portNumber</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -300,16 +306,16 @@ void&#160;</td><td class="memItemRight"><b>init_hardware_abstraction_layer</b> (
 
 </div>
 </div>
-<a id="a07569ac66ae49608eccd092f058e6208" name="a07569ac66ae49608eccd092f058e6208"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07569ac66ae49608eccd092f058e6208">&#9670;&#160;</a></span>inw()</h2>
+<a id="a5c7552f0ab5027451e757a4d3671316f" name="a5c7552f0ab5027451e757a4d3671316f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c7552f0ab5027451e757a4d3671316f">&#9670;&#160;</a></span>inw()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int16 inw </td>
+          <td class="memname">uint16 inw </td>
           <td>(</td>
-          <td class="paramtype">int16</td>          <td class="paramname"><span class="paramname"><em>portNumber</em></span></td><td>)</td>
+          <td class="paramtype">uint16</td>          <td class="paramname"><span class="paramname"><em>portNumber</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -327,8 +333,8 @@ void&#160;</td><td class="memItemRight"><b>init_hardware_abstraction_layer</b> (
 
 </div>
 </div>
-<a id="a6024a6afd45d551f30762531766a185a" name="a6024a6afd45d551f30762531766a185a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6024a6afd45d551f30762531766a185a">&#9670;&#160;</a></span>io_wait()</h2>
+<a id="aaaf4b3f918fbda500ebf08c8b17dfb46" name="aaaf4b3f918fbda500ebf08c8b17dfb46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaf4b3f918fbda500ebf08c8b17dfb46">&#9670;&#160;</a></span>io_wait()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -336,7 +342,7 @@ void&#160;</td><td class="memItemRight"><b>init_hardware_abstraction_layer</b> (
         <tr>
           <td class="memname">void io_wait </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -347,8 +353,8 @@ void&#160;</td><td class="memItemRight"><b>init_hardware_abstraction_layer</b> (
 
 </div>
 </div>
-<a id="a01b3ad1397905fa9db2c57bbbbf9b22c" name="a01b3ad1397905fa9db2c57bbbbf9b22c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01b3ad1397905fa9db2c57bbbbf9b22c">&#9670;&#160;</a></span>outb()</h2>
+<a id="ab66218b0d63b41250d65dd4164f51eb5" name="ab66218b0d63b41250d65dd4164f51eb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab66218b0d63b41250d65dd4164f51eb5">&#9670;&#160;</a></span>outb()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -356,12 +362,12 @@ void&#160;</td><td class="memItemRight"><b>init_hardware_abstraction_layer</b> (
         <tr>
           <td class="memname">void outb </td>
           <td>(</td>
-          <td class="paramtype">int16</td>          <td class="paramname"><span class="paramname"><em>port</em></span>, </td>
+          <td class="paramtype">uint16</td>          <td class="paramname"><span class="paramname"><em>port</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int8</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">uint8</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -378,8 +384,8 @@ void&#160;</td><td class="memItemRight"><b>init_hardware_abstraction_layer</b> (
 
 </div>
 </div>
-<a id="ab49f40a6955511c64483feb0f806edf3" name="ab49f40a6955511c64483feb0f806edf3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab49f40a6955511c64483feb0f806edf3">&#9670;&#160;</a></span>outl()</h2>
+<a id="a4642b2a76fd515432b7d88f5d147236c" name="a4642b2a76fd515432b7d88f5d147236c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4642b2a76fd515432b7d88f5d147236c">&#9670;&#160;</a></span>outl()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -387,12 +393,12 @@ void&#160;</td><td class="memItemRight"><b>init_hardware_abstraction_layer</b> (
         <tr>
           <td class="memname">void outl </td>
           <td>(</td>
-          <td class="paramtype">int16</td>          <td class="paramname"><span class="paramname"><em>portNumber</em></span>, </td>
+          <td class="paramtype">uint16</td>          <td class="paramname"><span class="paramname"><em>portNumber</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+          <td class="paramtype">uint32</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -409,8 +415,8 @@ void&#160;</td><td class="memItemRight"><b>init_hardware_abstraction_layer</b> (
 
 </div>
 </div>
-<a id="accde7e618c58efdc5b465c083341846f" name="accde7e618c58efdc5b465c083341846f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accde7e618c58efdc5b465c083341846f">&#9670;&#160;</a></span>outw()</h2>
+<a id="a3d2dcba8d72a31e25affa8646652de78" name="a3d2dcba8d72a31e25affa8646652de78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d2dcba8d72a31e25affa8646652de78">&#9670;&#160;</a></span>outw()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -418,12 +424,12 @@ void&#160;</td><td class="memItemRight"><b>init_hardware_abstraction_layer</b> (
         <tr>
           <td class="memname">void outw </td>
           <td>(</td>
-          <td class="paramtype">int16</td>          <td class="paramname"><span class="paramname"><em>portNumber</em></span>, </td>
+          <td class="paramtype">uint16</td>          <td class="paramname"><span class="paramname"><em>portNumber</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int16</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+          <td class="paramtype">uint16</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

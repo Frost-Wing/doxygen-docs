@@ -9,8 +9,8 @@ var searchData=
   ['rb_5fpop_6',['rb_pop',['../ringbuffer_8h.html#a4d28de42ecf23d7e40b3d56e2076f23b',1,'ringbuffer.h']]],
   ['rb_5fpush_7',['rb_push',['../ringbuffer_8h.html#a4bd4ec4bfe4f65572556105c80eef269',1,'ringbuffer.h']]],
   ['rb_5fsize_8',['rb_size',['../ringbuffer_8h.html#a69bd00d201517061bb71880e91295c98',1,'ringbuffer.h']]],
-  ['read_5frtc_5fregister_9',['read_rtc_register',['../rtc_8h.html#afdc1788b05cad808e61cc90e03f0a912',1,'rtc.h']]],
+  ['read_5frtc_5fregister_9',['read_rtc_register',['../rtc_8h.html#a26bfb07acc6c70c774cd1b574838867c',1,'rtc.h']]],
   ['registerinterrupthandler_10',['registerInterruptHandler',['../isr_8h.html#abbf1d7887d81019d655219c3087fac19',1,'isr.h']]],
   ['remove_5flast_5fchar_11',['remove_last_char',['../strings_8h.html#ab8742b3fde0c51ed53cf7ac80dd42f9a',1,'strings.h']]],
-  ['rtc_5fread_5fstable_12',['rtc_read_stable',['../rtc_8h.html#a3cda9dd45f9b67f39fd4f6e5fb83727a',1,'rtc.h']]]
+  ['rtc_5fread_5fstable_12',['rtc_read_stable',['../rtc_8h.html#a795b8b839ef4cabf54b9f2179548301f',1,'rtc.h']]]
 ];

@@ -6,6 +6,6 @@ var heap_8h =
     [ "krealloc", "heap_8h.html#ad937a677645b4ed5b1e0411456d8285b", null ],
     [ "mm_constrict", "heap_8h.html#a0475e3c1149b04e16b34120cf601d817", null ],
     [ "mm_extend", "heap_8h.html#a89e426eee07ea2c83d15eed4cccd5ae2", null ],
-    [ "mm_init", "heap_8h.html#afe329a1445522ad4d2b7f1ee45db828f", null ],
-    [ "mm_print_out", "heap_8h.html#a83aeab638a344db4dab5365af80ca8d5", null ]
+    [ "mm_init", "heap_8h.html#af2bb9246f82f3d83166eb6e4114850f1", null ],
+    [ "mm_print_out", "heap_8h.html#aef62d80d2880d93414c00181d22615ab", null ]
 ];
