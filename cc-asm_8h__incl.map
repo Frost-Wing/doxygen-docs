@@ -1,9 +1,9 @@
 <map id="source/includes/cc&#45;asm.h" name="source/includes/cc&#45;asm.h">
-<area shape="rect" id="Node000001" title="Cross&#45;compatible ASM header." alt="" coords="19,5,153,54"/>
-<area shape="rect" id="Node000002" href="$basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="52,102,121,132"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,52,89,87,84,85,85,57"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,180,74,209"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="79,131,58,168,54,165,75,134"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="98,180,170,209"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="96,130,120,167,114,167,94,135"/>
+<area shape="rect" id="Node000001" title="Cross&#45;compatible ASM header." alt="" coords="21,5,155,54"/>
+<area shape="rect" id="Node000002" href="$basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="54,102,123,132"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,52,91,87,86,85,87,57"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,180,78,209"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="82,131,60,168,56,165,77,134"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="102,180,170,209"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="98,130,122,167,116,167,96,135"/>
 </map>

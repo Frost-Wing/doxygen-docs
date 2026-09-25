@@ -1,8 +1,8 @@
 var graphics_8h =
 [
-    [ "done", "graphics_8h.html#ad07884a6ba7d8115780561b2ca989852", null ],
-    [ "error", "graphics_8h.html#a5d21e25ff167fc33ac87e88c13669e09", null ],
-    [ "info", "graphics_8h.html#aee2e1461792f971c8adaa6bede6e2bdd", null ],
+    [ "done", "graphics_8h.html#a17c2b11eada60a5d5d0612dce58485d0", null ],
+    [ "error", "graphics_8h.html#a6a952073cd88b38503b538b44e0804f1", null ],
+    [ "info", "graphics_8h.html#a0fa169de644c00dd9f48a4da8c7904cd", null ],
     [ "kprint", "graphics_8h.html#a7b658f7a0a6aa530cba64bf3e04e6a08", null ],
     [ "print", "graphics_8h.html#a7f6608ce1fa3da4eac760e349e5b4e00", null ],
     [ "print_bitmap", "graphics_8h.html#a16cf641d0458704f2ab3e272c52fa125", null ],
@@ -11,7 +11,8 @@ var graphics_8h =
     [ "printfnoln_internal", "graphics_8h.html#a9434a2ffbfdae3b1888aa1a2fb0ae190", null ],
     [ "putc", "graphics_8h.html#acc0ee6e9643f83a5ab11722197fc25ec", null ],
     [ "snprintf", "graphics_8h.html#aed3a44ce00b8d92f93e8a34e7b9dbf54", null ],
+    [ "terminal_toggle_cursor", "graphics_8h.html#ab7e652fa23a27f52cdd30cfd7bad557d", null ],
     [ "vprintf_internal", "graphics_8h.html#a61622ca5615154aa7f37c6fe1841c8b7", null ],
     [ "vputc", "graphics_8h.html#ae303e1ea3761e0b60ec11a17c260bb54", null ],
-    [ "warn", "graphics_8h.html#ad77420c435b84b1d7ff086a9a1046d81", null ]
+    [ "warn", "graphics_8h.html#a07bd7bdc43eab0ca656c4e37b0ffc967", null ]
 ];

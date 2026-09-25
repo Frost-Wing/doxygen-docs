@@ -98,46 +98,49 @@ $(function(){initNavTree('userland_8h.html','',''); });
 <p>The Header file for userland/userspace.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="basics_8h_source.html">basics.h</a>&gt;</code><br />
+<code>#include &lt;executables/elf.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="syscalls_8h_source.html">syscalls.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for userland.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="userland_8h__incl.png" border="0" usemap="#asource_2includes_2userland_8h" loading="lazy" alt=""/></div>
 <map name="asource_2includes_2userland_8h" id="asource_2includes_2userland_8h">
-<area shape="rect" title="The Header file for userland/userspace." alt="" coords="5,5,194,35"/>
-<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="154,394,224,423"/>
-<area shape="poly" title=" " alt="" coords="106,33,128,94,137,134,141,174,141,254,144,289,153,322,177,380,171,380,148,324,139,290,136,255,136,174,132,134,123,96,105,38"/>
-<area shape="rect" href="syscalls_8h.html" title=" " alt="" coords="24,83,101,113"/>
-<area shape="poly" title=" " alt="" coords="92,38,79,70,73,68,93,33"/>
-<area shape="rect" title=" " alt="" coords="501,471,570,501"/>
-<area shape="poly" title=" " alt="" coords="224,415,488,472,484,476,224,420"/>
-<area shape="rect" title=" " alt="" coords="153,471,225,501"/>
-<area shape="poly" title=" " alt="" coords="191,422,191,457,187,454,187,426"/>
-<area shape="poly" title=" " alt="" coords="55,115,47,149,44,169,46,190,59,237,73,272,93,305,122,344,160,383,155,384,117,347,88,308,68,274,54,238,41,191,39,169,42,147,56,110"/>
-<area shape="rect" href="isr_8h.html" title="Interrupts handler header." alt="" coords="56,161,101,190"/>
-<area shape="poly" title=" " alt="" coords="65,111,75,145,69,145,65,116"/>
-<area shape="poly" title=" " alt="" coords="101,177,208,191,356,219,431,237,499,259,553,285,574,299,588,314,603,342,607,367,602,394,591,424,580,445,565,463,562,458,576,442,586,422,597,392,602,367,598,344,584,318,570,303,551,290,497,264,430,242,355,224,207,197,102,182"/>
-<area shape="poly" title=" " alt="" coords="79,188,85,231,94,290,111,357,136,422,164,460,159,460,132,425,106,359,89,291,80,232,79,193"/>
-<area shape="rect" href="graphics_8h.html" title="Contains all the print functions." alt="" coords="268,238,352,268"/>
-<area shape="poly" title=" " alt="" coords="101,182,255,232,251,235,102,187"/>
-<area shape="poly" title=" " alt="" coords="274,270,245,290,216,318,201,348,194,380,189,377,196,346,212,314,242,286,278,267"/>
-<area shape="poly" title=" " alt="" coords="353,256,410,264,472,275,528,292,549,302,563,314,573,331,578,350,577,389,567,427,553,460,549,455,562,425,572,388,573,351,568,333,559,318,546,307,526,297,471,281,409,269,353,261"/>
-<area shape="poly" title=" " alt="" coords="271,270,235,291,196,318,163,352,145,394,142,409,145,422,154,441,166,460,161,459,149,444,140,424,136,409,140,393,159,349,192,314,232,286,275,267"/>
-<area shape="rect" title=" " alt="" coords="226,316,298,346"/>
-<area shape="poly" title=" " alt="" coords="303,267,281,305,277,301,299,270"/>
-<area shape="rect" title=" " alt="" coords="368,394,447,423"/>
-<area shape="poly" title=" " alt="" coords="351,266,385,285,399,299,411,315,420,347,417,380,413,377,414,347,406,317,396,302,382,290,350,271"/>
-<area shape="rect" href="strings_8h.html" title="The header file for strings.c." alt="" coords="322,316,397,346"/>
-<area shape="poly" title=" " alt="" coords="320,266,345,303,339,303,319,271"/>
-<area shape="rect" href="stream_8h.html" title="Unix like standard streams." alt="" coords="472,316,548,346"/>
-<area shape="poly" title=" " alt="" coords="348,266,461,309,456,311,348,271"/>
-<area shape="poly" title=" " alt="" coords="325,347,236,390,233,385,330,345"/>
-<area shape="poly" title=" " alt="" coords="356,344,349,383,350,404,358,422,384,447,417,464,452,475,489,483,483,483,451,480,415,469,381,452,353,425,345,405,343,383,352,348"/>
-<area shape="poly" title=" " alt="" coords="346,346,217,463,214,459,341,346"/>
-<area shape="poly" title=" " alt="" coords="370,344,393,381,388,380,367,349"/>
-<area shape="poly" title=" " alt="" coords="514,344,533,457,528,455,511,348"/>
-<area shape="poly" title=" " alt="" coords="508,345,493,386,479,408,461,425,435,442,407,456,349,474,291,484,241,488,241,483,290,479,347,469,405,451,433,437,458,421,475,404,488,384,504,348"/>
-<area shape="poly" title=" " alt="" coords="493,345,440,387,438,382,488,347"/>
+<area shape="rect" title="The Header file for userland/userspace." alt="" coords="360,5,548,35"/>
+<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="439,394,509,423"/>
+<area shape="poly" title=" " alt="" coords="478,33,506,54,531,81,545,105,552,125,557,174,557,255,551,292,537,327,518,358,498,384,495,380,513,355,532,325,546,291,551,254,551,174,547,127,540,107,526,85,503,58,478,38"/>
+<area shape="rect" title=" " alt="" coords="391,83,517,113"/>
+<area shape="poly" title=" " alt="" coords="455,33,456,68,451,66,453,38"/>
+<area shape="rect" href="syscalls_8h.html" title=" " alt="" coords="290,83,367,113"/>
+<area shape="poly" title=" " alt="" coords="428,37,367,77,363,73,432,34"/>
+<area shape="rect" title=" " alt="" coords="366,471,438,501"/>
+<area shape="poly" title=" " alt="" coords="463,423,427,462,424,458,458,425"/>
+<area shape="rect" title=" " alt="" coords="46,471,115,501"/>
+<area shape="poly" title=" " alt="" coords="439,419,131,478,130,473,438,414"/>
+<area shape="poly" title=" " alt="" coords="339,111,393,195,426,254,454,315,471,379,466,377,449,317,421,256,389,198,338,116"/>
+<area shape="rect" href="isr_8h.html" title="Interrupts handler header." alt="" coords="286,161,331,190"/>
+<area shape="poly" title=" " alt="" coords="326,111,319,147,314,144,323,116"/>
+<area shape="poly" title=" " alt="" coords="332,188,377,220,432,265,484,324,506,357,523,393,528,409,523,425,509,442,492,456,454,475,452,469,489,451,505,438,518,422,522,409,518,395,501,360,480,327,428,269,374,224,331,194"/>
+<area shape="poly" title=" " alt="" coords="283,181,228,193,151,216,112,234,75,257,42,284,15,317,10,335,8,362,12,393,22,422,35,442,52,461,47,462,30,446,17,424,7,394,3,362,4,334,10,315,38,280,72,252,110,229,150,211,226,188,288,178"/>
+<area shape="rect" href="graphics_8h.html" title="Contains all the print functions." alt="" coords="229,238,313,268"/>
+<area shape="poly" title=" " alt="" coords="303,189,287,226,283,223,300,193"/>
+<area shape="poly" title=" " alt="" coords="314,261,369,281,397,296,422,314,448,345,466,381,461,379,444,348,419,318,394,300,367,286,314,267"/>
+<area shape="poly" title=" " alt="" coords="313,266,349,285,365,299,379,315,396,350,405,388,408,425,407,457,403,454,403,425,399,389,391,351,374,317,362,302,346,290,313,271"/>
+<area shape="poly" title=" " alt="" coords="227,261,115,281,63,298,44,307,32,318,23,334,19,351,25,389,42,426,62,458,57,460,37,429,20,391,14,351,18,332,28,314,41,303,61,293,114,276,230,257"/>
+<area shape="rect" title=" " alt="" coords="143,316,215,346"/>
+<area shape="poly" title=" " alt="" coords="252,270,210,308,206,304,256,267"/>
+<area shape="rect" title=" " alt="" coords="184,394,263,423"/>
+<area shape="poly" title=" " alt="" coords="269,267,234,380,230,378,265,270"/>
+<area shape="rect" href="stream_8h.html" title="Unix like standard streams." alt="" coords="42,316,119,346"/>
+<area shape="poly" title=" " alt="" coords="234,271,132,312,129,308,237,267"/>
+<area shape="rect" href="strings_8h.html" title="The header file for strings.c." alt="" coords="290,316,365,346"/>
+<area shape="poly" title=" " alt="" coords="282,266,310,303,305,303,281,271"/>
+<area shape="poly" title=" " alt="" coords="91,344,125,383,148,404,173,421,217,442,264,458,353,479,348,479,263,463,215,447,170,426,144,408,122,387,90,349"/>
+<area shape="poly" title=" " alt="" coords="83,345,83,456,78,455,78,347"/>
+<area shape="poly" title=" " alt="" coords="108,344,185,385,181,387,107,349"/>
+<area shape="poly" title=" " alt="" coords="355,344,436,386,430,386,354,349"/>
+<area shape="poly" title=" " alt="" coords="336,344,391,458,386,457,333,348"/>
+<area shape="poly" title=" " alt="" coords="325,344,308,386,295,407,277,425,242,448,204,464,130,482,129,477,202,459,239,443,274,421,290,404,304,383,321,348"/>
+<area shape="poly" title=" " alt="" coords="310,345,256,387,254,382,305,348"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -162,6 +165,7 @@ Classes</h2></td></tr>
 <tr class="memitem:glibc_5Ftcb_5Fhead_5Ft" id="r_glibc_5Ftcb_5Fhead_5Ft"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="structglibc__tcb__head__t.html">glibc_tcb_head_t</a></td></tr>
 <tr class="memitem:glibc_5Ftls_5Fblock_5Ft" id="r_glibc_5Ftls_5Fblock_5Ft"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="structglibc__tls__block__t.html">glibc_tls_block_t</a></td></tr>
 <tr class="memitem:auxv_5Fpair_5Ft" id="r_auxv_5Fpair_5Ft"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="structauxv__pair__t.html">auxv_pair_t</a></td></tr>
+<tr class="memitem:userland_5Fexec_5Fctx_5Ft" id="r_userland_5Fexec_5Fctx_5Ft"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="structuserland__exec__ctx__t.html">userland_exec_ctx_t</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
@@ -169,6 +173,7 @@ Macros</h2></td></tr>
 <tr class="memitem:a6cb3b6c74ebdc1dd8f3c6ced9e2fb077" id="r_a6cb3b6c74ebdc1dd8f3c6ced9e2fb077"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a6cb3b6c74ebdc1dd8f3c6ced9e2fb077">USER_HEAP_SIZE</a>&#160;&#160;&#160;(1 * 1024 * 1024)</td></tr>
 <tr class="memitem:ad319cfa5be994f9899dea7b0d01ebaff" id="r_ad319cfa5be994f9899dea7b0d01ebaff"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ad319cfa5be994f9899dea7b0d01ebaff">USER_MMAP_SIZE</a>&#160;&#160;&#160;(4 * 1024 * 1024)</td></tr>
 <tr class="memitem:a161a01659acf44a9a859a4056dac8199" id="r_a161a01659acf44a9a859a4056dac8199"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a161a01659acf44a9a859a4056dac8199">USER_CODE_VADDR</a>&#160;&#160;&#160;0x0000400000000000ULL</td></tr>
+<tr class="memitem:ad8b5c312811a2c0b3afb36664c56d8d4" id="r_ad8b5c312811a2c0b3afb36664c56d8d4"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ad8b5c312811a2c0b3afb36664c56d8d4">USER_INTERP_VADDR</a>&#160;&#160;&#160;0x0000400008000000ULL</td></tr>
 <tr class="memitem:a3758e8fad848b012c5c8193c4770a85a" id="r_a3758e8fad848b012c5c8193c4770a85a"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a3758e8fad848b012c5c8193c4770a85a">USER_HEAP_VADDR</a>&#160;&#160;&#160;0x0000400010000000ULL</td></tr>
 <tr class="memitem:aaee7c0a6c54cac8af4a1d106611cd615" id="r_aaee7c0a6c54cac8af4a1d106611cd615"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#aaee7c0a6c54cac8af4a1d106611cd615">USER_MMAP_VADDR</a>&#160;&#160;&#160;(USER_HEAP_VADDR + USER_HEAP_SIZE)</td></tr>
 <tr class="memitem:a225ffb01e3ff6b54e2c2d7fd2f8e7b3b" id="r_a225ffb01e3ff6b54e2c2d7fd2f8e7b3b"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a225ffb01e3ff6b54e2c2d7fd2f8e7b3b">USER_TLS_VADDR</a>&#160;&#160;&#160;(USER_MMAP_VADDR + USER_MMAP_SIZE)</td></tr>
@@ -195,26 +200,32 @@ Macros</h2></td></tr>
 <tr class="memitem:a1fe1f2fa98ebaf15b7837ee6748b8a1b" id="r_a1fe1f2fa98ebaf15b7837ee6748b8a1b"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a1fe1f2fa98ebaf15b7837ee6748b8a1b">LINUX_AT_RANDOM</a>&#160;&#160;&#160;25</td></tr>
 <tr class="memitem:a8b461899f3b62079cb119cf855ab9dd9" id="r_a8b461899f3b62079cb119cf855ab9dd9"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a8b461899f3b62079cb119cf855ab9dd9">LINUX_AT_EXECFN</a>&#160;&#160;&#160;31</td></tr>
 <tr class="memitem:a49870bbd2884458b6f51dbc372080882" id="r_a49870bbd2884458b6f51dbc372080882"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a49870bbd2884458b6f51dbc372080882">IA32_FS_BASE_MSR</a>&#160;&#160;&#160;0xC0000100</td></tr>
-<tr class="memitem:aa4cc6330cfb52848e6a647dd75b5b8a5" id="r_aa4cc6330cfb52848e6a647dd75b5b8a5"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#aa4cc6330cfb52848e6a647dd75b5b8a5">USER_AUXV_MAX</a>&#160;&#160;&#160;18</td></tr>
+<tr class="memitem:aa4cc6330cfb52848e6a647dd75b5b8a5" id="r_aa4cc6330cfb52848e6a647dd75b5b8a5"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#aa4cc6330cfb52848e6a647dd75b5b8a5">USER_AUXV_MAX</a>&#160;&#160;&#160;20</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ade7c100d50e90c76d936cd0e284fe921" id="r_ade7c100d50e90c76d936cd0e284fe921"><td class="memItemLeft"><a id="ade7c100d50e90c76d936cd0e284fe921" name="ade7c100d50e90c76d936cd0e284fe921"></a>
 void&#160;</td><td class="memItemRight"><b>enter_userland_at</b> (uint64_t entry_point)</td></tr>
-<tr class="memitem:ae8be27537cbe3920b1ad3edadb02451b" id="r_ae8be27537cbe3920b1ad3edadb02451b"><td class="memItemLeft"><a id="ae8be27537cbe3920b1ad3edadb02451b" name="ae8be27537cbe3920b1ad3edadb02451b"></a>
-int&#160;</td><td class="memItemRight"><b>userland_exec</b> (const char *path, int argc, const char *const *argv, const char *const *envp)</td></tr>
+<tr class="memitem:a7dbd464a3accc7716cd18ef45d9a7e55" id="r_a7dbd464a3accc7716cd18ef45d9a7e55"><td class="memItemLeft"><a id="a7dbd464a3accc7716cd18ef45d9a7e55" name="a7dbd464a3accc7716cd18ef45d9a7e55"></a>
+void&#160;</td><td class="memItemRight"><b>userland_exec_prepare</b> (const char *path, int argc, const char *argv[], elf_image_info_t *out_info, void **out_entry, uint64_t *out_stack)</td></tr>
 <tr class="memitem:aee28b7310daba79a236824ce3b631adb" id="r_aee28b7310daba79a236824ce3b631adb"><td class="memItemLeft"><a id="aee28b7310daba79a236824ce3b631adb" name="aee28b7310daba79a236824ce3b631adb"></a>
 void&#160;</td><td class="memItemRight"><b>userland_heap_init</b> (void)</td></tr>
 <tr class="memitem:a1e76c4a169c227bc48fd9f859c3adaae" id="r_a1e76c4a169c227bc48fd9f859c3adaae"><td class="memItemLeft"><a id="a1e76c4a169c227bc48fd9f859c3adaae" name="a1e76c4a169c227bc48fd9f859c3adaae"></a>
 uint64_t&#160;</td><td class="memItemRight"><b>userland_brk</b> (uint64_t requested_break)</td></tr>
 <tr class="memitem:a08ba1c4b856c905b5784663ac2c836d6" id="r_a08ba1c4b856c905b5784663ac2c836d6"><td class="memItemLeft"><a id="a08ba1c4b856c905b5784663ac2c836d6" name="a08ba1c4b856c905b5784663ac2c836d6"></a>
 uint64_t&#160;</td><td class="memItemRight"><b>userland_mmap_anon</b> (uint64_t length)</td></tr>
+<tr class="memitem:aea27740ef3cf385d1c7ef2a86368c28f" id="r_aea27740ef3cf385d1c7ef2a86368c28f"><td class="memItemLeft"><a id="aea27740ef3cf385d1c7ef2a86368c28f" name="aea27740ef3cf385d1c7ef2a86368c28f"></a>
+uint64_t&#160;</td><td class="memItemRight"><b>userland_mmap_fixed</b> (uint64_t addr, uint64_t length)</td></tr>
 <tr class="memitem:a7a5e2e30063b93b6050097cddb0aa2e7" id="r_a7a5e2e30063b93b6050097cddb0aa2e7"><td class="memItemLeft"><a id="a7a5e2e30063b93b6050097cddb0aa2e7" name="a7a5e2e30063b93b6050097cddb0aa2e7"></a>
 bool&#160;</td><td class="memItemRight"><b>userland_prepare_exit</b> (syscall_frame_t *frame, uint64_t exit_code)</td></tr>
+<tr class="memitem:a2c3fc13b0934e20edd5347bd438bacae" id="r_a2c3fc13b0934e20edd5347bd438bacae"><td class="memItemLeft"><a id="a2c3fc13b0934e20edd5347bd438bacae" name="a2c3fc13b0934e20edd5347bd438bacae"></a>
+int&#160;</td><td class="memItemRight"><b>userland_exec</b> (const <a class="el" href="structuserland__exec__ctx__t.html">userland_exec_ctx_t</a> *ctx)</td></tr>
 <tr class="memitem:a0b424679213df0a40cb6faab20e0b132" id="r_a0b424679213df0a40cb6faab20e0b132"><td class="memItemLeft"><a id="a0b424679213df0a40cb6faab20e0b132" name="a0b424679213df0a40cb6faab20e0b132"></a>
 bool&#160;</td><td class="memItemRight"><b>userland_is_running</b> (void)</td></tr>
 <tr class="memitem:a177e5e451ff39c09945b7f17655147df" id="r_a177e5e451ff39c09945b7f17655147df"><td class="memItemLeft"><a id="a177e5e451ff39c09945b7f17655147df" name="a177e5e451ff39c09945b7f17655147df"></a>
-void&#160;</td><td class="memItemRight"><b>userland_abort_from_exception</b> (uint64_t int_no, uint64_t err_code, uint64_t fault_rip) <a class="el" href="acpi_8h.html#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a>((noreturn))</td></tr>
+void&#160;</td><td class="memItemRight"><b>userland_abort_from_exception</b> (uint64_t int_no, uint64_t err_code, uint64_t fault_rip) <a class="el" href="acpi_8h.html#adc535ce2c03c209b6ccb134a8c8b0adc">__attribute__</a>((noreturn))</td></tr>
+<tr class="memitem:a3bf765c384d79de9a116edb32a6a2469" id="r_a3bf765c384d79de9a116edb32a6a2469"><td class="memItemLeft"><a id="a3bf765c384d79de9a116edb32a6a2469" name="a3bf765c384d79de9a116edb32a6a2469"></a>
+int&#160;</td><td class="memItemRight"><b>userland_exec_replace</b> (const <a class="el" href="structuserland__exec__ctx__t.html">userland_exec_ctx_t</a> *ctx)</td></tr>
 <tr class="memitem:ad79489cd98d301238754820c54229dc3" id="r_ad79489cd98d301238754820c54229dc3"><td class="memItemLeft"><a id="ad79489cd98d301238754820c54229dc3" name="ad79489cd98d301238754820c54229dc3"></a>
 void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
 </table>
@@ -239,7 +250,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00048">48</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00050">50</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -255,7 +266,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00034">34</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00036">36</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -271,7 +282,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00044">44</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00046">46</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -287,7 +298,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00040">40</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00042">42</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -303,7 +314,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00036">36</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00038">38</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -319,7 +330,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00038">38</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00040">40</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -335,7 +346,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00047">47</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00049">49</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -351,7 +362,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00035">35</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00037">37</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -367,7 +378,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00039">39</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00041">41</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -383,7 +394,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00042">42</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00044">44</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -399,7 +410,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00043">43</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00045">45</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -415,7 +426,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00029">29</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00031">31</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -431,7 +442,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00033">33</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00035">35</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -447,7 +458,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00030">30</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00032">32</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -463,7 +474,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00031">31</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00033">33</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -479,7 +490,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00032">32</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00034">34</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -495,7 +506,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00041">41</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00043">43</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -511,7 +522,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00046">46</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00048">48</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -527,7 +538,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00045">45</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00047">47</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -543,7 +554,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00037">37</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00039">39</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -554,12 +565,12 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USER_AUXV_MAX&#160;&#160;&#160;18</td>
+          <td class="memname">#define USER_AUXV_MAX&#160;&#160;&#160;20</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00049">49</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00051">51</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -575,7 +586,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00021">21</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00022">22</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -591,7 +602,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00018">18</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00019">19</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -607,7 +618,23 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00022">22</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00024">24</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+
+</div>
+</div>
+<a id="ad8b5c312811a2c0b3afb36664c56d8d4" name="ad8b5c312811a2c0b3afb36664c56d8d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8b5c312811a2c0b3afb36664c56d8d4">&#9670;&#160;</a></span>USER_INTERP_VADDR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USER_INTERP_VADDR&#160;&#160;&#160;0x0000400008000000ULL</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00023">23</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -623,7 +650,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00019">19</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00020">20</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -639,7 +666,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00023">23</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00025">25</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -655,7 +682,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00026">26</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00028">28</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -671,7 +698,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00017">17</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00018">18</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -687,7 +714,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00027">27</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00029">29</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -703,7 +730,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00025">25</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00027">27</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>
@@ -719,7 +746,7 @@ void&#160;</td><td class="memItemRight"><b>sh_exec</b> (void)</td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00024">24</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="userland_8h_source.html#l00026">26</a> of file <a class="el" href="userland_8h_source.html">userland.h</a>.</p>
 
 </div>
 </div>

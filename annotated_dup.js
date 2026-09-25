@@ -10,6 +10,10 @@ var annotated_dup =
     [ "command_list", "structcommand__list.html", null ],
     [ "command_list_entry", "structcommand__list__entry.html", null ],
     [ "command_t", "structcommand__t.html", null ],
+    [ "CrashDiagnosis", "structCrashDiagnosis.html", null ],
+    [ "CrashSourceLine", "structCrashSourceLine.html", null ],
+    [ "CrashSymbol", "structCrashSymbol.html", null ],
+    [ "CrashSymbolResult", "structCrashSymbolResult.html", null ],
     [ "fdlfcn_handle", "structfdlfcn__handle.html", null ],
     [ "flanterm_fb_char", "structflanterm__fb__char.html", "structflanterm__fb__char" ],
     [ "flanterm_fb_context", "structflanterm__fb__context.html", "structflanterm__fb__context" ],
@@ -81,8 +85,12 @@ var annotated_dup =
     [ "redir_t", "structredir__t.html", null ],
     [ "ring_buffer_t", "structring__buffer__t.html", null ],
     [ "sdt", "structsdt.html", null ],
+    [ "spinlock_t", "structspinlock__t.html", null ],
     [ "subcmd_t", "structsubcmd__t.html", null ],
     [ "syscall_frame", "structsyscall__frame.html", null ],
+    [ "task", "structtask.html", null ],
     [ "task_info", "structtask__info.html", null ],
-    [ "user_task_spec", "structuser__task__spec.html", null ]
+    [ "user_runtime_t", "structuser__runtime__t.html", null ],
+    [ "user_task_spec", "structuser__task__spec.html", null ],
+    [ "userland_exec_ctx_t", "structuserland__exec__ctx__t.html", null ]
 ];

@@ -103,13 +103,13 @@ Include dependency graph for gdt.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="gdt_8h__incl.png" border="0" usemap="#asource_2includes_2gdt_8h" loading="lazy" alt=""/></div>
 <map name="asource_2includes_2gdt_8h" id="asource_2includes_2gdt_8h">
-<area shape="rect" title="The Header file for Global Descriptor Table." alt="" coords="8,5,164,35"/>
-<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="52,83,121,113"/>
-<area shape="poly" title=" " alt="" coords="87,33,89,68,84,67,85,38"/>
-<area shape="rect" title=" " alt="" coords="5,161,74,190"/>
-<area shape="poly" title=" " alt="" coords="79,112,58,149,54,146,75,115"/>
-<area shape="rect" title=" " alt="" coords="98,161,170,190"/>
-<area shape="poly" title=" " alt="" coords="96,111,120,148,114,148,94,116"/>
+<area shape="rect" title="The Header file for Global Descriptor Table." alt="" coords="10,5,166,35"/>
+<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="54,83,123,113"/>
+<area shape="poly" title=" " alt="" coords="89,33,91,68,86,67,87,38"/>
+<area shape="rect" title=" " alt="" coords="5,161,78,190"/>
+<area shape="poly" title=" " alt="" coords="82,112,60,149,56,146,77,115"/>
+<area shape="rect" title=" " alt="" coords="102,161,170,190"/>
+<area shape="poly" title=" " alt="" coords="98,111,122,148,116,148,96,116"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -139,6 +139,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a1dee95fcf5b686585b942ed28875b442" id="r_a1dee95fcf5b686585b942ed28875b442"><td class="memItemLeft"><a id="a1dee95fcf5b686585b942ed28875b442" name="a1dee95fcf5b686585b942ed28875b442"></a>
 void&#160;</td><td class="memItemRight"><b>setup_gdt</b> (void)</td></tr>
 <tr class="memdesc:a1dee95fcf5b686585b942ed28875b442"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the up GDT for the entire OS. <br /></td></tr>
+<tr class="memitem:aea512e6bf6db616c7df8d2b6b8c31942" id="r_aea512e6bf6db616c7df8d2b6b8c31942"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aea512e6bf6db616c7df8d2b6b8c31942">gdt_activate</a> (void)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -186,6 +187,24 @@ struct <a class="el" href="structgdt__ptr.html">gdt_ptr</a>&#160;</td><td class=
 <p>AHCI command header structure. </p>
 
 <p class="definition">Definition at line <a class="el" href="ahci_8h_source.html#l00001">1</a> of file <a class="el" href="ahci_8h_source.html">ahci.h</a>.</p>
+
+</div>
+</div>
+<a id="aea512e6bf6db616c7df8d2b6b8c31942" name="aea512e6bf6db616c7df8d2b6b8c31942"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea512e6bf6db616c7df8d2b6b8c31942">&#9670;&#160;</a></span>gdt_activate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gdt_activate </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Load the already-built kernel GDT on the calling CPU. </p>
 
 </div>
 </div>

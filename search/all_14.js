@@ -6,6 +6,8 @@ var searchData=
   ['unifont_2eh_3',['unifont.h',['../unifont_8h.html',1,'']]],
   ['update_5fsystem_5ftime_4',['update_system_time',['../rtc_8h.html#a61675a8c028f4837e5792c11f7c9d092',1,'rtc.h']]],
   ['user_5fmain_5',['user_main',['../sh__util_8h.html#ae2a71fc8adff1beeeef89ffaaee8a857',1,'sh_util.h']]],
-  ['user_5ftask_5fspec_6',['user_task_spec',['../structuser__task__spec.html',1,'']]],
-  ['userland_2eh_7',['userland.h',['../userland_8h.html',1,'']]]
+  ['user_5fruntime_5ft_6',['user_runtime_t',['../structuser__runtime__t.html',1,'']]],
+  ['user_5ftask_5fspec_7',['user_task_spec',['../structuser__task__spec.html',1,'']]],
+  ['userland_2eh_8',['userland.h',['../userland_8h.html',1,'']]],
+  ['userland_5fexec_5fctx_5ft_9',['userland_exec_ctx_t',['../structuserland__exec__ctx__t.html',1,'']]]
 ];

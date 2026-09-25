@@ -13,6 +13,7 @@ var strings_8h =
     [ "strlen", "strings_8h.html#aac566ab31a68561394a5c842d3e0d233", null ],
     [ "strncmp", "strings_8h.html#a3f9b56a8efca3a8594a17eb5def6d657", null ],
     [ "strncpy", "strings_8h.html#a65fdc17be44d37786f4e3f831dc9f958", null ],
+    [ "strstr", "strings_8h.html#ab57319b670052e4c93c1f6822c28d5ce", null ],
     [ "strtol", "strings_8h.html#aeafd194f4f11d5efd00480ac4b3fe497", null ],
     [ "trim", "strings_8h.html#a64f40039e0978f40677db6f6eab5f261", null ],
     [ "uint_to_string", "strings_8h.html#a708690034ca5d9acf94992d4b1f1b707", null ]

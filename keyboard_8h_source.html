@@ -99,38 +99,38 @@ $(function(){initNavTree('keyboard_8h_source.html','',''); });
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#define KEYBOARD_H</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;<a class="code" href="hal_8h.html">hal.h</a>&gt;</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;<a class="code" href="isr_8h.html">isr.h</a>&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;<a class="code" href="hal_8h.html">hal.h</a>&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;<a class="code" href="isr_8h.html">isr.h</a>&gt;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#define MOD_LCTRL       0x01U</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#define MOD_RCTRL       0x02U</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#define MOD_CTRL        0x03U</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#define MOD_LSHIFT      0x04U</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#define MOD_RSHIFT      0x08U</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#define MOD_SHIFT       0x4CU</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#define MOD_LALT        0x10U</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#define MOD_RALT        0x20U</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#define MOD_ALT         0x30U</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#define MOD_CAPSLOCK    0x40U</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#define MOD_NUMLOCK     0x80U</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#define MOD_LCTRL 0x01U</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#define MOD_RCTRL 0x02U</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#define MOD_CTRL 0x03U</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#define MOD_LSHIFT 0x04U</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#define MOD_RSHIFT 0x08U</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#define MOD_SHIFT 0x4CU</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#define MOD_LALT 0x10U</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#define MOD_RALT 0x20U</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#define MOD_ALT 0x30U</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#define MOD_CAPSLOCK 0x40U</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#define MOD_NUMLOCK 0x80U</span></div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#define CUR_UP          -1</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#define CUR_DOWN        -2</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#define CUR_LEFT        -3</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#define CUR_RIGHT       -4</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#define CUR_UP -1</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#define CUR_DOWN -2</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#define CUR_LEFT -3</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#define CUR_RIGHT -4</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#define KB_BUFFER_SIZE  256</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#define KB_BUFFER_SIZE 256</span></div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="keyboard_8h.html#af2e85d5c7960471f28586019533f8571">   44</a></span><span class="keywordtype">char</span> <a class="code hl_function" href="keyboard_8h.html#af2e85d5c7960471f28586019533f8571">scancode_to_char</a>(<span class="keywordtype">int</span> scancode, <span class="keywordtype">bool</span> uppercase);</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span></div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="keyboard_8h.html#a5aae8263abc1dec4671638e7ed4af681">   50</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="keyboard_8h.html#a5aae8263abc1dec4671638e7ed4af681">keyboard_init</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="keyboard_8h.html#a7e361042b1f078db45f230a7eacc0e6c">   56</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="keyboard_8h.html#a7e361042b1f078db45f230a7eacc0e6c">process_keyboard</a>(<a class="code hl_struct" href="structInterruptFrame.html">InterruptFrame</a>* frame);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="keyboard_8h.html#a7e361042b1f078db45f230a7eacc0e6c">   56</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="keyboard_8h.html#a7e361042b1f078db45f230a7eacc0e6c">process_keyboard</a>(<a class="code hl_struct" href="structInterruptFrame.html">InterruptFrame</a> *frame);</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span></div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="keyboard_8h.html#a36296437f8923f5221b3eeaca3f40793">   61</a></span>uint8_t <a class="code hl_function" href="keyboard_8h.html#a36296437f8923f5221b3eeaca3f40793">getmodifiers</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span></div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="keyboard_8h.html#a85914aa616a3d3af4d94ca8c93ba78dc">   68</a></span>uint8_t <a class="code hl_function" href="keyboard_8h.html#a85914aa616a3d3af4d94ca8c93ba78dc">getc</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="keyboard_8h.html#a39a922a1701c3b69046af3146b46abf5">   68</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="keyboard_8h.html#a39a922a1701c3b69046af3146b46abf5">getc</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span></div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="keyboard_8h.html#a1f8ef8069d08bf8805bd6c02342835fa">   75</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="keyboard_8h.html#a1f8ef8069d08bf8805bd6c02342835fa">getc_nonblock</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span></div>
@@ -144,13 +144,13 @@ $(function(){initNavTree('keyboard_8h_source.html','',''); });
 <div class="ttc" id="aisr_8h_html"><div class="ttname"><a href="isr_8h.html">isr.h</a></div><div class="ttdoc">Interrupts handler header.</div></div>
 <div class="ttc" id="akeyboard_8h_html_a1f8ef8069d08bf8805bd6c02342835fa"><div class="ttname"><a href="keyboard_8h.html#a1f8ef8069d08bf8805bd6c02342835fa">getc_nonblock</a></div><div class="ttdeci">int getc_nonblock(void)</div><div class="ttdoc">Non-blocking getc from keyboard buffer.</div></div>
 <div class="ttc" id="akeyboard_8h_html_a36296437f8923f5221b3eeaca3f40793"><div class="ttname"><a href="keyboard_8h.html#a36296437f8923f5221b3eeaca3f40793">getmodifiers</a></div><div class="ttdeci">uint8_t getmodifiers(void)</div><div class="ttdoc">Gets the current modifiers (like lshift, rshift, etc.).</div></div>
+<div class="ttc" id="akeyboard_8h_html_a39a922a1701c3b69046af3146b46abf5"><div class="ttname"><a href="keyboard_8h.html#a39a922a1701c3b69046af3146b46abf5">getc</a></div><div class="ttdeci">int getc(void)</div><div class="ttdoc">Gets the last pressed char.</div></div>
 <div class="ttc" id="akeyboard_8h_html_a5aae8263abc1dec4671638e7ed4af681"><div class="ttname"><a href="keyboard_8h.html#a5aae8263abc1dec4671638e7ed4af681">keyboard_init</a></div><div class="ttdeci">void keyboard_init(void)</div><div class="ttdoc">Initalizes the RingBuffer to store the characters.</div></div>
 <div class="ttc" id="akeyboard_8h_html_a7e361042b1f078db45f230a7eacc0e6c"><div class="ttname"><a href="keyboard_8h.html#a7e361042b1f078db45f230a7eacc0e6c">process_keyboard</a></div><div class="ttdeci">void process_keyboard(InterruptFrame *frame)</div><div class="ttdoc">This is a function that is ran even when the sleep() function is called.</div></div>
-<div class="ttc" id="akeyboard_8h_html_a85914aa616a3d3af4d94ca8c93ba78dc"><div class="ttname"><a href="keyboard_8h.html#a85914aa616a3d3af4d94ca8c93ba78dc">getc</a></div><div class="ttdeci">uint8_t getc(void)</div><div class="ttdoc">Gets the last pressed char.</div></div>
 <div class="ttc" id="akeyboard_8h_html_ac4ca66f7908e020974c969423b7389df"><div class="ttname"><a href="keyboard_8h.html#ac4ca66f7908e020974c969423b7389df">keyboard_flush_buffer</a></div><div class="ttdeci">void keyboard_flush_buffer(void)</div><div class="ttdoc">Clears pending keyboard input so stale keypresses are discarded.</div></div>
 <div class="ttc" id="akeyboard_8h_html_aec8a675e3b6bfa9219b1a349006f6ee5"><div class="ttname"><a href="keyboard_8h.html#aec8a675e3b6bfa9219b1a349006f6ee5">handle_char_from_scancode</a></div><div class="ttdeci">int handle_char_from_scancode(uint8_t data)</div><div class="ttdoc">Converts the scancode passed to it to ASCII characters.</div></div>
 <div class="ttc" id="akeyboard_8h_html_af2e85d5c7960471f28586019533f8571"><div class="ttname"><a href="keyboard_8h.html#af2e85d5c7960471f28586019533f8571">scancode_to_char</a></div><div class="ttdeci">char scancode_to_char(int scancode, bool uppercase)</div><div class="ttdoc">Converts the scancode to character.</div></div>
-<div class="ttc" id="astructInterruptFrame_html"><div class="ttname"><a href="structInterruptFrame.html">InterruptFrame</a></div><div class="ttdef"><b>Definition</b> <a href="isr_8h_source.html#l00018">isr.h:19</a></div></div>
+<div class="ttc" id="astructInterruptFrame_html"><div class="ttname"><a href="structInterruptFrame.html">InterruptFrame</a></div><div class="ttdef"><b>Definition</b> <a href="isr_8h_source.html#l00018">isr.h:18</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

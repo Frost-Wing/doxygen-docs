@@ -1,7 +1,9 @@
 <map id="source/includes/acpi.h" name="source/includes/acpi.h">
-<area shape="rect" id="Node000001" title="The ACPI Header." alt="" coords="7,5,165,35"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,83,74,113"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,34,58,71,54,68,75,37"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="98,83,170,113"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="96,33,120,70,114,70,94,38"/>
+<area shape="rect" id="Node000001" title="The ACPI Header." alt="" coords="66,5,224,35"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,83,85,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,35,77,76,74,71,124,37"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="109,83,181,113"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="147,34,147,68,143,66,143,38"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="206,83,274,113"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="164,33,213,73,208,73,162,38"/>
 </map>

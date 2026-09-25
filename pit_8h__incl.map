@@ -1,37 +1,38 @@
 <map id="source/includes/pit.h" name="source/includes/pit.h">
-<area shape="rect" id="Node000001" title="Headers for PIT." alt="" coords="38,5,189,35"/>
-<area shape="rect" id="Node000002" href="$basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="202,316,271,346"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,34,228,301,222,302,117,37"/>
-<area shape="rect" id="Node000005" href="$isr_8h.html" title="Interrupts handler header." alt="" coords="208,83,254,113"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="135,33,199,73,194,75,136,38"/>
-<area shape="rect" id="Node000011" href="$hal_8h.html" title="Header file for Hardware Abstraction Layer &#45;&gt; Source from GoGX OS." alt="" coords="25,238,77,268"/>
-<area shape="poly" id="edge22_Node000001_Node000011" title=" " alt="" coords="108,38,97,84,61,224,55,223,92,82,110,33"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="166,394,234,423"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="232,345,215,381,212,378,227,348"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="528,394,600,423"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="272,338,515,394,511,397,271,343"/>
-<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="206,108,164,124,110,151,57,189,34,213,16,239,9,264,12,287,25,308,45,328,98,362,154,389,149,391,95,367,41,332,21,311,7,288,3,263,11,237,30,209,53,185,107,146,162,119,210,104"/>
-<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="253,97,327,102,375,110,427,122,480,140,530,164,576,196,614,237,629,264,633,290,628,316,617,347,607,367,593,385,590,380,603,364,612,345,623,315,627,290,624,266,610,240,573,200,528,168,478,144,425,127,374,115,326,108,255,102"/>
-<area shape="rect" id="Node000006" href="$graphics_8h.html" title="Contains all the print functions." alt="" coords="294,161,378,190"/>
-<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="251,111,307,151,301,152,251,116"/>
-<area shape="poly" id="edge12_Node000006_Node000002" title=" " alt="" coords="296,192,268,212,254,225,243,240,233,270,233,302,229,299,228,269,238,237,250,221,265,208,300,189"/>
-<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="296,192,262,213,227,240,207,265,196,288,191,313,192,345,197,379,192,377,187,346,186,313,191,286,203,262,224,236,259,208,300,189"/>
-<area shape="poly" id="edge9_Node000006_Node000004" title=" " alt="" coords="379,178,436,186,498,198,554,214,575,225,589,237,599,254,604,272,604,311,595,349,581,382,577,378,590,347,599,310,599,273,594,256,585,240,572,229,552,219,497,203,435,191,379,184"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="252,238,324,268"/>
-<area shape="poly" id="edge10_Node000006_Node000007" title=" " alt="" coords="329,189,307,227,303,223,325,193"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="397,316,476,346"/>
-<area shape="poly" id="edge11_Node000006_Node000008" title=" " alt="" coords="377,188,411,208,425,221,437,237,446,269,445,302,440,299,441,270,433,240,422,225,407,212,376,194"/>
-<area shape="rect" id="Node000009" href="$strings_8h.html" title="The header file for strings.c." alt="" coords="348,238,423,268"/>
-<area shape="poly" id="edge13_Node000006_Node000009" title=" " alt="" coords="346,188,371,226,365,225,345,193"/>
-<area shape="rect" id="Node000010" href="$stream_8h.html" title="Unix like standard streams." alt="" coords="498,238,574,268"/>
-<area shape="poly" id="edge18_Node000006_Node000010" title=" " alt="" coords="374,188,487,232,482,233,374,194"/>
-<area shape="poly" id="edge17_Node000009_Node000002" title=" " alt="" coords="360,268,279,311,276,306,355,270"/>
-<area shape="poly" id="edge14_Node000009_Node000003" title=" " alt="" coords="373,268,285,348,233,387,231,382,281,344,368,269"/>
-<area shape="poly" id="edge15_Node000009_Node000004" title=" " alt="" coords="383,266,377,306,379,326,386,344,412,369,445,386,480,397,516,405,510,405,478,402,443,391,409,374,382,347,373,327,371,306,379,270"/>
-<area shape="poly" id="edge16_Node000009_Node000008" title=" " alt="" coords="396,266,421,304,416,302,394,271"/>
-<area shape="poly" id="edge21_Node000010_Node000003" title=" " alt="" coords="535,267,521,308,507,330,490,348,446,368,383,384,250,404,249,399,382,378,445,362,487,343,503,327,516,306,531,270"/>
-<area shape="poly" id="edge19_Node000010_Node000004" title=" " alt="" coords="541,267,561,380,557,377,537,271"/>
-<area shape="poly" id="edge20_Node000010_Node000008" title=" " alt="" coords="520,268,468,309,466,304,515,270"/>
-<area shape="poly" id="edge24_Node000011_Node000002" title=" " alt="" coords="77,262,190,308,185,311,77,268"/>
-<area shape="poly" id="edge23_Node000011_Node000003" title=" " alt="" coords="66,266,178,381,174,384,63,271"/>
+<area shape="rect" id="Node000001" title="Headers for PIT." alt="" coords="84,5,234,35"/>
+<area shape="rect" id="Node000002" href="$basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="233,316,303,346"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,34,261,301,255,301,162,37"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="147,394,216,423"/>
+<area shape="poly" id="edge25_Node000001_Node000004" title=" " alt="" coords="125,38,90,59,51,90,34,108,20,128,11,150,8,174,8,254,11,278,20,300,34,319,51,337,92,366,135,388,130,390,89,370,48,341,30,323,16,302,6,279,3,255,3,174,6,149,16,126,30,105,47,86,87,55,128,33"/>
+<area shape="rect" id="Node000005" href="$hal_8h.html" title="Header file for Hardware Abstraction Layer &#45;&gt; Source from GoGX OS." alt="" coords="93,238,144,268"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="158,34,126,224,121,223,154,37"/>
+<area shape="rect" id="Node000006" href="$isr_8h.html" title="Interrupts handler header." alt="" coords="313,83,359,113"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="192,33,301,80,297,82,192,38"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="578,394,651,423"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="303,337,565,395,561,397,303,342"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="254,345,210,385,208,381,249,347"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="145,265,229,308,224,310,144,270"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="126,267,173,379,167,379,123,271"/>
+<area shape="poly" id="edge23_Node000006_Node000003" title=" " alt="" coords="358,98,426,105,516,126,563,144,609,168,649,199,682,237,688,255,691,282,688,314,678,347,665,368,648,386,645,381,661,365,674,345,683,313,686,282,683,256,678,240,645,202,606,173,561,149,515,132,425,111,360,103"/>
+<area shape="poly" id="edge24_Node000006_Node000004" title=" " alt="" coords="311,105,263,120,198,145,165,163,134,184,106,210,84,240,76,259,76,278,82,298,92,317,120,353,153,384,148,384,116,357,87,320,77,300,71,279,71,258,79,237,102,206,130,180,162,158,196,140,261,115,315,102"/>
+<area shape="rect" id="Node000007" href="$graphics_8h.html" title="Contains all the print functions." alt="" coords="363,161,448,190"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="349,111,385,149,379,149,349,116"/>
+<area shape="poly" id="edge9_Node000007_Node000002" title=" " alt="" coords="371,192,341,213,310,240,291,271,278,303,274,300,286,268,306,237,338,209,376,189"/>
+<area shape="poly" id="edge12_Node000007_Node000003" title=" " alt="" coords="448,178,504,186,567,198,622,214,643,225,657,237,667,254,671,273,667,312,653,350,635,383,632,378,648,348,662,311,666,273,662,256,653,240,640,229,620,219,565,203,503,191,448,184"/>
+<area shape="poly" id="edge13_Node000007_Node000004" title=" " alt="" coords="366,192,327,213,286,240,250,275,224,317,193,381,189,377,219,315,246,272,282,236,325,209,370,190"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="418,238,491,268"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="415,188,440,226,435,225,414,193"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="447,316,526,346"/>
+<area shape="poly" id="edge11_Node000007_Node000009" title=" " alt="" coords="445,188,479,208,493,221,505,237,511,253,511,271,502,304,498,300,506,270,505,254,500,240,489,225,475,212,445,193"/>
+<area shape="rect" id="Node000010" href="$stream_8h.html" title="Unix like standard streams." alt="" coords="566,238,642,268"/>
+<area shape="poly" id="edge14_Node000007_Node000010" title=" " alt="" coords="443,188,555,232,550,233,443,194"/>
+<area shape="rect" id="Node000011" href="$strings_8h.html" title="The header file for strings.c." alt="" coords="320,238,395,268"/>
+<area shape="poly" id="edge18_Node000007_Node000011" title=" " alt="" coords="398,189,376,227,372,223,394,193"/>
+<area shape="poly" id="edge16_Node000010_Node000003" title=" " alt="" coords="607,267,615,379,610,377,603,270"/>
+<area shape="poly" id="edge17_Node000010_Node000004" title=" " alt="" coords="600,267,578,309,561,330,540,348,515,359,482,370,398,386,231,406,230,401,397,381,481,364,513,354,537,343,557,327,574,306,596,270"/>
+<area shape="poly" id="edge15_Node000010_Node000009" title=" " alt="" coords="584,268,522,310,520,305,579,270"/>
+<area shape="poly" id="edge19_Node000011_Node000002" title=" " alt="" coords="343,267,298,308,295,304,338,270"/>
+<area shape="poly" id="edge21_Node000011_Node000003" title=" " alt="" coords="367,266,396,305,415,326,436,343,467,361,500,376,566,398,560,397,498,381,465,366,433,348,411,330,391,308,365,271"/>
+<area shape="poly" id="edge22_Node000011_Node000004" title=" " alt="" coords="356,267,343,307,332,329,317,348,275,377,231,396,229,391,273,373,313,344,327,326,338,305,352,270"/>
+<area shape="poly" id="edge20_Node000011_Node000009" title=" " alt="" coords="382,266,452,308,447,308,381,271"/>
 </map>

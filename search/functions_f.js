@@ -16,8 +16,13 @@ var searchData=
   ['strlen_13',['strlen',['../strings_8h.html#aac566ab31a68561394a5c842d3e0d233',1,'strings.h']]],
   ['strncmp_14',['strncmp',['../strings_8h.html#a3f9b56a8efca3a8594a17eb5def6d657',1,'strings.h']]],
   ['strncpy_15',['strncpy',['../strings_8h.html#a65fdc17be44d37786f4e3f831dc9f958',1,'strings.h']]],
-  ['strtol_16',['strtol',['../strings_8h.html#aeafd194f4f11d5efd00480ac4b3fe497',1,'strings.h']]],
-  ['syscall_5fdispatch_17',['syscall_dispatch',['../syscalls_8h.html#af4d7da009c16842486f5bdc212b9d967',1,'syscalls.h']]],
-  ['syscall_5fentry_18',['syscall_entry',['../idt_8h.html#acb026f235ea1f3cf01f77bdcfa31fd12',1,'idt.h']]],
-  ['syscall_5fhandler_19',['syscall_handler',['../syscalls_8h.html#a27668408d7058ae5c48c4f2b66473722',1,'syscalls.h']]]
+  ['strstr_16',['strstr',['../strings_8h.html#ab57319b670052e4c93c1f6822c28d5ce',1,'strings.h']]],
+  ['strtol_17',['strtol',['../strings_8h.html#aeafd194f4f11d5efd00480ac4b3fe497',1,'strings.h']]],
+  ['syscall_5fdispatch_18',['syscall_dispatch',['../syscalls_8h.html#af4d7da009c16842486f5bdc212b9d967',1,'syscalls.h']]],
+  ['syscall_5fentry_19',['syscall_entry',['../idt_8h.html#acb026f235ea1f3cf01f77bdcfa31fd12',1,'idt.h']]],
+  ['syscall_5fhandler_20',['syscall_handler',['../syscalls_8h.html#a27668408d7058ae5c48c4f2b66473722',1,'syscalls.h']]],
+  ['syslog_5fclear_21',['syslog_clear',['../syslog_8h.html#accc9bde6e408c4a9afb31375181632ec',1,'syslog.h']]],
+  ['syslog_5finit_22',['syslog_init',['../syslog_8h.html#ace840ba86e233d40dbffc915b4b0fa4a',1,'syslog.h']]],
+  ['syslog_5fprintf_23',['syslog_printf',['../syslog_8h.html#a02a6d7d2c3afc7ef0df61f2f150f4508',1,'syslog.h']]],
+  ['syslog_5fputc_24',['syslog_putc',['../syslog_8h.html#a4fe8e2039feb49f46b47f2e520b99210',1,'syslog.h']]]
 ];

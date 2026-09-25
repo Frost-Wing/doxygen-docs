@@ -95,8 +95,8 @@ $(function(){initNavTree('basics_8h_source.html','',''); });
 </div><!--header-->
 <div class="contents">
 <a href="basics_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">typedef</span> uintptr_t int_pointer;</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">typedef</span> uint64_t uint64;</div>
@@ -106,11 +106,11 @@ $(function(){initNavTree('basics_8h_source.html','',''); });
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#define null NULL</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">typedef</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* cstring;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">typedef</span> <span class="keywordtype">char</span>* string;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">typedef</span> <span class="keyword">const</span> <span class="keywordtype">char</span> *cstring;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">typedef</span> <span class="keywordtype">char</span> *string;</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#define GiB *1024*1024*1024ULL</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#define MiB *1024*1024ULL</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#define GiB *1024 * 1024 * 1024ULL</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#define MiB *1024 * 1024ULL</span></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#define KiB *1024ULL</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#define yes true</span></div>
@@ -133,7 +133,12 @@ $(function(){initNavTree('basics_8h_source.html','',''); });
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#define deprecated_message(msg)</span></div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="basics_8h.html#a5e3385cbb6fb22fc25c07d7f6827f42a">   53</a></span><span class="preprocessor">#define assert(expression, file, line) if(!(expression)){printf(&quot;\x1b[31mAssert Failed! at \x1b[36m%s:%d\x1b[0m =&gt; \x1b[32m%s\x1b[0m&quot;, file, line, #expression);}</span></div>
+<div class="foldopen" id="foldopen00053" data-start="" data-end="">
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="basics_8h.html#a5e3385cbb6fb22fc25c07d7f6827f42a">   53</a></span><span class="preprocessor">#define assert(expression, file, line)                                                                          \</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">    if (!(expression)) {                                                                                        \</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">        printf(&quot;\x1b[31mAssert Failed! at \x1b[36m%s:%d\x1b[0m =&gt; \x1b[32m%s\x1b[0m&quot;, file, line, #expression); \</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">    }</span></div>
+</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

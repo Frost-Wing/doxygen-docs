@@ -4,7 +4,7 @@ var searchData=
   ['idtentry_1',['IDTEntry',['../structIDTEntry.html',1,'']]],
   ['idtpointer_2',['IDTPointer',['../structIDTPointer.html',1,'']]],
   ['inb_3',['inb',['../hal_8h.html#a34feca64a4f1e4dc09a64e8693f63bfa',1,'hal.h']]],
-  ['info_4',['info',['../graphics_8h.html#aee2e1461792f971c8adaa6bede6e2bdd',1,'graphics.h']]],
+  ['info_4',['info',['../graphics_8h.html#a0fa169de644c00dd9f48a4da8c7904cd',1,'graphics.h']]],
   ['init_5fcommand_5flist_5',['init_command_list',['../sh__util_8h.html#ac35856e52296897204b726be3727b806',1,'sh_util.h']]],
   ['init_5fhardware_5fabstraction_5flayer_6',['init_hardware_abstraction_layer',['../hal_8h.html#a45870ab56eb3ffc0f812210a9d54c894',1,'hal.h']]],
   ['init_5frtc_7',['init_rtc',['../rtc_8h.html#a88533ad02465ce52d4e6de7b2095ec32',1,'rtc.h']]],

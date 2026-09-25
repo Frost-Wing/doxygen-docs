@@ -98,18 +98,34 @@ $(function(){initNavTree('ringbuffer_8h.html','',''); });
 <p>The kernel-wide ring buffer mainly for kernel get char.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="basics_8h_source.html">basics.h</a>&gt;</code><br />
+<code>#include &lt;spinlock.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for ringbuffer.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="ringbuffer_8h__incl.png" border="0" usemap="#asource_2includes_2ringbuffer_8h" loading="lazy" alt=""/></div>
 <map name="asource_2includes_2ringbuffer_8h" id="asource_2includes_2ringbuffer_8h">
 <area shape="rect" title="The kernel&#45;wide ring buffer mainly for kernel get char." alt="" coords="5,5,201,35"/>
-<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="68,83,138,113"/>
-<area shape="poly" title=" " alt="" coords="104,33,106,68,100,67,102,38"/>
-<area shape="rect" title=" " alt="" coords="22,161,90,190"/>
-<area shape="poly" title=" " alt="" coords="96,112,75,149,71,146,92,115"/>
-<area shape="rect" title=" " alt="" coords="115,161,187,190"/>
-<area shape="poly" title=" " alt="" coords="113,111,137,148,131,147,111,116"/>
+<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="68,161,138,190"/>
+<area shape="poly" title=" " alt="" coords="100,33,92,83,92,112,98,146,93,145,87,113,87,83,98,38"/>
+<area shape="rect" href="spinlock_8h_source.html" title=" " alt="" coords="102,83,184,113"/>
+<area shape="poly" title=" " alt="" coords="111,33,131,69,126,69,110,38"/>
+<area shape="rect" title=" " alt="" coords="20,238,92,268"/>
+<area shape="poly" title=" " alt="" coords="96,189,75,226,71,223,92,192"/>
+<area shape="rect" title=" " alt="" coords="117,238,185,268"/>
+<area shape="poly" title=" " alt="" coords="113,189,137,225,131,225,111,193"/>
+<area shape="poly" title=" " alt="" coords="137,111,120,148,115,145,134,115"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="ringbuffer_8h__dep__incl.png" border="0" usemap="#asource_2includes_2ringbuffer_8hdep" loading="lazy" alt=""/></div>
+<map name="asource_2includes_2ringbuffer_8hdep" id="asource_2includes_2ringbuffer_8hdep">
+<area shape="rect" title="The kernel&#45;wide ring buffer mainly for kernel get char." alt="" coords="82,5,278,35"/>
+<area shape="rect" href="klog_8h.html" title="Kernel logging subsystem backed by a ring buffer, with PIT&#45;derived timestamps." alt="" coords="5,83,166,113"/>
+<area shape="poly" title=" " alt="" coords="153,44,105,85,102,80,148,46"/>
+<area shape="rect" href="syslog_8h.html" title="Syscall logging subsystem backed by a ring buffer, with PIT&#45;derived timestamps." alt="" coords="190,83,362,113"/>
+<area shape="poly" title=" " alt="" coords="211,42,261,83,256,82,209,47"/>
 </map>
 </div>
 </div>
@@ -130,6 +146,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a37da2796cb4a8922a2bdae6d867262f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if buffer is empty.  <br /></td></tr>
 <tr class="memitem:a4bd4ec4bfe4f65572556105c80eef269" id="r_a4bd4ec4bfe4f65572556105c80eef269"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a4bd4ec4bfe4f65572556105c80eef269">rb_push</a> (<a class="el" href="structring__buffer__t.html">ring_buffer_t</a> *rb, const void *data)</td></tr>
 <tr class="memdesc:a4bd4ec4bfe4f65572556105c80eef269"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push an element into the buffer.  <br /></td></tr>
+<tr class="memitem:a9478422047bee2b073509c475fa2b0b0" id="r_a9478422047bee2b073509c475fa2b0b0"><td class="memItemLeft"><a id="a9478422047bee2b073509c475fa2b0b0" name="a9478422047bee2b073509c475fa2b0b0"></a>
+int&#160;</td><td class="memItemRight"><b>rb_push_overwrite</b> (<a class="el" href="structring__buffer__t.html">ring_buffer_t</a> *rb, const void *data)</td></tr>
 <tr class="memitem:a4d28de42ecf23d7e40b3d56e2076f23b" id="r_a4d28de42ecf23d7e40b3d56e2076f23b"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a4d28de42ecf23d7e40b3d56e2076f23b">rb_pop</a> (<a class="el" href="structring__buffer__t.html">ring_buffer_t</a> *rb, void *out)</td></tr>
 <tr class="memdesc:a4d28de42ecf23d7e40b3d56e2076f23b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pop an element from the buffer.  <br /></td></tr>
 <tr class="memitem:a281aefbd3e27f48d02715707aae1e6ed" id="r_a281aefbd3e27f48d02715707aae1e6ed"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a281aefbd3e27f48d02715707aae1e6ed">rb_peek</a> (const <a class="el" href="structring__buffer__t.html">ring_buffer_t</a> *rb, void *out)</td></tr>

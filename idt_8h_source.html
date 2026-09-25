@@ -96,58 +96,56 @@ $(function(){initNavTree('idt_8h_source.html','',''); });
 <div class="contents">
 <a href="idt_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#ifndef IDT_H</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#define IDT_H</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#define ICW1_INIT 0x10</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#define ICW1_ICW4 0x01</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#define ICW4_8086 0x01</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#define IA32_EFER   0xC0000080</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#define IA32_STAR   0xC0000081</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#define IA32_LSTAR  0xC0000082</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#define IA32_FMASK  0xC0000084</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#define EFER_SCE (1 &lt;&lt; 0)</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="foldopen" id="foldopen00029" data-start="{" data-end="};">
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="structIDTEntry.html">   29</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structIDTEntry.html">IDTEntry</a></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>{</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        uint16_t offset_1;        <span class="comment">// offset bits 0..15</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        uint16_t selector;        <span class="comment">// a code segment selector in GDT or LDT</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        uint8_t  ist;             <span class="comment">// bits 0..2 holds Interrupt Stack Table offset, rest of bits zero.</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        uint8_t  type_attributes; <span class="comment">// gate type, dpl, and p fields</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        uint16_t offset_2;        <span class="comment">// offset bits 16..31</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        uint32_t offset_3;        <span class="comment">// offset bits 32..63</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        uint32_t zero;            <span class="comment">// reserved</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>}<a class="code hl_variable" href="acpi_8h.html#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a>((packed)) <a class="code hl_struct" href="structIDTEntry.html">IDTEntry</a>;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#ifndef IDT_H</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#define IDT_H</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#define ICW1_INIT 0x10</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#define ICW1_ICW4 0x01</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#define ICW4_8086 0x01</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#define IA32_EFER 0xC0000080</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#define IA32_STAR 0xC0000081</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#define IA32_LSTAR 0xC0000082</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#define IA32_FMASK 0xC0000084</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#define EFER_SCE (1 &lt;&lt; 0)</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="foldopen" id="foldopen00028" data-start="{" data-end="};">
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="structIDTEntry.html">   28</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structIDTEntry.html">IDTEntry</a> {</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    uint16_t offset_1;       <span class="comment">// offset bits 0..15</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    uint16_t selector;       <span class="comment">// a code segment selector in GDT or LDT</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    uint8_t ist;             <span class="comment">// bits 0..2 holds Interrupt Stack Table offset, rest of bits zero.</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    uint8_t type_attributes; <span class="comment">// gate type, dpl, and p fields</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    uint16_t offset_2;       <span class="comment">// offset bits 16..31</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    uint32_t offset_3;       <span class="comment">// offset bits 32..63</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    uint32_t zero;           <span class="comment">// reserved</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>} <a class="code hl_variable" href="acpi_8h.html#adc535ce2c03c209b6ccb134a8c8b0adc">__attribute__</a>((packed)) <a class="code hl_struct" href="structIDTEntry.html">IDTEntry</a>;</div>
 </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="foldopen" id="foldopen00040" data-start="{" data-end="};">
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="structIDTPointer.html">   40</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structIDTPointer.html">IDTPointer</a> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>{</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        uint16_t size;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        uint64_t offset;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>}<a class="code hl_variable" href="acpi_8h.html#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a>((packed)) <a class="code hl_struct" href="structIDTPointer.html">IDTPointer</a>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="foldopen" id="foldopen00038" data-start="{" data-end="};">
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="structIDTPointer.html">   38</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structIDTPointer.html">IDTPointer</a> {</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    uint16_t size;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    uint64_t offset;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>} <a class="code hl_variable" href="acpi_8h.html#adc535ce2c03c209b6ccb134a8c8b0adc">__attribute__</a>((packed)) <a class="code hl_struct" href="structIDTPointer.html">IDTPointer</a>;</div>
 </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="idt_8h.html#acb026f235ea1f3cf01f77bdcfa31fd12">   50</a></span><span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code hl_function" href="idt_8h.html#acb026f235ea1f3cf01f77bdcfa31fd12">syscall_entry</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="idt_8h.html#a59c3fd1e057e885d3932ad7f35a1164e">   56</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="idt_8h.html#a59c3fd1e057e885d3932ad7f35a1164e">init_syscall</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keywordtype">void</span> remap_pic(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="keywordtype">void</span> initIdt(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keywordtype">void</span> setIdtEntry(<a class="code hl_struct" href="structIDTEntry.html">IDTEntry</a> *target, uint64_t offset, uint16_t selector, uint8_t ist, uint8_t type_attributes);</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aacpi_8h_html_a720173e80c53ae6b5fa163fd6e81ad27"><div class="ttname"><a href="acpi_8h.html#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a></div><div class="ttdeci">struct acpi_gas __attribute__</div><div class="ttdoc">Physical Region Descriptor Table (PRDT) entry.</div><div class="ttdef"><b>Definition</b> <a href="ahci_8h_source.html#l00057">ahci.h:71</a></div></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="idt_8h.html#acb026f235ea1f3cf01f77bdcfa31fd12">   47</a></span><span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code hl_function" href="idt_8h.html#acb026f235ea1f3cf01f77bdcfa31fd12">syscall_entry</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="idt_8h.html#a59c3fd1e057e885d3932ad7f35a1164e">   53</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="idt_8h.html#a59c3fd1e057e885d3932ad7f35a1164e">init_syscall</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keywordtype">void</span> remap_pic(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keywordtype">void</span> initIdt(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keywordtype">void</span> idt_activate(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keywordtype">void</span> setIdtEntry(<a class="code hl_struct" href="structIDTEntry.html">IDTEntry</a> *target, uint64_t offset, uint16_t selector, uint8_t ist, uint8_t type_attributes);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aacpi_8h_html_adc535ce2c03c209b6ccb134a8c8b0adc"><div class="ttname"><a href="acpi_8h.html#adc535ce2c03c209b6ccb134a8c8b0adc">__attribute__</a></div><div class="ttdeci">struct acpi_gas __attribute__</div><div class="ttdoc">Physical Region Descriptor Table (PRDT) entry.</div><div class="ttdef"><b>Definition</b> <a href="ahci_8h_source.html#l00056">ahci.h:70</a></div></div>
 <div class="ttc" id="aidt_8h_html_a59c3fd1e057e885d3932ad7f35a1164e"><div class="ttname"><a href="idt_8h.html#a59c3fd1e057e885d3932ad7f35a1164e">init_syscall</a></div><div class="ttdeci">void init_syscall(void)</div><div class="ttdoc">Tells the CPU to use the syscall instruction.</div></div>
 <div class="ttc" id="aidt_8h_html_acb026f235ea1f3cf01f77bdcfa31fd12"><div class="ttname"><a href="idt_8h.html#acb026f235ea1f3cf01f77bdcfa31fd12">syscall_entry</a></div><div class="ttdeci">void syscall_entry(void)</div><div class="ttdoc">Located inside /interrupts/syscall-x86_64.asm.</div></div>
-<div class="ttc" id="astructIDTEntry_html"><div class="ttname"><a href="structIDTEntry.html">IDTEntry</a></div><div class="ttdef"><b>Definition</b> <a href="#l00029">idt.h:30</a></div></div>
-<div class="ttc" id="astructIDTPointer_html"><div class="ttname"><a href="structIDTPointer.html">IDTPointer</a></div><div class="ttdef"><b>Definition</b> <a href="#l00040">idt.h:41</a></div></div>
+<div class="ttc" id="astructIDTEntry_html"><div class="ttname"><a href="structIDTEntry.html">IDTEntry</a></div><div class="ttdef"><b>Definition</b> <a href="#l00028">idt.h:28</a></div></div>
+<div class="ttc" id="astructIDTPointer_html"><div class="ttname"><a href="structIDTPointer.html">IDTPointer</a></div><div class="ttdef"><b>Definition</b> <a href="#l00038">idt.h:38</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

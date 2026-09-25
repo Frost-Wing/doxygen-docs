@@ -99,11 +99,11 @@ $(function(){initNavTree('tss_8h_source.html','',''); });
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#ifndef TSS_H</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#define TSS_H</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span>   <span class="comment">// uint64_t, uint8_t, etc.</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;<a class="code" href="graphics_8h.html">graphics.h</a>&gt;</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;<a class="code" href="gdt_8h.html">gdt.h</a>&gt;</span>      <span class="comment">// gdt_set_entry</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span> <span class="comment">// uint64_t, uint8_t, etc.</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;<a class="code" href="gdt_8h.html">gdt.h</a>&gt;</span>    <span class="comment">// gdt_set_entry</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;<a class="code" href="graphics_8h.html">graphics.h</a>&gt;</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">struct </span><a class="code hl_variable" href="acpi_8h.html#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a>((packed)) tss_entry {</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">struct </span><a class="code hl_variable" href="acpi_8h.html#adc535ce2c03c209b6ccb134a8c8b0adc">__attribute__</a>((packed)) tss_entry {</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    uint32_t reserved0;</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    uint64_t rsp0;</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    uint64_t rsp1;</div>
@@ -122,13 +122,13 @@ $(function(){initNavTree('tss_8h_source.html','',''); });
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>};</div>
 </div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">struct </span><a class="code hl_variable" href="acpi_8h.html#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a>((packed)) tss_descriptor {</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">struct </span><a class="code hl_variable" href="acpi_8h.html#adc535ce2c03c209b6ccb134a8c8b0adc">__attribute__</a>((packed)) tss_descriptor {</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    uint16_t limit_low;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    uint16_t base_low;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    uint8_t  base_mid;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    uint8_t  access;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    uint8_t  gran;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    uint8_t  base_high;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    uint8_t base_mid;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    uint8_t access;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    uint8_t gran;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    uint8_t base_high;</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    uint32_t base_upper;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    uint32_t reserved;</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>};</div>
@@ -143,7 +143,7 @@ $(function(){initNavTree('tss_8h_source.html','',''); });
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="tss_8h.html#aca3bbd3b49a5679586303b6638d519cf">   74</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="tss_8h.html#aca3bbd3b49a5679586303b6638d519cf">tss_load</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aacpi_8h_html_a720173e80c53ae6b5fa163fd6e81ad27"><div class="ttname"><a href="acpi_8h.html#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a></div><div class="ttdeci">struct acpi_gas __attribute__</div><div class="ttdoc">Physical Region Descriptor Table (PRDT) entry.</div><div class="ttdef"><b>Definition</b> <a href="ahci_8h_source.html#l00057">ahci.h:71</a></div></div>
+<div class="ttc" id="aacpi_8h_html_adc535ce2c03c209b6ccb134a8c8b0adc"><div class="ttname"><a href="acpi_8h.html#adc535ce2c03c209b6ccb134a8c8b0adc">__attribute__</a></div><div class="ttdeci">struct acpi_gas __attribute__</div><div class="ttdoc">Physical Region Descriptor Table (PRDT) entry.</div><div class="ttdef"><b>Definition</b> <a href="ahci_8h_source.html#l00056">ahci.h:70</a></div></div>
 <div class="ttc" id="abasics_8h_html"><div class="ttname"><a href="basics_8h.html">basics.h</a></div><div class="ttdoc">This is a basic header files with FrostWing specific short forms and basically a good for life header...</div></div>
 <div class="ttc" id="agdt_8h_html"><div class="ttname"><a href="gdt_8h.html">gdt.h</a></div><div class="ttdoc">The Header file for Global Descriptor Table.</div></div>
 <div class="ttc" id="agraphics_8h_html"><div class="ttname"><a href="graphics_8h.html">graphics.h</a></div><div class="ttdoc">Contains all the print functions.</div></div>

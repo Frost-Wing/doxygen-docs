@@ -22,8 +22,12 @@ var searchData=
   ['cpuid_19',['cpuid',['../cpuid2_8h.html#a4711eaebe335499a84e8a42a62117779',1,'cpuid2.h']]],
   ['cpuid2_2eh_20',['cpuid2.h',['../cpuid2_8h.html',1,'']]],
   ['cpuid_5fstring_21',['cpuid_string',['../cpuid2_8h.html#adcbb1a36845f7b30e7a046d112ff4237',1,'cpuid2.h']]],
-  ['current_5fuser_22',['current_user',['../sh__util_8h.html#a903e697f413972b0709ff93b42329438',1,'sh_util.h']]],
-  ['currently_20working_20features_23',['Currently working Features',['../md_readme.html#autotoc_md3',1,'']]],
-  ['cursor_5fx_24',['cursor_x',['../structflanterm__fb__context.html#a41523b5d869674536939e15d6fe3da1c',1,'flanterm_fb_context']]],
-  ['cursor_5fy_25',['cursor_y',['../structflanterm__fb__context.html#a741377d741e959aa17d01a0f3d844c12',1,'flanterm_fb_context']]]
+  ['crashdiagnosis_22',['CrashDiagnosis',['../structCrashDiagnosis.html',1,'']]],
+  ['crashsourceline_23',['CrashSourceLine',['../structCrashSourceLine.html',1,'']]],
+  ['crashsymbol_24',['CrashSymbol',['../structCrashSymbol.html',1,'']]],
+  ['crashsymbolresult_25',['CrashSymbolResult',['../structCrashSymbolResult.html',1,'']]],
+  ['current_5fuser_26',['current_user',['../sh__util_8h.html#a903e697f413972b0709ff93b42329438',1,'sh_util.h']]],
+  ['currently_20working_20features_27',['Currently working Features',['../md_readme.html#autotoc_md3',1,'']]],
+  ['cursor_5fx_28',['cursor_x',['../structflanterm__fb__context.html#a41523b5d869674536939e15d6fe3da1c',1,'flanterm_fb_context']]],
+  ['cursor_5fy_29',['cursor_y',['../structflanterm__fb__context.html#a741377d741e959aa17d01a0f3d844c12',1,'flanterm_fb_context']]]
 ];

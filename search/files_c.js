@@ -5,5 +5,6 @@ var searchData=
   ['sse_2eh_2',['sse.h',['../sse_8h.html',1,'']]],
   ['stream_2eh_3',['stream.h',['../stream_8h.html',1,'']]],
   ['strings_2eh_4',['strings.h',['../strings_8h.html',1,'']]],
-  ['syscalls_2eh_5',['syscalls.h',['../syscalls_8h.html',1,'']]]
+  ['syscalls_2eh_5',['syscalls.h',['../syscalls_8h.html',1,'']]],
+  ['syslog_2eh_6',['syslog.h',['../syslog_8h.html',1,'']]]
 ];

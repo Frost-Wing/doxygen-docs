@@ -104,12 +104,15 @@ Collaboration diagram for ring_buffer_t:</div>
 <div class="dyncontent">
 <div class="center"><img src="structring__buffer__t__coll__graph.png" border="0" usemap="#aring__buffer__t_coll__map" loading="lazy" alt="Collaboration graph"/></div>
 <map name="aring__buffer__t_coll__map" id="aring__buffer__t_coll__map">
-<area shape="rect" title="Structure representing a ring buffer." alt="" coords="5,5,97,205"/>
+<area shape="rect" title="Structure representing a ring buffer." alt="" coords="5,159,97,359"/>
+<area shape="rect" href="structspinlock__t.html" title=" " alt="" coords="16,5,86,84"/>
+<area shape="poly" title=" " alt="" coords="52,81,54,142,49,142,51,86"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a0be380d773521cdc6d6caf1d44871c52" id="r_a0be380d773521cdc6d6caf1d44871c52"><td class="memItemLeft"><a class="el" href="structspinlock__t.html">spinlock_t</a>&#160;</td><td class="memItemRight"><a class="el" href="#a0be380d773521cdc6d6caf1d44871c52">lock</a></td></tr>
 <tr class="memitem:a23c803e4402b48142bc2b59ab3b1f34d" id="r_a23c803e4402b48142bc2b59ab3b1f34d"><td class="memItemLeft">uint8_t *&#160;</td><td class="memItemRight"><a class="el" href="#a23c803e4402b48142bc2b59ab3b1f34d">buffer</a></td></tr>
 <tr class="memitem:a64656f06e898714e3e554497b6701cda" id="r_a64656f06e898714e3e554497b6701cda"><td class="memItemLeft">size_t&#160;</td><td class="memItemRight"><a class="el" href="#a64656f06e898714e3e554497b6701cda">capacity</a></td></tr>
 <tr class="memitem:ac50fd930f7edb63fa72836a642b55ac6" id="r_ac50fd930f7edb63fa72836a642b55ac6"><td class="memItemLeft">size_t&#160;</td><td class="memItemRight"><a class="el" href="#ac50fd930f7edb63fa72836a642b55ac6">elem_size</a></td></tr>
@@ -120,7 +123,7 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Structure representing a ring buffer. </p>
 
-<p class="definition">Definition at line <a class="el" href="ringbuffer_8h_source.html#l00020">20</a> of file <a class="el" href="ringbuffer_8h_source.html">ringbuffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ringbuffer_8h_source.html#l00021">21</a> of file <a class="el" href="ringbuffer_8h_source.html">ringbuffer.h</a>.</p>
 </div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
 <a id="a23c803e4402b48142bc2b59ab3b1f34d" name="a23c803e4402b48142bc2b59ab3b1f34d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a23c803e4402b48142bc2b59ab3b1f34d">&#9670;&#160;</a></span>buffer</h2>
@@ -134,7 +137,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ringbuffer_8h_source.html#l00021">21</a> of file <a class="el" href="ringbuffer_8h_source.html">ringbuffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ringbuffer_8h_source.html#l00023">23</a> of file <a class="el" href="ringbuffer_8h_source.html">ringbuffer.h</a>.</p>
 
 </div>
 </div>
@@ -150,7 +153,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ringbuffer_8h_source.html#l00022">22</a> of file <a class="el" href="ringbuffer_8h_source.html">ringbuffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ringbuffer_8h_source.html#l00024">24</a> of file <a class="el" href="ringbuffer_8h_source.html">ringbuffer.h</a>.</p>
 
 </div>
 </div>
@@ -166,7 +169,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ringbuffer_8h_source.html#l00027">27</a> of file <a class="el" href="ringbuffer_8h_source.html">ringbuffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ringbuffer_8h_source.html#l00029">29</a> of file <a class="el" href="ringbuffer_8h_source.html">ringbuffer.h</a>.</p>
 
 </div>
 </div>
@@ -182,7 +185,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ringbuffer_8h_source.html#l00023">23</a> of file <a class="el" href="ringbuffer_8h_source.html">ringbuffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ringbuffer_8h_source.html#l00025">25</a> of file <a class="el" href="ringbuffer_8h_source.html">ringbuffer.h</a>.</p>
 
 </div>
 </div>
@@ -198,7 +201,23 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ringbuffer_8h_source.html#l00025">25</a> of file <a class="el" href="ringbuffer_8h_source.html">ringbuffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ringbuffer_8h_source.html#l00027">27</a> of file <a class="el" href="ringbuffer_8h_source.html">ringbuffer.h</a>.</p>
+
+</div>
+</div>
+<a id="a0be380d773521cdc6d6caf1d44871c52" name="a0be380d773521cdc6d6caf1d44871c52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0be380d773521cdc6d6caf1d44871c52">&#9670;&#160;</a></span>lock</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structspinlock__t.html">spinlock_t</a> ring_buffer_t::lock</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ringbuffer_8h_source.html#l00022">22</a> of file <a class="el" href="ringbuffer_8h_source.html">ringbuffer.h</a>.</p>
 
 </div>
 </div>
@@ -214,7 +233,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ringbuffer_8h_source.html#l00026">26</a> of file <a class="el" href="ringbuffer_8h_source.html">ringbuffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ringbuffer_8h_source.html#l00028">28</a> of file <a class="el" href="ringbuffer_8h_source.html">ringbuffer.h</a>.</p>
 
 </div>
 </div>

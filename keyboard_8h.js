@@ -1,6 +1,6 @@
 var keyboard_8h =
 [
-    [ "getc", "keyboard_8h.html#a85914aa616a3d3af4d94ca8c93ba78dc", null ],
+    [ "getc", "keyboard_8h.html#a39a922a1701c3b69046af3146b46abf5", null ],
     [ "getc_nonblock", "keyboard_8h.html#a1f8ef8069d08bf8805bd6c02342835fa", null ],
     [ "getmodifiers", "keyboard_8h.html#a36296437f8923f5221b3eeaca3f40793", null ],
     [ "handle_char_from_scancode", "keyboard_8h.html#aec8a675e3b6bfa9219b1a349006f6ee5", null ],

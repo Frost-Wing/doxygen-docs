@@ -1,3 +1,5 @@
 <map id="ring_buffer_t" name="ring_buffer_t">
-<area shape="rect" id="Node000001" title="Structure representing a ring buffer." alt="" coords="5,5,97,205"/>
+<area shape="rect" id="Node000001" title="Structure representing a ring buffer." alt="" coords="5,159,97,359"/>
+<area shape="rect" id="Node000002" href="$structspinlock__t.html" title=" " alt="" coords="16,5,86,84"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="52,81,54,142,49,142,51,86"/>
 </map>
