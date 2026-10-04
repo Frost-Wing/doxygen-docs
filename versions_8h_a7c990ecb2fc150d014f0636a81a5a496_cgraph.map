@@ -1,0 +1,7 @@
+<map id="frost_compilation_information" name="frost_compilation_information">
+<area shape="rect" id="Node000001" title="Print compiler&#45;provided build version and date information." alt="" coords="5,32,212,62"/>
+<area shape="rect" id="Node000002" href="$graphics_8h.html#a0fa169de644c00dd9f48a4da8c7904cd" title="Display an informational message." alt="" coords="271,5,316,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,29,258,25,253,26,213,34"/>
+<area shape="rect" id="Node000003" href="$strings_8h.html#a65fdc17be44d37786f4e3f831dc9f958" title="Copies n characters from src to dest." alt="" coords="260,59,327,88"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="212,59,247,66,242,67,212,64"/>
+</map>

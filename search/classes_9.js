@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['pci_5fid_5fentry_5ft_0',['pci_id_entry_t',['../structpci__id__entry__t.html',1,'']]],
-  ['pci_5flocation_5ft_1',['pci_location_t',['../structpci__location__t.html',1,'']]]
+  ['nvme_5fcontroller_5ft_0',['nvme_controller_t',['../structnvme__controller__t.html',1,'']]],
+  ['nvme_5fnamespace_5ft_1',['nvme_namespace_t',['../structnvme__namespace__t.html',1,'']]],
+  ['nvme_5fqueue_5ft_2',['nvme_queue_t',['../structnvme__queue__t.html',1,'']]],
+  ['nvme_5fregs_5ft_3',['nvme_regs_t',['../structnvme__regs__t.html',1,'']]]
 ];

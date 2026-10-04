@@ -1,6 +1,6 @@
 <map id="source/includes/heap.h" name="source/includes/heap.h">
 <area shape="rect" id="Node000001" title="Header files for heap." alt="" coords="100,5,266,35"/>
-<area shape="rect" id="Node000002" href="$fdlfcn_8h_source.html" title=" " alt="" coords="98,83,268,113"/>
+<area shape="rect" id="Node000002" href="$fdlfcn_8h.html" title="Runtime loading and symbol lookup for ELF images." alt="" coords="98,83,268,113"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,49,186,83,181,81,182,53"/>
 <area shape="rect" id="Node000003" href="$kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="5,170,180,200"/>
 <area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="129,44,107,61,88,84,81,106,81,129,90,170,84,169,75,129,76,105,83,82,104,58,132,40"/>

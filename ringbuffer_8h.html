@@ -98,7 +98,7 @@ $(function(){initNavTree('ringbuffer_8h.html','',''); });
 <p>The kernel-wide ring buffer mainly for kernel get char.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="basics_8h_source.html">basics.h</a>&gt;</code><br />
-<code>#include &lt;spinlock.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="spinlock_8h_source.html">spinlock.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for ringbuffer.h:</div>
 <div class="dyncontent">
@@ -107,7 +107,7 @@ Include dependency graph for ringbuffer.h:</div>
 <area shape="rect" title="The kernel&#45;wide ring buffer mainly for kernel get char." alt="" coords="5,5,201,35"/>
 <area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="68,161,138,190"/>
 <area shape="poly" title=" " alt="" coords="100,33,92,83,92,112,98,146,93,145,87,113,87,83,98,38"/>
-<area shape="rect" href="spinlock_8h_source.html" title=" " alt="" coords="102,83,184,113"/>
+<area shape="rect" href="spinlock_8h.html" title="Spinlock type and synchronization operations." alt="" coords="102,83,184,113"/>
 <area shape="poly" title=" " alt="" coords="111,33,131,69,126,69,110,38"/>
 <area shape="rect" title=" " alt="" coords="20,238,92,268"/>
 <area shape="poly" title=" " alt="" coords="96,189,75,226,71,223,92,192"/>
@@ -146,8 +146,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a37da2796cb4a8922a2bdae6d867262f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if buffer is empty.  <br /></td></tr>
 <tr class="memitem:a4bd4ec4bfe4f65572556105c80eef269" id="r_a4bd4ec4bfe4f65572556105c80eef269"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a4bd4ec4bfe4f65572556105c80eef269">rb_push</a> (<a class="el" href="structring__buffer__t.html">ring_buffer_t</a> *rb, const void *data)</td></tr>
 <tr class="memdesc:a4bd4ec4bfe4f65572556105c80eef269"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push an element into the buffer.  <br /></td></tr>
-<tr class="memitem:a9478422047bee2b073509c475fa2b0b0" id="r_a9478422047bee2b073509c475fa2b0b0"><td class="memItemLeft"><a id="a9478422047bee2b073509c475fa2b0b0" name="a9478422047bee2b073509c475fa2b0b0"></a>
-int&#160;</td><td class="memItemRight"><b>rb_push_overwrite</b> (<a class="el" href="structring__buffer__t.html">ring_buffer_t</a> *rb, const void *data)</td></tr>
+<tr class="memitem:a9478422047bee2b073509c475fa2b0b0" id="r_a9478422047bee2b073509c475fa2b0b0"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a9478422047bee2b073509c475fa2b0b0">rb_push_overwrite</a> (<a class="el" href="structring__buffer__t.html">ring_buffer_t</a> *rb, const void *data)</td></tr>
+<tr class="memdesc:a9478422047bee2b073509c475fa2b0b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push an element, overwriting the oldest item if the buffer is full.  <br /></td></tr>
 <tr class="memitem:a4d28de42ecf23d7e40b3d56e2076f23b" id="r_a4d28de42ecf23d7e40b3d56e2076f23b"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a4d28de42ecf23d7e40b3d56e2076f23b">rb_pop</a> (<a class="el" href="structring__buffer__t.html">ring_buffer_t</a> *rb, void *out)</td></tr>
 <tr class="memdesc:a4d28de42ecf23d7e40b3d56e2076f23b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pop an element from the buffer.  <br /></td></tr>
 <tr class="memitem:a281aefbd3e27f48d02715707aae1e6ed" id="r_a281aefbd3e27f48d02715707aae1e6ed"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a281aefbd3e27f48d02715707aae1e6ed">rb_peek</a> (const <a class="el" href="structring__buffer__t.html">ring_buffer_t</a> *rb, void *out)</td></tr>
@@ -403,6 +403,37 @@ int&#160;</td><td class="memItemRight"><b>rb_push_overwrite</b> (<a class="el" h
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 on success, -1 if buffer is full </dd></dl>
+
+</div>
+</div>
+<a id="a9478422047bee2b073509c475fa2b0b0" name="a9478422047bee2b073509c475fa2b0b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9478422047bee2b073509c475fa2b0b0">&#9670;&#160;</a></span>rb_push_overwrite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int rb_push_overwrite </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structring__buffer__t.html">ring_buffer_t</a> *</td>          <td class="paramname"><span class="paramname"><em>rb</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Push an element, overwriting the oldest item if the buffer is full. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rb</td><td>Pointer to the ring buffer. </td></tr>
+    <tr><td class="paramname">data</td><td>Pointer to the element to insert. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 on success, or a negative value on error. </dd></dl>
 
 </div>
 </div>

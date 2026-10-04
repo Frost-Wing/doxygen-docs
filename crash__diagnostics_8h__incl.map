@@ -1,0 +1,39 @@
+<map id="source/includes/crash_diagnostics.h" name="source/includes/crash_diagnostics.h">
+<area shape="rect" id="Node000001" title="Crash&#45;diagnosis data types and analysis interfaces." alt="" coords="5,5,160,54"/>
+<area shape="rect" id="Node000002" href="$basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="190,335,260,365"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,57,55,102,39,162,36,195,38,227,45,257,59,285,83,309,112,326,144,336,178,344,172,346,143,341,110,331,80,313,55,289,40,259,32,227,31,194,34,161,50,100,72,52"/>
+<area shape="rect" id="Node000005" href="$crash__symbols_8h.html" title="Resolve instruction addresses to kernel source symbols." alt="" coords="70,257,191,287"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="89,52,127,242,122,243,86,57"/>
+<area shape="rect" id="Node000007" href="$isr_8h.html" title="Interrupts handler header." alt="" coords="200,102,245,132"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="121,52,189,93,184,95,122,57"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="414,413,487,442"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="261,360,402,409,397,410,260,366"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="130,413,198,442"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="216,364,187,402,183,398,211,366"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="149,285,198,325,193,326,148,290"/>
+<area shape="poly" id="edge7_Node000005_Node000003" title=" " alt="" coords="135,285,151,325,164,346,180,363,205,379,233,393,291,411,349,421,401,427,396,427,348,426,290,416,231,397,203,384,177,367,159,349,146,328,133,290"/>
+<area shape="poly" id="edge8_Node000005_Node000004" title=" " alt="" coords="131,285,132,323,137,364,151,399,145,398,132,365,126,323,128,290"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="386,335,465,365"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="186,285,372,333,368,336,186,290"/>
+<area shape="poly" id="edge25_Node000007_Node000003" title=" " alt="" coords="245,115,322,119,374,125,429,137,485,154,539,179,588,212,627,256,633,269,634,285,626,318,611,347,596,366,575,384,551,398,502,417,501,412,549,394,572,380,593,363,606,345,621,316,629,285,628,271,623,259,584,216,536,184,483,159,427,142,373,131,322,124,246,120"/>
+<area shape="poly" id="edge26_Node000007_Node000004" title=" " alt="" coords="198,129,163,148,119,176,75,213,57,234,42,258,38,284,43,316,52,346,61,363,86,388,118,408,113,409,83,392,56,366,48,348,38,318,33,284,37,256,53,231,71,209,115,171,161,143,202,125"/>
+<area shape="rect" id="Node000008" href="$graphics_8h.html" title="Contains all the print functions." alt="" coords="310,180,394,209"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="246,129,317,171,312,172,246,134"/>
+<area shape="poly" id="edge11_Node000008_Node000002" title=" " alt="" coords="316,212,286,232,257,259,241,289,231,321,227,318,236,287,252,256,283,227,320,208"/>
+<area shape="poly" id="edge14_Node000008_Node000003" title=" " alt="" coords="394,197,451,205,513,217,568,233,589,244,603,256,614,278,614,300,604,322,588,342,543,379,495,408,493,403,540,375,584,339,600,319,608,299,609,279,599,259,586,248,566,238,512,222,450,210,395,203"/>
+<area shape="poly" id="edge15_Node000008_Node000004" title=" " alt="" coords="307,200,244,207,168,218,100,235,75,246,59,259,50,277,48,296,54,315,65,334,97,371,134,403,128,404,93,375,61,337,49,317,43,296,45,275,55,256,73,242,99,230,167,213,243,202,312,197"/>
+<area shape="poly" id="edge13_Node000008_Node000006" title=" " alt="" coords="391,207,425,227,440,240,452,256,457,273,456,291,444,324,440,320,451,290,451,274,447,259,436,244,422,231,391,212"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="365,257,437,287"/>
+<area shape="poly" id="edge12_Node000008_Node000009" title=" " alt="" coords="362,207,386,245,381,244,360,212"/>
+<area shape="rect" id="Node000010" href="$stream_8h.html" title="Unix like standard streams." alt="" coords="512,257,589,287"/>
+<area shape="poly" id="edge16_Node000008_Node000010" title=" " alt="" coords="389,207,502,251,497,252,389,213"/>
+<area shape="rect" id="Node000011" href="$strings_8h.html" title="The header file for strings.c." alt="" coords="266,257,342,287"/>
+<area shape="poly" id="edge20_Node000008_Node000011" title=" " alt="" coords="345,208,323,246,319,242,341,212"/>
+<area shape="poly" id="edge18_Node000010_Node000003" title=" " alt="" coords="550,286,542,325,523,366,506,387,485,406,483,401,502,384,519,363,537,323,546,289"/>
+<area shape="poly" id="edge19_Node000010_Node000004" title=" " alt="" coords="546,286,520,328,501,349,479,367,446,384,411,398,339,416,271,426,214,429,213,424,270,421,338,411,409,393,444,379,476,362,497,346,516,325,541,289"/>
+<area shape="poly" id="edge17_Node000010_Node000006" title=" " alt="" coords="529,287,463,329,461,324,524,289"/>
+<area shape="poly" id="edge21_Node000011_Node000002" title=" " alt="" coords="291,286,252,326,249,322,287,289"/>
+<area shape="poly" id="edge23_Node000011_Node000003" title=" " alt="" coords="314,285,341,322,375,363,421,404,416,403,371,367,336,325,312,290"/>
+<area shape="poly" id="edge24_Node000011_Node000004" title=" " alt="" coords="304,285,295,325,287,347,274,366,245,392,213,410,211,405,242,387,270,363,282,344,290,324,300,289"/>
+<area shape="poly" id="edge22_Node000011_Node000006" title=" " alt="" coords="327,285,393,327,387,327,326,290"/>
+</map>

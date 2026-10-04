@@ -2,6 +2,8 @@ var kernel_8h =
 [
     [ "KERNEL_OFFSET", "kernel_8h.html#a55d0c3475cc452ccbd6e0c8dd1c68bd7", null ],
     [ "main", "kernel_8h.html#a6288eba0f8e8ad3ab1544ad731eb7667", null ],
+    [ "reboot", "kernel_8h.html#a903274fb3724f4532615fb8b4f5ddd96", null ],
+    [ "shutdown", "kernel_8h.html#a1c9d5e29ad8899afe0c34571ddee18f9", null ],
     [ "fb_height", "kernel_8h.html#a8c8a854a6a141ad8599fb3f70cfa8ad5", null ],
     [ "fb_width", "kernel_8h.html#af4082d66d8ebcaa4c121270986d001bd", null ],
     [ "kend", "kernel_8h.html#ac7afc515f80b9f8bf0921f718ba4c864", null ],

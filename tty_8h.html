@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: source/includes/tty.h File Reference</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -93,12 +94,31 @@ $(function(){initNavTree('tty_8h.html','',''); });
   <div class="headertitle"><div class="title">tty.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Kernel terminal input, output, and configuration interfaces.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="basics_8h_source.html">basics.h</a>&gt;</code><br />
+<code>#include &lt;sys/termios.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for tty.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="tty_8h__incl.png" border="0" usemap="#asource_2includes_2tty_8h" loading="lazy" alt=""/></div>
+<map name="asource_2includes_2tty_8h" id="asource_2includes_2tty_8h">
+<area shape="rect" title="Kernel terminal input, output, and configuration interfaces." alt="" coords="106,5,257,35"/>
+<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="30,83,99,113"/>
+<area shape="poly" title=" " alt="" coords="158,38,100,76,97,72,161,34"/>
+<area shape="rect" title=" " alt="" coords="102,161,170,190"/>
+<area shape="poly" title=" " alt="" coords="179,34,165,84,147,147,142,145,160,82,175,38"/>
+<area shape="rect" title=" " alt="" coords="174,83,280,113"/>
+<area shape="poly" title=" " alt="" coords="191,33,213,70,208,69,189,38"/>
+<area shape="rect" title=" " alt="" coords="303,83,382,113"/>
+<area shape="poly" title=" " alt="" coords="212,33,301,75,296,77,212,38"/>
+<area shape="rect" title=" " alt="" coords="5,161,78,190"/>
+<area shape="poly" title=" " alt="" coords="62,111,53,147,48,145,58,115"/>
+<area shape="poly" title=" " alt="" coords="79,111,115,149,110,150,77,116"/>
+</map>
 </div>
 </div>
 <p><a href="tty_8h_source.html">Go to the source code of this file.</a></p>
@@ -107,15 +127,56 @@ Include dependency graph for tty.h:</div>
 Macros</h2></td></tr>
 <tr class="memitem:ab4852b07c361ea02e27c448ece60e0f4" id="r_ab4852b07c361ea02e27c448ece60e0f4"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ab4852b07c361ea02e27c448ece60e0f4">TTY_LINE_MAX</a>&#160;&#160;&#160;256</td></tr>
 <tr class="memitem:a9a426246ea103b3937f7f877c17e70d0" id="r_a9a426246ea103b3937f7f877c17e70d0"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a9a426246ea103b3937f7f877c17e70d0">TTY_COOKED_MAX</a>&#160;&#160;&#160;1024</td></tr>
+<tr class="memitem:a0be2b7971c6b997084e46d479d0a40b3" id="r_a0be2b7971c6b997084e46d479d0a40b3"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a0be2b7971c6b997084e46d479d0a40b3">TTY_COUNT</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memitem:a9f39a72cc6ee814629df6367e32a75cb" id="r_a9f39a72cc6ee814629df6367e32a75cb"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a9f39a72cc6ee814629df6367e32a75cb">TTY_INDEX_CURRENT</a>&#160;&#160;&#160;UINT8_MAX</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0d6679c5a4b8b74b22afc33d06d64eec" id="r_a0d6679c5a4b8b74b22afc33d06d64eec"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0d6679c5a4b8b74b22afc33d06d64eec">tty_init</a> (void)</td></tr>
-<tr class="memitem:a73e6a06a5accd06fdb4d9411b4fa794f" id="r_a73e6a06a5accd06fdb4d9411b4fa794f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a73e6a06a5accd06fdb4d9411b4fa794f">tty_input_char</a> (char c)</td></tr>
+<tr class="memitem:a0d6679c5a4b8b74b22afc33d06d64eec" id="r_a0d6679c5a4b8b74b22afc33d06d64eec"><td class="memItemLeft"><a id="a0d6679c5a4b8b74b22afc33d06d64eec" name="a0d6679c5a4b8b74b22afc33d06d64eec"></a>
+void&#160;</td><td class="memItemRight"><b>tty_init</b> (void)</td></tr>
+<tr class="memdesc:a0d6679c5a4b8b74b22afc33d06d64eec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the kernel terminal subsystem. <br /></td></tr>
+<tr class="memitem:afdaaf1b15a19414c07136d5facebcfc4" id="r_afdaaf1b15a19414c07136d5facebcfc4"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#afdaaf1b15a19414c07136d5facebcfc4">tty_init_terminals</a> (struct flanterm_context *default_terminal, uint32_t *framebuffer, size_t width, size_t height, size_t pitch, const void *ssfn_font, size_t ssfn_font_size)</td></tr>
+<tr class="memdesc:afdaaf1b15a19414c07136d5facebcfc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attach tty0 to the initialized framebuffer console.  <br /></td></tr>
+<tr class="memitem:a73e6a06a5accd06fdb4d9411b4fa794f" id="r_a73e6a06a5accd06fdb4d9411b4fa794f"><td class="memItemLeft"><a id="a73e6a06a5accd06fdb4d9411b4fa794f" name="a73e6a06a5accd06fdb4d9411b4fa794f"></a>
+void&#160;</td><td class="memItemRight"><b>tty_input_char</b> (char c)</td></tr>
+<tr class="memdesc:a73e6a06a5accd06fdb4d9411b4fa794f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queue a character as terminal input. <br /></td></tr>
 <tr class="memitem:a6d9480528a38da2d35e81c48d5c8cc4e" id="r_a6d9480528a38da2d35e81c48d5c8cc4e"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a6d9480528a38da2d35e81c48d5c8cc4e">tty_read</a> (char *buf, uint64_t count)</td></tr>
-<tr class="memitem:ab79bbedb9d743a373593846cad61278e" id="r_ab79bbedb9d743a373593846cad61278e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab79bbedb9d743a373593846cad61278e">tty_flush_input</a> (void)</td></tr>
+<tr class="memdesc:a6d9480528a38da2d35e81c48d5c8cc4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read input from the active terminal.  <br /></td></tr>
+<tr class="memitem:ab79bbedb9d743a373593846cad61278e" id="r_ab79bbedb9d743a373593846cad61278e"><td class="memItemLeft"><a id="ab79bbedb9d743a373593846cad61278e" name="ab79bbedb9d743a373593846cad61278e"></a>
+void&#160;</td><td class="memItemRight"><b>tty_flush_input</b> (void)</td></tr>
+<tr class="memdesc:ab79bbedb9d743a373593846cad61278e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Discard buffered terminal input. <br /></td></tr>
+<tr class="memitem:a151cd682fadbc14143da956ce3e519cb" id="r_a151cd682fadbc14143da956ce3e519cb"><td class="memItemLeft"><a id="a151cd682fadbc14143da956ce3e519cb" name="a151cd682fadbc14143da956ce3e519cb"></a>
+bool&#160;</td><td class="memItemRight"><b>tty_interrupt_pending</b> (void)</td></tr>
+<tr class="memdesc:a151cd682fadbc14143da956ce3e519cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether a terminal interrupt is pending. <br /></td></tr>
+<tr class="memitem:ae9932b99b24fcc4833ce74be6714582e" id="r_ae9932b99b24fcc4833ce74be6714582e"><td class="memItemLeft"><a id="ae9932b99b24fcc4833ce74be6714582e" name="ae9932b99b24fcc4833ce74be6714582e"></a>
+int&#160;</td><td class="memItemRight"><b>tty_take_interrupt</b> (void)</td></tr>
+<tr class="memdesc:ae9932b99b24fcc4833ce74be6714582e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consume the pending terminal interrupt, if present. <br /></td></tr>
+<tr class="memitem:abcd0b88e221b0c953d4bff417ca61881" id="r_abcd0b88e221b0c953d4bff417ca61881"><td class="memItemLeft"><a id="abcd0b88e221b0c953d4bff417ca61881" name="abcd0b88e221b0c953d4bff417ca61881"></a>
+void&#160;</td><td class="memItemRight"><b>tty_clear_interrupt</b> (void)</td></tr>
+<tr class="memdesc:abcd0b88e221b0c953d4bff417ca61881"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the pending terminal interrupt. <br /></td></tr>
+<tr class="memitem:a28f020679254f47ef2666e8c5dd752d0" id="r_a28f020679254f47ef2666e8c5dd752d0"><td class="memItemLeft"><a id="a28f020679254f47ef2666e8c5dd752d0" name="a28f020679254f47ef2666e8c5dd752d0"></a>
+int&#160;</td><td class="memItemRight"><b>tty_process_exit_code_for_key</b> (int key)</td></tr>
+<tr class="memdesc:a28f020679254f47ef2666e8c5dd752d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map a terminal control key to the task exit code it requests. <br /></td></tr>
+<tr class="memitem:abf18e70bf8c1cc809671e6f9157cdb44" id="r_abf18e70bf8c1cc809671e6f9157cdb44"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#abf18e70bf8c1cc809671e6f9157cdb44">tty_get_termios</a> (linux_termios_t *termios)</td></tr>
+<tr class="memdesc:abf18e70bf8c1cc809671e6f9157cdb44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the active terminal's termios settings.  <br /></td></tr>
+<tr class="memitem:abbce1dfad84680ef9263641298555c2b" id="r_abbce1dfad84680ef9263641298555c2b"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#abbce1dfad84680ef9263641298555c2b">tty_set_termios</a> (const linux_termios_t *termios, bool flush_input)</td></tr>
+<tr class="memdesc:abbce1dfad84680ef9263641298555c2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the active terminal's termios settings.  <br /></td></tr>
+<tr class="memitem:a98ff97ead361cecba76c528af81a473f" id="r_a98ff97ead361cecba76c528af81a473f"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a98ff97ead361cecba76c528af81a473f">tty_get_winsize</a> (linux_winsize_t *winsize)</td></tr>
+<tr class="memdesc:a98ff97ead361cecba76c528af81a473f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the active terminal's window size.  <br /></td></tr>
+<tr class="memitem:ac839e7858b3e629f6ebed75f23c14bcb" id="r_ac839e7858b3e629f6ebed75f23c14bcb"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ac839e7858b3e629f6ebed75f23c14bcb">tty_switch</a> (uint8_t index)</td></tr>
+<tr class="memdesc:ac839e7858b3e629f6ebed75f23c14bcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch to a terminal by index.  <br /></td></tr>
+<tr class="memitem:a994e45e3196f5048b797fea30420fdbb" id="r_a994e45e3196f5048b797fea30420fdbb"><td class="memItemLeft"><a id="a994e45e3196f5048b797fea30420fdbb" name="a994e45e3196f5048b797fea30420fdbb"></a>
+uint8_t&#160;</td><td class="memItemRight"><b>tty_active_index</b> (void)</td></tr>
+<tr class="memdesc:a994e45e3196f5048b797fea30420fdbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the active terminal index. <br /></td></tr>
+<tr class="memitem:aa1ceb59b582210e569bff06561c7a309" id="r_aa1ceb59b582210e569bff06561c7a309"><td class="memItemLeft"><a id="aa1ceb59b582210e569bff06561c7a309" name="aa1ceb59b582210e569bff06561c7a309"></a>
+void&#160;</td><td class="memItemRight"><b>tty_input_key</b> (int key)</td></tr>
+<tr class="memdesc:aa1ceb59b582210e569bff06561c7a309"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queue a key event as terminal input. <br /></td></tr>
 </table>
-<a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Kernel terminal input, output, and configuration interfaces. </p>
+
+<p class="definition">Definition in file <a class="el" href="tty_8h_source.html">tty.h</a>.</p>
+</div><a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
 <a id="a9a426246ea103b3937f7f877c17e70d0" name="a9a426246ea103b3937f7f877c17e70d0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9a426246ea103b3937f7f877c17e70d0">&#9670;&#160;</a></span>TTY_COOKED_MAX</h2>
 
@@ -127,6 +188,40 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tty_8h_source.html#l00016">16</a> of file <a class="el" href="tty_8h_source.html">tty.h</a>.</p>
+
+</div>
+</div>
+<a id="a0be2b7971c6b997084e46d479d0a40b3" name="a0be2b7971c6b997084e46d479d0a40b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0be2b7971c6b997084e46d479d0a40b3">&#9670;&#160;</a></span>TTY_COUNT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TTY_COUNT&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tty_8h_source.html#l00017">17</a> of file <a class="el" href="tty_8h_source.html">tty.h</a>.</p>
+
+</div>
+</div>
+<a id="a9f39a72cc6ee814629df6367e32a75cb" name="a9f39a72cc6ee814629df6367e32a75cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f39a72cc6ee814629df6367e32a75cb">&#9670;&#160;</a></span>TTY_INDEX_CURRENT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TTY_INDEX_CURRENT&#160;&#160;&#160;UINT8_MAX</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tty_8h_source.html#l00019">19</a> of file <a class="el" href="tty_8h_source.html">tty.h</a>.</p>
 
 </div>
 </div>
@@ -142,57 +237,122 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="tty_8h_source.html#l00015">15</a> of file <a class="el" href="tty_8h_source.html">tty.h</a>.</p>
+
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="ab79bbedb9d743a373593846cad61278e" name="ab79bbedb9d743a373593846cad61278e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab79bbedb9d743a373593846cad61278e">&#9670;&#160;</a></span>tty_flush_input()</h2>
+<a id="abf18e70bf8c1cc809671e6f9157cdb44" name="abf18e70bf8c1cc809671e6f9157cdb44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf18e70bf8c1cc809671e6f9157cdb44">&#9670;&#160;</a></span>tty_get_termios()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void tty_flush_input </td>
+          <td class="memname">bool tty_get_termios </td>
           <td>(</td>
-          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">linux_termios_t *</td>          <td class="paramname"><span class="paramname"><em>termios</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get the active terminal's termios settings. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">termios</td><td>Receives the settings. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true on success, otherwise false. </dd></dl>
+
 </div>
 </div>
-<a id="a0d6679c5a4b8b74b22afc33d06d64eec" name="a0d6679c5a4b8b74b22afc33d06d64eec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d6679c5a4b8b74b22afc33d06d64eec">&#9670;&#160;</a></span>tty_init()</h2>
+<a id="a98ff97ead361cecba76c528af81a473f" name="a98ff97ead361cecba76c528af81a473f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98ff97ead361cecba76c528af81a473f">&#9670;&#160;</a></span>tty_get_winsize()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void tty_init </td>
+          <td class="memname">bool tty_get_winsize </td>
           <td>(</td>
-          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">linux_winsize_t *</td>          <td class="paramname"><span class="paramname"><em>winsize</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get the active terminal's window size. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">winsize</td><td>Receives the window dimensions. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true on success, otherwise false. </dd></dl>
+
 </div>
 </div>
-<a id="a73e6a06a5accd06fdb4d9411b4fa794f" name="a73e6a06a5accd06fdb4d9411b4fa794f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73e6a06a5accd06fdb4d9411b4fa794f">&#9670;&#160;</a></span>tty_input_char()</h2>
+<a id="afdaaf1b15a19414c07136d5facebcfc4" name="afdaaf1b15a19414c07136d5facebcfc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdaaf1b15a19414c07136d5facebcfc4">&#9670;&#160;</a></span>tty_init_terminals()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void tty_input_char </td>
+          <td class="memname">bool tty_init_terminals </td>
           <td>(</td>
-          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
+          <td class="paramtype">struct flanterm_context *</td>          <td class="paramname"><span class="paramname"><em>default_terminal</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">uint32_t *</td>          <td class="paramname"><span class="paramname"><em>framebuffer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>height</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>pitch</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *</td>          <td class="paramname"><span class="paramname"><em>ssfn_font</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>ssfn_font_size</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Attach tty0 to the initialized framebuffer console. </p>
+<p>The extra parameters preserve compatibility with existing callers; no additional terminals are created.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">default_terminal</td><td>Initialized framebuffer terminal context. </td></tr>
+    <tr><td class="paramname">framebuffer</td><td>Framebuffer address. </td></tr>
+    <tr><td class="paramname">width</td><td>Framebuffer width in pixels. </td></tr>
+    <tr><td class="paramname">height</td><td>Framebuffer height in pixels. </td></tr>
+    <tr><td class="paramname">pitch</td><td>Framebuffer pitch in bytes. </td></tr>
+    <tr><td class="paramname">ssfn_font</td><td>Font data. </td></tr>
+    <tr><td class="paramname">ssfn_font_size</td><td>Font data size in bytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true on success, otherwise false. </dd></dl>
 
 </div>
 </div>
@@ -215,6 +375,73 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Read input from the active terminal. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buf</td><td>Destination buffer. </td></tr>
+    <tr><td class="paramname">count</td><td>Maximum number of bytes to read. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of bytes read, or a negative error code. </dd></dl>
+
+</div>
+</div>
+<a id="abbce1dfad84680ef9263641298555c2b" name="abbce1dfad84680ef9263641298555c2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbce1dfad84680ef9263641298555c2b">&#9670;&#160;</a></span>tty_set_termios()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tty_set_termios </td>
+          <td>(</td>
+          <td class="paramtype">const linux_termios_t *</td>          <td class="paramname"><span class="paramname"><em>termios</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>flush_input</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the active terminal's termios settings. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">termios</td><td>Settings to apply. </td></tr>
+    <tr><td class="paramname">flush_input</td><td>Whether to discard pending input. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true on success, otherwise false. </dd></dl>
+
+</div>
+</div>
+<a id="ac839e7858b3e629f6ebed75f23c14bcb" name="ac839e7858b3e629f6ebed75f23c14bcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac839e7858b3e629f6ebed75f23c14bcb">&#9670;&#160;</a></span>tty_switch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tty_switch </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Switch to a terminal by index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>Terminal index. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true on success, otherwise false. </dd></dl>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -230,7 +457,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_c9f89f587e7e777be723ee48a3df5844.html">includes</a></li><li class="navelem"><a href="tty_8h.html">tty.h</a></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="tty_8h.html">tty.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>FrostWing: FrostWing Operating System</title>
+<title>FrostWing: readme</title>
 <link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -91,28 +91,25 @@ $(function(){initNavTree('md_readme.html','',''); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">FrostWing Operating System </div></div>
+  <div class="headertitle"><div class="title">readme </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md0"></a></p>
-<p>Welcome to FrostWing, a lightweight and flexible operating system designed for x86_64 platform. This README will guide you through the process of understanding the overall concept of the FrostWing Operating System.</p>
+<div class="textblock"><p><img src="https://repository-images.githubusercontent.com/708065850/eeb30fa3-303e-4ed5-89ea-0f057cf38582" alt="FrostWing Banner" class="inline"/> </p>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md0"></a>
+FrostWing Operating System</h1>
+<p>FrostWing is a lightweight, flexible x86_64 operating system with a clean, aesthetic design. This README will guide you through the process of understanding the overall concept of the FrostWing Operating System.</p>
 <p><img src="https://img.shields.io/github/downloads/Frost-Wing/osdev/total?style=flat-square&amp;label=Downloads" alt="GitHub all releases" class="inline"/> <img src="https://img.shields.io/github/license/Frost-Wing/osdev?style=flat-square&amp;label=License" alt="GitHub" class="inline"/> <img src="https://img.shields.io/github/languages/code-size/Frost-Wing/osdev?style=flat-square" alt="GitHub code size in bytes" class="inline"/> <img src="https://img.shields.io/github/repo-size/Frost-Wing/osdev?style=flat-square&amp;label=Repository%20Size" alt="GitHub repo size" class="inline"/> <img src="https://img.shields.io/github/actions/workflow/status/Frost-Wing/osdev/build.yml?style=flat-square&amp;label=Current%20Code%20Compiling%20(Workflows)" alt="GitHub Workflow Status (with event)" class="inline"/></p>
 <dl class="section note"><dt>Note</dt><dd>To get a really good overview of this repository please visit <a href="https://githubtracker.com/Frost-Wing/osdev">https://githubtracker.com/Frost-Wing/osdev</a></dd></dl>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md1"></a>
-Table of Contents</h1>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md1"></a>
+Table of Contents</h2>
 <ul>
 <li>FrostWing Operating System<ul>
 <li>Table of Contents</li>
 <li>Gallery</li>
 <li>Currently working Features<ul>
+<li>Dynamically linked user programs</li>
 <li>Getting started</li>
-<li>Hardware/Software (Emulator) Requirements<ul>
-<li>Minimum Requirements (BIOS)</li>
-<li>Minimum Requirements (UEFI)</li>
-<li>Recommended Requirements (BIOS)</li>
-<li>Recommended Requirements (UEFI)</li>
-</ul>
-</li>
+<li>Hardware/Software (Emulator) Requirements</li>
 <li>Booting to real machine</li>
 </ul>
 </li>
@@ -122,11 +119,11 @@ Table of Contents</h1>
 </ul>
 </li>
 </ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md2"></a>
-Gallery</h1>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md2"></a>
+Gallery</h2>
 <p><a href="https://github.com/Frost-Wing/osdev/wiki/%E2%80%90-Gallery">Refer the wiki for Gallary.*</a></p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md3"></a>
-Currently working Features</h1>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md3"></a>
+Currently working Features</h2>
 <ul>
 <li>Interrupts</li>
 <li>ACPI<ul>
@@ -195,45 +192,29 @@ Currently working Features</h1>
 </li>
 </ul>
 <p><b>AND MUCH MORE...</b></p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md4"></a>
-Getting started</h2>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md4"></a>
+Dynamically linked user programs</h3>
+<p>FrostWing's ELF loader supports x86-64 ELF interpreters and starts the program's interpreter; dynamically linked programs must also have every <span class="tt">DT_NEEDED</span> library available in the root filesystem. Build a musl-linked program with its normal dynamic defaults, then stage it and its dependencies before creating the root disk:</p>
+<div class="fragment"><div class="line">musl-gcc input.c -o input</div>
+<div class="line">./scripts/stage-elf.py ./input</div>
+<div class="line">make root-disk</div>
+</div><!-- fragment --><p>The staging helper inspects ELF metadata without executing the input, copies the program to <span class="tt">fs_root/bin</span>, and places its interpreter and recursive shared-library dependencies under <span class="tt">fs_root/lib</span> or <span class="tt">fs_root/lib64</span> according to the interpreter path. <span class="tt">make root-disk</span> replaces the existing <span class="tt">disk.img</span>, so back up any data on that image first. Review the staged files before distributing an image. This supports musl-linked x86-64 programs to the extent of FrostWing's Linux syscall compatibility; copying a glibc executable and its libraries does not make arbitrary Linux/glibc programs compatible.</p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md5"></a>
+Getting started</h3>
 <p><a href="https://github.com/Frost-Wing/osdev/wiki">*Please refer wiki for steps for compiling**</a></p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md5"></a>
-Hardware/Software (Emulator) Requirements</h2>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md6"></a>
-Minimum Requirements (BIOS)</h3>
-<ul>
-<li><b>CPU</b> Currently any x86_64 proccessor</li>
-<li><b>RAM</b> 75 MB</li>
-<li><b>Storage</b> Nothing required yet.</li>
-<li><b>Graphics</b> Only Framebuffer.</li>
-</ul>
+Hardware/Software (Emulator) Requirements</h3>
+<p>Works on any x86_64 processor</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone"></th><th class="markdownTableHeadNone">BIOS (min)  </th><th class="markdownTableHeadNone">BIOS (recommended)  </th><th class="markdownTableHeadNone">UEFI (min)  </th><th class="markdownTableHeadNone">UEFI (recommended)  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><b>RAM</b>  </td><td class="markdownTableBodyNone">75 MB  </td><td class="markdownTableBodyNone">128 MB  </td><td class="markdownTableBodyNone">170 MB  </td><td class="markdownTableBodyNone">256 MB  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><b>Graphics</b>  </td><td class="markdownTableBodyNone">Framebuffer  </td><td class="markdownTableBodyNone">Integrated  </td><td class="markdownTableBodyNone">Framebuffer  </td><td class="markdownTableBodyNone">Integrated  </td></tr>
+</table>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md7"></a>
-Minimum Requirements (UEFI)</h3>
-<ul>
-<li><b>CPU</b> Currently any x86_64 proccessor</li>
-<li><b>RAM</b> 170 MB</li>
-<li><b>Storage</b> Nothing required yet.</li>
-<li><b>Graphics</b> Only Framebuffer.</li>
-</ul>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md8"></a>
-Recommended Requirements (BIOS)</h3>
-<ul>
-<li><b>CPU</b> Currently any x86_64 proccessor</li>
-<li><b>RAM</b> 128 MB</li>
-<li><b>Storage</b> Nothing required yet.</li>
-<li><b>Graphics</b> Integrated Graphics</li>
-</ul>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md9"></a>
-Recommended Requirements (UEFI)</h3>
-<ul>
-<li><b>CPU</b> Currently any x86_64 proccessor</li>
-<li><b>RAM</b> 256 MB</li>
-<li><b>Storage</b> Nothing required yet.</li>
-<li><b>Graphics</b> Integrated Graphics</li>
-</ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md10"></a>
-Booting to real machine</h2>
+Booting to real machine</h3>
 <p>This operating system is real machine <b>bootable</b> and tested under the following circumstances:</p>
 <p>Boot Disk information:</p><ul>
 <li>Using 32 GB Pendrive</li>
@@ -243,14 +224,14 @@ Booting to real machine</h2>
 <li>FrostWing.iso in the root directory</li>
 </ul>
 <dl class="section important"><dt>Important</dt><dd>It is recommended to use Ventoy because you will not have the risk of flashing and failing of USB-Drives.</dd></dl>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md11"></a>
-Contributing</h1>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md8"></a>
+Contributing</h2>
 <p>We welcome contributions to FrostWing! If you'd like to contribute code, report bugs, or suggest enhancements, please check our <a href="https://github.com/Frost-Wing/osdev/blob/main/CONTRIBUTING.md">contribution guidelines</a>.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md12"></a>
-License</h1>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md9"></a>
+License</h2>
 <p>FrostWing is open-source software released under the <a href="https://github.com/Frost-Wing/osdev/blob/main/LICENSE">CC0-1.0 License</a>. Feel free to use, modify, and distribute it as per the terms of this license.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md13"></a>
-FrostWing Team</h1>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md10"></a>
+FrostWing Team</h2>
 <ul>
 <li>Owner, founder &amp; "The Dev" - Pradosh (<a href="https://twitter.com/@PradoshGame">@PradoshGame</a>)</li>
 <li>OpenGL &amp; Head Developer - GAMINGNOOB (<a href="https://github.com/GAMINGNOOBdev">@GAMINGNOOBdev</a>) (inactive)</li>

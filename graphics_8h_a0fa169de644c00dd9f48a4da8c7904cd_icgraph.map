@@ -1,0 +1,7 @@
+<map id="info" name="info">
+<area shape="rect" id="Node000001" title="Display an informational message." alt="" coords="260,37,305,67"/>
+<area shape="rect" id="Node000002" href="$versions_8h.html#a7c990ecb2fc150d014f0636a81a5a496" title="Print compiler&#45;provided build version and date information." alt="" coords="5,5,212,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,46,193,38,193,33,247,45"/>
+<area shape="rect" id="Node000003" href="$multitasking_8h.html#a3da905616a1a010a88ebbf2f479926e6" title="Spawn a kernel task and transfer ownership of its context." alt="" coords="38,58,179,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="242,59,180,73,179,68,247,58"/>
+</map>

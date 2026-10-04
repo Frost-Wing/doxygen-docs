@@ -1,8 +1,14 @@
 <map id="flanterm_fb_context" name="flanterm_fb_context">
-<area shape="rect" id="Node000001" title="Represents the context for framebuffer&#45;based terminal rendering." alt="" coords="5,409,141,731"/>
-<area shape="rect" id="Node000002" href="$structflanterm__fb__char.html" title="Represents a character with its foreground and background colors." alt="" coords="15,5,132,132"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,130,67,207,68,392,63,392,62,207,68,135"/>
-<area shape="rect" id="Node000003" href="$structflanterm__fb__queue__item.html" title="Represents an item in the rendering queue." alt="" coords="151,207,315,310"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="126,129,182,194,177,195,126,135"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="206,312,151,424,146,422,208,308"/>
+<area shape="rect" id="Node000001" title="Represents the context for framebuffer&#45;based terminal rendering." alt="" coords="172,774,307,1096"/>
+<area shape="rect" id="Node000002" href="$structssfn__t.html" title=" " alt="" coords="77,353,191,675"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,672,182,750,184,758,179,758,177,751,162,677"/>
+<area shape="rect" id="Node000003" href="$structssfn__glyph__t.html" title=" " alt="" coords="5,5,92,254"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="76,251,97,336,92,337,76,257"/>
+<area shape="rect" id="Node000004" href="$structssfn__chr__t.html" title=" " alt="" coords="116,30,189,230"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="148,227,145,336,140,336,148,232"/>
+<area shape="rect" id="Node000005" href="$structflanterm__fb__char.html" title="Represents a character with its foreground and background colors." alt="" coords="228,66,344,193"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="275,190,265,270,255,354,243,563,240,758,235,757,238,563,250,353,260,269,274,196"/>
+<area shape="rect" id="Node000006" href="$structflanterm__fb__queue__item.html" title="Represents an item in the rendering queue." alt="" coords="339,463,502,566"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="309,190,400,447,395,447,307,195"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="401,563,316,763,311,761,397,567"/>
 </map>

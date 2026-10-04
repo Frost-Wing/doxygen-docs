@@ -1,6 +1,26 @@
 var searchData=
 [
-  ['uint_5fto_5fstring_0',['uint_to_string',['../strings_8h.html#a708690034ca5d9acf94992d4b1f1b707',1,'strings.h']]],
-  ['update_5fsystem_5ftime_1',['update_system_time',['../rtc_8h.html#a61675a8c028f4837e5792c11f7c9d092',1,'rtc.h']]],
-  ['user_5fmain_2',['user_main',['../sh__util_8h.html#ae2a71fc8adff1beeeef89ffaaee8a857',1,'sh_util.h']]]
+  ['rb_5fclear_0',['rb_clear',['../ringbuffer_8h.html#abe420aadad742a5ab16dc0d2ca2d7282',1,'ringbuffer.h']]],
+  ['rb_5fempty_1',['rb_empty',['../ringbuffer_8h.html#a37da2796cb4a8922a2bdae6d867262f7',1,'ringbuffer.h']]],
+  ['rb_5ffree_2',['rb_free',['../ringbuffer_8h.html#a4604360c7c9ef889e4e09f395460edcd',1,'ringbuffer.h']]],
+  ['rb_5ffull_3',['rb_full',['../ringbuffer_8h.html#a5cc866409cbb8840f1c94d2852976410',1,'ringbuffer.h']]],
+  ['rb_5finit_4',['rb_init',['../ringbuffer_8h.html#aae7bb7d07bf301753c8ad1af137c900a',1,'ringbuffer.h']]],
+  ['rb_5fpeek_5',['rb_peek',['../ringbuffer_8h.html#a281aefbd3e27f48d02715707aae1e6ed',1,'ringbuffer.h']]],
+  ['rb_5fpop_6',['rb_pop',['../ringbuffer_8h.html#a4d28de42ecf23d7e40b3d56e2076f23b',1,'ringbuffer.h']]],
+  ['rb_5fpush_7',['rb_push',['../ringbuffer_8h.html#a4bd4ec4bfe4f65572556105c80eef269',1,'ringbuffer.h']]],
+  ['rb_5fpush_5foverwrite_8',['rb_push_overwrite',['../ringbuffer_8h.html#a9478422047bee2b073509c475fa2b0b0',1,'ringbuffer.h']]],
+  ['rb_5fsize_9',['rb_size',['../ringbuffer_8h.html#a69bd00d201517061bb71880e91295c98',1,'ringbuffer.h']]],
+  ['rdmsr64_10',['rdmsr64',['../cc-asm_8h.html#addb2e78c6a10f433b61150de747d1ebf',1,'cc-asm.h']]],
+  ['rdtsc64_11',['rdtsc64',['../cc-asm_8h.html#a716f4dea465119db1a7a2f2bbd1766c7',1,'cc-asm.h']]],
+  ['read_5fblocks_12',['read_blocks',['../ahci_8h.html#af594d0d6b2fd34c6b76ef5c52b6255f7',1,'ahci.h']]],
+  ['read_5frtc_5fregister_13',['read_rtc_register',['../rtc_8h.html#a26bfb07acc6c70c774cd1b574838867c',1,'rtc.h']]],
+  ['reboot_14',['reboot',['../kernel_8h.html#a903274fb3724f4532615fb8b4f5ddd96',1,'kernel.h']]],
+  ['registerinterrupthandler_15',['registerInterruptHandler',['../isr_8h.html#abbf1d7887d81019d655219c3087fac19',1,'isr.h']]],
+  ['registers_5fdump_16',['registers_dump',['../memory_8h.html#a8fab4814f1ff82615b9d48630ac94f49',1,'memory.h']]],
+  ['remap_5fpic_17',['remap_pic',['../idt_8h.html#abfb54784eb135b2b1e1d4f2e8d140a49',1,'idt.h']]],
+  ['remove_5flast_5fchar_18',['remove_last_char',['../strings_8h.html#ab8742b3fde0c51ed53cf7ac80dd42f9a',1,'strings.h']]],
+  ['remove_5fmount_19',['remove_mount',['../ahci_8h.html#a5276c645d9648eb2a548a3dbf6f214b3',1,'ahci.h']]],
+  ['rtc_5fget_5funix_5ftime_20',['rtc_get_unix_time',['../rtc_8h.html#a33e369881ebaf4c4dbec07c5c3da07b8',1,'rtc.h']]],
+  ['rtc_5fread_5fstable_21',['rtc_read_stable',['../rtc_8h.html#a795b8b839ef4cabf54b9f2179548301f',1,'rtc.h']]],
+  ['rtl8139_5fhandler_22',['rtl8139_handler',['../isr_8h.html#a079624b37f30b79570546b553f794e39',1,'isr.h']]]
 ];

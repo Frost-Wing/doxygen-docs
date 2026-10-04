@@ -6,5 +6,8 @@ var syslog_8h =
     [ "syslog_clear", "syslog_8h.html#accc9bde6e408c4a9afb31375181632ec", null ],
     [ "syslog_init", "syslog_8h.html#ace840ba86e233d40dbffc915b4b0fa4a", null ],
     [ "syslog_printf", "syslog_8h.html#a02a6d7d2c3afc7ef0df61f2f150f4508", null ],
-    [ "syslog_putc", "syslog_8h.html#a4fe8e2039feb49f46b47f2e520b99210", null ]
+    [ "syslog_putc", "syslog_8h.html#a4fe8e2039feb49f46b47f2e520b99210", null ],
+    [ "syslog_read", "syslog_8h.html#a2be2f25e69c6f1b5053d7a8592de10ad", null ],
+    [ "syslog_read_at", "syslog_8h.html#a1ecffeb968b4dcea93b05161b1267c7d", null ],
+    [ "syslog_size", "syslog_8h.html#aa5e192ad3d43c0c107f7ece2339e3de4", null ]
 ];

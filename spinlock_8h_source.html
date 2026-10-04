@@ -94,32 +94,36 @@ $(function(){initNavTree('spinlock_8h_source.html','',''); });
   <div class="headertitle"><div class="title">spinlock.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef SPINLOCK_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define SPINLOCK_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="foldopen" id="foldopen00006" data-start="{" data-end="};">
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="structspinlock__t.html">    6</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>    <span class="keyword">volatile</span> uint32_t value;</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>} <a class="code hl_struct" href="structspinlock__t.html">spinlock_t</a>;</div>
-</div>
+<a href="spinlock_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#ifndef SPINLOCK_H</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#define SPINLOCK_H</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#define SPINLOCK_INITIALIZER {0}</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keywordtype">void</span> spinlock_lock(<a class="code hl_struct" href="structspinlock__t.html">spinlock_t</a> *lock);</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keywordtype">void</span> spinlock_unlock(<a class="code hl_struct" href="structspinlock__t.html">spinlock_t</a> *lock);</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#endif</span></div>
+<div class="foldopen" id="foldopen00010" data-start="{" data-end="};">
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="structspinlock__t.html">   10</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <span class="keyword">volatile</span> uint32_t value;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>} <a class="code hl_struct" href="structspinlock__t.html">spinlock_t</a>;</div>
+</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#define SPINLOCK_INITIALIZER {0}</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="spinlock_8h.html#aedee5f1c67eb4de69d4e6d3abdad1400">   20</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="spinlock_8h.html#aedee5f1c67eb4de69d4e6d3abdad1400">spinlock_lock</a>(<a class="code hl_struct" href="structspinlock__t.html">spinlock_t</a> *lock);</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="spinlock_8h.html#a5a4e7ae183488ed7d0aa8b37e8ea4e4c">   26</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="spinlock_8h.html#a5a4e7ae183488ed7d0aa8b37e8ea4e4c">spinlock_unlock</a>(<a class="code hl_struct" href="structspinlock__t.html">spinlock_t</a> *lock);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="abasics_8h_html"><div class="ttname"><a href="basics_8h.html">basics.h</a></div><div class="ttdoc">This is a basic header files with FrostWing specific short forms and basically a good for life header...</div></div>
-<div class="ttc" id="astructspinlock__t_html"><div class="ttname"><a href="structspinlock__t.html">spinlock_t</a></div><div class="ttdef"><b>Definition</b> <a href="#l00006">spinlock.h:6</a></div></div>
+<div class="ttc" id="aspinlock_8h_html_a5a4e7ae183488ed7d0aa8b37e8ea4e4c"><div class="ttname"><a href="spinlock_8h.html#a5a4e7ae183488ed7d0aa8b37e8ea4e4c">spinlock_unlock</a></div><div class="ttdeci">void spinlock_unlock(spinlock_t *lock)</div><div class="ttdoc">Release a spinlock.</div></div>
+<div class="ttc" id="aspinlock_8h_html_aedee5f1c67eb4de69d4e6d3abdad1400"><div class="ttname"><a href="spinlock_8h.html#aedee5f1c67eb4de69d4e6d3abdad1400">spinlock_lock</a></div><div class="ttdeci">void spinlock_lock(spinlock_t *lock)</div><div class="ttdoc">Acquire a spinlock, waiting until it becomes available.</div></div>
+<div class="ttc" id="astructspinlock__t_html"><div class="ttname"><a href="structspinlock__t.html">spinlock_t</a></div><div class="ttdef"><b>Definition</b> <a href="#l00010">spinlock.h:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><b>spinlock.h</b></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="spinlock_8h.html">spinlock.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

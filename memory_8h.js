@@ -9,5 +9,6 @@ var memory_8h =
     [ "memcpy", "memory_8h.html#aba088e716bccbc96d42da97e96316df1", null ],
     [ "memmove", "memory_8h.html#a340d11725e5c81a874f508fbcdf1c5ef", null ],
     [ "memory_dump", "memory_8h.html#abf9368946b7a5fe5775ed94ca97bb6cf", null ],
-    [ "memset", "memory_8h.html#a313175102214d45434bf045db18dddf0", null ]
+    [ "memset", "memory_8h.html#a313175102214d45434bf045db18dddf0", null ],
+    [ "registers_dump", "memory_8h.html#a8fab4814f1ff82615b9d48630ac94f49", null ]
 ];

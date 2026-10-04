@@ -94,29 +94,79 @@ $(function(){initNavTree('tty_8h_source.html','',''); });
   <div class="headertitle"><div class="title">tty.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef TTY_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define TTY_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#define TTY_LINE_MAX 256</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define TTY_COOKED_MAX 1024</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keywordtype">void</span> tty_init(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keywordtype">void</span> tty_input_char(<span class="keywordtype">char</span> c);</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keywordtype">int</span> tty_read(<span class="keywordtype">char</span> *buf, uint64_t count);</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keywordtype">void</span> tty_flush_input(<span class="keywordtype">void</span>);</div>
+<a href="tty_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#ifndef TTY_H</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#define TTY_H</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;sys/termios.h&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">struct </span>flanterm_context;</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#define TTY_LINE_MAX 256</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#define TTY_COOKED_MAX 1024</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#define TTY_COUNT 1</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="comment">/* Ask the task layer to inherit its parent&#39;s terminal. */</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#define TTY_INDEX_CURRENT UINT8_MAX</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="tty_8h.html#a0d6679c5a4b8b74b22afc33d06d64eec">   22</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="tty_8h.html#a0d6679c5a4b8b74b22afc33d06d64eec">tty_init</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="tty_8h.html#afdaaf1b15a19414c07136d5facebcfc4">   38</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="tty_8h.html#afdaaf1b15a19414c07136d5facebcfc4">tty_init_terminals</a>(<span class="keyword">struct</span> flanterm_context *default_terminal,</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>                        uint32_t *framebuffer, <span class="keywordtype">size_t</span> width, <span class="keywordtype">size_t</span> height,</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>                        <span class="keywordtype">size_t</span> pitch, <span class="keyword">const</span> <span class="keywordtype">void</span> *ssfn_font,</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>                        <span class="keywordtype">size_t</span> ssfn_font_size);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="tty_8h.html#a73e6a06a5accd06fdb4d9411b4fa794f">   44</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="tty_8h.html#a73e6a06a5accd06fdb4d9411b4fa794f">tty_input_char</a>(<span class="keywordtype">char</span> c);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="tty_8h.html#a6d9480528a38da2d35e81c48d5c8cc4e">   52</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="tty_8h.html#a6d9480528a38da2d35e81c48d5c8cc4e">tty_read</a>(<span class="keywordtype">char</span> *buf, uint64_t count);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="tty_8h.html#ab79bbedb9d743a373593846cad61278e">   55</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="tty_8h.html#ab79bbedb9d743a373593846cad61278e">tty_flush_input</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="tty_8h.html#a151cd682fadbc14143da956ce3e519cb">   58</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="tty_8h.html#a151cd682fadbc14143da956ce3e519cb">tty_interrupt_pending</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="tty_8h.html#ae9932b99b24fcc4833ce74be6714582e">   61</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="tty_8h.html#ae9932b99b24fcc4833ce74be6714582e">tty_take_interrupt</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="tty_8h.html#abcd0b88e221b0c953d4bff417ca61881">   64</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="tty_8h.html#abcd0b88e221b0c953d4bff417ca61881">tty_clear_interrupt</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="tty_8h.html#a28f020679254f47ef2666e8c5dd752d0">   67</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="tty_8h.html#a28f020679254f47ef2666e8c5dd752d0">tty_process_exit_code_for_key</a>(<span class="keywordtype">int</span> key);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="tty_8h.html#abf18e70bf8c1cc809671e6f9157cdb44">   74</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="tty_8h.html#abf18e70bf8c1cc809671e6f9157cdb44">tty_get_termios</a>(linux_termios_t *termios);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="tty_8h.html#abbce1dfad84680ef9263641298555c2b">   82</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="tty_8h.html#abbce1dfad84680ef9263641298555c2b">tty_set_termios</a>(<span class="keyword">const</span> linux_termios_t *termios, <span class="keywordtype">bool</span> flush_input);</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="tty_8h.html#a98ff97ead361cecba76c528af81a473f">   89</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="tty_8h.html#a98ff97ead361cecba76c528af81a473f">tty_get_winsize</a>(linux_winsize_t *winsize);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="tty_8h.html#ac839e7858b3e629f6ebed75f23c14bcb">   96</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="tty_8h.html#ac839e7858b3e629f6ebed75f23c14bcb">tty_switch</a>(uint8_t index);</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span></div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="tty_8h.html#a994e45e3196f5048b797fea30420fdbb">   99</a></span>uint8_t <a class="code hl_function" href="tty_8h.html#a994e45e3196f5048b797fea30420fdbb">tty_active_index</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span></div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="tty_8h.html#aa1ceb59b582210e569bff06561c7a309">  102</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="tty_8h.html#aa1ceb59b582210e569bff06561c7a309">tty_input_key</a>(<span class="keywordtype">int</span> key);</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="abasics_8h_html"><div class="ttname"><a href="basics_8h.html">basics.h</a></div><div class="ttdoc">This is a basic header files with FrostWing specific short forms and basically a good for life header...</div></div>
+<div class="ttc" id="atty_8h_html_a0d6679c5a4b8b74b22afc33d06d64eec"><div class="ttname"><a href="tty_8h.html#a0d6679c5a4b8b74b22afc33d06d64eec">tty_init</a></div><div class="ttdeci">void tty_init(void)</div><div class="ttdoc">Initialize the kernel terminal subsystem.</div></div>
+<div class="ttc" id="atty_8h_html_a151cd682fadbc14143da956ce3e519cb"><div class="ttname"><a href="tty_8h.html#a151cd682fadbc14143da956ce3e519cb">tty_interrupt_pending</a></div><div class="ttdeci">bool tty_interrupt_pending(void)</div><div class="ttdoc">Check whether a terminal interrupt is pending.</div></div>
+<div class="ttc" id="atty_8h_html_a28f020679254f47ef2666e8c5dd752d0"><div class="ttname"><a href="tty_8h.html#a28f020679254f47ef2666e8c5dd752d0">tty_process_exit_code_for_key</a></div><div class="ttdeci">int tty_process_exit_code_for_key(int key)</div><div class="ttdoc">Map a terminal control key to the task exit code it requests.</div></div>
+<div class="ttc" id="atty_8h_html_a6d9480528a38da2d35e81c48d5c8cc4e"><div class="ttname"><a href="tty_8h.html#a6d9480528a38da2d35e81c48d5c8cc4e">tty_read</a></div><div class="ttdeci">int tty_read(char *buf, uint64_t count)</div><div class="ttdoc">Read input from the active terminal.</div></div>
+<div class="ttc" id="atty_8h_html_a73e6a06a5accd06fdb4d9411b4fa794f"><div class="ttname"><a href="tty_8h.html#a73e6a06a5accd06fdb4d9411b4fa794f">tty_input_char</a></div><div class="ttdeci">void tty_input_char(char c)</div><div class="ttdoc">Queue a character as terminal input.</div></div>
+<div class="ttc" id="atty_8h_html_a98ff97ead361cecba76c528af81a473f"><div class="ttname"><a href="tty_8h.html#a98ff97ead361cecba76c528af81a473f">tty_get_winsize</a></div><div class="ttdeci">bool tty_get_winsize(linux_winsize_t *winsize)</div><div class="ttdoc">Get the active terminal&#39;s window size.</div></div>
+<div class="ttc" id="atty_8h_html_a994e45e3196f5048b797fea30420fdbb"><div class="ttname"><a href="tty_8h.html#a994e45e3196f5048b797fea30420fdbb">tty_active_index</a></div><div class="ttdeci">uint8_t tty_active_index(void)</div><div class="ttdoc">Return the active terminal index.</div></div>
+<div class="ttc" id="atty_8h_html_aa1ceb59b582210e569bff06561c7a309"><div class="ttname"><a href="tty_8h.html#aa1ceb59b582210e569bff06561c7a309">tty_input_key</a></div><div class="ttdeci">void tty_input_key(int key)</div><div class="ttdoc">Queue a key event as terminal input.</div></div>
+<div class="ttc" id="atty_8h_html_ab79bbedb9d743a373593846cad61278e"><div class="ttname"><a href="tty_8h.html#ab79bbedb9d743a373593846cad61278e">tty_flush_input</a></div><div class="ttdeci">void tty_flush_input(void)</div><div class="ttdoc">Discard buffered terminal input.</div></div>
+<div class="ttc" id="atty_8h_html_abbce1dfad84680ef9263641298555c2b"><div class="ttname"><a href="tty_8h.html#abbce1dfad84680ef9263641298555c2b">tty_set_termios</a></div><div class="ttdeci">bool tty_set_termios(const linux_termios_t *termios, bool flush_input)</div><div class="ttdoc">Set the active terminal&#39;s termios settings.</div></div>
+<div class="ttc" id="atty_8h_html_abcd0b88e221b0c953d4bff417ca61881"><div class="ttname"><a href="tty_8h.html#abcd0b88e221b0c953d4bff417ca61881">tty_clear_interrupt</a></div><div class="ttdeci">void tty_clear_interrupt(void)</div><div class="ttdoc">Clear the pending terminal interrupt.</div></div>
+<div class="ttc" id="atty_8h_html_abf18e70bf8c1cc809671e6f9157cdb44"><div class="ttname"><a href="tty_8h.html#abf18e70bf8c1cc809671e6f9157cdb44">tty_get_termios</a></div><div class="ttdeci">bool tty_get_termios(linux_termios_t *termios)</div><div class="ttdoc">Get the active terminal&#39;s termios settings.</div></div>
+<div class="ttc" id="atty_8h_html_ac839e7858b3e629f6ebed75f23c14bcb"><div class="ttname"><a href="tty_8h.html#ac839e7858b3e629f6ebed75f23c14bcb">tty_switch</a></div><div class="ttdeci">bool tty_switch(uint8_t index)</div><div class="ttdoc">Switch to a terminal by index.</div></div>
+<div class="ttc" id="atty_8h_html_ae9932b99b24fcc4833ce74be6714582e"><div class="ttname"><a href="tty_8h.html#ae9932b99b24fcc4833ce74be6714582e">tty_take_interrupt</a></div><div class="ttdeci">int tty_take_interrupt(void)</div><div class="ttdoc">Consume the pending terminal interrupt, if present.</div></div>
+<div class="ttc" id="atty_8h_html_afdaaf1b15a19414c07136d5facebcfc4"><div class="ttname"><a href="tty_8h.html#afdaaf1b15a19414c07136d5facebcfc4">tty_init_terminals</a></div><div class="ttdeci">bool tty_init_terminals(struct flanterm_context *default_terminal, uint32_t *framebuffer, size_t width, size_t height, size_t pitch, const void *ssfn_font, size_t ssfn_font_size)</div><div class="ttdoc">Attach tty0 to the initialized framebuffer console.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><b>tty.h</b></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="tty_8h.html">tty.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

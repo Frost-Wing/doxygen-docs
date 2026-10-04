@@ -1,6 +1,6 @@
 var heap_8h =
 [
-    [ "kfree", "heap_8h.html#a069f85a5001d71bc44d8be6532a4e432", null ],
+    [ "ikfree", "heap_8h.html#adc74142d0547a25322616b94879386e4", null ],
     [ "kheap_check", "heap_8h.html#abe2ea4faee2aff8cc29e5916cae0f84e", null ],
     [ "kmalloc", "heap_8h.html#a87d8585002a620e687d68b38ab387a0e", null ],
     [ "kmalloc_aligned", "heap_8h.html#a2c72ec506b9bba0eb5c6fe507a2222bc", null ],

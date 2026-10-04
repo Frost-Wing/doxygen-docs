@@ -1,8 +1,10 @@
 <map id="task" name="task">
-<area shape="rect" id="Node000001" title=" " alt="" coords="63,256,179,602"/>
-<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="178,388,190,392,199,401,204,413,206,429,203,448,196,461,192,457,198,446,201,429,199,414,194,404,187,397,180,393"/>
-<area shape="rect" id="Node000002" href="$structuser__task__spec.html" title=" " alt="" coords="5,5,109,181"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,178,82,232,83,240,78,240,77,232,70,183"/>
-<area shape="rect" id="Node000003" href="$structuser__runtime__t.html" title=" " alt="" coords="134,30,239,157"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,154,161,240,155,239,174,159"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="128,280,244,602"/>
+<area shape="poly" id="edge4_Node000001_Node000001" title=" " alt="" coords="244,402,255,406,264,414,269,426,271,441,269,458,261,471,258,467,264,457,266,441,264,428,259,417,253,411,245,407"/>
+<area shape="rect" id="Node000002" href="$structuser__task__spec.html" title=" " alt="" coords="5,5,109,205"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,202,106,255,125,303,119,303,101,257,85,208"/>
+<area shape="rect" id="Node000003" href="$structuser__runtime__t.html" title=" " alt="" coords="134,42,239,169"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,166,189,264,184,263,186,171"/>
+<area shape="rect" id="Node000004" href="$structtask__signal__action__t.html" title=" " alt="" coords="264,30,394,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="316,178,294,257,255,337,251,334,289,255,314,183"/>
 </map>

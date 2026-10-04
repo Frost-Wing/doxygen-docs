@@ -95,54 +95,60 @@ $(function(){initNavTree('ps2-mouse_8h_source.html','',''); });
 </div><!--header-->
 <div class="contents">
 <a href="ps2-mouse_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;<a class="code" href="debugger_8h.html">debugger.h</a>&gt;</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;<a class="code" href="hal_8h.html">hal.h</a>&gt;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;<a class="code" href="isr_8h.html">isr.h</a>&gt;</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;opengl/glbackend.h&gt;</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#define PS2_left_button 0x01U</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#define PS2_middle_button 0x04U</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#define PS2_right_button 0x02U</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#define PS2_x 0x10U</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#define PS2_y 0x20U</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#define PS2_x_overflow 0x40U</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#define PS2_y_overflow 0x80U</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#define MOUSE_BUTTON_LEFT PS2_left_button</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#define MOUSE_BUTTON_RIGHT PS2_right_button</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#define MOUSE_BUTTON_MIDDLE PS2_middle_button</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#define MOUSE_BUTTON_PRESS 1</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#define MOUSE_BUTTON_RELEASE 0</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">extern</span> <span class="keyword">const</span> <span class="keywordtype">bool</span> mouse_cursor[];</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="ps2-mouse_8h.html#a4cd4a0a8201872ea3f325060c813bf6a">   39</a></span><span class="keyword">typedef</span> void (*<a class="code hl_typedef" href="ps2-mouse_8h.html#a4cd4a0a8201872ea3f325060c813bf6a">MouseMovementHandler</a>)(int64_t xRel, int64_t yRel);</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="ps2-mouse_8h.html#a7bbbe29199acd1e018bdf8a227fb3bc6">   44</a></span><span class="keyword">typedef</span> void (*<a class="code hl_typedef" href="ps2-mouse_8h.html#a7bbbe29199acd1e018bdf8a227fb3bc6">MouseButtonHandler</a>)(uint8_t button, uint8_t action);</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="ps2-mouse_8h.html#a19858d1d7e556fadeda6374954794f30">   53</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="ps2-mouse_8h.html#a19858d1d7e556fadeda6374954794f30">SetMouseMovementHandler</a>(<a class="code hl_typedef" href="ps2-mouse_8h.html#a4cd4a0a8201872ea3f325060c813bf6a">MouseMovementHandler</a> handler);</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="ps2-mouse_8h.html#a93ddab9752203829a14f0da28aac6974">   62</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="ps2-mouse_8h.html#a93ddab9752203829a14f0da28aac6974">SetMouseButtonHandler</a>(<a class="code hl_typedef" href="ps2-mouse_8h.html#a7bbbe29199acd1e018bdf8a227fb3bc6">MouseButtonHandler</a> handler);</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span></div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="ps2-mouse_8h.html#a50ace13522435580eb97a64fd9243932">   71</a></span>ivec2 <a class="code hl_function" href="ps2-mouse_8h.html#a50ace13522435580eb97a64fd9243932">GetMousePosition</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="ps2-mouse_8h.html#af4924ec541b2aa41e202bc3695c0d282">   80</a></span>ivec2 <a class="code hl_function" href="ps2-mouse_8h.html#af4924ec541b2aa41e202bc3695c0d282">GetLastMousePosition</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span></div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="ps2-mouse_8h.html#a2d7435fd33eb778258e210a6fa0b43c2">   87</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="ps2-mouse_8h.html#a2d7435fd33eb778258e210a6fa0b43c2">process_mouse</a>(<a class="code hl_struct" href="structInterruptFrame.html">InterruptFrame</a> *frame);</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="keywordtype">void</span> init_ps2_mouse(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#ifndef PS2_MOUSE_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#define PS2_MOUSE_H</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;<a class="code" href="debugger_8h.html">debugger.h</a>&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;<a class="code" href="hal_8h.html">hal.h</a>&gt;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;<a class="code" href="isr_8h.html">isr.h</a>&gt;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &lt;opengl/glbackend.h&gt;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#define PS2_left_button 0x01U</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#define PS2_middle_button 0x04U</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#define PS2_right_button 0x02U</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#define PS2_x 0x10U</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#define PS2_y 0x20U</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#define PS2_x_overflow 0x40U</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#define PS2_y_overflow 0x80U</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#define MOUSE_BUTTON_LEFT PS2_left_button</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#define MOUSE_BUTTON_RIGHT PS2_right_button</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#define MOUSE_BUTTON_MIDDLE PS2_middle_button</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#define MOUSE_BUTTON_PRESS 1</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#define MOUSE_BUTTON_RELEASE 0</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">extern</span> <span class="keyword">const</span> <span class="keywordtype">bool</span> mouse_cursor[];</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="ps2-mouse_8h.html#a4cd4a0a8201872ea3f325060c813bf6a">   41</a></span><span class="keyword">typedef</span> void (*<a class="code hl_typedef" href="ps2-mouse_8h.html#a4cd4a0a8201872ea3f325060c813bf6a">MouseMovementHandler</a>)(int64_t xRel, int64_t yRel);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="ps2-mouse_8h.html#a7bbbe29199acd1e018bdf8a227fb3bc6">   46</a></span><span class="keyword">typedef</span> void (*<a class="code hl_typedef" href="ps2-mouse_8h.html#a7bbbe29199acd1e018bdf8a227fb3bc6">MouseButtonHandler</a>)(uint8_t button, uint8_t action);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="ps2-mouse_8h.html#a19858d1d7e556fadeda6374954794f30">   55</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="ps2-mouse_8h.html#a19858d1d7e556fadeda6374954794f30">SetMouseMovementHandler</a>(<a class="code hl_typedef" href="ps2-mouse_8h.html#a4cd4a0a8201872ea3f325060c813bf6a">MouseMovementHandler</a> handler);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="ps2-mouse_8h.html#a93ddab9752203829a14f0da28aac6974">   64</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="ps2-mouse_8h.html#a93ddab9752203829a14f0da28aac6974">SetMouseButtonHandler</a>(<a class="code hl_typedef" href="ps2-mouse_8h.html#a7bbbe29199acd1e018bdf8a227fb3bc6">MouseButtonHandler</a> handler);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="ps2-mouse_8h.html#a50ace13522435580eb97a64fd9243932">   73</a></span>ivec2 <a class="code hl_function" href="ps2-mouse_8h.html#a50ace13522435580eb97a64fd9243932">GetMousePosition</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="ps2-mouse_8h.html#af4924ec541b2aa41e202bc3695c0d282">   82</a></span>ivec2 <a class="code hl_function" href="ps2-mouse_8h.html#af4924ec541b2aa41e202bc3695c0d282">GetLastMousePosition</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="ps2-mouse_8h.html#a2d7435fd33eb778258e210a6fa0b43c2">   89</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="ps2-mouse_8h.html#a2d7435fd33eb778258e210a6fa0b43c2">process_mouse</a>(<a class="code hl_struct" href="structInterruptFrame.html">InterruptFrame</a> *frame);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span></div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="ps2-mouse_8h.html#a50d64468c05fa02ba4fcf59dd1d7b1ec">   94</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="ps2-mouse_8h.html#a50d64468c05fa02ba4fcf59dd1d7b1ec">init_ps2_mouse</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span><span class="preprocessor">#endif </span><span class="comment">// PS2_MOUSE_H</span></div>
 <div class="ttc" id="abasics_8h_html"><div class="ttname"><a href="basics_8h.html">basics.h</a></div><div class="ttdoc">This is a basic header files with FrostWing specific short forms and basically a good for life header...</div></div>
 <div class="ttc" id="adebugger_8h_html"><div class="ttname"><a href="debugger_8h.html">debugger.h</a></div><div class="ttdoc">The headers files for E9 hack.</div></div>
 <div class="ttc" id="ahal_8h_html"><div class="ttname"><a href="hal_8h.html">hal.h</a></div><div class="ttdoc">Header file for Hardware Abstraction Layer -&gt; Source from GoGX OS.</div></div>
 <div class="ttc" id="aisr_8h_html"><div class="ttname"><a href="isr_8h.html">isr.h</a></div><div class="ttdoc">Interrupts handler header.</div></div>
 <div class="ttc" id="aps2-mouse_8h_html_a19858d1d7e556fadeda6374954794f30"><div class="ttname"><a href="ps2-mouse_8h.html#a19858d1d7e556fadeda6374954794f30">SetMouseMovementHandler</a></div><div class="ttdeci">void SetMouseMovementHandler(MouseMovementHandler handler)</div><div class="ttdoc">Set the mouse movement handler function.</div></div>
 <div class="ttc" id="aps2-mouse_8h_html_a2d7435fd33eb778258e210a6fa0b43c2"><div class="ttname"><a href="ps2-mouse_8h.html#a2d7435fd33eb778258e210a6fa0b43c2">process_mouse</a></div><div class="ttdeci">void process_mouse(InterruptFrame *frame)</div><div class="ttdoc">Handles the mouse&#39;s.</div></div>
-<div class="ttc" id="aps2-mouse_8h_html_a4cd4a0a8201872ea3f325060c813bf6a"><div class="ttname"><a href="ps2-mouse_8h.html#a4cd4a0a8201872ea3f325060c813bf6a">MouseMovementHandler</a></div><div class="ttdeci">void(* MouseMovementHandler)(int64_t xRel, int64_t yRel)</div><div class="ttdoc">Type definition for mouse movement handler functions.</div><div class="ttdef"><b>Definition</b> <a href="#l00039">ps2-mouse.h:39</a></div></div>
+<div class="ttc" id="aps2-mouse_8h_html_a4cd4a0a8201872ea3f325060c813bf6a"><div class="ttname"><a href="ps2-mouse_8h.html#a4cd4a0a8201872ea3f325060c813bf6a">MouseMovementHandler</a></div><div class="ttdeci">void(* MouseMovementHandler)(int64_t xRel, int64_t yRel)</div><div class="ttdoc">Type definition for mouse movement handler functions.</div><div class="ttdef"><b>Definition</b> <a href="#l00041">ps2-mouse.h:41</a></div></div>
 <div class="ttc" id="aps2-mouse_8h_html_a50ace13522435580eb97a64fd9243932"><div class="ttname"><a href="ps2-mouse_8h.html#a50ace13522435580eb97a64fd9243932">GetMousePosition</a></div><div class="ttdeci">ivec2 GetMousePosition(void)</div><div class="ttdoc">Get the mouse position.</div></div>
-<div class="ttc" id="aps2-mouse_8h_html_a7bbbe29199acd1e018bdf8a227fb3bc6"><div class="ttname"><a href="ps2-mouse_8h.html#a7bbbe29199acd1e018bdf8a227fb3bc6">MouseButtonHandler</a></div><div class="ttdeci">void(* MouseButtonHandler)(uint8_t button, uint8_t action)</div><div class="ttdoc">Type definition for mouse button handler functions.</div><div class="ttdef"><b>Definition</b> <a href="#l00044">ps2-mouse.h:44</a></div></div>
+<div class="ttc" id="aps2-mouse_8h_html_a50d64468c05fa02ba4fcf59dd1d7b1ec"><div class="ttname"><a href="ps2-mouse_8h.html#a50d64468c05fa02ba4fcf59dd1d7b1ec">init_ps2_mouse</a></div><div class="ttdeci">void init_ps2_mouse(void)</div><div class="ttdoc">Initialize the PS/2 mouse and its interrupt handling.</div></div>
+<div class="ttc" id="aps2-mouse_8h_html_a7bbbe29199acd1e018bdf8a227fb3bc6"><div class="ttname"><a href="ps2-mouse_8h.html#a7bbbe29199acd1e018bdf8a227fb3bc6">MouseButtonHandler</a></div><div class="ttdeci">void(* MouseButtonHandler)(uint8_t button, uint8_t action)</div><div class="ttdoc">Type definition for mouse button handler functions.</div><div class="ttdef"><b>Definition</b> <a href="#l00046">ps2-mouse.h:46</a></div></div>
 <div class="ttc" id="aps2-mouse_8h_html_a93ddab9752203829a14f0da28aac6974"><div class="ttname"><a href="ps2-mouse_8h.html#a93ddab9752203829a14f0da28aac6974">SetMouseButtonHandler</a></div><div class="ttdeci">void SetMouseButtonHandler(MouseButtonHandler handler)</div><div class="ttdoc">Set the mouse button handler function.</div></div>
 <div class="ttc" id="aps2-mouse_8h_html_af4924ec541b2aa41e202bc3695c0d282"><div class="ttname"><a href="ps2-mouse_8h.html#af4924ec541b2aa41e202bc3695c0d282">GetLastMousePosition</a></div><div class="ttdeci">ivec2 GetLastMousePosition(void)</div><div class="ttdoc">Get the last mouse position.</div></div>
 <div class="ttc" id="astructInterruptFrame_html"><div class="ttname"><a href="structInterruptFrame.html">InterruptFrame</a></div><div class="ttdef"><b>Definition</b> <a href="isr_8h_source.html#l00018">isr.h:18</a></div></div>

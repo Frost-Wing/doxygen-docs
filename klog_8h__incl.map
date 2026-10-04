@@ -8,7 +8,7 @@
 <area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="215,33,268,73,263,74,215,38"/>
 <area shape="rect" id="Node000003" href="$basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="54,238,123,268"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,111,77,161,77,190,83,223,78,223,72,191,72,160,83,116"/>
-<area shape="rect" id="Node000006" href="$spinlock_8h_source.html" title=" " alt="" coords="87,161,169,190"/>
+<area shape="rect" id="Node000006" href="$spinlock_8h.html" title="Spinlock type and synchronization operations." alt="" coords="87,161,169,190"/>
 <area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="96,111,116,146,111,147,95,116"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="5,316,78,346"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="82,267,60,304,56,301,77,270"/>

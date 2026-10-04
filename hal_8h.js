@@ -5,6 +5,8 @@ var hal_8h =
     [ "inl", "hal_8h.html#a02d619ccaa5cc126094ba87ba4457adb", null ],
     [ "inw", "hal_8h.html#a5c7552f0ab5027451e757a4d3671316f", null ],
     [ "io_wait", "hal_8h.html#aaaf4b3f918fbda500ebf08c8b17dfb46", null ],
+    [ "io_wait_ms", "hal_8h.html#a5c9bceee862c594153dd2afe3db1404b", null ],
+    [ "io_wait_us", "hal_8h.html#a65ca634aab98b7f7e0c1f0c7310ebb56", null ],
     [ "outb", "hal_8h.html#ab66218b0d63b41250d65dd4164f51eb5", null ],
     [ "outl", "hal_8h.html#a4642b2a76fd515432b7d88f5d147236c", null ],
     [ "outw", "hal_8h.html#a3d2dcba8d72a31e25affa8646652de78", null ]

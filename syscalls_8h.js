@@ -1,5 +1,6 @@
 var syscalls_8h =
 [
+    [ "linux_statfs_t", "structlinux__statfs__t.html", null ],
     [ "syscall_frame", "structsyscall__frame.html", null ],
     [ "linux_syscalls_prefix", "syscalls_8h.html#ad5bdec6badf5c3f93cca875ea244f392", null ],
     [ "int80_handler", "syscalls_8h.html#abbedf1acc658140859f181713a0b0b3c", null ],

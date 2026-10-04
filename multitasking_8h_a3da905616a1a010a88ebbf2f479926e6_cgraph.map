@@ -1,0 +1,5 @@
+<map id="multitasking_spawn_kernel_owned" name="multitasking_spawn_kernel_owned">
+<area shape="rect" id="Node000001" title="Spawn a kernel task and transfer ownership of its context." alt="" coords="5,5,147,54"/>
+<area shape="rect" id="Node000002" href="$graphics_8h.html#a0fa169de644c00dd9f48a4da8c7904cd" title="Display an informational message." alt="" coords="195,15,240,44"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,27,182,29,177,30,147,32"/>
+</map>

@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: source/includes/multitasking.h File Reference</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -93,55 +94,148 @@ $(function(){initNavTree('multitasking_8h.html','',''); });
   <div class="headertitle"><div class="title">multitasking.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Task creation, scheduling, and process-management interfaces.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="basics_8h_source.html">basics.h</a>&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for multitasking.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="multitasking_8h__incl.png" border="0" usemap="#asource_2includes_2multitasking_8h" loading="lazy" alt=""/></div>
+<map name="asource_2includes_2multitasking_8h" id="asource_2includes_2multitasking_8h">
+<area shape="rect" title="Task creation, scheduling, and process&#45;management interfaces." alt="" coords="32,5,241,35"/>
+<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="30,83,99,113"/>
+<area shape="poly" title=" " alt="" coords="121,38,90,74,86,70,124,33"/>
+<area shape="rect" title=" " alt="" coords="102,161,170,190"/>
+<area shape="poly" title=" " alt="" coords="138,34,139,146,134,144,134,37"/>
+<area shape="rect" title=" " alt="" coords="174,83,253,113"/>
+<area shape="poly" title=" " alt="" coords="151,33,191,72,186,72,150,38"/>
+<area shape="rect" title=" " alt="" coords="5,161,78,190"/>
+<area shape="poly" title=" " alt="" coords="62,111,53,147,48,145,58,115"/>
+<area shape="poly" title=" " alt="" coords="79,111,115,149,110,150,77,116"/>
+</map>
 </div>
 </div>
 <p><a href="multitasking_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:task_5Finfo" id="r_task_5Finfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="structtask__info.html">task_info</a></td></tr>
 <tr class="memitem:user_5Ftask_5Fspec" id="r_user_5Ftask_5Fspec"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="structuser__task__spec.html">user_task_spec</a></td></tr>
+<tr class="memitem:task_5Finfo" id="r_task_5Finfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="structtask__info.html">task_info</a></td></tr>
+<tr class="memitem:user_5Fruntime_5Ft" id="r_user_5Fruntime_5Ft"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="structuser__runtime__t.html">user_runtime_t</a></td></tr>
+<tr class="memitem:task_5Fsignal_5Faction_5Ft" id="r_task_5Fsignal_5Faction_5Ft"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="structtask__signal__action__t.html">task_signal_action_t</a></td></tr>
+<tr class="memitem:task" id="r_task"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="structtask.html">task</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a3c4a3d5d646d0dd1b310835b0f87cb1f" id="r_a3c4a3d5d646d0dd1b310835b0f87cb1f"><td class="memItemLeft">typedef struct <a class="el" href="structtask__info.html">task_info</a>&#160;</td><td class="memItemRight"><a class="el" href="#a3c4a3d5d646d0dd1b310835b0f87cb1f">task_info_t</a></td></tr>
-<tr class="memitem:a87c6b0e514c7ccd158d66bedc67c6623" id="r_a87c6b0e514c7ccd158d66bedc67c6623"><td class="memItemLeft">typedef struct <a class="el" href="structuser__task__spec.html">user_task_spec</a>&#160;</td><td class="memItemRight"><a class="el" href="#a87c6b0e514c7ccd158d66bedc67c6623">user_task_spec_t</a></td></tr>
-<tr class="memitem:ae57bff90dd5239bb469a8ce14a67da96" id="r_ae57bff90dd5239bb469a8ce14a67da96"><td class="memItemLeft">typedef bool(*&#160;</td><td class="memItemRight"><a class="el" href="#ae57bff90dd5239bb469a8ce14a67da96">task_iter_cb_t</a>) (const <a class="el" href="#a3c4a3d5d646d0dd1b310835b0f87cb1f">task_info_t</a> *<a class="el" href="graphics_8h.html#aee2e1461792f971c8adaa6bede6e2bdd">info</a>, void *ctx)</td></tr>
+<tr class="memitem:a87c6b0e514c7ccd158d66bedc67c6623" id="r_a87c6b0e514c7ccd158d66bedc67c6623"><td class="memItemLeft"><a id="a87c6b0e514c7ccd158d66bedc67c6623" name="a87c6b0e514c7ccd158d66bedc67c6623"></a>
+typedef struct <a class="el" href="structuser__task__spec.html">user_task_spec</a>&#160;</td><td class="memItemRight"><b>user_task_spec_t</b></td></tr>
 <tr class="memitem:abebef1343f3c4c0bd92d08cebf3662a3" id="r_abebef1343f3c4c0bd92d08cebf3662a3"><td class="memItemLeft">typedef bool(*&#160;</td><td class="memItemRight"><a class="el" href="#abebef1343f3c4c0bd92d08cebf3662a3">kernel_task_fn_t</a>) (uint32_t pid, uint64_t now_ticks, void *ctx, int *exit_code)</td></tr>
+<tr class="memitem:a3c4a3d5d646d0dd1b310835b0f87cb1f" id="r_a3c4a3d5d646d0dd1b310835b0f87cb1f"><td class="memItemLeft"><a id="a3c4a3d5d646d0dd1b310835b0f87cb1f" name="a3c4a3d5d646d0dd1b310835b0f87cb1f"></a>
+typedef struct <a class="el" href="structtask__info.html">task_info</a>&#160;</td><td class="memItemRight"><b>task_info_t</b></td></tr>
+<tr class="memitem:ae57bff90dd5239bb469a8ce14a67da96" id="r_ae57bff90dd5239bb469a8ce14a67da96"><td class="memItemLeft">typedef bool(*&#160;</td><td class="memItemRight"><a class="el" href="#ae57bff90dd5239bb469a8ce14a67da96">task_iter_cb_t</a>) (const task_info_t *<a class="el" href="graphics_8h.html#a0fa169de644c00dd9f48a4da8c7904cd">info</a>, void *ctx)</td></tr>
+<tr class="memitem:ade04e552d18bad454515b6a32d31bb7b" id="r_ade04e552d18bad454515b6a32d31bb7b"><td class="memItemLeft"><a id="ade04e552d18bad454515b6a32d31bb7b" name="ade04e552d18bad454515b6a32d31bb7b"></a>
+typedef struct <a class="el" href="structtask.html">task</a>&#160;</td><td class="memItemRight"><b>task_t</b></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ac2e16af418bca8dd01cdf7a5198d9b19" id="r_ac2e16af418bca8dd01cdf7a5198d9b19"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#ac2e16af418bca8dd01cdf7a5198d9b19">task_type_t</a> { <a class="el" href="#ac2e16af418bca8dd01cdf7a5198d9b19a4d4fdf49027da3ce99f810764d5bc385">TASK_TYPE_KERNEL</a> = 0
-, <a class="el" href="#ac2e16af418bca8dd01cdf7a5198d9b19ac9c11b3031ba95efccbad8d6ff244935">TASK_TYPE_USERLAND</a> = 1
+<tr class="memitem:ac2e16af418bca8dd01cdf7a5198d9b19" id="r_ac2e16af418bca8dd01cdf7a5198d9b19"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><b>task_type_t</b> { <b>TASK_TYPE_KERNEL</b> = 0
+, <b>TASK_TYPE_USERLAND</b> = 1
  }</td></tr>
-<tr class="memitem:a2cb84aa57ac273f4df157cfb2927322b" id="r_a2cb84aa57ac273f4df157cfb2927322b"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#a2cb84aa57ac273f4df157cfb2927322b">task_state_t</a> { <a class="el" href="#a2cb84aa57ac273f4df157cfb2927322ba7599a95a86e9c5e3d5a968a793cbf6a0">TASK_STATE_READY</a> = 0
-, <a class="el" href="#a2cb84aa57ac273f4df157cfb2927322ba169adc0116f5c61af55d2dd88709ea4e">TASK_STATE_RUNNING</a> = 1
-, <a class="el" href="#a2cb84aa57ac273f4df157cfb2927322badd7c700602b2ebd3c4aed2322c43e7a4">TASK_STATE_EXITED</a> = 2
+<tr class="memitem:a2cb84aa57ac273f4df157cfb2927322b" id="r_a2cb84aa57ac273f4df157cfb2927322b"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><b>task_state_t</b> { <b>TASK_STATE_READY</b> = 0
+, <b>TASK_STATE_RUNNING</b> = 1
+, <b>TASK_STATE_SLEEPING</b> = 2
+, <b>TASK_STATE_EXITED</b> = 3
  }</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a698860af0b4c5137370fbf6837a29c21" id="r_a698860af0b4c5137370fbf6837a29c21"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a698860af0b4c5137370fbf6837a29c21">multitasking_init</a> (void)</td></tr>
-<tr class="memitem:a29e142c2d288ed2d6b0b99479013cdfa" id="r_a29e142c2d288ed2d6b0b99479013cdfa"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a29e142c2d288ed2d6b0b99479013cdfa">multitasking_on_pit_tick</a> (uint64_t now_ticks)</td></tr>
-<tr class="memitem:a938ae865c7f5f5deb467d43bc69eb04f" id="r_a938ae865c7f5f5deb467d43bc69eb04f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a938ae865c7f5f5deb467d43bc69eb04f">multitasking_pump</a> (void)</td></tr>
-<tr class="memitem:a71a0350e588941391c985f1c8b528ffe" id="r_a71a0350e588941391c985f1c8b528ffe"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a71a0350e588941391c985f1c8b528ffe">multitasking_spawn_kernel</a> (const char *name, <a class="el" href="#abebef1343f3c4c0bd92d08cebf3662a3">kernel_task_fn_t</a> fn, void *ctx)</td></tr>
-<tr class="memitem:a548b21189f914db8f4dfa1b5b193340e" id="r_a548b21189f914db8f4dfa1b5b193340e"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a548b21189f914db8f4dfa1b5b193340e">multitasking_spawn_userland</a> (const char *name, const <a class="el" href="#a87c6b0e514c7ccd158d66bedc67c6623">user_task_spec_t</a> *spec)</td></tr>
+<tr class="memitem:a3da905616a1a010a88ebbf2f479926e6" id="r_a3da905616a1a010a88ebbf2f479926e6"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a3da905616a1a010a88ebbf2f479926e6">multitasking_spawn_kernel_owned</a> (const char *name, kernel_task_fn_t fn, void *ctx)</td></tr>
+<tr class="memdesc:a3da905616a1a010a88ebbf2f479926e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spawn a kernel task and transfer ownership of its context.  <br /></td></tr>
+<tr class="memitem:a10cffc6e45220f5c5360e2c718def2dc" id="r_a10cffc6e45220f5c5360e2c718def2dc"><td class="memItemLeft"><a id="a10cffc6e45220f5c5360e2c718def2dc" name="a10cffc6e45220f5c5360e2c718def2dc"></a>
+uint64_t&#160;</td><td class="memItemRight"><b>multitasking_now_ticks</b> (void)</td></tr>
+<tr class="memdesc:a10cffc6e45220f5c5360e2c718def2dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current scheduler tick count. <br /></td></tr>
+<tr class="memitem:a6e3fff51a86d497280206ea66717e5b6" id="r_a6e3fff51a86d497280206ea66717e5b6"><td class="memItemLeft"><a id="a6e3fff51a86d497280206ea66717e5b6" name="a6e3fff51a86d497280206ea66717e5b6"></a>
+uint32_t&#160;</td><td class="memItemRight"><b>multitasking_last_pid</b> (void)</td></tr>
+<tr class="memdesc:a6e3fff51a86d497280206ea66717e5b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the highest task identifier allocated so far. <br /></td></tr>
+<tr class="memitem:af1138ea7ad9ded50e9a7840506ee0688" id="r_af1138ea7ad9ded50e9a7840506ee0688"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#af1138ea7ad9ded50e9a7840506ee0688">multitasking_get_cmdline</a> (uint32_t pid, char *buf, size_t size)</td></tr>
+<tr class="memdesc:af1138ea7ad9ded50e9a7840506ee0688"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy a task's arguments in Linux command-line format.  <br /></td></tr>
+<tr class="memitem:a698860af0b4c5137370fbf6837a29c21" id="r_a698860af0b4c5137370fbf6837a29c21"><td class="memItemLeft"><a id="a698860af0b4c5137370fbf6837a29c21" name="a698860af0b4c5137370fbf6837a29c21"></a>
+void&#160;</td><td class="memItemRight"><b>multitasking_init</b> (void)</td></tr>
+<tr class="memdesc:a698860af0b4c5137370fbf6837a29c21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the task scheduler. <br /></td></tr>
+<tr class="memitem:a29e142c2d288ed2d6b0b99479013cdfa" id="r_a29e142c2d288ed2d6b0b99479013cdfa"><td class="memItemLeft"><a id="a29e142c2d288ed2d6b0b99479013cdfa" name="a29e142c2d288ed2d6b0b99479013cdfa"></a>
+void&#160;</td><td class="memItemRight"><b>multitasking_on_pit_tick</b> (uint64_t now_ticks)</td></tr>
+<tr class="memdesc:a29e142c2d288ed2d6b0b99479013cdfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process a timer tick and update task scheduling state. <br /></td></tr>
+<tr class="memitem:a938ae865c7f5f5deb467d43bc69eb04f" id="r_a938ae865c7f5f5deb467d43bc69eb04f"><td class="memItemLeft"><a id="a938ae865c7f5f5deb467d43bc69eb04f" name="a938ae865c7f5f5deb467d43bc69eb04f"></a>
+void&#160;</td><td class="memItemRight"><b>multitasking_pump</b> (void)</td></tr>
+<tr class="memdesc:a938ae865c7f5f5deb467d43bc69eb04f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run pending cooperative task work. <br /></td></tr>
+<tr class="memitem:afd4b3018c4775d7442fe40282d5f1486" id="r_afd4b3018c4775d7442fe40282d5f1486"><td class="memItemLeft"><a id="afd4b3018c4775d7442fe40282d5f1486" name="afd4b3018c4775d7442fe40282d5f1486"></a>
+task_t *&#160;</td><td class="memItemRight"><b>multitasking_find_task</b> (uint32_t pid)</td></tr>
+<tr class="memdesc:afd4b3018c4775d7442fe40282d5f1486"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a task by its identifier. <br /></td></tr>
+<tr class="memitem:a0f26bc0d380c0a370f727a3bfd740a48" id="r_a0f26bc0d380c0a370f727a3bfd740a48"><td class="memItemLeft"><a id="a0f26bc0d380c0a370f727a3bfd740a48" name="a0f26bc0d380c0a370f727a3bfd740a48"></a>
+void&#160;</td><td class="memItemRight"><b>multitasking_set_current_pid</b> (uint32_t pid)</td></tr>
+<tr class="memdesc:a0f26bc0d380c0a370f727a3bfd740a48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the task treated as current by the scheduler. <br /></td></tr>
+<tr class="memitem:a71a0350e588941391c985f1c8b528ffe" id="r_a71a0350e588941391c985f1c8b528ffe"><td class="memItemLeft"><a id="a71a0350e588941391c985f1c8b528ffe" name="a71a0350e588941391c985f1c8b528ffe"></a>
+uint32_t&#160;</td><td class="memItemRight"><b>multitasking_spawn_kernel</b> (const char *name, kernel_task_fn_t fn, void *ctx)</td></tr>
+<tr class="memdesc:a71a0350e588941391c985f1c8b528ffe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spawn a kernel task and return its identifier. <br /></td></tr>
+<tr class="memitem:a548b21189f914db8f4dfa1b5b193340e" id="r_a548b21189f914db8f4dfa1b5b193340e"><td class="memItemLeft"><a id="a548b21189f914db8f4dfa1b5b193340e" name="a548b21189f914db8f4dfa1b5b193340e"></a>
+uint32_t&#160;</td><td class="memItemRight"><b>multitasking_spawn_userland</b> (const char *name, const user_task_spec_t *spec)</td></tr>
+<tr class="memdesc:a548b21189f914db8f4dfa1b5b193340e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spawn a userland task and return its identifier. <br /></td></tr>
 <tr class="memitem:ab3eb963347c69f69d2f1948dc888c42d" id="r_ab3eb963347c69f69d2f1948dc888c42d"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ab3eb963347c69f69d2f1948dc888c42d">multitasking_exit_task</a> (uint32_t pid, int exit_code)</td></tr>
-<tr class="memitem:ada0e27d88780307e6115e64f97e61b8c" id="r_ada0e27d88780307e6115e64f97e61b8c"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ada0e27d88780307e6115e64f97e61b8c">multitasking_get_task</a> (uint32_t pid, <a class="el" href="#a3c4a3d5d646d0dd1b310835b0f87cb1f">task_info_t</a> *out_info)</td></tr>
-<tr class="memitem:a4ba06055990b4243bc5c06850521d437" id="r_a4ba06055990b4243bc5c06850521d437"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a4ba06055990b4243bc5c06850521d437">multitasking_current_pid</a> (void)</td></tr>
-<tr class="memitem:a64877e482b467254886b42d932d029f4" id="r_a64877e482b467254886b42d932d029f4"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a64877e482b467254886b42d932d029f4">multitasking_count_tasks</a> (void)</td></tr>
-<tr class="memitem:a62d1a97c6e7a5a1be6d1c28b7d1edfae" id="r_a62d1a97c6e7a5a1be6d1c28b7d1edfae"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a62d1a97c6e7a5a1be6d1c28b7d1edfae">multitasking_count_running</a> (void)</td></tr>
-<tr class="memitem:a604d2ab04147cdfc750a5d41bf9ef0ba" id="r_a604d2ab04147cdfc750a5d41bf9ef0ba"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a604d2ab04147cdfc750a5d41bf9ef0ba">multitasking_for_each_task</a> (<a class="el" href="#ae57bff90dd5239bb469a8ce14a67da96">task_iter_cb_t</a> cb, void *ctx)</td></tr>
-<tr class="memitem:a99005afcd9dcc6beb74540ebbd7d03da" id="r_a99005afcd9dcc6beb74540ebbd7d03da"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a99005afcd9dcc6beb74540ebbd7d03da">multitasking_start_cursor_blink_task</a> (void)</td></tr>
+<tr class="memdesc:ab3eb963347c69f69d2f1948dc888c42d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark a task as exited with the supplied status.  <br /></td></tr>
+<tr class="memitem:a3bb1fa66d4204d560a868487bcb6ba4a" id="r_a3bb1fa66d4204d560a868487bcb6ba4a"><td class="memItemLeft"><a id="a3bb1fa66d4204d560a868487bcb6ba4a" name="a3bb1fa66d4204d560a868487bcb6ba4a"></a>
+bool&#160;</td><td class="memItemRight"><b>multitasking_kill_task</b> (uint32_t pid, int signal)</td></tr>
+<tr class="memdesc:a3bb1fa66d4204d560a868487bcb6ba4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a signal to a task and mark it for termination when applicable. <br /></td></tr>
+<tr class="memitem:a4d2b394b790e9c9fd08e8e0cc096ee91" id="r_a4d2b394b790e9c9fd08e8e0cc096ee91"><td class="memItemLeft"><a id="a4d2b394b790e9c9fd08e8e0cc096ee91" name="a4d2b394b790e9c9fd08e8e0cc096ee91"></a>
+bool&#160;</td><td class="memItemRight"><b>multitasking_sleep_task</b> (uint32_t pid, uint64_t wakeup_tick)</td></tr>
+<tr class="memdesc:a4d2b394b790e9c9fd08e8e0cc096ee91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Put a task to sleep until the specified scheduler tick. <br /></td></tr>
+<tr class="memitem:a02a8c633ae020a2abb867bfd6969f93b" id="r_a02a8c633ae020a2abb867bfd6969f93b"><td class="memItemLeft"><a id="a02a8c633ae020a2abb867bfd6969f93b" name="a02a8c633ae020a2abb867bfd6969f93b"></a>
+void&#160;</td><td class="memItemRight"><b>multitasking_yield</b> (void)</td></tr>
+<tr class="memdesc:a02a8c633ae020a2abb867bfd6969f93b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Yield the current task's execution opportunity. <br /></td></tr>
+<tr class="memitem:a11188166d41f48118b11a8b3d80dd71f" id="r_a11188166d41f48118b11a8b3d80dd71f"><td class="memItemLeft"><a id="a11188166d41f48118b11a8b3d80dd71f" name="a11188166d41f48118b11a8b3d80dd71f"></a>
+bool&#160;</td><td class="memItemRight"><b>multitasking_update_user_image</b> (uint32_t pid, const char *path, int argc, const char *const argv[])</td></tr>
+<tr class="memdesc:a11188166d41f48118b11a8b3d80dd71f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace the user image and arguments of an existing task. <br /></td></tr>
+<tr class="memitem:ac4552a9f51dcb4b868a10aa6eb574152" id="r_ac4552a9f51dcb4b868a10aa6eb574152"><td class="memItemLeft"><a id="ac4552a9f51dcb4b868a10aa6eb574152" name="ac4552a9f51dcb4b868a10aa6eb574152"></a>
+bool&#160;</td><td class="memItemRight"><b>multitasking_reap_task</b> (uint32_t pid, task_info_t *out_info)</td></tr>
+<tr class="memdesc:ac4552a9f51dcb4b868a10aa6eb574152"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reap an exited task and return its final status. <br /></td></tr>
+<tr class="memitem:ae24b686c08c6c9012e71d73ba2ea3ae0" id="r_ae24b686c08c6c9012e71d73ba2ea3ae0"><td class="memItemLeft"><a id="ae24b686c08c6c9012e71d73ba2ea3ae0" name="ae24b686c08c6c9012e71d73ba2ea3ae0"></a>
+bool&#160;</td><td class="memItemRight"><b>multitasking_find_child</b> (uint32_t parent_pid, int64_t pid_filter, bool exited_only, task_info_t *out_info)</td></tr>
+<tr class="memdesc:ae24b686c08c6c9012e71d73ba2ea3ae0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a child task matching the requested process filter. <br /></td></tr>
+<tr class="memitem:aaed2af514c6a97d1fe5d070e3ff3a54d" id="r_aaed2af514c6a97d1fe5d070e3ff3a54d"><td class="memItemLeft"><a id="aaed2af514c6a97d1fe5d070e3ff3a54d" name="aaed2af514c6a97d1fe5d070e3ff3a54d"></a>
+bool&#160;</td><td class="memItemRight"><b>multitasking_current_is_fork_child</b> (void)</td></tr>
+<tr class="memdesc:aaed2af514c6a97d1fe5d070e3ff3a54d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether the current task was created as a fork child. <br /></td></tr>
+<tr class="memitem:ada0e27d88780307e6115e64f97e61b8c" id="r_ada0e27d88780307e6115e64f97e61b8c"><td class="memItemLeft"><a id="ada0e27d88780307e6115e64f97e61b8c" name="ada0e27d88780307e6115e64f97e61b8c"></a>
+bool&#160;</td><td class="memItemRight"><b>multitasking_get_task</b> (uint32_t pid, task_info_t *out_info)</td></tr>
+<tr class="memdesc:ada0e27d88780307e6115e64f97e61b8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve task information by identifier. <br /></td></tr>
+<tr class="memitem:a4ba06055990b4243bc5c06850521d437" id="r_a4ba06055990b4243bc5c06850521d437"><td class="memItemLeft"><a id="a4ba06055990b4243bc5c06850521d437" name="a4ba06055990b4243bc5c06850521d437"></a>
+uint32_t&#160;</td><td class="memItemRight"><b>multitasking_current_pid</b> (void)</td></tr>
+<tr class="memdesc:a4ba06055990b4243bc5c06850521d437"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current task identifier. <br /></td></tr>
+<tr class="memitem:a1bb7693b00ba1e711229f2f9b6934321" id="r_a1bb7693b00ba1e711229f2f9b6934321"><td class="memItemLeft"><a id="a1bb7693b00ba1e711229f2f9b6934321" name="a1bb7693b00ba1e711229f2f9b6934321"></a>
+uint8_t&#160;</td><td class="memItemRight"><b>multitasking_current_tty</b> (void)</td></tr>
+<tr class="memdesc:a1bb7693b00ba1e711229f2f9b6934321"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current task's terminal, or the visible terminal if none is active. <br /></td></tr>
+<tr class="memitem:a64877e482b467254886b42d932d029f4" id="r_a64877e482b467254886b42d932d029f4"><td class="memItemLeft"><a id="a64877e482b467254886b42d932d029f4" name="a64877e482b467254886b42d932d029f4"></a>
+uint32_t&#160;</td><td class="memItemRight"><b>multitasking_count_tasks</b> (void)</td></tr>
+<tr class="memdesc:a64877e482b467254886b42d932d029f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of tasks, including exited tasks not yet reaped. <br /></td></tr>
+<tr class="memitem:a62d1a97c6e7a5a1be6d1c28b7d1edfae" id="r_a62d1a97c6e7a5a1be6d1c28b7d1edfae"><td class="memItemLeft"><a id="a62d1a97c6e7a5a1be6d1c28b7d1edfae" name="a62d1a97c6e7a5a1be6d1c28b7d1edfae"></a>
+uint32_t&#160;</td><td class="memItemRight"><b>multitasking_count_running</b> (void)</td></tr>
+<tr class="memdesc:a62d1a97c6e7a5a1be6d1c28b7d1edfae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of tasks that are ready or running. <br /></td></tr>
+<tr class="memitem:a604d2ab04147cdfc750a5d41bf9ef0ba" id="r_a604d2ab04147cdfc750a5d41bf9ef0ba"><td class="memItemLeft"><a id="a604d2ab04147cdfc750a5d41bf9ef0ba" name="a604d2ab04147cdfc750a5d41bf9ef0ba"></a>
+bool&#160;</td><td class="memItemRight"><b>multitasking_for_each_task</b> (task_iter_cb_t cb, void *ctx)</td></tr>
+<tr class="memdesc:a604d2ab04147cdfc750a5d41bf9ef0ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Visit task records until the callback requests that iteration stop. <br /></td></tr>
+<tr class="memitem:a8ef46a7994b6fe08faaa6cdaf03ffc7c" id="r_a8ef46a7994b6fe08faaa6cdaf03ffc7c"><td class="memItemLeft"><a id="a8ef46a7994b6fe08faaa6cdaf03ffc7c" name="a8ef46a7994b6fe08faaa6cdaf03ffc7c"></a>
+task_t *&#160;</td><td class="memItemRight"><b>multitasking_get_current_task</b> (void)</td></tr>
+<tr class="memdesc:a8ef46a7994b6fe08faaa6cdaf03ffc7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current task record, or NULL when no task is active. <br /></td></tr>
+<tr class="memitem:a75006109914ea56a7a8436f66ed4ef20" id="r_a75006109914ea56a7a8436f66ed4ef20"><td class="memItemLeft"><a id="a75006109914ea56a7a8436f66ed4ef20" name="a75006109914ea56a7a8436f66ed4ef20"></a>
+void&#160;</td><td class="memItemRight"><b>multitasking_selftest</b> (void)</td></tr>
+<tr class="memdesc:a75006109914ea56a7a8436f66ed4ef20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the multitasking subsystem's internal self-tests. <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Task creation, scheduling, and process-management interfaces. </p>
+
+<p class="definition">Definition in file <a class="el" href="multitasking_8h_source.html">multitasking.h</a>.</p>
+</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="abebef1343f3c4c0bd92d08cebf3662a3" name="abebef1343f3c4c0bd92d08cebf3662a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abebef1343f3c4c0bd92d08cebf3662a3">&#9670;&#160;</a></span>kernel_task_fn_t</h2>
 
@@ -154,19 +248,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a3c4a3d5d646d0dd1b310835b0f87cb1f" name="a3c4a3d5d646d0dd1b310835b0f87cb1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c4a3d5d646d0dd1b310835b0f87cb1f">&#9670;&#160;</a></span>task_info_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="structtask__info.html">task_info</a> <a class="el" href="#a3c4a3d5d646d0dd1b310835b0f87cb1f">task_info_t</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p class="definition">Definition at line <a class="el" href="multitasking_8h_source.html#l00034">34</a> of file <a class="el" href="multitasking_8h_source.html">multitasking.h</a>.</p>
 
 </div>
 </div>
@@ -177,24 +259,12 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef bool(* task_iter_cb_t) (const <a class="el" href="#a3c4a3d5d646d0dd1b310835b0f87cb1f">task_info_t</a> *<a class="el" href="graphics_8h.html#aee2e1461792f971c8adaa6bede6e2bdd">info</a>, void *ctx)</td>
+          <td class="memname">typedef bool(* task_iter_cb_t) (const task_info_t *<a class="el" href="graphics_8h.html#a0fa169de644c00dd9f48a4da8c7904cd">info</a>, void *ctx)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a87c6b0e514c7ccd158d66bedc67c6623" name="a87c6b0e514c7ccd158d66bedc67c6623"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87c6b0e514c7ccd158d66bedc67c6623">&#9670;&#160;</a></span>user_task_spec_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="structuser__task__spec.html">user_task_spec</a> <a class="el" href="#a87c6b0e514c7ccd158d66bedc67c6623">user_task_spec_t</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p class="definition">Definition at line <a class="el" href="multitasking_8h_source.html#l00057">57</a> of file <a class="el" href="multitasking_8h_source.html">multitasking.h</a>.</p>
 
 </div>
 </div>
@@ -206,15 +276,12 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="#a2cb84aa57ac273f4df157cfb2927322b">task_state_t</a></td>
+          <td class="memname">enum task_state_t</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2cb84aa57ac273f4df157cfb2927322ba7599a95a86e9c5e3d5a968a793cbf6a0" name="a2cb84aa57ac273f4df157cfb2927322ba7599a95a86e9c5e3d5a968a793cbf6a0"></a>TASK_STATE_READY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2cb84aa57ac273f4df157cfb2927322ba169adc0116f5c61af55d2dd88709ea4e" name="a2cb84aa57ac273f4df157cfb2927322ba169adc0116f5c61af55d2dd88709ea4e"></a>TASK_STATE_RUNNING&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2cb84aa57ac273f4df157cfb2927322badd7c700602b2ebd3c4aed2322c43e7a4" name="a2cb84aa57ac273f4df157cfb2927322badd7c700602b2ebd3c4aed2322c43e7a4"></a>TASK_STATE_EXITED&#160;</td><td class="fielddoc"></td></tr>
-</table>
+
+<p class="definition">Definition at line <a class="el" href="multitasking_8h_source.html#l00017">17</a> of file <a class="el" href="multitasking_8h_source.html">multitasking.h</a>.</p>
 
 </div>
 </div>
@@ -225,69 +292,16 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="#ac2e16af418bca8dd01cdf7a5198d9b19">task_type_t</a></td>
+          <td class="memname">enum task_type_t</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac2e16af418bca8dd01cdf7a5198d9b19a4d4fdf49027da3ce99f810764d5bc385" name="ac2e16af418bca8dd01cdf7a5198d9b19a4d4fdf49027da3ce99f810764d5bc385"></a>TASK_TYPE_KERNEL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac2e16af418bca8dd01cdf7a5198d9b19ac9c11b3031ba95efccbad8d6ff244935" name="ac2e16af418bca8dd01cdf7a5198d9b19ac9c11b3031ba95efccbad8d6ff244935"></a>TASK_TYPE_USERLAND&#160;</td><td class="fielddoc"></td></tr>
-</table>
+
+<p class="definition">Definition at line <a class="el" href="multitasking_8h_source.html#l00012">12</a> of file <a class="el" href="multitasking_8h_source.html">multitasking.h</a>.</p>
 
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a62d1a97c6e7a5a1be6d1c28b7d1edfae" name="a62d1a97c6e7a5a1be6d1c28b7d1edfae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62d1a97c6e7a5a1be6d1c28b7d1edfae">&#9670;&#160;</a></span>multitasking_count_running()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t multitasking_count_running </td>
-          <td>(</td>
-          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a64877e482b467254886b42d932d029f4" name="a64877e482b467254886b42d932d029f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64877e482b467254886b42d932d029f4">&#9670;&#160;</a></span>multitasking_count_tasks()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t multitasking_count_tasks </td>
-          <td>(</td>
-          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4ba06055990b4243bc5c06850521d437" name="a4ba06055990b4243bc5c06850521d437"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ba06055990b4243bc5c06850521d437">&#9670;&#160;</a></span>multitasking_current_pid()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t multitasking_current_pid </td>
-          <td>(</td>
-          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ab3eb963347c69f69d2f1948dc888c42d" name="ab3eb963347c69f69d2f1948dc888c42d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab3eb963347c69f69d2f1948dc888c42d">&#9670;&#160;</a></span>multitasking_exit_task()</h2>
 
@@ -307,116 +321,63 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Mark a task as exited with the supplied status. </p>
+<p>Exited tasks remain available for their parent to reap. </p>
+
 </div>
 </div>
-<a id="a604d2ab04147cdfc750a5d41bf9ef0ba" name="a604d2ab04147cdfc750a5d41bf9ef0ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a604d2ab04147cdfc750a5d41bf9ef0ba">&#9670;&#160;</a></span>multitasking_for_each_task()</h2>
+<a id="af1138ea7ad9ded50e9a7840506ee0688" name="af1138ea7ad9ded50e9a7840506ee0688"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1138ea7ad9ded50e9a7840506ee0688">&#9670;&#160;</a></span>multitasking_get_cmdline()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool multitasking_for_each_task </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#ae57bff90dd5239bb469a8ce14a67da96">task_iter_cb_t</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>ctx</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ada0e27d88780307e6115e64f97e61b8c" name="ada0e27d88780307e6115e64f97e61b8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada0e27d88780307e6115e64f97e61b8c">&#9670;&#160;</a></span>multitasking_get_task()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool multitasking_get_task </td>
+          <td class="memname">int multitasking_get_cmdline </td>
           <td>(</td>
           <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>pid</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a3c4a3d5d646d0dd1b310835b0f87cb1f">task_info_t</a> *</td>          <td class="paramname"><span class="paramname"><em>out_info</em></span>&#160;)</td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>buf</em></span>, </td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a698860af0b4c5137370fbf6837a29c21" name="a698860af0b4c5137370fbf6837a29c21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a698860af0b4c5137370fbf6837a29c21">&#9670;&#160;</a></span>multitasking_init()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname">void multitasking_init </td>
-          <td>(</td>
-          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Copy a task's arguments in Linux command-line format. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pid</td><td>Task identifier. </td></tr>
+    <tr><td class="paramname">buf</td><td>Destination buffer. </td></tr>
+    <tr><td class="paramname">size</td><td>Buffer capacity in bytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of bytes copied, or -1 if the task does not exist. </dd></dl>
+
 </div>
 </div>
-<a id="a29e142c2d288ed2d6b0b99479013cdfa" name="a29e142c2d288ed2d6b0b99479013cdfa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29e142c2d288ed2d6b0b99479013cdfa">&#9670;&#160;</a></span>multitasking_on_pit_tick()</h2>
+<a id="a3da905616a1a010a88ebbf2f479926e6" name="a3da905616a1a010a88ebbf2f479926e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3da905616a1a010a88ebbf2f479926e6">&#9670;&#160;</a></span>multitasking_spawn_kernel_owned()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void multitasking_on_pit_tick </td>
-          <td>(</td>
-          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>now_ticks</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a938ae865c7f5f5deb467d43bc69eb04f" name="a938ae865c7f5f5deb467d43bc69eb04f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a938ae865c7f5f5deb467d43bc69eb04f">&#9670;&#160;</a></span>multitasking_pump()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void multitasking_pump </td>
-          <td>(</td>
-          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a71a0350e588941391c985f1c8b528ffe" name="a71a0350e588941391c985f1c8b528ffe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71a0350e588941391c985f1c8b528ffe">&#9670;&#160;</a></span>multitasking_spawn_kernel()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t multitasking_spawn_kernel </td>
+          <td class="memname">uint32_t multitasking_spawn_kernel_owned </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#abebef1343f3c4c0bd92d08cebf3662a3">kernel_task_fn_t</a></td>          <td class="paramname"><span class="paramname"><em>fn</em></span>, </td>
+          <td class="paramtype">kernel_task_fn_t</td>          <td class="paramname"><span class="paramname"><em>fn</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -426,43 +387,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Spawn a kernel task and transfer ownership of its context. </p>
+<p>The task subsystem frees <code class="param">ctx</code> when the task is cleaned up. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="multitasking_8h_a3da905616a1a010a88ebbf2f479926e6_cgraph.png" border="0" usemap="#amultitasking_8h_a3da905616a1a010a88ebbf2f479926e6_cgraph" loading="lazy" alt=""/></div>
+<map name="amultitasking_8h_a3da905616a1a010a88ebbf2f479926e6_cgraph" id="amultitasking_8h_a3da905616a1a010a88ebbf2f479926e6_cgraph">
+<area shape="rect" title="Spawn a kernel task and transfer ownership of its context." alt="" coords="5,5,147,54"/>
+<area shape="rect" href="graphics_8h.html#a0fa169de644c00dd9f48a4da8c7904cd" title="Display an informational message." alt="" coords="195,15,240,44"/>
+<area shape="poly" title=" " alt="" coords="147,27,182,29,177,30,147,32"/>
+</map>
 </div>
-</div>
-<a id="a548b21189f914db8f4dfa1b5b193340e" name="a548b21189f914db8f4dfa1b5b193340e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a548b21189f914db8f4dfa1b5b193340e">&#9670;&#160;</a></span>multitasking_spawn_userland()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t multitasking_spawn_userland </td>
-          <td>(</td>
-          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="#a87c6b0e514c7ccd158d66bedc67c6623">user_task_spec_t</a> *</td>          <td class="paramname"><span class="paramname"><em>spec</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a99005afcd9dcc6beb74540ebbd7d03da" name="a99005afcd9dcc6beb74540ebbd7d03da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99005afcd9dcc6beb74540ebbd7d03da">&#9670;&#160;</a></span>multitasking_start_cursor_blink_task()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void multitasking_start_cursor_blink_task </td>
-          <td>(</td>
-          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -479,7 +415,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_c9f89f587e7e777be723ee48a3df5844.html">includes</a></li><li class="navelem"><a href="multitasking_8h.html">multitasking.h</a></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="multitasking_8h.html">multitasking.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

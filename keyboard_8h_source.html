@@ -108,7 +108,7 @@ $(function(){initNavTree('keyboard_8h_source.html','',''); });
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#define MOD_CTRL 0x03U</span></div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#define MOD_LSHIFT 0x04U</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#define MOD_RSHIFT 0x08U</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#define MOD_SHIFT 0x4CU</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#define MOD_SHIFT 0x0CU</span></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#define MOD_LALT 0x10U</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#define MOD_RALT 0x20U</span></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#define MOD_ALT 0x30U</span></div>
@@ -120,25 +120,31 @@ $(function(){initNavTree('keyboard_8h_source.html','',''); });
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#define CUR_LEFT -3</span></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#define CUR_RIGHT -4</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#define KB_BUFFER_SIZE 256</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="keyboard_8h.html#af2e85d5c7960471f28586019533f8571">   44</a></span><span class="keywordtype">char</span> <a class="code hl_function" href="keyboard_8h.html#af2e85d5c7960471f28586019533f8571">scancode_to_char</a>(<span class="keywordtype">int</span> scancode, <span class="keywordtype">bool</span> uppercase);</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="keyboard_8h.html#a5aae8263abc1dec4671638e7ed4af681">   50</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="keyboard_8h.html#a5aae8263abc1dec4671638e7ed4af681">keyboard_init</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#define KEY_HOME   0x112</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#define KEY_END    0x113</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#define KEY_DEL    0x114</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#define KEY_PGUP   0x115</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#define KEY_PGDN   0x116</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#define KB_BUFFER_SIZE 256</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="keyboard_8h.html#af2e85d5c7960471f28586019533f8571">   50</a></span><span class="keywordtype">char</span> <a class="code hl_function" href="keyboard_8h.html#af2e85d5c7960471f28586019533f8571">scancode_to_char</a>(<span class="keywordtype">int</span> scancode, <span class="keywordtype">bool</span> uppercase);</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="keyboard_8h.html#a7e361042b1f078db45f230a7eacc0e6c">   56</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="keyboard_8h.html#a7e361042b1f078db45f230a7eacc0e6c">process_keyboard</a>(<a class="code hl_struct" href="structInterruptFrame.html">InterruptFrame</a> *frame);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="keyboard_8h.html#a5aae8263abc1dec4671638e7ed4af681">   56</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="keyboard_8h.html#a5aae8263abc1dec4671638e7ed4af681">keyboard_init</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="keyboard_8h.html#a36296437f8923f5221b3eeaca3f40793">   61</a></span>uint8_t <a class="code hl_function" href="keyboard_8h.html#a36296437f8923f5221b3eeaca3f40793">getmodifiers</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span></div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="keyboard_8h.html#a39a922a1701c3b69046af3146b46abf5">   68</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="keyboard_8h.html#a39a922a1701c3b69046af3146b46abf5">getc</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span></div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="keyboard_8h.html#a1f8ef8069d08bf8805bd6c02342835fa">   75</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="keyboard_8h.html#a1f8ef8069d08bf8805bd6c02342835fa">getc_nonblock</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="keyboard_8h.html#ac4ca66f7908e020974c969423b7389df">   80</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="keyboard_8h.html#ac4ca66f7908e020974c969423b7389df">keyboard_flush_buffer</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span></div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="keyboard_8h.html#aec8a675e3b6bfa9219b1a349006f6ee5">   88</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="keyboard_8h.html#aec8a675e3b6bfa9219b1a349006f6ee5">handle_char_from_scancode</a>(uint8_t data);</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="keyboard_8h.html#a7e361042b1f078db45f230a7eacc0e6c">   62</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="keyboard_8h.html#a7e361042b1f078db45f230a7eacc0e6c">process_keyboard</a>(<a class="code hl_struct" href="structInterruptFrame.html">InterruptFrame</a> *frame);</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="keyboard_8h.html#a36296437f8923f5221b3eeaca3f40793">   67</a></span>uint8_t <a class="code hl_function" href="keyboard_8h.html#a36296437f8923f5221b3eeaca3f40793">getmodifiers</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="keyboard_8h.html#a39a922a1701c3b69046af3146b46abf5">   74</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="keyboard_8h.html#a39a922a1701c3b69046af3146b46abf5">getc</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span></div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="keyboard_8h.html#a1f8ef8069d08bf8805bd6c02342835fa">   81</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="keyboard_8h.html#a1f8ef8069d08bf8805bd6c02342835fa">getc_nonblock</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="keyboard_8h.html#ac4ca66f7908e020974c969423b7389df">   86</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="keyboard_8h.html#ac4ca66f7908e020974c969423b7389df">keyboard_flush_buffer</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span></div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="keyboard_8h.html#aec8a675e3b6bfa9219b1a349006f6ee5">   94</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="keyboard_8h.html#aec8a675e3b6bfa9219b1a349006f6ee5">handle_char_from_scancode</a>(uint8_t data);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="abasics_8h_html"><div class="ttname"><a href="basics_8h.html">basics.h</a></div><div class="ttdoc">This is a basic header files with FrostWing specific short forms and basically a good for life header...</div></div>
 <div class="ttc" id="ahal_8h_html"><div class="ttname"><a href="hal_8h.html">hal.h</a></div><div class="ttdoc">Header file for Hardware Abstraction Layer -&gt; Source from GoGX OS.</div></div>
 <div class="ttc" id="aisr_8h_html"><div class="ttname"><a href="isr_8h.html">isr.h</a></div><div class="ttdoc">Interrupts handler header.</div></div>

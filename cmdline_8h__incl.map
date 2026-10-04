@@ -1,0 +1,9 @@
+<map id="source/includes/cmdline.h" name="source/includes/cmdline.h">
+<area shape="rect" id="Node000001" title="Header for cmdline.c, which handles the Limine boot cmdline and parses it for the root disk and other..." alt="" coords="5,5,188,35"/>
+<area shape="rect" id="Node000002" href="$basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="62,83,131,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,33,99,68,94,67,95,38"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="14,161,86,190"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="90,112,69,149,65,146,86,115"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="110,161,179,190"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="107,111,130,148,125,147,104,116"/>
+</map>

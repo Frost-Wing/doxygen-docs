@@ -157,8 +157,11 @@ Functions</h2></td></tr>
 <tr class="memdesc:ab1b42c4ee6168ab7d22e46fc518d1b5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interrupt handlers for PIT.  <br /></td></tr>
 <tr class="memitem:afb4e76c5cfcf522b4cf2949cc2d5539f" id="r_afb4e76c5cfcf522b4cf2949cc2d5539f"><td class="memItemLeft"><a id="afb4e76c5cfcf522b4cf2949cc2d5539f" name="afb4e76c5cfcf522b4cf2949cc2d5539f"></a>
 void&#160;</td><td class="memItemRight"><b>init_pit</b> (void)</td></tr>
-<tr class="memitem:a5bcf1714d8ce0bfb6f3241d82f314cde" id="r_a5bcf1714d8ce0bfb6f3241d82f314cde"><td class="memItemLeft"><a id="a5bcf1714d8ce0bfb6f3241d82f314cde" name="a5bcf1714d8ce0bfb6f3241d82f314cde"></a>
-void&#160;</td><td class="memItemRight"><b>pit_sleep</b> (uint32_t milliseconds)</td></tr>
+<tr class="memdesc:afb4e76c5cfcf522b4cf2949cc2d5539f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the programmable interval timer. <br /></td></tr>
+<tr class="memitem:a5bcf1714d8ce0bfb6f3241d82f314cde" id="r_a5bcf1714d8ce0bfb6f3241d82f314cde"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5bcf1714d8ce0bfb6f3241d82f314cde">pit_sleep</a> (uint32_t milliseconds)</td></tr>
+<tr class="memdesc:a5bcf1714d8ce0bfb6f3241d82f314cde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait for at least the specified number of milliseconds.  <br /></td></tr>
+<tr class="memitem:ad39dc53a1d3d9088fe74024c61bdbb63" id="r_ad39dc53a1d3d9088fe74024c61bdbb63"><td class="memItemLeft">uint64_t&#160;</td><td class="memItemRight"><a class="el" href="#ad39dc53a1d3d9088fe74024c61bdbb63">get_time_ms</a> (void)</td></tr>
+<tr class="memdesc:ad39dc53a1d3d9088fe74024c61bdbb63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return elapsed time based on PIT ticks.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -170,7 +173,7 @@ volatile uint64_t&#160;</td><td class="memItemRight"><b>pit_ticks</b></td></tr>
 <dl class="section author"><dt>Author</dt><dd>Pradosh (<a href="#" onclick="location.href='mai'+'lto:'+'pra'+'do'+'shg'+'am'+'e@g'+'ma'+'il.'+'co'+'m'; return false;">prado<span class="obfuscator">.nosp@m.</span>shga<span class="obfuscator">.nosp@m.</span>me@gm<span class="obfuscator">.nosp@m.</span>ail.<span class="obfuscator">.nosp@m.</span>com</a>) </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2023-12-27</dd></dl>
-<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) Pradosh 2023 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) Pradosh 2023-2026 </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="pit_8h_source.html">pit.h</a>.</p>
 </div><a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
@@ -186,11 +189,56 @@ volatile uint64_t&#160;</td><td class="memItemRight"><b>pit_ticks</b></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pit_8h_source.html#l00017">17</a> of file <a class="el" href="pit_8h_source.html">pit.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pit_8h_source.html#l00020">20</a> of file <a class="el" href="pit_8h_source.html">pit.h</a>.</p>
 
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="ad39dc53a1d3d9088fe74024c61bdbb63" name="ad39dc53a1d3d9088fe74024c61bdbb63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad39dc53a1d3d9088fe74024c61bdbb63">&#9670;&#160;</a></span>get_time_ms()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t get_time_ms </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return elapsed time based on PIT ticks. </p>
+<dl class="section return"><dt>Returns</dt><dd>Elapsed milliseconds since the PIT was initialized. </dd></dl>
+
+</div>
+</div>
+<a id="a5bcf1714d8ce0bfb6f3241d82f314cde" name="a5bcf1714d8ce0bfb6f3241d82f314cde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bcf1714d8ce0bfb6f3241d82f314cde">&#9670;&#160;</a></span>pit_sleep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void pit_sleep </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>milliseconds</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Wait for at least the specified number of milliseconds. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">milliseconds</td><td>Duration to wait. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ab1b42c4ee6168ab7d22e46fc518d1b5a" name="ab1b42c4ee6168ab7d22e46fc518d1b5a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab1b42c4ee6168ab7d22e46fc518d1b5a">&#9670;&#160;</a></span>process_pit()</h2>
 

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['kernel_5ftask_5ffn_5ft_0',['kernel_task_fn_t',['../multitasking_8h.html#abebef1343f3c4c0bd92d08cebf3662a3',1,'multitasking.h']]]
+  ['usb_5fclass_5fdriver_5fcallback_5ft_0',['usb_class_driver_callback_t',['../xhci_8h.html#ac7349dd3800533f0db4870ddbebf9f82',1,'xhci.h']]],
+  ['usb_5fdevice_5ft_1',['usb_device_t',['../xhci_8h.html#adaef053ab475cf128786829df425435b',1,'xhci.h']]]
 ];

@@ -4,6 +4,8 @@ var linkedlist_8h =
     [ "list", "structlist.html", null ],
     [ "list_at", "linkedlist_8h.html#a4c84839cea2d532bd8861a1ba288cf13", null ],
     [ "list_clear", "linkedlist_8h.html#abfa75cac1686b8fa54227ff2da4a045f", null ],
+    [ "list_create_node", "linkedlist_8h.html#a3eee5805c5872364b045bcaca3ba5f5f", null ],
+    [ "list_delete_node", "linkedlist_8h.html#ad939eca885e76c7201882b2cc85ce5e2", null ],
     [ "list_empty", "linkedlist_8h.html#ae8c76e7a5d6fee9f2f149e2ed05aaa5b", null ],
     [ "list_get", "linkedlist_8h.html#a02868ade0ad3d13bd7d28dbe92d0db1b", null ],
     [ "list_init", "linkedlist_8h.html#a7ba2522fe6778600ce0250709ffb1e58", null ],

@@ -9,5 +9,6 @@ var ringbuffer_8h =
     [ "rb_peek", "ringbuffer_8h.html#a281aefbd3e27f48d02715707aae1e6ed", null ],
     [ "rb_pop", "ringbuffer_8h.html#a4d28de42ecf23d7e40b3d56e2076f23b", null ],
     [ "rb_push", "ringbuffer_8h.html#a4bd4ec4bfe4f65572556105c80eef269", null ],
+    [ "rb_push_overwrite", "ringbuffer_8h.html#a9478422047bee2b073509c475fa2b0b0", null ],
     [ "rb_size", "ringbuffer_8h.html#a69bd00d201517061bb71880e91295c98", null ]
 ];

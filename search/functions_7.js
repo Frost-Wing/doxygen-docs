@@ -1,8 +1,22 @@
 var searchData=
 [
-  ['handle_5fchar_5ffrom_5fscancode_0',['handle_char_from_scancode',['../keyboard_8h.html#aec8a675e3b6bfa9219b1a349006f6ee5',1,'keyboard.h']]],
-  ['hcf_1',['hcf',['../cc-asm_8h.html#a89888650b1f33c19bae91b3b90180686',1,'cc-asm.h']]],
-  ['hcf2_2',['hcf2',['../cc-asm_8h.html#a3e81e5204729baa227d61f523f498b38',1,'cc-asm.h']]],
-  ['hex_5fto_5fstring_3',['hex_to_string',['../strings_8h.html#aa28fe3da6d48d4f08bb650fd87a1defc',1,'strings.h']]],
-  ['high_5flevel_5fhalt_4',['high_level_halt',['../cc-asm_8h.html#a24122582730e421d2707b622965e224f',1,'cc-asm.h']]]
+  ['gdt_5factivate_0',['gdt_activate',['../gdt_8h.html#aea512e6bf6db616c7df8d2b6b8c31942',1,'gdt.h']]],
+  ['get_5fahci_5fbar_5faddress_1',['get_ahci_bar_address',['../pci_8h.html#a38a223abd22e640aed2c30877f3b6898',1,'pci.h']]],
+  ['get_5fblock_5fcount_2',['get_block_count',['../ahci_8h.html#ad4fb8e082ef793eb33e81c55b2bfedc9',1,'ahci.h']]],
+  ['get_5fblock_5fsize_3',['get_block_size',['../ahci_8h.html#adcc891c15b74f37601e261e37d84dbf2',1,'ahci.h']]],
+  ['get_5fcpu_5fname_4',['get_cpu_name',['../cpuid2_8h.html#a08b489c80a7e23dd0bfd0c2372b14b38',1,'cpuid2.h']]],
+  ['get_5fcpu_5fvendor_5',['get_cpu_vendor',['../cpuid2_8h.html#a58b2644cb0778a3cef264ebe7c24da28',1,'cpuid2.h']]],
+  ['get_5ftime_5fms_6',['get_time_ms',['../pit_8h.html#ad39dc53a1d3d9088fe74024c61bdbb63',1,'pit.h']]],
+  ['getc_7',['getc',['../keyboard_8h.html#a39a922a1701c3b69046af3146b46abf5',1,'keyboard.h']]],
+  ['getc_5fnonblock_8',['getc_nonblock',['../keyboard_8h.html#a1f8ef8069d08bf8805bd6c02342835fa',1,'keyboard.h']]],
+  ['getclassid_9',['getClassId',['../pci_8h.html#a6540464d32aa54b4879a0efc797aee35',1,'pci.h']]],
+  ['getcr2_10',['getCR2',['../memory_8h.html#a930311bffec40d6434ef783f6d613587',1,'memory.h']]],
+  ['getdeviceid_11',['getDeviceID',['../pci_8h.html#a38bc88c6f14582762807aa6c9c9983b3',1,'pci.h']]],
+  ['getlastmouseposition_12',['GetLastMousePosition',['../ps2-mouse_8h.html#af4924ec541b2aa41e202bc3695c0d282',1,'ps2-mouse.h']]],
+  ['getmodifiers_13',['getmodifiers',['../keyboard_8h.html#a36296437f8923f5221b3eeaca3f40793',1,'keyboard.h']]],
+  ['getmouseposition_14',['GetMousePosition',['../ps2-mouse_8h.html#a50ace13522435580eb97a64fd9243932',1,'ps2-mouse.h']]],
+  ['getprogif_15',['getProgIF',['../pci_8h.html#a990dfef084e2e344e5e51c962f5b055f',1,'pci.h']]],
+  ['getrevision_16',['getRevision',['../pci_8h.html#aa44124675e5de5daee89bec4c544fb45',1,'pci.h']]],
+  ['getsubclassid_17',['getSubClassId',['../pci_8h.html#acf581dfdb23c91461bc535414dee00e7',1,'pci.h']]],
+  ['getvendorid_18',['getVendorID',['../pci_8h.html#a63df90bc1fdfe88a90afaeb397fe6ba8',1,'pci.h']]]
 ];

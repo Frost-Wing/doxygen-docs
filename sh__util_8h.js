@@ -9,8 +9,12 @@ var sh__util_8h =
     [ "op_t", "sh__util_8h.html#ac6fa1b34da8872e34c2936391332f44c", null ],
     [ "dispose_command_list", "sh__util_8h.html#a375da250af24b82497481e57fa917c60", null ],
     [ "execute", "sh__util_8h.html#adf455b1aae84ec8bd59ae0b1cfc4bdad", null ],
+    [ "execute_chain", "sh__util_8h.html#a8fdcc5b434404a60ff2b808113fa6aee", null ],
     [ "init_command_list", "sh__util_8h.html#ac35856e52296897204b726be3727b806", null ],
+    [ "ksh_exec", "sh__util_8h.html#add9eff9ab886498974f8759c759d2777", null ],
     [ "push_command_to_list", "sh__util_8h.html#ad6790e4b0022f4649e0e50d2f4ec41ba", null ],
+    [ "shell_main", "sh__util_8h.html#a0a0cc72327fe6e99a9ee157b4d1a91e8", null ],
+    [ "split_args", "sh__util_8h.html#a0cef0375f81b917b8eb8802bb7127c9e", null ],
     [ "user_main", "sh__util_8h.html#ae2a71fc8adff1beeeef89ffaaee8a857", null ],
     [ "current_user", "sh__util_8h.html#a903e697f413972b0709ff93b42329438", null ]
 ];

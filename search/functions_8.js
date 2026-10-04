@@ -1,14 +1,10 @@
 var searchData=
 [
-  ['inb_0',['inb',['../hal_8h.html#a34feca64a4f1e4dc09a64e8693f63bfa',1,'hal.h']]],
-  ['info_1',['info',['../graphics_8h.html#a0fa169de644c00dd9f48a4da8c7904cd',1,'graphics.h']]],
-  ['init_5fcommand_5flist_2',['init_command_list',['../sh__util_8h.html#ac35856e52296897204b726be3727b806',1,'sh_util.h']]],
-  ['init_5fhardware_5fabstraction_5flayer_3',['init_hardware_abstraction_layer',['../hal_8h.html#a45870ab56eb3ffc0f812210a9d54c894',1,'hal.h']]],
-  ['init_5frtc_4',['init_rtc',['../rtc_8h.html#a88533ad02465ce52d4e6de7b2095ec32',1,'rtc.h']]],
-  ['init_5fsyscall_5',['init_syscall',['../idt_8h.html#a59c3fd1e057e885d3932ad7f35a1164e',1,'idt.h']]],
-  ['inl_6',['inl',['../hal_8h.html#a02d619ccaa5cc126094ba87ba4457adb',1,'hal.h']]],
-  ['int80_5fhandler_7',['int80_handler',['../syscalls_8h.html#abbedf1acc658140859f181713a0b0b3c',1,'syscalls.h']]],
-  ['inw_8',['inw',['../hal_8h.html#a5c7552f0ab5027451e757a4d3671316f',1,'hal.h']]],
-  ['io_5fwait_9',['io_wait',['../hal_8h.html#aaaf4b3f918fbda500ebf08c8b17dfb46',1,'hal.h']]],
-  ['isspace_10',['isspace',['../strings_8h.html#a84b34b0058324ae5c0eae4956cf00cc5',1,'strings.h']]]
+  ['handle_5fchar_5ffrom_5fscancode_0',['handle_char_from_scancode',['../keyboard_8h.html#aec8a675e3b6bfa9219b1a349006f6ee5',1,'keyboard.h']]],
+  ['handle_5fsata_5fdisk_1',['handle_sata_disk',['../ahci_8h.html#a24ef0b36484ccc188a9521b162759ae1',1,'ahci.h']]],
+  ['handle_5fsatapi_5fdisk_2',['handle_satapi_disk',['../ahci_8h.html#a8004c65d72cdf2280627878b8b4bfade',1,'ahci.h']]],
+  ['hcf_3',['hcf',['../cc-asm_8h.html#a89888650b1f33c19bae91b3b90180686',1,'cc-asm.h']]],
+  ['hcf2_4',['hcf2',['../cc-asm_8h.html#a3e81e5204729baa227d61f523f498b38',1,'cc-asm.h']]],
+  ['hex_5fto_5fstring_5',['hex_to_string',['../strings_8h.html#aa28fe3da6d48d4f08bb650fd87a1defc',1,'strings.h']]],
+  ['high_5flevel_5fhalt_6',['high_level_halt',['../cc-asm_8h.html#a24122582730e421d2707b622965e224f',1,'cc-asm.h']]]
 ];

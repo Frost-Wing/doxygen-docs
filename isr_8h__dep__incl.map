@@ -1,26 +1,29 @@
 <map id="source/includes/isr.h" name="source/includes/isr.h">
-<area shape="rect" id="Node000001" title="Interrupts handler header." alt="" coords="396,5,542,35"/>
-<area shape="rect" id="Node000002" href="$crash__diagnostics_8h_source.html" title=" " alt="" coords="5,83,160,132"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="380,41,172,86,162,88,158,84,171,80,383,36"/>
+<area shape="rect" id="Node000001" title="Interrupts handler header." alt="" coords="452,5,598,35"/>
+<area shape="rect" id="Node000002" href="$crash__diagnostics_8h.html" title="Crash&#45;diagnosis data types and analysis interfaces." alt="" coords="5,83,160,132"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="434,36,311,59,172,86,161,88,158,84,171,80,310,53,439,33"/>
 <area shape="rect" id="Node000003" href="$keyboard_8h.html" title="The PS/2 Keyboard interface code." alt="" coords="184,92,376,122"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="422,43,312,94,310,90,426,40"/>
-<area shape="rect" id="Node000006" href="$pci_8h.html" title="The Header files for actual PCI source." alt="" coords="340,276,492,306"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="455,47,441,84,429,139,422,193,418,277,413,275,417,193,424,138,436,82,451,51"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="468,42,322,94,319,90,472,39"/>
+<area shape="rect" id="Node000006" href="$pci_8h.html" title="The Header files for actual PCI source." alt="" coords="583,189,734,219"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="481,41,458,62,441,84,433,108,434,119,441,130,469,158,505,178,544,190,585,200,580,200,543,196,503,183,466,163,436,133,429,120,427,108,436,82,454,58,477,45"/>
 <area shape="rect" id="Node000007" href="$pit_8h.html" title="Headers for PIT." alt="" coords="450,92,600,122"/>
-<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="487,45,519,93,513,92,486,50"/>
-<area shape="rect" id="Node000008" href="$ps2-mouse_8h.html" title=" " alt="" coords="474,180,619,228"/>
-<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="557,38,589,56,614,82,620,95,621,108,614,135,597,160,576,181,573,177,593,157,609,133,616,108,615,96,610,84,586,60,557,44"/>
-<area shape="rect" id="Node000009" href="$syscalls_8h.html" title=" " alt="" coords="675,92,853,122"/>
-<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="533,37,717,91,712,93,533,43"/>
-<area shape="rect" id="Node000004" href="$kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="387,354,562,384"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="257,132,243,156,231,179,225,204,230,227,245,252,264,273,311,309,363,334,414,354,409,353,361,339,308,313,261,277,241,255,225,229,220,203,226,177,238,153,254,136"/>
-<area shape="rect" id="Node000005" href="$sh__util_8h.html" title="Utils for fw shell." alt="" coords="240,180,376,228"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="289,134,303,180,298,179,287,139"/>
-<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="437,316,466,354,461,353,435,321"/>
-<area shape="poly" id="edge9_Node000008_Node000004" title=" " alt="" coords="533,241,506,307,483,355,480,351,501,305,529,244"/>
-<area shape="rect" id="Node000010" href="$userland_8h.html" title="The Header file for userland/userspace." alt="" coords="666,189,854,219"/>
-<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="764,135,763,190,758,187,761,139"/>
-<area shape="rect" id="Node000011" href="$paging_8h.html" title="Contains code and definitons for Paging." alt="" coords="621,276,797,306"/>
-<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="746,231,719,278,716,274,741,234"/>
-<area shape="poly" id="edge13_Node000011_Node000004" title=" " alt="" coords="653,311,519,356,518,351,648,312"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="527,48,528,93,523,91,524,53"/>
+<area shape="rect" id="Node000008" href="$ps2-mouse_8h.html" title=" " alt="" coords="696,276,840,325"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="614,27,723,47,768,62,785,71,797,81,810,105,817,131,818,158,815,185,801,236,782,278,779,274,796,235,810,184,813,157,812,131,805,107,792,85,782,75,766,67,721,52,614,33"/>
+<area shape="rect" id="Node000009" href="$syscalls_8h.html" title=" " alt="" coords="860,92,1038,122"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="613,36,839,80,885,92,879,92,838,86,613,41"/>
+<area shape="rect" id="Node000012" href="$xhci_8h.html" title="Minimal xHCI 1.2 host&#45;controller interface." alt="" coords="625,92,783,122"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="569,39,677,92,672,92,569,45"/>
+<area shape="rect" id="Node000004" href="$kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="626,373,800,403"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="280,135,287,183,294,206,307,227,340,259,378,287,419,311,462,330,548,358,628,377,623,377,547,363,460,335,416,316,375,292,337,263,303,230,290,208,281,184,277,140"/>
+<area shape="rect" id="Node000005" href="$sh__util_8h.html" title="Utils for fw shell." alt="" coords="317,180,453,228"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="307,130,362,179,356,179,306,135"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="664,232,673,277,686,324,708,374,703,372,681,326,668,278,661,236"/>
+<area shape="poly" id="edge9_Node000008_Node000004" title=" " alt="" coords="747,337,724,375,721,370,742,339"/>
+<area shape="rect" id="Node000010" href="$userland_8h.html" title="The Header file for userland/userspace." alt="" coords="858,189,1046,219"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="952,136,954,190,949,187,948,140"/>
+<area shape="rect" id="Node000011" href="$paging_8h.html" title="Contains code and definitons for Paging." alt="" coords="864,286,1040,316"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="954,233,954,287,950,284,950,236"/>
+<area shape="poly" id="edge13_Node000011_Node000004" title=" " alt="" coords="900,321,753,375,752,370,895,322"/>
+<area shape="poly" id="edge15_Node000012_Node000006" title=" " alt="" coords="693,135,667,191,663,187,688,138"/>
 </map>

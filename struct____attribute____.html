@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: __attribute__ Struct Reference</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -93,511 +94,245 @@ $(function(){initNavTree('struct____attribute____.html','','struct____attribute_
   <div class="headertitle"><div class="title">__attribute__ Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="mbr_8h_source.html">mbr.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for __attribute__:</div>
+<div class="dyncontent">
+<div class="center"><img src="struct____attribute______coll__graph.png" border="0" usemap="#a____attribute_____coll__map" loading="lazy" alt="Collaboration graph"/></div>
+<map name="a____attribute_____coll__map" id="a____attribute_____coll__map">
+<area shape="rect" title=" " alt="" coords="5,5,122,376"/>
+</map>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a18ebd780727136a682c4c11594ec23d2" id="r_a18ebd780727136a682c4c11594ec23d2"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#a18ebd780727136a682c4c11594ec23d2">boot_flag</a></td></tr>
-<tr class="memitem:acae4f5174d2e26aa2e8daac5ba4c6661" id="r_acae4f5174d2e26aa2e8daac5ba4c6661"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#acae4f5174d2e26aa2e8daac5ba4c6661">chs_start</a> [3]</td></tr>
-<tr class="memitem:aeed20f8c75731c0849919aa52e6fa64c" id="r_aeed20f8c75731c0849919aa52e6fa64c"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#aeed20f8c75731c0849919aa52e6fa64c">partition_type</a></td></tr>
-<tr class="memitem:acf47515f5876696641f99dda5b190b54" id="r_acf47515f5876696641f99dda5b190b54"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#acf47515f5876696641f99dda5b190b54">chs_end</a> [3]</td></tr>
-<tr class="memitem:a1ad318f168a318e188962b8b06a07f87" id="r_a1ad318f168a318e188962b8b06a07f87"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a1ad318f168a318e188962b8b06a07f87">lba_start</a></td></tr>
-<tr class="memitem:a9cc4e1b9729e35615e3b85601c6af5b8" id="r_a9cc4e1b9729e35615e3b85601c6af5b8"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a9cc4e1b9729e35615e3b85601c6af5b8">num_sectors</a></td></tr>
-<tr class="memitem:a2a04672f76393fa9ecea690a85268d0e" id="r_a2a04672f76393fa9ecea690a85268d0e"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#a2a04672f76393fa9ecea690a85268d0e">jmp</a> [3]</td></tr>
-<tr class="memitem:acbca2689864bdf49ae771ddcdcb3d0a6" id="r_acbca2689864bdf49ae771ddcdcb3d0a6"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#acbca2689864bdf49ae771ddcdcb3d0a6">oem</a> [8]</td></tr>
-<tr class="memitem:a22b0989b655ef98694cccb2005c29521" id="r_a22b0989b655ef98694cccb2005c29521"><td class="memItemLeft">uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a22b0989b655ef98694cccb2005c29521">bytes_per_sector</a></td></tr>
-<tr class="memitem:aef1e4b01efd3946958165dd7d464426b" id="r_aef1e4b01efd3946958165dd7d464426b"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#aef1e4b01efd3946958165dd7d464426b">sectors_per_cluster</a></td></tr>
-<tr class="memitem:a39187d9fcd3b6de0e248b2c9e74d36ec" id="r_a39187d9fcd3b6de0e248b2c9e74d36ec"><td class="memItemLeft">uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a39187d9fcd3b6de0e248b2c9e74d36ec">reserved_sectors</a></td></tr>
-<tr class="memitem:a514fbb256544030621a4ac168a7854e7" id="r_a514fbb256544030621a4ac168a7854e7"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#a514fbb256544030621a4ac168a7854e7">num_fats</a></td></tr>
-<tr class="memitem:a7c2acd72bc1436ce61ef62c2b3a34b3d" id="r_a7c2acd72bc1436ce61ef62c2b3a34b3d"><td class="memItemLeft">uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a7c2acd72bc1436ce61ef62c2b3a34b3d">max_root_dir_entries</a></td></tr>
-<tr class="memitem:a0e3f3a15132c9c07832ee48e1391331d" id="r_a0e3f3a15132c9c07832ee48e1391331d"><td class="memItemLeft">uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a0e3f3a15132c9c07832ee48e1391331d">total_sectors_short</a></td></tr>
-<tr class="memitem:ad9df23757ad93a64c46957b5b419dfde" id="r_ad9df23757ad93a64c46957b5b419dfde"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#ad9df23757ad93a64c46957b5b419dfde">media_descriptor</a></td></tr>
-<tr class="memitem:ac594881d1b7ce2d8b74ddf9fc0a06c30" id="r_ac594881d1b7ce2d8b74ddf9fc0a06c30"><td class="memItemLeft">uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#ac594881d1b7ce2d8b74ddf9fc0a06c30">sectors_per_fat</a></td></tr>
-<tr class="memitem:a8561db483810f74692138efbcbfa0946" id="r_a8561db483810f74692138efbcbfa0946"><td class="memItemLeft">uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a8561db483810f74692138efbcbfa0946">sectors_per_track</a></td></tr>
-<tr class="memitem:aefcab6aac557dc8a7837eda1ebb68282" id="r_aefcab6aac557dc8a7837eda1ebb68282"><td class="memItemLeft">uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#aefcab6aac557dc8a7837eda1ebb68282">num_heads</a></td></tr>
-<tr class="memitem:abeead464fe6e9550caf0e852ab56bac7" id="r_abeead464fe6e9550caf0e852ab56bac7"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#abeead464fe6e9550caf0e852ab56bac7">hidden_sectors</a></td></tr>
-<tr class="memitem:a2732f3190500ba558d67c9aee2d1100e" id="r_a2732f3190500ba558d67c9aee2d1100e"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a2732f3190500ba558d67c9aee2d1100e">total_sectors_long</a></td></tr>
-<tr class="memitem:a9faeb952d0d5493ee7e1b93bdaa3d70e" id="r_a9faeb952d0d5493ee7e1b93bdaa3d70e"><td class="memItemLeft">char&#160;</td><td class="memItemRight"><a class="el" href="#a9faeb952d0d5493ee7e1b93bdaa3d70e">name</a> [8]</td></tr>
-<tr class="memitem:a95b198148878c523b13213b9bfcbbe04" id="r_a95b198148878c523b13213b9bfcbbe04"><td class="memItemLeft">char&#160;</td><td class="memItemRight"><a class="el" href="#a95b198148878c523b13213b9bfcbbe04">ext</a> [3]</td></tr>
-<tr class="memitem:a3ffd87806626cb99302ebfc810e9aed4" id="r_a3ffd87806626cb99302ebfc810e9aed4"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#a3ffd87806626cb99302ebfc810e9aed4">attr</a></td></tr>
-<tr class="memitem:a6fefbdda58ee300b2214dad299f70564" id="r_a6fefbdda58ee300b2214dad299f70564"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#a6fefbdda58ee300b2214dad299f70564">reserved</a></td></tr>
-<tr class="memitem:a60e3aac4e09f5703de9abd59ced11bce" id="r_a60e3aac4e09f5703de9abd59ced11bce"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#a60e3aac4e09f5703de9abd59ced11bce">creation_time_tenths</a></td></tr>
-<tr class="memitem:a7efc13be74da37e86b31b4380cb8cf92" id="r_a7efc13be74da37e86b31b4380cb8cf92"><td class="memItemLeft">uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a7efc13be74da37e86b31b4380cb8cf92">creation_time</a></td></tr>
-<tr class="memitem:a0a07d843e05144d80c98dea4fbb9c73b" id="r_a0a07d843e05144d80c98dea4fbb9c73b"><td class="memItemLeft">uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a0a07d843e05144d80c98dea4fbb9c73b">creation_date</a></td></tr>
-<tr class="memitem:a3a66aa6d40734bf87aee45e51e82f45c" id="r_a3a66aa6d40734bf87aee45e51e82f45c"><td class="memItemLeft">uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a3a66aa6d40734bf87aee45e51e82f45c">last_access_date</a></td></tr>
-<tr class="memitem:a68d95a2b4816ea7474cd11d3e8767f41" id="r_a68d95a2b4816ea7474cd11d3e8767f41"><td class="memItemLeft">uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a68d95a2b4816ea7474cd11d3e8767f41">ignore</a></td></tr>
-<tr class="memitem:a002f4c9536199af35607b938305ae8cc" id="r_a002f4c9536199af35607b938305ae8cc"><td class="memItemLeft">uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a002f4c9536199af35607b938305ae8cc">last_mod_time</a></td></tr>
-<tr class="memitem:ac84c81aa9fb89ac8104a699b6172f28f" id="r_ac84c81aa9fb89ac8104a699b6172f28f"><td class="memItemLeft">uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#ac84c81aa9fb89ac8104a699b6172f28f">last_mod_date</a></td></tr>
-<tr class="memitem:a977ff137636fcf103d852d1948333ee2" id="r_a977ff137636fcf103d852d1948333ee2"><td class="memItemLeft">uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a977ff137636fcf103d852d1948333ee2">first_cluster</a></td></tr>
-<tr class="memitem:a85d4d8b2ebdf2dc9ee48968eb1d151a1" id="r_a85d4d8b2ebdf2dc9ee48968eb1d151a1"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a85d4d8b2ebdf2dc9ee48968eb1d151a1">filesize</a></td></tr>
+<tr class="memitem:a489bcfb2ab20fed0d93844f72a47c65f" id="r_a489bcfb2ab20fed0d93844f72a47c65f"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#a489bcfb2ab20fed0d93844f72a47c65f">magic</a> [4]</td></tr>
+<tr class="memitem:a04032b2782f3c2f600024b42bf2478f4" id="r_a04032b2782f3c2f600024b42bf2478f4"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a04032b2782f3c2f600024b42bf2478f4">size</a></td></tr>
+<tr class="memitem:a30e60959661cf2e3b2dcc52e5d3e9249" id="r_a30e60959661cf2e3b2dcc52e5d3e9249"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#a30e60959661cf2e3b2dcc52e5d3e9249">type</a></td></tr>
+<tr class="memitem:a891595b0e4757dabe49b342c0c96a4b7" id="r_a891595b0e4757dabe49b342c0c96a4b7"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#a891595b0e4757dabe49b342c0c96a4b7">features</a></td></tr>
+<tr class="memitem:a5eba63e4e782e8040c0dfe3cb0fbd841" id="r_a5eba63e4e782e8040c0dfe3cb0fbd841"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#a5eba63e4e782e8040c0dfe3cb0fbd841">width</a></td></tr>
+<tr class="memitem:a872f9c3294d3320e88a67a347e69bf63" id="r_a872f9c3294d3320e88a67a347e69bf63"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#a872f9c3294d3320e88a67a347e69bf63">height</a></td></tr>
+<tr class="memitem:a262110c950cfc1d0071210ca87d0740b" id="r_a262110c950cfc1d0071210ca87d0740b"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#a262110c950cfc1d0071210ca87d0740b">baseline</a></td></tr>
+<tr class="memitem:a45dbe0d6660848f687d5dfccaf1bc03f" id="r_a45dbe0d6660848f687d5dfccaf1bc03f"><td class="memItemLeft">uint8_t&#160;</td><td class="memItemRight"><a class="el" href="#a45dbe0d6660848f687d5dfccaf1bc03f">underline</a></td></tr>
+<tr class="memitem:a54533f38bb06127c76c73e7132289366" id="r_a54533f38bb06127c76c73e7132289366"><td class="memItemLeft">uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a54533f38bb06127c76c73e7132289366">fragments_offs</a></td></tr>
+<tr class="memitem:ac43c0c181bedd7d0c3491d9b40a1fb63" id="r_ac43c0c181bedd7d0c3491d9b40a1fb63"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#ac43c0c181bedd7d0c3491d9b40a1fb63">characters_offs</a></td></tr>
+<tr class="memitem:a85b7930029e4a8a31f99a746d887054f" id="r_a85b7930029e4a8a31f99a746d887054f"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a85b7930029e4a8a31f99a746d887054f">ligature_offs</a></td></tr>
+<tr class="memitem:a8b3891410b8f6be6e315b39bf25bd174" id="r_a8b3891410b8f6be6e315b39bf25bd174"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a8b3891410b8f6be6e315b39bf25bd174">kerning_offs</a></td></tr>
+<tr class="memitem:a1e83b42f3c345561187d49ed5c2458a4" id="r_a1e83b42f3c345561187d49ed5c2458a4"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a1e83b42f3c345561187d49ed5c2458a4">cmap_offs</a></td></tr>
 </table>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a3ffd87806626cb99302ebfc810e9aed4" name="a3ffd87806626cb99302ebfc810e9aed4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ffd87806626cb99302ebfc810e9aed4">&#9670;&#160;</a></span>attr</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="ssfn_8h_source.html#l00105">105</a> of file <a class="el" href="ssfn_8h_source.html">ssfn.h</a>.</p>
+</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a262110c950cfc1d0071210ca87d0740b" name="a262110c950cfc1d0071210ca87d0740b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a262110c950cfc1d0071210ca87d0740b">&#9670;&#160;</a></span>baseline</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t __attribute__::attr</td>
+          <td class="memname">uint8_t __attribute__::baseline</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="ssfn_8h_source.html#l00112">112</a> of file <a class="el" href="ssfn_8h_source.html">ssfn.h</a>.</p>
+
 </div>
 </div>
-<a id="a18ebd780727136a682c4c11594ec23d2" name="a18ebd780727136a682c4c11594ec23d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18ebd780727136a682c4c11594ec23d2">&#9670;&#160;</a></span>boot_flag</h2>
+<a id="ac43c0c181bedd7d0c3491d9b40a1fb63" name="ac43c0c181bedd7d0c3491d9b40a1fb63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac43c0c181bedd7d0c3491d9b40a1fb63">&#9670;&#160;</a></span>characters_offs</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t __attribute__::boot_flag</td>
+          <td class="memname">uint32_t __attribute__::characters_offs</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="ssfn_8h_source.html#l00115">115</a> of file <a class="el" href="ssfn_8h_source.html">ssfn.h</a>.</p>
+
 </div>
 </div>
-<a id="a22b0989b655ef98694cccb2005c29521" name="a22b0989b655ef98694cccb2005c29521"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22b0989b655ef98694cccb2005c29521">&#9670;&#160;</a></span>bytes_per_sector</h2>
+<a id="a1e83b42f3c345561187d49ed5c2458a4" name="a1e83b42f3c345561187d49ed5c2458a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e83b42f3c345561187d49ed5c2458a4">&#9670;&#160;</a></span>cmap_offs</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t __attribute__::bytes_per_sector</td>
+          <td class="memname">uint32_t __attribute__::cmap_offs</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="ssfn_8h_source.html#l00118">118</a> of file <a class="el" href="ssfn_8h_source.html">ssfn.h</a>.</p>
+
 </div>
 </div>
-<a id="acf47515f5876696641f99dda5b190b54" name="acf47515f5876696641f99dda5b190b54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf47515f5876696641f99dda5b190b54">&#9670;&#160;</a></span>chs_end</h2>
+<a id="a891595b0e4757dabe49b342c0c96a4b7" name="a891595b0e4757dabe49b342c0c96a4b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a891595b0e4757dabe49b342c0c96a4b7">&#9670;&#160;</a></span>features</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t __attribute__::chs_end[3]</td>
+          <td class="memname">uint8_t __attribute__::features</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="ssfn_8h_source.html#l00109">109</a> of file <a class="el" href="ssfn_8h_source.html">ssfn.h</a>.</p>
+
 </div>
 </div>
-<a id="acae4f5174d2e26aa2e8daac5ba4c6661" name="acae4f5174d2e26aa2e8daac5ba4c6661"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acae4f5174d2e26aa2e8daac5ba4c6661">&#9670;&#160;</a></span>chs_start</h2>
+<a id="a54533f38bb06127c76c73e7132289366" name="a54533f38bb06127c76c73e7132289366"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54533f38bb06127c76c73e7132289366">&#9670;&#160;</a></span>fragments_offs</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t __attribute__::chs_start[3]</td>
+          <td class="memname">uint16_t __attribute__::fragments_offs</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="ssfn_8h_source.html#l00114">114</a> of file <a class="el" href="ssfn_8h_source.html">ssfn.h</a>.</p>
+
 </div>
 </div>
-<a id="a0a07d843e05144d80c98dea4fbb9c73b" name="a0a07d843e05144d80c98dea4fbb9c73b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a07d843e05144d80c98dea4fbb9c73b">&#9670;&#160;</a></span>creation_date</h2>
+<a id="a872f9c3294d3320e88a67a347e69bf63" name="a872f9c3294d3320e88a67a347e69bf63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a872f9c3294d3320e88a67a347e69bf63">&#9670;&#160;</a></span>height</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t __attribute__::creation_date</td>
+          <td class="memname">uint8_t __attribute__::height</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="ssfn_8h_source.html#l00111">111</a> of file <a class="el" href="ssfn_8h_source.html">ssfn.h</a>.</p>
+
 </div>
 </div>
-<a id="a7efc13be74da37e86b31b4380cb8cf92" name="a7efc13be74da37e86b31b4380cb8cf92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7efc13be74da37e86b31b4380cb8cf92">&#9670;&#160;</a></span>creation_time</h2>
+<a id="a8b3891410b8f6be6e315b39bf25bd174" name="a8b3891410b8f6be6e315b39bf25bd174"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b3891410b8f6be6e315b39bf25bd174">&#9670;&#160;</a></span>kerning_offs</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t __attribute__::creation_time</td>
+          <td class="memname">uint32_t __attribute__::kerning_offs</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="ssfn_8h_source.html#l00117">117</a> of file <a class="el" href="ssfn_8h_source.html">ssfn.h</a>.</p>
+
 </div>
 </div>
-<a id="a60e3aac4e09f5703de9abd59ced11bce" name="a60e3aac4e09f5703de9abd59ced11bce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60e3aac4e09f5703de9abd59ced11bce">&#9670;&#160;</a></span>creation_time_tenths</h2>
+<a id="a85b7930029e4a8a31f99a746d887054f" name="a85b7930029e4a8a31f99a746d887054f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85b7930029e4a8a31f99a746d887054f">&#9670;&#160;</a></span>ligature_offs</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t __attribute__::creation_time_tenths</td>
+          <td class="memname">uint32_t __attribute__::ligature_offs</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="ssfn_8h_source.html#l00116">116</a> of file <a class="el" href="ssfn_8h_source.html">ssfn.h</a>.</p>
+
 </div>
 </div>
-<a id="a95b198148878c523b13213b9bfcbbe04" name="a95b198148878c523b13213b9bfcbbe04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95b198148878c523b13213b9bfcbbe04">&#9670;&#160;</a></span>ext</h2>
+<a id="a489bcfb2ab20fed0d93844f72a47c65f" name="a489bcfb2ab20fed0d93844f72a47c65f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a489bcfb2ab20fed0d93844f72a47c65f">&#9670;&#160;</a></span>magic</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">char __attribute__::ext[3]</td>
+          <td class="memname">uint8_t __attribute__::magic[4]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="ssfn_8h_source.html#l00106">106</a> of file <a class="el" href="ssfn_8h_source.html">ssfn.h</a>.</p>
+
 </div>
 </div>
-<a id="a85d4d8b2ebdf2dc9ee48968eb1d151a1" name="a85d4d8b2ebdf2dc9ee48968eb1d151a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85d4d8b2ebdf2dc9ee48968eb1d151a1">&#9670;&#160;</a></span>filesize</h2>
+<a id="a04032b2782f3c2f600024b42bf2478f4" name="a04032b2782f3c2f600024b42bf2478f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04032b2782f3c2f600024b42bf2478f4">&#9670;&#160;</a></span>size</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t __attribute__::filesize</td>
+          <td class="memname">uint32_t __attribute__::size</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="ssfn_8h_source.html#l00107">107</a> of file <a class="el" href="ssfn_8h_source.html">ssfn.h</a>.</p>
+
 </div>
 </div>
-<a id="a977ff137636fcf103d852d1948333ee2" name="a977ff137636fcf103d852d1948333ee2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a977ff137636fcf103d852d1948333ee2">&#9670;&#160;</a></span>first_cluster</h2>
+<a id="a30e60959661cf2e3b2dcc52e5d3e9249" name="a30e60959661cf2e3b2dcc52e5d3e9249"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30e60959661cf2e3b2dcc52e5d3e9249">&#9670;&#160;</a></span>type</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t __attribute__::first_cluster</td>
+          <td class="memname">uint8_t __attribute__::type</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="ssfn_8h_source.html#l00108">108</a> of file <a class="el" href="ssfn_8h_source.html">ssfn.h</a>.</p>
+
 </div>
 </div>
-<a id="abeead464fe6e9550caf0e852ab56bac7" name="abeead464fe6e9550caf0e852ab56bac7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abeead464fe6e9550caf0e852ab56bac7">&#9670;&#160;</a></span>hidden_sectors</h2>
+<a id="a45dbe0d6660848f687d5dfccaf1bc03f" name="a45dbe0d6660848f687d5dfccaf1bc03f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45dbe0d6660848f687d5dfccaf1bc03f">&#9670;&#160;</a></span>underline</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t __attribute__::hidden_sectors</td>
+          <td class="memname">uint8_t __attribute__::underline</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="ssfn_8h_source.html#l00113">113</a> of file <a class="el" href="ssfn_8h_source.html">ssfn.h</a>.</p>
+
 </div>
 </div>
-<a id="a68d95a2b4816ea7474cd11d3e8767f41" name="a68d95a2b4816ea7474cd11d3e8767f41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68d95a2b4816ea7474cd11d3e8767f41">&#9670;&#160;</a></span>ignore</h2>
+<a id="a5eba63e4e782e8040c0dfe3cb0fbd841" name="a5eba63e4e782e8040c0dfe3cb0fbd841"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5eba63e4e782e8040c0dfe3cb0fbd841">&#9670;&#160;</a></span>width</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t __attribute__::ignore</td>
+          <td class="memname">uint8_t __attribute__::width</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a2a04672f76393fa9ecea690a85268d0e" name="a2a04672f76393fa9ecea690a85268d0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a04672f76393fa9ecea690a85268d0e">&#9670;&#160;</a></span>jmp</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t __attribute__::jmp[3]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p class="definition">Definition at line <a class="el" href="ssfn_8h_source.html#l00110">110</a> of file <a class="el" href="ssfn_8h_source.html">ssfn.h</a>.</p>
 
 </div>
 </div>
-<a id="a3a66aa6d40734bf87aee45e51e82f45c" name="a3a66aa6d40734bf87aee45e51e82f45c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a66aa6d40734bf87aee45e51e82f45c">&#9670;&#160;</a></span>last_access_date</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t __attribute__::last_access_date</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac84c81aa9fb89ac8104a699b6172f28f" name="ac84c81aa9fb89ac8104a699b6172f28f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac84c81aa9fb89ac8104a699b6172f28f">&#9670;&#160;</a></span>last_mod_date</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t __attribute__::last_mod_date</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a002f4c9536199af35607b938305ae8cc" name="a002f4c9536199af35607b938305ae8cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a002f4c9536199af35607b938305ae8cc">&#9670;&#160;</a></span>last_mod_time</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t __attribute__::last_mod_time</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1ad318f168a318e188962b8b06a07f87" name="a1ad318f168a318e188962b8b06a07f87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ad318f168a318e188962b8b06a07f87">&#9670;&#160;</a></span>lba_start</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t __attribute__::lba_start</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7c2acd72bc1436ce61ef62c2b3a34b3d" name="a7c2acd72bc1436ce61ef62c2b3a34b3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c2acd72bc1436ce61ef62c2b3a34b3d">&#9670;&#160;</a></span>max_root_dir_entries</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t __attribute__::max_root_dir_entries</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad9df23757ad93a64c46957b5b419dfde" name="ad9df23757ad93a64c46957b5b419dfde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9df23757ad93a64c46957b5b419dfde">&#9670;&#160;</a></span>media_descriptor</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t __attribute__::media_descriptor</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9faeb952d0d5493ee7e1b93bdaa3d70e" name="a9faeb952d0d5493ee7e1b93bdaa3d70e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9faeb952d0d5493ee7e1b93bdaa3d70e">&#9670;&#160;</a></span>name</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">char __attribute__::name[8]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a514fbb256544030621a4ac168a7854e7" name="a514fbb256544030621a4ac168a7854e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a514fbb256544030621a4ac168a7854e7">&#9670;&#160;</a></span>num_fats</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t __attribute__::num_fats</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aefcab6aac557dc8a7837eda1ebb68282" name="aefcab6aac557dc8a7837eda1ebb68282"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefcab6aac557dc8a7837eda1ebb68282">&#9670;&#160;</a></span>num_heads</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t __attribute__::num_heads</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9cc4e1b9729e35615e3b85601c6af5b8" name="a9cc4e1b9729e35615e3b85601c6af5b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9cc4e1b9729e35615e3b85601c6af5b8">&#9670;&#160;</a></span>num_sectors</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t __attribute__::num_sectors</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acbca2689864bdf49ae771ddcdcb3d0a6" name="acbca2689864bdf49ae771ddcdcb3d0a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acbca2689864bdf49ae771ddcdcb3d0a6">&#9670;&#160;</a></span>oem</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t __attribute__::oem[8]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aeed20f8c75731c0849919aa52e6fa64c" name="aeed20f8c75731c0849919aa52e6fa64c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeed20f8c75731c0849919aa52e6fa64c">&#9670;&#160;</a></span>partition_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t __attribute__::partition_type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6fefbdda58ee300b2214dad299f70564" name="a6fefbdda58ee300b2214dad299f70564"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fefbdda58ee300b2214dad299f70564">&#9670;&#160;</a></span>reserved</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t __attribute__::reserved</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a39187d9fcd3b6de0e248b2c9e74d36ec" name="a39187d9fcd3b6de0e248b2c9e74d36ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39187d9fcd3b6de0e248b2c9e74d36ec">&#9670;&#160;</a></span>reserved_sectors</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t __attribute__::reserved_sectors</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aef1e4b01efd3946958165dd7d464426b" name="aef1e4b01efd3946958165dd7d464426b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef1e4b01efd3946958165dd7d464426b">&#9670;&#160;</a></span>sectors_per_cluster</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t __attribute__::sectors_per_cluster</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac594881d1b7ce2d8b74ddf9fc0a06c30" name="ac594881d1b7ce2d8b74ddf9fc0a06c30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac594881d1b7ce2d8b74ddf9fc0a06c30">&#9670;&#160;</a></span>sectors_per_fat</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t __attribute__::sectors_per_fat</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8561db483810f74692138efbcbfa0946" name="a8561db483810f74692138efbcbfa0946"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8561db483810f74692138efbcbfa0946">&#9670;&#160;</a></span>sectors_per_track</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t __attribute__::sectors_per_track</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2732f3190500ba558d67c9aee2d1100e" name="a2732f3190500ba558d67c9aee2d1100e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2732f3190500ba558d67c9aee2d1100e">&#9670;&#160;</a></span>total_sectors_long</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t __attribute__::total_sectors_long</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0e3f3a15132c9c07832ee48e1391331d" name="a0e3f3a15132c9c07832ee48e1391331d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e3f3a15132c9c07832ee48e1391331d">&#9670;&#160;</a></span>total_sectors_short</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t __attribute__::total_sectors_short</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this struct was generated from the following files:<ul>
-<li>source/includes/disk/<a class="el" href="mbr_8h_source.html">mbr.h</a></li>
-<li>source/includes/filesystems/<a class="el" href="fat16_8h_source.html">fat16.h</a></li>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>source/includes/<a class="el" href="ssfn_8h_source.html">ssfn.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

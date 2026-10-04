@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['user_5fruntime_5ft_0',['user_runtime_t',['../structuser__runtime__t.html',1,'']]],
-  ['user_5ftask_5fspec_1',['user_task_spec',['../structuser__task__spec.html',1,'']]],
-  ['userland_5fexec_5fctx_5ft_2',['userland_exec_ctx_t',['../structuserland__exec__ctx__t.html',1,'']]]
+  ['task_0',['task',['../structtask.html',1,'']]],
+  ['task_5finfo_1',['task_info',['../structtask__info.html',1,'']]],
+  ['task_5fsignal_5faction_5ft_2',['task_signal_action_t',['../structtask__signal__action__t.html',1,'']]]
 ];

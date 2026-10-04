@@ -171,6 +171,7 @@ Macros</h2></td></tr>
 <tr class="memitem:a8e9aa6e178480cd0e01c9be291a45a0a" id="r_a8e9aa6e178480cd0e01c9be291a45a0a"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a8e9aa6e178480cd0e01c9be291a45a0a">PAGE_NX</a>&#160;&#160;&#160;(1ULL &lt;&lt; 63)</td></tr>
 <tr class="memitem:ac69e4daf7372abfe2341c8277ef615e3" id="r_ac69e4daf7372abfe2341c8277ef615e3"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ac69e4daf7372abfe2341c8277ef615e3">USER_CODE_FLAGS</a>&#160;&#160;&#160;(PAGE_PRESENT | PAGE_USER | PAGE_RW)</td></tr>
 <tr class="memitem:a76216b39cf067c9dfe386e0b5dde6340" id="r_a76216b39cf067c9dfe386e0b5dde6340"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a76216b39cf067c9dfe386e0b5dde6340">USER_DATA_FLAGS</a>&#160;&#160;&#160;(PAGE_PRESENT | PAGE_USER | PAGE_RW | PAGE_NX)</td></tr>
+<tr class="memitem:aa3a05bb12cf6d18169f8bd2b6c32594f" id="r_aa3a05bb12cf6d18169f8bd2b6c32594f"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#aa3a05bb12cf6d18169f8bd2b6c32594f">PAGE_PHYS_ADDR_MASK</a>&#160;&#160;&#160;0x000FFFFFFFFFF000ULL</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -178,20 +179,39 @@ Functions</h2></td></tr>
 <tr class="memdesc:ad12b8e2beb6f3f8ec8c8fc80be327167"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to map userland pages.  <br /></td></tr>
 <tr class="memitem:a87409fd2291e3b2e5b8952c02c32db7b" id="r_a87409fd2291e3b2e5b8952c02c32db7b"><td class="memItemLeft"><a id="a87409fd2291e3b2e5b8952c02c32db7b" name="a87409fd2291e3b2e5b8952c02c32db7b"></a>
 void&#160;</td><td class="memItemRight"><b>unmap_user_page</b> (uint64_t virt)</td></tr>
+<tr class="memdesc:a87409fd2291e3b2e5b8952c02c32db7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a user page mapping. <br /></td></tr>
+<tr class="memitem:a224f525da4db3a3a35da2f192ab5f162" id="r_a224f525da4db3a3a35da2f192ab5f162"><td class="memItemLeft"><a id="a224f525da4db3a3a35da2f192ab5f162" name="a224f525da4db3a3a35da2f192ab5f162"></a>
+bool&#160;</td><td class="memItemRight"><b>paging_set_user_page_permissions</b> (uint64_t virt, bool writable, bool executable)</td></tr>
+<tr class="memdesc:a224f525da4db3a3a35da2f192ab5f162"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set user-page write and execute permissions. <br /></td></tr>
 <tr class="memitem:add90fb72876f7f27b975ec547604eeba" id="r_add90fb72876f7f27b975ec547604eeba"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#add90fb72876f7f27b975ec547604eeba">paging_set_hhdm_offset</a> (uint64_t offset)</td></tr>
 <tr class="memdesc:add90fb72876f7f27b975ec547604eeba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the HHDM offset used to access physical memory virtually.  <br /></td></tr>
 <tr class="memitem:a2f64885386b5ef6fcbd65afe778eaf7b" id="r_a2f64885386b5ef6fcbd65afe778eaf7b"><td class="memItemLeft"><a id="a2f64885386b5ef6fcbd65afe778eaf7b" name="a2f64885386b5ef6fcbd65afe778eaf7b"></a>
 uintptr_t&#160;</td><td class="memItemRight"><b>allocate_page</b> (void)</td></tr>
+<tr class="memdesc:a2f64885386b5ef6fcbd65afe778eaf7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate one physical page and return its address. <br /></td></tr>
 <tr class="memitem:a604da78ae02f783061fdd5ac610be1c1" id="r_a604da78ae02f783061fdd5ac610be1c1"><td class="memItemLeft"><a id="a604da78ae02f783061fdd5ac610be1c1" name="a604da78ae02f783061fdd5ac610be1c1"></a>
 uintptr_t&#160;</td><td class="memItemRight"><b>allocate_pages</b> (size_t count)</td></tr>
-<tr class="memitem:a2d3b954f9022e10828bdee766a0528c8" id="r_a2d3b954f9022e10828bdee766a0528c8"><td class="memItemLeft"><a id="a2d3b954f9022e10828bdee766a0528c8" name="a2d3b954f9022e10828bdee766a0528c8"></a>
-uint64_t&#160;</td><td class="memItemRight"><b>virtual_to_physical</b> (uint64_t virt)</td></tr>
+<tr class="memdesc:a604da78ae02f783061fdd5ac610be1c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a number of physical pages. <br /></td></tr>
+<tr class="memitem:a07d2ace03b0629573a82d28ab022a6fd" id="r_a07d2ace03b0629573a82d28ab022a6fd"><td class="memItemLeft"><a id="a07d2ace03b0629573a82d28ab022a6fd" name="a07d2ace03b0629573a82d28ab022a6fd"></a>
+uintptr_t&#160;</td><td class="memItemRight"><b>allocate_pages_contiguous</b> (size_t count)</td></tr>
+<tr class="memdesc:a07d2ace03b0629573a82d28ab022a6fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a contiguous run of physical pages. <br /></td></tr>
+<tr class="memitem:aef7a0e75a7ea2a68d53b17742211ff60" id="r_aef7a0e75a7ea2a68d53b17742211ff60"><td class="memItemLeft"><a id="aef7a0e75a7ea2a68d53b17742211ff60" name="aef7a0e75a7ea2a68d53b17742211ff60"></a>
+void *&#160;</td><td class="memItemRight"><b>paging_phys_to_virt</b> (uintptr_t phys)</td></tr>
+<tr class="memdesc:aef7a0e75a7ea2a68d53b17742211ff60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a physical address to its HHDM virtual address. <br /></td></tr>
 <tr class="memitem:a70853a2ad5cf667e3ebcb8c4fae947a7" id="r_a70853a2ad5cf667e3ebcb8c4fae947a7"><td class="memItemLeft"><a id="a70853a2ad5cf667e3ebcb8c4fae947a7" name="a70853a2ad5cf667e3ebcb8c4fae947a7"></a>
 uint64_t&#160;</td><td class="memItemRight"><b>paging_user_page_flags</b> (uint64_t virt)</td></tr>
+<tr class="memdesc:a70853a2ad5cf667e3ebcb8c4fae947a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the page-table flags for a user virtual address. <br /></td></tr>
 <tr class="memitem:a0c2de07d9cf1cd239a220f5e7f19eb56" id="r_a0c2de07d9cf1cd239a220f5e7f19eb56"><td class="memItemLeft"><a id="a0c2de07d9cf1cd239a220f5e7f19eb56" name="a0c2de07d9cf1cd239a220f5e7f19eb56"></a>
 uint64_t&#160;</td><td class="memItemRight"><b>fast_virt_to_phys</b> (void *v)</td></tr>
+<tr class="memdesc:a0c2de07d9cf1cd239a220f5e7f19eb56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translate a virtual address to a physical address using the fast path. <br /></td></tr>
 <tr class="memitem:af753d5e110c9c2a038b5f12ba361014a" id="r_af753d5e110c9c2a038b5f12ba361014a"><td class="memItemLeft"><a id="af753d5e110c9c2a038b5f12ba361014a" name="af753d5e110c9c2a038b5f12ba361014a"></a>
 uint64_t&#160;</td><td class="memItemRight"><b>virt_to_phys</b> (void *v)</td></tr>
+<tr class="memdesc:af753d5e110c9c2a038b5f12ba361014a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translate a virtual address to a physical address. <br /></td></tr>
+<tr class="memitem:abd07a586d89a0c283c06290105316bc3" id="r_abd07a586d89a0c283c06290105316bc3"><td class="memItemLeft"><a id="abd07a586d89a0c283c06290105316bc3" name="abd07a586d89a0c283c06290105316bc3"></a>
+void&#160;</td><td class="memItemRight"><b>free_page</b> (uintptr_t phys)</td></tr>
+<tr class="memdesc:abd07a586d89a0c283c06290105316bc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free a previously allocated physical page. <br /></td></tr>
+<tr class="memitem:ab621f31bdff27a971c28998c5e8ac87b" id="r_ab621f31bdff27a971c28998c5e8ac87b"><td class="memItemLeft"><a id="ab621f31bdff27a971c28998c5e8ac87b" name="ab621f31bdff27a971c28998c5e8ac87b"></a>
+void&#160;</td><td class="memItemRight"><b>paging_reserve_range</b> (uintptr_t phys_start, uintptr_t phys_end)</td></tr>
+<tr class="memdesc:ab621f31bdff27a971c28998c5e8ac87b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserve a physical address range so the allocator will not use it. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -203,7 +223,7 @@ struct <a class="el" href="structlimine__memmap__response.html">limine_memmap_re
 <dl class="section author"><dt>Author</dt><dd>Pradosh (<a href="#" onclick="location.href='mai'+'lto:'+'pra'+'do'+'shg'+'am'+'e@g'+'ma'+'il.'+'co'+'m'; return false;">prado<span class="obfuscator">.nosp@m.</span>shga<span class="obfuscator">.nosp@m.</span>me@gm<span class="obfuscator">.nosp@m.</span>ail.<span class="obfuscator">.nosp@m.</span>com</a>) </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2023-12-17</dd></dl>
-<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) Pradosh 2023 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) Pradosh 2023-2026 </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="paging_8h_source.html">paging.h</a>.</p>
 </div><a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
@@ -220,6 +240,22 @@ struct <a class="el" href="structlimine__memmap__response.html">limine_memmap_re
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="paging_8h_source.html#l00023">23</a> of file <a class="el" href="paging_8h_source.html">paging.h</a>.</p>
+
+</div>
+</div>
+<a id="aa3a05bb12cf6d18169f8bd2b6c32594f" name="aa3a05bb12cf6d18169f8bd2b6c32594f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3a05bb12cf6d18169f8bd2b6c32594f">&#9670;&#160;</a></span>PAGE_PHYS_ADDR_MASK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PAGE_PHYS_ADDR_MASK&#160;&#160;&#160;0x000FFFFFFFFFF000ULL</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="paging_8h_source.html#l00028">28</a> of file <a class="el" href="paging_8h_source.html">paging.h</a>.</p>
 
 </div>
 </div>

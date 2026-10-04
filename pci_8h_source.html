@@ -106,74 +106,86 @@ $(function(){initNavTree('pci_8h_source.html','',''); });
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;<a class="code" href="graphics_8h.html">graphics.h</a>&gt;</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;<a class="code" href="hal_8h.html">hal.h</a>&gt;</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &lt;<a class="code" href="isr_8h.html">isr.h</a>&gt;</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &lt;nvme.h&gt;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &lt;<a class="code" href="nvme_8h.html">nvme.h</a>&gt;</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#include &lt;<a class="code" href="pci__id_8h.html">pci_id.h</a>&gt;</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">extern</span> cstring display_adapter_name;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">extern</span> cstring GPUName[2]; <span class="comment">// Max 2 GPUs allowed</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">extern</span> cstring using_graphics_card;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">extern</span> uint64 *graphics_base_Address;</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">extern</span> <span class="keywordtype">int</span> total_devices;</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">extern</span> uint16 vendors[MAX_PCI_DEVICES];</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">extern</span> uint16 devices[MAX_PCI_DEVICES];</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">extern</span> <span class="keywordtype">char</span> deviceNames[MAX_PCI_DEVICES][64];</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="comment">// Define the base address for the PCI configuration space</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#define PCI_CONFIG_ADDRESS 0xCF8</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#define PCI_CONFIG_DATA 0xCFC</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">typedef</span> void (*pci_probe_fn)(uint8_t bus, uint8_t slot, uint8_t function);</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="foldopen" id="foldopen00040" data-start="{" data-end="};">
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="structpci__location__t.html">   40</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    uint16 bus;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    uint16 slot;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    uint16 func;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>} <a class="code hl_struct" href="structpci__location__t.html">pci_location_t</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#include &lt;<a class="code" href="xhci_8h.html">xhci.h</a>&gt;</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">extern</span> cstring display_adapter_name;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">extern</span> cstring GPUName[2]; <span class="comment">// Max 2 GPUs allowed</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">extern</span> cstring using_graphics_card;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">extern</span> uint64 *graphics_base_Address;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">extern</span> <span class="keywordtype">int</span> total_devices;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">extern</span> uint16 vendors[MAX_PCI_DEVICES];</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">extern</span> uint16 devices[MAX_PCI_DEVICES];</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">extern</span> <span class="keywordtype">char</span> deviceNames[MAX_PCI_DEVICES][64];</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="comment">// Define the base address for the PCI configuration space</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#define PCI_CONFIG_ADDRESS 0xCF8</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#define PCI_CONFIG_DATA 0xCFC</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="pci_8h.html#a16eb6c05e8977ca8baa215a96ece4020">   45</a></span><span class="keyword">typedef</span> void (*<a class="code hl_typedef" href="pci_8h.html#a16eb6c05e8977ca8baa215a96ece4020">pci_probe_fn</a>)(uint8_t bus, uint8_t slot, uint8_t function);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="foldopen" id="foldopen00047" data-start="{" data-end="};">
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="structpci__location__t.html">   47</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    uint16 bus;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    uint16 slot;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    uint16 func;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>} <a class="code hl_struct" href="structpci__location__t.html">pci_location_t</a>;</div>
 </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">extern</span> <a class="code hl_struct" href="structpci__location__t.html">pci_location_t</a> pciLocations[MAX_PCI_DEVICES];</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="pci_8h.html#ae3df8998c9b8734fb600fec625e1a8d4">   60</a></span>uint16 <a class="code hl_function" href="pci_8h.html#ae3df8998c9b8734fb600fec625e1a8d4">pci_read_word</a>(uint16 bus, uint16 slot, uint16 func, uint16 offset);</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span></div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="pci_8h.html#a63df90bc1fdfe88a90afaeb397fe6ba8">   70</a></span>uint16 <a class="code hl_function" href="pci_8h.html#a63df90bc1fdfe88a90afaeb397fe6ba8">getVendorID</a>(uint16 bus, uint16 device, uint16 function);</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="pci_8h.html#a38bc88c6f14582762807aa6c9c9983b3">   80</a></span>uint16 <a class="code hl_function" href="pci_8h.html#a38bc88c6f14582762807aa6c9c9983b3">getDeviceID</a>(uint16 bus, uint16 device, uint16 function);</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span></div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="pci_8h.html#a6540464d32aa54b4879a0efc797aee35">   90</a></span>uint16 <a class="code hl_function" href="pci_8h.html#a6540464d32aa54b4879a0efc797aee35">getClassId</a>(uint16 bus, uint16 device, uint16 function);</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span></div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="pci_8h.html#acf581dfdb23c91461bc535414dee00e7">  100</a></span>uint16 <a class="code hl_function" href="pci_8h.html#acf581dfdb23c91461bc535414dee00e7">getSubClassId</a>(uint16 bus, uint16 device, uint16 function);</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>uint8 getRevision(uint16 bus, uint16 slot, uint16 func);</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>uint8 getProgIF(uint16 bus, uint16 device, uint16 function);</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span></div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="pci_8h.html#af881ea342562a771f3fe615b35aece2e">  108</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="pci_8h.html#af881ea342562a771f3fe615b35aece2e">probe_pci</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span><span class="keywordtype">void</span> print_lspci(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span></div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="pci_8h.html#ae4523522a567a4cb2105251f8499e3db">  120</a></span>uint32 <a class="code hl_function" href="pci_8h.html#ae4523522a567a4cb2105251f8499e3db">pci_config_read_dword</a>(uint8 bus, uint8 slot, uint8 func, uint8 offset);</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span><span class="keywordtype">void</span> pci_config_write_dword(uint8 bus, uint8 slot, uint8 func, uint8 offset, uint32_t value);</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span></div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno"><a class="line" href="pci_8h.html#a38a223abd22e640aed2c30877f3b6898">  132</a></span>uint32 <a class="code hl_function" href="pci_8h.html#a38a223abd22e640aed2c30877f3b6898">get_ahci_bar_address</a>(uint8 bus, <span class="keywordtype">int</span> slot, <span class="keywordtype">int</span> func, <span class="keywordtype">int</span> bar_num);</div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span></div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno"><a class="line" href="pci_8h.html#ae21407976b060c720916f0e8494ef596">  139</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="pci_8h.html#ae21407976b060c720916f0e8494ef596">proc_pci_register</a>();</div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span> </div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">extern</span> <a class="code hl_struct" href="structpci__location__t.html">pci_location_t</a> pciLocations[MAX_PCI_DEVICES];</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="pci_8h.html#ae3df8998c9b8734fb600fec625e1a8d4">   67</a></span>uint16 <a class="code hl_function" href="pci_8h.html#ae3df8998c9b8734fb600fec625e1a8d4">pci_read_word</a>(uint16 bus, uint16 slot, uint16 func, uint16 offset);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="pci_8h.html#a63df90bc1fdfe88a90afaeb397fe6ba8">   77</a></span>uint16 <a class="code hl_function" href="pci_8h.html#a63df90bc1fdfe88a90afaeb397fe6ba8">getVendorID</a>(uint16 bus, uint16 device, uint16 function);</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span></div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="pci_8h.html#a38bc88c6f14582762807aa6c9c9983b3">   87</a></span>uint16 <a class="code hl_function" href="pci_8h.html#a38bc88c6f14582762807aa6c9c9983b3">getDeviceID</a>(uint16 bus, uint16 device, uint16 function);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span></div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="pci_8h.html#a6540464d32aa54b4879a0efc797aee35">   97</a></span>uint16 <a class="code hl_function" href="pci_8h.html#a6540464d32aa54b4879a0efc797aee35">getClassId</a>(uint16 bus, uint16 device, uint16 function);</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span></div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="pci_8h.html#acf581dfdb23c91461bc535414dee00e7">  107</a></span>uint16 <a class="code hl_function" href="pci_8h.html#acf581dfdb23c91461bc535414dee00e7">getSubClassId</a>(uint16 bus, uint16 device, uint16 function);</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span></div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="pci_8h.html#aa44124675e5de5daee89bec4c544fb45">  117</a></span>uint8 <a class="code hl_function" href="pci_8h.html#aa44124675e5de5daee89bec4c544fb45">getRevision</a>(uint16 bus, uint16 slot, uint16 func);</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="pci_8h.html#a990dfef084e2e344e5e51c962f5b055f">  127</a></span>uint8 <a class="code hl_function" href="pci_8h.html#a990dfef084e2e344e5e51c962f5b055f">getProgIF</a>(uint16 bus, uint16 device, uint16 function);</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span></div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno"><a class="line" href="pci_8h.html#af881ea342562a771f3fe615b35aece2e">  133</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="pci_8h.html#af881ea342562a771f3fe615b35aece2e">probe_pci</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span></div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno"><a class="line" href="pci_8h.html#a9f70920541a60d48b905f4d12254de63">  136</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="pci_8h.html#a9f70920541a60d48b905f4d12254de63">print_lspci</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span></div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno"><a class="line" href="pci_8h.html#ae4523522a567a4cb2105251f8499e3db">  147</a></span>uint32 <a class="code hl_function" href="pci_8h.html#ae4523522a567a4cb2105251f8499e3db">pci_config_read_dword</a>(uint8 bus, uint8 slot, uint8 func, uint8 offset);</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span></div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno"><a class="line" href="pci_8h.html#a154d49a328958c9796053ddbf5feb01e">  158</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="pci_8h.html#a154d49a328958c9796053ddbf5feb01e">pci_config_write_dword</a>(uint8 bus, uint8 slot, uint8 func, uint8 offset, uint32_t value);</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span></div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno"><a class="line" href="pci_8h.html#a38a223abd22e640aed2c30877f3b6898">  169</a></span>uint32 <a class="code hl_function" href="pci_8h.html#a38a223abd22e640aed2c30877f3b6898">get_ahci_bar_address</a>(uint8 bus, <span class="keywordtype">int</span> slot, <span class="keywordtype">int</span> func, <span class="keywordtype">int</span> bar_num);</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span></div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno"><a class="line" href="pci_8h.html#ae21407976b060c720916f0e8494ef596">  176</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="pci_8h.html#ae21407976b060c720916f0e8494ef596">proc_pci_register</a>();</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span> </div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aahci_8h_html"><div class="ttname"><a href="ahci_8h.html">ahci.h</a></div><div class="ttdoc">Header definitions and structures for the AHCI Driver.</div></div>
 <div class="ttc" id="abasics_8h_html"><div class="ttname"><a href="basics_8h.html">basics.h</a></div><div class="ttdoc">This is a basic header files with FrostWing specific short forms and basically a good for life header...</div></div>
 <div class="ttc" id="adebugger_8h_html"><div class="ttname"><a href="debugger_8h.html">debugger.h</a></div><div class="ttdoc">The headers files for E9 hack.</div></div>
 <div class="ttc" id="agraphics_8h_html"><div class="ttname"><a href="graphics_8h.html">graphics.h</a></div><div class="ttdoc">Contains all the print functions.</div></div>
 <div class="ttc" id="ahal_8h_html"><div class="ttname"><a href="hal_8h.html">hal.h</a></div><div class="ttdoc">Header file for Hardware Abstraction Layer -&gt; Source from GoGX OS.</div></div>
 <div class="ttc" id="aisr_8h_html"><div class="ttname"><a href="isr_8h.html">isr.h</a></div><div class="ttdoc">Interrupts handler header.</div></div>
+<div class="ttc" id="anvme_8h_html"><div class="ttname"><a href="nvme_8h.html">nvme.h</a></div><div class="ttdoc">NVMe controller and namespace interfaces.</div></div>
+<div class="ttc" id="apci_8h_html_a154d49a328958c9796053ddbf5feb01e"><div class="ttname"><a href="pci_8h.html#a154d49a328958c9796053ddbf5feb01e">pci_config_write_dword</a></div><div class="ttdeci">void pci_config_write_dword(uint8 bus, uint8 slot, uint8 func, uint8 offset, uint32_t value)</div><div class="ttdoc">Write a 32-bit value to PCI configuration space.</div></div>
+<div class="ttc" id="apci_8h_html_a16eb6c05e8977ca8baa215a96ece4020"><div class="ttname"><a href="pci_8h.html#a16eb6c05e8977ca8baa215a96ece4020">pci_probe_fn</a></div><div class="ttdeci">void(* pci_probe_fn)(uint8_t bus, uint8_t slot, uint8_t function)</div><div class="ttdoc">Callback invoked when a matching PCI function is probed.</div><div class="ttdef"><b>Definition</b> <a href="#l00045">pci.h:45</a></div></div>
 <div class="ttc" id="apci_8h_html_a38a223abd22e640aed2c30877f3b6898"><div class="ttname"><a href="pci_8h.html#a38a223abd22e640aed2c30877f3b6898">get_ahci_bar_address</a></div><div class="ttdeci">uint32 get_ahci_bar_address(uint8 bus, int slot, int func, int bar_num)</div><div class="ttdoc">Gets the AHCI bar address.</div></div>
 <div class="ttc" id="apci_8h_html_a38bc88c6f14582762807aa6c9c9983b3"><div class="ttname"><a href="pci_8h.html#a38bc88c6f14582762807aa6c9c9983b3">getDeviceID</a></div><div class="ttdeci">uint16 getDeviceID(uint16 bus, uint16 device, uint16 function)</div><div class="ttdoc">Gets the Device ID from PCI.</div></div>
 <div class="ttc" id="apci_8h_html_a63df90bc1fdfe88a90afaeb397fe6ba8"><div class="ttname"><a href="pci_8h.html#a63df90bc1fdfe88a90afaeb397fe6ba8">getVendorID</a></div><div class="ttdeci">uint16 getVendorID(uint16 bus, uint16 device, uint16 function)</div><div class="ttdoc">Gets the Vendor ID from PCI.</div></div>
 <div class="ttc" id="apci_8h_html_a6540464d32aa54b4879a0efc797aee35"><div class="ttname"><a href="pci_8h.html#a6540464d32aa54b4879a0efc797aee35">getClassId</a></div><div class="ttdeci">uint16 getClassId(uint16 bus, uint16 device, uint16 function)</div><div class="ttdoc">Gets the Class ID from PCI.</div></div>
+<div class="ttc" id="apci_8h_html_a990dfef084e2e344e5e51c962f5b055f"><div class="ttname"><a href="pci_8h.html#a990dfef084e2e344e5e51c962f5b055f">getProgIF</a></div><div class="ttdeci">uint8 getProgIF(uint16 bus, uint16 device, uint16 function)</div><div class="ttdoc">Read the PCI programming interface value.</div></div>
+<div class="ttc" id="apci_8h_html_a9f70920541a60d48b905f4d12254de63"><div class="ttname"><a href="pci_8h.html#a9f70920541a60d48b905f4d12254de63">print_lspci</a></div><div class="ttdeci">void print_lspci(void)</div><div class="ttdoc">Print detected PCI devices.</div></div>
+<div class="ttc" id="apci_8h_html_aa44124675e5de5daee89bec4c544fb45"><div class="ttname"><a href="pci_8h.html#aa44124675e5de5daee89bec4c544fb45">getRevision</a></div><div class="ttdeci">uint8 getRevision(uint16 bus, uint16 slot, uint16 func)</div><div class="ttdoc">Read the PCI revision identifier.</div></div>
 <div class="ttc" id="apci_8h_html_acf581dfdb23c91461bc535414dee00e7"><div class="ttname"><a href="pci_8h.html#acf581dfdb23c91461bc535414dee00e7">getSubClassId</a></div><div class="ttdeci">uint16 getSubClassId(uint16 bus, uint16 device, uint16 function)</div><div class="ttdoc">Gets the Sub-class ID from PCI.</div></div>
 <div class="ttc" id="apci_8h_html_ae21407976b060c720916f0e8494ef596"><div class="ttname"><a href="pci_8h.html#ae21407976b060c720916f0e8494ef596">proc_pci_register</a></div><div class="ttdeci">int proc_pci_register()</div><div class="ttdoc">Registers the PCI devices into the procfs.</div></div>
 <div class="ttc" id="apci_8h_html_ae3df8998c9b8734fb600fec625e1a8d4"><div class="ttname"><a href="pci_8h.html#ae3df8998c9b8734fb600fec625e1a8d4">pci_read_word</a></div><div class="ttdeci">uint16 pci_read_word(uint16 bus, uint16 slot, uint16 func, uint16 offset)</div><div class="ttdoc">Read a 16-bit value from a PCI configuration register.</div></div>
 <div class="ttc" id="apci_8h_html_ae4523522a567a4cb2105251f8499e3db"><div class="ttname"><a href="pci_8h.html#ae4523522a567a4cb2105251f8499e3db">pci_config_read_dword</a></div><div class="ttdeci">uint32 pci_config_read_dword(uint8 bus, uint8 slot, uint8 func, uint8 offset)</div><div class="ttdoc">Function to read a 32-bit value from the PCI configuration space.</div></div>
 <div class="ttc" id="apci_8h_html_af881ea342562a771f3fe615b35aece2e"><div class="ttname"><a href="pci_8h.html#af881ea342562a771f3fe615b35aece2e">probe_pci</a></div><div class="ttdeci">void probe_pci(void)</div><div class="ttdoc">Scans (Probes) PCI Devices.</div></div>
 <div class="ttc" id="apci__id_8h_html"><div class="ttname"><a href="pci__id_8h.html">pci_id.h</a></div><div class="ttdoc">The list of all officially recognized devices.</div></div>
-<div class="ttc" id="astructpci__location__t_html"><div class="ttname"><a href="structpci__location__t.html">pci_location_t</a></div><div class="ttdef"><b>Definition</b> <a href="#l00040">pci.h:40</a></div></div>
+<div class="ttc" id="astructpci__location__t_html"><div class="ttname"><a href="structpci__location__t.html">pci_location_t</a></div><div class="ttdef"><b>Definition</b> <a href="#l00047">pci.h:47</a></div></div>
+<div class="ttc" id="axhci_8h_html"><div class="ttname"><a href="xhci_8h.html">xhci.h</a></div><div class="ttdoc">Minimal xHCI 1.2 host-controller interface.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

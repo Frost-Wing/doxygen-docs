@@ -94,41 +94,45 @@ $(function(){initNavTree('smp_8h_source.html','',''); });
   <div class="headertitle"><div class="title">smp.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef SMP_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define SMP_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;limine.h&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<a href="smp_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#ifndef SMP_H</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#define SMP_H</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define SMP_MAX_CPUS 256</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">typedef</span> void (*smp_call_fn_t)(<span class="keywordtype">void</span> *context);</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;limine.h&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">/* Start Limine-provided APs and wait until all of them are ready for work. */</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keywordtype">bool</span> smp_init(<span class="keyword">struct</span> limine_smp_response *response);</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">/* Run fn on an AP identified by its Limine CPU array index and wait for it. */</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keywordtype">bool</span> smp_call(uint32_t cpu_index, smp_call_fn_t fn, <span class="keywordtype">void</span> *context);</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="comment">/* Run fn once on every online AP and wait for all calls to complete. */</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keywordtype">bool</span> smp_call_all(smp_call_fn_t fn, <span class="keywordtype">void</span> *context);</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="comment">/* Dedicate one online AP to the sample one-second terminal cursor blinker. */</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keywordtype">bool</span> smp_start_cursor_blink(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>uint32_t smp_cpu_count(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keywordtype">bool</span> smp_cpu_is_online(uint32_t cpu_index);</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#define SMP_MAX_CPUS 256</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">typedef</span> void (*smp_call_fn_t)(<span class="keywordtype">void</span> *context);</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="smp_8h.html#a9eda4a2b707ba6b15337a303ea87736a">   21</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="smp_8h.html#a9eda4a2b707ba6b15337a303ea87736a">smp_init</a>(<span class="keyword">struct</span> limine_smp_response *response);</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="smp_8h.html#a371165735505340bb38d9f9ac10bb0c1">   30</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="smp_8h.html#a371165735505340bb38d9f9ac10bb0c1">smp_call</a>(uint32_t cpu_index, smp_call_fn_t fn, <span class="keywordtype">void</span> *context);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="smp_8h.html#a2ef734f204d3087bc3c036d18448b0a0">   38</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="smp_8h.html#a2ef734f204d3087bc3c036d18448b0a0">smp_call_all</a>(smp_call_fn_t fn, <span class="keywordtype">void</span> *context);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="smp_8h.html#a4c3b8313e8cb45712bf93e6f44af942c">   41</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="smp_8h.html#a4c3b8313e8cb45712bf93e6f44af942c">smp_start_cursor_blink</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="smp_8h.html#a0821306c8de8bf489dde84668ab3cb9c">   44</a></span>uint32_t <a class="code hl_function" href="smp_8h.html#a0821306c8de8bf489dde84668ab3cb9c">smp_cpu_count</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="smp_8h.html#af9438fec5ccc21d11ec9c8cd328212d4">   47</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="smp_8h.html#af9438fec5ccc21d11ec9c8cd328212d4">smp_cpu_is_online</a>(uint32_t cpu_index);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="abasics_8h_html"><div class="ttname"><a href="basics_8h.html">basics.h</a></div><div class="ttdoc">This is a basic header files with FrostWing specific short forms and basically a good for life header...</div></div>
+<div class="ttc" id="asmp_8h_html_a0821306c8de8bf489dde84668ab3cb9c"><div class="ttname"><a href="smp_8h.html#a0821306c8de8bf489dde84668ab3cb9c">smp_cpu_count</a></div><div class="ttdeci">uint32_t smp_cpu_count(void)</div><div class="ttdoc">Return the number of online CPUs.</div></div>
+<div class="ttc" id="asmp_8h_html_a2ef734f204d3087bc3c036d18448b0a0"><div class="ttname"><a href="smp_8h.html#a2ef734f204d3087bc3c036d18448b0a0">smp_call_all</a></div><div class="ttdeci">bool smp_call_all(smp_call_fn_t fn, void *context)</div><div class="ttdoc">Run a callback on every online AP and wait for completion.</div></div>
+<div class="ttc" id="asmp_8h_html_a371165735505340bb38d9f9ac10bb0c1"><div class="ttname"><a href="smp_8h.html#a371165735505340bb38d9f9ac10bb0c1">smp_call</a></div><div class="ttdeci">bool smp_call(uint32_t cpu_index, smp_call_fn_t fn, void *context)</div><div class="ttdoc">Run a callback on an AP and wait for it to finish.</div></div>
+<div class="ttc" id="asmp_8h_html_a4c3b8313e8cb45712bf93e6f44af942c"><div class="ttname"><a href="smp_8h.html#a4c3b8313e8cb45712bf93e6f44af942c">smp_start_cursor_blink</a></div><div class="ttdeci">bool smp_start_cursor_blink(void)</div><div class="ttdoc">Start the sample terminal cursor blinker on an online AP.</div></div>
+<div class="ttc" id="asmp_8h_html_a9eda4a2b707ba6b15337a303ea87736a"><div class="ttname"><a href="smp_8h.html#a9eda4a2b707ba6b15337a303ea87736a">smp_init</a></div><div class="ttdeci">bool smp_init(struct limine_smp_response *response)</div><div class="ttdoc">Start Limine-provided APs and wait until they are ready for work.</div></div>
+<div class="ttc" id="asmp_8h_html_af9438fec5ccc21d11ec9c8cd328212d4"><div class="ttname"><a href="smp_8h.html#af9438fec5ccc21d11ec9c8cd328212d4">smp_cpu_is_online</a></div><div class="ttdeci">bool smp_cpu_is_online(uint32_t cpu_index)</div><div class="ttdoc">Check whether a CPU is online.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><b>smp.h</b></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="smp_8h.html">smp.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

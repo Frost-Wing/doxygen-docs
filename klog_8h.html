@@ -114,7 +114,7 @@ Include dependency graph for klog.h:</div>
 <area shape="poly" title=" " alt="" coords="215,33,268,73,263,74,215,38"/>
 <area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="54,238,123,268"/>
 <area shape="poly" title=" " alt="" coords="85,111,77,161,77,190,83,223,78,223,72,191,72,160,83,116"/>
-<area shape="rect" href="spinlock_8h_source.html" title=" " alt="" coords="87,161,169,190"/>
+<area shape="rect" href="spinlock_8h.html" title="Spinlock type and synchronization operations." alt="" coords="87,161,169,190"/>
 <area shape="poly" title=" " alt="" coords="96,111,116,146,111,147,95,116"/>
 <area shape="rect" title=" " alt="" coords="5,316,78,346"/>
 <area shape="poly" title=" " alt="" coords="82,267,60,304,56,301,77,270"/>
@@ -140,12 +140,13 @@ Functions</h2></td></tr>
 <tr class="memdesc:ac18689946f40b3ad705591e979be1825"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push a single raw character into the klog ring buffer.  <br /></td></tr>
 <tr class="memitem:ac0c1ac8e3cef7faaf1f2fcb1b106d959" id="r_ac0c1ac8e3cef7faaf1f2fcb1b106d959"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac0c1ac8e3cef7faaf1f2fcb1b106d959">klog_printf</a> (cstring format,...)</td></tr>
 <tr class="memdesc:ac0c1ac8e3cef7faaf1f2fcb1b106d959"><td class="mdescLeft">&#160;</td><td class="mdescRight">Formatted kernel log write, automatically prefixed with a "[seconds.fraction] " timestamp (derived from pit_ticks) and suffixed with a newline.  <br /></td></tr>
-<tr class="memitem:a0c6cde8d412a8566ec6c4b74d38c2550" id="r_a0c6cde8d412a8566ec6c4b74d38c2550"><td class="memItemLeft"><a id="a0c6cde8d412a8566ec6c4b74d38c2550" name="a0c6cde8d412a8566ec6c4b74d38c2550"></a>
-size_t&#160;</td><td class="memItemRight"><b>klog_read</b> (char *out, size_t max_len)</td></tr>
-<tr class="memitem:a378c4bec72bebac12715b8785acff1ac" id="r_a378c4bec72bebac12715b8785acff1ac"><td class="memItemLeft"><a id="a378c4bec72bebac12715b8785acff1ac" name="a378c4bec72bebac12715b8785acff1ac"></a>
-size_t&#160;</td><td class="memItemRight"><b>klog_read_at</b> (char *out, size_t offset, size_t max_len)</td></tr>
+<tr class="memitem:a0c6cde8d412a8566ec6c4b74d38c2550" id="r_a0c6cde8d412a8566ec6c4b74d38c2550"><td class="memItemLeft">size_t&#160;</td><td class="memItemRight"><a class="el" href="#a0c6cde8d412a8566ec6c4b74d38c2550">klog_read</a> (char *out, size_t max_len)</td></tr>
+<tr class="memdesc:a0c6cde8d412a8566ec6c4b74d38c2550"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read buffered kernel log data from the beginning.  <br /></td></tr>
+<tr class="memitem:a378c4bec72bebac12715b8785acff1ac" id="r_a378c4bec72bebac12715b8785acff1ac"><td class="memItemLeft">size_t&#160;</td><td class="memItemRight"><a class="el" href="#a378c4bec72bebac12715b8785acff1ac">klog_read_at</a> (char *out, size_t offset, size_t max_len)</td></tr>
+<tr class="memdesc:a378c4bec72bebac12715b8785acff1ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read buffered kernel log data starting at an offset.  <br /></td></tr>
 <tr class="memitem:a848d4529e131b9463cd04778d7ec74eb" id="r_a848d4529e131b9463cd04778d7ec74eb"><td class="memItemLeft"><a id="a848d4529e131b9463cd04778d7ec74eb" name="a848d4529e131b9463cd04778d7ec74eb"></a>
 size_t&#160;</td><td class="memItemRight"><b>klog_size</b> (void)</td></tr>
+<tr class="memdesc:a848d4529e131b9463cd04778d7ec74eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of bytes currently buffered in the kernel log. <br /></td></tr>
 <tr class="memitem:ac44dfbc0acb71294574c65fc98b3733a" id="r_ac44dfbc0acb71294574c65fc98b3733a"><td class="memItemLeft"><a id="ac44dfbc0acb71294574c65fc98b3733a" name="ac44dfbc0acb71294574c65fc98b3733a"></a>
 void&#160;</td><td class="memItemRight"><b>klog_clear</b> (void)</td></tr>
 <tr class="memdesc:ac44dfbc0acb71294574c65fc98b3733a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the klog ring buffer, discarding all buffered log entries. <br /></td></tr>
@@ -231,7 +232,7 @@ bool&#160;</td><td class="memItemRight"><b>is_klog_ready</b></td></tr>
 </div><div class="memdoc">
 
 <p>Initialize the klog subsystem. </p>
-<p>Sets up the internal ring buffer storage. Call once at boot, after init_pit(). </p>
+<p>Sets up the internal ring buffer storage. Call once at boot, after <a class="el" href="pit_8h.html#afb4e76c5cfcf522b4cf2949cc2d5539f" title="Initialize the programmable interval timer.">init_pit()</a>. </p>
 
 </div>
 </div>
@@ -289,6 +290,74 @@ bool&#160;</td><td class="memItemRight"><b>is_klog_ready</b></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a0c6cde8d412a8566ec6c4b74d38c2550" name="a0c6cde8d412a8566ec6c4b74d38c2550"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c6cde8d412a8566ec6c4b74d38c2550">&#9670;&#160;</a></span>klog_read()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t klog_read </td>
+          <td>(</td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>max_len</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read buffered kernel log data from the beginning. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">out</td><td>Destination buffer. </td></tr>
+    <tr><td class="paramname">max_len</td><td>Maximum number of bytes to copy. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of bytes copied. </dd></dl>
+
+</div>
+</div>
+<a id="a378c4bec72bebac12715b8785acff1ac" name="a378c4bec72bebac12715b8785acff1ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a378c4bec72bebac12715b8785acff1ac">&#9670;&#160;</a></span>klog_read_at()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t klog_read_at </td>
+          <td>(</td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>offset</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>max_len</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read buffered kernel log data starting at an offset. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">out</td><td>Destination buffer. </td></tr>
+    <tr><td class="paramname">offset</td><td>Byte offset into the buffered log. </td></tr>
+    <tr><td class="paramname">max_len</td><td>Maximum number of bytes to copy. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of bytes copied. </dd></dl>
 
 </div>
 </div>

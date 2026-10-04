@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['license_0',['License',['../md_readme.html#autotoc_md12',1,'']]]
+  ['issues_20and_20bug_20reports_0',['Issues and Bug Reports',['../md_CONTRIBUTING.html#autotoc_md14',1,'']]]
 ];

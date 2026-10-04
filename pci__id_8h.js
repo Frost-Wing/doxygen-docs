@@ -1,6 +1,7 @@
 var pci__id_8h =
 [
     [ "pci_id_entry_t", "structpci__id__entry__t.html", null ],
+    [ "pci_probe_fn", "pci__id_8h.html#a16eb6c05e8977ca8baa215a96ece4020", null ],
     [ "auto_name_gpu", "pci__id_8h.html#a368ee9d0d2c8499bab89a43edf83ff8c", null ],
     [ "parse_class", "pci__id_8h.html#adc16c567e438934818b01867cae28d50", null ],
     [ "parse_vendor", "pci__id_8h.html#a05acdff8d41c26d6147ea2bfa06339bb", null ],

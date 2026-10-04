@@ -1,0 +1,7 @@
+<map id="usb_device" name="usb_device">
+<area shape="rect" id="Node000001" title=" " alt="" coords="66,329,242,626"/>
+<area shape="rect" id="Node000002" href="$structusb__interface__t.html" title=" " alt="" coords="5,5,142,254"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,251,119,313,113,313,102,256"/>
+<area shape="rect" id="Node000003" href="$structusb__endpoint__t.html" title=" " alt="" coords="166,30,302,230"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="215,227,200,306,199,313,194,311,195,304,213,232"/>
+</map>

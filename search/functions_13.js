@@ -1,5 +1,24 @@
 var searchData=
 [
-  ['wait_5frtc_5fupdate_0',['wait_rtc_update',['../rtc_8h.html#a5bd805563d7feb75f932386028fced3b',1,'rtc.h']]],
-  ['warn_1',['warn',['../graphics_8h.html#a07bd7bdc43eab0ca656c4e37b0ffc967',1,'graphics.h']]]
+  ['terminal_5fswitch_5fcontext_0',['terminal_switch_context',['../graphics_8h.html#a1cb32417fdf264fa9a212f2354666699',1,'graphics.h']]],
+  ['terminal_5ftoggle_5fcursor_1',['terminal_toggle_cursor',['../graphics_8h.html#ab7e652fa23a27f52cdd30cfd7bad557d',1,'graphics.h']]],
+  ['toupper_2',['toupper',['../strings_8h.html#a811b7a0d5194feaccfacf8a7f02bb9c3',1,'strings.h']]],
+  ['trim_3',['trim',['../strings_8h.html#a64f40039e0978f40677db6f6eab5f261',1,'strings.h']]],
+  ['trim_5finplace_4',['trim_inplace',['../strings_8h.html#a1872401228be29673766b3e8cb9c8685',1,'strings.h']]],
+  ['tss_5fload_5',['tss_load',['../tss_8h.html#aca3bbd3b49a5679586303b6638d519cf',1,'tss.h']]],
+  ['tty_5factive_5findex_6',['tty_active_index',['../tty_8h.html#a994e45e3196f5048b797fea30420fdbb',1,'tty.h']]],
+  ['tty_5fclear_5finterrupt_7',['tty_clear_interrupt',['../tty_8h.html#abcd0b88e221b0c953d4bff417ca61881',1,'tty.h']]],
+  ['tty_5fflush_5finput_8',['tty_flush_input',['../tty_8h.html#ab79bbedb9d743a373593846cad61278e',1,'tty.h']]],
+  ['tty_5fget_5ftermios_9',['tty_get_termios',['../tty_8h.html#abf18e70bf8c1cc809671e6f9157cdb44',1,'tty.h']]],
+  ['tty_5fget_5fwinsize_10',['tty_get_winsize',['../tty_8h.html#a98ff97ead361cecba76c528af81a473f',1,'tty.h']]],
+  ['tty_5finit_11',['tty_init',['../tty_8h.html#a0d6679c5a4b8b74b22afc33d06d64eec',1,'tty.h']]],
+  ['tty_5finit_5fterminals_12',['tty_init_terminals',['../tty_8h.html#afdaaf1b15a19414c07136d5facebcfc4',1,'tty.h']]],
+  ['tty_5finput_5fchar_13',['tty_input_char',['../tty_8h.html#a73e6a06a5accd06fdb4d9411b4fa794f',1,'tty.h']]],
+  ['tty_5finput_5fkey_14',['tty_input_key',['../tty_8h.html#aa1ceb59b582210e569bff06561c7a309',1,'tty.h']]],
+  ['tty_5finterrupt_5fpending_15',['tty_interrupt_pending',['../tty_8h.html#a151cd682fadbc14143da956ce3e519cb',1,'tty.h']]],
+  ['tty_5fprocess_5fexit_5fcode_5ffor_5fkey_16',['tty_process_exit_code_for_key',['../tty_8h.html#a28f020679254f47ef2666e8c5dd752d0',1,'tty.h']]],
+  ['tty_5fread_17',['tty_read',['../tty_8h.html#a6d9480528a38da2d35e81c48d5c8cc4e',1,'tty.h']]],
+  ['tty_5fset_5ftermios_18',['tty_set_termios',['../tty_8h.html#abbce1dfad84680ef9263641298555c2b',1,'tty.h']]],
+  ['tty_5fswitch_19',['tty_switch',['../tty_8h.html#ac839e7858b3e629f6ebed75f23c14bcb',1,'tty.h']]],
+  ['tty_5ftake_5finterrupt_20',['tty_take_interrupt',['../tty_8h.html#ae9932b99b24fcc4833ce74be6714582e',1,'tty.h']]]
 ];

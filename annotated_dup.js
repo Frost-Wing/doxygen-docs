@@ -1,5 +1,6 @@
 var annotated_dup =
 [
+    [ "__attribute__", "struct____attribute____.html", null ],
     [ "acpi_gas", "structacpi__gas.html", null ],
     [ "ahci_disk_info_t", "structahci__disk__info__t.html", null ],
     [ "ahci_hba_mem_t", "structahci__hba__mem__t.html", null ],
@@ -72,6 +73,7 @@ var annotated_dup =
     [ "limine_terminal_response", "structlimine__terminal__response.html", null ],
     [ "limine_uuid", "structlimine__uuid.html", null ],
     [ "limine_video_mode", "structlimine__video__mode.html", null ],
+    [ "linux_statfs_t", "structlinux__statfs__t.html", null ],
     [ "list", "structlist.html", null ],
     [ "list_node", "structlist__node.html", null ],
     [ "memory_context", "structmemory__context.html", null ],
@@ -86,11 +88,22 @@ var annotated_dup =
     [ "ring_buffer_t", "structring__buffer__t.html", null ],
     [ "sdt", "structsdt.html", null ],
     [ "spinlock_t", "structspinlock__t.html", null ],
+    [ "ssfn_buf_t", "structssfn__buf__t.html", null ],
+    [ "ssfn_chr_t", "structssfn__chr__t.html", null ],
+    [ "ssfn_glyph_t", "structssfn__glyph__t.html", null ],
+    [ "ssfn_t", "structssfn__t.html", null ],
     [ "subcmd_t", "structsubcmd__t.html", null ],
     [ "syscall_frame", "structsyscall__frame.html", null ],
     [ "task", "structtask.html", null ],
     [ "task_info", "structtask__info.html", null ],
+    [ "task_signal_action_t", "structtask__signal__action__t.html", null ],
+    [ "usb_device", "structusb__device.html", null ],
+    [ "usb_endpoint_t", "structusb__endpoint__t.html", null ],
+    [ "usb_interface_t", "structusb__interface__t.html", null ],
     [ "user_runtime_t", "structuser__runtime__t.html", null ],
     [ "user_task_spec", "structuser__task__spec.html", null ],
-    [ "userland_exec_ctx_t", "structuserland__exec__ctx__t.html", null ]
+    [ "userland_caller_state_t", "structuserland__caller__state__t.html", null ],
+    [ "userland_exec_ctx_t", "structuserland__exec__ctx__t.html", null ],
+    [ "userland_regs_t", "structuserland__regs__t.html", null ],
+    [ "xhci_completion_t", "structxhci__completion__t.html", null ]
 ];

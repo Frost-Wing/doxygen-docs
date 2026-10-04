@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: source/includes/nvme.h File Reference</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -93,16 +94,35 @@ $(function(){initNavTree('nvme_8h.html','',''); });
   <div class="headertitle"><div class="title">nvme.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>NVMe controller and namespace interfaces.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="basics_8h_source.html">basics.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for nvme.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="nvme_8h__incl.png" border="0" usemap="#asource_2includes_2nvme_8h" loading="lazy" alt=""/></div>
+<map name="asource_2includes_2nvme_8h" id="asource_2includes_2nvme_8h">
+<area shape="rect" title="NVMe controller and namespace interfaces." alt="" coords="5,5,175,35"/>
+<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="55,83,125,113"/>
+<area shape="poly" title=" " alt="" coords="91,33,93,68,87,67,89,38"/>
+<area shape="rect" title=" " alt="" coords="7,161,80,190"/>
+<area shape="poly" title=" " alt="" coords="83,112,62,149,58,146,79,115"/>
+<area shape="rect" title=" " alt="" coords="104,161,172,190"/>
+<area shape="poly" title=" " alt="" coords="100,111,124,148,118,148,98,116"/>
+</map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="nvme_8h__dep__incl.png" border="0" usemap="#asource_2includes_2nvme_8hdep" loading="lazy" alt=""/></div>
+<map name="asource_2includes_2nvme_8hdep" id="asource_2includes_2nvme_8hdep">
+<area shape="rect" title="NVMe controller and namespace interfaces." alt="" coords="8,5,177,35"/>
+<area shape="rect" href="pci_8h.html" title="The Header files for actual PCI source." alt="" coords="17,83,168,113"/>
+<area shape="poly" title=" " alt="" coords="94,48,95,83,90,82,91,53"/>
+<area shape="rect" href="kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="5,161,180,190"/>
+<area shape="poly" title=" " alt="" coords="94,127,95,161,90,159,91,130"/>
+</map>
 </div>
 </div>
 <p><a href="nvme_8h_source.html">Go to the source code of this file.</a></p>
@@ -125,19 +145,30 @@ Macros</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ab898071398b359603a35c202e9c65f3b" id="r_ab898071398b359603a35c202e9c65f3b"><td class="memItemLeft">struct&#160;</td><td class="memItemRight"><a class="el" href="#ab898071398b359603a35c202e9c65f3b">__attribute__</a> ((packed))</td></tr>
 <tr class="memdesc:ab898071398b359603a35c202e9c65f3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">AHCI command header structure.  <br /></td></tr>
-<tr class="memitem:a6eb2dee0d06004f114515e5716297340" id="r_a6eb2dee0d06004f114515e5716297340"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6eb2dee0d06004f114515e5716297340">probe_nvme</a> (uint8_t bus, uint8_t slot, uint8_t function)</td></tr>
+<tr class="memitem:a6eb2dee0d06004f114515e5716297340" id="r_a6eb2dee0d06004f114515e5716297340"><td class="memItemLeft"><a id="a6eb2dee0d06004f114515e5716297340" name="a6eb2dee0d06004f114515e5716297340"></a>
+void&#160;</td><td class="memItemRight"><b>probe_nvme</b> (uint8_t bus, uint8_t slot, uint8_t function)</td></tr>
+<tr class="memdesc:a6eb2dee0d06004f114515e5716297340"><td class="mdescLeft">&#160;</td><td class="mdescRight">Probe a PCI function for an NVMe controller. <br /></td></tr>
 <tr class="memitem:a3794884dff5335d78fd91f7f535e50b8" id="r_a3794884dff5335d78fd91f7f535e50b8"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a3794884dff5335d78fd91f7f535e50b8">nvme_read_sector</a> (int namespace_index, uint64_t lba, void *buffer, uint32_t count)</td></tr>
+<tr class="memdesc:a3794884dff5335d78fd91f7f535e50b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read sectors from an NVMe namespace.  <br /></td></tr>
 <tr class="memitem:af19b48dd8d657d39171ec1675e38f224" id="r_af19b48dd8d657d39171ec1675e38f224"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#af19b48dd8d657d39171ec1675e38f224">nvme_write_sector</a> (int namespace_index, uint64_t lba, void *buffer, uint32_t count)</td></tr>
+<tr class="memdesc:af19b48dd8d657d39171ec1675e38f224"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write sectors to an NVMe namespace.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a8dd115ff24c2c9fe65ab0c8575a1099f" id="r_a8dd115ff24c2c9fe65ab0c8575a1099f"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a8dd115ff24c2c9fe65ab0c8575a1099f">nvme_command_t</a></td></tr>
 <tr class="memitem:aee2b20a4da96d343f1b01299052ad4aa" id="r_aee2b20a4da96d343f1b01299052ad4aa"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aee2b20a4da96d343f1b01299052ad4aa">nvme_completion_t</a></td></tr>
-<tr class="memitem:a2c949d19462e762b0e5f9459e3d02fac" id="r_a2c949d19462e762b0e5f9459e3d02fac"><td class="memItemLeft"><a class="el" href="structnvme__controller__t.html">nvme_controller_t</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2c949d19462e762b0e5f9459e3d02fac">nvme_controllers</a> [<a class="el" href="#a5afd4c9f9d92aa6bf93eda37e46aa497">NVME_MAX_CONTROLLERS</a>]</td></tr>
-<tr class="memitem:a68a419c35dde119d761830fbc7b70c80" id="r_a68a419c35dde119d761830fbc7b70c80"><td class="memItemLeft"><a class="el" href="structnvme__namespace__t.html">nvme_namespace_t</a>&#160;</td><td class="memItemRight"><a class="el" href="#a68a419c35dde119d761830fbc7b70c80">nvme_namespaces</a> [<a class="el" href="#af102bf301a0a2eb292299846385d0c8b">NVME_MAX_NAMESPACES</a>]</td></tr>
-<tr class="memitem:af87cc928f780ef65473ea74deef75c90" id="r_af87cc928f780ef65473ea74deef75c90"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#af87cc928f780ef65473ea74deef75c90">nvme_namespace_count</a></td></tr>
+<tr class="memitem:a9320701e417a7fd6d4bb4f03cf73d6e2" id="r_a9320701e417a7fd6d4bb4f03cf73d6e2"><td class="memItemLeft"><a id="a9320701e417a7fd6d4bb4f03cf73d6e2" name="a9320701e417a7fd6d4bb4f03cf73d6e2"></a>
+<a class="el" href="structnvme__controller__t.html">nvme_controller_t</a>&#160;</td><td class="memItemRight"><b>nvme_controllers</b> [8]</td></tr>
+<tr class="memitem:a5dcc3d901f24a5e26c5f3c46205cc396" id="r_a5dcc3d901f24a5e26c5f3c46205cc396"><td class="memItemLeft"><a id="a5dcc3d901f24a5e26c5f3c46205cc396" name="a5dcc3d901f24a5e26c5f3c46205cc396"></a>
+<a class="el" href="structnvme__namespace__t.html">nvme_namespace_t</a>&#160;</td><td class="memItemRight"><b>nvme_namespaces</b> [16]</td></tr>
+<tr class="memitem:af87cc928f780ef65473ea74deef75c90" id="r_af87cc928f780ef65473ea74deef75c90"><td class="memItemLeft"><a id="af87cc928f780ef65473ea74deef75c90" name="af87cc928f780ef65473ea74deef75c90"></a>
+int&#160;</td><td class="memItemRight"><b>nvme_namespace_count</b></td></tr>
 </table>
-<a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>NVMe controller and namespace interfaces. </p>
+
+<p class="definition">Definition in file <a class="el" href="nvme_8h_source.html">nvme.h</a>.</p>
+</div><a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
 <a id="abd6de94b11bc8eb1cc32ad19af0a86e4" name="abd6de94b11bc8eb1cc32ad19af0a86e4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abd6de94b11bc8eb1cc32ad19af0a86e4">&#9670;&#160;</a></span>NVME_ADMIN_QUEUE_DEPTH</h2>
 
@@ -149,6 +180,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="nvme_8h_source.html#l00012">12</a> of file <a class="el" href="nvme_8h_source.html">nvme.h</a>.</p>
 
 </div>
 </div>
@@ -164,6 +197,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="nvme_8h_source.html#l00013">13</a> of file <a class="el" href="nvme_8h_source.html">nvme.h</a>.</p>
+
 </div>
 </div>
 <a id="a5afd4c9f9d92aa6bf93eda37e46aa497" name="a5afd4c9f9d92aa6bf93eda37e46aa497"></a>
@@ -178,6 +213,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="nvme_8h_source.html#l00010">10</a> of file <a class="el" href="nvme_8h_source.html">nvme.h</a>.</p>
+
 </div>
 </div>
 <a id="af102bf301a0a2eb292299846385d0c8b" name="af102bf301a0a2eb292299846385d0c8b"></a>
@@ -191,6 +228,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="nvme_8h_source.html#l00011">11</a> of file <a class="el" href="nvme_8h_source.html">nvme.h</a>.</p>
 
 </div>
 </div>
@@ -214,6 +253,8 @@ Variables</h2></td></tr>
 <p>AHCI command table structure.</p>
 <p>Physical Region Descriptor Table (PRDT) entry.</p>
 <p>Represents the command header for a single AHCI port. </p>
+
+<p class="definition">Definition at line <a class="el" href="nvme_8h_source.html#l00001">1</a> of file <a class="el" href="nvme_8h_source.html">nvme.h</a>.</p>
 
 </div>
 </div>
@@ -246,6 +287,18 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Read sectors from an NVMe namespace. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">namespace_index</td><td>Index in the discovered namespace table. </td></tr>
+    <tr><td class="paramname">lba</td><td>Starting logical block address. </td></tr>
+    <tr><td class="paramname">buffer</td><td>Destination buffer. </td></tr>
+    <tr><td class="paramname">count</td><td>Number of sectors to read. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 on success, otherwise a negative error code. </dd></dl>
+
 </div>
 </div>
 <a id="af19b48dd8d657d39171ec1675e38f224" name="af19b48dd8d657d39171ec1675e38f224"></a>
@@ -277,31 +330,17 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a6eb2dee0d06004f114515e5716297340" name="a6eb2dee0d06004f114515e5716297340"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6eb2dee0d06004f114515e5716297340">&#9670;&#160;</a></span>probe_nvme()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void probe_nvme </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>bus</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>slot</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>function</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Write sectors to an NVMe namespace. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">namespace_index</td><td>Index in the discovered namespace table. </td></tr>
+    <tr><td class="paramname">lba</td><td>Starting logical block address. </td></tr>
+    <tr><td class="paramname">buffer</td><td>Source buffer. </td></tr>
+    <tr><td class="paramname">count</td><td>Number of sectors to write. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 on success, otherwise a negative error code. </dd></dl>
 
 </div>
 </div>
@@ -318,6 +357,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="nvme_8h_source.html#l00044">44</a> of file <a class="el" href="nvme_8h_source.html">nvme.h</a>.</p>
+
 </div>
 </div>
 <a id="aee2b20a4da96d343f1b01299052ad4aa" name="aee2b20a4da96d343f1b01299052ad4aa"></a>
@@ -332,71 +373,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a2c949d19462e762b0e5f9459e3d02fac" name="a2c949d19462e762b0e5f9459e3d02fac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c949d19462e762b0e5f9459e3d02fac">&#9670;&#160;</a></span>nvme_controllers</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structnvme__controller__t.html">nvme_controller_t</a> nvme_controllers[<a class="el" href="#a5afd4c9f9d92aa6bf93eda37e46aa497">NVME_MAX_CONTROLLERS</a>]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af87cc928f780ef65473ea74deef75c90" name="af87cc928f780ef65473ea74deef75c90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af87cc928f780ef65473ea74deef75c90">&#9670;&#160;</a></span>nvme_namespace_count</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int nvme_namespace_count</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a68a419c35dde119d761830fbc7b70c80" name="a68a419c35dde119d761830fbc7b70c80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68a419c35dde119d761830fbc7b70c80">&#9670;&#160;</a></span>nvme_namespaces</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structnvme__namespace__t.html">nvme_namespace_t</a> nvme_namespaces[<a class="el" href="#af102bf301a0a2eb292299846385d0c8b">NVME_MAX_NAMESPACES</a>]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p class="definition">Definition at line <a class="el" href="nvme_8h_source.html#l00053">53</a> of file <a class="el" href="nvme_8h_source.html">nvme.h</a>.</p>
 
 </div>
 </div>
@@ -413,7 +390,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_c9f89f587e7e777be723ee48a3df5844.html">includes</a></li><li class="navelem"><a href="nvme_8h.html">nvme.h</a></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="nvme_8h.html">nvme.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

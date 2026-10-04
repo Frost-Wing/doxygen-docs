@@ -12,5 +12,6 @@ var searchData=
   ['display_5fmemory_5fformatted_9',['display_memory_formatted',['../memory_8h.html#ad08cbc6d3077c7f3751a2eb60c9b517a',1,'memory.h']]],
   ['display_5ftime_10',['display_time',['../rtc_8h.html#a39b20a5c5fff63c9f456170987335674',1,'rtc.h']]],
   ['dispose_5fcommand_5flist_11',['dispose_command_list',['../sh__util_8h.html#a375da250af24b82497481e57fa917c60',1,'sh_util.h']]],
-  ['done_12',['done',['../graphics_8h.html#a17c2b11eada60a5d5d0612dce58485d0',1,'graphics.h']]]
+  ['done_12',['done',['../graphics_8h.html#a17c2b11eada60a5d5d0612dce58485d0',1,'graphics.h']]],
+  ['dynamically_20linked_20user_20programs_13',['Dynamically linked user programs',['../md_readme.html#autotoc_md4',1,'']]]
 ];

@@ -1,0 +1,5 @@
+<map id="strncpy" name="strncpy">
+<area shape="rect" id="Node000001" title="Copies n characters from src to dest." alt="" coords="260,5,327,35"/>
+<area shape="rect" id="Node000002" href="$versions_8h.html#a7c990ecb2fc150d014f0636a81a5a496" title="Print compiler&#45;provided build version and date information." alt="" coords="5,5,212,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="241,20,212,23,212,18,246,20"/>
+</map>

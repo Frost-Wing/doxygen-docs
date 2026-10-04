@@ -95,46 +95,51 @@ $(function(){initNavTree('heap_8h_source.html','',''); });
 </div><!--header-->
 <div class="contents">
 <a href="heap_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">extern</span> uint64_t heap_begin;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">extern</span> uint64_t heap_end;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">extern</span> uint64_t last_alloc;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">extern</span> uint64_t alloc_count;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">extern</span> uint64_t memory_used;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#define HEAP_CANARY 0xDEADC0DECAFEBEEFULL</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#define HEAP_REDZONE 16</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="heap_8h.html#af2bb9246f82f3d83166eb6e4114850f1">   32</a></span><span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code hl_function" href="heap_8h.html#af2bb9246f82f3d83166eb6e4114850f1">mm_init</a>(uintptr_t kernel_end, uint64 heap_size);</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="heap_8h.html#a89e426eee07ea2c83d15eed4cccd5ae2">   39</a></span><span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code hl_function" href="heap_8h.html#a89e426eee07ea2c83d15eed4cccd5ae2">mm_extend</a>(uint64_t additional_size);</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="heap_8h.html#a0475e3c1149b04e16b34120cf601d817">   46</a></span><span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code hl_function" href="heap_8h.html#a0475e3c1149b04e16b34120cf601d817">mm_constrict</a>(uint64_t removal_size);</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="heap_8h.html#aef62d80d2880d93414c00181d22615ab">   52</a></span><span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code hl_function" href="heap_8h.html#aef62d80d2880d93414c00181d22615ab">mm_print_out</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="heap_8h.html#a87d8585002a620e687d68b38ab387a0e">   60</a></span><span class="keyword">extern</span> <span class="keywordtype">void</span> *<a class="code hl_function" href="heap_8h.html#a87d8585002a620e687d68b38ab387a0e">kmalloc</a>(<span class="keywordtype">size_t</span> size);</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span></div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="heap_8h.html#ad937a677645b4ed5b1e0411456d8285b">   68</a></span><span class="keyword">extern</span> <span class="keywordtype">void</span> *<a class="code hl_function" href="heap_8h.html#ad937a677645b4ed5b1e0411456d8285b">krealloc</a>(<span class="keywordtype">void</span> *ptr, <span class="keywordtype">size_t</span> size);</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span></div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="heap_8h.html#a2c72ec506b9bba0eb5c6fe507a2222bc">   77</a></span><span class="keywordtype">void</span> *<a class="code hl_function" href="heap_8h.html#a2c72ec506b9bba0eb5c6fe507a2222bc">kmalloc_aligned</a>(<span class="keywordtype">size_t</span> size, <span class="keywordtype">size_t</span> align);</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span></div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="heap_8h.html#a069f85a5001d71bc44d8be6532a4e432">   84</a></span><span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code hl_function" href="heap_8h.html#a069f85a5001d71bc44d8be6532a4e432">kfree</a>(<span class="keywordtype">void</span> *ptr);</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span></div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="heap_8h.html#abe2ea4faee2aff8cc29e5916cae0f84e">   95</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="heap_8h.html#abe2ea4faee2aff8cc29e5916cae0f84e">kheap_check</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#ifndef HEAP_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#define HEAP_H</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">extern</span> uint64_t heap_begin;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">extern</span> uint64_t heap_end;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">extern</span> uint64_t last_alloc;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">extern</span> uint64_t alloc_count;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">extern</span> uint64_t memory_used;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#define HEAP_CANARY 0xDEADC0DECAFEBEEFULL</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#define HEAP_REDZONE 16</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#define kfree(ptr) ikfree(ptr, __FUNCTION__, __FILE__, __LINE__)</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="heap_8h.html#af2bb9246f82f3d83166eb6e4114850f1">   35</a></span><span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code hl_function" href="heap_8h.html#af2bb9246f82f3d83166eb6e4114850f1">mm_init</a>(uintptr_t kernel_end, uint64 heap_size);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="heap_8h.html#a89e426eee07ea2c83d15eed4cccd5ae2">   42</a></span><span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code hl_function" href="heap_8h.html#a89e426eee07ea2c83d15eed4cccd5ae2">mm_extend</a>(uint64_t additional_size);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="heap_8h.html#a0475e3c1149b04e16b34120cf601d817">   49</a></span><span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code hl_function" href="heap_8h.html#a0475e3c1149b04e16b34120cf601d817">mm_constrict</a>(uint64_t removal_size);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="heap_8h.html#aef62d80d2880d93414c00181d22615ab">   55</a></span><span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code hl_function" href="heap_8h.html#aef62d80d2880d93414c00181d22615ab">mm_print_out</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="heap_8h.html#a87d8585002a620e687d68b38ab387a0e">   63</a></span><span class="keyword">extern</span> <span class="keywordtype">void</span> *<a class="code hl_function" href="heap_8h.html#a87d8585002a620e687d68b38ab387a0e">kmalloc</a>(<span class="keywordtype">size_t</span> size);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="heap_8h.html#ad937a677645b4ed5b1e0411456d8285b">   71</a></span><span class="keyword">extern</span> <span class="keywordtype">void</span> *<a class="code hl_function" href="heap_8h.html#ad937a677645b4ed5b1e0411456d8285b">krealloc</a>(<span class="keywordtype">void</span> *ptr, <span class="keywordtype">size_t</span> size);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="heap_8h.html#a2c72ec506b9bba0eb5c6fe507a2222bc">   80</a></span><span class="keywordtype">void</span> *<a class="code hl_function" href="heap_8h.html#a2c72ec506b9bba0eb5c6fe507a2222bc">kmalloc_aligned</a>(<span class="keywordtype">size_t</span> size, <span class="keywordtype">size_t</span> align);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span></div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="heap_8h.html#adc74142d0547a25322616b94879386e4">   90</a></span><span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code hl_function" href="heap_8h.html#adc74142d0547a25322616b94879386e4">ikfree</a>(<span class="keywordtype">void</span> *ptr, <span class="keyword">const</span> <span class="keywordtype">char</span> *function, <span class="keyword">const</span> <span class="keywordtype">char</span>* file, <span class="keywordtype">int</span> line);</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span></div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="heap_8h.html#abe2ea4faee2aff8cc29e5916cae0f84e">  101</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="heap_8h.html#abe2ea4faee2aff8cc29e5916cae0f84e">kheap_check</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span><span class="preprocessor">#endif </span><span class="comment">// HEAP_H</span></div>
 <div class="ttc" id="abasics_8h_html"><div class="ttname"><a href="basics_8h.html">basics.h</a></div><div class="ttdoc">This is a basic header files with FrostWing specific short forms and basically a good for life header...</div></div>
 <div class="ttc" id="aheap_8h_html_a0475e3c1149b04e16b34120cf601d817"><div class="ttname"><a href="heap_8h.html#a0475e3c1149b04e16b34120cf601d817">mm_constrict</a></div><div class="ttdeci">void mm_constrict(uint64_t removal_size)</div><div class="ttdoc">Function to constrict available heap.</div></div>
-<div class="ttc" id="aheap_8h_html_a069f85a5001d71bc44d8be6532a4e432"><div class="ttname"><a href="heap_8h.html#a069f85a5001d71bc44d8be6532a4e432">kfree</a></div><div class="ttdeci">void kfree(void *ptr)</div><div class="ttdoc">The main free function for memory allocation.</div></div>
 <div class="ttc" id="aheap_8h_html_a2c72ec506b9bba0eb5c6fe507a2222bc"><div class="ttname"><a href="heap_8h.html#a2c72ec506b9bba0eb5c6fe507a2222bc">kmalloc_aligned</a></div><div class="ttdeci">void * kmalloc_aligned(size_t size, size_t align)</div></div>
 <div class="ttc" id="aheap_8h_html_a87d8585002a620e687d68b38ab387a0e"><div class="ttname"><a href="heap_8h.html#a87d8585002a620e687d68b38ab387a0e">kmalloc</a></div><div class="ttdeci">void * kmalloc(size_t size)</div><div class="ttdoc">The main memory alloc function.</div></div>
 <div class="ttc" id="aheap_8h_html_a89e426eee07ea2c83d15eed4cccd5ae2"><div class="ttname"><a href="heap_8h.html#a89e426eee07ea2c83d15eed4cccd5ae2">mm_extend</a></div><div class="ttdeci">void mm_extend(uint64_t additional_size)</div><div class="ttdoc">Function to extend available heap.</div></div>
 <div class="ttc" id="aheap_8h_html_abe2ea4faee2aff8cc29e5916cae0f84e"><div class="ttname"><a href="heap_8h.html#abe2ea4faee2aff8cc29e5916cae0f84e">kheap_check</a></div><div class="ttdeci">bool kheap_check(void)</div><div class="ttdoc">Validate the kernel heap&#39;s allocation metadata.</div></div>
 <div class="ttc" id="aheap_8h_html_ad937a677645b4ed5b1e0411456d8285b"><div class="ttname"><a href="heap_8h.html#ad937a677645b4ed5b1e0411456d8285b">krealloc</a></div><div class="ttdeci">void * krealloc(void *ptr, size_t size)</div><div class="ttdoc">The main memory realloc function.</div></div>
+<div class="ttc" id="aheap_8h_html_adc74142d0547a25322616b94879386e4"><div class="ttname"><a href="heap_8h.html#adc74142d0547a25322616b94879386e4">ikfree</a></div><div class="ttdeci">void ikfree(void *ptr, const char *function, const char *file, int line)</div><div class="ttdoc">The main free function for memory allocation.</div></div>
 <div class="ttc" id="aheap_8h_html_aef62d80d2880d93414c00181d22615ab"><div class="ttname"><a href="heap_8h.html#aef62d80d2880d93414c00181d22615ab">mm_print_out</a></div><div class="ttdeci">void mm_print_out(void)</div><div class="ttdoc">Prints out heap information.</div></div>
 <div class="ttc" id="aheap_8h_html_af2bb9246f82f3d83166eb6e4114850f1"><div class="ttname"><a href="heap_8h.html#af2bb9246f82f3d83166eb6e4114850f1">mm_init</a></div><div class="ttdeci">void mm_init(uintptr_t kernel_end, uint64 heap_size)</div><div class="ttdoc">Function to initlialize heap.</div></div>
 </div><!-- fragment --></div><!-- contents -->

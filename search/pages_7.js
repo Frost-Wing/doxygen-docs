@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['issues_20and_20bug_20reports_0',['Issues and Bug Reports',['../md_CONTRIBUTING.html#autotoc_md17',1,'']]]
+  ['hardware_20software_20emulator_20requirements_0',['Hardware/Software (Emulator) Requirements',['../md_readme.html#autotoc_md6',1,'']]],
+  ['how_20to_20contribute_1',['How to Contribute',['../md_CONTRIBUTING.html#autotoc_md12',1,'']]]
 ];

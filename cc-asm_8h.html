@@ -142,22 +142,99 @@ void&#160;</td><td class="memItemRight"><b>high_level_halt</b> (void)</td></tr>
 <tr class="memitem:a3e81e5204729baa227d61f523f498b38" id="r_a3e81e5204729baa227d61f523f498b38"><td class="memItemLeft"><a id="a3e81e5204729baa227d61f523f498b38" name="a3e81e5204729baa227d61f523f498b38"></a>
 void&#160;</td><td class="memItemRight"><b>hcf2</b> (void)</td></tr>
 <tr class="memdesc:a3e81e5204729baa227d61f523f498b38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Halt and catch fire function but doesn't print any text. <br /></td></tr>
-<tr class="memitem:a827251bf0c3a1c8ce4a3050a7b76cea9" id="r_a827251bf0c3a1c8ce4a3050a7b76cea9"><td class="memItemLeft"><a id="a827251bf0c3a1c8ce4a3050a7b76cea9" name="a827251bf0c3a1c8ce4a3050a7b76cea9"></a>
-void&#160;</td><td class="memItemRight"><b>wrmsr64</b> (uint32_t msr, uint64_t value)</td></tr>
-<tr class="memitem:addb2e78c6a10f433b61150de747d1ebf" id="r_addb2e78c6a10f433b61150de747d1ebf"><td class="memItemLeft"><a id="addb2e78c6a10f433b61150de747d1ebf" name="addb2e78c6a10f433b61150de747d1ebf"></a>
-uint64_t&#160;</td><td class="memItemRight"><b>rdmsr64</b> (uint32_t msr)</td></tr>
-<tr class="memitem:a716f4dea465119db1a7a2f2bbd1766c7" id="r_a716f4dea465119db1a7a2f2bbd1766c7"><td class="memItemLeft"><a id="a716f4dea465119db1a7a2f2bbd1766c7" name="a716f4dea465119db1a7a2f2bbd1766c7"></a>
-uint64_t&#160;</td><td class="memItemRight"><b>rdtsc64</b> (void)</td></tr>
+<tr class="memitem:a827251bf0c3a1c8ce4a3050a7b76cea9" id="r_a827251bf0c3a1c8ce4a3050a7b76cea9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a827251bf0c3a1c8ce4a3050a7b76cea9">wrmsr64</a> (uint32_t msr, uint64_t value)</td></tr>
+<tr class="memdesc:a827251bf0c3a1c8ce4a3050a7b76cea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a value to an x86 model-specific register.  <br /></td></tr>
+<tr class="memitem:addb2e78c6a10f433b61150de747d1ebf" id="r_addb2e78c6a10f433b61150de747d1ebf"><td class="memItemLeft">uint64_t&#160;</td><td class="memItemRight"><a class="el" href="#addb2e78c6a10f433b61150de747d1ebf">rdmsr64</a> (uint32_t msr)</td></tr>
+<tr class="memdesc:addb2e78c6a10f433b61150de747d1ebf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read an x86 model-specific register.  <br /></td></tr>
+<tr class="memitem:a716f4dea465119db1a7a2f2bbd1766c7" id="r_a716f4dea465119db1a7a2f2bbd1766c7"><td class="memItemLeft">uint64_t&#160;</td><td class="memItemRight"><a class="el" href="#a716f4dea465119db1a7a2f2bbd1766c7">rdtsc64</a> (void)</td></tr>
+<tr class="memdesc:a716f4dea465119db1a7a2f2bbd1766c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the x86 timestamp counter.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Cross-compatible ASM header. </p>
 <dl class="section author"><dt>Author</dt><dd>Pradosh (<a href="#" onclick="location.href='mai'+'lto:'+'pra'+'do'+'shg'+'am'+'e@g'+'ma'+'il.'+'co'+'m'; return false;">prado<span class="obfuscator">.nosp@m.</span>shga<span class="obfuscator">.nosp@m.</span>me@gm<span class="obfuscator">.nosp@m.</span>ail.<span class="obfuscator">.nosp@m.</span>com</a>) </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2023-12-10</dd></dl>
-<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) Pradosh 2023 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) Pradosh 2023-2026 </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="cc-asm_8h_source.html">cc-asm.h</a>.</p>
-</div></div><!-- contents -->
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="addb2e78c6a10f433b61150de747d1ebf" name="addb2e78c6a10f433b61150de747d1ebf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addb2e78c6a10f433b61150de747d1ebf">&#9670;&#160;</a></span>rdmsr64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t rdmsr64 </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>msr</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read an x86 model-specific register. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">msr</td><td>Model-specific register number. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The combined value of the register's EDX:EAX halves. </dd></dl>
+
+</div>
+</div>
+<a id="a716f4dea465119db1a7a2f2bbd1766c7" name="a716f4dea465119db1a7a2f2bbd1766c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a716f4dea465119db1a7a2f2bbd1766c7">&#9670;&#160;</a></span>rdtsc64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t rdtsc64 </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read the x86 timestamp counter. </p>
+<dl class="section return"><dt>Returns</dt><dd>The current timestamp counter value. </dd></dl>
+
+</div>
+</div>
+<a id="a827251bf0c3a1c8ce4a3050a7b76cea9" name="a827251bf0c3a1c8ce4a3050a7b76cea9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a827251bf0c3a1c8ce4a3050a7b76cea9">&#9670;&#160;</a></span>wrmsr64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrmsr64 </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>msr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write a value to an x86 model-specific register. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">msr</td><td>Model-specific register number. </td></tr>
+    <tr><td class="paramname">value</td><td>Value to write. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

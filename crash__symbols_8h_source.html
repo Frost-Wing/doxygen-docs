@@ -94,59 +94,61 @@ $(function(){initNavTree('crash__symbols_8h_source.html','',''); });
   <div class="headertitle"><div class="title">crash_symbols.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef CRASH_SYMBOLS_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define CRASH_SYMBOLS_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="foldopen" id="foldopen00009" data-start="{" data-end="};">
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="structCrashSourceLine.html">    9</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structCrashSourceLine.html">CrashSourceLine</a> {</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    uint32 line;</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    cstring text;</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>} <a class="code hl_struct" href="structCrashSourceLine.html">CrashSourceLine</a>;</div>
+<a href="crash__symbols_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#ifndef CRASH_SYMBOLS_H</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#define CRASH_SYMBOLS_H</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;<a class="code" href="basics_8h.html">basics.h</a>&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="structCrashSourceLine.html">   13</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structCrashSourceLine.html">CrashSourceLine</a> {</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    uint32 line;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    cstring text;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>} <a class="code hl_struct" href="structCrashSourceLine.html">CrashSourceLine</a>;</div>
 </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="structCrashSymbol.html">   14</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structCrashSymbol.html">CrashSymbol</a> {</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    uint64 start;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    uint64 end;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    cstring function;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    cstring file;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    uint32 line;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structCrashSourceLine.html">CrashSourceLine</a> *snippet;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    uint32 snippet_count;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>} <a class="code hl_struct" href="structCrashSymbol.html">CrashSymbol</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="foldopen" id="foldopen00018" data-start="{" data-end="};">
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="structCrashSymbol.html">   18</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structCrashSymbol.html">CrashSymbol</a> {</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    uint64 start;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    uint64 end;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    cstring function;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    cstring file;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    uint32 line;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structCrashSourceLine.html">CrashSourceLine</a> *snippet;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    uint32 snippet_count;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>} <a class="code hl_struct" href="structCrashSymbol.html">CrashSymbol</a>;</div>
 </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="foldopen" id="foldopen00024" data-start="{" data-end="};">
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="structCrashSymbolResult.html">   24</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structCrashSymbolResult.html">CrashSymbolResult</a> {</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">bool</span> found;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    uint64 rip;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    cstring function;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    cstring file;</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    uint32 line;</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structCrashSourceLine.html">CrashSourceLine</a> *snippet;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    uint32 snippet_count;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>} <a class="code hl_struct" href="structCrashSymbolResult.html">CrashSymbolResult</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="foldopen" id="foldopen00028" data-start="{" data-end="};">
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="structCrashSymbolResult.html">   28</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structCrashSymbolResult.html">CrashSymbolResult</a> {</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">bool</span> found;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    uint64 rip;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    cstring function;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    cstring file;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    uint32 line;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structCrashSourceLine.html">CrashSourceLine</a> *snippet;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    uint32 snippet_count;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>} <a class="code hl_struct" href="structCrashSymbolResult.html">CrashSymbolResult</a>;</div>
 </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keywordtype">bool</span> crash_symbols_resolve(uint64 rip, <a class="code hl_struct" href="structCrashSymbolResult.html">CrashSymbolResult</a> *out);</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="crash__symbols_8h.html#a7ff4f7bf4a75bf5435a5bc9c567f4e8e">   45</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="crash__symbols_8h.html#a7ff4f7bf4a75bf5435a5bc9c567f4e8e">crash_symbols_resolve</a>(uint64 rip, <a class="code hl_struct" href="structCrashSymbolResult.html">CrashSymbolResult</a> *out);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="abasics_8h_html"><div class="ttname"><a href="basics_8h.html">basics.h</a></div><div class="ttdoc">This is a basic header files with FrostWing specific short forms and basically a good for life header...</div></div>
-<div class="ttc" id="astructCrashSourceLine_html"><div class="ttname"><a href="structCrashSourceLine.html">CrashSourceLine</a></div><div class="ttdef"><b>Definition</b> <a href="#l00009">crash_symbols.h:9</a></div></div>
-<div class="ttc" id="astructCrashSymbolResult_html"><div class="ttname"><a href="structCrashSymbolResult.html">CrashSymbolResult</a></div><div class="ttdef"><b>Definition</b> <a href="#l00024">crash_symbols.h:24</a></div></div>
-<div class="ttc" id="astructCrashSymbol_html"><div class="ttname"><a href="structCrashSymbol.html">CrashSymbol</a></div><div class="ttdef"><b>Definition</b> <a href="#l00014">crash_symbols.h:14</a></div></div>
+<div class="ttc" id="acrash__symbols_8h_html_a7ff4f7bf4a75bf5435a5bc9c567f4e8e"><div class="ttname"><a href="crash__symbols_8h.html#a7ff4f7bf4a75bf5435a5bc9c567f4e8e">crash_symbols_resolve</a></div><div class="ttdeci">bool crash_symbols_resolve(uint64 rip, CrashSymbolResult *out)</div><div class="ttdoc">Resolve an instruction pointer to its symbol and source location.</div></div>
+<div class="ttc" id="astructCrashSourceLine_html"><div class="ttname"><a href="structCrashSourceLine.html">CrashSourceLine</a></div><div class="ttdef"><b>Definition</b> <a href="#l00013">crash_symbols.h:13</a></div></div>
+<div class="ttc" id="astructCrashSymbolResult_html"><div class="ttname"><a href="structCrashSymbolResult.html">CrashSymbolResult</a></div><div class="ttdef"><b>Definition</b> <a href="#l00028">crash_symbols.h:28</a></div></div>
+<div class="ttc" id="astructCrashSymbol_html"><div class="ttname"><a href="structCrashSymbol.html">CrashSymbol</a></div><div class="ttdef"><b>Definition</b> <a href="#l00018">crash_symbols.h:18</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><b>crash_symbols.h</b></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="crash__symbols_8h.html">crash_symbols.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

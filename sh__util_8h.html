@@ -99,7 +99,7 @@ $(function(){initNavTree('sh__util_8h.html','',''); });
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="basics_8h_source.html">basics.h</a>&gt;</code><br />
 <code>#include &lt;commands/commands.h&gt;</code><br />
-<code>#include &lt;fdlfcn.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="fdlfcn_8h_source.html">fdlfcn.h</a>&gt;</code><br />
 <code>#include &lt;filesystems/fwrfs.h&gt;</code><br />
 <code>#include &lt;flanterm/flanterm.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="graphics_8h_source.html">graphics.h</a>&gt;</code><br />
@@ -124,7 +124,7 @@ Include dependency graph for sh_util.h:</div>
 <area shape="poly" title=" " alt="" coords="601,30,776,39,882,48,988,63,1086,84,1166,111,1198,128,1222,147,1237,169,1243,193,1243,351,1241,380,1236,403,1225,424,1204,444,1181,461,1156,475,1102,494,1048,504,1000,507,1000,502,1047,498,1100,489,1154,470,1178,457,1201,440,1220,421,1231,401,1236,380,1237,351,1237,193,1232,171,1218,151,1195,133,1164,116,1084,89,987,68,881,54,776,44,602,35"/>
 <area shape="rect" title=" " alt="" coords="166,102,338,132"/>
 <area shape="poly" title=" " alt="" coords="463,53,315,99,312,95,466,50"/>
-<area shape="rect" href="fdlfcn_8h_source.html" title=" " alt="" coords="43,257,112,287"/>
+<area shape="rect" href="fdlfcn_8h.html" title="Runtime loading and symbol lookup for ELF images." alt="" coords="43,257,112,287"/>
 <area shape="poly" title=" " alt="" coords="462,35,371,42,266,54,171,74,136,88,111,104,90,135,79,172,75,209,76,242,71,242,70,209,74,171,85,133,107,100,133,83,170,69,265,49,371,37,467,32"/>
 <area shape="rect" href="heap_8h.html" title="Header files for heap." alt="" coords="202,335,267,365"/>
 <area shape="poly" title=" " alt="" coords="462,35,380,43,287,55,205,75,175,88,155,104,141,130,136,158,140,188,149,218,180,276,215,323,209,323,176,279,144,221,134,189,131,158,136,128,151,100,172,84,204,70,286,50,380,37,467,32"/>
@@ -229,18 +229,28 @@ Functions</h2></td></tr>
 <tr class="memdesc:adf455b1aae84ec8bd59ae0b1cfc4bdad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes the command passed to it.  <br /></td></tr>
 <tr class="memitem:ae2a71fc8adff1beeeef89ffaaee8a857" id="r_ae2a71fc8adff1beeeef89ffaaee8a857"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae2a71fc8adff1beeeef89ffaaee8a857">user_main</a> (char *buffer)</td></tr>
 <tr class="memdesc:ae2a71fc8adff1beeeef89ffaaee8a857"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for adding or removing users.  <br /></td></tr>
+<tr class="memitem:a8fdcc5b434404a60ff2b808113fa6aee" id="r_a8fdcc5b434404a60ff2b808113fa6aee"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a8fdcc5b434404a60ff2b808113fa6aee">execute_chain</a> (const char *line)</td></tr>
+<tr class="memdesc:a8fdcc5b434404a60ff2b808113fa6aee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute a command line containing chained commands.  <br /></td></tr>
+<tr class="memitem:a0a0cc72327fe6e99a9ee157b4d1a91e8" id="r_a0a0cc72327fe6e99a9ee157b4d1a91e8"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a0a0cc72327fe6e99a9ee157b4d1a91e8">shell_main</a> (int argc, char **argv)</td></tr>
+<tr class="memdesc:a0a0cc72327fe6e99a9ee157b4d1a91e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the shell command loop.  <br /></td></tr>
+<tr class="memitem:a0cef0375f81b917b8eb8802bb7127c9e" id="r_a0cef0375f81b917b8eb8802bb7127c9e"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a0cef0375f81b917b8eb8802bb7127c9e">split_args</a> (const char *cmdline, char **argv, int max_args)</td></tr>
+<tr class="memdesc:a0cef0375f81b917b8eb8802bb7127c9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split a command line into argument strings.  <br /></td></tr>
+<tr class="memitem:add9eff9ab886498974f8759c759d2777" id="r_add9eff9ab886498974f8759c759d2777"><td class="memItemLeft"><a id="add9eff9ab886498974f8759c759d2777" name="add9eff9ab886498974f8759c759d2777"></a>
+void&#160;</td><td class="memItemRight"><b>ksh_exec</b> (void)</td></tr>
+<tr class="memdesc:add9eff9ab886498974f8759c759d2777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the FrostWing command shell. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a903e697f413972b0709ff93b42329438" id="r_a903e697f413972b0709ff93b42329438"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#a903e697f413972b0709ff93b42329438">current_user</a></td></tr>
-<tr class="memdesc:a903e697f413972b0709ff93b42329438"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the current user.  <br /></td></tr>
+<tr class="memitem:a903e697f413972b0709ff93b42329438" id="r_a903e697f413972b0709ff93b42329438"><td class="memItemLeft"><a id="a903e697f413972b0709ff93b42329438" name="a903e697f413972b0709ff93b42329438"></a>
+string&#160;</td><td class="memItemRight"><b>current_user</b></td></tr>
+<tr class="memdesc:a903e697f413972b0709ff93b42329438"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the current user. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Utils for fw shell. </p>
 <dl class="section author"><dt>Author</dt><dd>Pradosh (<a href="#" onclick="location.href='mai'+'lto:'+'pra'+'do'+'shg'+'am'+'e@g'+'ma'+'il.'+'co'+'m'; return false;">prado<span class="obfuscator">.nosp@m.</span>shga<span class="obfuscator">.nosp@m.</span>me@gm<span class="obfuscator">.nosp@m.</span>ail.<span class="obfuscator">.nosp@m.</span>com</a>) &amp; GAMINGNOOBdev(<a href="https://github.com/GAMINGNOOBdev">https://github.com/GAMINGNOOBdev</a>) </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2025-01-14</dd></dl>
-<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) Pradosh 2025 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) Pradosh 2025-2026 </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="sh__util_8h_source.html">sh_util.h</a>.</p>
 </div><a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
@@ -408,6 +418,32 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a8fdcc5b434404a60ff2b808113fa6aee" name="a8fdcc5b434404a60ff2b808113fa6aee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fdcc5b434404a60ff2b808113fa6aee">&#9670;&#160;</a></span>execute_chain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int execute_chain </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>line</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Execute a command line containing chained commands. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">line</td><td>Full command line to execute. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Status of the command chain. </dd></dl>
+
+</div>
+</div>
 <a id="ac35856e52296897204b726be3727b806" name="ac35856e52296897204b726be3727b806"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac35856e52296897204b726be3727b806">&#9670;&#160;</a></span>init_command_list()</h2>
 
@@ -469,6 +505,74 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a0a0cc72327fe6e99a9ee157b4d1a91e8" name="a0a0cc72327fe6e99a9ee157b4d1a91e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a0cc72327fe6e99a9ee157b4d1a91e8">&#9670;&#160;</a></span>shell_main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int shell_main </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>argc</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char **</td>          <td class="paramname"><span class="paramname"><em>argv</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Run the shell command loop. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">argc</td><td>Argument count. </td></tr>
+    <tr><td class="paramname">argv</td><td>Argument vector. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Shell exit status. </dd></dl>
+
+</div>
+</div>
+<a id="a0cef0375f81b917b8eb8802bb7127c9e" name="a0cef0375f81b917b8eb8802bb7127c9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cef0375f81b917b8eb8802bb7127c9e">&#9670;&#160;</a></span>split_args()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int split_args </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>cmdline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char **</td>          <td class="paramname"><span class="paramname"><em>argv</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>max_args</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Split a command line into argument strings. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cmdline</td><td>Command line to parse. </td></tr>
+    <tr><td class="paramname">argv</td><td>Receives pointers to the parsed arguments. </td></tr>
+    <tr><td class="paramname">max_args</td><td>Maximum number of arguments to store. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of arguments parsed, or a negative value on error. </dd></dl>
+
+</div>
+</div>
 <a id="ae2a71fc8adff1beeeef89ffaaee8a857" name="ae2a71fc8adff1beeeef89ffaaee8a857"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae2a71fc8adff1beeeef89ffaaee8a857">&#9670;&#160;</a></span>user_main()</h2>
 
@@ -492,25 +596,6 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
-<a id="a903e697f413972b0709ff93b42329438" name="a903e697f413972b0709ff93b42329438"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a903e697f413972b0709ff93b42329438">&#9670;&#160;</a></span>current_user</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">string current_user</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Name of the current user. </p>
-
-<p class="definition">Definition at line <a class="el" href="sh__util_8h_source.html#l00089">89</a> of file <a class="el" href="sh__util_8h_source.html">sh_util.h</a>.</p>
 
 </div>
 </div>

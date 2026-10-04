@@ -1,0 +1,9 @@
+<map id="source/includes/spinlock.h" name="source/includes/spinlock.h">
+<area shape="rect" id="Node000001" title="Spinlock type and synchronization operations." alt="" coords="5,5,189,35"/>
+<area shape="rect" id="Node000002" href="$basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="62,83,132,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,33,100,68,94,67,96,38"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="14,161,86,190"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="90,112,69,149,65,146,86,115"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="111,161,179,190"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="107,111,131,148,125,147,105,116"/>
+</map>

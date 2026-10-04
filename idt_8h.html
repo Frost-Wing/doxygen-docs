@@ -136,12 +136,15 @@ void&#160;</td><td class="memItemRight"><b>init_syscall</b> (void)</td></tr>
 <tr class="memdesc:a59c3fd1e057e885d3932ad7f35a1164e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the CPU to use the syscall instruction. <br /></td></tr>
 <tr class="memitem:abfb54784eb135b2b1e1d4f2e8d140a49" id="r_abfb54784eb135b2b1e1d4f2e8d140a49"><td class="memItemLeft"><a id="abfb54784eb135b2b1e1d4f2e8d140a49" name="abfb54784eb135b2b1e1d4f2e8d140a49"></a>
 void&#160;</td><td class="memItemRight"><b>remap_pic</b> (void)</td></tr>
+<tr class="memdesc:abfb54784eb135b2b1e1d4f2e8d140a49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remap the legacy PIC interrupt vectors. <br /></td></tr>
 <tr class="memitem:abb8017f4cc0e96d24fa1061bb2496326" id="r_abb8017f4cc0e96d24fa1061bb2496326"><td class="memItemLeft"><a id="abb8017f4cc0e96d24fa1061bb2496326" name="abb8017f4cc0e96d24fa1061bb2496326"></a>
 void&#160;</td><td class="memItemRight"><b>initIdt</b> (void)</td></tr>
+<tr class="memdesc:abb8017f4cc0e96d24fa1061bb2496326"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the interrupt descriptor table. <br /></td></tr>
 <tr class="memitem:a7019c406a74889f8f00c3008a262fc3f" id="r_a7019c406a74889f8f00c3008a262fc3f"><td class="memItemLeft"><a id="a7019c406a74889f8f00c3008a262fc3f" name="a7019c406a74889f8f00c3008a262fc3f"></a>
 void&#160;</td><td class="memItemRight"><b>idt_activate</b> (void)</td></tr>
-<tr class="memitem:a07f528ded89a2c9d4e9406a31a93244e" id="r_a07f528ded89a2c9d4e9406a31a93244e"><td class="memItemLeft"><a id="a07f528ded89a2c9d4e9406a31a93244e" name="a07f528ded89a2c9d4e9406a31a93244e"></a>
-void&#160;</td><td class="memItemRight"><b>setIdtEntry</b> (<a class="el" href="structIDTEntry.html">IDTEntry</a> *target, uint64_t offset, uint16_t selector, uint8_t ist, uint8_t type_attributes)</td></tr>
+<tr class="memdesc:a7019c406a74889f8f00c3008a262fc3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the interrupt descriptor table into the processor. <br /></td></tr>
+<tr class="memitem:a07f528ded89a2c9d4e9406a31a93244e" id="r_a07f528ded89a2c9d4e9406a31a93244e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a07f528ded89a2c9d4e9406a31a93244e">setIdtEntry</a> (<a class="el" href="structIDTEntry.html">IDTEntry</a> *target, uint64_t offset, uint16_t selector, uint8_t ist, uint8_t type_attributes)</td></tr>
+<tr class="memdesc:a07f528ded89a2c9d4e9406a31a93244e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set one interrupt descriptor table entry.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -311,9 +314,58 @@ Variables</h2></td></tr>
 <p>AHCI command table structure.</p>
 <p>Physical Region Descriptor Table (PRDT) entry.</p>
 <p>Represents the command header for a single AHCI port.</p>
-<p>AHCI command header structure. </p>
+<p>AHCI command header structure.</p>
+<p>USB device descriptor, stored in host byte order. </p>
 
 <p class="definition">Definition at line <a class="el" href="ahci_8h_source.html#l00001">1</a> of file <a class="el" href="ahci_8h_source.html">ahci.h</a>.</p>
+
+</div>
+</div>
+<a id="a07f528ded89a2c9d4e9406a31a93244e" name="a07f528ded89a2c9d4e9406a31a93244e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07f528ded89a2c9d4e9406a31a93244e">&#9670;&#160;</a></span>setIdtEntry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setIdtEntry </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structIDTEntry.html">IDTEntry</a> *</td>          <td class="paramname"><span class="paramname"><em>target</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>offset</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t</td>          <td class="paramname"><span class="paramname"><em>selector</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>ist</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>type_attributes</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set one interrupt descriptor table entry. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">target</td><td>Entry to initialize. </td></tr>
+    <tr><td class="paramname">offset</td><td>Handler address. </td></tr>
+    <tr><td class="paramname">selector</td><td>Code-segment selector. </td></tr>
+    <tr><td class="paramname">ist</td><td>Interrupt stack-table index. </td></tr>
+    <tr><td class="paramname">type_attributes</td><td>Gate type and attributes. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

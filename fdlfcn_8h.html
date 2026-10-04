@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FrostWing: source/includes/fdlfcn.h File Reference</title>
+<link rel="icon" href="FW100.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,11 +26,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="FW.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="FW100.png"/></td>
   <td id="projectalign">
    <div id="projectname">FrostWing
    </div>
-   <div id="projectbrief">A Operating system for any machine</div>
+   <div id="projectbrief">A lightweight raw-control operating system.</div>
   </td>
  </tr>
  </tbody>
@@ -93,17 +94,43 @@ $(function(){initNavTree('fdlfcn_8h.html','',''); });
   <div class="headertitle"><div class="title">fdlfcn.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="heap_8h_source.html">heap.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="elf_8h_source.html">executables/elf.h</a>&gt;</code><br />
+
+<p>Runtime loading and symbol lookup for ELF images.  
+<a href="#details">More...</a></p>
+<div class="textblock"><code>#include &lt;executables/elf.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="heap_8h_source.html">heap.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for fdlfcn.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="fdlfcn_8h__incl.png" border="0" usemap="#asource_2includes_2fdlfcn_8h" loading="lazy" alt=""/></div>
+<map name="asource_2includes_2fdlfcn_8h" id="asource_2includes_2fdlfcn_8h">
+<area shape="rect" title="Runtime loading and symbol lookup for ELF images." alt="" coords="44,5,213,35"/>
+<area shape="rect" title=" " alt="" coords="5,83,132,113"/>
+<area shape="poly" title=" " alt="" coords="116,38,91,72,87,69,119,33"/>
+<area shape="rect" href="heap_8h.html" title="Header files for heap." alt="" coords="156,83,221,113"/>
+<area shape="poly" title=" " alt="" coords="140,33,170,70,165,71,140,38"/>
+<area shape="rect" href="basics_8h.html" title="This is a basic header files with FrostWing specific short forms and basically a good for life header..." alt="" coords="154,161,223,190"/>
+<area shape="poly" title=" " alt="" coords="190,111,191,146,186,144,187,116"/>
+<area shape="rect" title=" " alt="" coords="80,238,153,268"/>
+<area shape="poly" title=" " alt="" coords="177,111,160,136,144,162,132,194,124,225,119,222,127,192,139,159,156,133,173,115"/>
+<area shape="rect" title=" " alt="" coords="248,161,327,190"/>
+<area shape="poly" title=" " alt="" coords="208,111,259,151,254,151,207,116"/>
+<area shape="poly" title=" " alt="" coords="177,190,142,229,139,225,173,192"/>
+<area shape="rect" title=" " alt="" coords="177,238,245,268"/>
+<area shape="poly" title=" " alt="" coords="194,189,205,224,200,222,191,193"/>
+</map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="fdlfcn_8h__dep__incl.png" border="0" usemap="#asource_2includes_2fdlfcn_8hdep" loading="lazy" alt=""/></div>
+<map name="asource_2includes_2fdlfcn_8hdep" id="asource_2includes_2fdlfcn_8hdep">
+<area shape="rect" title="Runtime loading and symbol lookup for ELF images." alt="" coords="97,5,266,35"/>
+<area shape="rect" href="kernel_8h.html" title="The basic requirement from kernel to other parts of the code." alt="" coords="5,92,180,122"/>
+<area shape="poly" title=" " alt="" coords="159,45,109,94,105,90,154,46"/>
+<area shape="rect" href="sh__util_8h.html" title="Utils for fw shell." alt="" coords="204,83,341,132"/>
+<area shape="poly" title=" " alt="" coords="209,43,250,83,245,82,207,48"/>
+</map>
 </div>
 </div>
 <p><a href="fdlfcn_8h_source.html">Go to the source code of this file.</a></p>
@@ -114,7 +141,7 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a1f7ce35a94473702f25775243fffc0e9" id="r_a1f7ce35a94473702f25775243fffc0e9"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a1f7ce35a94473702f25775243fffc0e9">FLD_NEXT</a>&#160;&#160;&#160;(void*)-1</td></tr>
+<tr class="memitem:a1f7ce35a94473702f25775243fffc0e9" id="r_a1f7ce35a94473702f25775243fffc0e9"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a1f7ce35a94473702f25775243fffc0e9">FLD_NEXT</a>&#160;&#160;&#160;(void *)-1</td></tr>
 <tr class="memitem:a39c45b9c2a21acfe6cdb179d85be9202" id="r_a39c45b9c2a21acfe6cdb179d85be9202"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a39c45b9c2a21acfe6cdb179d85be9202">FDL_IMMEDIATE</a>&#160;&#160;&#160;0</td></tr>
 <tr class="memitem:a0052f2b6e7f8dc1f2f5c4f499b047c09" id="r_a0052f2b6e7f8dc1f2f5c4f499b047c09"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a0052f2b6e7f8dc1f2f5c4f499b047c09">dlopen</a>&#160;&#160;&#160;<a class="el" href="#a0c0f2df3978516e3bdcd9f26092396b4">fdlopen</a></td></tr>
 <tr class="memitem:a2de9130dd2f83273f96944eda6e8b05c" id="r_a2de9130dd2f83273f96944eda6e8b05c"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a2de9130dd2f83273f96944eda6e8b05c">dlsym</a>&#160;&#160;&#160;<a class="el" href="#a6671d8d484d4e1f3ae0e55aa5254bd0a">fdlsym</a></td></tr>
@@ -122,15 +149,23 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a555056f401fc163f13dcf8741f292d8a" id="r_a555056f401fc163f13dcf8741f292d8a"><td class="memItemLeft">typedef struct fdlfcn_handle&#160;</td><td class="memItemRight"><a class="el" href="#a555056f401fc163f13dcf8741f292d8a">fdlfcn_handle</a></td></tr>
+<tr class="memitem:a555056f401fc163f13dcf8741f292d8a" id="r_a555056f401fc163f13dcf8741f292d8a"><td class="memItemLeft"><a id="a555056f401fc163f13dcf8741f292d8a" name="a555056f401fc163f13dcf8741f292d8a"></a>
+typedef struct fdlfcn_handle&#160;</td><td class="memItemRight"><b>fdlfcn_handle</b></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a0c0f2df3978516e3bdcd9f26092396b4" id="r_a0c0f2df3978516e3bdcd9f26092396b4"><td class="memItemLeft"><a class="el" href="structfdlfcn__handle.html">fdlfcn_handle</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a0c0f2df3978516e3bdcd9f26092396b4">fdlopen</a> (void *filedata, int flags)</td></tr>
+<tr class="memdesc:a0c0f2df3978516e3bdcd9f26092396b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load an ELF shared object from memory.  <br /></td></tr>
 <tr class="memitem:a6671d8d484d4e1f3ae0e55aa5254bd0a" id="r_a6671d8d484d4e1f3ae0e55aa5254bd0a"><td class="memItemLeft">void *&#160;</td><td class="memItemRight"><a class="el" href="#a6671d8d484d4e1f3ae0e55aa5254bd0a">fdlsym</a> (<a class="el" href="structfdlfcn__handle.html">fdlfcn_handle</a> *handle, const char *symbol_name)</td></tr>
+<tr class="memdesc:a6671d8d484d4e1f3ae0e55aa5254bd0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Look up a symbol in a loaded image.  <br /></td></tr>
 <tr class="memitem:a885554d2579c0ae0b7a456549a4ed058" id="r_a885554d2579c0ae0b7a456549a4ed058"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a885554d2579c0ae0b7a456549a4ed058">fdlclose</a> (<a class="el" href="structfdlfcn__handle.html">fdlfcn_handle</a> *handle)</td></tr>
+<tr class="memdesc:a885554d2579c0ae0b7a456549a4ed058"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release a loaded image.  <br /></td></tr>
 </table>
-<a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Runtime loading and symbol lookup for ELF images. </p>
+
+<p class="definition">Definition in file <a class="el" href="fdlfcn_8h_source.html">fdlfcn.h</a>.</p>
+</div><a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
 <a id="aa67f26c78af14c477302eada6c3bcb37" name="aa67f26c78af14c477302eada6c3bcb37"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa67f26c78af14c477302eada6c3bcb37">&#9670;&#160;</a></span>dlclose</h2>
 
@@ -142,6 +177,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="fdlfcn_8h_source.html#l00071">71</a> of file <a class="el" href="fdlfcn_8h_source.html">fdlfcn.h</a>.</p>
 
 </div>
 </div>
@@ -157,6 +194,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="fdlfcn_8h_source.html#l00069">69</a> of file <a class="el" href="fdlfcn_8h_source.html">fdlfcn.h</a>.</p>
+
 </div>
 </div>
 <a id="a2de9130dd2f83273f96944eda6e8b05c" name="a2de9130dd2f83273f96944eda6e8b05c"></a>
@@ -170,6 +209,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="fdlfcn_8h_source.html#l00070">70</a> of file <a class="el" href="fdlfcn_8h_source.html">fdlfcn.h</a>.</p>
 
 </div>
 </div>
@@ -185,6 +226,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="fdlfcn_8h_source.html#l00040">40</a> of file <a class="el" href="fdlfcn_8h_source.html">fdlfcn.h</a>.</p>
+
 </div>
 </div>
 <a id="a1f7ce35a94473702f25775243fffc0e9" name="a1f7ce35a94473702f25775243fffc0e9"></a>
@@ -194,25 +237,12 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FLD_NEXT&#160;&#160;&#160;(void*)-1</td>
+          <td class="memname">#define FLD_NEXT&#160;&#160;&#160;(void *)-1</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
-<a id="a555056f401fc163f13dcf8741f292d8a" name="a555056f401fc163f13dcf8741f292d8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a555056f401fc163f13dcf8741f292d8a">&#9670;&#160;</a></span>fdlfcn_handle</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct fdlfcn_handle fdlfcn_handle</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p class="definition">Definition at line <a class="el" href="fdlfcn_8h_source.html#l00012">12</a> of file <a class="el" href="fdlfcn_8h_source.html">fdlfcn.h</a>.</p>
 
 </div>
 </div>
@@ -231,6 +261,15 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Release a loaded image. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">handle</td><td>Handle returned by fdlopen. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 on success, nonzero on failure. </dd></dl>
 
 </div>
 </div>
@@ -253,6 +292,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Load an ELF shared object from memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filedata</td><td>Pointer to the in-memory ELF image. </td></tr>
+    <tr><td class="paramname">flags</td><td>Loader options. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A handle to the loaded image, or NULL on failure. </dd></dl>
+
 </div>
 </div>
 <a id="a6671d8d484d4e1f3ae0e55aa5254bd0a" name="a6671d8d484d4e1f3ae0e55aa5254bd0a"></a>
@@ -274,6 +323,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Look up a symbol in a loaded image. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">handle</td><td>Handle returned by fdlopen. </td></tr>
+    <tr><td class="paramname">symbol_name</td><td>Name of the symbol to find. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Symbol address, or NULL if it is not found. </dd></dl>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -289,7 +348,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_c9f89f587e7e777be723ee48a3df5844.html">includes</a></li><li class="navelem"><a href="fdlfcn_8h.html">fdlfcn.h</a></li>
+    <li class="navelem"><b>source</b></li><li class="navelem"><b>includes</b></li><li class="navelem"><a href="fdlfcn_8h.html">fdlfcn.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>
